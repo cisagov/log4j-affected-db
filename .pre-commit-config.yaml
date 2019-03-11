@@ -1,0 +1,67 @@
+---
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.1.0
+    hooks:
+      - id: check-executables-have-shebangs
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-xml
+      - id: debug-statements
+      - id: detect-aws-credentials
+        args:
+          - --allow-missing-credentials
+      - id: detect-private-key
+      - id: end-of-file-fixer
+        exclude: files/(issue|motd)
+      - id: mixed-line-ending
+        args:
+          - --fix=lf
+      - id: pretty-format-json
+        args:
+          - --autofix
+      - id: requirements-txt-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.14.0
+    hooks:
+      - id: markdownlint
+        # The LICENSE.md must match the license text exactly for
+        # GitHub's autorecognition fu to work, so we should leave it
+        # alone.
+        exclude: LICENSE.md
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.15.0
+    hooks:
+      - id: yamllint
+  - repo: https://github.com/detailyang/pre-commit-shell
+    rev: 1.0.4
+    hooks:
+      - id: shell-lint
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.7
+    hooks:
+      - id: flake8
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v1.12.0
+    hooks:
+      - id: pyupgrade
+  - repo: https://github.com/ambv/black
+    rev: 18.9b0
+    hooks:
+      - id: black
+  - repo: https://github.com/ansible/ansible-lint.git
+    rev: v4.1.0a0
+    hooks:
+      - id: ansible-lint
+        # files: molecule/default/playbook.yml
+  - repo: https://github.com/antonbabenko/pre-commit-terraform.git
+    rev: v1.11.0
+    hooks:
+      - id: terraform_fmt
+      - id: terraform_validate_no_variables
+      - id: terraform_docs
+  - repo: https://github.com/prettier/prettier
+    rev: 1.16.2
+    hooks:
+      - id: prettier
