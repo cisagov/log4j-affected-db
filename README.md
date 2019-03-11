@@ -1,6 +1,6 @@
-# generic-skeleton #
+# skeleton-generic #
 
-[![Build Status](https://travis-ci.com/cisagov/generic-skeleton.svg?branch=develop)](https://travis-ci.com/cisagov/generic-skeleton)
+[![Build Status](https://travis-ci.com/cisagov/skeleton-generic.svg?branch=develop)](https://travis-ci.com/cisagov/skeleton-generic)
 
 This is a generic skeleton project that can be used to quickly get a
 new [cisagov](https://github.com/cisagov) GitHub project started.
