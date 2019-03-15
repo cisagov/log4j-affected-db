@@ -56,11 +56,10 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-For Linux you will need to find a package for your particular distro,
-or follow the manual instructions
-[here](https://github.com/pyenv/pyenv#installation) and
-[here](https://github.com/pyenv/pyenv-virtualenv#installation).  Then
-you will need to add the same bit above to your profile.
+For Linux (or on the Mac, if you don't want to use `brew`) you can use
+[pyenv/pyenv-installer](https://github.com/pyenv/pyenv-installer) to
+install the necessary tools.  When you are finished you will need to
+add the same two lines above to your profile.
 
 For a list of Python versions that are already installed and ready to
 use with `pyenv`, use the command `pyenv versions`.  To see a list of
