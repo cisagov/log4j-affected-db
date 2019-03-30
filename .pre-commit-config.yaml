@@ -23,7 +23,7 @@ repos:
       - id: requirements-txt-fixer
       - id: trailing-whitespace
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.14.0
+    rev: v0.14.1
     hooks:
       - id: markdownlint
         # The LICENSE.md must match the license text exactly for
@@ -47,7 +47,7 @@ repos:
     hooks:
       - id: pyupgrade
   - repo: https://github.com/ambv/black
-    rev: 18.9b0
+    rev: 19.3b0
     hooks:
       - id: black
   - repo: https://github.com/ansible/ansible-lint.git
@@ -61,6 +61,10 @@ repos:
       - id: terraform_fmt
       - id: terraform_validate_no_variables
       - id: terraform_docs
+  - repo: https://github.com/IamTheFij/docker-pre-commit
+    rev: v1.0.0
+    hooks:
+      - id: docker-compose-check
   - repo: https://github.com/prettier/prettier
     rev: 1.16.2
     hooks:
