@@ -15,4 +15,9 @@ select = C,E,F,W,B,B950
 # Ignore flake8's default warning about maximum line length, which has
 # a hard stop at the configured value.  Instead we use
 # flake8-bugbear's B950, which allows up to 10% overage.
-ignore = E501
+#
+# Also ignore flake8's warning about line breaks before binary
+# operators.  It no longer agrees with PEP8.  See, for example, here:
+# https://github.com/ambv/black/issues/21. Guido agrees here:
+# https://github.com/python/peps/commit/c59c4376ad233a62ca4b3a6060c81368bd21e85b.
+ignore = E501,W503
