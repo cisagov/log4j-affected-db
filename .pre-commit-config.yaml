@@ -52,6 +52,8 @@ repos:
     rev: 2a1dbab
     hooks:
       - id: bandit
+        args:
+          - --config=.bandit.yml
   - repo: https://github.com/ambv/black
     rev: 19.3b0
     hooks:
