@@ -42,6 +42,8 @@ repos:
     rev: 3.7.7
     hooks:
       - id: flake8
+        additional_dependencies:
+          - flake8-docstrings
   - repo: https://github.com/asottile/pyupgrade
     rev: v1.14.0
     hooks:

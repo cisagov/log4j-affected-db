@@ -3,6 +3,8 @@ max-line-length = 80
 # Select (turn on)
 # * Complexity violations reported by mccabe (C) -
 #   http://flake8.pycqa.org/en/latest/user/error-codes.html#error-violation-codes
+# * Documentation conventions compliance reported by pydocstyle (D) -
+#   http://www.pydocstyle.org/en/stable/error_codes.html
 # * Default errors and warnings reported by pycodestyle (E and W) -
 #   https://pycodestyle.readthedocs.io/en/latest/intro.html#error-codes
 # * Default errors reported by pyflakes (F) -
@@ -11,7 +13,7 @@ max-line-length = 80
 #   https://github.com/PyCQA/flake8-bugbear#list-of-warnings
 # * The B950 flake8-bugbear opinionated warning -
 #   https://github.com/PyCQA/flake8-bugbear#opinionated-warnings
-select = C,E,F,W,B,B950
+select = C,D,E,F,W,B,B950
 # Ignore flake8's default warning about maximum line length, which has
 # a hard stop at the configured value.  Instead we use
 # flake8-bugbear's B950, which allows up to 10% overage.
