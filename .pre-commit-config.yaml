@@ -1,7 +1,7 @@
 ---
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.1.0
+    rev: v2.2.1
     hooks:
       - id: check-executables-have-shebangs
       - id: check-json
@@ -23,7 +23,7 @@ repos:
       - id: requirements-txt-fixer
       - id: trailing-whitespace
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.14.1
+    rev: v0.15.0
     hooks:
       - id: markdownlint
         # The LICENSE.md must match the license text exactly for
@@ -45,7 +45,7 @@ repos:
         additional_dependencies:
           - flake8-docstrings
   - repo: https://github.com/asottile/pyupgrade
-    rev: v1.14.0
+    rev: v1.16.3
     hooks:
       - id: pyupgrade
   - repo: https://github.com/PyCQA/bandit
@@ -54,7 +54,7 @@ repos:
       - id: bandit
         args:
           - --config=.bandit.yml
-  - repo: https://github.com/ambv/black
+  - repo: https://github.com/python/black
     rev: 19.3b0
     hooks:
       - id: black
@@ -74,6 +74,6 @@ repos:
     hooks:
       - id: docker-compose-check
   - repo: https://github.com/prettier/prettier
-    rev: 1.16.2
+    rev: 1.17.0
     hooks:
       - id: prettier
