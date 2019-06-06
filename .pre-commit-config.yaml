@@ -68,7 +68,6 @@ repos:
     hooks:
       - id: terraform_fmt
       - id: terraform_validate_no_variables
-      - id: terraform_docs
   - repo: https://github.com/IamTheFij/docker-pre-commit
     rev: v1.0.0
     hooks:
