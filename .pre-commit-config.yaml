@@ -45,7 +45,7 @@ repos:
         additional_dependencies:
           - flake8-docstrings
   - repo: https://github.com/asottile/pyupgrade
-    rev: v1.17.1
+    rev: v1.18.0
     hooks:
       - id: pyupgrade
   - repo: https://github.com/PyCQA/bandit
@@ -64,7 +64,7 @@ repos:
       - id: ansible-lint
         # files: molecule/default/playbook.yml
   - repo: https://github.com/antonbabenko/pre-commit-terraform.git
-    rev: v1.11.0
+    rev: v1.12.0
     hooks:
       - id: terraform_fmt
       - id: terraform_validate_no_variables
