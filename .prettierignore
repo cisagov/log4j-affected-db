@@ -1,3 +1,5 @@
+# Already being linted by pretty-format-json
+*.json
 # Already being linted by mdl
 *.md
 # Already being linted by yamllint
