@@ -77,7 +77,7 @@ Once `pyenv` and `pyenv-virtualenv` are installed on your system, you
 can create and configure the Python virtual environment with these
 commands:
 
-```bash
+```console
 cd skeleton-generic
 pyenv virtualenv <python_version_to_use> skeleton-generic
 pyenv local skeleton-generic
@@ -88,7 +88,7 @@ pip install -r requirements-dev.txt
 
 Now setting up pre-commit is as simple as:
 
-```bash
+```console
 pre-commit install
 ```
 
