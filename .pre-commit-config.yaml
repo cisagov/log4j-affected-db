@@ -30,6 +30,8 @@ repos:
         # GitHub's autorecognition fu to work, so we should leave it
         # alone.
         exclude: LICENSE.md
+        args:
+          - --config=.mdl_config.json
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.16.0
     hooks:
