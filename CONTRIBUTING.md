@@ -8,8 +8,8 @@ of contribution, and don't want a wall of rules to get in the way of
 that.
 
 Before contributing, we encourage you to read our CONTRIBUTING policy
-(you are here), our [LICENSE](LICENSE.md), and our
-[README](README.md), all of which should be in this repository.
+(you are here), our [LICENSE](LICENSE), and our [README](README.md),
+all of which should be in this repository.
 
 ## Issues ##
 

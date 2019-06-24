@@ -26,10 +26,6 @@ repos:
     rev: v0.17.0
     hooks:
       - id: markdownlint
-        # The LICENSE.md must match the license text exactly for
-        # GitHub's autorecognition fu to work, so we should leave it
-        # alone.
-        exclude: LICENSE.md
         args:
           - --config=.mdl_config.json
   - repo: https://github.com/adrienverge/yamllint
