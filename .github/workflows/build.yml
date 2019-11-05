@@ -5,9 +5,7 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v1
 
@@ -15,6 +13,23 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.7
+
+      - name: Cache pre-commit hooks
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pre-commit
+          key: "${{ runner.os }}-pre-commit-\
+            ${{ hashFiles('**/.pre-commit-config.yaml') }}"
+
+      - name: Cache pip test requirements
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          key: "${{ runner.os }}-pip-test-\
+            ${{ hashFiles('**/requirements-test.txt') }}"
+          restore-keys: |
+            ${{ runner.os }}-pip-test-
+            ${{ runner.os }}-pip-
 
       - name: Install dependencies
         run: |
