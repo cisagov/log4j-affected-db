@@ -60,6 +60,16 @@ repos:
     rev: 19.10b0
     hooks:
       - id: black
+  - repo: https://github.com/asottile/seed-isort-config
+    rev: v1.9.3
+    hooks:
+      - id: seed-isort-config
+  - repo: https://github.com/pre-commit/mirrors-isort
+    # pick the isort version you'd like to use from
+    # https://github.com/pre-commit/mirrors-isort/releases
+    rev: v4.3.21
+    hooks:
+      - id: isort
   - repo: https://github.com/ansible/ansible-lint.git
     rev: v4.1.1a5
     hooks:
