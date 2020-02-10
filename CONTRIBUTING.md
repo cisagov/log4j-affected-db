@@ -56,10 +56,31 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-For Linux (or on the Mac, if you don't want to use `brew`) you can use
+For Linux, Windows Subsystem for Linux (WSL), or on the Mac (if you
+don't want to use `brew`) you can use
 [pyenv/pyenv-installer](https://github.com/pyenv/pyenv-installer) to
-install the necessary tools.  When you are finished you will need to
-add the same two lines above to your profile.
+install the necessary tools. Before running this ensure that you have
+installed the prerequisites for your platform according to the
+[`pyenv` wiki
+page](https://github.com/pyenv/pyenv/wiki/common-build-problems).
+
+On WSL you should treat your platform as whatever Linux distribution
+you've chosen to install.
+
+Once you have installed `pyenv` you will need to add the following
+lines to your `.bashrc`:
+
+```bash
+export PATH="$PATH:$HOME/.pyenv/bin"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
+
+If you are using a shell other than `bash` you should follow the
+instructions that the `pyenv-installer` script outputs.
+
+You will need to reload your shell for these changes to take effect so
+you can begin to use `pyenv`.
 
 For a list of Python versions that are already installed and ready to
 use with `pyenv`, use the command `pyenv versions`.  To see a list of
