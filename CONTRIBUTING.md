@@ -102,7 +102,7 @@ commands:
 cd skeleton-generic
 pyenv virtualenv <python_version_to_use> skeleton-generic
 pyenv local skeleton-generic
-pip install -r requirements-dev.txt
+pip install --requirement requirements-dev.txt
 ```
 
 #### Installing the pre-commit hook ####
