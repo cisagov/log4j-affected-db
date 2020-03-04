@@ -6,6 +6,10 @@ on: [
   pull_request
 ]
 
+env:
+  PIP_CACHE_DIR: ~/.cache/pip
+  PRE_COMMIT_CACHE_DIR: ~/.cache/pre-commit
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,7 +25,7 @@ jobs:
       - name: Cache pip test requirements
         uses: actions/cache@v1
         with:
-          path: ~/.cache/pip
+          path: ${{ env.PIP_CACHE_DIR }}
           key: "${{ runner.os }}-pip-test-py${{ env.PY_VERSION }}-\
             ${{ hashFiles('**/requirements-test.txt') }}"
           restore-keys: |
@@ -31,7 +35,7 @@ jobs:
       - name: Cache pre-commit hooks
         uses: actions/cache@v1
         with:
-          path: ~/.cache/pre-commit
+          path: ${{ env.PRE_COMMIT_CACHE_DIR }}
           key: "${{ runner.os }}-pre-commit-py${{ env.PY_VERSION }}-\
             ${{ hashFiles('**/.pre-commit-config.yaml') }}"
       - name: Install dependencies
