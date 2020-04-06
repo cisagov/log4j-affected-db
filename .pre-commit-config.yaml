@@ -76,7 +76,7 @@ repos:
       - id: ansible-lint
       # files: molecule/default/playbook.yml
   - repo: https://github.com/antonbabenko/pre-commit-terraform.git
-    rev: v1.27.0
+    rev: v1.29.0
     hooks:
       - id: terraform_fmt
       - id: terraform_validate
@@ -85,7 +85,7 @@ repos:
     hooks:
       - id: docker-compose-check
   - repo: https://github.com/prettier/prettier
-    rev: 2.0.2
+    rev: 2.0.4
     hooks:
       - id: prettier
   - repo: https://github.com/pre-commit/mirrors-mypy
