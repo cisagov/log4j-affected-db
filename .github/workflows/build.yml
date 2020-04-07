@@ -11,7 +11,7 @@ env:
   PRE_COMMIT_CACHE_DIR: ~/.cache/pre-commit
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -42,5 +42,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install --upgrade --requirement requirements-test.txt
+      - name: Set up pre-commit hook environments
+        run: pre-commit install-hooks
       - name: Run pre-commit on all files
         run: pre-commit run --all-files
