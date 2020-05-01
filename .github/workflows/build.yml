@@ -1,10 +1,11 @@
 ---
 name: build
 
-on: [
-  push,
-  pull_request
-]
+on:
+  push:
+  pull_request:
+  repository_dispatch:
+    types: [apb]
 
 env:
   PIP_CACHE_DIR: ~/.cache/pip
