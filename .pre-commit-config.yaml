@@ -65,8 +65,6 @@ repos:
     hooks:
       - id: seed-isort-config
   - repo: https://github.com/timothycrosley/isort
-    # pick the isort version you'd like to use from
-    # https://github.com/pre-commit/mirrors-isort/releases
     rev: 4.3.21
     hooks:
       - id: isort
