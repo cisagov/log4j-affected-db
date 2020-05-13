@@ -41,7 +41,7 @@ repos:
     hooks:
       - id: shell-lint
   - repo: https://gitlab.com/pycqa/flake8
-    rev: 3.8.0a2
+    rev: 3.8.1
     hooks:
       - id: flake8
         additional_dependencies:
