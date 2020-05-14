@@ -89,6 +89,9 @@ repos:
       # https://github.com/hashicorp/terraform/pull/24896
       # is a proprosed fix to deal with `terraform validate` with proxy
       # providers (among other configurations).
+      # We have decided to disable the terraform_validate hook until the issues
+      # above have been resolved, which we hope will be with the release of
+      # Terraform 0.13.
       # - id: terraform_validate
   - repo: https://github.com/IamTheFij/docker-pre-commit
     rev: v1.0.1
