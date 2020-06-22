@@ -64,7 +64,7 @@ done
 eval set -- "$PARAMS"
 
 # Check to see if pyenv is installed
-if [ -z "$(which pyenv)" ] || [ -z "$(which pyenv-virtualenv)" ]; then
+if [ -z "$(command -v pyenv)" ] || [ -z "$(command -v pyenv-virtualenv)" ]; then
   echo "pyenv and pyenv-virtualenv are required."
   if [[ "$OSTYPE" == "darwin"* ]]; then
     cat << 'END_OF_LINE'
