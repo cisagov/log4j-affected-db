@@ -16,7 +16,7 @@ It does the following:
   - Configures git upstream remote "lineage" repositories.
 
 Usage:
-  setup-env [--force] [virt_env_name]
+  setup-env [options] [virt_env_name]
   setup-env (-h | --help)
 
 Options:
