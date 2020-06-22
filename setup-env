@@ -37,10 +37,6 @@ PARAMS=""
 # Parse command line arguments
 while (( "$#" )); do
   case "$1" in
-    -i|--install-hooks)
-      INSTALL_HOOKS=1
-      shift
-      ;;
     -f|--force)
       FORCE=1
       shift
@@ -48,6 +44,10 @@ while (( "$#" )); do
     -h|--help)
       echo "${USAGE}"
       exit 0
+      ;;
+    -i|--install-hooks)
+      INSTALL_HOOKS=1
+      shift
       ;;
     -*) # unsupported flags
        echo "Error: Unsupported flag $1" >&2
