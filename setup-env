@@ -113,7 +113,7 @@ END_OF_LINE
   exit 1
 fi
 
-# Create a new virutal environment for this project
+# Create a new virtual environment for this project
 if ! pyenv virtualenv "${env_name}"; then
   cat << END_OF_LINE
   An existing virtual environment named $env_name was found.  Either delete this
