@@ -46,10 +46,22 @@ There are a few ways to do this, but we prefer to use
 create and manage a Python virtual environment specific to this
 project.
 
+If you already have `pyenv` and `pyenv-virtualenv` configured you can
+take advantage of the `setup-env` tool in this repo to automate the
+entire environment configuration process.
+
+```console
+./setup-env
+```
+
+Otherwise, follow the steps below to manually configure your
+environment.
+
 #### Installing and using `pyenv` and `pyenv-virtualenv` ####
 
-On the Mac, installation is as simple as `brew install pyenv
-pyenv-virtualenv` and adding this to your profile:
+On the Mac, we recommend installing [brew](https://brew.sh/).  Then
+installation is as simple as `brew install pyenv pyenv-virtualenv` and
+adding this to your profile:
 
 ```bash
 eval "$(pyenv init -)"
