@@ -50,7 +50,7 @@ If you already have `pyenv` and `pyenv-virtualenv` configured you can
 take advantage of the `setup-env` tool in this repo to automate the
 entire environment configuration process.
 
-```bash
+```console
 ./setup-env
 ```
 
