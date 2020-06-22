@@ -5,17 +5,25 @@ set -o errexit
 set -o pipefail
 
 USAGE=$(cat << 'END_OF_LINE'
-This script is used to configure a developement environment for this repo.
+Configure a developement environment for this repository.
 
 It does the following:
   - Verifies pyenv and pyenv-virtualenv are installed.
   - Creates a Python virtual environment.
   - Configures the activation of the virtual enviroment for the repo directory.
-  - Installs the requirements required for development.
+  - Installs the requirements needed for development.
   - Installs git pre-commit hooks.
   - Configures git upstream remote "lineage" repositories.
 
-usage: setup-env [--force] [--help] [virt_env_name]
+Usage:
+  setup-env [--force] [virt_env_name]
+  setup-env (-h | --help)
+
+Options:
+  -f --force          Delete virtual enviroment if it already exists.
+  -h --help           Show this message.
+  -i --install-hooks  Install hook environments for all environments in the
+                      pre-commit config file.
 
 END_OF_LINE
 )
