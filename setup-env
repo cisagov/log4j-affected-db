@@ -37,6 +37,10 @@ PARAMS=""
 # Parse command line arguments
 while (( "$#" )); do
   case "$1" in
+    -i|--install-hooks)
+      INSTALL_HOOKS=1
+      shift
+      ;;
     -f|--force)
       FORCE=1
       shift
@@ -148,8 +152,8 @@ for req_file in "requirements-dev.txt" "requirements-test.txt" "requirements.txt
   fi
 done
 
-# Install git pre-commit hooks
-pre-commit install
+# Install git pre-commit hooks now or later.
+pre-commit install ${INSTALL_HOOKS:+"--install-hooks"}
 
 # Setup git remotes from lineage configuration
 # This could fail if the remotes are already setup, but that is ok.
