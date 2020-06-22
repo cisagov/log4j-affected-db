@@ -125,7 +125,8 @@ END_OF_LINE
   exit 1
 fi
 
-# Activate the new virtual environment
+# Set the local application-specific Python version(s) by writing the
+# version name to a file named `.python-version'.
 pyenv local "${env_name}"
 
 # Upgrade pip and friends
