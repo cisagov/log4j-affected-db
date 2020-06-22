@@ -59,8 +59,9 @@ environment.
 
 #### Installing and using `pyenv` and `pyenv-virtualenv` ####
 
-On the Mac, installation is as simple as `brew install pyenv
-pyenv-virtualenv` and adding this to your profile:
+On the Mac, we recommend installing [brew](https://brew.sh/).  Then
+installation is as simple as `brew install pyenv pyenv-virtualenv` and
+adding this to your profile:
 
 ```bash
 eval "$(pyenv init -)"

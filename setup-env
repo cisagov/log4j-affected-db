@@ -69,8 +69,9 @@ if [ -z "$(command -v pyenv)" ] || [ -z "$(command -v pyenv-virtualenv)" ]; then
   if [[ "$OSTYPE" == "darwin"* ]]; then
     cat << 'END_OF_LINE'
 
-  On the Mac, installation is as simple as "brew install pyenv
-  pyenv-virtualenv" and adding this to your profile:
+  On the Mac, we recommend installing brew, https://brew.sh/.  Then installation
+  is as simple as `brew install pyenv pyenv-virtualenv` and adding this to your
+  profile:
 
   eval "$(pyenv init -)"
   eval "$(pyenv virtualenv-init -)"
