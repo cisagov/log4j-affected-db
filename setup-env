@@ -168,7 +168,7 @@ import sys
 LINEAGE_CONFIG = Path(".github/lineage.yml")
 
 if not LINEAGE_CONFIG.exists():
-    print('No lineage configuration found.', file=sys.stderr)
+    print("No lineage configuration found.", file=sys.stderr)
     sys.exit(0)
 
 with LINEAGE_CONFIG.open("r") as f:
