@@ -29,12 +29,12 @@ jobs:
           path: |
             ${{ env.PIP_CACHE_DIR }}
             ${{ env.PRE_COMMIT_CACHE_DIR }}
-          key: "${{ runner.os }}-lint-py${{ env.PY_VERSION }}-\
+          key: "lint-${{ runner.os }}-py${{ env.PY_VERSION }}-\
             ${{ hashFiles('**/requirements-test.txt') }}-\
             ${{ hashFiles('**/.pre-commit-config.yaml') }}"
           restore-keys: |
-            ${{ runner.os }}-lint-py${{ env.PY_VERSION }}-
-            ${{ runner.os }}-lint-
+            lint-${{ runner.os }}-py${{ env.PY_VERSION }}-
+            lint-${{ runner.os }}-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
