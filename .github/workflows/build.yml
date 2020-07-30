@@ -23,22 +23,18 @@ jobs:
         run: |
           echo "::set-env name=PY_VERSION::"\
           "$(python -c "import platform;print(platform.python_version())")"
-      - name: Cache pip test requirements
-        uses: actions/cache@v1
+      - name: Cache linting environments
+        uses: actions/cache@v2
         with:
-          path: ${{ env.PIP_CACHE_DIR }}
-          key: "${{ runner.os }}-pip-test-py${{ env.PY_VERSION }}-\
-            ${{ hashFiles('**/requirements-test.txt') }}"
-          restore-keys: |
-            ${{ runner.os }}-pip-test-py${{ env.PY_VERSION }}-
-            ${{ runner.os }}-pip-test-
-            ${{ runner.os }}-pip-
-      - name: Cache pre-commit hooks
-        uses: actions/cache@v1
-        with:
-          path: ${{ env.PRE_COMMIT_CACHE_DIR }}
-          key: "${{ runner.os }}-pre-commit-py${{ env.PY_VERSION }}-\
+          path: |
+            ${{ env.PIP_CACHE_DIR }}
+            ${{ env.PRE_COMMIT_CACHE_DIR }}
+          key: "${{ runner.os }}-lint-py${{ env.PY_VERSION }}-\
+            ${{ hashFiles('**/requirements-test.txt') }}-\
             ${{ hashFiles('**/.pre-commit-config.yaml') }}"
+          restore-keys: |
+            ${{ runner.os }}-lint-py${{ env.PY_VERSION }}-
+            ${{ runner.os }}-lint-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
