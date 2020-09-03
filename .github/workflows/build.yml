@@ -31,6 +31,7 @@ jobs:
             ${{ env.PRE_COMMIT_CACHE_DIR }}
           key: "lint-${{ runner.os }}-py${{ env.PY_VERSION }}-\
             ${{ hashFiles('**/requirements-test.txt') }}-\
+            ${{ hashFiles('**/requirements.txt') }}-\
             ${{ hashFiles('**/.pre-commit-config.yaml') }}"
           restore-keys: |
             lint-${{ runner.os }}-py${{ env.PY_VERSION }}-
