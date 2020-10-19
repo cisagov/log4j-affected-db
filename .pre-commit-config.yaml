@@ -60,10 +60,6 @@ repos:
     rev: 20.8b1
     hooks:
       - id: black
-  - repo: https://github.com/asottile/seed-isort-config
-    rev: v2.2.0
-    hooks:
-      - id: seed-isort-config
   - repo: https://github.com/timothycrosley/isort
     rev: 5.5.0
     hooks:
