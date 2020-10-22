@@ -93,8 +93,8 @@ repos:
     rev: v2.0.0
     hooks:
       - id: docker-compose-check
-  - repo: https://github.com/prettier/prettier
-    rev: 2.1.2
+  - repo: https://github.com/prettier/pre-commit
+    rev: v2.1.2
     hooks:
       - id: prettier
   - repo: https://github.com/pre-commit/mirrors-mypy
