@@ -16,26 +16,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - id: setup-python
+        uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      - name: Store installed Python version
-        run: |
-          echo "PY_VERSION="\
-          "$(python -c "import platform;print(platform.python_version())")" \
-          >> $GITHUB_ENV
       - name: Cache linting environments
         uses: actions/cache@v2
         with:
           path: |
             ${{ env.PIP_CACHE_DIR }}
             ${{ env.PRE_COMMIT_CACHE_DIR }}
-          key: "lint-${{ runner.os }}-py${{ env.PY_VERSION }}-\
+          key: |
+            lint-${{ runner.os }}-\
+            py${{ steps.setup-python.outputs.python-version }}-\
             ${{ hashFiles('**/requirements-test.txt') }}-\
             ${{ hashFiles('**/requirements.txt') }}-\
             ${{ hashFiles('**/.pre-commit-config.yaml') }}"
           restore-keys: |
-            lint-${{ runner.os }}-py${{ env.PY_VERSION }}-
+            lint-${{ runner.os }}-\
+            py${{ steps.setup-python.outputs.python-version }}-
             lint-${{ runner.os }}-
       - name: Install dependencies
         run: |
