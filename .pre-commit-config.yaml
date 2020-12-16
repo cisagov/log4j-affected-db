@@ -34,8 +34,8 @@ repos:
       - id: markdownlint
         args:
           - --config=.mdl_config.json
-  - repo: https://github.com/prettier/pre-commit
-    rev: v2.1.2
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v2.2.1
     hooks:
       - id: prettier
   - repo: https://github.com/adrienverge/yamllint
