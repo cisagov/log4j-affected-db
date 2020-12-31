@@ -82,7 +82,7 @@ repos:
       - id: pyupgrade
 
   # Ansible hooks
-  - repo: https://github.com/ansible/ansible-lint
+  - repo: https://github.com/ansible-community/ansible-lint
     rev: v4.3.7
     hooks:
       - id: ansible-lint
