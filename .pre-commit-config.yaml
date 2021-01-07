@@ -42,6 +42,8 @@ repos:
     rev: v1.25.0
     hooks:
       - id: yamllint
+        args:
+          - --strict
 
   # Shell script hooks
   - repo: https://github.com/detailyang/pre-commit-shell
