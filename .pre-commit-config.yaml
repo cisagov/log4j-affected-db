@@ -48,6 +48,13 @@ repos:
           - --strict
 
   # Shell script hooks
+  - repo: https://github.com/lovesegfault/beautysh
+    rev: 6.0.1
+    hooks:
+      - id: beautysh
+        args:
+          - --indent-size
+          - '2'
   - repo: https://github.com/detailyang/pre-commit-shell
     rev: 1.0.5
     hooks:
