@@ -50,14 +50,14 @@ while (( "$#" )); do
       shift
       ;;
     -*) # unsupported flags
-       echo "Error: Unsupported flag $1" >&2
-       exit 1
-       ;;
+      echo "Error: Unsupported flag $1" >&2
+      exit 1
+      ;;
     *) # preserve positional arguments
-       PARAMS="$PARAMS $1"
-       shift
-       ;;
-      esac
+      PARAMS="$PARAMS $1"
+      shift
+      ;;
+  esac
 done
 
 # set positional arguments in their proper place
