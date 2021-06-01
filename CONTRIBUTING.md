@@ -64,6 +64,9 @@ installation is as simple as `brew install pyenv pyenv-virtualenv` and
 adding this to your profile:
 
 ```bash
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
@@ -80,13 +83,34 @@ On WSL you should treat your platform as whatever Linux distribution
 you've chosen to install.
 
 Once you have installed `pyenv` you will need to add the following
-lines to your `.bashrc`:
+lines to your `.bash_profile` (or `.profile`):
 
 ```bash
-export PATH="$PATH:$HOME/.pyenv/bin"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+```
+
+and then add the following lines to your `.bashrc`:
+
+```bash
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
+
+If you want more information about setting up `pyenv` once installed, please run
+
+```console
+pyenv init
+```
+
+and
+
+```console
+pyenv virtualenv-init
+```
+
+for the current configuration instructions.
 
 If you are using a shell other than `bash` you should follow the
 instructions that the `pyenv-installer` script outputs.
