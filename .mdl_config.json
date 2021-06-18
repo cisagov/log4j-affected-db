@@ -15,5 +15,11 @@
   "MD029": {
     "style": "one"
   },
+  "MD033": {
+    "allowed_elements": [
+      "h1",
+      "img"
+    ]
+  },
   "default": true
 }
