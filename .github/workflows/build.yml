@@ -60,9 +60,10 @@ jobs:
         id: go-cache
         run: |
           echo "::set-output name=dir::$(go env GOCACHE)"
+      - name: Setup curl cache
+        run: mkdir -p ${{ env.CURL_CACHE_DIR }}
       - name: Install Packer
         run: |
-          mkdir -p ${{ env.CURL_CACHE_DIR }}
           PACKER_ZIP="packer_${PACKER_VERSION}_linux_amd64.zip"
           curl --output ${{ env.CURL_CACHE_DIR }}/"${PACKER_ZIP}" \
             --time-cond ${{ env.CURL_CACHE_DIR }}/"${PACKER_ZIP}" \
@@ -72,7 +73,6 @@ jobs:
             ${{ env.CURL_CACHE_DIR }}/"${PACKER_ZIP}"
       - name: Install Terraform
         run: |
-          mkdir -p ${{ env.CURL_CACHE_DIR }}
           TERRAFORM_ZIP="terraform_${TERRAFORM_VERSION}_linux_amd64.zip"
           curl --output ${{ env.CURL_CACHE_DIR }}/"${TERRAFORM_ZIP}" \
             --time-cond ${{ env.CURL_CACHE_DIR }}/"${TERRAFORM_ZIP}" \
