@@ -80,7 +80,6 @@ jobs:
             "https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/${TERRAFORM_ZIP}"
           sudo unzip -d /opt/terraform \
             ${{ env.CURL_CACHE_DIR }}/"${TERRAFORM_ZIP}"
-          sudo ln -s /opt/terraform/terraform /usr/bin/terraform
           sudo mv /usr/local/bin/terraform /usr/local/bin/terraform-default
           sudo ln -s /opt/terraform/terraform /usr/local/bin/terraform
       - name: Install Terraform-docs
