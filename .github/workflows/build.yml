@@ -69,8 +69,10 @@ jobs:
             --time-cond ${{ env.CURL_CACHE_DIR }}/"${PACKER_ZIP}" \
             --location \
             "https://releases.hashicorp.com/packer/${PACKER_VERSION}/${PACKER_ZIP}"
-          sudo unzip -o -d /usr/local/bin \
+          sudo unzip -d /opt/packer \
             ${{ env.CURL_CACHE_DIR }}/"${PACKER_ZIP}"
+          sudo mv /usr/local/bin/packer /usr/local/bin/packer-default
+          sudo ln -s /opt/packer/packer /usr/local/bin/packer
       - name: Install Terraform
         run: |
           TERRAFORM_ZIP="terraform_${TERRAFORM_VERSION}_linux_amd64.zip"
