@@ -85,7 +85,9 @@ jobs:
           sudo mv /usr/local/bin/terraform /usr/local/bin/terraform-default
           sudo ln -s /opt/terraform/terraform /usr/local/bin/terraform
       - name: Install Terraform-docs
-        run: GO111MODULE=on go get github.com/terraform-docs/terraform-docs
+        run: |
+          GO111MODULE=on go get \
+            github.com/terraform-docs/terraform-docs@${TERRAFORM_DOCS_VERSION}
       - name: Find and initialize Terraform directories
         run: |
           for path in $(find . -not \( -type d -name ".terraform" -prune \) \
