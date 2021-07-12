@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      # GO_VERSION and GOCACHE are used by the cache task, so the go
+      # GO_VERSION and GOCACHE are used by the cache task, so the Go
       # installation must happen before that.
       - uses: actions/setup-go@v2
         with:
@@ -33,7 +33,7 @@ jobs:
           echo "GO_VERSION="\
           "$(go version | sed 's/^go version go\([0-9.]\+\) .*/\1/')" \
           >> $GITHUB_ENV
-      - name: Lookup go cache directory
+      - name: Lookup Go cache directory
         id: go-cache
         run: |
           echo "::set-output name=dir::$(go env GOCACHE)"
