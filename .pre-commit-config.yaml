@@ -48,13 +48,20 @@ repos:
           - --strict
 
   # Shell script hooks
-  - repo: https://github.com/lovesegfault/beautysh
-    rev: v6.1.0
+  - repo: https://github.com/cisagov/pre-commit-shfmt
+    rev: v0.0.2
     hooks:
-      - id: beautysh
+      - id: shfmt
         args:
-          - --indent-size
+          # Indent by two spaces
+          - -i
           - '2'
+          # Binary operators may start a line
+          - -bn
+          # Switch cases are indented
+          - -ci
+          # Redirect operators are followed by a space
+          - -sr
   - repo: https://github.com/detailyang/pre-commit-shell
     rev: 1.0.5
     hooks:
