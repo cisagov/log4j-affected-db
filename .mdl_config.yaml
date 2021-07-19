@@ -1,0 +1,40 @@
+---
+
+# Default state for all rules
+default: true
+
+# MD003/heading-style/header-style - Heading style
+MD003:
+  # Enforce the ATX-closed style of header
+  style: "atx_closed"
+
+# MD004/ul-style - Unordered list style
+MD004:
+  # Enforce dashes for unordered lists
+  style: "dash"
+
+# MD013/line-length - Line length
+MD013:
+  # Do not enforce for code blocks
+  code_blocks: false
+  # Do not enforce for tables
+  tables: false
+
+# MD024/no-duplicate-heading/no-duplicate-header - Multiple headings with the
+# same content
+MD024:
+  # Allow headers with the same content as long as they are not in the same
+  # parent heading
+  allow_different_nesting: true
+
+# MD029/ol-prefix - Ordered list item prefix
+MD029:
+  # Enforce the `1.` style for ordered lists
+  style: "one"
+
+# MD033/no-inline-html - Inline HTML
+MD033:
+  # The h1 and img elements are allowed to permit header images
+  allowed_elements:
+    - h1
+    - img
