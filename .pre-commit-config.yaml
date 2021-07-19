@@ -47,6 +47,12 @@ repos:
         args:
           - --strict
 
+  # pre-commit hooks
+  - repo: https://github.com/pre-commit/pre-commit
+    rev: v2.13.0
+    hooks:
+      - id: validate_manifest
+
   # Shell script hooks
   - repo: https://github.com/lovesegfault/beautysh
     rev: v6.1.0
