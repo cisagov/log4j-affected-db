@@ -43,3 +43,8 @@ MD033:
 MD035:
   # Enforce dashes for horizontal rules
   style: "---"
+
+# MD046/code-block-style Code block style
+MD046:
+  # Enforce the fenced style for code blocks
+  style: "fenced"
