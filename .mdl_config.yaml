@@ -38,3 +38,8 @@ MD033:
   allowed_elements:
     - h1
     - img
+
+# MD035/hr-style - Horizontal rule style
+MD035:
+  # Enforce dashes for horizontal rules
+  style: "---"
