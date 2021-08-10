@@ -75,17 +75,9 @@ jobs:
             ${{ env.CURL_CACHE_DIR }}/"${PACKER_ZIP}"
           sudo mv /usr/local/bin/packer /usr/local/bin/packer-default
           sudo ln -s /opt/packer/packer /usr/local/bin/packer
-      - name: Install Terraform
-        run: |
-          TERRAFORM_ZIP="terraform_${TERRAFORM_VERSION}_linux_amd64.zip"
-          curl --output ${{ env.CURL_CACHE_DIR }}/"${TERRAFORM_ZIP}" \
-            --time-cond ${{ env.CURL_CACHE_DIR }}/"${TERRAFORM_ZIP}" \
-            --location \
-            "https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/${TERRAFORM_ZIP}"
-          sudo unzip -d /opt/terraform \
-            ${{ env.CURL_CACHE_DIR }}/"${TERRAFORM_ZIP}"
-          sudo mv /usr/local/bin/terraform /usr/local/bin/terraform-default
-          sudo ln -s /opt/terraform/terraform /usr/local/bin/terraform
+      - uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_version: ${{ env.TERRAFORM_VERSION }}
       - name: Install shfmt
         run: go install mvdan.cc/sh/v3/cmd/shfmt@${SHFMT_VERSION}
       - name: Install Terraform-docs
