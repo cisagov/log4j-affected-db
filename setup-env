@@ -6,7 +6,7 @@ set -o pipefail
 
 USAGE=$(
   cat << 'END_OF_LINE'
-Configure a developement environment for this repository.
+Configure a development environment for this repository.
 
 It does the following:
   - Verifies pyenv and pyenv-virtualenv are installed.
