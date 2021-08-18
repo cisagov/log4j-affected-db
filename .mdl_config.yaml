@@ -38,3 +38,13 @@ MD033:
   allowed_elements:
     - h1
     - img
+
+# MD035/hr-style - Horizontal rule style
+MD035:
+  # Enforce dashes for horizontal rules
+  style: "---"
+
+# MD046/code-block-style Code block style
+MD046:
+  # Enforce the fenced style for code blocks
+  style: "fenced"
