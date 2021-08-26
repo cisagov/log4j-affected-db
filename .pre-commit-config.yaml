@@ -117,22 +117,7 @@ repos:
     rev: v1.50.0
     hooks:
       - id: terraform_fmt
-      # There are ongoing issues with how this command works. This issue
-      # documents the core issue:
-      # https://github.com/hashicorp/terraform/issues/21408
-      # We have seen issues primarily with proxy providers and Terraform code
-      # that uses remote state. The PR
-      # https://github.com/hashicorp/terraform/pull/24887
-      # has been approved and is part of the 0.13 release to resolve the issue
-      # with remote states.
-      # The PR
-      # https://github.com/hashicorp/terraform/pull/24896
-      # is a proprosed fix to deal with `terraform validate` with proxy
-      # providers (among other configurations).
-      # We have decided to disable the terraform_validate hook until the issues
-      # above have been resolved, which we hope will be with the release of
-      # Terraform 0.13.
-      # - id: terraform_validate
+      - id: terraform_validate
 
   # Docker hooks
   - repo: https://github.com/IamTheFij/docker-pre-commit
