@@ -17,7 +17,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: cisagov/setup-env-github-action@improvement/support_tf_0.13
+      - uses: cisagov/setup-env-github-action@develop
       - uses: actions/checkout@v2
       - id: setup-python
         uses: actions/setup-python@v2
