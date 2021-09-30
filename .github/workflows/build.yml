@@ -44,7 +44,7 @@ jobs:
             py${{ steps.setup-python.outputs.python-version }}-\
             go${{ env.GO_VERSION }}-\
             packer${{ env.PACKER_VERSION }}-\
-            tf${{ env.TERRAFORM_VERSION }}-"
+            tf${{ steps.setup-env.outputs.terraform-version }}-"
         with:
           # Note that the .terraform directory IS NOT included in the
           # cache because if we were caching, then we would need to use
@@ -78,7 +78,7 @@ jobs:
           sudo ln -s /opt/packer/packer /usr/local/bin/packer
       - uses: hashicorp/setup-terraform@v1
         with:
-          terraform_version: ${{ env.TERRAFORM_VERSION }}
+          terraform_version: ${{ steps.setup-env.outputs.terraform-version }}
       - name: Install shfmt
         run: go install mvdan.cc/sh/v3/cmd/shfmt@${SHFMT_VERSION}
       - name: Install Terraform-docs
