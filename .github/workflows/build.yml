@@ -43,7 +43,7 @@ jobs:
           BASE_CACHE_KEY: "${{ github.job }}-${{ runner.os }}-\
             py${{ steps.setup-python.outputs.python-version }}-\
             go${{ env.GO_VERSION }}-\
-            packer${{ env.PACKER_VERSION }}-\
+            packer${{ steps.setup-env.outputs.packer-version }}-\
             tf${{ steps.setup-env.outputs.terraform-version }}-"
         with:
           # Note that the .terraform directory IS NOT included in the
@@ -66,6 +66,8 @@ jobs:
       - name: Setup curl cache
         run: mkdir -p ${{ env.CURL_CACHE_DIR }}
       - name: Install Packer
+        env:
+          PACKER_VERSION: ${{ steps.setup-env.outputs.packer-version }}
         run: |
           PACKER_ZIP="packer_${PACKER_VERSION}_linux_amd64.zip"
           curl --output ${{ env.CURL_CACHE_DIR }}/"${PACKER_ZIP}" \
