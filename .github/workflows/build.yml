@@ -17,22 +17,23 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: cisagov/setup-env-github-action@develop
+      - id: setup-env
+        uses: cisagov/setup-env-github-action@develop
       - uses: actions/checkout@v2
       - id: setup-python
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      # GO_VERSION and GOCACHE are used by the cache task, so the Go
-      # installation must happen before that.
+      # We need the Go version and Go cache location for the actions/cache step,
+      # so the Go installation must happen before that.
       - uses: actions/setup-go@v2
         with:
           go-version: '1.16'
       - name: Store installed Go version
+        id: go-version
         run: |
-          echo "GO_VERSION="\
-          "$(go version | sed 's/^go version go\([0-9.]\+\) .*/\1/')" \
-          >> $GITHUB_ENV
+          echo "::set-output name=version::"\
+          "$(go version | sed 's/^go version go\([0-9.]\+\) .*/\1/')"
       - name: Lookup Go cache directory
         id: go-cache
         run: |
@@ -41,9 +42,9 @@ jobs:
         env:
           BASE_CACHE_KEY: "${{ github.job }}-${{ runner.os }}-\
             py${{ steps.setup-python.outputs.python-version }}-\
-            go${{ env.GO_VERSION }}-\
-            packer${{ env.PACKER_VERSION }}-\
-            tf${{ env.TERRAFORM_VERSION }}-"
+            go${{ steps.go-version.outputs.version }}-\
+            packer${{ steps.setup-env.outputs.packer-version }}-\
+            tf${{ steps.setup-env.outputs.terraform-version }}-"
         with:
           # Note that the .terraform directory IS NOT included in the
           # cache because if we were caching, then we would need to use
@@ -65,6 +66,8 @@ jobs:
       - name: Setup curl cache
         run: mkdir -p ${{ env.CURL_CACHE_DIR }}
       - name: Install Packer
+        env:
+          PACKER_VERSION: ${{ steps.setup-env.outputs.packer-version }}
         run: |
           PACKER_ZIP="packer_${PACKER_VERSION}_linux_amd64.zip"
           curl --output ${{ env.CURL_CACHE_DIR }}/"${PACKER_ZIP}" \
@@ -77,13 +80,17 @@ jobs:
           sudo ln -s /opt/packer/packer /usr/local/bin/packer
       - uses: hashicorp/setup-terraform@v1
         with:
-          terraform_version: ${{ env.TERRAFORM_VERSION }}
+          terraform_version: ${{ steps.setup-env.outputs.terraform-version }}
       - name: Install shfmt
-        run: go install mvdan.cc/sh/v3/cmd/shfmt@${SHFMT_VERSION}
+        env:
+          PACKAGE_URL: mvdan.cc/sh/v3/cmd/shfmt
+          PACKAGE_VERSION: ${{ steps.setup-env.outputs.shfmt-version }}
+        run: go install ${PACKAGE_URL}@${PACKAGE_VERSION}
       - name: Install Terraform-docs
-        run: |
-          go install \
-            github.com/terraform-docs/terraform-docs@${TERRAFORM_DOCS_VERSION}
+        env:
+          PACKAGE_URL: github.com/terraform-docs/terraform-docs
+          PACKAGE_VERSION: ${{ steps.setup-env.outputs.terraform-docs-version }}
+        run: go install ${PACKAGE_URL}@${PACKAGE_VERSION}
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
