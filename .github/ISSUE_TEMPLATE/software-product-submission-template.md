@@ -17,7 +17,7 @@ assignees: ''
 | Fixed | Patch and/or mitigations available (see provided links).  |
 | Under Investigation | Vendor investigating status. |
 
-# Software List
+# Submission Template
 
 | Vendor        | Product         | Version         | Status          | Update Available | Notes | References |  Last Updated |
 |:--------------|:----------------|:---------------:|:---------------:|:-----------------|-----------------------|:-------|--------------:|
