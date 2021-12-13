@@ -11,7 +11,7 @@ CISA Director Jen Easterly's Statement: [Statement from CISA Director Easterly o
 National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 </br>
 </br>
-CISA will maintain a list of all publicly available information and vendor-supplied advisories regarding the Log4j vulnerability.  This list is not a full list and will be updated continuously.
+CISA will maintain a list of all publicly available information and vendor-supplied advisories regarding the Log4j vulnerability.  This list is not a full list and will be updated continuously.  If you have any additional information to share relevant to the log4j vulnerability, please feel free to open an issue [here](https://github.com/cisagov/log4j-affected-db/issues).  We have a template available for your submission.  Please also feel free to submit a pull request.
 
 # Status Descriptions
 
