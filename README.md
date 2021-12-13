@@ -24,7 +24,7 @@ CISA will maintain a list of all publicly available information and vendor-suppl
 | Under Investigation | Vendor investigating status. |
 
 # Software List
-
-| Vendor        | Product         | Version         | Status          | Update Available | Notes | References |  Last Updated |
-|:--------------|:----------------|:---------------:|:---------------:|:-----------------|-----------------------|:-------|--------------:|
-| Sample-Vendor | Product-A       | 1.15.0          | Affected        | Yes/No [Link]()  | <Statement by vendor, vuln note, etc.>| [Link Here]() | 12/11/2021|
+R
+| Vendor        | Product         | Version         | Status          | Update Available | Vendor Link | Notes | Other References |  Last Updated |
+|:--------------|:----------------|:---------------:|:---------------:|:-----------------|-------------|-------|:-----------------|--------------:|
+| Sample-Vendor | Product-A       | 1.15.0          | Affected        | Yes/No           | [Update Link Here]()| <Statement by vendor, vuln note, etc.>| [Link Here]() | 12/11/2021|
