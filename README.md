@@ -20,7 +20,7 @@ CISA will maintain a list of all publicly available information and vendor-suppl
 | Unknown | Status unknown.  Default choice. |
 | Affected| Reported to be affected by CVE-2021-44228. |
 | Not Affected | Reported to NOT be affected by CVE-2021-44228. |
-| Fixed | Patch and/or mitigations available (see references column).  |
+| Fixed | Patch and/or mitigations available (see provided links).  |
 | Under Investigation | Vendor investigating status. |
 
 # Software List
