@@ -13,7 +13,7 @@ National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.
 </br>
 CISA will maintain a list of all publicly available information and vendor-supplied advisories regarding the Log4j vulnerability.
 
-# Status
+# Status Descriptions
 
 |Status| Description |
 |------|-------------|
