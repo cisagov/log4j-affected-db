@@ -17,4 +17,4 @@ CISA will maintain a list of all known affected and not affected software regard
 
 | Vendor        | Product         | Version         | Status          | Patch Available | Mitigation Available | Vulnerability Notes | Related Links |  Date Last Updated |
 |:--------------|:----------------|:---------------:|:---------------:|:----------------|----------------------|:--------------------|---------------|-------------------:|
-| Sample-Vendor | Product-A       | 1.15.0, 1.14.0, 1.13.0 | Affected | Yes/No [Link]()| Yes/No [Link]() | <Statement by vendor, vuln note, etc.>|[Link Here]() | 12/11/2021|
+| Sample-Vendor | Product-A       | 1.15.0, 1.14.0, 1.13.0, 1.12.0 | Affected/Not Affected | Yes/No [Link]()| Yes/No [Link]() | <Statement by vendor, vuln note, etc.>|[Link Here]() | 12/11/2021|
