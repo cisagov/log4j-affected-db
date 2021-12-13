@@ -11,10 +11,20 @@ CISA Director Jen Easterly's Statement: [Statement from CISA Director Easterly o
 National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 </br>
 </br>
-CISA will maintain a list of all known affected and not affected software regarding the Log4j vulnerability.
+CISA will maintain a list of all publicly available information and vendor-supplied advisories regarding the Log4j vulnerability.
+
+# Status
+
+|Status| Description |
+|------|-------------|
+| Unknown | Status unknown.  Default choice. |
+| Affected| Reported to be affected by CVE-2021-44228. |
+| Not Affected | Reported to NOT be affected by CVE-2021-44228. |
+| Fixed | Patch and/or mitigations available (see references column).  |
+| Under Investigation | Vendor investigating status. |
 
 # Software List
 
-| Vendor        | Product         | Version         | Status          | Patch Available | Mitigation Available | Vulnerability Notes | Related Links |  Date Last Updated |
-|:--------------|:----------------|:---------------:|:---------------:|:----------------|----------------------|:--------------------|---------------|-------------------:|
-| Sample-Vendor | Product-A       | 1.15.0, 1.14.0, 1.13.0, 1.12.0 | Affected/Not Affected | Yes/No [Link]()| Yes/No [Link]() | <Statement by vendor, vuln note, etc.>|[Link Here]() | 12/11/2021|
+| Vendor        | Product         | Version         | Status          | Update Available | Notes | References |  Last Updated |
+|:--------------|:----------------|:---------------:|:---------------:|:-----------------|-----------------------|:-------|--------------:|
+| Sample-Vendor | Product-A       | 1.15.0          | Affected        | Yes/No [Link]()  | <Statement by vendor, vuln note, etc.>| [Link Here]() | 12/11/2021|
