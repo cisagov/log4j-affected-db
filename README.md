@@ -8,7 +8,7 @@ This repository provides CISA's guidance and an overview of related software reg
 CISA Director Jen Easterly's Statement: [Statement from CISA Director Easterly on “Log4j” Vulnerability](https://www.cisa.gov/news/2021/12/11/statement-cisa-director-easterly-log4j-vulnerability).
 </br> CISA Current Activity Alert: [Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
 </br>
-National Vulnerability Database (NVD) Information: [CVE-2021-4428](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
+National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 </br>
 </br>
 CISA will maintain a list of all known affected and not affected software regarding the Log4j vulnerability.
