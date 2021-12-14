@@ -53,8 +53,8 @@ CISA will maintain a list of all publicly available information and vendor-suppl
 |  Azure          |  Data lake store java  |  < 2.3.10  | Fixed | Yes | [source](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310)  |   |  | 12/14/21 |
 |  APC            |  PowerChute Business Edition  |  Unknow to 10.0.2.301  | Affected | No |    |    |  | 12/14/21 |
 |  APC            |  PowerChute Network Shutdown  |  Unknow to 4.2.0  | Affected | No |    |    |  | 12/14/21 |
-|  Akamai         |  Siem Splunk Connector  |  Unknown to latest  | Affected | No | | [source](https://github.com/akamai/siem-splunk-connector)  |  | 12/14/21 |
-|  Avaya          |   |   | Affected | No | |  [source](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609)  |  | 12/14/21 |
+|  Akamai         |  Siem Splunk Connector  |  Unknown to latest  | Affected | No | [source](https://github.com/akamai/siem-splunk-connector)  |  | 12/14/21 |
+|  Avaya          |   |   | Affected | No | [source](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609)  |  | 12/14/21 |
 |  Backblaze       |  Cloud  |  N/A (SaaS)  | Fixed | Yes | [source](https://help.backblaze.com/hc/en-us/articles/4412580603419)  |  Cloud service patched  |  | 12/14/21 |
 |  BigBlueButton    |  BigBlueButton  |  Unknown  | Not Affected | No | [source](https://github.com/bigbluebutton/bigbluebutton/issues/13897)  |   |  | 12/14/21 |
 |  Bitdefender    |  GravityZone On-Premises  |  Unknown  | Not Affected | No | [source](https://businessinsights.bitdefender.com/security-advisory-bitdefender-response-to-critical-0-day-apache-log4j2-vulnerability)  |   |  | 12/14/21 |
