@@ -31,12 +31,6 @@ CISA will maintain a list of all publicly available information and vendor-suppl
 
 # Software List
 
-| Vendor        | Product         | Version         | Status          | Update Available | Vendor Link | Notes | Other References |  Last Updated |
-|:--------------|:----------------|:---------------:|:---------------:|:-----------------|-------------|-------|:-----------------|--------------:|
-| Sample-Vendor | Product-A       | 1.15.0          | Affected        | Yes/No           | [Update Link Here]()| <Statement by vendor, vuln note, etc.>| [Link Here]() | 12/11/2021|
-
-# Software List
-
 This list was initially populated using information from the following sources: Kevin Beaumont.
 
 | Vendor                                                       | Product                                                                                                 | Version(s)                                                                 | Status              | Update available | Vendor link                                                                                                                                                                                                                                                                                                                                | Notes                                                                                                                                                                                                                                                                                                                                                       | Other References | Last Updated |
