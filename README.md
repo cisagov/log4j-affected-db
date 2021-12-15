@@ -373,6 +373,7 @@ This list was initially populated using information from the following sources: 
 | Jenkins | CI/CD Core |  | Not Affected | | | | | |
 | Jenkins | Plugins | | Unkown |  | | Need to audit plugins for use of log4j  |  | |
 | Jetbrains |  | | Affected | Yes | [https://www.jetbrains.com/help/license\_server/release\_notes.html](https://www.jetbrains.com/help/license_server/release_notes.html) | | | |
+| Jamf | Jamf Pro | 10.31.0 – 10.34.0 | Affected | Yes | [Mitigating the Apache Log4j 2 Vulnerability](https://docs.jamf.com/technical-articles/Mitigating_the_Apache_Log4j_2_Vulnerability.html)
 | McAfee | ePolicy Orchestrator Agent Handlers (ePO-AH) |  | Not Affected | |  | | | |
 | McAfee | Data Exchange Layer (DXL) |  | Under Investigation | |  | | | |
 | McAfee | Enterprise Security Manager (ESM) |  | Under Investigation | | | | | |
