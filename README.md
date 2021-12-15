@@ -466,6 +466,7 @@ This list was initially populated using information from the following sources: 
 | RSA | SecurID Identity Router | | Not Affected | | | | | |
 | RSA | SecurID Governance and Lifecycle | | Not Affected | | | | | |
 | RSA | SecurID Governance and Lifecycle Cloud | | Not Affected | | | | | |
+| Ruckus | Virtual SmartZone (vSZ) | 5.1 to 6.0  | Affected |  | [Ruckus Wireless (support.ruckuswireless.com)](https://support.ruckuswireless.com/security_bulletins/313) | | | 12/13/2021 |
 | SonicWall | Gen5 Firewalls (EOS) |  | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the appliance. | | 12/12/2021 |
 | SonicWall | Gen6 Firewalls | | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the appliance. | | 12/12/2021 |
 | SonicWall | Gen7 Firewalls | | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the appliance. | | 12/12/2021   |
