@@ -143,13 +143,13 @@ This list was initially populated using information from the following sources: 
 | Broadcom | Web Isolation (WI) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Web Security Service (WSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | WebPulse | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
-| Checkpoint | Quantum Security Gateway |  | Not Affected | | | | | |
-| Checkpoint | Quantum Security Management | | Not Affected | | | Uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. | | |
-| Checkpoint | CloudGuard | | Not Affected | | | | | |
-| Checkpoint | Infinity Portal | | Not Affected | | | | | |
-| Checkpoint | Harmony Endpoint & Harmony Mobile | | Not Affected | | | | | |
-| Checkpoint | SMB | | Not Affected | | | | | |
-| Checkpoint | ThreatCloud | | Not Affected | | | | | |
+| Check Point | Quantum Security Gateway |  | Not Affected | | | | | |
+| Check Point | Quantum Security Management | | Not Affected | | | Uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. | | |
+| Check Point | CloudGuard | | Not Affected | | | | | |
+| Check Point | Infinity Portal | | Not Affected | | | | | |
+| Check Point | Harmony Endpoint & Harmony Mobile | | Not Affected | | | | | |
+| Check Point | SMB | | Not Affected | | | | | |
+| Check Point | ThreatCloud | | Not Affected | | | | | |
 | Cisco | Cisco Webex Meetings Server | | Affected | No | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Advanced Web Security Reporting Application | | Affected | No | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco CloudCenter Suite Admin | | Affected | No | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
