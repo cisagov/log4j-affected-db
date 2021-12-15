@@ -1,46 +1,60 @@
-#  CISA Log4j (CVE-2021-44228) Vulnerability Guidance
+# CISA Log4j (CVE-2021-44228) Vulnerability Guidance #
 
-This repository provides CISA's guidance and an overview of related software regarding the Log4j vulnerability (CVE-2021-44228).  CISA encourages users and administrators to review the [official Apache release](https://logging.apache.org/log4j/2.x/security.html) and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
-</br>
-</br>
-**Official CISA Guidance & Resources:**
-</br>
-Webpage: [CISA Apache Log4j Vulnerability Guidance](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance)
-</br>
-CISA Director Jen Easterly's Statement: [Statement from CISA Director Easterly on “Log4j” Vulnerability](https://www.cisa.gov/news/2021/12/11/statement-cisa-director-easterly-log4j-vulnerability).
-</br> CISA Current Activity Alerts:
-</br>
-[Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
-</br>
-[CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
-</br>
+This repository provides CISA's guidance and an overview of related software
+regarding the Log4j vulnerability (CVE-2021-44228). CISA encourages users and
+administrators to review the
+[official Apache release](https://logging.apache.org/log4j/2.x/security.html)
+and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
+
+## Official CISA Guidance & Resources ##
+
+- [CISA Apache Log4j Vulnerability Guidance](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance)
+- [Statement from CISA Director Easterly on “Log4j” Vulnerability](https://www.cisa.gov/news/2021/12/11/statement-cisa-director-easterly-log4j-vulnerability).
+
+## CISA Current Activity Alerts ##
+
+- [Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
+- [CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
+
 National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
-</br>
-</br>
-CISA will maintain a list of all publicly available information and vendor-supplied advisories regarding the Log4j vulnerability.  This list is not a full list and will be updated continuously.  If you have any additional information to share relevant to the Log4j vulnerability, please feel free to open an issue [here](https://github.com/cisagov/log4j-affected-db/issues).  We have a template available for your submission.  Please also feel free to submit a pull request.
 
-# Mitigation Guidance 
-CISA urges organizations operating products marked as "Fixed" to immediately implement listed patches/mitigations [here](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance).
+CISA will maintain a list of all publicly available information and
+vendor-supplied advisories regarding the Log4j vulnerability. This list is not
+a full list and will be updated continuously. If you have any additional
+information to share relevant to the Log4j vulnerability, please feel free to
+open an issue [here](https://github.com/cisagov/log4j-affected-db/issues). We
+have a template available for your submission. Please also feel free to submit
+a pull request.
 
-CISA urges organizations operating products marked as "Not Fixed" to immediately implement alternate controls, including:
-* Install a WAF with rules that automatically update.
-* Set log4j2.formatMsgNoLookups to true by adding -Dlog4j2.formatMsgNoLookups=True to the Java Virtual Machine command for starting your application.
-* Ensure that any alerts from a vulnerable device are immediately actioned.
-* Report incidents promptly to CISA and/or the FBI [here](https://www.cisa.gov/uscert/report).
+## Mitigation Guidance ##
 
-# Status Descriptions
+CISA urges organizations operating products marked as "Fixed" to immediately
+implement listed patches/mitigations [here](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance).
+
+CISA urges organizations operating products marked as "Not Fixed" to immediately
+implement alternate controls, including:
+
+- Install a WAF with rules that automatically update.
+- Set `log4j2.formatMsgNoLookups` to true by adding `-Dlog4j2.formatMsgNoLookups=True`
+  to the Java Virtual Machine command for starting your application.
+- Ensure that any alerts from a vulnerable device are immediately actioned.
+- Report incidents promptly to CISA and/or the FBI [here](https://www.cisa.gov/uscert/report).
+
+## Status Descriptions ##
 
 |Status| Description |
 |------|-------------|
-| Unknown | Status unknown.  Default choice. |
+| Unknown | Status unknown. Default choice. |
 | Affected| Reported to be affected by CVE-2021-44228. |
 | Not Affected | Reported to NOT be affected by CVE-2021-44228 and no further action necessary. |
-| Fixed | Patch and/or mitigations available (see provided links).  |
+| Fixed | Patch and/or mitigations available (see provided links). |
 | Under Investigation | Vendor investigating status. |
 
-# Software List
+## Software List ##
 
-This list was initially populated using information from the following sources: Kevin Beaumont.
+This list was initially populated using information from the following sources:
+
+- Kevin Beaumont
 
 | Vendor | Product| Version(s)| Status| Update available| Vendor link | Notes | Other References | Last Updated |
 | ------ | -------------------- | ---- | ----- | --------------- | ----------- | ----- | ---------------- | ------------ |
@@ -147,7 +161,7 @@ This list was initially populated using information from the following sources: 
 | Broadcom | Symantec Mail Security for Microsoft Exchange (SMSMSE) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Symantec Messaging Gateway (SMG) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Symantec Protection Engine (SPE) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
-| Broadcom | Symantec Protection for SharePoint Servers (SPSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | | 
+| Broadcom | Symantec Protection for SharePoint Servers (SPSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | VIP Authentication Hub | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Web Isolation (WI) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Web Security Service (WSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
@@ -212,7 +226,7 @@ This list was initially populated using information from the following sources: 
 | Cisco | Cisco Policy Suite | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime Central for Service Providers | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime Collaboration Manager | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
-| Cisco | Cisco Prime Collaboration Provisioning | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | | 
+| Cisco | Cisco Prime Collaboration Provisioning | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime Infrastructure | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime License Manager |  | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime Network | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
@@ -296,7 +310,7 @@ This list was initially populated using information from the following sources: 
 | Cloudera | CDP Private Cloud Base | Only version 7.x | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Cloudera Manager (Including Backup Disaster Recovery (BDR) and Replication Manager) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Cloudera Data Warehouse (CDW) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
-| Cloudera | Cloudera Machine Learning (CML) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | | 
+| Cloudera | Cloudera Machine Learning (CML) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Cloudera Data Engineering (CDE) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Management Console | All versions| Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Workload XM | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
@@ -373,7 +387,7 @@ This list was initially populated using information from the following sources: 
 | Fortinet | FortiSwitch & FortiSwitchManager | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | | |
 | Fortinet | FortiToken Cloud | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | | |
 | Fortinet | FortiVoice | | Not Affected |  | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | | |
-| Fortinet | FortiWeb Cloud | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | || 
+| Fortinet | FortiWeb Cloud | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | ||
 | FusionAuth | FusionAuth  | 1.32 | Not Affected |  | [log4j CVE: How it affects FusionAuth (TLDR: It doesn't) - FusionAuth](https://fusionauth.io/blog/2021/12/10/log4j-fusionauth/) | | | |
 | Gradle | Gradle | | Not Affected | No | [Gradle Blog - Dealing with the critical Log4j vulnerability](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. | | |
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
@@ -395,7 +409,7 @@ This list was initially populated using information from the following sources: 
 | McAfee | Network Security Manager (NSM) | | Under Investigation | | | | | |
 | McAfee | Network Security Platform (NSP) | | Under Investigation | | | |  | |
 | McAfee | Threat Intelligence Exchange (TIE) |  | Under Investigation | | | | | |
-| Microsoft | Azure Data lake store java | < 2.3.10 | Affected | | [azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) | | | | 
+| Microsoft | Azure Data lake store java | < 2.3.10 | Affected | | [azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) | | | |
 | MongoDB | MongoDB Atlas Search | | Affected | yes | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | MongoDB | All other components of MongoDB Atlas (including Atlas Database, Data Lake, Charts) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | MongoDB | MongoDB Enterprise Advanced (including Enterprise Server, Ops Manager, Enterprise Kubernetes Operators) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
@@ -488,7 +502,7 @@ This list was initially populated using information from the following sources: 
 | SonicWall | CAS | | Under Investigation | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Under Review | | 12/12/2021 |
 | SonicWall | WAF | | Under Investigation | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Under Review | | 12/12/2021 |
 | Sophos | Sophos Mobile EAS Proxy | < 9.7.2 | Affected | No | [Advisory: Log4J zero-day vulnerability AKA Log4Shell (CVE-2021-44228)  Sophos](https://www.sophos.com/en-us/security-advisories/sophos-sa-20211210-log4j-rce) | The Sophos Mobile EAS Proxy, running in Traffic Mode, is affected. Customers will need to download and install version 9.7.2, available from Monday December 13, 2021, on the same machine where it is currently running. PowerShell mode is not affected. Customers can download the Standalone EAS Proxy Installer version 9.7.2 from the Sophos website. | | 12/12/2021 |
-| Sophos | Cloud Optix | | Fixed | | [Advisory: Log4J zero-day vulnerability AKA Log4Shell (CVE-2021-44228)  Sophos](https://www.sophos.com/en-us/security-advisories/sophos-sa-20211210-log4j-rce) | Users may have noticed a brief outage around 12:30 GMT as updates were deployed.<br>There was no evidence that the vulnerability was exploited and to our knowledge no customers are impacted. | | 12/12/2021   |
+| Sophos | Cloud Optix | | Fixed | | [Advisory: Log4J zero-day vulnerability AKA Log4Shell (CVE-2021-44228)  Sophos](https://www.sophos.com/en-us/security-advisories/sophos-sa-20211210-log4j-rce) | Users may have noticed a brief outage around 12:30 GMT as updates were deployed. There was no evidence that the vulnerability was exploited and to our knowledge no customers are impacted. | | 12/12/2021   |
 | Sophos | Sophos Firewall (all versions) | | Not Affected | | [Advisory: Log4J zero-day vulnerability AKA Log4Shell (CVE-2021-44228) Sophos](https://www.sophos.com/en-us/security-advisories/sophos-sa-20211210-log4j-rce) | Sophos Firewall does not use Log4j. | | 12/12/2021 |
 | Sophos | SG UTM (all versions) | | Not Affected | | [Advisory: Log4J zero-day vulnerability AKA Log4Shell (CVE-2021-44228)  Sophos](https://www.sophos.com/en-us/security-advisories/sophos-sa-20211210-log4j-rce) | Sophos SG UTM does not use Log4j. | | 12/12/2021 |
 | Sophos | SG UTM Manager (SUM) (all versions) | All versions | Not Affected | | [Advisory: Log4J zero-day vulnerability AKA Log4Shell (CVE-2021-44228)  Sophos](https://www.sophos.com/en-us/security-advisories/sophos-sa-20211210-log4j-rce) | SUM does not use Log4j. | | 12/12/2021 |
@@ -548,4 +562,3 @@ This list was initially populated using information from the following sources: 
 | VMware | VMware Workspace ONE Access Connector (VMware Identity Manager Connector) | 21.x, 20.10.x, 19.03.0.1 | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Horizon DaaS | 9.1.x, 9.0.x | Affected  | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Horizon Cloud Connector | 1.x, 2.x | Affected | Yes | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
-
