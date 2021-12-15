@@ -19,6 +19,15 @@ National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.
 </br>
 CISA will maintain a list of all publicly available information and vendor-supplied advisories regarding the Log4j vulnerability.  This list is not a full list and will be updated continuously.  If you have any additional information to share relevant to the Log4j vulnerability, please feel free to open an issue [here](https://github.com/cisagov/log4j-affected-db/issues).  We have a template available for your submission.  Please also feel free to submit a pull request.
 
+# Mitigation Guidance 
+CISA urges organizations operating products marked as "Fixed" to immediately implement listed patches/mitigations [here](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance).
+
+CISA urges organizations operating products marked as "Not Fixed" to immediately implement alternate controls, including:
+* Install a WAF with rules that automatically update.
+* Set log4j2.formatMsgNoLookups to true by adding -Dlog4j2.formatMsgNoLookups=True to the Java Virtual Machine command for starting your application.
+* Ensure that any alerts from a vulnerable device are immediately actioned.
+* Report incidents promptly to CISA and/or the FBI [here](https://www.cisa.gov/uscert/report).
+
 # Status Descriptions
 
 |Status| Description |
