@@ -387,10 +387,10 @@ This list was initially populated using information from the following sources: 
 | HashiCorp | Packer | | Not Affected | | [HashiCorp security bulletin re. CVE-2021-44228](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) | | | |
 | HashiCorp | Terraform | | Not Affected | | [HashiCorp security bulletin re. CVE-2021-44228](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) | | | |
 | HashiCorp | Terraform Enterprise | | Not Affected | | [HashiCorp security bulletin re. CVE-2021-44228](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) | | | |
-| HashiCorp | Waypoint | | Not Affected | | [HashiCorp security bulletin re. CVE-2021-44228](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) | | | |
 | HashiCorp | Vagrant | | Not Affected | | [HashiCorp security bulletin re. CVE-2021-44228](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) | | | |
 | HashiCorp | Vault | | Not Affected | | [HashiCorp security bulletin re. CVE-2021-44228](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) | | | |
 | HashiCorp | Vault Enterprise | | Not Affected | | [HashiCorp security bulletin re. CVE-2021-44228](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) | | | |
+| HashiCorp | Waypoint | | Not Affected | | [HashiCorp security bulletin re. CVE-2021-44228](https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228) | | | |
 | IBM  | BigFix Compliance | | Affected | No | | | | |
 | IBM  | BigFix Inventory | VM Manager Tool & SAP Tool | Affected | No |  | To verify if your instance is affected, go to the lib subdirectory of the tool (BESClient/LMT/SAPTOOL and BESClient/LMT/VMMAN) and check what version of log4j is included. Version is included in the name of the library. | | |
 | IBM | Server Automation | | Affected | No | |  | | |
