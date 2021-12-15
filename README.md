@@ -19,7 +19,7 @@ National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.
 </br>
 CISA will maintain a list of all publicly available information and vendor-supplied advisories regarding the Log4j vulnerability.  This list is not a full list and will be updated continuously.  If you have any additional information to share relevant to the Log4j vulnerability, please feel free to open an issue [here](https://github.com/cisagov/log4j-affected-db/issues).  We have a template available for your submission.  Please also feel free to submit a pull request.
 
-# Mitigation Guidance 
+# Mitigation Guidance
 CISA urges organizations operating products marked as "Fixed" to immediately implement listed patches/mitigations [here](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance).
 
 CISA urges organizations operating products marked as "Not Fixed" to immediately implement alternate controls, including:
@@ -147,11 +147,12 @@ This list was initially populated using information from the following sources: 
 | Broadcom | Symantec Mail Security for Microsoft Exchange (SMSMSE) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Symantec Messaging Gateway (SMG) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Symantec Protection Engine (SPE) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
-| Broadcom | Symantec Protection for SharePoint Servers (SPSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | | 
+| Broadcom | Symantec Protection for SharePoint Servers (SPSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | VIP Authentication Hub | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Web Isolation (WI) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Web Security Service (WSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | WebPulse | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
+| Chaser Systems | discrimiNAT Firewall | All | Not Affected | | [Are Chaser’s products affected](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) | | | |
 | Check Point | Quantum Security Gateway |  | Not Affected | | | | | |
 | Check Point | Quantum Security Management | | Not Affected | | | Uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. | | |
 | Check Point | CloudGuard | | Not Affected | | | | | |
@@ -212,7 +213,7 @@ This list was initially populated using information from the following sources: 
 | Cisco | Cisco Policy Suite | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime Central for Service Providers | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime Collaboration Manager | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
-| Cisco | Cisco Prime Collaboration Provisioning | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | | 
+| Cisco | Cisco Prime Collaboration Provisioning | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime Infrastructure | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime License Manager |  | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Prime Network | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
@@ -296,7 +297,7 @@ This list was initially populated using information from the following sources: 
 | Cloudera | CDP Private Cloud Base | Only version 7.x | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Cloudera Manager (Including Backup Disaster Recovery (BDR) and Replication Manager) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Cloudera Data Warehouse (CDW) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
-| Cloudera | Cloudera Machine Learning (CML) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | | 
+| Cloudera | Cloudera Machine Learning (CML) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Cloudera Data Engineering (CDE) | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Management Console | All versions| Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Workload XM | All versions | Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
@@ -373,7 +374,7 @@ This list was initially populated using information from the following sources: 
 | Fortinet | FortiSwitch & FortiSwitchManager | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | | |
 | Fortinet | FortiToken Cloud | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | | |
 | Fortinet | FortiVoice | | Not Affected |  | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | | |
-| Fortinet | FortiWeb Cloud | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | || 
+| Fortinet | FortiWeb Cloud | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | ||
 | FusionAuth | FusionAuth  | 1.32 | Not Affected |  | [log4j CVE: How it affects FusionAuth (TLDR: It doesn't) - FusionAuth](https://fusionauth.io/blog/2021/12/10/log4j-fusionauth/) | | | |
 | Gradle | Gradle | | Not Affected | No | [Gradle Blog - Dealing with the critical Log4j vulnerability](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. | | |
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
@@ -395,7 +396,7 @@ This list was initially populated using information from the following sources: 
 | McAfee | Network Security Manager (NSM) | | Under Investigation | | | | | |
 | McAfee | Network Security Platform (NSP) | | Under Investigation | | | |  | |
 | McAfee | Threat Intelligence Exchange (TIE) |  | Under Investigation | | | | | |
-| Microsoft | Azure Data lake store java | < 2.3.10 | Affected | | [azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) | | | | 
+| Microsoft | Azure Data lake store java | < 2.3.10 | Affected | | [azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) | | | |
 | MongoDB | MongoDB Atlas Search | | Affected | yes | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | MongoDB | All other components of MongoDB Atlas (including Atlas Database, Data Lake, Charts) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | MongoDB | MongoDB Enterprise Advanced (including Enterprise Server, Ops Manager, Enterprise Kubernetes Operators) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
@@ -548,4 +549,3 @@ This list was initially populated using information from the following sources: 
 | VMware | VMware Workspace ONE Access Connector (VMware Identity Manager Connector) | 21.x, 20.10.x, 19.03.0.1 | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Horizon DaaS | 9.1.x, 9.0.x | Affected  | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Horizon Cloud Connector | 1.x, 2.x | Affected | Yes | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
-
