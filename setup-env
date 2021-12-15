@@ -1,0 +1,190 @@
+#!/usr/bin/env bash
+
+set -o nounset
+set -o errexit
+set -o pipefail
+
+USAGE=$(
+  cat << 'END_OF_LINE'
+Configure a development environment for this repository.
+
+It does the following:
+  - Verifies pyenv and pyenv-virtualenv are installed.
+  - Creates a Python virtual environment.
+  - Configures the activation of the virtual enviroment for the repo directory.
+  - Installs the requirements needed for development.
+  - Installs git pre-commit hooks.
+  - Configures git upstream remote "lineage" repositories.
+
+Usage:
+  setup-env [options] [virt_env_name]
+  setup-env (-h | --help)
+
+Options:
+  -f --force          Delete virtual enviroment if it already exists.
+  -h --help           Show this message.
+  -i --install-hooks  Install hook environments for all environments in the
+                      pre-commit config file.
+
+END_OF_LINE
+)
+
+# Flag to force deletion and creation of virtual environment
+FORCE=0
+
+# Positional parameters
+PARAMS=""
+
+# Parse command line arguments
+while (("$#")); do
+  case "$1" in
+    -f | --force)
+      FORCE=1
+      shift
+      ;;
+    -h | --help)
+      echo "${USAGE}"
+      exit 0
+      ;;
+    -i | --install-hooks)
+      INSTALL_HOOKS=1
+      shift
+      ;;
+    -*) # unsupported flags
+      echo "Error: Unsupported flag $1" >&2
+      exit 1
+      ;;
+    *) # preserve positional arguments
+      PARAMS="$PARAMS $1"
+      shift
+      ;;
+  esac
+done
+
+# set positional arguments in their proper place
+eval set -- "$PARAMS"
+
+# Check to see if pyenv is installed
+if [ -z "$(command -v pyenv)" ] || [ -z "$(command -v pyenv-virtualenv)" ]; then
+  echo "pyenv and pyenv-virtualenv are required."
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    cat << 'END_OF_LINE'
+
+  On the Mac, we recommend installing brew, https://brew.sh/.  Then installation
+  is as simple as `brew install pyenv pyenv-virtualenv` and adding this to your
+  profile:
+
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+
+END_OF_LINE
+
+  fi
+  cat << 'END_OF_LINE'
+  For Linux, Windows Subsystem for Linux (WSL), or on the Mac (if you don't want
+  to use "brew") you can use https://github.com/pyenv/pyenv-installer to install
+  the necessary tools. Before running this ensure that you have installed the
+  prerequisites for your platform according to the pyenv wiki page,
+  https://github.com/pyenv/pyenv/wiki/common-build-problems.
+
+  On WSL you should treat your platform as whatever Linux distribution you've
+  chosen to install.
+
+  Once you have installed "pyenv" you will need to add the following lines to
+  your ".bashrc":
+
+  export PATH="$PATH:$HOME/.pyenv/bin"
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+END_OF_LINE
+  exit 1
+fi
+
+set +o nounset
+# Determine the virtual environment name
+if [ "$1" ]; then
+  # Use the user-provided environment name
+  env_name=$1
+else
+  # Set the environment name to the last part of the working directory.
+  env_name=${PWD##*/}
+fi
+set -o nounset
+
+# Remove any lingering local configuration.
+if [ $FORCE -ne 0 ]; then
+  rm -f .python-version
+  pyenv virtualenv-delete --force "${env_name}" || true
+elif [[ -f .python-version ]]; then
+  cat << 'END_OF_LINE'
+  An existing .python-version file was found.  Either remove this file yourself
+  or re-run with --force option to have it deleted along with the associated
+  virtual environment.
+
+  rm .python-version
+
+END_OF_LINE
+  exit 1
+fi
+
+# Create a new virtual environment for this project
+if ! pyenv virtualenv "${env_name}"; then
+  cat << END_OF_LINE
+  An existing virtual environment named $env_name was found.  Either delete this
+  environment yourself or re-run with --force option to have it deleted.
+
+  pyenv virtualenv-delete ${env_name}
+
+END_OF_LINE
+  exit 1
+fi
+
+# Set the local application-specific Python version(s) by writing the
+# version name to a file named `.python-version'.
+pyenv local "${env_name}"
+
+# Upgrade pip and friends
+python3 -m pip install --upgrade pip setuptools wheel
+
+# Find a requirements file (if possible) and install
+for req_file in "requirements-dev.txt" "requirements-test.txt" "requirements.txt"; do
+  if [[ -f $req_file ]]; then
+    pip install --requirement $req_file
+    break
+  fi
+done
+
+# Install git pre-commit hooks now or later.
+pre-commit install ${INSTALL_HOOKS:+"--install-hooks"}
+
+# Setup git remotes from lineage configuration
+# This could fail if the remotes are already setup, but that is ok.
+set +o errexit
+
+eval "$(
+  python3 << 'END_OF_LINE'
+from pathlib import Path
+import yaml
+import sys
+
+LINEAGE_CONFIG = Path(".github/lineage.yml")
+
+if not LINEAGE_CONFIG.exists():
+    print("No lineage configuration found.", file=sys.stderr)
+    sys.exit(0)
+
+with LINEAGE_CONFIG.open("r") as f:
+    lineage = yaml.safe_load(stream=f)
+
+if lineage["version"] == "1":
+    for parent_name, v in lineage["lineage"].items():
+        remote_url = v["remote-url"]
+        print(f"git remote add {parent_name} {remote_url};")
+        print(f"git remote set-url --push {parent_name} no_push;")
+else:
+    print(f'Unsupported lineage version: {lineage["version"]}', file=sys.stderr)
+END_OF_LINE
+)"
+
+# Qapla
+echo "Success!"

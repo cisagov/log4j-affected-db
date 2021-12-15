@@ -1,0 +1,22 @@
+---
+# See https://ansible-lint.readthedocs.io/en/latest/configuring.html
+# for a list of the configuration elements that can exist in this
+# file.
+enable_list:
+  # Useful checks that one must opt-into.  See here for more details:
+  # https://ansible-lint.readthedocs.io/en/latest/rules.html
+  - fcqn-builtins
+  - no-log-password
+  - no-same-owner
+exclude_paths:
+  # This exclusion is implicit, unless exclude_paths is defined
+  - .cache
+  # Seems wise to ignore this too
+  - .github
+  # ansible-lint doesn't like the role name in this playbook, but it's
+  # what molecule requires
+  - molecule/default/converge.yml
+  # These two are Molecule configuration files, not Ansible playbooks
+  - molecule/default/molecule-no-systemd.yml
+  - molecule/default/molecule-with-systemd.yml
+use_default_rules: true
