@@ -18,16 +18,6 @@ and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
 
 National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
-# Mitigation Guidance
-CISA urges organizations operating products marked as "Fixed" to immediately implement listed patches/mitigations [here](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance).
-CISA will maintain a list of all publicly available information and
-vendor-supplied advisories regarding the Log4j vulnerability. This list is not
-a full list and will be updated continuously. If you have any additional
-information to share relevant to the Log4j vulnerability, please feel free to
-open an issue [here](https://github.com/cisagov/log4j-affected-db/issues). We
-have a template available for your submission. Please also feel free to submit
-a pull request.
-
 ## Mitigation Guidance ##
 
 CISA urges organizations operating products marked as "Fixed" to immediately
