@@ -795,6 +795,7 @@ This list was initially populated using information from the following sources:
 | VMware | VMware vCenter Server | 8.x, 7.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware vCenter Server | 7.x, 6.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware vCenter Server | 6.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
+| VMware | VMware Horizon | N/A | Affected | Yes | [VMSA-2021-0028](https://kb.vmware.com/s/article/87073) | | | 12/14/2021 |
 | VMware | VMware HCX | 4.x, 3.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware NSX-T Data Centern | 3.x, 2.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Unified Access Gateway | 21.x, 20.x, 3.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
