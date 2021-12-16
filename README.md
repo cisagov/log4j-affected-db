@@ -510,6 +510,7 @@ This list was initially populated using information from the following sources:
 | Siemens | Solid Edge Wiring Harness Design | All Versions >= 2020 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |only if Teamcenter integration feature is used | | 12/15/2021 |
 | Siemens | Spectrum 4 | All versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)|only with component jROS in version 3.0.0|| 12/15/2021|
 | Siemens | Spectrum Power 7 | All Versions < V2.30 SP2 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| only with component jROS | | 12/15/2021 |
+|Siemens | Teamcenter Suite | All Versions | Affected | Yes| [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| ||12/15/2021|
 | Siemens | VeSys | All Versions >=2019.1 SP1912 |Affected | Yes |[Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | only if Teamcenter integration feature is used| |12/15/2021 |
 | Siemens | Xpedition EDM Server | VX.2.6-VX.2.10 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | |12/15/2021 |
 | Siemens | Xpedition EDM Client | VX.2.6-VX.2.10 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
