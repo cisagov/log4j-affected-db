@@ -393,11 +393,8 @@ This list was initially populated using information from the following sources:
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Test Distribution Agent | < 1.6.2 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Build Cache Node | < 10.1 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
-| IBM  | BigFix Compliance | | Affected | No | | | | |
-| IBM  | BigFix Inventory | VM Manager Tool & SAP Tool | Affected | No |  | To verify if your instance is affected, go to the lib subdirectory of the tool (BESClient/LMT/SAPTOOL and BESClient/LMT/VMMAN) and check what version of log4j is included. Version is included in the name of the library. | | |
-| IBM | Server Automation | | Affected | No | |  | | |
-| IBM | Management Extender for VMware vCenter | | Affected | No |  | | | |
-| IBM | Resilient |  | Under Investigation | | | | | |
+|IBM|Cognos Controller|10.4.2|Affected|Yes|[Security Bulletin: IBM Cognos Controller 10.4.2 IF15: Apache log4j Vulnerability (CVE-2021-44228)](https://www.ibm.com/support/pages/node/6526468>)|||12/15/2021|
+|IBM|Planning Analytics Workspace|>2.0.57|Affected|Yes|[Security Bulletin: IBM Planning Analytics 2.0: Apache log4j Vulnerability (CVE-2021-44228)](Security Bulletin: IBM Planning Analytics 2.0: Apache log4j Vulnerability (CVE-2021-44228))|||12/15/2021|
 |IBM|Power HMC|V9.2.950.0 & V10.1.1010.0|Affected|Yes|[Security Bulletin: Vulnerability in Apache Log4j (CVE-2021-44228) affects Power HMC](https://www.ibm.com/support/pages/node/6526172?myns=pwrsmc&mynp=OCSGGSNP&mync=E&cm_sp=pwrsmc-_-OCSGGSNP-_-E)|||12/15/2021|
 | Jenkins | CI/CD Core |  | Not Affected | | | | | |
 | Jenkins | Plugins | | Unkown |  | | Need to audit plugins for use of log4j  |  | |
