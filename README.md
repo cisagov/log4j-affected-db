@@ -4,7 +4,7 @@ This repository provides CISA's guidance and an overview of related software
 regarding the Log4j vulnerability (CVE-2021-44228). CISA encourages users and
 administrators to review the
 [official Apache release](https://logging.apache.org/log4j/2.x/security.html)
-and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
+and upgrade to Log4j 2.16.0 or apply the recommended mitigations immediately.
 
 ## Official CISA Guidance & Resources ##
 
@@ -13,10 +13,7 @@ and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
 
 ## CISA Current Activity Alerts ##
 
-- [Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
 - [CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
-
-National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
 ## Mitigation Guidance ##
 
@@ -31,6 +28,8 @@ implement alternate controls, including:
   to the Java Virtual Machine command for starting your application.
 - Ensure that any alerts from a vulnerable device are immediately actioned.
 - Report incidents promptly to CISA and/or the FBI [here](https://www.cisa.gov/uscert/report).
+
+National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
 ## Status Descriptions ##
 
@@ -50,13 +49,13 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product| Version(s)| Status| Update available| Vendor link | Notes | Other References | Last Updated |
 | ------ | -------------------- | ---- | ----- | --------------- | ----------- | ----- | ---------------- | ------------ |
-|3M Health Information Systems| CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) |This advisory is available to customers only and has not been reviewed by CISA.||12/15/2021|
+|3M Health Information Systems| CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) |This advisory is available to customer only and has not been reviewed by CISA.||12/15/2021|
 | Accellion | Kiteworks | v7.6 release | Fixed | Yes | [Kiteworks Statement](https://www.kiteworks.com/kiteworks-news/log4shell-apache-vulnerability-what-kiteworks-customers-need-to-know/) | "As a precaution, Kiteworks released a 7.6.1 Hotfix software update to address the vulnerability. This patch release adds the mitigation for CVE-2021-44228 contained in the Solr package as recommended by Apache Solr group. Specifically, it updates the Log4j library to a non-vulnerable version on CentOS 7 systems as well as adds the recommended option “$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true” to disable the possible attack vector on both CentOS 6 and CentOS 7." | |12/16/2021 |
 | Akamai | SIEM Splunk Connector| All  | Affected |  | [GitHub - akamai/siem-splunk-connector: Akamai SIEM Connector for Splunk](https://github.com/akamai/siem-splunk-connector) | | | |
 | Amazon | OpenSearch | Unknown | Affected | Yes [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | AWS CloudHSM | < 3.4.1. | Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
-| Amazon | EC2 | Amazon Linux 1 & 2 | Unknown | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+| Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
 | Apache | Druid | < druid 0.22.0 | Affected | Yes | [Release druid-0.22.1 · apache/druid · GitHub](https://github.com/apache/druid/releases/tag/druid-0.22.1) | | | 12/12/2021|
 | Apache | Flink | < flink 1.15.0, 1.14.1, 1.13.3 | Affected | No | [Apache Flink: Advise on Apache Log4j Zero Day (CVE-2021-44228)](https://flink.apache.org/2021/12/10/log4j-cve.html) | | | 12/12/2021 |
 | Apache | Log4j | < 2.15.0 | Affected | Yes | [Log4j – Apache Log4j Security Vulnerabilities](https://logging.apache.org/log4j/2.x/security.html) | | | |
@@ -177,7 +176,7 @@ This list was initially populated using information from the following sources:
 | Broadcom | PolicyCenter (PC) S-Series | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Privileged Access Manager | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Privileged Access Manager Server Control | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
-| Broadcom | Privileged Identity Manager | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
+| Broadcom | Privileged Identity Manager | | Under Investigation | |[Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793)| | | |
 | Broadcom | Reporter | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Secure Access Cloud (SAC) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | SiteMinder (CA Single Sign-On) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
@@ -454,11 +453,6 @@ This list was initially populated using information from the following sources:
 | Fortinet | FortiWeb Cloud | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | ||
 | FusionAuth | FusionAuth  | 1.32 | Not Affected |  | [log4j CVE: How it affects FusionAuth (TLDR: It doesn't) - FusionAuth](https://fusionauth.io/blog/2021/12/10/log4j-fusionauth/) | | | |
 | Graylog | Graylog Server | All versions >= 1.2.0 and <= 4.2.2 | Affected | Yes | [Graylog Update for Log4j](https://www.graylog.org/post/graylog-update-for-log4j) | | | |
-| IBM  | BigFix Compliance | | Affected | No | | | | |
-| IBM  | BigFix Inventory | VM Manager Tool & SAP Tool | Affected | No |  | To verify if your instance is affected, go to the lib subdirectory of the tool (BESClient/LMT/SAPTOOL and BESClient/LMT/VMMAN) and check what version of log4j is included. Version is included in the name of the library. | | |
-| IBM | Server Automation | | Affected | No | |  | | |
-| IBM | Management Extender for VMware vCenter | | Affected | No |  | | | |
-| IBM | Resilient |  | Under Investigation | | | | | |
 | Gradle | Gradle | | Not Affected | No | [Gradle Blog - Dealing with the critical Log4j vulnerability](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. | | |
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Test Distribution Agent | < 1.6.2 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
@@ -695,7 +689,7 @@ This list was initially populated using information from the following sources:
 |IBM|IBM Sterling Connect:Express for Microsoft Windows||Not Affected||[An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products)|||12/15/2021|
 |IBM|IBM Sterling Connect:Express for UNIX||Not Affected||[An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products)|||12/15/2021|
 |IBM|IBM Sterling Connect:Express for z/OS||Not Affected||[An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products)|||12/15/2021|
-|IBM| IBM Instana Agent | Lower than 12-11-2021 | Affected | Yes |[Instana Status Incidents](https://status.instana.io/incidents/4zgcd2gzf4jw)|||12/14/2021|
+|IBM|Instana Agent|Timestamp lower than 12-11-2021| Affected| Yes| [Status Instana](https://status.instana.io/incidents/4zgcd2gzf4jw)|||12/14/2021|
 |IBM|Key Lifecyle Manager for z/OS||Not Affected||[An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products)|||12/15/2021|
 |IBM|Key Protect  ||Not Affected||[An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products)|||12/15/2021|
 |IBM|Kubernetes Service  ||Not Affected||[An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products)|||12/15/2021|
@@ -819,6 +813,7 @@ This list was initially populated using information from the following sources:
 | Lenovo | ThinkSystem DM Series Storage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | See also NetApp advisory. | | 2021-12-14 |
 | Lenovo | ThinkSystem DS Series Storage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
 | Lenovo | ThinkSystem Manager (TSM) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+|ManageEngine|Servicedsk Plus|11305 and below|Affected| | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html)|||12/15/2021|
 | McAfee | ePolicy Orchestrator Agent Handlers (ePO-AH) |  | Not Affected | |  | | | |
 | McAfee | Data Exchange Layer (DXL) |  | Under Investigation | |  | | | |
 | McAfee | Enterprise Security Manager (ESM) |  | Under Investigation | | | | | |
@@ -853,14 +848,14 @@ This list was initially populated using information from the following sources:
 | Okta | Okta Mobile |  | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
 | Okta | Okta Workflows | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
 | Okta | Okta Verify | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021   |
-| Palo-Alto | Prisma Cloud Compute| | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto | Prisma Cloud | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto | PAN-OS | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto | GlobalProtect App | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto | Cortex XSOAR | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto | Cortex XDR Agent | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | Prisma Cloud Compute| | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | Prisma Cloud | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | PAN-OS for Firewall and Wildfire | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | GlobalProtect App | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | Cortex XSOAR | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | Cortex XDR Agent | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
 | Palo-Alto | CloudGenix | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto | Panorama | 9.0, 9.1, 10.0 | Affected | Yes | [Unit42 Palo-Alto Apache Log4j Vulnerability](https://unit42.paloaltonetworks.com/apache-log4j-vulnerability-cve-2021-44228/) | | Upgrade Panorama to PAN-OS 10.1 to remediate this issue. This advisory will be updated when hot fixes for the affected Panorama versions are available | 12/15/2021 |
+| Palo-Alto | PAN-OS for Panorama | 9.0, 9.1, 10.0 | Affected | Yes | [CVE-2021-44228:Impact of Log4J Vulnerability](https://security.paloaltonetworks.com/CVE-2021-44228) | | Upgrade Panorama to PAN-OS 10.1 to remediate this issue. This advisory will be updated when hot fixes for the affected Panorama versions are available. PAN-OS for Panorama versions 8.1, 10.1 are not affected. | 12/15/2021 |
 | Ping Identity | PingFederate | 8.0 <= version <= 10.3.4 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
 | Ping Identity | PingFederate OAuth Playground | < 4.3.1 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
 | Ping Identity | PingFederate Java Integration Kit | < 2.7.2 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
