@@ -18,16 +18,6 @@ and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
 
 National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
-# Mitigation Guidance
-CISA urges organizations operating products marked as "Fixed" to immediately implement listed patches/mitigations [here](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance).
-CISA will maintain a list of all publicly available information and
-vendor-supplied advisories regarding the Log4j vulnerability. This list is not
-a full list and will be updated continuously. If you have any additional
-information to share relevant to the Log4j vulnerability, please feel free to
-open an issue [here](https://github.com/cisagov/log4j-affected-db/issues). We
-have a template available for your submission. Please also feel free to submit
-a pull request.
-
 ## Mitigation Guidance ##
 
 CISA urges organizations operating products marked as "Fixed" to immediately
@@ -378,9 +368,19 @@ This list was initially populated using information from the following sources:
 | Cloudera | Workload XM (SaaS) | | Not Affected | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | SmartSense | | Under Investigation | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Data Analytics Studio (DAS) | | Under Investigation | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
+| Dell | iDRAC | | Not Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | | | |
+| Dell | iDRAC Service Module | | Not Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | | | |
+| Dell | Open Management Enterprise - Modular | | Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | Patch expected 2021-12-17 | | |
+| Dell | OpenManage Enterprise | | Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | Patch expected 2021-12-17 | | |
+| Dell | OpenManage Enterprise Services | | Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | Patch expected 2021-12-17 | | |
+| Devolutions | All products | | Not Affected | | [https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/) |  | | |
+| Dynatrace | Managed cluster nodes | | Affected | | | | | |
+| Dynatrace | Synthetic Activegates | | Affected | | | | | |
+| ElasticSearch | all products | | Not Affected | | | | | |
 | Cloudogu| Ecosystem | All | Affected | Yes | [Cloudogu Community](https://community.cloudogu.com/t/security-vulnerability-log4shell-cve-2021-44228/417)||||
 | Cloudogu| SCM-Manager|| Not Affected| | [SCM-Manager Blog](https://scm-manager.org/blog/posts/2021-12-13-log4shell/)||||
 | CyberArk | Privileged Threat Analytics (PTA)| N/A  | Affected | Yes | [CyberArk Customer Force](https://cyberark-customers.force.com/s/login/?ec=302&startURL=%2Fs%2Farticle%2FPTA-CVE-2021-44228-Mitigation-for-Privilege-Threat-Analytics) | | This advisory is available to customers only and has not been reviewed by CISA. |12/14/2021|
+| Datadog | Datadog Agent | >=6.17.0, <=6.32.1, >=7.17, <=7.23.1 | Fixed  | Yes | [Datadog Log4j Vulnerability Update](https://www.datadoghq.com/log4j-vulnerability/)||||
 |Devolutions|All products||Not Affected||[https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/)||||
 |DrayTek|Vigor Routers, Access Points, Switches, VigorACS Central Management Software, MyVigor Platform||Not Affected||[DrayTek Statement](https://www.draytek.com/about/security-advisory/log4shell-vulnerability-(cve-2021-44228)/)|||12/15/2021|
 |Dynatrace|Managed cluster nodes||Affected||||||
@@ -451,11 +451,6 @@ This list was initially populated using information from the following sources:
 | Fortinet | FortiWeb Cloud | | Not Affected | | [PSIRT Advisories  FortiGuard](https://www.fortiguard.com/psirt/FG-IR-21-245) | | ||
 | FusionAuth | FusionAuth  | 1.32 | Not Affected |  | [log4j CVE: How it affects FusionAuth (TLDR: It doesn't) - FusionAuth](https://fusionauth.io/blog/2021/12/10/log4j-fusionauth/) | | | |
 | Graylog | Graylog Server | All versions >= 1.2.0 and <= 4.2.2 | Affected | Yes | [Graylog Update for Log4j](https://www.graylog.org/post/graylog-update-for-log4j) | | | |
-| IBM  | BigFix Compliance | | Affected | No | | | | |
-| IBM  | BigFix Inventory | VM Manager Tool & SAP Tool | Affected | No |  | To verify if your instance is affected, go to the lib subdirectory of the tool (BESClient/LMT/SAPTOOL and BESClient/LMT/VMMAN) and check what version of log4j is included. Version is included in the name of the library. | | |
-| IBM | Server Automation | | Affected | No | |  | | |
-| IBM | Management Extender for VMware vCenter | | Affected | No |  | | | |
-| IBM | Resilient |  | Under Investigation | | | | | |
 | Gradle | Gradle | | Not Affected | No | [Gradle Blog - Dealing with the critical Log4j vulnerability](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. | | |
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Test Distribution Agent | < 1.6.2 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
