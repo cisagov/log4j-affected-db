@@ -345,6 +345,7 @@ This list was initially populated using information from the following sources:
 | Cloudera | Data Analytics Studio (DAS) | | Under Investigation | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | CyberArk | Privileged Threat Analytics (PTA)| N/A  | Affected | Yes | [CyberArk Customer Force](https://cyberark-customers.force.com/s/login/?ec=302&startURL=%2Fs%2Farticle%2FPTA-CVE-2021-44228-Mitigation-for-Privilege-Threat-Analytics) | | This advisory is available to customers only and has not been reviewed by CISA. |12/14/2021|
 | Devolutions | All products | | Not Affected | | [https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/) |  | | |
+| DrayTek | Vigor Routers, Access Points, Switches, VigorACS Central Management Software, MyVigor Platform | | Not Affected | | [DrayTek Statement](https://www.draytek.com/about/security-advisory/log4shell-vulnerability-(cve-2021-44228)/)|||12/15/2021|
 | Dynatrace | Managed cluster nodes | | Affected | | | | | |
 | Dynatrace | Synthetic Activegates | | Affected | | | | | |
 | ElasticSearch | all products | | Not Affected | | | | | |
