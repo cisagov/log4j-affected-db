@@ -18,6 +18,8 @@ and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
 
 National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
+# Mitigation Guidance
+CISA urges organizations operating products marked as "Fixed" to immediately implement listed patches/mitigations [here](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance).
 CISA will maintain a list of all publicly available information and
 vendor-supplied advisories regarding the Log4j vulnerability. This list is not
 a full list and will be updated continuously. If you have any additional
@@ -199,6 +201,7 @@ This list was initially populated using information from the following sources:
 | Broadcom | Web Isolation (WI) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Web Security Service (WSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | WebPulse | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
+| Chaser Systems | discrimiNAT Firewall | All | Not Affected | | [Are Chaser’s products affected](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) | | | |
 | Check Point | Quantum Security Gateway |  | Not Affected | | | | | |
 | Check Point | Quantum Security Management | | Not Affected | | | Uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. | | |
 | Check Point | CloudGuard | | Not Affected | | | | | |
@@ -821,6 +824,7 @@ This list was initially populated using information from the following sources:
 | McAfee | Network Security Manager (NSM) | | Under Investigation | | | | | |
 | McAfee | Network Security Platform (NSP) | | Under Investigation | | | |  | |
 | McAfee | Threat Intelligence Exchange (TIE) |  | Under Investigation | | | | | |
+| Microsoft | Azure Data lake store java | < 2.3.10 | Affected | | [azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) | | | |
 | Microsoft| Azure Data lake store java| < 2.3.10| Affected|| [azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310)||||
 | Microsoft| Azure DevOps|| Not Affected| | [Azure DevOps (and Azure DevOps Server) and the log4j vulnerability](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511)||||
 | Microsoft| Azure DevOps Server| 2019.0 - 2020.1| Affected| No | [Azure DevOps (and Azure DevOps Server) and the log4j vulnerability](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511)||||
@@ -1073,4 +1077,4 @@ This list was initially populated using information from the following sources:
 | VMware | VMware Horizon DaaS | 9.1.x, 9.0.x | Affected  | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Horizon Cloud Connector | 1.x, 2.x | Affected | Yes | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 |Zendesk|All Products|All Versions|Affected |No|[2021-12-13 Security Advisory - Apache Log4j (CVE-2021-44228)](https://support.zendesk.com/hc/en-us/articles/4413583476122)|Zendesk products are all cloud-based; thus there are no updates for the customers to install as the company is working on patching their infrastructure and systems.||12/13/2021|
-|Zscaler|Multiple Products||Not Affected|No|[CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581)|||
+|Zscaler|Multiple Products||Not Affected|No|[CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581)|||12/15/2012|
