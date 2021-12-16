@@ -501,7 +501,7 @@ This list was initially populated using information from the following sources:
 | Siemens | SIGUARD DSA | V4.2, 4.3, 4.4 | Affected | Yes | [Siemens Advisory Link]( https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | |12/15/2021 |
 | Siemens | SIMATIC WinCC | All Versions <V7.4 SP1 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
 | Siemens | SiPass integrated V2.80 | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
-| Siemens | SiPass integrated V2.85 | All Versions | Affected | Yes | None | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/15/2021 |
+| Siemens | SiPass integrated V2.85 | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| | | 12/15/2021 |
 | Siemens | Siveillance Command | All Versions >=4.16.2.1 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
 | Siemens | Siveillance Control Pro | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
 | Siemens | Siveillance Identity V1.5 | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
