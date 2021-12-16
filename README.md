@@ -166,6 +166,7 @@ This list was initially populated using information from the following sources:
 | Broadcom | Web Isolation (WI) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Web Security Service (WSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | WebPulse | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
+|Chaser Systems|	dscrimiNAT Firewall|	All|	Not Affected|	|	[Log4Shell and its traces in a network egress filter](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected)|		|	12/15/2021|
 | Check Point | Quantum Security Gateway |  | Not Affected | | | | | |
 | Check Point | Quantum Security Management | | Not Affected | | | Uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. | | |
 | Check Point | CloudGuard | | Not Affected | | | | | |
@@ -343,6 +344,7 @@ This list was initially populated using information from the following sources:
 | Cloudera | SmartSense | | Under Investigation | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Cloudera | Data Analytics Studio (DAS) | | Under Investigation | | [https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019](https://my.cloudera.com/knowledge/TSB-2021-545-Critical-vulnerability-in-log4j2-CVE-2021-44228?id=332019) | | | |
 | Devolutions | All products | | Not Affected | | [https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/) |  | | |
+|Diebold-Nixdorf|	Agilis|	|	Affected|	No|	[Apache Log4j Vulnerability](https://www.dieboldnixdorf.com/en-us/apache/)|	|	|	12/15/2021|
 | Dynatrace | Managed cluster nodes | | Affected | | | | | |
 | Dynatrace | Synthetic Activegates | | Affected | | | | | |
 | ElasticSearch | all products | | Not Affected | | | | | |
@@ -393,6 +395,13 @@ This list was initially populated using information from the following sources:
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Test Distribution Agent | < 1.6.2 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Build Cache Node | < 10.1 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
+| Gravitee | Access Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Access Management | 3.5.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | API Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | API Management | 3.5.x | Not Affected | No |  [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Alert Engine | 1.5.x | Not Affected | Yes |  [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Alert Engine | 1.4.x | Not Affected | No |  [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Cockpit | 1.4.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
 |IBM|Cognos Controller|10.4.2|Affected|Yes|[Security Bulletin: IBM Cognos Controller 10.4.2 IF15: Apache log4j Vulnerability (CVE-2021-44228)](https://www.ibm.com/support/pages/node/6526468>)|||12/15/2021|
 |IBM|Planning Analytics Workspace|>2.0.57|Affected|Yes|[Security Bulletin: IBM Planning Analytics 2.0: Apache log4j Vulnerability (CVE-2021-44228)](https://www.ibm.com/support/pages/node/6525700)|||12/15/2021|
 |IBM|Power HMC|V9.2.950.0 & V10.1.1010.0|Affected|Yes|[Security Bulletin: Vulnerability in Apache Log4j (CVE-2021-44228) affects Power HMC](https://www.ibm.com/support/pages/node/6526172?myns=pwrsmc&mynp=OCSGGSNP&mync=E&cm_sp=pwrsmc-_-OCSGGSNP-_-E)|||12/15/2021|
@@ -415,6 +424,10 @@ This list was initially populated using information from the following sources:
 | MongoDB | MongoDB Drivers | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | MongoDB | MongoDB Tools (including Compass, Database Shell, VS Code Plugin, Atlas CLI, Database Connectors) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | MongoDB | MongoDB Realm (including Realm Database, Sync, Functions, APIs) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
+|Mulesoft|	Mule Runtime|	3.x,4.x|	Affected|	Yes|	[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|	This advisory is available to account holders only and has not been reviewed by CISA.|	|	12/15/2021|
+|Mulesoft|	Mule Agent|	6.x|	Affected|	Yes|	[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|	This advisory is available to account holders only and has not been reviewed by CISA.|	|	12/15/2021|
+|Mulesoft|	Cloudhub|	|	Affected|	Yes|	[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|	This advisory is available to account holders only and has not been reviewed by CISA.|	|	12/15/2021|
+|Mulesoft|	Anypoint Studio|	7.x|	Affected|	Yes|	[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|	This advisory is available to account holders only and has not been reviewed by CISA.|	|	12/15/2021|
 | Netapp | Multiple NetApp products | | Affected | | [https://security.netapp.com/advisory/ntap-20211210-0007/](https://security.netapp.com/advisory/ntap-20211210-0007/) | |  | |
 |New Relic|New Relic Java Agent|<7.4.2|Affected|Yes|[Java agent v7.4.2](https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-742/)|Initially fixed in 7.4.1, but additional vulnerability found|[New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605), covers CVE-2021-44228, CVE-2021-45046|12/15/2021|
 | Okta | Okta RADIUS Server Agent | < 2.17.0 | Affected | | [Okta RADIUS Server Agent CVE-2021-44228  Okta](https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228) | | | 12/12/2021 |
@@ -480,6 +493,8 @@ This list was initially populated using information from the following sources:
 | RSA | SecurID Governance and Lifecycle | | Not Affected | | | | | |
 | RSA | SecurID Governance and Lifecycle Cloud | | Not Affected | | | | | |
 | Ruckus | Virtual SmartZone (vSZ) | 5.1 to 6.0  | Affected |  | [Ruckus Wireless (support.ruckuswireless.com)](https://support.ruckuswireless.com/security_bulletins/313) | | | 12/13/2021 |
+|SBT|	SBT|	<1.5.6|	Affected|	Yes|	[Release 1.5.7 · sbt/sbt (github.com)](https://github.com/sbt/sbt/releases/tag/v1.5.7)|	|	|	12/15/2021|
+|Shibboleth|	All Products|	Identity Provider >= 3.0, All other software versions|	NotAffected|	|	[Log4j CVE (non)-impact](https://shibboleth.net/pipermail/announce/2021-December/000253.html)|	|	|	12/10/2021|
 | Siemens | Capital | All Versions >- 2019.1 SP1912 | Affected | Yes | [Vendor Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Only affected if Teamcenter integration feature is used. Mitigation: [Mitigation Link](https://support.sw.siemens.com/en-US/knowledge-base/MG618363) | | 12/15/2021 |
 | Siemens | Comos Desktop App | All Versions | Affected | Yes | [Vendor Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | | 12/15/2021 |
 | Siemens | Desigo CC Advanced Reporting | V4.0, 4.1, 4.2, 5.0, 5.1 | Affected | Yes | [Vendor Link]( https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  |  | 12/15/2021 |
