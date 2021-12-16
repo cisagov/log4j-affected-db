@@ -58,7 +58,6 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product| Version(s)| Status| Update available| Vendor link | Notes | Other References | Last Updated |
 | ------ | -------------------- | ---- | ----- | --------------- | ----------- | ----- | ---------------- | ------------ |
-
 |3M Health Information Systems| CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) |This advisory is available to customers only and has not been reviewed by CISA.||12/15/2021|
 | Akamai | SIEM Splunk Connector| All  | Affected |  | [GitHub - akamai/siem-splunk-connector: Akamai SIEM Connector for Splunk](https://github.com/akamai/siem-splunk-connector) | | | |
 | Amazon | OpenSearch | Unknown | Affected | Yes [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
