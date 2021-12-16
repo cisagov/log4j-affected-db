@@ -55,7 +55,7 @@ This list was initially populated using information from the following sources:
 | Amazon | OpenSearch | Unknown | Affected | Yes [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | AWS CloudHSM | < 3.4.1. | Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
-| Amazon | EC2 | Amazon Linux 1 & 2 | Unknown | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+| Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
 | Apache | Druid | < druid 0.22.0 | Affected | Yes | [Release druid-0.22.1 · apache/druid · GitHub](https://github.com/apache/druid/releases/tag/druid-0.22.1) | | | 12/12/2021|
 | Apache | Flink | < flink 1.15.0, 1.14.1, 1.13.3 | Affected | No | [Apache Flink: Advise on Apache Log4j Zero Day (CVE-2021-44228)](https://flink.apache.org/2021/12/10/log4j-cve.html) | | | 12/12/2021 |
 | Apache | Log4j | < 2.15.0 | Affected | Yes | [Log4j – Apache Log4j Security Vulnerabilities](https://logging.apache.org/log4j/2.x/security.html) | | | |
