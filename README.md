@@ -13,7 +13,6 @@ and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
 
 ## CISA Current Activity Alerts ##
 
-- [Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
 - [CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
 
 National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
