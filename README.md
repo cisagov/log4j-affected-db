@@ -398,6 +398,7 @@ This list was initially populated using information from the following sources:
 |IBM|Cognos Controller|10.4.2|Affected|Yes|[Security Bulletin: IBM Cognos Controller 10.4.2 IF15: Apache log4j Vulnerability (CVE-2021-44228)](https://www.ibm.com/support/pages/node/6526468>)|||12/15/2021|
 |IBM|Planning Analytics Workspace|>2.0.57|Affected|Yes|[Security Bulletin: IBM Planning Analytics 2.0: Apache log4j Vulnerability (CVE-2021-44228)](https://www.ibm.com/support/pages/node/6525700)|||12/15/2021|
 |IBM|Power HMC|V9.2.950.0 & V10.1.1010.0|Affected|Yes|[Security Bulletin: Vulnerability in Apache Log4j (CVE-2021-44228) affects Power HMC](https://www.ibm.com/support/pages/node/6526172?myns=pwrsmc&mynp=OCSGGSNP&mync=E&cm_sp=pwrsmc-_-OCSGGSNP-_-E)|||12/15/2021|
+| ISEC7 | Sphere | N/A | Not Affected | No | | | |12/15/2021|
 | Jenkins | CI/CD Core |  | Not Affected | | | | | |
 | Jenkins | Plugins | | Unkown |  | | Need to audit plugins for use of log4j  |  | |
 | Jetbrains |  | | Affected | Yes | [https://www.jetbrains.com/help/license\_server/release\_notes.html](https://www.jetbrains.com/help/license_server/release_notes.html) | | | |
