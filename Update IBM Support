@@ -77,7 +77,6 @@ This list was initially populated using information from the following sources:
 | Atlassian | Crowd Server & Data Center | All | Affected | Yes | [FAQ for CVE-2021-44228  Atlassian Support  Atlassian Documentation](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) | So far, we do not believe our on-premises products are vulnerable to exploitation in their default configuration. However, if a you have modified the default logging configuration (log4j.properties) to enable the JMS Appender functionality, remote code execution may be possible | | |
 | Atlassian | Fisheye | All | Affected | Yes | [FAQ for CVE-2021-44228  Atlassian Support  Atlassian Documentation](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) | So far, we do not believe our on-premises products are vulnerable to exploitation in their default configuration. However, if a you have modified the default logging configuration (log4j.properties) to enable the JMS Appender functionality, remote code execution may be possible | | |
 | Atlassian | Crucible | All | Affected | Yes | [FAQ for CVE-2021-44228  Atlassian Support  Atlassian Documentation](https://confluence.atlassian.com/kb/faq-for-cve-2021-44228-1103069406.html) | | | |
-| Appeon | PowerBuilder | Appeon PowerBuilder 2017-2021 regardless of product edition  | Affected | No | | | |12/15/2021|
 | BMC | BMC Helix ITSM | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | | | |
 | BMC | BMC Helix Discovery | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | |                  |              |
 | BMC | BMC Helix Remedyforce | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | | | |
@@ -347,7 +346,6 @@ This list was initially populated using information from the following sources:
 | Dynatrace | Managed cluster nodes | | Affected | | | | | |
 | Dynatrace | Synthetic Activegates | | Affected | | | | | |
 | ElasticSearch | all products | | Not Affected | | | | | |
-| FedEx | Ship Manager Software | Unknown | Affected/Under Investigation | | [FedEx Statement](https://www.fedex.com/en-us/shipping/ship-manager/software.html#tab-4)|Note: FedEx is aware of the issue related to the Log4j Remote Code Execution vulnerability affecting various Apache products. We are actively assessing the situation and taking necessary action as appropriate. As a result, we are temporarily unable to provide a link to download the FedEx Ship Manager software or generate product keys needed for registration of FedEx Ship Manager software. We are working to have this resolved as quickly as possible and apologize for the inconvenience. For related questions or the most updated information, customers should check FedEx Updates for Apache Log4j Issue or contact their Customer Technology representative.||12/15/2021|
 | F-Secure | Endpoint Proxy | 13-15 | Affected | Yes | [F-Secure services Status - 0-day exploit found in the Java logging package log4j2](https://status.f-secure.com/incidents/sk8vmr0h34pd) | | | |
 | F-Secure | Policy Manager | 13-15 | Affected | Yes | [F-Secure services Status - 0-day exploit found in the Java logging package log4j2](https://status.f-secure.com/incidents/sk8vmr0h34pd) | | | |
 | F-Secure| Policy Manager Proxy | 13-15 | Affected | Yes | [F-Secure services Status - 0-day exploit found in the Java logging package log4j2](https://status.f-secure.com/incidents/sk8vmr0h34pd) | | | |
@@ -395,9 +393,70 @@ This list was initially populated using information from the following sources:
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Test Distribution Agent | < 1.6.2 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Build Cache Node | < 10.1 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
-|IBM|Cognos Controller|10.4.2|Affected|Yes|[Security Bulletin: IBM Cognos Controller 10.4.2 IF15: Apache log4j Vulnerability (CVE-2021-44228)](https://www.ibm.com/support/pages/node/6526468>)|||12/15/2021|
-|IBM|Planning Analytics Workspace|>2.0.57|Affected|Yes|[Security Bulletin: IBM Planning Analytics 2.0: Apache log4j Vulnerability (CVE-2021-44228)](https://www.ibm.com/support/pages/node/6525700)|||12/15/2021|
-|IBM|Power HMC|V9.2.950.0 & V10.1.1010.0|Affected|Yes|[Security Bulletin: Vulnerability in Apache Log4j (CVE-2021-44228) affects Power HMC](https://www.ibm.com/support/pages/node/6526172?myns=pwrsmc&mynp=OCSGGSNP&mync=E&cm_sp=pwrsmc-_-OCSGGSNP-_-E)|||12/15/2021|
+| IBM | All products | | Investigation | Yes | [IBM PSIRT](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/)|  |  | 12-15-21 |
+| IBM | IBM Application Navigator | All | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526612)|  |  | 12-15-21 |
+| IBM | IBM Cognos Analytics | 11.2.x, 11.1.x, 11.0.x | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526474)|  |  | 12-15-21 |
+| IBM | IBM Cognos Controller | 10.4.2 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526468)|  |  | 12-15-21 |
+| IBM | IBM Cloud Object Storage Systems | Long Term Support Release – 3.16.0.47 and Prior 3.16.0 Releases | Fixed | Yes | [IBM PSIRT](https://www.ibm.com/blogs/psirt/security-bulletin-apache-log4j-vulnerabilities-affect-ibm-cloud-object-storage-systems-clevos-cve-2021-44228/)|  |  | 12-15-21 |
+| IBM | IBM Cloud Object Storage Systems | Active Release – 3.16.1.39 and Prior 3.16.1 Releases | Fixed | Yes | [IBM PSIRT](https://www.ibm.com/blogs/psirt/security-bulletin-apache-log4j-vulnerabilities-affect-ibm-cloud-object-storage-systems-clevos-cve-2021-44228/)|  |  | 12-15-21 |
+| IBM | IBM Cloud Transformation Advisor | 2.5.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526212)|  |  | 12-15-21 |
+| IBM | IBM® Db2® | 11.5 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526462)|  |  | 12-15-21 |
+| IBM | IBM® Db2® | V9.7, V10.1, V10.5 and V11.1 | Not Affected | Yes | [IBM PSIRT](https://www.ibm.com/blogs/psirt/security-bulletin-vulnerability-in-apache-log4j-affects-some-features-of-ibm-db2-cve-2021-44228/)|  |  | 12-15-21 |
+| IBM | IBM Disconnected Log Collector | 1.0 - v1.7 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526178)|  |  | 12-15-21 |
+| IBM | i2 Analyze | 4.3.5.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | i2 Analyze application server and Solr bundled with EIA 2.4.1.0 |  | 12-15-21 |
+| IBM | i2 Analyze | 4.3.4.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | i2 Analyze application server and Solr bundled with EIA 2.4.0.0 |  | 12-15-21 |
+| IBM | i2 Analyze | 4.3.3.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | i2 Analyze application server and Solr bundled with EIA 2.3.4.0 |  | 12-15-21 |
+| IBM | i2 Connect | 1.1.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | i2 Analyze application server and Solr shipped with i2 Analyze 4.3.5.0 |  | 12-15-21 |
+| IBM | i2 Connect | 1.1.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | i2 Analyze application server and Solr shipped with i2 Analyze 4.3.4.0  |  | 12-15-21 |
+| IBM | i2 Connect | 1.0.3 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220)  | i2 Analyze application server and Solr shipped with i2 Analyze 4.3.3.0 |  | 12-15-21 |
+| IBM | Analyst's Notebook Premium | 9.3.1, 9.3.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | i2 Analyze application server and Solr; Chart store component  |  | 12-15-21 |
+| IBM | Analyst's Notebook Premium | 9.3.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | i2 Analyze application server and Solr; Chart store component |  | 12-15-21 |
+| IBM | i2 Analyze | 4.3.2.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | Solr only bundled with EIA 2.3.2.0 |  | 12-15-21 |
+| IBM | i2 Analyze | 4.3.1.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220)| Solr only bundled with EIA 2.3.1.1 |  | 12-15-21 |
+| IBM | i2 Analyze | 4.3.1.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220)| Solr only bundled with EIA 2.3.1.0 |  | 12-15-21 |
+| IBM | i2 Connect | 1.0.2 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | Solr only shipped with i2 Analyze 4.3.2.0 |  | 12-15-21 |
+| IBM | i2 Connect | 1.0.1.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | Solr only shipped with i2 Analyze 4.3.1.1 |  | 12-15-21 |
+| IBM | Analyst's Notebook Premium | 9.2.2 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526220) | Solr only; Chart Store component |  | 12-15-21 |
+| IBM | IBM MQ | 9.2 CD, 9.1 CD, 9.2 LTS | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526274)|  |  | 12-15-21 |
+| IBM | IBM Netezza Analytics for NPS | All versions <= 11.2.21 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525816)|  |  | 12-15-21 |
+| IBM | IBM Netezza Analytics | All versions <= 3.3.9 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525816)| |  | 12-15-21 |
+| IBM | IBM Planning Analytics Workspace | 2.0.57 => | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525700)|  |  | 12-15-21 |
+| IBM | IBM Power Hardware Management Console (HMC) | V10.1.1010.0, V9.2.950.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526172)|  |  | 12-15-21 |
+| IBM | QRadar User Behavior Analytics | All | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526640)|  |  | 12-15-21 |
+| IBM | IBM Security Access Manager | 9.0.7-ISS-ISAM-FP0002 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526174)|  |  | 12-15-21 |
+| IBM | IBM Security Verify Access Docker | 10.0.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526174)|  |  | 12-15-21 |
+| IBM | IBM Security Verify Access | 10.0.2-ISS-ISVA-FP0000 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526174)|  |  | 12-15-21 |
+| IBM | IBM Spectrum Conductor | 2.4.1, 2.5.0, 2.5.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526528)|  |  | 12-15-21 |
+| IBM | IBM Spectrum Protect Client web user interface | 8.1.7.0-8.1.13.0 (Linux and Windows) | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6527080)|  |  | 12-15-21 |
+| IBM | IBM Spectrum Protect Client web user interface | 8.1.9.0-8.1.13.0 (AIX) | Fixed | Yes| [IBM Support](https://www.ibm.com/support/pages/node/6527080)|  |  | 12-15-21 |
+| IBM | IBM Spectrum Protect for Virtual Environments: Data Protection for VMware | 8.1.0.0-8.1.13.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6527080) | see Note 1 |  | 12-15-21 |
+| IBM | IBM Spectrum Protect for Virtual Environments: Data Protection for VMware | 7.1.0.0-7.1.8.12 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6527080)|  |  | 12-15-21 |
+| IBM | IBM Spectrum Protect for Virtual Environments: Data Protection for Hyper-V | 8.1.4.0-8.1.13.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6527080)| see Note 1 |  | 12-15-21 |
+| IBM | IBM Spectrum Symphony | 7.2.0.2, 7.2.1, 7.2.1.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526520)|  |  | 12-15-21 |
+| IBM | IBM Spectrum Symphony Developer Edition | 7.2.0.2, 7.2.1, 7.2.1.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526520)|  |  | 12-15-21 |
+| IBM | IBM Spectrum Symphony | 7.3, 7.3.1, 7.3.2 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526520)|  |  | 12-15-21 |
+| IBM | SPSS Statistics | 28.0.1, 27.0.1, 26.0, 25.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526182)|  |  | 12-15-21 |
+| IBM | SPSS Statistics Subscription | 1.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526184)|  |  | 12-15-21 |
+| IBM | IBM Sterling File Gateway | 6.0.0.0 - 6.1.1.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526204)|  |  | 12-15-21 |
+| IBM | Sterling Order Management SaaS, On-prem and Certified Containers (including Store Engagement & Call Center) | 1.x | Not Affected | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525544)|  |  | 12-15-21 |
+| IBM | Sterling Order Management Inventory Visibility Microservice | 2.14.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525544)|  |  | 12-15-21 |
+| IBM | Sterling Order Management Promising Microservice | 2.13.3 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525544)|  |  | 12-15-21 |
+| IBM | Sterling Order Management OMS Data Exchange Service | 2.11.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525544)|  |  | 12-15-21 |
+| IBM | Sterling Order Management Store Inventory Management Microservice | 2.13.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525544)|  |  | 12-15-21 |
+| IBM | Sterling Order Management Order Hub | 2.13.1 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525544)|  |  | 12-15-21 |
+| IBM | Sterling Order Management Sterling Fulfillment Optimizer (SFO) | 2.14.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525544)|  |  | 12-15-21 |
+| IBM | Sterling Order Management CPQ: Omni- Configurator and VM | 2.14.0 (v10), 1.x (v9.5) | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525544)|  |  | 12-15-21 |
+| IBM | Sterling Order Management CPQ: Field Sales Application | 1.x | Not Affected | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525544)|  |  | 12-15-21 |
+| IBM | IBM Transformation Extender | 10.0.3.0, 10.1.0.0, 10.1.0.1, 10.1.1.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6526646)|  |  | 12-15-21 |
+| IBM | VM Manager Tool (part of License Metric Tool) | >9.2.21,<9.2.26 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525762/)|  |  | 12-15-21 |
+| IBM | IBM Watson Explorer Deep Analytics Edition Foundational Components | 12.0.0.0, 12.0.1, 12.0.2.0 – 12.0.2.2, 12.0.3.0 – 12.0.3.7 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525826)|  |  | 12-15-21 |
+| IBM | IBM Watson Explorer Deep Analytics Edition Analytical Components | 12.0.0.0, 12.0.1, 12.0.2.0 – 12.0.2.2, 12.0.3.0 – 12.0.3.7 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525826)|  |  | 12-15-21 |
+| IBM | IBM Watson Explorer Deep Analytics Edition oneWEX | 12.0.0.0, 12.0.0.1, 12.0.1, 12.0.2.0 – 12.0.2.2, 12.0.3.0 – 12.0.3.7 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525826)|  |  | 12-15-21 |
+| IBM | IBM Watson Explorer Foundational Components | 11.0.0.0 – 11.0.0.3, 11.0.1, 11.0.2.0 – 11.0.2.11 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525826)|  |  | 12-15-21 |
+| IBM | IBM Watson Explorer Analytical Components | 11.0.0.0 – 11.0.0.3, 11.0.1, 11.0.2.0 – 11.0.2.11 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525826)|  |  | 12-15-21 |
+| IBM | Websphere | 8.5 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525706/) | fix: PH42728 |  | 12-15-21 |
+| IBM | Websphere | 9.0 | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525706/) | fix: PH42728 |  | 12-15-21 |
+| IBM | Websphere Hybrid Edition | All | Fixed | Yes | [IBM Support](https://www.ibm.com/support/pages/node/6525706/) | fix: PH42728 |  | 12-15-21 |
 | Jenkins | CI/CD Core |  | Not Affected | | | | | |
 | Jenkins | Plugins | | Unkown |  | | Need to audit plugins for use of log4j  |  | |
 | Jetbrains |  | | Affected | Yes | [https://www.jetbrains.com/help/license\_server/release\_notes.html](https://www.jetbrains.com/help/license_server/release_notes.html) | | | |
@@ -438,7 +497,6 @@ This list was initially populated using information from the following sources:
 | Palo-Alto | Cortex XSOAR | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
 | Palo-Alto | Cortex XDR Agent | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
 | Palo-Alto | CloudGenix | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto | Panorama | 9.0, 9.1, 10.0 | Affected | Yes | [Unit42 Palo-Alto Apache Log4j Vulnerability](https://unit42.paloaltonetworks.com/apache-log4j-vulnerability-cve-2021-44228/) | | Upgrade Panorama to PAN-OS 10.1 to remediate this issue. This advisory will be updated when hot fixes for the affected Panorama versions are available | 12/15/2021 |
 | Pulse Secure | Pulse Secure Virtual Traffic Manager | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Pulse Secure Services Director | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Pulse Secure Web Application Firewall | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
@@ -504,7 +562,7 @@ This list was initially populated using information from the following sources:
 | Siemens | SIGUARD DSA | V4.2, 4.3, 4.4 | Affected | Yes | [Siemens Advisory Link]( https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | |12/15/2021 |
 | Siemens | SIMATIC WinCC | All Versions <V7.4 SP1 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
 | Siemens | SiPass integrated V2.80 | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
-| Siemens | SiPass integrated V2.85 | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| | | 12/15/2021 |
+| Siemens | SiPass integrated V2.85 | All Versions | Affected | Yes | None | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/15/2021 |
 | Siemens | Siveillance Command | All Versions >=4.16.2.1 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
 | Siemens | Siveillance Control Pro | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
 | Siemens | Siveillance Identity V1.5 | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
