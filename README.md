@@ -58,7 +58,7 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product| Version(s)| Status| Update available| Vendor link | Notes | Other References | Last Updated |
 | ------ | -------------------- | ---- | ----- | --------------- | ----------- | ----- | ---------------- | ------------ |
-| Akamai | SIEM Splunk Connector| All  | Affected |  | [GitHub - akamai/siem-splunk-connector: Akamai SIEM Connector for Splunk](https://github.com/akamai/siem-splunk-connector) | | | |
+| Akamai | SIEM Splunk Connector| All  | Affected |  | [GitHub - akamai/siem-splunk-connector: Akamai SIEM Connector for Splunk](https://splunkbase.splunk.com/app/4310/) |v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities. | |12/15/2021|
 | Amazon | OpenSearch | Unknown | Affected |  | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | AWS CloudHSM | < 3.4.1. | Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
@@ -418,6 +418,7 @@ This list was initially populated using information from the following sources:
 | MongoDB | MongoDB Tools (including Compass, Database Shell, VS Code Plugin, Atlas CLI, Database Connectors) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | MongoDB | MongoDB Realm (including Realm Database, Sync, Functions, APIs) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | Netapp | Multiple NetApp products | | Affected | | [https://security.netapp.com/advisory/ntap-20211210-0007/](https://security.netapp.com/advisory/ntap-20211210-0007/) | |  | |
+|New Relic|New Relic Java Agent|<7.4.2|Affected|Yes|[Java agent v7.4.2](https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-742/)|Initially fixed in 7.4.1, but additional vulnerability found|[New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605), covers CVE-2021-44228, CVE-2021-45046|12/15/2021|
 | Okta | Okta RADIUS Server Agent | < 2.17.0 | Affected | | [Okta RADIUS Server Agent CVE-2021-44228  Okta](https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228) | | | 12/12/2021 |
 | Okta| Okta On-Prem MFA Agent| < 1.4.6 | Affected | | [Okta On-Prem MFA Agent CVE-2021-44228  Okta](https://trust.okta.com/security-advisories/okta-on-prem-mfa-agent-cve-2021-44228)| || 12/12/2021 |
 | Okta | Advanced Server Access | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
@@ -567,4 +568,5 @@ This list was initially populated using information from the following sources:
 | VMware | VMware Workspace ONE Access Connector (VMware Identity Manager Connector) | 21.x, 20.10.x, 19.03.0.1 | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Horizon DaaS | 9.1.x, 9.0.x | Affected  | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Horizon Cloud Connector | 1.x, 2.x | Affected | Yes | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
+|Zendesk|All Products|All Versions|Affected |No|[2021-12-13 Security Advisory - Apache Log4j (CVE-2021-44228)](https://support.zendesk.com/hc/en-us/articles/4413583476122)|Zendesk products are all cloud-based; thus there are no updates for the customers to install as the company is working on patching their infrastructure and systems.||12/13/2021|
 |Zscaler|Multiple Products||Not Affected|No|[CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581)|||
