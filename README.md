@@ -767,6 +767,7 @@ This list was initially populated using information from the following sources:
 | Jenkins | CI/CD Core |  | Not Affected | | | | | |
 | Jenkins | Plugins | | Unkown |  | | Need to audit plugins for use of log4j  |  | |
 | Jetbrains |  | | Affected | Yes | [https://www.jetbrains.com/help/license\_server/release\_notes.html](https://www.jetbrains.com/help/license_server/release_notes.html) | | | |
+| MathWorks | All MathWorks general release desktop or server products |  | Not Affected | No | [MathWorks statement regarding CVE-2021-44228](https://www.mathworks.com/matlabcentral/answers/1610640-apache-log4j-vulnerability-cve-2021-44228-how-does-it-affect-matlab-run-time) | | |
 | Lenovo | DSS-G |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
 | Lenovo | XClarity Administrator (LXCA) |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
 | Lenovo | XClarity Energy Manager (LXEM) |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
@@ -805,6 +806,7 @@ This list was initially populated using information from the following sources:
 | Lenovo | ThinkSystem DM Series Storage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | See also NetApp advisory. | | 2021-12-14 |
 | Lenovo | ThinkSystem DS Series Storage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
 | Lenovo | ThinkSystem Manager (TSM) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+
 | McAfee | ePolicy Orchestrator Agent Handlers (ePO-AH) |  | Not Affected | |  | | | |
 | McAfee | Data Exchange Layer (DXL) |  | Under Investigation | |  | | | |
 | McAfee | Enterprise Security Manager (ESM) |  | Under Investigation | | | | | |
