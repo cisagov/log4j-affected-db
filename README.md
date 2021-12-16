@@ -15,8 +15,6 @@ and upgrade to Log4j 2.16.0 or apply the recommended mitigations immediately.
 
 - [CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
 
-National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
-
 ## Mitigation Guidance ##
 
 CISA urges organizations operating products marked as "Fixed" to immediately
@@ -30,6 +28,8 @@ implement alternate controls, including:
   to the Java Virtual Machine command for starting your application.
 - Ensure that any alerts from a vulnerable device are immediately actioned.
 - Report incidents promptly to CISA and/or the FBI [here](https://www.cisa.gov/uscert/report).
+
+National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
 ## Status Descriptions ##
 
