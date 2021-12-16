@@ -937,7 +937,7 @@ This list was initially populated using information from the following sources:
 | Real-Time Innovations (RTI) | Distributed Logger| | Not Affected | |[RTI Statement](https://community.rti.com/kb/apache-log4j-vulnerability-cve-2021-44228cve-2021-45046-impact-rti-connext-products) | | |12/16/2021 |
 | Real-Time Innovations (RTI) | RTI Micro Application Generator (MAG)| as part of RTI Connext Professional 6.0.0 and 6.0.1| Affected | |[RTI Statement](https://community.rti.com/kb/apache-log4j-vulnerability-cve-2021-44228cve-2021-45046-impact-rti-connext-products) | | |12/16/2021 |
 | Real-Time Innovations (RTI) | RTI Micro Application Generator (MAG)| as part of RTI Connext Micro 3.0.0, 3.0.1, 3.0.2, 3.0.3 | Affected | |[RTI Statement](https://community.rti.com/kb/apache-log4j-vulnerability-cve-2021-44228cve-2021-45046-impact-rti-connext-products) | | |12/16/2021 |
-| Red Hat build of Quarkus | log4j-core low  | | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228)  | | | |
+| Red Hat build of Quarkus | log4j-core low  | | Not Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228)  | | | |
 | Red Hat CodeReady Studio 12 | log4j-core | | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Red Hat Data Grid 8 | log4j-core | | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Red Hat Descision Manager 7 | log4j-core low | | Affected | No| [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
