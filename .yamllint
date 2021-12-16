@@ -1,0 +1,7 @@
+---
+extends: default
+
+rules:
+  # yamllint doesn't like when we use yes and no for true and false,
+  # but that's pretty standard in Ansible.
+  truthy: disable
