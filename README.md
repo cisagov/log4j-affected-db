@@ -775,6 +775,7 @@ This list was initially populated using information from the following sources:
 |IBM|Workload Automation||Not Affected||[An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products)|||12/15/2021|
 | Intland | codebeamer | <= 20.11-SP11, <= 21.09-SP3 | Affected | Some releases | [https://codebeamer.com/cb/wiki/19872365](Apache Log4j vulnerability and fixes) | A fix has been released for [https://codebeamer.com/cb/wiki/13134438](20.11) and [https://codebeamer.com/cb/wiki/19418497](21.09), but not yet for [https://codebeamer.com/cb/wiki/16937839](21.04) | | |
 | ISEC7 | Sphere | N/A | Not Affected | No | | | |12/15/2021|
+| Jamf | Jamf Pro | 10.31.0 – 10.34.0 | Affected | Yes | [Mitigating the Apache Log4j 2 Vulnerability](https://docs.jamf.com/technical-articles/Mitigating_the_Apache_Log4j_2_Vulnerability.html)||||
 | Jenkins | CI/CD Core |  | Not Affected | | | | | |
 | Jenkins | Plugins | | Unkown |  | | Need to audit plugins for use of log4j  |  | |
 | Jetbrains |  | | Affected | Yes | [https://www.jetbrains.com/help/license\_server/release\_notes.html](https://www.jetbrains.com/help/license_server/release_notes.html) | | | |
