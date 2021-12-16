@@ -929,6 +929,8 @@ This list was initially populated using information from the following sources:
 | Red Hat Software Collections | rh-maven35-log4j12 | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Red Hat Software Collections | rh-java-common-log4j | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Redhat | log4j-core | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
+| Redhat | Satellite 5 | | Not Affected | | | | | |
+| Redhat | Spacewalk | | Not Affected | | | | | |
 | Rockwell Automation | Warehouse Management | 4.01.00, 4.02.00, 4.02.01, 4.02.02| Affected | Under development | [PN1579 - Log4Shell Vulnerability Notice](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) | | | 12/15/2021 |
 | Rockwell Automation | MES EIG |  3.03.00 | Affected | No, product discontinued | [PN1579 - Log4Shell Vulnerability Notice](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) | Customers should upgrade to EIG Hub if possible or work with their local representatives about alternative solutions. | | 12/15/2021 |
 | Rockwell Automation | Industrial Data Center | Gen 1, Gen 2, Gen 3, Gen 3.5 | Fixed | Follow the mitigation instructions outlined by VMware in VMSA-2021-0028 | [PN1579 - Log4Shell Vulnerability Notice](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) | | | 12/15/2021 |
