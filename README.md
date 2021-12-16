@@ -775,7 +775,7 @@ This list was initially populated using information from the following sources:
 | Intland | codebeamer | <= 20.11-SP11, <= 21.09-SP3 | Affected | Some releases | [https://codebeamer.com/cb/wiki/19872365](Apache Log4j vulnerability and fixes) | A fix has been released for [https://codebeamer.com/cb/wiki/13134438](20.11) and [https://codebeamer.com/cb/wiki/19418497](21.09), but not yet for [https://codebeamer.com/cb/wiki/16937839](21.04) | | |
 | ISEC7 | Sphere | N/A | Not Affected | No | | | |12/15/2021|
 | Jenkins | CI/CD Core |  | Not Affected | | | | | |
-| Jenkins | Plugins | | Unkown |  | | Need to audit plugins for use of log4j  |  | |
+| Jenkins | Plugins | | Some affected, some fixed, most unaffected. See [issue tracker](https://issues.jenkins.io/browse/JENKINS-67353) | Some | [Announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/), [issue tracker](https://issues.jenkins.io/browse/JENKINS-67353)  | [Instructions to test your installations in announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/) |  | 2021-12-16 |
 | Jetbrains |  | | Affected | Yes | [https://www.jetbrains.com/help/license\_server/release\_notes.html](https://www.jetbrains.com/help/license_server/release_notes.html) | | | |
 | MathWorks | All MathWorks general release desktop or server products |  | Not Affected | No | [MathWorks statement regarding CVE-2021-44228](https://www.mathworks.com/matlabcentral/answers/1610640-apache-log4j-vulnerability-cve-2021-44228-how-does-it-affect-matlab-run-time) | | |
 | Lenovo | DSS-G |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
