@@ -381,6 +381,7 @@ This list was initially populated using information from the following sources:
 | Cloudogu| Ecosystem | All | Affected | Yes | [Cloudogu Community](https://community.cloudogu.com/t/security-vulnerability-log4shell-cve-2021-44228/417)||||
 | Cloudogu| SCM-Manager|| Not Affected| | [SCM-Manager Blog](https://scm-manager.org/blog/posts/2021-12-13-log4shell/)||||
 | CyberArk | Privileged Threat Analytics (PTA)| N/A  | Affected | Yes | [CyberArk Customer Force](https://cyberark-customers.force.com/s/login/?ec=302&startURL=%2Fs%2Farticle%2FPTA-CVE-2021-44228-Mitigation-for-Privilege-Threat-Analytics) | | This advisory is available to customers only and has not been reviewed by CISA. |12/14/2021|
+| Datadog | Datadog Agent | Fixed | >= 6.17.0 - <= 6.32.1, >= 7.17 - <= 7.23.1 | Yes | [Datadog Log4j Vulnerability Update](https://www.datadoghq.com/log4j-vulnerability/)||||
 |Devolutions|All products||Not Affected||[https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/)||||
 |DrayTek|Vigor Routers, Access Points, Switches, VigorACS Central Management Software, MyVigor Platform||Not Affected||[DrayTek Statement](https://www.draytek.com/about/security-advisory/log4shell-vulnerability-(cve-2021-44228)/)|||12/15/2021|
 |Dynatrace|Managed cluster nodes||Affected||||||
