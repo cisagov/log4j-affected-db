@@ -810,6 +810,7 @@ This list was initially populated using information from the following sources:
 | Lenovo | ThinkSystem DM Series Storage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | See also NetApp advisory. | | 2021-12-14 |
 | Lenovo | ThinkSystem DS Series Storage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
 | Lenovo | ThinkSystem Manager (TSM) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+|ManageEngine|Servicedsk Plus|11305 and below|Affected| | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html)|||12/15/2021|
 | McAfee | ePolicy Orchestrator Agent Handlers (ePO-AH) |  | Not Affected | |  | | | |
 | McAfee | Data Exchange Layer (DXL) |  | Under Investigation | |  | | | |
 | McAfee | Enterprise Security Manager (ESM) |  | Under Investigation | | | | | |
