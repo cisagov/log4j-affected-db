@@ -58,6 +58,7 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product| Version(s)| Status| Update available| Vendor link | Notes | Other References | Last Updated |
 | ------ | -------------------- | ---- | ----- | --------------- | ----------- | ----- | ---------------- | ------------ |
+|3M Health Information Systems| 	CGS|	|	Affected|	|	[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210)|	This advisory is available to customers only and has not been reviewed by CISA.|	|	12/15/2021|
 | Akamai | SIEM Splunk Connector| All  | Affected |  | [GitHub - akamai/siem-splunk-connector: Akamai SIEM Connector for Splunk](https://splunkbase.splunk.com/app/4310/) |v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities. | |12/15/2021|
 | Amazon | OpenSearch | Unknown | Affected |  | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
