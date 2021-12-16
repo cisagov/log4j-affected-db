@@ -772,6 +772,8 @@ This list was initially populated using information from the following sources:
 | Red Hat Software Collections | rh-maven35-log4j12 | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Red Hat Software Collections | rh-java-common-log4j | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Redhat | log4j-core | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
+| Redhat | Satellite 5 | | Not Affected | | | | | |
+| Redhat | Spacewalk | | Not Affected | | | | | |
 | RSA | SecurID Authentication Manager | | Not Affected | | | | | |
 | RSA | SecurID Authentication Manager Prime | | Not Affected | | | | | |
 | RSA | SecurID Authentication Manager WebTier | | Not Affected | | | | | |
