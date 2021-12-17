@@ -1303,6 +1303,9 @@ This list was initially populated using information from the following sources:
 | PortSwigger | | | | | [PortSwigger Forum](https://forum.portswigger.net/thread/are-burp-collaborator-or-burp-enterprise-vulnerable-to-log4j-dc6524e0) | | | |
 | PostGreSQL | | | | | [PostGreSQL News](https://www.postgresql.org/about/news/postgresql-jdbc-and-the-log4j-cve-2371/) | | | |
 | Postman | | | | | [Postman Support Link](https://support.postman.com/hc/en-us/articles/4415791933335-Is-Postman-impacted-by-the-Log4j-vulnerability-CVE-2021-44228-) | | | |
+|Power Admin LLC|PA File Sight|NONE|NotAffected||[Update December 2021: None of our products (PA Server Monitor, PA Storage Monitor, PA File Sight and PA WatchDISK), and none of our websites, use log4j.   One less thing to worry about]( https://www.poweradmin.com/blog/solarwinds-hack-our-safety-measures/)|||12/17/2021|
+|Power Admin LLC|PA Storage Monitor|NONE|NotAffected||[Update December 2021: None of our products (PA Server Monitor, PA Storage Monitor, PA File Sight and PA WatchDISK), and none of our websites, use log4j.   One less thing to worry about]( https://www.poweradmin.com/blog/solarwinds-hack-our-safety-measures/)|||12/17/2021|
+|Power Admin LLC|PA Server Monitor|NONE|NotAffected||[Update December 2021: None of our products (PA Server Monitor, PA Storage Monitor, PA File Sight and PA WatchDISK), and none of our websites, use log4j.   One less thing to worry about]( https://www.poweradmin.com/blog/solarwinds-hack-our-safety-measures/)|||12/17/2021|
 | Pretix | | | | | [Pretix Blog Post](https://pretix.eu/about/de/blog/20211213-log4j/) | | | |
 | PrimeKey | | | | | [PrimeKey Support Link](https://support.primekey.com/news/posts/information-about-primekey-products-and-log4j-vulnerability-cve-2021-44228) | | | |
 | Progress / IpSwitch | | | | | [Progress / IpSwitch Link](https://www.progress.com/security) | | | |
