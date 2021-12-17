@@ -6,17 +6,6 @@ administrators to review the
 [official Apache release](https://logging.apache.org/log4j/2.x/security.html)
 and upgrade to Log4j 2.16.0 or apply the recommended mitigations immediately.
 
-The information in this repository is provided "as is" for informational 
-purposes only and is being assembled and updated by CISA through 
-collaboration with the broader cybersecurity community.  Inquire with 
-the manufacturer or their respective online resources for the 
-most up-to-date information regarding any specific product listed. CISA 
-does not endorse any commercial product or service, including 
-any subjects of analysis. Any reference to specific commercial products, 
-processes, or services by service mark, trademark, manufacturer, or 
-otherwise, does not constitute or imply their endorsement, recommendation, 
-or favoring by CISA.
-
 ## Official CISA Guidance & Resources ##
 
 - [CISA Apache Log4j Vulnerability Guidance](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance)
