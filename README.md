@@ -4,7 +4,7 @@ This repository provides CISA's guidance and an overview of related software
 regarding the Log4j vulnerability (CVE-2021-44228). CISA encourages users and
 administrators to review the
 [official Apache release](https://logging.apache.org/log4j/2.x/security.html)
-and upgrade to Log4j 2.16.0 or apply the recommended mitigations immediately.
+and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
 
 The information in this repository is provided "as is" for informational
 purposes only and is being assembled and updated by CISA through
@@ -23,7 +23,10 @@ or imply their endorsement, recommendation, or favoring by CISA.
 
 ## CISA Current Activity Alerts ##
 
+- [Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
 - [CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
+
+National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
 ## Mitigation Guidance ##
 
@@ -38,8 +41,6 @@ implement alternate controls, including:
   to the Java Virtual Machine command for starting your application.
 - Ensure that any alerts from a vulnerable device are immediately actioned.
 - Report incidents promptly to CISA and/or the FBI [here](https://www.cisa.gov/uscert/report).
-
-National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
 ## Status Descriptions ##
 
@@ -63,7 +64,7 @@ This list was initially populated using information from the following sources:
 | 1Password | | | | | [1Password Community Discussion](https://1password.community/discussion/comment/622612/#Comment_622612) | | | |
 | 2n | | | | | [2n Advisory Link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) | | | |
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
-| 3M Health Information Systems | CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) |This advisory is available to customer only and has not been reviewed by CISA.||12/15/2021|
+|3M Health Information Systems| CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) |This advisory is available to customer only and has not been reviewed by CISA.||12/15/2021|
 | 7-Zip | | | | | [7Zip Discussion Link](https://sourceforge.net/p/sevenzip/discussion/45797/thread/b977bbd4d1) | | | |
 | ABB | | | | | [ABB Link](https://search.abb.com/library/Download.aspx?DocumentID=9ADB012621&LanguageCode=en&DocumentPartId=&Action=Launch) | | | |
 | ABB | ABB Remote Service | ABB Remote Platform (RAP) | Affected | | Details are shared with active subscribers | | | |
@@ -333,6 +334,7 @@ This list was initially populated using information from the following sources:
 | Cisco | Cisco DNA Assurance | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco DNA Center | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco DNA Spaces | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
+| Cisco | DUO network gateway (on-prem/self-hosted) | | Under Investigation |  | | | |  |
 | Cisco | Cisco Elastic Services Controller (ESC) | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Emergency Responder | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Enterprise Chat and Email |  | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | |  | |
@@ -479,7 +481,7 @@ This list was initially populated using information from the following sources:
 | Cloudogu | SCM-Manager|| Not Affected| | [SCM-Manager Blog](https://scm-manager.org/blog/posts/2021-12-13-log4shell/)||||
 | Cloudron | | | | | [Cloudron Forum](https://forum.cloudron.io/topic/6153/log4j-and-log4j2-library-vulnerability?lang=en-US) | | | |
 | Clover | | | | | [Clover Article](https://community.clover.com/articles/35868/apache-log4j-vulnerability-cve-2021-44228.html) | | | |
-| Code42 | | | | | [Code42 Link](https://support.code42.com/Terms_and_conditions/Code42_customer_support_resources/Code42_response_to_industry_security_incidents) | | | |
+| Code42 | Crashplan | 8.8, possibly prior versions | Fixed | Yes | [Code42 Release Notification](https://success.code42.com/hc/en-us/articles/4416158712343-RELEASE-NOTIFICATION-Code42-Vulnerability-Mitigation-for-CVE-2021-44228-and-other-updates) | I think, they don't specify in the notice, but we know that they released an updated Crashplan client. Possibly prior versions affected.  | | 12/16/2021 |
 | CodeBeamer | | | | | [CodeBeamer Link](https://codebeamer.com/cb/wiki/19872365) | | | |
 | Codesys | | | | | [Codesys News](https://www.codesys.com/news-events/news/article/log4j-not-used-in-codesys.html) | | | |
 | Cohesity | | | | | [Cohesity Support Link](https://support.cohesity.com/s/article/Security-Advisory-Apache-Log4j-Remote-Code-Execution-RCE-CVE-2021-44228) | | | |
@@ -504,8 +506,7 @@ This list was initially populated using information from the following sources:
 | DarkTrace | | | | | [DarkTrace Customer Portal](https://customerportal.darktrace.com/inside-the-soc/get-article/201) | | | |
 | Dassault Systèmes | | | | | [Dassault Systemes Link](https://kb.dsxclient.3ds.com/mashup-ui/page/resultqa?id=QA00000102301e) | | | |
 | Databricks | | | | | [Databricks Google Doc](https://docs.google.com/document/d/e/2PACX-1vREjwZk17BAHGwj5Phizi4DPFS9EIUbAMX-CswlgbFwqwKXNKZC8MrT-L6wUgfIChsSHtvd_QD3-659/pub) | | | |
-| DataDog | | | | | [DataDog Link](https://www.datadoghq.com/log4j-vulnerability/) | | | |
-| Datadog | Datadog Agent | >=6.17.0, <=6.32.1, >=7.17, <=7.23.1 | Fixed  | Yes | [Datadog Log4j Vulnerability Update](https://www.datadoghq.com/log4j-vulnerability/)||||
+| Datadog | Datadog Agent | >=6.17.0, <=6.32.2, >=7.17.0, <=7.32.2 | Fixed  | Yes | [Datadog Log4j Vulnerability Update](https://www.datadoghq.com/log4j-vulnerability/)||||
 | Dataminer | | | | | [Dataminer Community Link](https://community.dataminer.services/responding-to-log4shell-vulnerability/) | | | |
 | Datev | | | | | [Datev Community Link](https://www.datev-community.de/t5/Freie-Themen/Log4-J-Schwachstelle/m-p/258185/highlight/true#M14308) | | | |
 | Datto | | | | | [Datto Link](https://www.datto.com/blog/dattos-response-to-log4shell) | | | |
