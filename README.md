@@ -4,7 +4,7 @@ This repository provides CISA's guidance and an overview of related software
 regarding the Log4j vulnerability (CVE-2021-44228). CISA encourages users and
 administrators to review the
 [official Apache release](https://logging.apache.org/log4j/2.x/security.html)
-and upgrade to Log4j 2.16.0 or apply the recommended mitigations immediately.
+and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
 
 The information in this repository is provided "as is" for informational
 purposes only and is being assembled and updated by CISA through
@@ -23,7 +23,10 @@ or imply their endorsement, recommendation, or favoring by CISA.
 
 ## CISA Current Activity Alerts ##
 
+- [Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
 - [CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
+
+National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
 ## Mitigation Guidance ##
 
@@ -38,8 +41,6 @@ implement alternate controls, including:
   to the Java Virtual Machine command for starting your application.
 - Ensure that any alerts from a vulnerable device are immediately actioned.
 - Report incidents promptly to CISA and/or the FBI [here](https://www.cisa.gov/uscert/report).
-
-National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
 ## Status Descriptions ##
 
@@ -333,6 +334,7 @@ This list was initially populated using information from the following sources:
 | Cisco | Cisco DNA Assurance | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco DNA Center | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco DNA Spaces | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
+| Cisco | DUO network gateway (on-prem/self-hosted) | | Under Investigation |  | | | |  |
 | Cisco | Cisco Elastic Services Controller (ESC) | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Emergency Responder | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Enterprise Chat and Email |  | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | |  | |
@@ -1057,6 +1059,7 @@ This list was initially populated using information from the following sources:
 | JFROG | | | | | [JFROG Statement](https://jfrog.com/knowledge-base/general-jfrog-services-are-not-affected-by-vulnerability-cve-2021-44228/) | | | |
 | Jitsi | | | | | [Jitsi Advisory](https://github.com/jitsi/security-advisories/blob/4e1ab58585a8a0593efccce77d5d0e22c5338605/advisories/JSA-2021-0004.md) | | | |
 | Jitterbit | | | | | [Jitterbit Statement](https://success.jitterbit.com/display/DOC/Mitigating+the+Apache+Log4j2+JNDI+Vulnerability) | | | |
+| jPOS | (ISO-8583) bridge | Unknown | Not Affected | | [source](https://github.com/jpos/jPOS/commit/d615199a1bdd35c35d63c07c10fd0bdbbc96f625)| | | |
 | Journyx | | | | | [Journeyx Statement](https://community.journyx.com/support/solutions/articles/9000209044-apache-log4j-2-vulnerability-cve-2021-44228-) | | | |
 | Jump Desktop | | | | | [Jump Desktop Statement](https://support.jumpdesktop.com/hc/en-us/articles/4416720395021-Log4j-CVE-2021-44228-CVE-2021-45046-Statement) | | | |
 | Juniper Networks | | | | | [Juniper Networks Statement](https://kb.juniper.net/InfoCenter/index?page=content&id=JSA11259) | | | |
