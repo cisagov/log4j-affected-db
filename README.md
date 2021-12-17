@@ -81,7 +81,7 @@ This list was initially populated using information from the following sources:
 | ADP | | | | | [ADP Alert Link](https://www.adp.com/about-adp/data-security/alerts/adp-vulnerability-statement-apache-log4j-vulnerability-cve-2021-44228.aspx) | | | |
 | AFAS Software | | | | | [AFAS Software Link](https://help.afas.nl/vraagantwoord/NL/SE/120439.htm) | | | |
 | Agilysys | | | | | [Agilysys Link](https://info.agilysys.com/webmail/76642/2001127877/c3fda575e2313fac1f6a203dc6fc1db2439c3db0da22bde1b6c1b6747d7f0e2f) | | | |
-| Akamai | SIEM Splunk Connector| All  | Affected |  | [GitHub - akamai/siem-splunk-connector: Akamai SIEM Connector for Splunk](https://github.com/akamai/siem-splunk-connector) | | | |
+| Akamai | SIEM Splunk Connector| All  | Affected |Yes  | [Akamai SIEM Integration](https://splunkbase.splunk.com/app/4310/) |v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities| |12/15/2021|
 | Alcatel | | | | | [Alcatel Link](https://dokuwiki.alu4u.com/doku.php?id=log4j) | | | |
 | Alertus | | | | | [Alertus Article Link](https://help.alertus.com/s/article/Security-Advisory-Log4Shell-Vulnerability?language=en_US) | | | |
 | Alexion | | | | | [Alexion Blog Post](https://alexion.nl/blog/alexion-crm-niet-vatbaar-voor-log4shell) | | | |
@@ -101,12 +101,13 @@ This list was initially populated using information from the following sources:
 | Apache | SOLR | 7.4.0 to 7.7.3, 8.0.0 to 8.11.0 | Affected | Yes | [Log4j – Apache Log4j Security Vulnerabilities](https://logging.apache.org/log4j/2.x/security.html) | | | |
 | Apereo | CAS | 6.3.x & 6.4.x | Affected | Yes | [CAS Log4J Vulnerability Disclosure – Apereo Community Blog](https://apereo.github.io/2021/12/11/log4j-vuln/) | | | |
 | Apereo | Opencast | < 9.10, < 10.6 | Affected | Yes | [Apache Log4j Remote Code Execution · Advisory · opencast/opencast · GitHub](https://github.com/opencast/opencast/security/advisories/GHSA-mf4f-j588-5xm8) | | | |
+| Application Performance Ltd | DBMarlin | Not Affected | | [Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428)| | | | 12/15/2021 |
 | Apigee | | | | | [Apigee Link](https://status.apigee.com/incidents/3cgzb0q2r10p) | | | |
 | Apollo | | | | | [Apollo Community Link](https://community.apollographql.com/t/log4j-vulnerability/2214) | | | |
 | Appdynamics | | | | | [Appdynamics Advisory Link](https://docs.appdynamics.com/display/PAA/Security+Advisory%3A+Apache+Log4j+Vulnerability) | | | |
 | Appeon | PowerBuilder | Appeon PowerBuilder 2017-2021 regardless of product edition  | Affected | No | | | |12/15/2021|
 | AppGate | | | | | [AppGate Blog Post](https://www.appgate.com/blog/appgate-sdp-unaffected-by-log4j-vulnerability) | | | |
-| Application Performance Ltd | DBMarlin | Not Affected | | [Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428)| | | 12/15/2021|
+| Application Performance Ltd | DBMarlin | Not Affected | | [Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428)| | | | 12/15/2021 |
 | APPSHEET | | | | | [APPSHEET Community Link](https://community.appsheet.com/t/appsheet-statement-on-log4j-vulnerability-cve-2021-44228/59976) | | | |
 | Aptible | Aptible | ElasticSearch 5.x | Affected | Yes | [Aptible Status - Log4j security incident CVE-2021-27135](https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4) | | | |
 | Aqua Security | | | | | [Aqua Security Google Doc](https://docs.google.com/document/d/e/2PACX-1vSmFR3oHPXOih1wENKd7RXn0dsHzgPUe91jJwDTsaVxJtcJEroktWNLq7BMUx9v7oDZRHqLVgkJnqCm/pub) | | | |
@@ -515,8 +516,7 @@ This list was initially populated using information from the following sources:
 | Dell | Boomi | | | | [Dell Boomi Link](https://community.boomi.com/s/article/Log4j-Vulnerability) | This advisory is available to customer only and has not been reviewed by CISA. | | |
 | Dell | iDRAC | | Not Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | | | |
 | Dell | iDRAC Service Module | | Not Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | | | |
-| Dell | Multiple products | | | | [Dell Info](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) | | | |
-| Dell | Open Management Enterprise - Modular | | Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | Patch expected 2021-12-17 | | |
+| Dell | OpenManage Enterprise - Modular | | Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | Patch expected 2021-12-17 | | |
 | Dell | OpenManage Enterprise | | Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | Patch expected 2021-12-17 | | |
 | Dell | OpenManage Enterprise Services | | Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | Patch expected 2021-12-17 | | |
 | Denequa | | | | | [Denequa Link](https://denequa.de/log4j-information.html) | | | |
@@ -557,7 +557,7 @@ This list was initially populated using information from the following sources:
 | Elastic | Fleet Server||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
 | Elastic | Kibana||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
 | Elastic | Logstash|<6.8.21,<7.16.1|Affected|Yes|[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
-| Elastic | Machine Learning||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
+| Elastic | Machine Learning||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|||12/15/2021|
 | Elastic | Swiftype||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
 | ElasticSearch | all products | | Not Affected | | | | | |
 | Ellucian (Banner and Colleague Higher Education SIS) | | | | | [Ellucian Response](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) | | | |
@@ -1475,7 +1475,7 @@ This list was initially populated using information from the following sources:
 | Siemens | Industrial Edge Management OS  | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
 | Siemens | LOGO! Soft Comfort | All versions | Affected | Yes | [Siemens Advisory Link]( https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | |12/15/2021 |
 | Siemens | Mendix Applications | All Versions | Not Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| | | 12/15/2021 |
-| Siemens | Mindsphere Cloud Application | All Versions < 2021-12-11 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Fixed on Cloud Version | |12/15/2021 |'
+| Siemens | Mindsphere Cloud Application | All Versions < 2021-12-11 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Fixed on Cloud Version | |12/15/2021 |
 | Siemens | NX | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  |  | 12/15/2021 |
 | Siemens | Opcenter Intelligence | All Versions >=3.2 | Affected | Yes |[Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Only OEM version that ships Tableau | | 12/15/2021 |
 | Siemens | Operation Scheduler | All versions >= V1.1.3 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |Block incoming and outgoing connections | | 12/15/2021 |
@@ -1601,11 +1601,11 @@ This list was initially populated using information from the following sources:
 | Tibco | | | | | [Tibco Support Link](https://www.tibco.com/support/notices/2021/12/apache-log4j-vulnerability-update) | | | |
 | Top Gun Technology (TGT) | | | | | [TGT Bulletin](https://www.topgun-tech.com/technical-bulletin-apache-software-log4j-security-vulnerability-cve-2021-44228/) | | | |
 | TopDesk | | | | | [TopDesk Statement](https://my.topdesk.com/tas/public/ssp/content/detail/knowledgeitem?unid=74952771dfab4b0794292e63b0409314) | | | |
-| Topicus KeyHub | | | | | [Topicus Keyhub Statement](https://blog.topicus-keyhub.com/topicus-keyhub-is-not-vulnerable-to-cve-2021-44228/) | | | |
+|Topicus KeyHub|||||[Topicus Keyhub Statement](https://blog.topicus-keyhub.com/topicus-keyhub-is-not-vulnerable-to-cve-2021-44228/)||||
 | Topix | | | | | [Topix Statement](https://www.topix.de/de/technik/systemfreigaben.html) | | | |
-| Tosibox | | | | | [Tosibox Security Advisory](https://helpdesk.tosibox.com/support/solutions/articles/2100050946-security-advisory-on-vulnerability-in-apache-log4j-library-cve-2021-44228) | | | |
-| TPLink |Omega Controller|Linux/Windows all|Affected|Yes|[Statement on Apache Log4j Vulnerability](https://www.tp-link.com/us/support/faq/3255)|Update is Beta. Reddit: overwritten vulnerable log4j with 2.15 files as potential workaround. Though that should now be done with 2.16|[Tp Community Link](https://community.tp-link.com/en/business/forum/topic/514452), [Reddit Link](https://www.reddit.com/r/TPLink_Omada/comments/rdzvlp/updating_the_sdn_to_protect_against_the_log4j)|12/15/2021|
-| TrendMicro | All | | Under Investigation | | [https://success.trendmicro.com/solution/000289940](https://success.trendmicro.com/solution/000289940) | | | |
+| Tosibox | | | | | [Tosibox Security Advisory](https://helpdesk.tosibox.com/support/solutions/articles/2100050946-security-advisory-on-vulnerability-in-apache-log4j-library-cve-2021-44228) | |||
+| TPLink |Omega Controller|Linux/Windows(all)|Affected|Yes|[Statement on Apache Log4j Vulnerability](https://www.tp-link.com/us/support/faq/3255)|Update is Beta. Reddit: overwritten vulnerable log4j with 2.15 files as potential workaround. Though that should now be done with 2.16|[Tp Community Link](https://community.tp-link.com/en/business/forum/topic/514452),[Reddit Link](https://www.reddit.com/r/TPLink_Omada/comments/rdzvlp/updating_the_sdn_to_protect_against_the_log4j)|12/15/2021|
+|TrendMicro|All||Under Investigation||[https://success.trendmicro.com/solution/000289940](https://success.trendmicro.com/solution/000289940)||||
 | Tricentis Tosca | | | | | [Tricentis Tosca Statement](https://support-hub.tricentis.com/open?number=NEW0001148&id=post) | | | |
 | Tripwire | | | | | [Tripwire Log4j Statement](https://www.tripwire.com/log4j) | | | |
 | TrueNAS | | | | | [TrueNAS Statement](https://www.truenas.com/community/threads/log4j-vulnerability.97359/post-672559) | | | |
