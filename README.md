@@ -188,7 +188,7 @@ This list was initially populated using information from the following sources:
 | BitDefender | | | | | [BitDefender Advisory Link](https://businessinsights.bitdefender.com/security-advisory-bitdefender-response-to-critical-0-day-apache-log4j2-vulnerability) | | | |
 | BitNami By VMware | | | | | [BitNami By VMware](https://docs.bitnami.com/general/security/security-2021-12-10/) | | | |
 | BitRise | | | | | [BitRise Post](https://blog.bitrise.io/post/bitrises-response-to-log4j-vulnerability-cve-2021-44228) | | | |
-| BitWarden | | | | | [BitWarden Community Link](https://community.bitwarden.com/t/log4j-log4shell-cve-is-bitwarden-affected-due-to-docker-image/36177/2) | | | |
+| Bitwarden | | | Not Affected | | [Bitwarden Community Link](https://community.bitwarden.com/t/log4j-log4shell-cve-is-bitwarden-affected-due-to-docker-image/36177/2) | | | |
 | Black Kite | | | | | [Black Kite Link](https://blackkite.com/log4j-rce-vulnerability-log4shell-puts-millions-at-risk/) | | | |
 | Blancco | | | | | [Blancco Support Link](https://support.blancco.com/display/NEWS/2021/12/12/CVE-2021-44228+-+Critical+vulnerability+in+Apache+Log4j+library) | | | |
 | Blumira | | | | | [Blumira Link](https://www.blumira.com/cve-2021-44228-log4shell/) | | | |
