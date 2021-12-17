@@ -506,8 +506,7 @@ This list was initially populated using information from the following sources:
 | DarkTrace | | | | | [DarkTrace Customer Portal](https://customerportal.darktrace.com/inside-the-soc/get-article/201) | | | |
 | Dassault Systèmes | | | | | [Dassault Systemes Link](https://kb.dsxclient.3ds.com/mashup-ui/page/resultqa?id=QA00000102301e) | | | |
 | Databricks | | | | | [Databricks Google Doc](https://docs.google.com/document/d/e/2PACX-1vREjwZk17BAHGwj5Phizi4DPFS9EIUbAMX-CswlgbFwqwKXNKZC8MrT-L6wUgfIChsSHtvd_QD3-659/pub) | | | |
-| DataDog | | | | | [DataDog Link](https://www.datadoghq.com/log4j-vulnerability/) | | | |
-| Datadog | Datadog Agent | >=6.17.0, <=6.32.1, >=7.17, <=7.23.1 | Fixed  | Yes | [Datadog Log4j Vulnerability Update](https://www.datadoghq.com/log4j-vulnerability/)||||
+| Datadog | Datadog Agent | >=6.17.0, <=6.32.2, >=7.17.0, <=7.32.2 | Fixed  | Yes | [Datadog Log4j Vulnerability Update](https://www.datadoghq.com/log4j-vulnerability/)||||
 | Dataminer | | | | | [Dataminer Community Link](https://community.dataminer.services/responding-to-log4shell-vulnerability/) | | | |
 | Datev | | | | | [Datev Community Link](https://www.datev-community.de/t5/Freie-Themen/Log4-J-Schwachstelle/m-p/258185/highlight/true#M14308) | | | |
 | Datto | | | | | [Datto Link](https://www.datto.com/blog/dattos-response-to-log4shell) | | | |
