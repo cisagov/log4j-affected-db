@@ -64,6 +64,7 @@ This list was initially populated using information from the following sources:
 | Apache | Flink | < flink 1.15.0, 1.14.1, 1.13.3 | Affected | No | [Apache Flink: Advise on Apache Log4j Zero Day (CVE-2021-44228)](https://flink.apache.org/2021/12/10/log4j-cve.html) | | | 12/12/2021 |
 | Apache | Log4j | < 2.15.0 | Affected | Yes | [Log4j – Apache Log4j Security Vulnerabilities](https://logging.apache.org/log4j/2.x/security.html) | | | |
 | Apache | Kafka | Unknown | Affected | No | [Log4j – Apache Log4j Security Vulnerabilities](https://logging.apache.org/log4j/2.x/security.html)| Only vulnerable in certain configuration(s) | | |
+| Apache | Kafka | All | Not Affected | No |[Kafka Apache List](https://kafka.apache.org/cve-list) | The current DB lists Apache Kafka as impacted. Apache Kafka uses Log4jv1, not v2.  ||12/14/2021|
 | Apache | SOLR | 7.4.0 to 7.7.3, 8.0.0 to 8.11.0 | Affected | Yes | [Log4j – Apache Log4j Security Vulnerabilities](https://logging.apache.org/log4j/2.x/security.html) | | | |
 | Apereo | CAS | 6.3.x & 6.4.x | Affected | Yes | [CAS Log4J Vulnerability Disclosure – Apereo Community Blog](https://apereo.github.io/2021/12/11/log4j-vuln/) | | | |
 | Apereo | Opencast | < 9.10, < 10.6 | Affected | Yes | [Apache Log4j Remote Code Execution · Advisory · opencast/opencast · GitHub](https://github.com/opencast/opencast/security/advisories/GHSA-mf4f-j588-5xm8) | | | |
