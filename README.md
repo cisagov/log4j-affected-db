@@ -34,7 +34,7 @@ National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.
 ## Status Descriptions ##
 
 | Status | Description |
-| ------ | ------------- |
+| ------ | ----------- |
 | Unknown | Status unknown. Default choice. |
 | Affected | Reported to be affected by CVE-2021-44228. |
 | Not Affected | Reported to NOT be affected by CVE-2021-44228 and no further action necessary. |
@@ -48,7 +48,7 @@ This list was initially populated using information from the following sources:
 - Kevin Beaumont
 
 | Vendor | Product | Version(s) | Status | Update available | Vendor link | Notes | Other References | Last Updated |
-| ------ | -------------------- | ---- | ----- | --------------- | ----------- | ----- | ---------------- | ------------ |
+| ------ | ------- | ---------- | ------ | ---------------- | ----------- | ----- | ---------------- | ------------ |
 | 3M Health Information Systems | CGS | | Affected | Unknown | [CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) | This advisory is available to customer only and has not been reviewed by CISA. | | 12/15/2021 |
 | ABB | AlarmInsight Cloud | AlarmInsight KPI Dashboards 1.0.0 | Under Investion | Pending | | | | |
 | ABB | B&R Products | See Vendor Advisory | | | [BR-Automation Advisory](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf) | | | |
