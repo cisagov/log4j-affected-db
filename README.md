@@ -987,8 +987,8 @@ This list was initially populated using information from the following sources:
 | RSA | SecurID Governance and Lifecycle | | Not Affected | | | | | |
 | RSA | SecurID Governance and Lifecycle Cloud | | Not Affected | | | | | |
 | Ruckus | Virtual SmartZone (vSZ) | 5.1 to 6.0  | Affected |  | [Ruckus Wireless (support.ruckuswireless.com)](https://support.ruckuswireless.com/security_bulletins/313) | | | 12/13/2021 |
-|SBT|	SBT|<1.5.6|	Affected|Yes|[Release 1.5.7 · sbt/sbt (github.com)](https://github.com/sbt/sbt/releases/tag/v1.5.7)|||12/15/2021|
-|Shibboleth|All Products|Identity Provider >= 3.0, All other software versions|NotAffected||[Log4j CVE (non)-impact](https://shibboleth.net/pipermail/announce/2021-December/000253.html)|||12/10/2021|
+|SBT|SBT|<1.5.6|Affected|Yes|[Release 1.5.7 · sbt/sbt(github.com)](https://github.com/sbt/sbt/releases/tag/v1.5.7)|||12/15/2021|
+|Shibboleth|All Products|Identity Provider>=3.0, All other software versions|NotAffected||[Log4j CVE (non)-impact](https://shibboleth.net/pipermail/announce/2021-December/000253.html)|||12/10/2021|
 | Siemens | Capital | All Versions >- 2019.1 SP1912 | Affected | Yes | [Vendor Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Only affected if Teamcenter integration feature is used. Mitigation: [Mitigation Link](https://support.sw.siemens.com/en-US/knowledge-base/MG618363) | | 12/15/2021 |
 | Siemens | Comos Desktop App | All Versions | Affected | Yes | [Vendor Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | | 12/15/2021 |
 | Siemens | Desigo CC Advanced Reporting | V4.0, 4.1, 4.2, 5.0, 5.1 | Affected | Yes | [Vendor Link]( https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  |  | 12/15/2021 |
