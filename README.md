@@ -383,7 +383,7 @@ This list was initially populated using information from the following sources:
 | Dell | OpenManage Enterprise | | Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | Patch expected 2021-12-17 | | |
 | Dell | OpenManage Enterprise Services | | Affected | | [Dell Response to Apache Log4j Remote Code Execution Vulnerability](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability?lwp=rt) | Patch expected 2021-12-17 | | |
 | Devolutions | All products | | Not Affected | | [https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/) |  | | |
-|Diebold-Nixdorf|	Agilis|	|	Affected|	No|	[Apache Log4j Vulnerability](https://www.dieboldnixdorf.com/en-us/apache/)|	|	|	12/15/2021|
+|Diebold-Nixdorf|Agilis||Affected|No|[Apache Log4j Vulnerability](https://www.dieboldnixdorf.com/en-us/apache/)|||12/15/2021|
 | Dynatrace | Managed cluster nodes | | Affected | | | | | |
 | Dynatrace | Synthetic Activegates | | Affected | | | | | |
 | ElasticSearch | all products | | Not Affected | | | | | |
@@ -869,10 +869,10 @@ This list was initially populated using information from the following sources:
 | MongoDB | MongoDB Drivers | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | MongoDB | MongoDB Tools (including Compass, Database Shell, VS Code Plugin, Atlas CLI, Database Connectors) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
 | MongoDB | MongoDB Realm (including Realm Database, Sync, Functions, APIs) | | Not Affected | | [https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb](https://www.mongodb.com/blog/post/log4shell-vulnerability-cve-2021-44228-and-mongodb) | | | |
-|Mulesoft|Mule Runtime|	3.x,4.x|Affected|	Yes|[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|	This advisory is available to account holders only and has not been reviewed by CISA.||	12/15/2021|
-|Mulesoft|Mule Agent|	6.x|Affected|	Yes|[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|	This advisory is available to account holders only and has not been reviewed by CISA.||	12/15/2021|
-|Mulesoft|Cloudhub|	|Affected|Yes|[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|	This advisory is available to account holders only and has not been reviewed by CISA.|	|	12/15/2021|
-|Mulesoft|Anypoint Studio|7.x|Affected|	Yes|[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|	This advisory is available to account holders only and has not been reviewed by CISA.||	12/15/2021|
+|Mulesoft|Mule Runtime|3.x,4.x|Affected|Yes|[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|This advisory is available to account holders only and has not been reviewed by CISA.||12/15/2021|
+|Mulesoft|Mule Agent|6.x|Affected|Yes|[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|This advisory is available to account holders only and has not been reviewed by CISA.||12/15/2021|
+|Mulesoft|Cloudhub||Affected|Yes|[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|This advisory is available to account holders only and has not been reviewed by CISA.||12/15/2021|
+|Mulesoft|Anypoint Studio|7.x|Affected|Yes|[Apache Log4j2 vulnerability - December 2021](https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021)|This advisory is available to account holders only and has not been reviewed by CISA.||12/15/2021|
 | Netapp | Multiple NetApp products | | Affected | | [https://security.netapp.com/advisory/ntap-20211210-0007/](https://security.netapp.com/advisory/ntap-20211210-0007/) | |  | |
 | Neo4j | Neo4j Graph Database| Version >4.2, <4..2.12 | Affected | No | | | | 12/13/2021|
 | New Relic | New Relic Java Agent|<7.4.2|Affected|Yes|[Java agent v7.4.2](https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-742/)|Initially fixed in 7.4.1, but additional vulnerability found|[New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605), covers CVE-2021-44228, CVE-2021-45046|12/15/2021|
@@ -987,8 +987,8 @@ This list was initially populated using information from the following sources:
 | RSA | SecurID Governance and Lifecycle | | Not Affected | | | | | |
 | RSA | SecurID Governance and Lifecycle Cloud | | Not Affected | | | | | |
 | Ruckus | Virtual SmartZone (vSZ) | 5.1 to 6.0  | Affected |  | [Ruckus Wireless (support.ruckuswireless.com)](https://support.ruckuswireless.com/security_bulletins/313) | | | 12/13/2021 |
-|SBT|	SBT|	<1.5.6|	Affected|	Yes|	[Release 1.5.7 · sbt/sbt (github.com)](https://github.com/sbt/sbt/releases/tag/v1.5.7)|	|	|	12/15/2021|
-|Shibboleth|	All Products|	Identity Provider >= 3.0, All other software versions|	NotAffected|	|	[Log4j CVE (non)-impact](https://shibboleth.net/pipermail/announce/2021-December/000253.html)|	|	|	12/10/2021|
+|SBT|	SBT|<1.5.6|	Affected|Yes|[Release 1.5.7 · sbt/sbt (github.com)](https://github.com/sbt/sbt/releases/tag/v1.5.7)|||12/15/2021|
+|Shibboleth|All Products|Identity Provider >= 3.0, All other software versions|NotAffected||[Log4j CVE (non)-impact](https://shibboleth.net/pipermail/announce/2021-December/000253.html)|||12/10/2021|
 | Siemens | Capital | All Versions >- 2019.1 SP1912 | Affected | Yes | [Vendor Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Only affected if Teamcenter integration feature is used. Mitigation: [Mitigation Link](https://support.sw.siemens.com/en-US/knowledge-base/MG618363) | | 12/15/2021 |
 | Siemens | Comos Desktop App | All Versions | Affected | Yes | [Vendor Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  | | 12/15/2021 |
 | Siemens | Desigo CC Advanced Reporting | V4.0, 4.1, 4.2, 5.0, 5.1 | Affected | Yes | [Vendor Link]( https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  |  | 12/15/2021 |
