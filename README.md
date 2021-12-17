@@ -98,6 +98,13 @@ This list was initially populated using information from the following sources:
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
 | Amazon | OpenSearch | Unknown | Affected | Yes [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)|Apache Camel does not directly depend on Log4j 2, so we are not affected by CVE-2021-44228.If you explicitly added the Log4j 2 dependency to your own applications, make sure to upgrade.Apache Camel does use log4j during testing itself, and therefore you can find that we have been using log4j v2.13.3 release in our latest LTS releases Camel 3.7.6, 3.11.4.||12/13/2021|
+|Apache|Camel Quarkus||Not Affected|None|[APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)|||12/13/2021|
+|Apache|Camel K||Not Affected|None|[APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)|||12/13/2021|
+|Apache|CamelKafka Connector||Not Affected|None|[APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)|||12/13/2021|
+|Apache|Camel Karaf||Affected|No|[APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)|The Karaf team is aware of this and are working on a new Karaf 4.3.4 release with updated log4j.||12/13/2021|
+|Apache|Camel JBang|<=3.1.4|Affected|No|[APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)|||12/13/2021|
+|Apache|Camel 2||Not Affected|None|[APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)|||12/13/2021|
 | Apache | Druid | < druid 0.22.0 | Affected | Yes | [Release druid-0.22.1 · apache/druid · GitHub](https://github.com/apache/druid/releases/tag/druid-0.22.1) | | | 12/12/2021|
 | Apache | Flink | < flink 1.15.0, 1.14.1, 1.13.3 | Affected | No | [Apache Flink: Advise on Apache Log4j Zero Day (CVE-2021-44228)](https://flink.apache.org/2021/12/10/log4j-cve.html) | | | 12/12/2021 |
 | Apache | Kafka | All | Not Affected | No | [Kafka Apache List](https://kafka.apache.org/cve-list) | The current DB lists Apache Kafka as impacted. Apache Kafka uses Log4jv1, not v2. | | 12/14/2021 |
@@ -566,7 +573,39 @@ This list was initially populated using information from the following sources:
 | Elastic | Machine Learning||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|||12/15/2021|
 | Elastic | Swiftype||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
 | ElasticSearch | all products | | Not Affected | | | | | |
-| Ellucian (Banner and Colleague Higher Education SIS) | | | | | [Ellucian Response](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) | | | |
+|Ellucian|Banner Analytics||Affected|No|[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Colleague||Affected|No|[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|On-prem and cloud deployements expect fixed 12/18/2021||12/17/2021|
+|Ellucian|Admin||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Enterprise Identity Services(BEIS)||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Banner Integration for eLearning||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Banner Integration for eProcurement||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Banner Workflow||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Banner Document Management (includes Banner Document Retention)||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Advance Web Connector||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian eTranscripts||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Mobile||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Solution Manager||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Banner Event Publisher||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Banner Self Service||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Colleague Analytics||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|CRM Advance||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|CRM Advise||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|CRM Recruit||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Data Access||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Design Path||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian ePrint||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Ethos API & API Management Center||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Ethos Extend||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Ethos Integration||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Experience||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Intelligent Platform (ILP)||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian International Student and Scholar Management (ISSM)||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Message Service (EMS)||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Messaging Adapter (EMA)||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Payment Gateway||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Ellucian Portal||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian Workflow||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
+|Ellucian|Ellucian PowerCampus||Not Affected||[Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue)|||12/17/2021|
 | Emerson | | | | | [Emerson Cyber Security Notification](https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf) | | | |
 | EnterpriseDT | | | | | [EnterpriseDT Statement](https://enterprisedt.com/blogs/announcements/enterprisedt-does-not-use-log4j/) | | | |
 | ESET | | | | | [ESET Statement](https://support.eset.com/en/alert8188-information-regarding-the-log4j2-vulnerability) | | | |
@@ -1059,6 +1098,9 @@ This list was initially populated using information from the following sources:
 | Intel | System Studio | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Computer Vision Annotation Tool maintained by Intel | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Sensor Solution Firmware Development Kit | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+|Internet Systems Consortium(ISC)|ISC DHCP, aka dhcpd|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
+|Internet Systems Consortium(ISC)|Kea DHCP|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
+|Internet Systems Consortium(ISC)|BIND 9|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
 | InterSystems | | | | | [InterSystems Statement](https://www.intersystems.com/gt/apache-log4j2/) | | | |
 | Intland | codebeamer | <= 20.11-SP11, <= 21.09-SP3 | Affected | Some releases | [Apache Log4j vulnerability and fixes](https://codebeamer.com/cb/wiki/19872365) | A fix has been released for [20.11](https://codebeamer.com/cb/wiki/13134438) and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839) | | |
 | iRedMail | | | | | [iRedMail Statement](https://forum.iredmail.org/topic18605-log4j-cve202144228.html) | | | |
