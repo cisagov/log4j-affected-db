@@ -1214,7 +1214,7 @@ This list was initially populated using information from the following sources:
 | OpenMRS TALK | | | | | [OpenMRS TALK Link](https://talk.openmrs.org/t/urgent-security-advisory-2021-12-11-re-apache-log4j-2/35341) | | | |
 | OpenNMS | | | | | [OpenNMS Link](https://www.opennms.com/en/blog/2021-12-10-opennms-products-affected-by-apache-log4j-vulnerability-cve-2021-44228/) | | | |
 | OpenSearch | | | | | [OpenSearch Discussion Link](https://discuss.opendistrocommunity.dev/t/log4j-patch-for-cve-2021-44228/7950) | | | |
-| Oracle | | | | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html | | | |
+| Oracle | | | | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) | | | |
 | Orgavision | | | | | [Orgavision Link](https://www.orgavision.com/neuigkeiten/sicherheitsluecke-java-library-log4j) | | | |
 | OTRS | | | | | [OTRS Link](https://portal.otrs.com/external) | | | |
 | OVHCloud | | | | | [OVHCloud Blog Post](https://blog.ovhcloud.com/log4shell-how-to-protect-my-cloud-workloads/) | | | |
