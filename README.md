@@ -64,7 +64,7 @@ This list was initially populated using information from the following sources:
 | 1Password | | | | | [1Password Community Discussion](https://1password.community/discussion/comment/622612/#Comment_622612) | | | |
 | 2n | | | | | [2n Advisory Link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) | | | |
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
-| 3M Health Information Systems | CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) |This advisory is available to customer only and has not been reviewed by CISA.||12/15/2021|
+|3M Health Information Systems| CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) |This advisory is available to customer only and has not been reviewed by CISA.||12/15/2021|
 | 7-Zip | | | | | [7Zip Discussion Link](https://sourceforge.net/p/sevenzip/discussion/45797/thread/b977bbd4d1) | | | |
 | ABB | | | | | [ABB Link](https://search.abb.com/library/Download.aspx?DocumentID=9ADB012621&LanguageCode=en&DocumentPartId=&Action=Launch) | | | |
 | ABB | ABB Remote Service | ABB Remote Platform (RAP) | Affected | | Details are shared with active subscribers | | | |
@@ -481,7 +481,7 @@ This list was initially populated using information from the following sources:
 | Cloudogu | SCM-Manager|| Not Affected| | [SCM-Manager Blog](https://scm-manager.org/blog/posts/2021-12-13-log4shell/)||||
 | Cloudron | | | | | [Cloudron Forum](https://forum.cloudron.io/topic/6153/log4j-and-log4j2-library-vulnerability?lang=en-US) | | | |
 | Clover | | | | | [Clover Article](https://community.clover.com/articles/35868/apache-log4j-vulnerability-cve-2021-44228.html) | | | |
-| Code42 | | | | | [Code42 Link](https://support.code42.com/Terms_and_conditions/Code42_customer_support_resources/Code42_response_to_industry_security_incidents) | | | |
+| Code42 | Crashplan | 8.8, possibly prior versions | Fixed | Yes | [Code42 Release Notification](https://success.code42.com/hc/en-us/articles/4416158712343-RELEASE-NOTIFICATION-Code42-Vulnerability-Mitigation-for-CVE-2021-44228-and-other-updates) | I think, they don't specify in the notice, but we know that they released an updated Crashplan client. Possibly prior versions affected.  | | 12/16/2021 |
 | CodeBeamer | | | | | [CodeBeamer Link](https://codebeamer.com/cb/wiki/19872365) | | | |
 | Codesys | | | | | [Codesys News](https://www.codesys.com/news-events/news/article/log4j-not-used-in-codesys.html) | | | |
 | Cohesity | | | | | [Cohesity Support Link](https://support.cohesity.com/s/article/Security-Advisory-Apache-Log4j-Remote-Code-Execution-RCE-CVE-2021-44228) | | | |
