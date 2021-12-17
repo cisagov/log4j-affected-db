@@ -1183,10 +1183,21 @@ This list was initially populated using information from the following sources:
 | Netcup | | | | | [Netcup Statement](https://www.netcup-news.de/2021/12/14/pruefung-log4j-sicherheitsluecken-abgeschlossen/) | | | |
 | NetGate PFSense | | | | | [NetGate PFSense Forum](https://forum.netgate.com/topic/168417/java-log4j-vulnerability-is-pfsense-affected/35) | | | |
 | Netwrix | | | | | [Netwrix Statement](https://www.netwrix.com/netwrix_statement_on_cve_2021_44228_the_apache_log4j_vulnerability.html) | | | |
-| Neo4j | Neo4j Graph Database| Version >4.2, <4..2.12 | Affected | No | | | | 12/13/2021|
-| New Relic | New Relic Java Agent|<7.4.2|Affected|Yes|[Java agent v7.4.2](https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-742/)|Initially fixed in 7.4.1, but additional vulnerability found|[New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605), covers CVE-2021-44228, CVE-2021-45046|12/15/2021|
-| Okta | Okta RADIUS Server Agent | < 2.17.0 | Affected | | [Okta RADIUS Server Agent CVE-2021-44228  Okta](https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228) | | | 12/12/2021 |
-| Okta| Okta On-Prem MFA Agent| < 1.4.6 | Affected | | [Okta On-Prem MFA Agent CVE-2021-44228  Okta](https://trust.okta.com/security-advisories/okta-on-prem-mfa-agent-cve-2021-44228)| || 12/12/2021 |
+| New Relic |New Relic Java Agent|<7.4.2|Affected|Yes|[Java agent v7.4.2](https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-742/)|Initially fixed in 7.4.1, but additional vulnerability found|[New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605), covers CVE-2021-44228, CVE-2021-45046|12/15/2021|
+| NextCloud | | | | | [NextCloud Help](https://help.nextcloud.com/t/apache-log4j-does-not-affect-nextcloud/129244) | | | |
+| Nexus Group | | | | | [Nexus Group Docs](https://doc.nexusgroup.com/pages/viewpage.action?pageId=83133294) | | | |
+| NI (National Instruments) | | | | | [NI Support Link](https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html) | | | |
+| Nice Software (AWS) EnginFRAME | | | | | [Nice Software EnginFRAME Link](https://download.enginframe.com/) | | | |
+| NinjaRMM | | | | | [NinjaRMM Article](https://ninjarmm.zendesk.com/hc/en-us/articles/4416226194189-12-10-21-Security-Declaration-NinjaOne-not-affected-by-CVE-2021-44228-log4j-) |This advisory is available to customers only and has not been reviewed by CISA | | |
+| Nomachine | | | | | [Nomachine Forums](https://forums.nomachine.com/topic/apache-log4j-notification) | | | |
+| NoviFlow | | | | | [Noviflow Link](https://noviflow.com/noviflow-products-and-the-log4shell-exploit-cve-2021-44228/) | | | |
+| Nulab | | | | | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
+| Nutanix | | | | | [Nutanix Alert Link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | |
+| Nvidia | | | | | [Nvidia Link](https://nvidia.custhelp.com/app/answers/detail/a_id/5294) | | | |
+| NXLog | | | | | [NXLog Link](https://nxlog.co/news/apache-log4j-vulnerability-cve-2021-44228) | | | |
+| Objectif Lune | | | | | [Objectif Lune Blog Post](https://learn.objectiflune.com/blog/security/statement-on-log4j-vulnerability-cve-2021-4428/) | | | |
+| OCLC | | | | | [OCLC Link](https://oclc.service-now.com/status) | | | |
+| Octopus | | | | | [Octopus Advisory](https://advisories.octopus.com/adv/December.2306508680.html) | | | |
 | Okta | Advanced Server Access | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
 | Okta | Okta Access Gateway | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
 | Okta | Okta AD Agent | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
@@ -1194,36 +1205,89 @@ This list was initially populated using information from the following sources:
 | Okta | Okta IWA Web Agent | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021|
 | Okta | Okta LDAP Agent | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
 | Okta | Okta Mobile |  | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
-| Okta | Okta Workflows | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
+| Okta | Okta RADIUS Server Agent | < 2.17.0 | Affected | | [Okta RADIUS Server Agent CVE-2021-44228  Okta](https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228) | | | 12/12/2021 |
 | Okta | Okta Verify | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021   |
-| Palo-Alto Networks | Prisma Cloud Compute| | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto Networks | Prisma Cloud | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto Networks | PAN-OS for Firewall and Wildfire | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto Networks | GlobalProtect App | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto Networks | Cortex XSOAR | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
-| Palo-Alto Networks | Cortex XDR Agent | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Okta | Okta Workflows | | Not Affected | | [Okta’s response to CVE-2021-44228 (“Log4Shell”)  Okta Security](https://sec.okta.com/articles/2021/12/log4shell) | | | 12/12/2021 |
+| Okta| Okta On-Prem MFA Agent| < 1.4.6 | Affected | | [Okta On-Prem MFA Agent CVE-2021-44228  Okta](https://trust.okta.com/security-advisories/okta-on-prem-mfa-agent-cve-2021-44228)| || 12/12/2021 |
+| Onespan | | | | | [Onespan Link](https://www.onespan.com/remote-code-execution-vulnerability-in-log4j2-cve-2018-11776) | | | |
+| Opengear | | | | | [Opengear Link](https://opengear.zendesk.com/hc/en-us/articles/4412713339419-CVE-2021-44228-aka-Log4Shell-Opengear-products-are-not-affected) | | | |
+| OpenMRS TALK | | | | | [OpenMRS TALK Link](https://talk.openmrs.org/t/urgent-security-advisory-2021-12-11-re-apache-log4j-2/35341) | | | |
+| OpenNMS | | | | | [OpenNMS Link](https://www.opennms.com/en/blog/2021-12-10-opennms-products-affected-by-apache-log4j-vulnerability-cve-2021-44228/) | | | |
+| OpenSearch | | | | | [OpenSearch Discussion Link](https://discuss.opendistrocommunity.dev/t/log4j-patch-for-cve-2021-44228/7950) | | | |
+| Oracle | | | | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html | | | |
+| Orgavision | | | | | [Orgavision Link](https://www.orgavision.com/neuigkeiten/sicherheitsluecke-java-library-log4j) | | | |
+| OTRS | | | | | [OTRS Link](https://portal.otrs.com/external) | | | |
+| OVHCloud | | | | | [OVHCloud Blog Post](https://blog.ovhcloud.com/log4shell-how-to-protect-my-cloud-workloads/) | | | |
+| OwnCloud | | | | | [OwnCloud Link](https://central.owncloud.org/t/owncloud-not-directly-affected-by-log4j-vulnerability/35493) | | | |
+| OxygenXML | | | | | [OxygenXML Link](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | | |
 | Palo-Alto | CloudGenix | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
 | Palo-Alto | PAN-OS for Panorama | 9.0, 9.1, 10.0 | Affected | Yes | [CVE-2021-44228:Impact of Log4J Vulnerability](https://security.paloaltonetworks.com/CVE-2021-44228) | | Upgrade Panorama to PAN-OS 10.1 to remediate this issue. This advisory will be updated when hot fixes for the affected Panorama versions are available. PAN-OS for Panorama versions 8.1, 10.1 are not affected. | 12/15/2021 |
-| Ping Identity | PingFederate | 8.0 <= version <= 10.3.4 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
-| Ping Identity | PingFederate OAuth Playground | < 4.3.1 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
-| Ping Identity | PingFederate Java Integration Kit | < 2.7.2 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
+| Palo-Alto Networks | Cortex XDR Agent | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | Cortex XSOAR | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | GlobalProtect App | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | PAN-OS for Firewall and Wildfire | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | Prisma Cloud | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Palo-Alto Networks | Prisma Cloud Compute| | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
+| Panopto | | | | | [Panopto Support Link](https://support.panopto.com/s/article/Panopto-Statement-on-the-Log4j2-Zero-Day-Vulnerability) | | | |
+| PaperCut | | | | | [PaperCut Link](https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228) | | | |
+| Parallels | | | | | [Parellels Link](https://kb.parallels.com/en/128696) | | | |
+| Parse.ly | | | | | [Parse.ly Blog Post](https://blog.parse.ly/parse-ly-log4shell/) | | | |
+| Pega | | | | | [Pega Docs Link](https://docs.pega.com/security-advisory/security-advisory-apache-log4j-zero-day-vulnerability) | | | |
+| Pentaho |||||[Pentaho Support Link](https://support.pentaho.com/hc/en-us/articles/4416229254541-log4j-2-zero-day-vulnerability-No-impact-to-supported-versions-of-Pentaho-) | | | |
+| Percona | | | | | [Percona Blog Post](https://www.percona.com/blog/log4jshell-vulnerability-update/) | | | |
+| Pexip | | | | | [Pexip Link](https://www.pexip.com/blog1.0/pexip-statement-on-log4j-vulnerability) | | | |
+| Phenix Id | | | | | [Phenix Id Support Link](https://support.phenixid.se/uncategorized/log4j-fix/) | | | |
+| Philips | Multiple products | | | | [Philips Security Advisory](https://www.philips.com/a-w/security/security-advisories.html) | | | |
 | Ping Identity | PingAccess | 4.0 <= version <= 6.3.2 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
 | Ping Identity | PingCentral | | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
+| Ping Identity | PingFederate | 8.0 <= version <= 10.3.4 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
+| Ping Identity | PingFederate Java Integration Kit | < 2.7.2 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
+| Ping Identity | PingFederate OAuth Playground | < 4.3.1 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
 | Ping Identity | PingIntelligence | | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
+| Pitney Bowes | | | | | [Pitney Bowes Support Link](https://www.pitneybowes.com/us/support/apache-log4j-vulnerability.html) | | | |
+| Planmeca | | | | | [Planmeca Link](https://www.planmeca.com/apache-log4j-vulnerability-in-planmeca-products/) | | | |
+| Planon Software | | | | | [Planon News](https://my.planonsoftware.com/uk/news/log4j-impact-on-planon/) | This advisory is available for customers only and has not been reviewed by CISA| | |
+| Platform.SH | | | | | [Platform.SH Blog Post](https://platform.sh/blog/2021/platformsh-protects-from-apache-log4j/) | | | |
+| Plesk | | | | | [Plesk Support Link](https://support.plesk.com/hc/en-us/articles/4412182812818-CVE-2021-44228-vulnerability-in-log4j-package-of-Apache) | | | |
 | Plex | Plex Industrial IoT | | Fixed | | [PN1579 - Log4Shell Vulnerability Notice](https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605) | The product has been updated to Log4j version 2.15. An additional patch is being developed to update to 2.16. No user interaction is required. | | 12/15/2021 |
-| Pulse Secure | Pulse Secure Virtual Traffic Manager | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
-| Pulse Secure | Pulse Secure Services Director | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
-| Pulse Secure | Pulse Secure Web Application Firewall | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
-| Pulse Secure | Pulse Connect Secure | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
+| Polycom | | | | | [Polycom Support Link](https://support.polycom.com/content/dam/polycom-support/global/documentation/plygn-21-08-poly-systems-apache.pdf) | | | |
+| Portainer | | | | | [Portainer Blog Post](https://www.portainer.io/blog/portainer-statement-re-log4j-cve-2021-44228) | | | |
+| PortSwigger | | | | | [PortSwigger Forum](https://forum.portswigger.net/thread/are-burp-collaborator-or-burp-enterprise-vulnerable-to-log4j-dc6524e0) | | | |
+| PostGreSQL | | | | | [PostGreSQL News](https://www.postgresql.org/about/news/postgresql-jdbc-and-the-log4j-cve-2371/) | | | |
+| Postman | | | | | [Postman Support Link](https://support.postman.com/hc/en-us/articles/4415791933335-Is-Postman-impacted-by-the-Log4j-vulnerability-CVE-2021-44228-) | | | |
+| Pretix | | | | | [Pretix Blog Post](https://pretix.eu/about/de/blog/20211213-log4j/) | | | |
+| PrimeKey | | | | | [PrimeKey Support Link](https://support.primekey.com/news/posts/information-about-primekey-products-and-log4j-vulnerability-cve-2021-44228) | | | |
+| Progress / IpSwitch | | | | | [Progress / IpSwitch Link](https://www.progress.com/security) | | | |
+| ProofPoint | | | | | [ProofPoint Article](https://proofpointcommunities.force.com/community/s/article/Proofpoint-Statement-Regarding-CVE-2021-44228-Java-logging-package-log4j2) | This advisory is available for customers only and has not been reviewed by CISA| | |
+| ProSeS | | | | | [ProSeS Link](https://www.proses.de/en/2021/12/16/log4shell-cve-2021-44228/) | | | |
+| Prosys | | | | | [Prosys News Link](https://prosysopc.com/news/important-security-release/) | | | |
+| Proxmox | | | | | [Proxmox Forum](https://forum.proxmox.com/threads/log4j-exploit-what-to-do.101254/#post-436880) | | | |
+| PRTG Paessler | | | | | [PRTG Paessler Link](https://kb.paessler.com/en/topic/90213-is-prtg-affected-by-cve-2021-44228) | | | |
+| PTC | | | | | [PTC Alert](https://www.ptc.com/en/support/alerts/log4j%20zero%20day%20vulnerability%20-%2020211211) | This advisory is available for customers only and has not been reviewed by CISA| | |
+| PTV Group | | | | | [PTV Group Link](https://company.ptvgroup.com/en/resources/service-support/log4j-latest-information) | | | |
 | Pulse Secure | Ivanti Connect Secure (ICS) | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
-| Pulse Secure | Pulse Policy Secure | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  | |  |
+| Pulse Secure | Ivanti Neurons for secure Access | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
+| Pulse Secure | Ivanti Neurons for ZTA | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
+| Pulse Secure | Pulse Connect Secure | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Pulse Desktop Client | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Pulse Mobile Client | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Pulse One | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
+| Pulse Secure | Pulse Policy Secure | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) |  | |  |
+| Pulse Secure | Pulse Secure Services Director | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
+| Pulse Secure | Pulse Secure Virtual Traffic Manager | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
+| Pulse Secure | Pulse Secure Web Application Firewall | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Pulse ZTA | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
-| Pulse Secure | Ivanti Neurons for ZTA | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
-| Pulse Secure | Ivanti Neurons for secure Access | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
-| Rapid7 | AlcidekArt, kAdvisor, and kAudit | on-prem | Not Affected | | [Rapid7 Statement](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8) | || 12/15/2021|
+| Puppet | | | | | [Puppet Blog Post](https://puppet.com/blog/puppet-response-to-remote-code-execution-vulnerability-cve-2021-44228/) | | | |
+| Pure Storage | | | | | [Pure Storage Support Link](https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_(%22log4j%22)) | This advisory is available for customers only and has not been reviewed by CISA| | |
+| Pyramid Analytics | | | | | [Pyramid Analytics Community Link](https://community.pyramidanalytics.com/t/83hjjt4/log4j-security-vulnerability-pyramid) | | | |
+| QF-Test | | | | | [QF-Test Blog Post](https://www.qfs.de/en/blog/article/no-log4j-vulnerability-in-qf-test.html) | | | |
+| Qlik | | | | | [Qlik Community Link](https://community.qlik.com/t5/Support-Updates-Blog/Vulnerability-Testing-Apache-Log4j-reference-CVE-2021-44228-also/ba-p/1869368) | | | |
+| QMATIC | | | Under Investigation| | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | | |
+| QNAP | | | Under Investigation | | [QNAP Security Advisory](https://www.qnap.com/en-uk/security-advisory/qsa-21-58) | | | |
+| QOPPA | | | | | [QOPPA Link](https://kbdeveloper.qoppa.com/cve-2021-44228-apache-log4j-vulnerability/) | | | |
+| QSC Q-SYS | | | | | [QSC Q-SYS Article](https://qscprod.force.com/selfhelpportal/s/article/Are-Q-SYS-products-affected-by-the-Log4j-vulnerability-CVE-2021-44228) | | | |
+| QT | | | Not Affected | | [QT](https://www.qt.io/blog/the-qt-company-products-not-affected-by-cve-2021-44228-log4j-vulnerability) | | | |
+| Quest Global | | | | | [Quest Global](https://support.quest.com/fr-fr/search#q=CVE-2021-44228&t=Global) | | | || Rapid7 | AlcidekArt, kAdvisor, and kAudit | on-prem | Not Affected | | [Rapid7 Statement](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8) | || 12/15/2021|
 | Rapid7 | AppSpider Pro | on-prem | Not Affected | |[Rapid7 Statement](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8)  | || 12/15/2021|
 | Rapid7 | AppSpider Enterprise | on-prem | Not Affected | | [Rapid7 Statement](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8)  | || 12/15/2021|
 | Rapid7 | Insight Agent | on-prem | Not Affected | | [Rapid7 Statement](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8)  | || 12/15/2021|
