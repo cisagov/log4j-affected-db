@@ -101,12 +101,13 @@ This list was initially populated using information from the following sources:
 | Apache | SOLR | 7.4.0 to 7.7.3, 8.0.0 to 8.11.0 | Affected | Yes | [Log4j – Apache Log4j Security Vulnerabilities](https://logging.apache.org/log4j/2.x/security.html) | | | |
 | Apereo | CAS | 6.3.x & 6.4.x | Affected | Yes | [CAS Log4J Vulnerability Disclosure – Apereo Community Blog](https://apereo.github.io/2021/12/11/log4j-vuln/) | | | |
 | Apereo | Opencast | < 9.10, < 10.6 | Affected | Yes | [Apache Log4j Remote Code Execution · Advisory · opencast/opencast · GitHub](https://github.com/opencast/opencast/security/advisories/GHSA-mf4f-j588-5xm8) | | | |
+| Application Performance Ltd | DBMarlin | Not Affected | | [Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428)| | | | 12/15/2021 |
 | Apigee | | | | | [Apigee Link](https://status.apigee.com/incidents/3cgzb0q2r10p) | | | |
 | Apollo | | | | | [Apollo Community Link](https://community.apollographql.com/t/log4j-vulnerability/2214) | | | |
 | Appdynamics | | | | | [Appdynamics Advisory Link](https://docs.appdynamics.com/display/PAA/Security+Advisory%3A+Apache+Log4j+Vulnerability) | | | |
 | Appeon | PowerBuilder | Appeon PowerBuilder 2017-2021 regardless of product edition  | Affected | No | | | |12/15/2021|
 | AppGate | | | | | [AppGate Blog Post](https://www.appgate.com/blog/appgate-sdp-unaffected-by-log4j-vulnerability) | | | |
-| Application Performance Ltd | DBMarlin | Not Affected | | [Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428)| | | 12/15/2021|
+| Application Performance Ltd | DBMarlin | Not Affected | | [Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428)| | | | 12/15/2021 |
 | APPSHEET | | | | | [APPSHEET Community Link](https://community.appsheet.com/t/appsheet-statement-on-log4j-vulnerability-cve-2021-44228/59976) | | | |
 | Aptible | Aptible | ElasticSearch 5.x | Affected | Yes | [Aptible Status - Log4j security incident CVE-2021-27135](https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4) | | | |
 | Aqua Security | | | | | [Aqua Security Google Doc](https://docs.google.com/document/d/e/2PACX-1vSmFR3oHPXOih1wENKd7RXn0dsHzgPUe91jJwDTsaVxJtcJEroktWNLq7BMUx9v7oDZRHqLVgkJnqCm/pub) | | | |
@@ -557,7 +558,7 @@ This list was initially populated using information from the following sources:
 | Elastic | Fleet Server||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
 | Elastic | Kibana||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
 | Elastic | Logstash|<6.8.21,<7.16.1|Affected|Yes|[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
-| Elastic | Machine Learning||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
+| Elastic | Machine Learning||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|||12/15/2021|
 | Elastic | Swiftype||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
 | ElasticSearch | all products | | Not Affected | | | | | |
 | Ellucian (Banner and Colleague Higher Education SIS) | | | | | [Ellucian Response](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) | | | |
@@ -687,7 +688,7 @@ This list was initially populated using information from the following sources:
 | HCL Software | BigFix Inventory | < 10.0.7 | Fixed | [KB with fix](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | | Not Affected for related CVE-2021-45046 | | | 12/15/2021 |
 | HCL Software | BigFix Lifecycle | All | Not Affected | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | | Not Affected for related CVE-2021-45046 | | | 12/15/2021 |
 | HCL Software | BigFix Mobile | All | Not Affected | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | | Not Affected for related CVE-2021-45046 | | | 12/15/2021 |
-| HCL Software | BigFix Patch | All | Not Affected | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | | Not Affected for related CVE-2021-45046 | | | 12/15/2021 |
+| HCL Software | BigFix Patch | All | Not Affected | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 | | | 12/15/2021 |
 | HelpSystems Clearswift | | | | | [HelpSystems Clearswift](https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687) | | | |
 | Hexagon | | | | | [Hexagon Statement](https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2?language=en_US) | | | |
 | Hikvision | | | | | [Hikvision](https://video.xortec.de/media/pdf/87/e8/03/kw50_Update-for-Apache-Log4j2-Issue-Hikvision_official.pdf) | | | |
@@ -1474,7 +1475,7 @@ This list was initially populated using information from the following sources:
 | Siemens | Industrial Edge Management OS  | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | | 12/15/2021 |
 | Siemens | LOGO! Soft Comfort | All versions | Affected | Yes | [Siemens Advisory Link]( https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | |12/15/2021 |
 | Siemens | Mendix Applications | All Versions | Not Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| | | 12/15/2021 |
-| Siemens | Mindsphere Cloud Application | All Versions < 2021-12-11 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Fixed on Cloud Version | |12/15/2021 |'
+| Siemens | Mindsphere Cloud Application | All Versions < 2021-12-11 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Fixed on Cloud Version | |12/15/2021 |
 | Siemens | NX | All Versions | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |  |  | 12/15/2021 |
 | Siemens | Opcenter Intelligence | All Versions >=3.2 | Affected | Yes |[Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | Only OEM version that ships Tableau | | 12/15/2021 |
 | Siemens | Operation Scheduler | All versions >= V1.1.3 | Affected | Yes | [Siemens Advisory Link](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) |Block incoming and outgoing connections | | 12/15/2021 |
