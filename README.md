@@ -1058,6 +1058,9 @@ This list was initially populated using information from the following sources:
 | Intel | System Studio | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Computer Vision Annotation Tool maintained by Intel | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Sensor Solution Firmware Development Kit | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+|Internet Systems Consortium(ISC)|ISC DHCP, aka dhcpd|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
+|Internet Systems Consortium(ISC)|Kea DHCP|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
+|Internet Systems Consortium(ISC)|BIND 9|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
 | InterSystems | | | | | [InterSystems Statement](https://www.intersystems.com/gt/apache-log4j2/) | | | |
 | Intland | codebeamer | <= 20.11-SP11, <= 21.09-SP3 | Affected | Some releases | [Apache Log4j vulnerability and fixes](https://codebeamer.com/cb/wiki/19872365) | A fix has been released for [20.11](https://codebeamer.com/cb/wiki/13134438) and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839) | | |
 | iRedMail | | | | | [iRedMail Statement](https://forum.iredmail.org/topic18605-log4j-cve202144228.html) | | | |
