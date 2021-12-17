@@ -13,9 +13,9 @@ the manufacturer or their respective online resources for the
 most up-to-date information regarding any specific product listed. CISA 
 does not endorse any commercial product or service, including 
 any subjects of analysis. Any reference to specific commercial products, 
-processes, or services by service mark, trademark, manufacturer, or otherwise, 
-does not constitute or imply their endorsement, recommendation, or favoring by 
-CISA.
+processes, or services by service mark, trademark, manufacturer, or 
+otherwise, does not constitute or imply their endorsement, recommendation, 
+or favoring by CISA.
 
 ## Official CISA Guidance & Resources ##
 
