@@ -525,9 +525,9 @@ This list was initially populated using information from the following sources:
 | Dynatrace | Synthetic Activegates||Affected||||||
 | EasyRedmine | | | | | [EasyRedmine News](https://www.easyredmine.com/news/easy-redmine-application-is-not-affected-by-the-vulnerability-cve-2021-44228) | | | |
 | EclecticIQ | | | | | [EclecticIQ Advisory](https://docs.eclecticiq.com/security-advisories/security-issues-and-mitigation-actions/eiq-2021-0016-2) | | | |
-| Eclipse Foundation | | | | | https://wiki.eclipse.org/Eclipse_and_log4j2_vulnerability_(CVE-2021-44228) | | | |
-| EFI | | | | | https://communities.efi.com/s/article/Are-Fiery-Servers-vulnerable-to-CVE-2021-44228-Apache-Log4j2?language=en_US | | | |
-| EGroupware | | | | | https://help.egroupware.org/t/uk-de-statement-log4j-log4shell/76430 | | | |
+| Eclipse Foundation | | | | | [Eclipse Foundation Wiki](https://wiki.eclipse.org/Eclipse_and_log4j2_vulnerability_(CVE-2021-44228)) | | | |
+| EFI | | | | | [EFI Link](https://communities.efi.com/s/article/Are-Fiery-Servers-vulnerable-to-CVE-2021-44228-Apache-Log4j2?language=en_US) | | | |
+| EGroupware | | | | | [EGroupware Link](https://help.egroupware.org/t/uk-de-statement-log4j-log4shell/76430) | | | |
 | Elastic | APM Java Agent||Under Investigation||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
 | Elastic | APM Server||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
 | Elastic | Beats||Not Affected||[Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476)|12/15/2021|
@@ -669,7 +669,7 @@ This list was initially populated using information from the following sources:
 | HCL Software | BigFix Lifecycle | All | Not Affected | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | | Not Affected for related CVE-2021-45046 | | | 12/15/2021 |
 | HCL Software | BigFix Mobile | All | Not Affected | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | | Not Affected for related CVE-2021-45046 | | | 12/15/2021 |
 | HCL Software | BigFix Patch | All | Not Affected | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | | Not Affected for related CVE-2021-45046 | | | 12/15/2021 |
-| HelpSystems Clearswift | | | | | (https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687) | | | |
+| HelpSystems Clearswift | | | | | [HelpSystems Clearswift](https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687) | | | |
 | Hexagon | | | | | [Hexagon Statement](https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2?language=en_US) | | | |
 | Hikvision | | | | | [Hikvision](https://video.xortec.de/media/pdf/87/e8/03/kw50_Update-for-Apache-Log4j2-Issue-Hikvision_official.pdf) | | | |
 | Hitachi Vantara | | | | | [Hitachi Vantara](https://knowledge.hitachivantara.com/Support_Information/Hitachi_Vantara_Security_Advisories/CVE-2021-44228_-_Apache_Log4j2) | | | |
@@ -1013,15 +1013,15 @@ This list was initially populated using information from the following sources:
 | Informatica | | | | | [Informatica Statement](https://network.informatica.com/community/informatica-network/blog/2021/12/10/log4j-vulnerability-update) | | | |
 | Instana | | | | | [Instana Statement](https://status.instana.io/incidents/4zgcd2gzf4jw) | | | |
 | Instructure | | | | | [Instructure Statement](https://community.canvaslms.com/t5/Community-Users/Instructure-amp-the-Apache-Log4j2-Vulnerability/ba-p/501907) | | | |
-| Intel | Audio Development Kit | |Affected |No | (https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021 |
-| Intel | Datacenter Manager | |Affected |No | (https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | | 12/16/2021|
-| Intel | oneAPI sample browser plugin for Eclipse | | Affected | | (https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
-| Intel | System Debugger | | Affected | | (https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
-| Intel | Secure Device Onboard | | Affected | | (https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
-| Intel | Genomics Kernel Library | | Affected | | (https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
-| Intel | System Studio | | Affected | | (https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
-| Intel | Computer Vision Annotation Tool maintained by Intel | | Affected | | (https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
-| Intel | Sensor Solution Firmware Development Kit | | Affected | | (https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+| Intel | Audio Development Kit | |Affected |No | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021 |
+| Intel | Datacenter Manager | |Affected |No | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | | 12/16/2021|
+| Intel | oneAPI sample browser plugin for Eclipse | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+| Intel | System Debugger | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+| Intel | Secure Device Onboard | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+| Intel | Genomics Kernel Library | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+| Intel | System Studio | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+| Intel | Computer Vision Annotation Tool maintained by Intel | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+| Intel | Sensor Solution Firmware Development Kit | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | InterSystems | | | | | [InterSystems Statement](https://www.intersystems.com/gt/apache-log4j2/) | | | |
 | Intland | codebeamer | <= 20.11-SP11, <= 21.09-SP3 | Affected | Some releases | [Apache Log4j vulnerability and fixes](https://codebeamer.com/cb/wiki/19872365) | A fix has been released for [20.11](https://codebeamer.com/cb/wiki/13134438) and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839) | | |
 | iRedMail | | | | | [iRedMail Statement](https://forum.iredmail.org/topic18605-log4j-cve202144228.html) | | | |
@@ -1120,7 +1120,7 @@ This list was initially populated using information from the following sources:
 | MailStore | | | | | [MailStore Statement](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) | | | |
 | Maltego | | | | | [Maltego Response to Logj4](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) | | | |
 | ManageEngine | Servicedsk Plus|11305 and below|Affected| | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html)|||12/15/2021|
-| ManageEngine Zoho  | | | | | (https://pitstop.manageengine.com/portal/en/community/topic/log4j-ad-manager-plus) | | | |
+| ManageEngine Zoho  | | | | | [Manage Engine Link](https://pitstop.manageengine.com/portal/en/community/topic/log4j-ad-manager-plus) | | | |
 | ManageEngine Zoho  | ADManager Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
 | ManageEngine Zoho  | ADAudit Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
 | ManageEngine Zoho  | DataSecurity Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
@@ -1182,7 +1182,7 @@ This list was initially populated using information from the following sources:
 | Netapp | Multiple NetApp products | | Affected | | [https://security.netapp.com/advisory/ntap-20211210-0007/](https://security.netapp.com/advisory/ntap-20211210-0007/) | |  | |
 | Netcup | | | | | [Netcup Statement](https://www.netcup-news.de/2021/12/14/pruefung-log4j-sicherheitsluecken-abgeschlossen/) | | | |
 | NetGate PFSense | | | | | [NetGate PFSense Forum](https://forum.netgate.com/topic/168417/java-log4j-vulnerability-is-pfsense-affected/35) | | | |
-| Netwrix | | | | | (https://www.netwrix.com/netwrix_statement_on_cve_2021_44228_the_apache_log4j_vulnerability.html) | | | |
+| Netwrix | | | | | [Netwrix Statement](https://www.netwrix.com/netwrix_statement_on_cve_2021_44228_the_apache_log4j_vulnerability.html) | | | |
 | Neo4j | Neo4j Graph Database| Version >4.2, <4..2.12 | Affected | No | | | | 12/13/2021|
 | New Relic | New Relic Java Agent|<7.4.2|Affected|Yes|[Java agent v7.4.2](https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-742/)|Initially fixed in 7.4.1, but additional vulnerability found|[New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605), covers CVE-2021-44228, CVE-2021-45046|12/15/2021|
 | Okta | Okta RADIUS Server Agent | < 2.17.0 | Affected | | [Okta RADIUS Server Agent CVE-2021-44228  Okta](https://trust.okta.com/security-advisories/okta-radius-server-agent-cve-2021-44228) | | | 12/12/2021 |
