@@ -217,7 +217,7 @@ This list was initially populated using information from the following sources:
 | BMC | TrueSight Orchestration | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | | | |
 | Box | | | | | [Box Link](https://blog.box.com/boxs-statement-recent-log4j-vulnerability-cve-2021-44228) | | | |
 | Brainworks | | | | | [Brainworks Link](https://www.brainworks.de/log4j-exploit-kerio-connect-workaround/) | | | |
-| BrightSign | | | | | [BrightSign Link](https://brightsign.atlassian.net/wiki/spaces/DOC/pages/37067919  /Security+Statement+Log4J+Meltdown+and+Spectre+Vulnerabilities#SecurityStatement%3ALog4J%2CMeltdownandSpectreVulnerabilities-JavaApacheLog4j) | | | |
+| BrightSign | | | | | [BrightSign Link](https://brightsign.atlassian.net/wiki/spaces/DOC/pages/370679198/Security+Statement+Log4J+Meltdown+and+Spectre+Vulnerabilities#SecurityStatement%3ALog4J%2CMeltdownandSpectreVulnerabilities-JavaApacheLog4j) | | | |
 | Broadcom | Advanced Secure Gateway (ASG) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | BCAAA | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | CA Advanced Authentication | 9.1 | Affected | | | | | |
