@@ -1369,7 +1369,9 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Prosys | | | | | [Prosys News Link](https://prosysopc.com/news/important-security-release/) | | | |
 | Proxmox | | | | | [Proxmox Forum](https://forum.proxmox.com/threads/log4j-exploit-what-to-do.101254/#post-436880) | | | |
 | PRTG Paessler | | | | | [PRTG Paessler Link](https://kb.paessler.com/en/topic/90213-is-prtg-affected-by-cve-2021-44228) | | | |
-| PTC | | | | | [PTC Alert](https://www.ptc.com/en/support/alerts/log4j%20zero%20day%20vulnerability%20-%2020211211) | This advisory is available for customers only and has not been reviewed by CISA| | |
+|PTC|Axeda Platform|6.9.2|Affected|No|[PTC Axeda Platform Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358990)|||12/17/2021|
+|PTC|ThingsWorx Platform|8.5,9.0,9.1,9.2, All supported versions|Affected|No|[ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901)|||12/17/2021|
+|PTC|ThingsWorx Analytics|8.5,9.0,9.1,9.2, All supported versions|Affected|No|[ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901)|||12/17/2021|
 | PTV Group | | | | | [PTV Group Link](https://company.ptvgroup.com/en/resources/service-support/log4j-latest-information) | | | |
 | Pulse Secure | Ivanti Connect Secure (ICS) | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Ivanti Neurons for secure Access | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
