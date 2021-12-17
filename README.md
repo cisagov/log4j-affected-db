@@ -808,23 +808,22 @@ This list was initially populated using information from the following sources:
 | Jamf | Jamf Pro | 10.31.0 – 10.34.0 | Affected | Yes | [Mitigating the Apache Log4j 2 Vulnerability](https://docs.jamf.com/technical-articles/Mitigating_the_Apache_Log4j_2_Vulnerability.html)||||
 | Jenkins | CI/CD Core |  | Not Affected | | | | | |
 | Jenkins | Plugins | | Some affected, some fixed, most unaffected. See [issue tracker](https://issues.jenkins.io/browse/JENKINS-67353) | Some | [Announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/), [issue tracker](https://issues.jenkins.io/browse/JENKINS-67353)  | [Instructions to test your installations in announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/) |  | 2021-12-16 |
-| Jetbrains |  | | Affected | Yes | [https://www.jetbrains.com/help/license\_server/release\_notes.html](https://www.jetbrains.com/help/license_server/release_notes.html) | | | |
-| JetBrains | IntelliJ platform based IDEs (AppCode, CLion, DataGrip, DataSpell, GoLand, IntelliJ IDEA Ultimate/Community/Edu, PhpStorm, PyCharm Professional/Community/Edu, Rider, RubyMine, WebStorm) | Unknown | Not Affected	 | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | All .NET tools (ReSharper, Rider, ReSharper C++, dotTrace, dotMemory, dotCover, dotPeek) | Unknown | Not Affected	 | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | ToolBox | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | TeamCity | Unknown | Not Affected | | [JetBrains Blog Post](https://youtrack.jetbrains.com/issue/TW-74298) |
-| JetBrains | Hub | 2021.1.14080 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/hub/2021/12/14/hub-update-regarding-log4j2-vulnerability/) |
-| JetBrains | YouTrack Standalone | 2021.4.35970 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/youtrack/2021/12/youtrack-update-regarding-log4j2-vulnerability/) |
-| JetBrains | YouTrack InCloud | Unknown | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | Datalore | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | Space | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| Jetbrains | Code With Me | Unknown | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | Gateway | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | Kotlin | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | Ktor | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | MPS | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | Floating license server | 30211 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
-| JetBrains | UpSource | 2020.1.1952 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) |
+| JetBrains | IntelliJ platform based IDEs (AppCode, CLion, DataGrip, DataSpell, GoLand, IntelliJ IDEA Ultimate/Community/Edu, PhpStorm, PyCharm Professional/Community/Edu, Rider, RubyMine, WebStorm) | Unknown | Not Affected	 | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | All .NET tools (ReSharper, Rider, ReSharper C++, dotTrace, dotMemory, dotCover, dotPeek) | Unknown | Not Affected	 | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | ToolBox | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | TeamCity | Unknown | Not Affected | | [JetBrains Blog Post](https://youtrack.jetbrains.com/issue/TW-74298) | | | |
+| JetBrains | Hub | 2021.1.14080 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/hub/2021/12/14/hub-update-regarding-log4j2-vulnerability/) | | | |
+| JetBrains | YouTrack Standalone | 2021.4.35970 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/youtrack/2021/12/youtrack-update-regarding-log4j2-vulnerability/) | | | |
+| JetBrains | YouTrack InCloud | Unknown | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Datalore | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Space | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| Jetbrains | Code With Me | Unknown | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Gateway | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Kotlin | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Ktor | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | MPS | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Floating license server | 30211 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | UpSource | 2020.1.1952 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
 | MathWorks | All MathWorks general release desktop or server products |  | Not Affected | No | [MathWorks statement regarding CVE-2021-44228](https://www.mathworks.com/matlabcentral/answers/1610640-apache-log4j-vulnerability-cve-2021-44228-how-does-it-affect-matlab-run-time) | | |
 | Lenovo | DSS-G |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
 | Lenovo | XClarity Administrator (LXCA) |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
