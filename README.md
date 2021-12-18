@@ -1976,7 +1976,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | VMware | VMware Carbon Black EDR Server | 7.x, 6.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Cloud Foundation | 4.x, 3.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware HCX | 4.x, 3.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
-| VMware | VMware Horizon | N/A | Affected | Yes | [VMSA-2021-0028](https://kb.vmware.com/s/article/87073) | | | 12/14/2021 |
+| VMware | VMware Horizon | 8.x, 7.x | Affected | Yes | [VMSA-2021-0028.4 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | [VMware KB 87073 (vmware.com)](https://kb.vmware.com/s/article/87073) | 12/17/2021 |
 | VMware | VMware Horizon Cloud Connector | 1.x, 2.x | Affected | Yes | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Horizon DaaS | 9.1.x, 9.0.x | Affected  | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Identity Manager | 3.3.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
