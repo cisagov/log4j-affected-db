@@ -796,6 +796,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Dynatrace | Synthetic Activegates | | Affected | | | | | |
 | Dynatrace | Synthetic Activegates||Affected||||||
 | EasyRedmine | | | | | [EasyRedmine News](https://www.easyredmine.com/news/easy-redmine-application-is-not-affected-by-the-vulnerability-cve-2021-44228) | | | |
+| Eaton | Undisclosed | Undisclosed | Affected | Affected | [Security Bulletin](https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/Eaton-Security-Bulletin%20log4j_CVE_2021_44228_v1.0_Legal-Approved.pdf) | Doesn't openly disclose what products are affected or not for quote 'security purposes'. Needs email registration. No workaround provided due to registration wall. |
 | EclecticIQ | | | | | [EclecticIQ Advisory](https://docs.eclecticiq.com/security-advisories/security-issues-and-mitigation-actions/eiq-2021-0016-2) | | | |
 | Eclipse Foundation | | | | | [Eclipse Foundation Wiki](https://wiki.eclipse.org/Eclipse_and_log4j2_vulnerability_(CVE-2021-44228)) | | | |
 | EFI | | | | | [EFI Link](https://communities.efi.com/s/article/Are-Fiery-Servers-vulnerable-to-CVE-2021-44228-Apache-Log4j2?language=en_US) | | | |
