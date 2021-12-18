@@ -68,7 +68,7 @@ This list was initially populated using information from the following sources:
 | 7-Zip | | | | | [7Zip Discussion Link](https://sourceforge.net/p/sevenzip/discussion/45797/thread/b977bbd4d1) | | | |
 | ABB | | | | | [ABB Link](https://search.abb.com/library/Download.aspx?DocumentID=9ADB012621&LanguageCode=en&DocumentPartId=&Action=Launch) | | | |
 | ABB | ABB Remote Service | ABB Remote Platform (RAP) | Affected | | Details are shared with active subscribers | | | |
-| ABB | AlarmInsight Cloud | AlarmInsight KPI Dashboards 1.0.0 | Under Investigation | Pending | | | | |
+| ABB | AlarmInsight Cloud | AlarmInsight KPI Dashboards 1.0.0 | Under Investigation |  | | | | |
 | ABB | B&R Products | See Vendor Advisory | | | [BR-Automation Advisory](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf) | | | |
 | Accellence | | | | | [Accellence Article](https://www.accellence.de/en/articles/national-vulnerability-database-62) | | | |
 | Accellion | Kiteworks | v7.6 release | Fixed | Yes | [Kiteworks Statement](https://www.kiteworks.com/kiteworks-news/log4shell-apache-vulnerability-what-kiteworks-customers-need-to-know/) | "As a precaution, Kiteworks released a 7.6.1 Hotfix software update to address the vulnerability. This patch release adds the mitigation for CVE-2021-44228 contained in the Solr package as recommended by Apache Solr group. Specifically, it updates the Log4j library to a non-vulnerable version on CentOS 7 systems as well as adds the recommended option “$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true” to disable the possible attack vector on both CentOS 6 and CentOS 7." | |12/16/2021 |
