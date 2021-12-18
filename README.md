@@ -1520,6 +1520,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Netcup | | | | | [Netcup Statement](https://www.netcup-news.de/2021/12/14/pruefung-log4j-sicherheitsluecken-abgeschlossen/) | | | |
 | NetGate PFSense | | | | | [NetGate PFSense Forum](https://forum.netgate.com/topic/168417/java-log4j-vulnerability-is-pfsense-affected/35) | | | |
 | Netwrix | | | | | [Netwrix Statement](https://www.netwrix.com/netwrix_statement_on_cve_2021_44228_the_apache_log4j_vulnerability.html) | | | |
+| New Relic | Containerized Private Minion (CPM)| 3.0.57| Fixed| Yes| [NR21-04](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-04/) | New Relic is in the process of revising  guidance/documentation, however the fix version remains sufficient. | [Security Bulletin NR21-04](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-04/) | 12-18-2021 |
 | New Relic |New Relic Java Agent|<7.4.2|Affected|Yes|[Java agent v7.4.2](https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-742/)|Initially fixed in 7.4.1, but additional vulnerability found|[New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605), covers CVE-2021-44228, CVE-2021-45046|12/15/2021|
 | NextCloud | | | | | [NextCloud Help](https://help.nextcloud.com/t/apache-log4j-does-not-affect-nextcloud/129244) | | | |
 | Nexus Group | | | | | [Nexus Group Docs](https://doc.nexusgroup.com/pages/viewpage.action?pageId=83133294) | | | |
