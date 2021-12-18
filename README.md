@@ -1366,7 +1366,22 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Jedox | | | | | [Jedox Statement](https://www.jedox.com/en/trust/) | | | |
 | Jenkins | CI/CD Core |  | Not Affected | | | | | |
 | Jenkins | Plugins | | Some affected, some fixed, most unaffected. See [issue tracker](https://issues.jenkins.io/browse/JENKINS-67353) | Some | [Announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/), [issue tracker](https://issues.jenkins.io/browse/JENKINS-67353)  | [Instructions to test your installations in announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/) |  | 2021-12-16 |
-| Jetbrains |  | | Affected | Yes | [JetBrains Statement](https://www.jetbrains.com/help/license_server/release_notes.html) | | | |
+| JetBrains | IntelliJ platform based IDEs (AppCode, CLion, DataGrip, DataSpell, GoLand, IntelliJ IDEA Ultimate/Community/Edu, PhpStorm, PyCharm Professional/Community/Edu, Rider, RubyMine, WebStorm) | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/)| | | |
+| JetBrains | All .NET tools (ReSharper, Rider, ReSharper C++, dotTrace, dotMemory, dotCover, dotPeek) | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | ToolBox | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | TeamCity | Unknown | Not Affected | | [JetBrains Blog Post](https://youtrack.jetbrains.com/issue/TW-74298) | | | |
+| JetBrains | Hub | 2021.1.14080 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/hub/2021/12/14/hub-update-regarding-log4j2-vulnerability/) | | | |
+| JetBrains | YouTrack Standalone | 2021.4.35970 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/youtrack/2021/12/youtrack-update-regarding-log4j2-vulnerability/) | | | |
+| JetBrains | YouTrack InCloud | Unknown | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Datalore | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Space | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| Jetbrains | Code With Me | Unknown | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Gateway | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Kotlin | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Ktor | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | MPS | Unknown | Not Affected | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | Floating license server | 30211 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
+| JetBrains | UpSource | 2020.1.1952 | Fixed | | [JetBrains Blog Post](https://blog.jetbrains.com/blog/2021/12/13/log4j-vulnerability-and-jetbrains-products-and-services/) | | | |
 | JFROG | | | | | [JFROG Statement](https://jfrog.com/knowledge-base/general-jfrog-services-are-not-affected-by-vulnerability-cve-2021-44228/) | | | |
 | Jitsi | | | | | [Jitsi Advisory](https://github.com/jitsi/security-advisories/blob/4e1ab58585a8a0593efccce77d5d0e22c5338605/advisories/JSA-2021-0004.md) | | | |
 | Jitterbit | | | | | [Jitterbit Statement](https://success.jitterbit.com/display/DOC/Mitigating+the+Apache+Log4j2+JNDI+Vulnerability) | | | |
