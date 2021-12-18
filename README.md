@@ -303,7 +303,6 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Cato Networks | | | | | [Cato Networks Blog Post](https://www.catonetworks.com/blog/cato-networks-rapid-response-to-the-apache-log4j-remote-code-execution-vulnerability/) | | | |
 | Cerberus FTP | | | | | [Cerberus Article](https://support.cerberusftp.com/hc/en-us/articles/4412448183571-Cerberus-is-not-affected-by-CVE-2021-44228-log4j-0-day-vulnerability) | | | |
 | Chaser Systems | discrimiNAT Firewall | All | Not Affected | | [Are Chaser’s products affected](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) | | | |
-| ChaserSystems | | | | | [ChaserSystems Link](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) | | | |
 | Check Point | CloudGuard | | Not Affected | | | | | |
 | Check Point | Harmony Endpoint & Harmony Mobile | | Not Affected | | | | | |
 | Check Point | Infinity Portal | | Not Affected | | | | | |
