@@ -1757,7 +1757,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Rubrik | | | | | [Rubrik Support Link](https://support.rubrik.com/s/announcementdetail?Id=a406f000001PwOcAAK) | This advisory is available to customers only and has not been reviewed by CISA| | |
 | Ruckus | Virtual SmartZone (vSZ) | 5.1 to 6.0  | Affected |  | [Ruckus Wireless (support.ruckuswireless.com)](https://support.ruckuswireless.com/security_bulletins/313) | | | 12/13/2021 |
 | RunDeck by PagerDuty | | | | | [RunDeck Docs Link](https://docs.rundeck.com/docs/history/CVEs/) | | | |
-| Runecast | | | | | [Runecast Blog Post](https://www.runecast.com/blog/runecast-6-0-1-0-covers-apache-log4j-java-vulnerability) | | | |
+| Runecast | Runecast Analyzer | 6.0.3 | Fixed | Yes | [Runecast Release notes](https://www.runecast.com/release-notes) | | | |
 | SAE-IT | | | | | [SAE-IT News Link](https://www.sae-it.com/nc/de/news/sicherheitsmeldungen.html) | | | |
 | SAFE FME Server | | | | | [SAFE FME Server Community Link](https://community.safe.com/s/article/Is-FME-Server-Affected-by-the-Security-Vulnerability-Reported-Against-log4j) | | | |
 | SAGE | | | | | [SAGE Announcement Link](https://www.sagecity.com/sage-global-solutions/sage-crm/f/sage-crm-announcements-news-and-alerts/178655/advisory-apache-log4j-vulnerability-cve-2021-44228) | | | |
