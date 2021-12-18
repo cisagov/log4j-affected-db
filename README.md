@@ -1443,6 +1443,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | LiquidFiles | | | | | [LiquidFiles Statement](https://mailchi.mp/liquidfiles/liquidfiles-log4j?e=%5BUNIQID%5D) | | | |
 | LiveAction | | | | | [LiveAction Statement](https://documentation.liveaction.com/LiveNX/LiveNX%2021.5.1%20Release%20Notes/Release%20Notes%20LiveNX%2021.5.1.1.3) | | | |
 | Loftware | | | | | [Loftware](https://help.loftware.com/lps-kb/content/log4j%20cve-2021-44228.htm?Highlight=CVE-2021-44228) | | | |
+| LOGalyze | SIEM & log analyzer tool | v4.x | Affected | No | [abandoned open-source software repo (sourceforge.net)](https://sourceforge.net/software/product/LOGalyze/) | local-log4j-vuln-scanner result: indicator for vulnerable component found in /logalyze/lib/log4j-1.2.17.jar (org/apache/log4j/net/SocketNode.class): log4j 1.2.17 | [Forks (github.com)](https://github.com/search?q=logalyzer&s=updated&type=Repositories) | 2021-12-17 |
 | LogiAnalytics | | | | | [LogiAnalytics Statement](https://devnet.logianalytics.com/hc/en-us/articles/4415781801751-Statement-on-Log4j-Vulnerability-CVE-2021-44228-) | | | |
 | LogicMonitor | | | | | [LogicMonitor Statement](https://www.logicmonitor.com/support/log4shell-security-vulnerability-cve-2021-44228) | | | |
 | LogMeIn | | | | | [LogMeIn Statement](https://community.logmein.com/t5/LogMeIn-Central-Discussions/LOG4J-Vulnerability/m-p/280317/highlight/true#M8327) | | | |
@@ -1452,7 +1453,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Lucee | | | | | [Lucee Statement](https://dev.lucee.org/t/lucee-is-not-affected-by-the-log4j-jndi-exploit-cve-2021-44228/9331/4) | | | |
 | MailStore | | | | | [MailStore Statement](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) | | | |
 | Maltego | | | | | [Maltego Response to Logj4](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) | | | |
-| ManageEngine | Servicedsk Plus|11305 and below|Affected| | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html)|||12/15/2021|
+| ManageEngine | Servicedesk Plus|11305 and below|Affected| | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html)|||12/15/2021|
 | ManageEngine Zoho  | | | | | [Manage Engine Link](https://pitstop.manageengine.com/portal/en/community/topic/log4j-ad-manager-plus) | | | |
 | ManageEngine Zoho  | ADManager Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
 | ManageEngine Zoho  | ADAudit Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
