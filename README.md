@@ -1573,7 +1573,18 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | OTRS | | | | | [OTRS Link](https://portal.otrs.com/external) | | | |
 | OVHCloud | | | | | [OVHCloud Blog Post](https://blog.ovhcloud.com/log4shell-how-to-protect-my-cloud-workloads/) | | | |
 | OwnCloud | | | | | [OwnCloud Link](https://central.owncloud.org/t/owncloud-not-directly-affected-by-log4j-vulnerability/35493) | | | |
-| OxygenXML | | | | | [OxygenXML Link](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | | |
+| OxygenXML | Author | | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Developer | | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Editor | | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Oxygen Content Fusion | 2.0, 3.0, 4.1 | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Oxygen Feedback Enterprise | 1.4.4 & older | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Oxygen License Server | v22.1 to v24.0 | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Oxygen PDF Chemistry | v22.1, 23.0, 23.1, 24.0 | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Oxygen SDK |  | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Plugins (see advisory link) |  | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Publishing Engine |  | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | Web Author | | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| OxygenXML | WebHelp |  | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
 | Palo-Alto Networks | CloudGenix | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
 | Palo-Alto Networks | Palo-Alto Networks-OS for Panorama | 9.0, 9.1, 10.0 | Affected | Yes | [CVE-2021-44228:Impact of Log4J Vulnerability](https://security.paloaltonetworks.com/CVE-2021-44228) | | Upgrade Panorama to PAN-OS 10.1 to remediate this issue. This advisory will be updated when hot fixes for the affected Panorama versions are available. PAN-OS for Panorama versions 8.1, 10.1 are not affected. | 12/15/2021 |
 | Palo-Alto Networks | Bridgecrew | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
