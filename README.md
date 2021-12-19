@@ -1594,7 +1594,8 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Palo-Alto Networks | WildFire Cloud  | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
 | Palo-Alto Networks | User-ID Agent | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
 | Panopto | | | | | [Panopto Support Link](https://support.panopto.com/s/article/Panopto-Statement-on-the-Log4j2-Zero-Day-Vulnerability) | | | |
-| PaperCut | | | | | [PaperCut Link](https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228) | | | |
+| PaperCut | PaperCut MF | 21.0 and later | Affected | Yes |  [https://www.papercut.com/support/known-issues/?id=PO-684#ng](https://www.papercut.com/support/known-issues/?id=PO-684#ng) | Versions 21.0 and later are impacted. Versions 20 and earlier are NOT impacted by this. Workaround manual steps available in reference. Upgrade to PaperCut NG/MF version 21.2.3 Now Available to resolve.| | 12/16/2021 |
+| PaperCut | PaperCut NG | 21.0 and later | Affected | Yes |  [https://www.papercut.com/support/known-issues/?id=PO-684#ng](https://www.papercut.com/support/known-issues/?id=PO-684#ng) | Versions 21.0 and later are impacted. Versions 20 and earlier are NOT impacted by this. Workaround manual steps available in reference. Upgrade to PaperCut NG/MF version 21.2.3 Now Available to resolve.| | 12/16/2021 |
 | Parallels | | | | | [Parellels Link](https://kb.parallels.com/en/128696) | | | |
 | Parse.ly | | | | | [Parse.ly Blog Post](https://blog.parse.ly/parse-ly-log4shell/) | | | |
 | Pega | | | | | [Pega Docs Link](https://docs.pega.com/security-advisory/security-advisory-apache-log4j-zero-day-vulnerability) | | | |
