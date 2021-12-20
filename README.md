@@ -1495,14 +1495,35 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Matillion | | | | | [Matillion Security Advisory](https://documentation.matillion.com/docs/security-advisory-14th-december-2021) | | | |
 | Matomo | | | | | [Matomo Statement](https://forum.matomo.org/t/matomo-is-not-concerned-by-the-log4j-security-breach-cve-2021-44228-discovered-on-december-2021-the-9th/44089) | | | |
 | Mattermost FocalBoard | | | | | [Mattermost FocalBoard Concern](https://forum.mattermost.org/t/log4j-vulnerability-concern/12676) | | | |
-| McAfee | Data Exchange Layer (DXL) |  | Under Investigation | |  | | | |
-| McAfee | Enterprise Security Manager (ESM) |  | Under Investigation | | | | | |
-| McAfee | ePolicy Orchestrator Agent Handlers (ePO-AH) |  | Not Affected | |  | | | |
-| McAfee | ePolicy Orchestrator Application Server (ePO) | | Under Investigation |  | | | | |
-| McAfee | McAfee Active Response (MAR) | | Under Investigation | | | | | |
-| McAfee | Network Security Manager (NSM) | | Under Investigation | | | | | |
-| McAfee | Network Security Platform (NSP) | | Under Investigation | | | |  | |
-| McAfee | Threat Intelligence Exchange (TIE) |  | Under Investigation | | | | | |
+| McAfee | Data Exchange Layer (DXL) Client |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Data Loss Prevention (DLP) Discover |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Data Loss Prevention (DLP) Endpoint for Mac |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Data Loss Prevention (DLP) Endpoint for Windows |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Data Loss Prevention (DLP) Monitor |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Data Loss Prevention (DLP) Prevent |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Endpoint Security (ENS) for Linux |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Endpoint Security (ENS) for Mac |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Endpoint Security (ENS) for Windows |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | ePolicy Orchestrator Application Server (ePO) | 5.10 CU11 | Fixed | Yes | https://kc.mcafee.com/agent/index?page=content&id=SB10377 | | | 12/20/2021|
+| McAfee | ePolicy Orchestrator Agent Handlers (ePO-AH) |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Host Intrusion Prevention (Host IPS) |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Management of Native Encryption (MNE) |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | McAfee Active Response (MAR) | | Not Affected | | | | | 12/20/2021 |
+| McAfee | McAfee Agent (MA) |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | McAfee Application and Change Control (MACC) for Linux |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | McAfee Application and Change Control (MACC) for Windows |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | McAfee Client Proxy (MCP) for Mac |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | McAfee Client Proxy (MCP) for Windows |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | McAfee Drive Encryption (MDE) |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | McAfee Security for Microsoft Exchange (MSME) |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | McAfee Security for Microsoft SharePoint (MSMS) |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | McAfee Security for Microsoft Exchange (MSME) |  | Not Affected | |  | | | 12/20/2021 |
+| McAfee | Enterprise Security Manager (ESM) | 11.5.3 | Fixed | Yes | https://kc.mcafee.com/agent/index?page=content&id=SB10377 | | | 12/20/2021 |
+| McAfee | Network Security Manager (NSM) | | Not Affected | | | | | 12/20/2021 |
+| McAfee | Network Security Platform (NSP) | | Not Affected | | | |  | 12/20/2021 |
+| McAfee | Policy Auditor | | Not Affected | | | |  | 12/20/2021 |
+| McAfee | Threat Intelligence Exchange (TIE) |  | Affected | | https://kc.mcafee.com/agent/index?page=content&id=SB10377 | Latest status in linked Security Bulletin | | 12/20/2021|
+| McAfee | Web Gateway (MWG) |  | Foxed | | https://kc.mcafee.com/agent/index?page=content&id=SB10377 | | | 12/20/2021|
 | MEINBERG | | | | | [MEINBERG Information](https://www.meinbergglobal.com/english/news/meinberg-lantime-and-microsync-systems-not-at-risk-from-log4j-security-exploit.htm) | | | |
 | Memurai | | | | | [Memurai Information](https://www.memurai.com/blog/apache-log4j2-cve-2021-44228) | | | |
 | MicroFocus | | | | | [MicroFocus Statement](https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228) | | | |
