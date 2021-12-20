@@ -1488,6 +1488,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Looker | | | | | [Looker Statement](https://docs.google.com/document/d/e/2PACX-1vQGN1AYNMHxsRQ9AZNu1bKyTGRUSK_9xkQBge-nu4p8PYvBKIYHhc3914KTfVtDFIXtDhc3k6SZnR2M/pub) | | | |
 | LucaNet | | | | | [LucaNet Statement](https://www.lucanet.com/en/blog/update-vulnerability-log4j) | | | |
 | Lucee | | | | | [Lucee Statement](https://dev.lucee.org/t/lucee-is-not-affected-by-the-log4j-jndi-exploit-cve-2021-44228/9331/4) | | | |
+| Lyrasis | Fedora Repository | 3.x,4.x,5.x,6.x | Not Affected | | [Fedora Repository Statement](https://groups.google.com/g/fedora-tech/c/dQMQ5jaX8Xo) | Fedora Repository is unaffiliated with Fedora Linux.  Uses logback and explicitly excludes log4j. | | 2021-12-14 |
 | MailStore | | | | | [MailStore Statement](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) | | | |
 | Maltego | | | | | [Maltego Response to Logj4](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) | | | |
 | ManageEngine | Servicedesk Plus|11305 and below|Affected| | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html)|||12/15/2021|
