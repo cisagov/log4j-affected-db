@@ -2024,7 +2024,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Tibco | | | | | [Tibco Support Link](https://www.tibco.com/support/notices/2021/12/apache-log4j-vulnerability-update) | | | |
 | Top Gun Technology (TGT) | | | | | [TGT Bulletin](https://www.topgun-tech.com/technical-bulletin-apache-software-log4j-security-vulnerability-cve-2021-44228/) | | | |
 | TopDesk | | | | | [TopDesk Statement](https://my.topdesk.com/tas/public/ssp/content/detail/knowledgeitem?unid=74952771dfab4b0794292e63b0409314) | | | |
-|Topicus KeyHub|||||[Topicus Keyhub Statement](https://blog.topicus-keyhub.com/topicus-keyhub-is-not-vulnerable-to-cve-2021-44228/)||||
+|Topicus Security|Topicus KeyHub|All|Not Affected||[Topicus Keyhub Statement](https://blog.topicus-keyhub.com/topicus-keyhub-is-not-vulnerable-to-cve-2021-44228/)|||2021-12-20|
 | Topix | | | | | [Topix Statement](https://www.topix.de/de/technik/systemfreigaben.html) | | | |
 | Tosibox | | | | | [Tosibox Security Advisory](https://helpdesk.tosibox.com/support/solutions/articles/2100050946-security-advisory-on-vulnerability-in-apache-log4j-library-cve-2021-44228) | |||
 | TPLink |Omega Controller|Linux/Windows(all)|Affected|Yes|[Statement on Apache Log4j Vulnerability](https://www.tp-link.com/us/support/faq/3255)|Update is Beta. Reddit: overwritten vulnerable log4j with 2.15 files as potential workaround. Though that should now be done with 2.16|[Tp Community Link](https://community.tp-link.com/en/business/forum/topic/514452),[Reddit Link](https://www.reddit.com/r/TPLink_Omada/comments/rdzvlp/updating_the_sdn_to_protect_against_the_log4j)|12/15/2021|
