@@ -18,12 +18,13 @@ or imply their endorsement, recommendation, or favoring by CISA.
 
 ## Official CISA Guidance & Resources ##
 
-- [Emergency Directive 22-02 Mitigate Apache Log4j Vulnerability](https://www.cisa.gov/emergency-directive-22-02)
 - [CISA Apache Log4j Vulnerability Guidance](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance)
+- [Emergency Directive 22-02 Mitigate Apache Log4j Vulnerability](https://www.cisa.gov/emergency-directive-22-02)
 - [Statement from CISA Director Easterly on “Log4j” Vulnerability](https://www.cisa.gov/news/2021/12/11/statement-cisa-director-easterly-log4j-vulnerability).
 
 ## CISA Current Activity Alerts ##
 
+- [CISA Issues ED 22-02 Directing Federal Agencies to Mitigate Apache Log4j Vulnerabilities](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/17/cisa-issues-ed-22-02-directing-federal-agencies-mitigate-apache)
 - [Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
 - [CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
 
