@@ -302,6 +302,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Broadcom | Web Isolation (WI) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Web Security Service (WSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | WebPulse | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
+| Bureau Van Dijk | Orbis | | Not Affected | | | Per Vendor Communications | | |
 | C4b XPHONE | | | | | [C4b XPHONE Link](https://www.c4b.com/de/news/log4j.php) | | | |
 | Camunda | | | | | [Camunda Forum Link](https://forum.camunda.org/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228/31910) | | | |
 | CarbonBlack | | | | | [CarbonBlack Advisory](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | |
@@ -1525,6 +1526,9 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Microsoft | Azure Data lake store java| < 2.3.10| Affected|| [azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310)||||
 | Microsoft | Azure DevOps Server| 2019.0 - 2020.1| Affected| No | [Azure DevOps (and Azure DevOps Server) and the log4j vulnerability](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511)||||
 | Microsoft | Azure DevOps|| Not Affected| | [Azure DevOps (and Azure DevOps Server) and the log4j vulnerability](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511)||||
+| Microsoft | Azure Load Balancer || Not Affected| | [Microsoft’s Response to CVE-2021-44228 Apache Log4j 2](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/)||||
+| Microsoft | Azure Application Gateway || Not Affected| | [Microsoft’s Response to CVE-2021-44228 Apache Log4j 2](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/)||||
+| Microsoft | Azure API Gateway || Not Affected| | [Microsoft’s Response to CVE-2021-44228 Apache Log4j 2](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/)||||
 | Microsoft | Team Foundation Server| 2018.2+| Affected| No | [Azure DevOps (and Azure DevOps Server) and the log4j vulnerability](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511)||||
 | Microstrategy | | | | | [Microstrategy Statement](https://community.microstrategy.com/s/article/MicroStrategy-s-response-to-CVE-2021-44228-The-Log4j-0-Day-Vulnerability?language=en_US) | | | |
 | Midori Global | | | | | [Midori Global Statement](https://www.midori-global.com/blog/2021/12/15/cve-2021-44228-log4shell-midori-apps-are-not-affected) | | | |
