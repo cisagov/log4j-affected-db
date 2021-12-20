@@ -2016,14 +2016,14 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Thales | Multiple products | | | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | |
 | The Access Group | | | | | [The Access Group Response](https://pages.theaccessgroup.com/Response-Log4J-Dec21.html) | | | |
 | ThreatLocker | | | | | [ThreatLocker Log4j Statement](https://threatlocker.kb.help/log4j-vulnerability/) | | | |
-|ThycoticCentrify|Secret Server|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Privilege Manager|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Account Lifecycle Manager|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Privileged Behavior Analytics|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|DevOps Secrets Vault|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Connection Manager|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Password Reset Server|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Cloud Suite|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
+| ThycoticCentrify | Secret Server | N/A | Not Affected | |[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Privilege Manager | N/A | Not Affected || [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Account Lifecycle Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Privileged Behavior Analytics | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | DevOps Secrets Vault | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Connection Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Password Reset Server | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Cloud Suite | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
 | Tibco | | | | | [Tibco Support Link](https://www.tibco.com/support/notices/2021/12/apache-log4j-vulnerability-update) | | | |
 | Top Gun Technology (TGT) | | | | | [TGT Bulletin](https://www.topgun-tech.com/technical-bulletin-apache-software-log4j-security-vulnerability-cve-2021-44228/) | | | |
 | TopDesk | | | | | [TopDesk Statement](https://my.topdesk.com/tas/public/ssp/content/detail/knowledgeitem?unid=74952771dfab4b0794292e63b0409314) | | | |
