@@ -5,7 +5,7 @@ This repository provides
 and an overview of related software regarding the Log4j vulnerability
 (CVE-2021-44228). CISA encourages users and administrators to review the
 [official Apache release](https://logging.apache.org/log4j/2.x/security.html)
-and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
+and upgrade to Log4j 2.17.0 or apply the recommended mitigations immediately.
 
 The information in this repository is provided "as is" for informational
 purposes only and is being assembled and updated by CISA through
@@ -73,6 +73,7 @@ This list was initially populated using information from the following sources:
 | ABB | ABB Remote Service | ABB Remote Platform (RAP) | Affected | | Details are shared with active subscribers | | | |
 | ABB | AlarmInsight Cloud | AlarmInsight KPI Dashboards 1.0.0 | Under Investigation |  | | | | |
 | ABB | B&R Products | See Vendor Advisory | | | [BR-Automation Advisory](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf) | | | |
+| Abbott | | | | | [Abbott Advisory Link](https://www.abbott.com/policies/cybersecurity/apache-Log4j.html) | | | 12/30/2021 |
 | Accellence | | | | | [Accellence Article](https://www.accellence.de/en/articles/national-vulnerability-database-62) | | | |
 | Accellion | Kiteworks | v7.6 release | Fixed | Yes | [Kiteworks Statement](https://www.kiteworks.com/kiteworks-news/log4shell-apache-vulnerability-what-kiteworks-customers-need-to-know/) | "As a precaution, Kiteworks released a 7.6.1 Hotfix software update to address the vulnerability. This patch release adds the mitigation for CVE-2021-44228 contained in the Solr package as recommended by Apache Solr group. Specifically, it updates the Log4j library to a non-vulnerable version on CentOS 7 systems as well as adds the recommended option “$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true” to disable the possible attack vector on both CentOS 6 and CentOS 7." | |12/16/2021 |
 | Acquia | | | | | [Acquia Article](https://support.acquia.com/hc/en-us/articles/4415823329047-Apache-log4j-CVE-2021-44228) | | | |
@@ -1834,7 +1835,29 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | SBT | SBT | <1.5.6 | Affected | Yes | [Release 1.5.7 · sbt/sbt(github.com)](https://github.com/sbt/sbt/releases/tag/v1.5.7) | | | 12/15/2021 |
 | ScaleComputing | | | | | [ScaleComputing Community Link](https://community.scalecomputing.com/s/article/Apache-Log4j-Vulnerability) |This advisory is available to customers only and has not been reviewed by CISA | | |
 | ScaleFusion MobileLock Pro | | | | | [ScaleFusion MobileLock Pro Help](https://help.mobilock.in/article/t9sx43yg44-scalefusion-security-advisory-for-apache-log-4-j-vulnerability-cve-2021-44228) | | | |
-| Schneider Electric | | | | | [Schneider Electric Link](https://download.schneider-electric.com/files?p_Doc_Ref=SESB-2021-347-01) | | | |
+| Schneider Electric | EcoStruxure IT Gateway | V1.5.0 to V1.13.0 | Fixed | Yes | [EcoStruxure Link](https://ecostruxureit.com/download-and-set-upecostruxureit-gateway/) | | | 12/20/2021 |
+| Schneider Electric | EcoStruxure IT Expert | Cloud | Fixed | Yes | | | | 12/20/2021 |
+| Schneider Electric | Facility Expert Small Business | Cloud | Fixed | Yes | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | Wiser by SE platform | Cloud | Fixed | Yes | | | | 12/20/2021 |
+| Schneider Electric | EASYFIT | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | Ecoreal XL | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | Eurotherm Data Reviewer | V3.0.2 and prior | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | MSE | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | NetBotz750/755 | Software versions 5.0 through 5.3.0 | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | NEW630 | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK BOM | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK-Docgen | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK-TNC | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK-UMS | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK3D2DRenderer | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK3D360Widget | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | Select and Config DATA | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SNC-API | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SNC-CMM | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SNCSEMTECH | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SPIMV3 | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SWBEditor | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SWBEngine | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
 | SCM Manager | | | | | [SCM Manager Link](https://scm-manager.org/blog/posts/2021-12-13-log4shell/) | | | |
 | ScreenBeam | | | | | [ScreenBeam Article](https://customersupport.screenbeam.com/hc/en-us/articles/4416468085389-December-2021-Security-Alert-Log4j-CVE-2021-44228) | | | |
 | SDL worldServer | | | | | [SDL worldServer Link](https://gateway.sdl.com/apex/communityknowledge?articleName=000017707) | | | |
