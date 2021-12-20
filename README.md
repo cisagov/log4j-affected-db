@@ -64,7 +64,7 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product| Version(s)| Status| Update available| Vendor link | Notes | Other References | Last Updated |
 | ------ | -------------------- | ---- | ----- | --------------- | ----------- | ----- | ---------------- | ------------ |
-| 1Password | | | | | [1Password Community Discussion](https://1password.community/discussion/comment/622612/#Comment_622612) | | | |
+| 1Password | 1Password | | Not affected | | [1Password public response on Reddit](https://www.reddit.com/r/1Password/comments/rea7dd/comment/hoe41ci) | | | 12/20/2021 |
 | 2n | | | | | [2n Advisory Link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) | | | |
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
 |3M Health Information Systems| CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) |This advisory is available to customer only and has not been reviewed by CISA.||12/15/2021|
@@ -194,7 +194,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Barco | | | | | [Barco Link](https://www.barco.com/en/support/knowledge-base/kb12495) | | | |
 | Barracuda | | | | | [Barracuda Link](https://www.barracuda.com/company/legal/trust-center) | | | |
 | BBraun | | | | | [BBraun Advisory](https://www.bbraun.com/en/products-and-therapies/services/b-braun-vulnerability-disclosure-policy/security-advisory/b-braun-statement-on-Apache_Log4j.html) | This advisory is available to customer only and has not been reviewed by CISA. | | |
-| BD | | | | | [BD Bulletin](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | |
+| BD | | | Not Affected | No | [BD Bulletin](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
 | Bender | | | | | [Bender Link](https://www.bender.de/en/cert) | | | |
 | Best Practical Request Tracker (RT) and Request Tracker for Incident Response (RTIR) | | | | | [Vendor Link](https://bestpractical.com/blog/2021/12/request-tracker-rt-and-request-tracker-for-incident-response-rtir-do-not-use-log4j) | | | |
 | BeyondTrust | Privilege Management Cloud | Unkown | Fixed |  | [BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell)](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) | vulnerability has been mitigated on all customer instances as of December 10, 2021 | KB0016542 | 2021-12-15 |
@@ -884,7 +884,18 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | F-Secure | Messaging Security Gateway |  | Affected | Yes | [The Log4J Vulnerability (CVE-2021-44228) – which F-Secure products are affected, what it means, what steps should you take - F-Secure Community](https://community.f-secure.com/common-business-en/kb/articles/9226-the-log4j-vulnerability-cve-2021-44228-which-f-secure-products-are-affected-what-it-means-what-steps-should-you-take) | | | |
 | F-Secure | Policy Manager | 13-15 | Affected | Yes | [F-Secure services Status - 0-day exploit found in the Java logging package log4j2](https://status.f-secure.com/incidents/sk8vmr0h34pd) | | | |
 | F-Secure| Policy Manager Proxy | 13-15 | Affected | Yes | [F-Secure services Status - 0-day exploit found in the Java logging package log4j2](https://status.f-secure.com/incidents/sk8vmr0h34pd) | | | |
-| F5 Networks | | | | | [F5 Networks Statement](https://support.f5.com/csp/article/K19026212) | | | |
+| F5 | BIG-IP (all modules) | 11.x - 16.x | Not Affected | | [F5 Security Advisory](https://support.f5.com/csp/article/K19026212) | | | |
+| F5 | BIG-IQ Centralized Management | 7.x-8.x | Not Affected | | [F5 Security Advisory](https://support.f5.com/csp/article/K19026212) | | | |
+| F5 | F5OS | 1.x | Not Affected | | [F5 Security Advisory](https://support.f5.com/csp/article/K19026212) | | | |
+| F5 | Traffix SDC | 5.x (5.2.0 CF1, 5.1.0 CF-30 - 5.1.0 CF-33)| Affected | No | [F5 Security Advisory](https://support.f5.com/csp/article/K19026212) | Vulnerable components: EMS-ELK components (Fluentd + Elastic Search + Kibana), Element Management System | | |
+| F5 | NGINX Plus | R19 - R25 | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Open Source | 1.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Unit | 1.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX App Protect | 3.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Controller | 3.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Ingress Controller | 1.x - 2.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Instance Manager | 1.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Service Mesh | 1.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
 | FAST LTA | | | | | [FAST LTA Statement](https://blog.fast-lta.de/en/log4j2-vulnerability) | | | |
 | Fastly | | | | | [Fastly Statement](https://www.fastly.com/blog/digging-deeper-into-log4shell-0day-rce-exploit-found-in-log4j) | | | |
 | FedEx | Ship Manager Software | Unknown | Affected/Under Investigation | | [FedEx Statement](https://www.fedex.com/en-us/shipping/ship-manager/software.html#tab-4)|Note: FedEx is aware of the issue related to the Log4j Remote Code Execution vulnerability affecting various Apache products. We are actively assessing the situation and taking necessary action as appropriate. As a result, we are temporarily unable to provide a link to download the FedEx Ship Manager software or generate product keys needed for registration of FedEx Ship Manager software. We are working to have this resolved as quickly as possible and apologize for the inconvenience. For related questions or the most updated information, customers should check FedEx Updates for Apache Log4j Issue or contact their Customer Technology representative.||12/15/2021|
@@ -1479,6 +1490,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Looker | | | | | [Looker Statement](https://docs.google.com/document/d/e/2PACX-1vQGN1AYNMHxsRQ9AZNu1bKyTGRUSK_9xkQBge-nu4p8PYvBKIYHhc3914KTfVtDFIXtDhc3k6SZnR2M/pub) | | | |
 | LucaNet | | | | | [LucaNet Statement](https://www.lucanet.com/en/blog/update-vulnerability-log4j) | | | |
 | Lucee | | | | | [Lucee Statement](https://dev.lucee.org/t/lucee-is-not-affected-by-the-log4j-jndi-exploit-cve-2021-44228/9331/4) | | | |
+| Lyrasis | Fedora Repository | 3.x,4.x,5.x,6.x | Not Affected | | [Fedora Repository Statement](https://groups.google.com/g/fedora-tech/c/dQMQ5jaX8Xo) | Fedora Repository is unaffiliated with Fedora Linux.  Uses logback and explicitly excludes log4j. | | 2021-12-14 |
 | MailStore | | | | | [MailStore Statement](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) | | | |
 | Maltego | | | | | [Maltego Response to Logj4](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) | | | |
 | ManageEngine | Servicedesk Plus|11305 and below|Affected| | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html)|||12/15/2021|
