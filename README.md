@@ -194,7 +194,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Barco | | | | | [Barco Link](https://www.barco.com/en/support/knowledge-base/kb12495) | | | |
 | Barracuda | | | | | [Barracuda Link](https://www.barracuda.com/company/legal/trust-center) | | | |
 | BBraun | | | | | [BBraun Advisory](https://www.bbraun.com/en/products-and-therapies/services/b-braun-vulnerability-disclosure-policy/security-advisory/b-braun-statement-on-Apache_Log4j.html) | This advisory is available to customer only and has not been reviewed by CISA. | | |
-| BD | | | | | [BD Bulletin](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | |
+| BD | | | Not Affected | No | [BD Bulletin](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
 | Bender | | | | | [Bender Link](https://www.bender.de/en/cert) | | | |
 | Best Practical Request Tracker (RT) and Request Tracker for Incident Response (RTIR) | | | | | [Vendor Link](https://bestpractical.com/blog/2021/12/request-tracker-rt-and-request-tracker-for-incident-response-rtir-do-not-use-log4j) | | | |
 | BeyondTrust | Privilege Management Cloud | Unkown | Fixed |  | [BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell)](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) | vulnerability has been mitigated on all customer instances as of December 10, 2021 | KB0016542 | 2021-12-15 |
