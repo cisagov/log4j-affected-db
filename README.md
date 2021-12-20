@@ -2116,7 +2116,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Zerto | | | | | [Zerto KB](https://help.zerto.com/kb/000004822) | | | |
 | Zesty | | | | | [Zesty Log4j Exploit](https://www.zesty.io/mindshare/company-announcements/log4j-exploit/) | | | |
 | Zimbra | | | | | [BugZilla Zimbra](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) | | | |
-| Zoom | | | | | [Zoom Security Exposure](https://community.zoom.com/t5/Community-Help-Center/Zoom-security-exposure/m-p/28109/highlight/true#M2059) | | | |
+| Zoom | | | | | [Zoom Security Exposure](https://explore.zoom.us/en/trust/security/security-bulletin/security-bulletin-log4j/?=nocache) | | | |
 | ZPE systems Inc | | | | | [ZpeSystems CVE-2021-44228](https://support.zpesystems.com/portal/en/kb/articles/is-nodegrid-os-and-zpe-cloud-affected-by-cve-2021-44228-apache-log4j) | | | |
 | Zscaler |Multiple Products||Not Affected|No|[CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581)|||12/15/2012|
 | Zyxel | | | | | [Zyxel Security Advisory for Apache Log4j](https://www.zyxel.com/support/Zyxel_security_advisory_for_Apache_Log4j_RCE_vulnerability.shtml) | | | |
