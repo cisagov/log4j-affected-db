@@ -1510,14 +1510,16 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Matillion | | | | | [Matillion Security Advisory](https://documentation.matillion.com/docs/security-advisory-14th-december-2021) | | | |
 | Matomo | | | | | [Matomo Statement](https://forum.matomo.org/t/matomo-is-not-concerned-by-the-log4j-security-breach-cve-2021-44228-discovered-on-december-2021-the-9th/44089) | | | |
 | Mattermost FocalBoard | | | | | [Mattermost FocalBoard Concern](https://forum.mattermost.org/t/log4j-vulnerability-concern/12676) | | | |
-| McAfee | Data Exchange Layer (DXL) |  | Under Investigation | |  | | | |
-| McAfee | Enterprise Security Manager (ESM) |  | Under Investigation | | | | | |
-| McAfee | ePolicy Orchestrator Agent Handlers (ePO-AH) |  | Not Affected | |  | | | |
-| McAfee | ePolicy Orchestrator Application Server (ePO) | | Under Investigation |  | | | | |
-| McAfee | McAfee Active Response (MAR) | | Under Investigation | | | | | |
-| McAfee | Network Security Manager (NSM) | | Under Investigation | | | | | |
-| McAfee | Network Security Platform (NSP) | | Under Investigation | | | |  | |
-| McAfee | Threat Intelligence Exchange (TIE) |  | Under Investigation | | | | | |
+| McAfee | Data Exchange Layer (DXL) |  | Not Affected | | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
+| McAfee | Enterprise Security Manager (ESM) | 11.0, 11.1, 11.2, 11.3, 11.4, 11.5 | Fixed | Yes | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
+| McAfee | ePolicy Orchestrator Agent Handlers (ePO-AH) |  | Not Affected | | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
+| McAfee | ePolicy Orchestrator Application Server (ePO) | 5.10 Update 10 or lower | Not Affected | | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
+| McAfee | ePolicy Orchestrator Application Server (ePO) | 5.10 Update 11 |  Fixed | Yes | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
+| McAfee | McAfee Active Response (MAR) | | Not Affected | | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
+| McAfee | Network Security Manager (NSM) | 9.1, 9.2, and 10.1 | Not Affected | | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
+| McAfee | Network Security Platform (NSP) |  | Not Affected | | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
+| McAfee | Threat Intelligence Exchange (TIE) | 2.2, 2.3, and 3.0 | Affected | No | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
+| McAfee | Web Gateway (MWG) | 8.2.21-8.2.24, 9.2.12-9.2.15, 10.2.0-10.2.4, 11.0.0-11.0.1 | Fixed | Yes | [REGISTERED - Security Bulletin - McAfee Enterprise products' status for "Log4Shell" ](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Login required| | 12/20/2021 |
 | MEINBERG | | | | | [MEINBERG Information](https://www.meinbergglobal.com/english/news/meinberg-lantime-and-microsync-systems-not-at-risk-from-log4j-security-exploit.htm) | | | |
 | Memurai | | | | | [Memurai Information](https://www.memurai.com/blog/apache-log4j2-cve-2021-44228) | | | |
 | MicroFocus | | | | | [MicroFocus Statement](https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228) | | | |
