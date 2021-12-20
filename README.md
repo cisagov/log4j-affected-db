@@ -1,8 +1,9 @@
 # CISA Log4j (CVE-2021-44228) Vulnerability Guidance #
 
-This repository provides CISA's guidance and an overview of related software
-regarding the Log4j vulnerability (CVE-2021-44228). CISA encourages users and
-administrators to review the
+This repository provides
+[CISA's guidance](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance)
+and an overview of related software regarding the Log4j vulnerability
+(CVE-2021-44228). CISA encourages users and administrators to review the
 [official Apache release](https://logging.apache.org/log4j/2.x/security.html)
 and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
 
@@ -19,10 +20,12 @@ or imply their endorsement, recommendation, or favoring by CISA.
 ## Official CISA Guidance & Resources ##
 
 - [CISA Apache Log4j Vulnerability Guidance](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance)
+- [Emergency Directive 22-02 Mitigate Apache Log4j Vulnerability](https://www.cisa.gov/emergency-directive-22-02)
 - [Statement from CISA Director Easterly on “Log4j” Vulnerability](https://www.cisa.gov/news/2021/12/11/statement-cisa-director-easterly-log4j-vulnerability).
 
 ## CISA Current Activity Alerts ##
 
+- [CISA Issues ED 22-02 Directing Federal Agencies to Mitigate Apache Log4j Vulnerabilities](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/17/cisa-issues-ed-22-02-directing-federal-agencies-mitigate-apache)
 - [Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
 - [CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
 
@@ -2013,14 +2016,14 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Thales | Multiple products | | | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | |
 | The Access Group | | | | | [The Access Group Response](https://pages.theaccessgroup.com/Response-Log4J-Dec21.html) | | | |
 | ThreatLocker | | | | | [ThreatLocker Log4j Statement](https://threatlocker.kb.help/log4j-vulnerability/) | | | |
-|ThycoticCentrify|Secret Server|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Privilege Manager|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Account Lifecycle Manager|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Privileged Behavior Analytics|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|DevOps Secrets Vault|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Connection Manager|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Password Reset Server|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Cloud Suite|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
+| ThycoticCentrify | Secret Server | N/A | Not Affected | |[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Privilege Manager | N/A | Not Affected || [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Account Lifecycle Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Privileged Behavior Analytics | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | DevOps Secrets Vault | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Connection Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Password Reset Server | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Cloud Suite | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
 | Tibco | | | | | [Tibco Support Link](https://www.tibco.com/support/notices/2021/12/apache-log4j-vulnerability-update) | | | |
 | Top Gun Technology (TGT) | | | | | [TGT Bulletin](https://www.topgun-tech.com/technical-bulletin-apache-software-log4j-security-vulnerability-cve-2021-44228/) | | | |
 | TopDesk | | | | | [TopDesk Statement](https://my.topdesk.com/tas/public/ssp/content/detail/knowledgeitem?unid=74952771dfab4b0794292e63b0409314) | | | |
