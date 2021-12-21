@@ -86,10 +86,10 @@ This list was initially populated using information from the following sources:
 | ADP | | | | | [ADP Alert Link](https://www.adp.com/about-adp/data-security/alerts/adp-vulnerability-statement-apache-log4j-vulnerability-cve-2021-44228.aspx) | | | |
 | AFAS Software | | | | | [AFAS Software Link](https://help.afas.nl/vraagantwoord/NL/SE/120439.htm) | | | |
 | Agilysys | | | | | [Agilysys Link](https://info.agilysys.com/webmail/76642/2001127877/c3fda575e2313fac1f6a203dc6fc1db2439c3db0da22bde1b6c1b6747d7f0e2f) | | | |
-| Advanced Systems Concepts (formally Jscape)|Active MFT||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
-| Advanced Systems Concepts (formally Jscape)|MFT Server||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
-| Advanced Systems Concepts (formally Jscape)|MFT Gateway||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
-| Advanced Systems Concepts (formally Jscape)|MFT||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
+| Advanced Systems Concepts (formally Jscape) | Active MFT | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
+| Advanced Systems Concepts (formally Jscape) | MFT Server | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
+| Advanced Systems Concepts (formally Jscape) | MFT Gateway | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
+| Advanced Systems Concepts (formally Jscape) | MFT | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
 | Akamai | SIEM Splunk Connector| All  | Affected |Yes  | [Akamai SIEM Integration](https://splunkbase.splunk.com/app/4310/) |v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities| |12/15/2021|
 | Alcatel | | | | | [Alcatel Link](https://dokuwiki.alu4u.com/doku.php?id=log4j) | | | |
 | Alertus | | | | | [Alertus Article Link](https://help.alertus.com/s/article/Security-Advisory-Log4Shell-Vulnerability?language=en_US) | | | |
@@ -1412,8 +1412,8 @@ This list was initially populated using information from the following sources:
 | Intel | Computer Vision Annotation Tool maintained by Intel | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Sensor Solution Firmware Development Kit | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Internet Systems Consortium(ISC)|ISC DHCP, aka dhcpd|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
-| Internet Systems Consortium(ISC)|Kea DHCP|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
-| Internet Systems Consortium(ISC)|BIND 9|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
+| Internet Systems Consortium(ISC) | Kea DHCP | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code | | 12/17/2021 |
+| Internet Systems Consortium(ISC) | BIND 9 | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code | | 12/17/2021 |
 | InterSystems | | | | | [InterSystems Statement](https://www.intersystems.com/gt/apache-log4j2/) | | | |
 | Intland | codebeamer | <= 20.11-SP11, <= 21.09-SP3 | Affected | Some releases | [Apache Log4j vulnerability and fixes](https://codebeamer.com/cb/wiki/19872365) | A fix has been released for [20.11](https://codebeamer.com/cb/wiki/13134438) and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839) | | |
 | iRedMail | | | | | [iRedMail Statement](https://forum.iredmail.org/topic18605-log4j-cve202144228.html) | | | |
@@ -1712,9 +1712,9 @@ This list was initially populated using information from the following sources:
 | Prosys | | | | | [Prosys News Link](https://prosysopc.com/news/important-security-release/) | | | |
 | Proxmox | | | | | [Proxmox Forum](https://forum.proxmox.com/threads/log4j-exploit-what-to-do.101254/#post-436880) | | | |
 | PRTG Paessler | | | | | [PRTG Paessler Link](https://kb.paessler.com/en/topic/90213-is-prtg-affected-by-cve-2021-44228) | | | |
-| PTC |Axeda Platform|6.9.2|Affected|No|[PTC Axeda Platform Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358990)|||12/17/2021|
-| PTC |ThingsWorx Platform|8.5,9.0,9.1,9.2, All supported versions|Affected|No|[ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901)|||12/17/2021|
-| PTC |ThingsWorx Analytics|8.5,9.0,9.1,9.2, All supported versions|Affected|No|[ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901)|||12/17/2021|
+| PTC | Axeda Platform | 6.9.2 | Affected | No | [PTC Axeda Platform Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358990) | | | 12/17/2021 |
+| PTC | ThingsWorx Platform |8.5,9.0,9.1,9.2, All supported versions | Affected | No | [ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901) | | | 12/17/2021 |
+| PTC | ThingsWorx Analytics | 8.5,9.0,9.1,9.2, All supported versions | Affected | No | [ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901) | | | 12/17/2021 |
 | PTV Group | | | | | [PTV Group Link](https://company.ptvgroup.com/en/resources/service-support/log4j-latest-information) | | | |
 | Pulse Secure | Ivanti Connect Secure (ICS) | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Ivanti Neurons for secure Access | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
