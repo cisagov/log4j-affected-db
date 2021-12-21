@@ -1739,7 +1739,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | QMATIC |Orchestra Central |6.0+ | not affected| | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | |12/21/2021 |
 | QMATIC |Appointment booking |2.4+ | Affected| Yes, update to v. 2.8.2 which contains log4j 2.16 | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | |12/21/2021 |
 | QMATIC |Insights |Cloud | Affected|Yes, log4j 2.16 applied 2021-12-16 | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | |12/21/2021 |
-| QMATIC |Appointment booking |Cloud/Managed Service | Yes, log4j 2.16 applied 2021-12-15| | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | |12/21/2021 |
+| QMATIC |Appointment booking |Cloud/Managed Service | Affected |Yes, log4j 2.16 applied 2021-12-15 | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | |12/21/2021 |
 | QNAP | | | Under Investigation | | [QNAP Security Advisory](https://www.qnap.com/en-uk/security-advisory/qsa-21-58) | | | |
 | QOPPA | | | | | [QOPPA Link](https://kbdeveloper.qoppa.com/cve-2021-44228-apache-log4j-vulnerability/) | | | |
 | QSC Q-SYS | | | | | [QSC Q-SYS Article](https://qscprod.force.com/selfhelpportal/s/article/Are-Q-SYS-products-affected-by-the-Log4j-vulnerability-CVE-2021-44228) | | | |
