@@ -2365,6 +2365,7 @@ This list was initially populated using information from the following sources:
 | Zebra | | | | | [Zebra lifeguard Security](https://www.zebra.com/us/en/support-downloads/lifeguard-security/cve-2021-442280-dubbed-log4shell-or-logjam-vulnerability.html) | | | |
 | Zendesk | All Products | All Versions | Affected | No | [2021-12-13 Security Advisory - Apache Log4j (CVE-2021-44228)](https://support.zendesk.com/hc/en-us/articles/4413583476122) | Zendesk products are all cloud-based; thus there are no updates for the customers to install as the company is working on patching their infrastructure and systems. | | 12/13/2021 |
 | Zenoss | | | | | [Zenoss](https://support.zenoss.com/hc/en-us) | | | |
+| Zentera Systems, Inc. | CoIP Access Platform | All | Not Affected | | [[CVE-2021-44228] Log4Shell Vulnerability in Apache Log4j](https://support.zentera.net/hc/en-us/articles/4416227743511--CVE-2021-44228-Log4Shell-Vulnerability-in-Apache-Log4j) | | | 12/17/2021 |
 | Zerto | | | | | [Zerto KB](https://help.zerto.com/kb/000004822) | | | |
 | Zesty | | | | | [Zesty Log4j Exploit](https://www.zesty.io/mindshare/company-announcements/log4j-exploit/) | | | |
 | Zimbra | | | | | [BugZilla Zimbra](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) | | | |
