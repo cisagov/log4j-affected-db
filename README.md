@@ -1736,7 +1736,10 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Pyramid Analytics | | | | | [Pyramid Analytics Community Link](https://community.pyramidanalytics.com/t/83hjjt4/log4j-security-vulnerability-pyramid) | | | |
 | QF-Test | | | | | [QF-Test Blog Post](https://www.qfs.de/en/blog/article/no-log4j-vulnerability-in-qf-test.html) | | | |
 | Qlik | | | | | [Qlik Community Link](https://community.qlik.com/t5/Support-Updates-Blog/Vulnerability-Testing-Apache-Log4j-reference-CVE-2021-44228-also/ba-p/1869368) | | | |
-| QMATIC | | | Under Investigation| | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | | |
+| QMATIC |Orchestra Central |6.0+ | not affected| | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | |12/21/2021 |
+| QMATIC |Appointment booking |2.4+ | Affected| Yes, update to v. 2.8.2 which contains log4j 2.16 | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | |12/21/2021 |
+| QMATIC |Insights |Cloud | Affected|Yes, log4j 2.16 applied 2021-12-16 | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | |12/21/2021 |
+| QMATIC |Appointment booking |Cloud/Managed Service | Yes, log4j 2.16 applied 2021-12-15| | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | |12/21/2021 |
 | QNAP | | | Under Investigation | | [QNAP Security Advisory](https://www.qnap.com/en-uk/security-advisory/qsa-21-58) | | | |
 | QOPPA | | | | | [QOPPA Link](https://kbdeveloper.qoppa.com/cve-2021-44228-apache-log4j-vulnerability/) | | | |
 | QSC Q-SYS | | | | | [QSC Q-SYS Article](https://qscprod.force.com/selfhelpportal/s/article/Are-Q-SYS-products-affected-by-the-Log4j-vulnerability-CVE-2021-44228) | | | |
