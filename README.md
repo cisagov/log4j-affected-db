@@ -1458,7 +1458,7 @@ This list was initially populated using information from the following sources:
 | Internet Systems Consortium(ISC) | BIND 9 | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code | | 12/17/2021 |
 | InterSystems | | | | | [InterSystems Statement](https://www.intersystems.com/gt/apache-log4j2/) | | | |
 | Intland | codebeamer | <= 20.11-SP11, <= 21.09-SP3 | Affected | Some releases | [Apache Log4j vulnerability and fixes](https://codebeamer.com/cb/wiki/19872365) | A fix has been released for [20.11](https://codebeamer.com/cb/wiki/13134438) and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839) | | |
-| IPRO | Netgovern | | | | | | |
+| IPRO | Netgovern | | | | | | | |
 | iRedMail | | | | | [iRedMail Statement](https://forum.iredmail.org/topic18605-log4j-cve202144228.html) | | | |
 | Ironnet | | | | | [Ironnet Security Notification](https://www.ironnet.com/blog/ironnet-security-notifications-related-to-log4j-vulnerability) | | | |
 | ISLONLINE | | | | | [ISLONLINE Statement](https://blog.islonline.com/2021/12/13/isl-online-is-not-affected-by-log4shell-vulnerability/) | | | |
