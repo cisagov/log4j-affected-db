@@ -57,7 +57,7 @@ implement alternate controls, including:
 
 ## Software List ##
 
-Link to full table [here](./software-list.md) 
+Link to full table [here](./software-list.md)
 
 This list was initially populated using information from the following sources:
 
