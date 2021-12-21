@@ -1035,13 +1035,13 @@ This list was initially populated using information from the following sources:
 | Gradle | Gradle Enterprise Test Distribution Agent | < 1.6.2 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Grafana | | | | | [Grafana Statement](https://grafana.com/blog/2021/12/14/grafana-labs-core-products-not-impacted-by-log4j-cve-2021-44228-and-related-vulnerabilities/) | | | |
 | Grandstream | | | | | [Grandstream Statement](https://blog.grandstream.com/press-releases/grandstream-products-unaffected-by-log4j-vulnerability?hsLang=en) | | | |
-| Gravitee | Access Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | Access Management | 3.5.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | API Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | API Management | 3.5.x | Not Affected | No |  [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | Alert Engine | 1.5.x | Not Affected | Yes |  [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | Alert Engine | 1.4.x | Not Affected | No |  [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | Cockpit | 1.4.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Access Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Access Management | 3.5.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | API Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | API Management | 3.5.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Alert Engine | 1.5.x | Not Affected | Yes | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Alert Engine | 1.4.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Cockpit | 1.4.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
 | Gravitee.io | | | | | [Gravitee.io Statement](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
 | Gravwell | | | | | [Gravwell Statement](https://www.gravwell.io/blog/cve-2021-44228-log4j-does-not-impact-gravwell-products) | | | |
 | Graylog | Graylog Server | All versions >= 1.2.0 and <= 4.2.2 | Affected | Yes | [Graylog Update for Log4j](https://www.graylog.org/post/graylog-update-for-log4j) | | | |
@@ -1677,7 +1677,7 @@ This list was initially populated using information from the following sources:
 | OpenMRS TALK | | | | | [OpenMRS TALK Link](https://talk.openmrs.org/t/urgent-security-advisory-2021-12-11-re-apache-log4j-2/35341) | | | |
 | OpenNMS | | | | | [OpenNMS Link](https://www.opennms.com/en/blog/2021-12-10-opennms-products-affected-by-apache-log4j-vulnerability-cve-2021-44228/) | | | |
 | OpenSearch | | | | | [OpenSearch Discussion Link](https://discuss.opendistrocommunity.dev/t/log4j-patch-for-cve-2021-44228/7950) | | | |
-| Oracle | | | | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) | | | |
+| Oracle | | | Affected | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) [My Oracle Support Document](https://support.oracle.com/rs?type=doc&id=2827611.1) | The support document is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
 | Orgavision | | | | | [Orgavision Link](https://www.orgavision.com/neuigkeiten/sicherheitsluecke-java-library-log4j) | | | |
 | OTRS | | | | | [OTRS Link](https://portal.otrs.com/external) | | | |
 | OVHCloud | | | | | [OVHCloud Blog Post](https://blog.ovhcloud.com/log4shell-how-to-protect-my-cloud-workloads/) | | | |
@@ -1911,8 +1911,9 @@ This list was initially populated using information from the following sources:
 | Salesforce | Tableau (On-Premise) | < 2021.4.1 | Fixed | | [Salesforce Statement](https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell)|Fixed in 2021.4.1||12/16/2021|
 | Salesforce | Tableau (Online) | | Affected| | [Salesforce Statement](https://help.salesforce.com/s/articleView?id=000363736&type=1) |"Tableau (Online) is reported to be affected by CVE-2021-44228. The service is being updated to remediate the vulnerability identified in CVE-2021-44228."||12/15/2021|
 | Sangoma |||||[Sangoma Community Link](https://help.sangoma.com/community/s/article/Log4Shell) | | | |
-| SAP Advanced Platform | | | | | [SAP Advanced Platform Support Link](https://launchpad.support.sap.com/#/notes/3130698) | This advisory is available to customers only and has not been reviewed by CISA | | |
-| SAP BusinessObjects | | | | | [SAP BusinessObjects Support Link](https://launchpad.support.sap.com/#/notes/3129956) | This advisory is available to customers only and has not been reviewed by CISA | | |
+| SAP | | | | | [https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/trust-center/sap-tc-01-5025.pdf](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/trust-center/sap-tc-01-5025.pdf) | This advisory is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
+| SAP Advanced Platform | | | | | [SAP Advanced Platform Support Link](https://launchpad.support.sap.com/#/notes/3130698) | This advisory is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
+| SAP BusinessObjects | | | | | [CVE-2021-44228 - Impact of Log4j vulnerability on SAP BusinessObjects](https://blogs.sap.com/2021/12/16/cve-2021-44228-impact-of-log4j-vulnerability-on-sap-businessobjects/) [SAP BusinessObjects Support Link](https://launchpad.support.sap.com/#/notes/3129956) | The support document is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
 | SAS | | | | | [SAS Support Link](https://support.sas.com/content/support/en/security-bulletins/remote-code-execution-vulnerability-cve-2021-44228.html) | | | |
 | SASSAFRAS | | | | | [SASSAFRAS Link](https://www.sassafras.com/log4j-vulnerability-cve-2021-44228/) | | | |
 | Savignano software solutions | | | | | [Savignano Link](https://savignano.atlassian.net/wiki/spaces/SNOTIFY/blog/2021/12/13/2839740417/No+Log4j+Vulnerability+in+S+Notify) | | | |
@@ -2056,7 +2057,7 @@ This list was initially populated using information from the following sources:
 | SonicWall | Analyzer | | Under Investigation | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Under Review | | 12/12/2021 |
 | SonicWall | Capture Security Appliance | | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the Capture Security appliance. | | 12/12/2021 |
 | SonicWall | CAS | | Under Investigation | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Under Review | | 12/12/2021 |
-| SonicWall | Email Security | | Not Affected |  | [Security Advisory (sonicwall.com)] | Version 10.x  doesn't use a vulnerable version |  | 12/12/2021 |
+| SonicWall | Email Security | | Affected | Yes | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | ES 10.0.11 and earlier versions are impacted |  | 12/17/2021 |
 | SonicWall | Gen5 Firewalls (EOS) |  | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the appliance. | | 12/12/2021 |
 | SonicWall | Gen6 Firewalls | | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the appliance. | | 12/12/2021 |
 | SonicWall | Gen7 Firewalls | | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the appliance. | | 12/12/2021   |
