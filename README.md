@@ -98,6 +98,7 @@ This list was initially populated using information from the following sources:
 | AlienVault | | | | | [AlienVault Article Link](https://success.alienvault.com/s/article/are-USM-Anywhere-or-USM-Central-vulnerable-to-CVE-2021-44228) | | | |
 | Alphatron Medical | | | | | [Alphatron Medical Website](https://www.alphatronmedical.com/home.html) | | | |
 | Amazon | AWS | Linux 1,2 | Not Affected | No | | Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 [AWS Forum](https://forums.aws.amazon.com/thread.jspa?threadID=323611). AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2 | | 12/15/2021 |
+| Amazon | AWS API Gateway | All | Fixed | | [Amazon AWS Link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/20/2021 |
 | Amazon | AWS CloudHSM | < 3.4.1. | Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
@@ -977,7 +978,7 @@ This list was initially populated using information from the following sources:
 | GFI | | | | | [GFI Statement](https://techtalk.gfi.com/impact-of-log4j-vulnerability-on-gfi/) | | | |
 | Ghidra | | | | | [Ghidra Statement](https://github.com/NationalSecurityAgency/ghidra/blob/2c73c72f0ba2720c6627be4005a721a5ebd64b46/README.md#warning) | | | |
 | Gigamon | Fabric Manager | <5.13.01.02 | Affected | Yes | [Gigamon Customer Support Portal](https://community.gigamon.com/gigamoncp/s/my-gigamon) | Updates available via the Gigamon Support Portal. This advisory available to customers only and has not been reviewed by CISA. | | 12/21/2021 |
-| GitHub | | | | | [GitHub Statement](https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/) | | | |
+| GitHub | GitHub | GitHub.com and GitHub Enterprise Cloud | Fixed |  | [GitHub Statement](https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/) | | | 12/17/2021 |
 | GitLab | | | | | [GitLab Statement](https://forum.gitlab.com/t/cve-2021-4428/62763) | | | |
 | Globus | | | | | [Globus Statement](https://groups.google.com/a/globus.org/g/discuss/c/FJK0q0NoUC4) | | | |
 | GoAnywhere | MFT | < 6.8.6 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021 |
@@ -2175,7 +2176,7 @@ This list was initially populated using information from the following sources:
 | SysAid | | | | | [https://www.sysaid.com/lp/important-update-regarding-apache-log4j](https://www.sysaid.com/lp/important-update-regarding-apache-log4j) | | | |
 | Sysdig | | | | | [https://sysdig.com/blog/cve-critical-vulnerability-log4j/](https://sysdig.com/blog/cve-critical-vulnerability-log4j/) | | | |
 | Talend | | | | | [https://jira.talendforge.org/browse/TCOMP-2054](https://jira.talendforge.org/browse/TCOMP-2054) | | | |
-| Tanium | | | | | [Tanium Article](https://community.tanium.com/s/article/How-Tanium-Can-Help-with-CVE-2021-44228-Log4Shell#_Toc90296319) | | | |
+| Tanium | All | All versions | Not Affected | | [Tanium Statement](https://tanium.my.salesforce.com/sfc/p/#60000000IYkG/a/7V000000PeT8/8C98AHl7wP5_lpUwp3qmY5sSdwXx6wG6LE4gPYlxO8c) | Tanium does not use Log4j. | | 12/21/2021 |
 | TealiumIQ | | | | | [TealiumIQ Security Update](https://community.tealiumiq.com/t5/Announcements-Blog/Update-on-Log4j-Security-Vulnerability/ba-p/36824) | | | |
 | TeamPasswordManager | | | | | [TeamPasswordManager Blog](https://teampasswordmanager.com/blog/log4j-vulnerability/) | | | |
 | Teamviewer | | | | | [TeamViewer Bulletin](https://www.teamviewer.com/en/trust-center/security-bulletins/hotfix-log4j2-issue/) | | | |
