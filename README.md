@@ -1020,7 +1020,7 @@ This list was initially populated using information from the following sources:
 | GFI | | | | | [GFI Statement](https://techtalk.gfi.com/impact-of-log4j-vulnerability-on-gfi/) | | | |
 | Ghidra | | | | | [Ghidra Statement](https://github.com/NationalSecurityAgency/ghidra/blob/2c73c72f0ba2720c6627be4005a721a5ebd64b46/README.md#warning) | | | |
 | Gigamon | Fabric Manager | <5.13.01.02 | Affected | Yes | [Gigamon Customer Support Portal](https://community.gigamon.com/gigamoncp/s/my-gigamon) | Updates available via the Gigamon Support Portal. This advisory available to customers only and has not been reviewed by CISA. | | 12/21/2021 |
-| GitHub | | | | | [GitHub Statement](https://github blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/) | | | |
+| GitHub | | | | | [GitHub Statement](https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/) | | | |
 | GitLab | | | | | [GitLab Statement](https://forum.gitlab.com/t/cve-2021-4428/62763) | | | |
 | Globus | | | | | [Globus Statement](https://groups.google.com/a/globus.org/g/discuss/c/FJK0q0NoUC4) | | | |
 | GoAnywhere | MFT | < 6.8.6 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021 |
