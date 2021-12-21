@@ -551,6 +551,7 @@ This list was initially populated using information from the following sources:
 | CyberArk | Privileged Threat Analytics (PTA)| N/A  | Fixed | Yes | [CyberArk Customer Force](https://cyberark-customers.force.com/s/article/Critical-Vulnerability-CVE-2021-44228) | | This advisory is available to customers only and has not been reviewed by CISA. |12/14/2021|
 | Cybereason | | | | | [Cybereason Blog Post](https://www.cybereason.com/blog/cybereason-solutions-are-not-impacted-by-apache-log4j-vulnerability-cve-2021-44228) | | | |
 | CyberRes | | | | | [CyberRes Community Link](https://community.microfocus.com/cyberres/b/sws-22/posts/summary-of-cyberres-impact-from-log4j-or-logshell-logjam-cve-2021-44228) | | | |
+| Cydar Medical | | | Not Affected | | [Cydar Advisory Link](https://www.cydarmedical.com/news/cydar-response-to-apache-log4j-vulnerability) | | | 12/21/2021 |
 | DarkTrace | | | | | [DarkTrace Customer Portal](https://customerportal.darktrace.com/inside-the-soc/get-article/201) | | | |
 | Dassault Systèmes | | | | | [Dassault Systemes Link](https://kb.dsxclient.3ds.com/mashup-ui/page/resultqa?id=QA00000102301e) | | | |
 | Databricks | | | | | [Databricks Google Doc](https://docs.google.com/document/d/e/2PACX-1vREjwZk17BAHGwj5Phizi4DPFS9EIUbAMX-CswlgbFwqwKXNKZC8MrT-L6wUgfIChsSHtvd_QD3-659/pub) | | | |
@@ -813,6 +814,45 @@ This list was initially populated using information from the following sources:
 | Devolutions | All products||Not Affected||[https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/)||||
 | Diebold Nixdorf | | | | | [Diebold Nixdorf Link](https://www.dieboldnixdorf.com/en-us/apache) | | | |
 | Digicert | | | | | [Digicert Link](https://knowledge.digicert.com/alerts/digicert-log4j-response.html) | | | |
+| Digi International | CTEK G6200 family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | CTEK SkyCloud | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | CTEK Z45 family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi 54xx family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi 63xx family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi AnywhereUSB (G2) family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi AnywhereUSB Plus family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect EZ family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect IT family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi ConnectPort family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi ConnectPort LTS family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect Sensor family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect WS family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Embedded Android | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Embedded Yocto | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi EX routers | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi IX routers | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi LR54 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi One family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Passport family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi PortServer TS family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi TX routers | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR11 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR21 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR31 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR44R/RR | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR54 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR64 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | AnywhereUSB Manager | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Aview | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | ARMT | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | AVWOB | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Navigator | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Remote Manager | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Xbee mobile app | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Lighthouse | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Realport | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Remote Hub Config Utility | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
 | Digital AI | | | | | [Digital AI Article](https://support.digital.ai/hc/en-us/articles/4412377686674-Log4J-Vulnerability-to-Zero-Day-Exploit-and-Digital-ai#overview-0-1) | | | |
 | DNSFilter | | | | | [DNSFilter Blog Post](https://www.dnsfilter.com/blog/dnsfilter-response-to-log4j-vulnerability) | | | |
 | Docker | | | | | [Docker Blog Post](https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/) | | | |
@@ -849,6 +889,7 @@ This list was initially populated using information from the following sources:
 | Elastic | Machine Learning | | Not Affected | | [Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) | | | 12/15/2021 |
 | Elastic | Swiftype | | Not Affected | | [Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) | | | 12/15/2021 |
 | ElasticSearch | all products | | Not Affected | | | | | |
+| Elekta | | | Unknown | | [Elekta Advisory Link](https://www.elekta.com/software-solutions/product-security) | Elekta Advisories are available in the customer portal (login required) | | 12/21/2021 |
 | Ellucian | Banner Analytics | | Affected | No | [Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) | | | 12/17/2021 |
 | Ellucian | Colleague | | Affected | No | [Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) | On-prem and cloud deployements expect fixed 12/18/2021 | | 12/17/2021 |
 | Ellucian | Admin | | Not Affected | | [Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) | | | 12/17/2021 |
@@ -928,6 +969,7 @@ This list was initially populated using information from the following sources:
 | FileWave | | | | | [FileWave Statement](https://kb.filewave.com/display/KB/Security+Notice:+Apache+log4j+Vulnerability+CVE-2021-44228) | | | |
 | FINVI | | | | | [FINVI Statement](https://finvi.com/support/) | | | |
 | FireDaemon | | | | | [FireDemon Statement](https://kb.firedaemon.com/support/solutions/articles/4000178630) | | | |
+| Fisher & Paykel Healthcare | | | Not Affected | | [Fisher & Paykel Healthcare Advisory Link](https://www.fphcare.com/us/our-company/contact-us/product-security/) | | | 12/21/2021 |
 | Flexagon | | | | | [Flexagon Statement](https://flexagon.com/what-is-the-impact-of-log4j-vulnerability-cve-2021-44228-on-flexdeploy/) | | | |
 | Flexera | | | | | [Flexera Statement](https://community.flexera.com/t5/Community-Notices/Flexera-s-response-to-Apache-Log4j-2-remote-code-execution/ba-p/216934) | | | |
 | Forcepoint | DLP Manager | | Affected | | [Login (forcepoint.com)](https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F) | | | |
@@ -971,6 +1013,7 @@ This list was initially populated using information from the following sources:
 | FTAPI | | | | | [FTAPI Statement](https://www.ftapi.com/blog/kritische-sicherheitslucke-in-log4j-ftapi-reagiert/#) | | | |
 | Fujitsu | | | | | [Fujitsu Statement](https://support.ts.fujitsu.com/ProductSecurity/content/Fujitsu-PSIRT-PSS-IS-2021-121000-Security-Notice-SF.pdf) | | | |
 | FusionAuth | FusionAuth  | 1.32 | Not Affected |  | [log4j CVE: How it affects FusionAuth (TLDR: It doesn't) - FusionAuth](https://fusionauth.io/blog/2021/12/10/log4j-fusionauth/) | | | |
+| GE Healthcare | | | Under Investigation | | [GE Healthcare Advisory Link](https://www.gehealthcare.com/security) | | | 12/21/2021 |
 | Gearset | | | | | [Gearset Statement](https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021) | | | |
 | Genesys | | | | | [Genesys Statement](https://www.genesys.com/blog/post/genesys-update-on-the-apache-log4j-vulnerability) | | | |
 | GeoServer | | | | | [GeoServer Announcement](http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html) | | | |
