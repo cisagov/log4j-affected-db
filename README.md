@@ -1573,8 +1573,8 @@ This list was initially populated using information from the following sources:
 | Leica BIOSYSTEMS | Leica ST4020 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
 | Leica BIOSYSTEMS | Leica ST5010 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
 | Leica BIOSYSTEMS | Leica ST5020 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
-| Leica BIOSYSTEMS | Leica TP1020 ||  Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
-| Leica BIOSYSTEMS | LIS Connect | | Under Investigation || [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Leica TP1020 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | LIS Connect | | Under Investigation | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
 | Leica BIOSYSTEMS | PathDX | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
 | Leica BIOSYSTEMS | ThermoBrite Elite | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
 | Lenovo | BIOS/UEFI |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
