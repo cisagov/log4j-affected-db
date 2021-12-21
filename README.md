@@ -2243,7 +2243,7 @@ This list was initially populated using information from the following sources:
 | ZAMMAD | | | | | [Zammad Elasticsearch Users](https://community.zammad.org/t/cve-2021-44228-elasticsearch-users-be-aware/8256) | | | |
 | Zaproxy | | | | | [Zaproxy](https://www.zaproxy.org/blog/2021-12-10-zap-and-log4shell/) | | | |
 | Zebra | | | | | [Zebra lifeguard Security](https://www.zebra.com/us/en/support-downloads/lifeguard-security/cve-2021-442280-dubbed-log4shell-or-logjam-vulnerability.html) | | | |
-| Zendesk |All Products|All Versions|Affected |No|[2021-12-13 Security Advisory - Apache Log4j (CVE-2021-44228)](https://support.zendesk.com/hc/en-us/articles/4413583476122)|Zendesk products are all cloud-based; thus there are no updates for the customers to install as the company is working on patching their infrastructure and systems.||12/13/2021|
+| Zendesk | All Products | All Versions | Affected | No | [2021-12-13 Security Advisory - Apache Log4j (CVE-2021-44228)](https://support.zendesk.com/hc/en-us/articles/4413583476122) | Zendesk products are all cloud-based; thus there are no updates for the customers to install as the company is working on patching their infrastructure and systems. | | 12/13/2021 |
 | Zenoss | | | | | [Zenoss](https://support.zenoss.com/hc/en-us) | | | |
 | Zerto | | | | | [Zerto KB](https://help.zerto.com/kb/000004822) | | | |
 | Zesty | | | | | [Zesty Log4j Exploit](https://www.zesty.io/mindshare/company-announcements/log4j-exploit/) | | | |
