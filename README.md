@@ -2223,7 +2223,7 @@ This list was initially populated using information from the following sources:
 | VMware | VMware Workspace ONE Access Connector (VMware Identity Manager Connector) | 21.x, 20.10.x, 19.03.0.1 | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | Wallarm | | | | | [Lab Mitigation Update](https://lab.wallarm.com/cve-2021-44228-mitigation-update/) | | | |
 | Wasp Barcode technologies | | | | | [Waspbarcode Assetcloud Inventorycloud](https://support.waspbarcode.com/kb/articles/assetcloud-inventorycloud-are-they-affected-by-the-java-exploit-log4j-no) | | | |
-| WatchGuard / Secplicity / [Secplicity Critical RCE](https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/) | | | |
+| WatchGuard | Secplicity | | | | [Secplicity Critical RCE](https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/) | | | |
 | Western Digital | | | | | [Westerndigital Product Security](https://www.westerndigital.com/support/product-security/wdc-21016-apache-log4j-2-remote-code-execution-vulnerability-analysis) | | | |
 | WindRiver | | | | | [Windriver Security Notice](https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191) | | | |
 | WireShark | | | | | [Gitlab Wireshark](https://gitlab.com/wireshark/wireshark/-/issues/17783) | | | |
