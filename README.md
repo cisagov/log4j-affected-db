@@ -1187,7 +1187,7 @@ This list was initially populated using information from the following sources:
 | I2P | | | | | [I2P Statement](https://geti2p.net/en/blog/post/2021/12/11/i2p-unaffected-cve-2021-44228) | | | |
 | IBA-AG | | | | | [IBA-AG Statement](https://www.iba-ag.com/en/security) | | | |
 | Ibexa | | | | | [Ibexa Statement](https://developers.ibexa.co/security-advisories/cve-2021-44228-log4j-vulnerability) | | | |
-|IBM| BigFix Compliance | | Affected | No | | | | |
+| IBM | BigFix Compliance | | Affected | No | | | | |
 | IBM  | BigFix Inventory | VM Manager Tool & SAP Tool | Affected | No |  | To verify if your instance is affected, go to the lib subdirectory of the tool (BESClient/LMT/SAPTOOL and BESClient/LMT/VMMAN) and check what version of log4j is included. Version is included in the name of the library. | | |
 | IBM | Analytics Engine | | Not Affected | | [An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) | | | 12/15/2021 |
 | IBM | App Configuration | | Not Affected | | [An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) | | | 12/15/2021 |
