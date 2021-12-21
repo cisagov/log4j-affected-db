@@ -1667,7 +1667,7 @@ This list was initially populated using information from the following sources:
 | McAfee | Endpoint Security (ENS) for Linux |  | Not Affected | |  | | | 12/20/2021 |
 | McAfee | Endpoint Security (ENS) for Mac |  | Not Affected | |  | | | 12/20/2021 |
 | McAfee | Endpoint Security (ENS) for Windows |  | Not Affected | |  | | | 12/20/2021 |
-| McAfee | ePolicy Orchestrator Application Server (ePO) | 5.10 CU11 | Fixed | Yes | [https://kc.mcafee.com/agent/index?page=content&id=SB10377](https://kc.mcafee.com/agent/index?page=content&id=SB10377 | | | 12/20/2021 |
+| McAfee | ePolicy Orchestrator Application Server (ePO) | 5.10 CU11 | Fixed | Yes | [https://kc.mcafee.com/agent/index?page=content&id=SB10377](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | | | 12/20/2021 |
 | McAfee | ePolicy Orchestrator Agent Handlers (ePO-AH) |  | Not Affected | |  | | | 12/20/2021 |
 | McAfee | Host Intrusion Prevention (Host IPS) |  | Not Affected | |  | | | 12/20/2021 |
 | McAfee | Management of Native Encryption (MNE) |  | Not Affected | |  | | | 12/20/2021 |
