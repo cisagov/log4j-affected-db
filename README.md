@@ -2339,6 +2339,7 @@ This list was initially populated using information from the following sources:
 | VMware | VMware vRealize Orchestrator | 8.x, 7.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Workspace ONE Access | 21.x, 20.10.x | Affected | No  | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Workspace ONE Access Connector (VMware Identity Manager Connector) | 21.x, 20.10.x, 19.03.0.1 | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
+| WAGO | WAGO Smart Script | 4.2.x < 4.8.1.3 | Affected | Yes | [WAGO Website](https://www.wago.com/de/automatisierungstechnik/psirt#log4j) | | | 12/17/2021 |
 | Wallarm | | | | | [Lab Mitigation Update](https://lab.wallarm.com/cve-2021-44228-mitigation-update/) | | | |
 | Wasp Barcode technologies | | | | | [Waspbarcode Assetcloud Inventorycloud](https://support.waspbarcode.com/kb/articles/assetcloud-inventorycloud-are-they-affected-by-the-java-exploit-log4j-no) | | | |
 | WatchGuard | Secplicity | | | | [Secplicity Critical RCE](https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/) | | | |
