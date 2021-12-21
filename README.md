@@ -86,10 +86,10 @@ This list was initially populated using information from the following sources:
 | ADP | | | | | [ADP Alert Link](https://www.adp.com/about-adp/data-security/alerts/adp-vulnerability-statement-apache-log4j-vulnerability-cve-2021-44228.aspx) | | | |
 | AFAS Software | | | | | [AFAS Software Link](https://help.afas.nl/vraagantwoord/NL/SE/120439.htm) | | | |
 | Agilysys | | | | | [Agilysys Link](https://info.agilysys.com/webmail/76642/2001127877/c3fda575e2313fac1f6a203dc6fc1db2439c3db0da22bde1b6c1b6747d7f0e2f) | | | |
-|Advanced Systems Concepts (formally Jscape)|Active MFT||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
-|Advanced Systems Concepts (formally Jscape)|MFT Server||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
-|Advanced Systems Concepts (formally Jscape)|MFT Gateway||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
-|Advanced Systems Concepts (formally Jscape)|MFT||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
+| Advanced Systems Concepts (formally Jscape) | Active MFT | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
+| Advanced Systems Concepts (formally Jscape) | MFT Server | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
+| Advanced Systems Concepts (formally Jscape) | MFT Gateway | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
+| Advanced Systems Concepts (formally Jscape) | MFT | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
 | Akamai | SIEM Splunk Connector| All  | Affected |Yes  | [Akamai SIEM Integration](https://splunkbase.splunk.com/app/4310/) |v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities| |12/15/2021|
 | Alcatel | | | | | [Alcatel Link](https://dokuwiki.alu4u.com/doku.php?id=log4j) | | | |
 | Alertus | | | | | [Alertus Article Link](https://help.alertus.com/s/article/Security-Advisory-Log4Shell-Vulnerability?language=en_US) | | | |
@@ -407,7 +407,7 @@ This list was initially populated using information from the following sources:
 | Cisco | Cisco Nexus 5600 Platform Switches | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus 6000 Series Switches | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus 7000 Series Switches | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
-| Cisco | Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure (ACI) mode | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd)  || |              |
+| Cisco | Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure (ACI) mode | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus Dashboard (formerly Cisco Application Services Engine) | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus Data Broker | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus Insights | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
@@ -547,7 +547,6 @@ This list was initially populated using information from the following sources:
 | Crestron | | | Not Affected | | [Crestron Advisory](https://www.crestron.com/Security/Security_Advisories/Apache-Log4j) | | | 12/20/2021 |
 | CrushFTP | | | | | [CrushFTP Link](https://www.crushftp.com/download.html) | | | |
 | CryptShare | | | | | [Cryptshare Support Link](https://www.cryptshare.com/en/support/cryptshare-support/#c67572) | | | |
-| Cumul.io | | | | | [Cumul.io Status Link](https://status.cumul.io/#incidents) | | | |
 | CyberArk | Privileged Threat Analytics (PTA)| N/A  | Fixed | Yes | [CyberArk Customer Force](https://cyberark-customers.force.com/s/article/Critical-Vulnerability-CVE-2021-44228) | | This advisory is available to customers only and has not been reviewed by CISA. |12/14/2021|
 | Cybereason | | | | | [Cybereason Blog Post](https://www.cybereason.com/blog/cybereason-solutions-are-not-impacted-by-apache-log4j-vulnerability-cve-2021-44228) | | | |
 | CyberRes | | | | | [CyberRes Community Link](https://community.microfocus.com/cyberres/b/sws-22/posts/summary-of-cyberres-impact-from-log4j-or-logshell-logjam-cve-2021-44228) | | | |
@@ -1455,9 +1454,9 @@ This list was initially populated using information from the following sources:
 | Intel | System Studio | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Computer Vision Annotation Tool maintained by Intel | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Sensor Solution Firmware Development Kit | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
-|Internet Systems Consortium(ISC)|ISC DHCP, aka dhcpd|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
-|Internet Systems Consortium(ISC)|Kea DHCP|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
-|Internet Systems Consortium(ISC)|BIND 9|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
+| Internet Systems Consortium(ISC)|ISC DHCP, aka dhcpd|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
+| Internet Systems Consortium(ISC) | Kea DHCP | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code | | 12/17/2021 |
+| Internet Systems Consortium(ISC) | BIND 9 | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code | | 12/17/2021 |
 | InterSystems | | | | | [InterSystems Statement](https://www.intersystems.com/gt/apache-log4j2/) | | | |
 | Intland | codebeamer | <= 20.11-SP11, <= 21.09-SP3 | Affected | Some releases | [Apache Log4j vulnerability and fixes](https://codebeamer.com/cb/wiki/19872365) | A fix has been released for [20.11](https://codebeamer.com/cb/wiki/13134438) and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839) | | |
 | iRedMail | | | | | [iRedMail Statement](https://forum.iredmail.org/topic18605-log4j-cve202144228.html) | | | |
@@ -1694,6 +1693,10 @@ This list was initially populated using information from the following sources:
 | OxygenXML | Publishing Engine |  | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
 | OxygenXML | Web Author | | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
 | OxygenXML | WebHelp |  | Affected | Fixed | Yes | [https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html](https://www.oxygenxml.com/security/advisory/CVE-2021-44228.html) | | 12/17/2021 |
+| Palantir | Palantir Foundry | All | Fixed | | [Palantir Response to Log4j Vulnerability (palantir.com)](https://www.palantir.com/security-advisories/log4j-vulnerability/) | No impact to Palantir-hosted or Apollo-connected instances, and updates have been deployed for full remediation. Disconnected customer instances may require manual updates. | | 12/19/2021 |
+| Palantir | Palantir Gotham | All | Fixed | | [Palantir Response to Log4j Vulnerability (palantir.com)](https://www.palantir.com/security-advisories/log4j-vulnerability/) | No impact to Palantir-hosted or Apollo-connected instances, and updates have been deployed for full remediation. Disconnected customer instances may require manual updates. | | 12/19/2021 |
+| Palantir | Palantir Apollo | All | Not Affected | | [Palantir Response to Log4j Vulnerability (palantir.com)](https://www.palantir.com/security-advisories/log4j-vulnerability/) | No impact, and updates have been deployed for full remediation. | | 12/19/2021 |
+| Palantir | Palantir AI Inference Platform (AIP) | All | Fixed | | [Palantir Response to Log4j Vulnerability (palantir.com)](https://www.palantir.com/security-advisories/log4j-vulnerability/) | Fully remediated as of 1.97.0. Disconnected customer instances may require manual updates. | | 12/19/2021 |
 | Palo-Alto Networks | CloudGenix | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
 | Palo-Alto Networks | Palo-Alto Networks-OS for Panorama | 9.0, 9.1, 10.0 | Affected | Yes | [CVE-2021-44228:Impact of Log4J Vulnerability](https://security.paloaltonetworks.com/CVE-2021-44228) | | Upgrade Panorama to PAN-OS 10.1 to remediate this issue. This advisory will be updated when hot fixes for the affected Panorama versions are available. PAN-OS for Panorama versions 8.1, 10.1 are not affected. | 12/15/2021 |
 | Palo-Alto Networks | Bridgecrew | | Not Affected | | [CVE-2021-44228 Informational: Impact of Log4j Vulnerability CVE-2021-44228 (paloaltonetworks.com)](https://security.paloaltonetworks.com/CVE-2021-44228) | | | |
@@ -1752,9 +1755,9 @@ This list was initially populated using information from the following sources:
 | Prosys | | | | | [Prosys News Link](https://prosysopc.com/news/important-security-release/) | | | |
 | Proxmox | | | | | [Proxmox Forum](https://forum.proxmox.com/threads/log4j-exploit-what-to-do.101254/#post-436880) | | | |
 | PRTG Paessler | | | | | [PRTG Paessler Link](https://kb.paessler.com/en/topic/90213-is-prtg-affected-by-cve-2021-44228) | | | |
-|PTC|Axeda Platform|6.9.2|Affected|No|[PTC Axeda Platform Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358990)|||12/17/2021|
-|PTC|ThingsWorx Platform|8.5,9.0,9.1,9.2, All supported versions|Affected|No|[ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901)|||12/17/2021|
-|PTC|ThingsWorx Analytics|8.5,9.0,9.1,9.2, All supported versions|Affected|No|[ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901)|||12/17/2021|
+| PTC | Axeda Platform | 6.9.2 | Affected | No | [PTC Axeda Platform Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358990) | | | 12/17/2021 |
+| PTC | ThingsWorx Platform |8.5,9.0,9.1,9.2, All supported versions | Affected | No | [ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901) | | | 12/17/2021 |
+| PTC | ThingsWorx Analytics | 8.5,9.0,9.1,9.2, All supported versions | Affected | No | [ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901) | | | 12/17/2021 |
 | PTV Group | | | | | [PTV Group Link](https://company.ptvgroup.com/en/resources/service-support/log4j-latest-information) | | | |
 | Pulse Secure | Ivanti Connect Secure (ICS) | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Ivanti Neurons for secure Access | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
@@ -1780,7 +1783,10 @@ This list was initially populated using information from the following sources:
 | Pyramid Analytics | | | | | [Pyramid Analytics Community Link](https://community.pyramidanalytics.com/t/83hjjt4/log4j-security-vulnerability-pyramid) | | | |
 | QF-Test | | | | | [QF-Test Blog Post](https://www.qfs.de/en/blog/article/no-log4j-vulnerability-in-qf-test.html) | | | |
 | Qlik | | | | | [Qlik Community Link](https://community.qlik.com/t5/Support-Updates-Blog/Vulnerability-Testing-Apache-Log4j-reference-CVE-2021-44228-also/ba-p/1869368) | | | |
-| QMATIC | | | Under Investigation| | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | | |
+| QMATIC | Orchestra Central | 6.0+ | Not Affected | | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | | | 12/21/2021 |
+| QMATIC | Appointment Booking | 2.4+ | Affected | Yes | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | Update to v. 2.8.2 which contains log4j 2.16 | | 12/21/2021 |
+| QMATIC | Insights | Cloud | Affected | Yes | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | log4j 2.16 applied 2021-12-16 | | 12/21/2021 |
+| QMATIC | Appointment Booking | Cloud/Managed Service | Affected | Yes | [QMATIC Link](https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability) | log4j 2.16 applied 2021-12-15 | | 12/21/2021 |
 | QNAP | | | Under Investigation | | [QNAP Security Advisory](https://www.qnap.com/en-uk/security-advisory/qsa-21-58) | | | |
 | QOPPA | | | | | [QOPPA Link](https://kbdeveloper.qoppa.com/cve-2021-44228-apache-log4j-vulnerability/) | | | |
 | QSC Q-SYS | | | | | [QSC Q-SYS Article](https://qscprod.force.com/selfhelpportal/s/article/Are-Q-SYS-products-affected-by-the-Log4j-vulnerability-CVE-2021-44228) | | | |
@@ -1822,34 +1828,34 @@ This list was initially populated using information from the following sources:
 | Real-Time Innovations (RTI) | RTI Micro Application Generator (MAG)| as part of RTI Connext Micro 3.0.0, 3.0.1, 3.0.2, 3.0.3 | Affected | |[RTI Statement](https://community.rti.com/kb/apache-log4j-vulnerability-cve-2021-44228cve-2021-45046-impact-rti-connext-products) | | |12/16/2021 |
 | Real-Time Innovations (RTI) | RTI Micro Application Generator (MAG)| as part of RTI Connext Professional 6.0.0 and 6.0.1| Affected | |[RTI Statement](https://community.rti.com/kb/apache-log4j-vulnerability-cve-2021-44228cve-2021-45046-impact-rti-connext-products) | | |12/16/2021 |
 | Real-Time Innovations (RTI) | RTI Monitor | | Not Affected | |[RTI Statement](https://community.rti.com/kb/apache-log4j-vulnerability-cve-2021-44228cve-2021-45046-impact-rti-connext-products) | | |12/16/2021 |
-| Red Hat | CodeReady Studio | 12 | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
-| Red Hat | Red Hat build of Quarkus | | Not Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228)  | | | Dec/20/2021 |
-| Red Hat | Red Hat Data Grid | 8 | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5132](http://access.redhat.com/errata/RHSA-2021:5132) | | Dec/20/2021 |
-| Red Hat | Red Hat Decision Manager | 7 | Not Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
-| Red Hat | Red Hat Process Automation | 7 | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [Maven Patch](https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=103671&product=rhpam&version=7.11.1&downloadType=patches) | | Dec 20/2021 |
-| Red Hat | Red Hat Single Sign-On | 7 | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
-| Red Hat | Red Hat Enterprise Linux | 6 | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
-| Red Hat | Red Hat Enterprise Linux | 7 | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
-| Red Hat | Red Hat Enterprise Linux | 8 | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
+| Red Hat | Red Hat Data Grid | 8 | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5132](http://access.redhat.com/errata/RHSA-2021:5132) | | Dec/20/2021 |
+| Red Hat | Red Hat Process Automation | 7 | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [Maven Patch](https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=103671&product=rhpam&version=7.11.1&downloadType=patches) | | Dec 20/2021 |
+| Red Hat | Red Hat CodeReady Studio | 12.21.0 | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [CRS 12.21.1 Patch](https://developers.redhat.com/products/codeready-studio/download?source=sso) | | Dec/21/2021 |
 | Red Hat | Red Hat  Integration Camel K |  | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) |  [RHSA-2021:5130](https://access.redhat.com/errata/RHSA-2021:5130) | | Dec/20/2021 |
 | Red Hat | Red Hat Integration Camel Quarkus | | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5126](https://access.redhat.com/errata/RHSA-2021:5126) | | Dec/20/2021 |
 | Red Hat | Red Hat JBoss A-MQ Streaming | | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5138](https://access.redhat.com/errata/RHSA-2021:5138)| | Dec/20/2021  |
 | Red Hat | Red Hat JBoss Enterprise Application Platform | 7 | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [Maven Patch](https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?product=appplatform&downloadType=securityPatches&version=7.4) | | Dec/20/2021  |
-| Red Hat | Red Hat JBoss Enterprise Application Platform Expansion Pack | 7 | Not Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021  |
 | Red Hat | Red Hat JBoss Fuse | 7 | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5134](https://access.redhat.com/errata/RHSA-2021:5134) | | Dec/20/2021 |
-| Red Hat| Red Hat Vert.X | 4 | Affected | yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5093](https://access.redhat.com/errata/RHSA-2021:5093) | | Dec/20/2021  |
-| Red Hat OpenShift Container Platform 3.11 | openshift3/ose-logging-elasticsearch5 | | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5094](http://access.redhat.com/errata/RHSA-2021:5094) | | |
+| Red Hat| Red Hat Vert.X | 4 | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5093](https://access.redhat.com/errata/RHSA-2021:5093) | | Dec/20/2021  |
+| Red Hat OpenShift Container Platform 3.11 | openshift3/ose-logging-elasticsearch5 | | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | [RHSA-2021:5094](http://access.redhat.com/errata/RHSA-2021:5094) | | |
 | Red Hat OpenShift Container Platform 4 | openshift4/ose-logging-elasticsearch6 | | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | Please refer to Red Hat Customer Portal to find the right errata for your version. | | |
 | Red Hat OpenShift Container Platform 4 | openshift4/ose-metering-hive | | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | Please refer to Red Hat Customer Portal to find the right errata for your version. | | |
 | Red Hat OpenShift Container Platform 4 | openshift4/ose-metering-presto | | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | Please refer to Red Hat Customer Portal to find the right errata for your version. | | |
 | Red Hat OpenShift Logging | logging-elasticsearch6-container | | Affected | Yes | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | Please refer to Red Hat Customer Portal to find the right errata for your version. | | |
-| Red Hat OpenStack Platform 13 (Queens) | opendaylight | | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | EOL | | |
+| Red Hat | Red Hat Single Sign-On | 7 | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
+| Red Hat | Red Hat Enterprise Linux | 6 | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
+| Red Hat | Red Hat Enterprise Linux | 7 | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
+| Red Hat | Red Hat Enterprise Linux | 8 | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
+| Red Hat | Red Hat build of Quarkus | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228)  | | | Dec/20/2021 |
+| Red Hat | Red Hat Decision Manager | 7 | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021 |
 | Red Hat Software Collections | rh-java-common-log4j | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Red Hat Software Collections | rh-maven35-log4j12 | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Red Hat Software Collections | rh-maven36-log4j12 | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Red Hat | log4j-core | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Red Hat | Satellite 5 | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
 | Red Hat | Spacewalk | | Not Affected | | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | |
+| Red Hat | Red Hat JBoss Enterprise Application Platform Expansion Pack | 7 | Not Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | | | Dec/20/2021  |
+| Red Hat OpenStack Platform 13 (Queens) | opendaylight | | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | EOL | | |
 | Red5Pro | | | | | [Red5Pro Link](https://www.red5pro.com/blog/red5-marked-safe-from-log4j-and-log4j2-zero-day/) | | | |
 | RedGate | | | | | [RedGate Link](https://www.red-gate.com/privacy-and-security/vulnerabilities/2021-12-15-log4j-statement) | | | |
 | Redis | | | | | [Redis Link](https://redis.com/security/notice-apache-log4j2-cve-2021-44228/) | | | |
@@ -2297,6 +2303,6 @@ This list was initially populated using information from the following sources:
 | Zimbra | | | | | [BugZilla Zimbra](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) | | | |
 | Zoom | | | | | [Zoom Security Exposure](https://explore.zoom.us/en/trust/security/security-bulletin/security-bulletin-log4j/?=nocache) | | | |
 | ZPE systems Inc | | | | | [ZpeSystems CVE-2021-44228](https://support.zpesystems.com/portal/en/kb/articles/is-nodegrid-os-and-zpe-cloud-affected-by-cve-2021-44228-apache-log4j) | | | |
-| Zscaler |Multiple Products||Not Affected|No|[CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581)|||12/15/2012|
+| Zscaler | See Link (Multiple Products) | | Not Affected | No | [CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581) | | | 12/15/2012 |
 | Zyxel | | | | | [Zyxel Security Advisory for Apache Log4j](https://www.zyxel.com/support/Zyxel_security_advisory_for_Apache_Log4j_RCE_vulnerability.shtml) | | | |
 | Zyxel | Security Firewall/Gateways | ZLD Firmware Security Services, Nebula | Not Affected | N/A | [Zyxel Security Advisory](https://community.zyxel.com/en/discussion/12229/zyxel-security-advisory-for-apache-log4j-rce-vulnerability) | | | 12/14/2021 |
