@@ -102,6 +102,7 @@ This list was initially populated using information from the following sources:
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
 | Amazon | OpenSearch | Unknown | Affected | Yes [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+| Amazon | S3 | | Fixed | | [Update for Apache Log4j2](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) |  |  | 12/21/2021 |
 | Apache | Camel | 3.14.1.3.11.5,3.7.7 | Affected | Yes | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)| Apache Camel does not directly depend on Log4j 2, so we are not affected by CVE-2021-44228.If you explicitly added the Log4j 2 dependency to your own applications, make sure to upgrade.Apache Camel does use log4j during testing itself, and therefore you can find that we have been using log4j v2.13.3 release in our latest LTS releases Camel 3.7.6, 3.11.4. | | 12/13/2021 |
 | Apache | Camel Quarkus | | Not Affected | No | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/) | | | 12/13/2021 |
 | Apache | Camel K | | Not Affected | No | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/) | | | 12/13/2021 |
@@ -341,6 +342,7 @@ This list was initially populated using information from the following sources:
 | Check Point | ThreatCloud | | Not Affected | | | | | |
 | CheckMK | | | | | [CheckMK Forum](https://forum.checkmk.com/t/checkmk-not-affected-by-log4shell/28643/3) | | | |
 | Ciphermail | | | | | [Ciphermail Blog Post](https://www.ciphermail.com/blog/ciphermail-gateway-and-webmail-messenger-are-not-vulnerable-to-cve-2021-44228.html) | | | |
+| CircleCI | CircleCI | | Not affected | | [CircleCI / Log4j Information CVE-2021-44228](https://discuss.circleci.com/t/circleci-log4j-information-cve-2021-4422) | | | 12/21/2021 |
 | CIS | | | | | [CIS Customer Portal](https://cisecurity.atlassian.net/servicedesk/customer/portal/15/article/2434301961) | | | |
 | Cisco  | AppDynamics |  | Affected | Yes | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |  | | |
 | Cisco  | Cisco Common Services Platform Collector | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
@@ -1029,12 +1031,14 @@ This list was initially populated using information from the following sources:
 | GoCD | | | | | [GoCD Statement](https://www.gocd.org/2021/12/14/log4j-vulnerability.html) | | | |
 | Google Cloud Armor WAF | | | | | [Google Statement](https://cloud.google.com/blog/products/identity-security/cloud-armor-waf-rule-to-help-address-apache-log4j-vulnerability) | | | |
 | Google Cloud Global Products coverage | | | | | [Google Statement](https://cloud.google.com/log4j2-security-advisory) | | | |
+| Google | GSuite SMTP Relay | | Unknown |  |  |  |  | 12/21/2021 |
 | Gradle | Gradle | | Not Affected | No | [Gradle Blog - Dealing with the critical Log4j vulnerability](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. | | |
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Build Cache Node | < 10.1 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Test Distribution Agent | < 1.6.2 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Grafana | | | | | [Grafana Statement](https://grafana.com/blog/2021/12/14/grafana-labs-core-products-not-impacted-by-log4j-cve-2021-44228-and-related-vulnerabilities/) | | | |
 | Grandstream | | | | | [Grandstream Statement](https://blog.grandstream.com/press-releases/grandstream-products-unaffected-by-log4j-vulnerability?hsLang=en) | | | |
+| Granicus | GovDelivery | | Unknown |  |  |  |  | 12/21/2021 |
 | Gravitee | Access Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
 | Gravitee | Access Management | 3.5.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
 | Gravitee | API Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
@@ -1046,6 +1050,11 @@ This list was initially populated using information from the following sources:
 | Gravwell | | | | | [Gravwell Statement](https://www.gravwell.io/blog/cve-2021-44228-log4j-does-not-impact-gravwell-products) | | | |
 | Graylog | Graylog Server | All versions >= 1.2.0 and <= 4.2.2 | Affected | Yes | [Graylog Update for Log4j](https://www.graylog.org/post/graylog-update-for-log4j) | | | |
 | GreenShot | | | | | [GreenShot Statement](https://greenshot.atlassian.net/browse/BUG-2871) | | | |
+| GSA | Cloud.gov | | Fixed | | [Log4j Customer responsibility](https://cloud.gov/2021/12/14/log4j-buildpack-updates/) | | | 12/21/2021 |
+| GSA | DAP | | Unknown | | | | | 12/21/2021 |
+| GSA | Federalist | | Unknown | | | | | 12/21/2021 |
+| GSA | Login.gov | | Unknown | | | | | 12/21/2021 |
+| GSA | Search.gov | | Unknown | | | | | 12/21/2021 |
 | Guidewire | | | | | [Guidewire Statement](https://community.guidewire.com/s/article/Update-to-customers-who-have-questions-about-the-use-of-log4j-in-Guidewire-products) | | | |
 | HAProxy | | | | | [HAProxy Statement](https://www.haproxy.com/blog/december-2021-log4shell-mitigation/) | | | |
 | HarmanPro AMX | | | | | [HarmanPro AMX Statement](https://help.harmanpro.com/apache-log4j-vulnerability) | | | |
