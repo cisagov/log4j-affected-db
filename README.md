@@ -2131,7 +2131,7 @@ This list was initially populated using information from the following sources:
 | SysAid | | | | | [https://www.sysaid.com/lp/important-update-regarding-apache-log4j](https://www.sysaid.com/lp/important-update-regarding-apache-log4j) | | | |
 | Sysdig | | | | | [https://sysdig.com/blog/cve-critical-vulnerability-log4j/](https://sysdig.com/blog/cve-critical-vulnerability-log4j/) | | | |
 | Talend | | | | | [https://jira.talendforge.org/browse/TCOMP-2054](https://jira.talendforge.org/browse/TCOMP-2054) | | | |
-| Tanium | | | | | [Tanium Article](https://community.tanium.com/s/article/How-Tanium-Can-Help-with-CVE-2021-44228-Log4Shell#_Toc90296319) | | | |
+| Tanium | All | All versions | Not Affected | | [Tanium Statement](https://tanium.my.salesforce.com/sfc/p/#60000000IYkG/a/7V000000PeT8/8C98AHl7wP5_lpUwp3qmY5sSdwXx6wG6LE4gPYlxO8c) | Tanium does not use Log4j. | | 12/21/2021 |
 | TealiumIQ | | | | | [TealiumIQ Security Update](https://community.tealiumiq.com/t5/Announcements-Blog/Update-on-Log4j-Security-Vulnerability/ba-p/36824) | | | |
 | TeamPasswordManager | | | | | [TeamPasswordManager Blog](https://teampasswordmanager.com/blog/log4j-vulnerability/) | | | |
 | Teamviewer | | | | | [TeamViewer Bulletin](https://www.teamviewer.com/en/trust-center/security-bulletins/hotfix-log4j2-issue/) | | | |
