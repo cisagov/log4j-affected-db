@@ -188,13 +188,32 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | AXS Guard | | | | | [AXS Guard Blog Post](https://www.axsguard.com/en_US/blog/security-news-4/log4j-vulnerability-77) | | | |
 | Axways Applications | | | | | [Axways Applications Link](https://support.axway.com/news/1331/lang/en) | | | |
 | B&R Industrial Automation | APROL | | Not Affected | | [B&R Statement](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf)| | | 12/16/2021|
+| Baxter | | | | Under Investigation | [Baxter Advisory Link](https://www.baxter.com/sites/g/files/ebysai746/files/2021-12/Apache_Log4j_Vulnerability.pdf) | | | 12/20/2021 |
 | BackBox | | | | | [BackBox Update](https://updates.backbox.com/V6.5/Docs/CVE-2021-44228.pdf) | | | |
 | Balbix | | | | | [Balbix Blog Post](https://www.balbix.com/blog/broad-exposure-to-log4shell-cve-2021-44228-highlights-how-the-attack-surface-has-exploded/) | | | |
 | Baramundi Products | | | | | [Baramundi Products Forum](https://forum.baramundi.com/index.php?threads/baramundi-produkte-von-log4shell-schwachstelle-in-log4j-nicht-betroffen.12539/#post-62875) | | | |
 | Barco | | | | | [Barco Link](https://www.barco.com/en/support/knowledge-base/kb12495) | | | |
 | Barracuda | | | | | [Barracuda Link](https://www.barracuda.com/company/legal/trust-center) | | | |
-| BBraun | | | | | [BBraun Advisory](https://www.bbraun.com/en/products-and-therapies/services/b-braun-vulnerability-disclosure-policy/security-advisory/b-braun-statement-on-Apache_Log4j.html) | This advisory is available to customer only and has not been reviewed by CISA. | | |
-| BD | | | Not Affected | No | [BD Bulletin](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BBraun | Outlook® Safety Infusion System Pump family | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | Space® Infusion Pump family (Infusomat® Space® Infusion Pump, Perfusor® Space® Infusion | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | Pump, SpaceStation, and Space® Wireless Battery) | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | DoseTrac® Server, DoseLink™ Server, and Space® Online Suite Server software | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | Pinnacle® Compounder | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | APEX® Compounder | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BD | Arctic Sun™ Analytics | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Diabetes Care App Cloud | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Clinical Advisor | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Data Manager | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Diversion Management | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Infection Advisor | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Inventory Optimization Analytics | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Medication Safety | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Knowledge Portal for Infusion Technologies | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Knowledge Portal for Medication Technologies | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Knowledge Portal for BD Pyxis™ Supply | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Synapsys™ Informatics Solution | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Veritor™ COVID At Home Solution Cloud | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| Beckman Coulter | ||Under Investigation | |[Beckman Coulter Advisory Link](https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates) | | | 12/20/2021 |
 | Bender | | | | | [Bender Link](https://www.bender.de/en/cert) | | | |
 | Best Practical Request Tracker (RT) and Request Tracker for Incident Response (RTIR) | | | | | [Vendor Link](https://bestpractical.com/blog/2021/12/request-tracker-rt-and-request-tracker-for-incident-response-rtir-do-not-use-log4j) | | | |
 | BeyondTrust | Privilege Management Cloud | Unkown | Fixed |  | [BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell)](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) | vulnerability has been mitigated on all customer instances as of December 10, 2021 | KB0016542 | 2021-12-15 |
@@ -246,6 +265,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | BMC | TrueSight Infrastructure Management | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | | | |
 | BMC | TrueSight Operations Management | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | | | |
 | BMC | TrueSight Orchestration | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | | | |
+| Boston Scientific | | |Under Investigation | |[Boston Scientific Advisory Link](https://www.bostonscientific.com/content/dam/bostonscientific/corporate/product-security/bsc_statement_on_apache_log4j-v1.pdf) | | | 12/20/2021 |
 | Box | | | | | [Box Blog Post](https://blog.box.com/boxs-statement-recent-log4j-vulnerability-cve-2021-44228) | | | |
 | Brainworks | | | | | [Brainworks Link](https://www.brainworks.de/log4j-exploit-kerio-connect-workaround/) | | | |
 | BrightSign | | | | | [BrightSign Link](https://brightsign.atlassian.net/wiki/spaces/DOC/pages/370679198/Security+Statement+Log4J+Meltdown+and+Spectre+Vulnerabilities#SecurityStatement%3ALog4J%2CMeltdownandSpectreVulnerabilities-JavaApacheLog4j) | | | |
@@ -305,8 +325,11 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | C4b XPHONE | | | | | [C4b XPHONE Link](https://www.c4b.com/de/news/log4j.php) | | | |
 | Camunda | | | | | [Camunda Forum Link](https://forum.camunda.org/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228/31910) | | | |
 | CarbonBlack | | | | | [CarbonBlack Advisory](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | |
+| Carestream | | | Not Affected  | |[Carestream Advisory Link](https://www.carestream.com/en/us/services-and-support/cybersecurity-and-privacy) | | | 12/20/2021 |
 | CAS genesisWorld | | | | | [CAS genesisWorld Link](https://helpdesk.cas.de/CASHelpdesk/FAQDetails.aspx?gguid=0x79F9E881EE3C46C1A71BE9EB3E480446) | | | |
 | Cato Networks | | | | | [Cato Networks Blog Post](https://www.catonetworks.com/blog/cato-networks-rapid-response-to-the-apache-log4j-remote-code-execution-vulnerability/) | | | |
+| Cepheid | C360 | | Not Affected  | |[Cepheid Advisory Link](https://www.cepheid.com/en_US/legal/product-security-updates) | | | 12/20/2021 |
+| Cepheid | GeneXpert | | Under Investigation  | |[Cepheid Advisory Link](https://www.cepheid.com/en_US/legal/product-security-updates) | | | 12/20/2021 |
 | Cerberus FTP | | | | | [Cerberus Article](https://support.cerberusftp.com/hc/en-us/articles/4412448183571-Cerberus-is-not-affected-by-CVE-2021-44228-log4j-0-day-vulnerability) | | | |
 | Chaser Systems | discrimiNAT Firewall | All | Not Affected | | [Are Chaser’s products affected](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) | | | |
 | Check Point | CloudGuard | | Not Affected | | | | | |
@@ -521,7 +544,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | CouchBase | | | | | [CouchBase Forums](https://forums.couchbase.com/t/ann-elasticsearch-connector-4-3-3-4-2-13-fixes-log4j-vulnerability/32402) | | | |
 | CPanel | | | | | [CPanel Forms](https://forums.cpanel.net/threads/log4j-cve-2021-44228-does-it-affect-cpanel.696249/) | | | |
 | Cradlepoint | | | | | [Cradlepoint](https://cradlepoint.com/vulnerability-alerts/cve-2021-44228-apache-log4j-security-vulnerabilities/) | | | |
-| Crestron | | | | | [Crestron Advisory](https://www.crestron.com/Security/Security_Advisories/Apache-Log4j) | | | |
+| Crestron | | | Not Affected | | [Crestron Advisory](https://www.crestron.com/Security/Security_Advisories/Apache-Log4j) | | | 12/20/2021 |
 | CrushFTP | | | | | [CrushFTP Link](https://www.crushftp.com/download.html) | | | |
 | CryptShare | | | | | [Cryptshare Support Link](https://www.cryptshare.com/en/support/cryptshare-support/#c67572) | | | |
 | Cumul.io | | | | | | [Cumul.io Status Link](https://status.cumul.io/#incidents) | | | |
@@ -1142,6 +1165,23 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | HPE | Superdome Flex 280 |  | Not Affected | | [(Revision) Apache Software Log4j - Security Vulnerability CVE-2021-44228](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us) |Support Communication Cross Reference ID: SIK7387 | | 2021-12-12 |
 | HPE | Superdome Flex Server |  | Not Affected | | [(Revision) Apache Software Log4j - Security Vulnerability CVE-2021-44228](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us) |Support Communication Cross Reference ID: SIK7387 | | 2021-12-12 |
 | HPE | UAN (User Access Node) |  | Not Affected | | [(Revision) Apache Software Log4j - Security Vulnerability CVE-2021-44228](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us) |Support Communication Cross Reference ID: SIK7387 | | 2021-12-12 |
+| HOLOGIC | Advanced Workflow Manager (AWM) | | Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | While the Hologic software itself does not utilize Java/Log4J, the installed APC PowerChute UPS with Business Edition v9.5 software installed may. APC is still assessing its PowerChute software to determine if it is vulnerable. | | 12/20/2021 |
+| HOLOGIC | Unifi Workspace | | Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | While the Hologic software itself does not utilize Java/Log4J, the installed APC PowerChute UPS with Business Edition v9.5 software installed may. APC is still assessing its PowerChute software to determine if it is vulnerable. | | 12/20/2021 |
+| HOLOGIC | Faxitron CT Specimen Radiography System | | Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | While the Hologic software itself does not utilize Java/Log4J, there is a utility program installed that may utilize Java and Log4J. This utility program does not run on startup and is not required for system operation. Please contact Hologic Service for assistance in removing this program. | | 12/20/2021 |
+| HOLOGIC | Dimensions / 3Dimensions Mammography System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Affirm Prone Biopsy System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Brevera Breast Biopsy System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Trident HD Specimen Radiography System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | SecurView DX Workstation | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Cenova Image Analytics Server | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | SecurXChange Router     | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Rosetta DC Tomosynthesis Data Converter | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Faxitron Specimen Radiography Systems | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Horizon DXA Bone Densitometer | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Discovery Bone Densitometer | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Fluoroscan Insight Mini C-Arm | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | SuperSonic Imagine Ultrasound Products (Aixplorer & Aixplorer Mach) | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Windows Selenia Mammography System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
 | Huawei | | | | | [Huawei Security Notice](https://www.huawei.com/en/psirt/security-notices/huawei-sn-20211210-01-log4j2-en) | | | |
 | Hubspot | | | | | [Hubspot Notice](https://community.hubspot.com/t5/APIs-Integrations/Log4J-day-zero-exploit-CVE-2021-44228/td-p/541949) | | | |
 | I-Net software | | | | | [I-Net Software Statement](https://faq.inetsoftware.de/t/statement-about-cve-2021-44228-log4j-vulnerability-concerning-i-net-software-products/269/3) | | | |
@@ -1488,7 +1528,6 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Looker | | | | | [Looker Statement](https://docs.google.com/document/d/e/2PACX-1vQGN1AYNMHxsRQ9AZNu1bKyTGRUSK_9xkQBge-nu4p8PYvBKIYHhc3914KTfVtDFIXtDhc3k6SZnR2M/pub) | | | |
 | LucaNet | | | | | [LucaNet Statement](https://www.lucanet.com/en/blog/update-vulnerability-log4j) | | | |
 | Lucee | | | | | [Lucee Statement](https://dev.lucee.org/t/lucee-is-not-affected-by-the-log4j-jndi-exploit-cve-2021-44228/9331/4) | | | |
-| Lyrasis | Fedora Repository | 3.x,4.x,5.x,6.x | Not Affected | | [Fedora Repository Statement](https://groups.google.com/g/fedora-tech/c/dQMQ5jaX8Xo) | Fedora Repository is unaffiliated with Fedora Linux.  Uses logback and explicitly excludes log4j. | | 2021-12-14 |
 | MailStore | | | | | [MailStore Statement](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) | | | |
 | Maltego | | | | | [Maltego Response to Logj4](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) | | | |
 | ManageEngine | Servicedesk Plus|11305 and below|Affected| | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html)|||12/15/2021|
