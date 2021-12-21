@@ -86,10 +86,10 @@ This list was initially populated using information from the following sources:
 | ADP | | | | | [ADP Alert Link](https://www.adp.com/about-adp/data-security/alerts/adp-vulnerability-statement-apache-log4j-vulnerability-cve-2021-44228.aspx) | | | |
 | AFAS Software | | | | | [AFAS Software Link](https://help.afas.nl/vraagantwoord/NL/SE/120439.htm) | | | |
 | Agilysys | | | | | [Agilysys Link](https://info.agilysys.com/webmail/76642/2001127877/c3fda575e2313fac1f6a203dc6fc1db2439c3db0da22bde1b6c1b6747d7f0e2f) | | | |
-|Advanced Systems Concepts (formally Jscape)|Active MFT||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
-|Advanced Systems Concepts (formally Jscape)|MFT Server||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
-|Advanced Systems Concepts (formally Jscape)|MFT Gateway||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
-|Advanced Systems Concepts (formally Jscape)|MFT||Not Affected|No|[Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569)|This advisory is available to customers only and has not been reviewed by CISA||12/14/2021|
+| Advanced Systems Concepts (formally Jscape) | Active MFT | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
+| Advanced Systems Concepts (formally Jscape) | MFT Server | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
+| Advanced Systems Concepts (formally Jscape) | MFT Gateway | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
+| Advanced Systems Concepts (formally Jscape) | MFT | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
 | Akamai | SIEM Splunk Connector| All  | Affected |Yes  | [Akamai SIEM Integration](https://splunkbase.splunk.com/app/4310/) |v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities| |12/15/2021|
 | Alcatel | | | | | [Alcatel Link](https://dokuwiki.alu4u.com/doku.php?id=log4j) | | | |
 | Alertus | | | | | [Alertus Article Link](https://help.alertus.com/s/article/Security-Advisory-Log4Shell-Vulnerability?language=en_US) | | | |
@@ -407,7 +407,7 @@ This list was initially populated using information from the following sources:
 | Cisco | Cisco Nexus 5600 Platform Switches | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus 6000 Series Switches | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus 7000 Series Switches | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
-| Cisco | Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure (ACI) mode | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd)  || |              |
+| Cisco | Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure (ACI) mode | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus Dashboard (formerly Cisco Application Services Engine) | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus Data Broker | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Nexus Insights | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
@@ -547,10 +547,10 @@ This list was initially populated using information from the following sources:
 | Crestron | | | Not Affected | | [Crestron Advisory](https://www.crestron.com/Security/Security_Advisories/Apache-Log4j) | | | 12/20/2021 |
 | CrushFTP | | | | | [CrushFTP Link](https://www.crushftp.com/download.html) | | | |
 | CryptShare | | | | | [Cryptshare Support Link](https://www.cryptshare.com/en/support/cryptshare-support/#c67572) | | | |
-| Cumul.io | | | | | [Cumul.io Status Link](https://status.cumul.io/#incidents) | | | |
 | CyberArk | Privileged Threat Analytics (PTA)| N/A  | Fixed | Yes | [CyberArk Customer Force](https://cyberark-customers.force.com/s/article/Critical-Vulnerability-CVE-2021-44228) | | This advisory is available to customers only and has not been reviewed by CISA. |12/14/2021|
 | Cybereason | | | | | [Cybereason Blog Post](https://www.cybereason.com/blog/cybereason-solutions-are-not-impacted-by-apache-log4j-vulnerability-cve-2021-44228) | | | |
 | CyberRes | | | | | [CyberRes Community Link](https://community.microfocus.com/cyberres/b/sws-22/posts/summary-of-cyberres-impact-from-log4j-or-logshell-logjam-cve-2021-44228) | | | |
+| Cydar Medical | | | Not Affected | | [Cydar Advisory Link](https://www.cydarmedical.com/news/cydar-response-to-apache-log4j-vulnerability) | | | 12/21/2021 |
 | DarkTrace | | | | | [DarkTrace Customer Portal](https://customerportal.darktrace.com/inside-the-soc/get-article/201) | | | |
 | Dassault Systèmes | | | | | [Dassault Systemes Link](https://kb.dsxclient.3ds.com/mashup-ui/page/resultqa?id=QA00000102301e) | | | |
 | Databricks | | | | | [Databricks Google Doc](https://docs.google.com/document/d/e/2PACX-1vREjwZk17BAHGwj5Phizi4DPFS9EIUbAMX-CswlgbFwqwKXNKZC8MrT-L6wUgfIChsSHtvd_QD3-659/pub) | | | |
@@ -813,16 +813,55 @@ This list was initially populated using information from the following sources:
 | Devolutions | All products||Not Affected||[https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/](https://blog.devolutions.net/2021/12/critical-vulnerability-in-log4j/)||||
 | Diebold Nixdorf | | | | | [Diebold Nixdorf Link](https://www.dieboldnixdorf.com/en-us/apache) | | | |
 | Digicert | | | | | [Digicert Link](https://knowledge.digicert.com/alerts/digicert-log4j-response.html) | | | |
+| Digi International | CTEK G6200 family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | CTEK SkyCloud | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | CTEK Z45 family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi 54xx family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi 63xx family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi AnywhereUSB (G2) family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi AnywhereUSB Plus family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect EZ family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect IT family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi ConnectPort family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi ConnectPort LTS family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect Sensor family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Connect WS family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Embedded Android | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Embedded Yocto | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi EX routers | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi IX routers | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi LR54 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi One family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Passport family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi PortServer TS family | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi TX routers | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR11 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR21 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR31 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR44R/RR | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR54 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi WR64 | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | AnywhereUSB Manager | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Aview | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | ARMT | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | AVWOB | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Navigator | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Remote Manager | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Digi Xbee mobile app | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Lighthouse | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Realport | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
+| Digi International | Remote Hub Config Utility | | Not Affected | | [Digi International Advisory Link](https://www.digi.com/resources/security) | | | 12/21/2021 |
 | Digital AI | | | | | [Digital AI Article](https://support.digital.ai/hc/en-us/articles/4412377686674-Log4J-Vulnerability-to-Zero-Day-Exploit-and-Digital-ai#overview-0-1) | | | |
 | DNSFilter | | | | | [DNSFilter Blog Post](https://www.dnsfilter.com/blog/dnsfilter-response-to-log4j-vulnerability) | | | |
 | Docker | | | | | [Docker Blog Post](https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/) | | | |
 | Docusign | | | | | [Docusign Alert](https://www.docusign.com/trust/alerts/alert-docusign-statement-on-the-log4j2-vulnerability) | | | |
 | DrayTek | Vigor Routers, Access Points, Switches, VigorACS Central Management Software, MyVigor Platform||Not Affected||[DrayTek Statement](https://www.draytek.com/about/security-advisory/log4shell-vulnerability-(cve-2021-44228)/)|||12/15/2021|
 | DSpace ||||| [DSpace Google Group](https://groups.google.com/g/dspace-community/c/Fa4VdjiiNyE) | | | |
-| Dynatrace | Managed cluster nodes | | Affected | | | | | |
-| Dynatrace | Managed cluster nodes||Affected||||||
-| Dynatrace | Synthetic Activegates | | Affected | | | | | |
-| Dynatrace | Synthetic Activegates||Affected||||||
+| Dynatrace | Managed cluster nodes | | Not Affected | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
+| Dynatrace | Managed cluster nodes | | Not Affected | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
+| Dynatrace | Synthetic Activegates | | Fixed |Yes | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
+| Dynatrace | Synthetic Activegates | | Fixed | Yes | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
 | EasyRedmine | | | | | [EasyRedmine News](https://www.easyredmine.com/news/easy-redmine-application-is-not-affected-by-the-vulnerability-cve-2021-44228) | | | |
 | Eaton | Undisclosed | Undisclosed | Affected | | [Security Bulletin](https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/Eaton-Security-Bulletin%20log4j_CVE_2021_44228_v1.0_Legal-Approved.pdf) | Doesn't openly disclose what products are affected or not for quote 'security purposes'. Needs email registration. No workaround provided due to registration wall. | | |
 | EclecticIQ | | | | | [EclecticIQ Advisory](https://docs.eclecticiq.com/security-advisories/security-issues-and-mitigation-actions/eiq-2021-0016-2) | | | |
@@ -849,6 +888,7 @@ This list was initially populated using information from the following sources:
 | Elastic | Machine Learning | | Not Affected | | [Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) | | | 12/15/2021 |
 | Elastic | Swiftype | | Not Affected | | [Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) | | | 12/15/2021 |
 | ElasticSearch | all products | | Not Affected | | | | | |
+| Elekta | | | Unknown | | [Elekta Advisory Link](https://www.elekta.com/software-solutions/product-security) | Elekta Advisories are available in the customer portal (login required) | | 12/21/2021 |
 | Ellucian | Banner Analytics | | Affected | No | [Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) | | | 12/17/2021 |
 | Ellucian | Colleague | | Affected | No | [Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) | On-prem and cloud deployements expect fixed 12/18/2021 | | 12/17/2021 |
 | Ellucian | Admin | | Not Affected | | [Ellucian Response on Apache Log4j Issue](https://www.ellucian.com/news/ellucian-response-apache-log4j-issue) | | | 12/17/2021 |
@@ -928,6 +968,7 @@ This list was initially populated using information from the following sources:
 | FileWave | | | | | [FileWave Statement](https://kb.filewave.com/display/KB/Security+Notice:+Apache+log4j+Vulnerability+CVE-2021-44228) | | | |
 | FINVI | | | | | [FINVI Statement](https://finvi.com/support/) | | | |
 | FireDaemon | | | | | [FireDemon Statement](https://kb.firedaemon.com/support/solutions/articles/4000178630) | | | |
+| Fisher & Paykel Healthcare | | | Not Affected | | [Fisher & Paykel Healthcare Advisory Link](https://www.fphcare.com/us/our-company/contact-us/product-security/) | | | 12/21/2021 |
 | Flexagon | | | | | [Flexagon Statement](https://flexagon.com/what-is-the-impact-of-log4j-vulnerability-cve-2021-44228-on-flexdeploy/) | | | |
 | Flexera | | | | | [Flexera Statement](https://community.flexera.com/t5/Community-Notices/Flexera-s-response-to-Apache-Log4j-2-remote-code-execution/ba-p/216934) | | | |
 | Forcepoint | DLP Manager | | Affected | | [Login (forcepoint.com)](https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F) | | | |
@@ -971,12 +1012,14 @@ This list was initially populated using information from the following sources:
 | FTAPI | | | | | [FTAPI Statement](https://www.ftapi.com/blog/kritische-sicherheitslucke-in-log4j-ftapi-reagiert/#) | | | |
 | Fujitsu | | | | | [Fujitsu Statement](https://support.ts.fujitsu.com/ProductSecurity/content/Fujitsu-PSIRT-PSS-IS-2021-121000-Security-Notice-SF.pdf) | | | |
 | FusionAuth | FusionAuth  | 1.32 | Not Affected |  | [log4j CVE: How it affects FusionAuth (TLDR: It doesn't) - FusionAuth](https://fusionauth.io/blog/2021/12/10/log4j-fusionauth/) | | | |
+| GE Healthcare | | | Under Investigation | | [GE Healthcare Advisory Link](https://www.gehealthcare.com/security) | | | 12/21/2021 |
 | Gearset | | | | | [Gearset Statement](https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021) | | | |
 | Genesys | | | | | [Genesys Statement](https://www.genesys.com/blog/post/genesys-update-on-the-apache-log4j-vulnerability) | | | |
 | GeoServer | | | | | [GeoServer Announcement](http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html) | | | |
 | Gerrit code review | | | | | [Gerrit Statement](https://www.gerritcodereview.com/2021-12-13-log4j-statement.html) | | | |
 | GFI | | | | | [GFI Statement](https://techtalk.gfi.com/impact-of-log4j-vulnerability-on-gfi/) | | | |
 | Ghidra | | | | | [Ghidra Statement](https://github.com/NationalSecurityAgency/ghidra/blob/2c73c72f0ba2720c6627be4005a721a5ebd64b46/README.md#warning) | | | |
+| Gigamon | Fabric Manager | <5.13.01.02 | Affected | Yes | [Gigamon Customer Support Portal](https://community.gigamon.com/gigamoncp/s/my-gigamon) | Updates available via the Gigamon Support Portal. This advisory available to customers only and has not been reviewed by CISA. | | 12/21/2021 |
 | GitHub | | | | | [GitHub Statement](https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/) | | | |
 | GitLab | | | | | [GitLab Statement](https://forum.gitlab.com/t/cve-2021-4428/62763) | | | |
 | Globus | | | | | [Globus Statement](https://groups.google.com/a/globus.org/g/discuss/c/FJK0q0NoUC4) | | | |
@@ -992,13 +1035,13 @@ This list was initially populated using information from the following sources:
 | Gradle | Gradle Enterprise Test Distribution Agent | < 1.6.2 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Grafana | | | | | [Grafana Statement](https://grafana.com/blog/2021/12/14/grafana-labs-core-products-not-impacted-by-log4j-cve-2021-44228-and-related-vulnerabilities/) | | | |
 | Grandstream | | | | | [Grandstream Statement](https://blog.grandstream.com/press-releases/grandstream-products-unaffected-by-log4j-vulnerability?hsLang=en) | | | |
-| Gravitee | Access Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | Access Management | 3.5.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | API Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | API Management | 3.5.x | Not Affected | No |  [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | Alert Engine | 1.5.x | Not Affected | Yes |  [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | Alert Engine | 1.4.x | Not Affected | No |  [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
-| Gravitee | Cockpit | 1.4.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Access Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Access Management | 3.5.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | API Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | API Management | 3.5.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Alert Engine | 1.5.x | Not Affected | Yes | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Alert Engine | 1.4.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
+| Gravitee | Cockpit | 1.4.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
 | Gravitee.io | | | | | [Gravitee.io Statement](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
 | Gravwell | | | | | [Gravwell Statement](https://www.gravwell.io/blog/cve-2021-44228-log4j-does-not-impact-gravwell-products) | | | |
 | Graylog | Graylog Server | All versions >= 1.2.0 and <= 4.2.2 | Affected | Yes | [Graylog Update for Log4j](https://www.graylog.org/post/graylog-update-for-log4j) | | | |
@@ -1375,6 +1418,7 @@ This list was initially populated using information from the following sources:
 | IBM | VPN for VPC | | Not Affected | | [An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) | | | 12/15/2021 |
 | IBM | vRealize Operations and Log Insight | | Affected | Yes | [An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) | | | 12/15/2021 |
 | IBM | Workload Automation | | Not Affected | | [An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) | | | 12/15/2021 |
+| ICONICS | All | | Not Affected | | [ICONICS Advisory Link](https://iconics.com/News/Press-Releases/2021/ICONICS-Not-Subject-to-Apache-Log4j-Vulnerability) | | | 12/21/2021 |
 | IFS | | | | | [IFS Bulletin](https://community.ifs.com/announcements-278/urgent-bulletin-ifs-advisory-ifs-products-services-and-log4j-cve-2021-44228-16436) | | | |
 | IGEL | | | | | [IGEL Statement](https://kb.igel.com/securitysafety/en/isn-2021-11-ums-log4j-vulnerability-54086712.html) | | | |
 | Ignite Realtime | | | | | [Ignite Realtime Statement](https://discourse.igniterealtime.org/t/openfire-4-6-5-released/91108) | | | |
@@ -1412,9 +1456,9 @@ This list was initially populated using information from the following sources:
 | Intel | System Studio | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Computer Vision Annotation Tool maintained by Intel | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Sensor Solution Firmware Development Kit | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
-|Internet Systems Consortium(ISC)|ISC DHCP, aka dhcpd|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
-|Internet Systems Consortium(ISC)|Kea DHCP|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
-|Internet Systems Consortium(ISC)|BIND 9|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
+| Internet Systems Consortium(ISC)|ISC DHCP, aka dhcpd|All|Not Affected|N/A|[ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)|no JAVA Code||12/17/2021|
+| Internet Systems Consortium(ISC) | Kea DHCP | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code | | 12/17/2021 |
+| Internet Systems Consortium(ISC) | BIND 9 | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code | | 12/17/2021 |
 | InterSystems | | | | | [InterSystems Statement](https://www.intersystems.com/gt/apache-log4j2/) | | | |
 | Intland | codebeamer | <= 20.11-SP11, <= 21.09-SP3 | Affected | Some releases | [Apache Log4j vulnerability and fixes](https://codebeamer.com/cb/wiki/19872365) | A fix has been released for [20.11](https://codebeamer.com/cb/wiki/13134438) and [21.09](https://codebeamer.com/cb/wiki/19418497), but not yet for [21.04](https://codebeamer.com/cb/wiki/16937839) | | |
 | iRedMail | | | | | [iRedMail Statement](https://forum.iredmail.org/topic18605-log4j-cve202144228.html) | | | |
@@ -1447,6 +1491,34 @@ This list was initially populated using information from the following sources:
 | Jitsi | | | | | [Jitsi Advisory](https://github.com/jitsi/security-advisories/blob/4e1ab58585a8a0593efccce77d5d0e22c5338605/advisories/JSA-2021-0004.md) | | | |
 | Jitterbit | | | | | [Jitterbit Statement](https://success.jitterbit.com/display/DOC/Mitigating+the+Apache+Log4j2+JNDI+Vulnerability) | | | |
 | jPOS | (ISO-8583) bridge | Unknown | Not Affected | | [source](https://github.com/jpos/jPOS/commit/d615199a1bdd35c35d63c07c10fd0bdbbc96f625)| | | |
+| Johnson Controls | C•CURE‐9000 | 2.90.x (all 2.90 versions) | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | C•CURE‐9000 | 2.80.x (all 2.80 versions) | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | C•CURE‐9000 | 2.70 (All versions) | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | C•CURE‐9000 | 2.60 (All versions) | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | victor | 5.x | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | victor/ C•CURE‐9000 Unified | 3.81.x / victor 5.4.1 / C•CURE‐9000 2.80 | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | victor/ C•CURE‐9000 Unified | 3.91.x / victor 5.6.1 / C•CURE‐9000 2.90 | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | Metasys Products and Tools | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | Facility Explorer | 14.x | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | CEM AC2000 | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | CEM Hardware Products | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | Illustra Cameras | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | Illustra Insight | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | Tyco AI | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | DLS | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | Entrapass | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | CloudVue Web | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | CloudVue Gateway | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | Qolsys IQ Panels | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | PowerSeries NEO | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | PowerSeries Pro | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | Sur‐Gard Receivers | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | VideoEdge | 5.x | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | exacqVision Server | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | exacqVision Client | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | exacqVision WebService | All versions  | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | BCPro | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
+| Johnson Controls | iSTAR | All versions | Not Affected| | [Johnson Controls Advisory Link](https://www.johnsoncontrols.com/cyber-solutions/security-advisories) | | | 12/21/2021 |
 | Journyx | | | | | [Journeyx Statement](https://community.journyx.com/support/solutions/articles/9000209044-apache-log4j-2-vulnerability-cve-2021-44228-) | | | |
 | Jump Desktop | | | | | [Jump Desktop Statement](https://support.jumpdesktop.com/hc/en-us/articles/4416720395021-Log4j-CVE-2021-44228-CVE-2021-45046-Statement) | | | |
 | Juniper Networks | | | | | [Juniper Networks Statement](https://kb.juniper.net/InfoCenter/index?page=content&id=JSA11259) | | | |
@@ -1470,44 +1542,80 @@ This list was initially populated using information from the following sources:
 | LastPass | | | | | [LastPass Information](https://support.logmeininc.com/lastpass/help/log4j-vulnerability-faq-for-lastpass-universal-proxy) | | | |
 | LaunchDarkly | | | | | [LaunchDarkly Statement](https://launchdarkly.com/blog/audit-shows-systems-unaffected-by-log4j/) | | | |
 | Leanix | | | | | [Leanix Statement](https://www.leanix.net/en/blog/log4j-vulnerability-log4shell) | | | |
-| Lenovo | BIOS/UEFI |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Chassis Management Module 2 (CMM) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Commercial Vantage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Confluent |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | DSS-G |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Embedded System Management Java-based KVM clients |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Fan Power Controller (FPC) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Fan Power Controller2 (FPC2) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Integrated Management Module II (IMM2) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | NetApp ONTAP Tools for VMware vSphere |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | See [NetApp](https://security.netapp.com/advisory/ntap-20211210-0007/) advisory. | | 2021-12-14 |
-| Lenovo | Network Switches running: Lenovo CNOS, Lenovo ENOS, IBM ENOS, or Brocade FOS |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Storage Management utilities |  | Under Investigation | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | System Management Module (SMM) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | System Management Module 2 (SMM2) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | System Update |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Thin Installer |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | ThinkAgile HX |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | Nutanix and VMware components only; hardware not affected. See [Nutanix](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) and [VMWare](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) advisories. | | 2021-12-14 |
-| Lenovo | ThinkAgile VX |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | VMware components only; hardware not affected. See [VMWare](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) advisory. | | 2021-12-14 |
-| Lenovo | ThinkSystem 2x1x16 Digital KVM Switch - Type 1754D1T |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | ThinkSystem DE Series Storage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | See also NetApp advisory. | | 2021-12-14 |
-| Lenovo | ThinkSystem DM Series Storage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | See also NetApp advisory. | | 2021-12-14 |
-| Lenovo | ThinkSystem DS Series Storage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | ThinkSystem Manager (TSM) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Update Retriever |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | Vantage |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Administrator (LXCA) |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Controller (XCC) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Energy Manager (LXEM) |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Essentials (LXCE) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Integrator (LXCI) for Microsoft Azure Log Analytics |  | Under Investigation | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Integrator (LXCI) for Microsoft System Center |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Integrator (LXCI) for Nagios |  | Under Investigation | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Integrator (LXCI) for ServiceNow |  | Under Investigation | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Integrator (LXCI) for VMware vCenter |  | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Integrator (LXCI) for Windows Admin Center |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Mobile (LXCM) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Orchestrator (LXCO) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
-| Lenovo | XClarity Provisioning Manager (LXPM) |  | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Leica BIOSYSTEMS | Aperio AT2 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio AT2 DX | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio CS2 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio eSlide Manager | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio GT 450 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio GT 450 DX | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio ImageScope | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio ImageScope DX | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio LV1 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio SAM DX Server For GT 450 DX | | Under Investigation | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio Scanner Administration Manager (SAM) Server for GT 450 | | Under Investigation | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio VERSA | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Aperio WebViewer DX | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | BOND-ADVANCE | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | BOND Controller | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | BOND-III | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | BOND-MAX | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | BOND RX | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | BOND RXm | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | CEREBRO | | Under Investigation | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | CytoVision | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | HistoCore PEARL | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | HistoCore PEGASUS | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | HistoCore SPECTRA CV | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | HistoCore SPECTRA ST | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | HistoCore SPIRIT ST | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | HistoCore SPRING ST | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Leica ASP300S | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Leica CV5030 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Leica ST4020 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Leica ST5010 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Leica ST5020 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | Leica TP1020 | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | LIS Connect | | Under Investigation | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | PathDX | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Leica BIOSYSTEMS | ThermoBrite Elite | | Not Affected | | [Leica BIOSYSTEMS Advisory Link](https://www.leicabiosystems.com/about/product-security/) | | | 12/21/2021 |
+| Lenovo | BIOS/UEFI | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Chassis Management Module 2 (CMM) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Commercial Vantage | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Confluent | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | DSS-G | | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Embedded System Management Java-based KVM clients | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Fan Power Controller (FPC) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Fan Power Controller2 (FPC2) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Integrated Management Module II (IMM2) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | NetApp ONTAP Tools for VMware vSphere | | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | See [NetApp](https://security.netapp.com/advisory/ntap-20211210-0007/) advisory. | | 2021-12-14 |
+| Lenovo | Network Switches running: Lenovo CNOS, Lenovo ENOS, IBM ENOS, or Brocade FOS | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Storage Management utilities | | Under Investigation | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | System Management Module (SMM) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | System Management Module 2 (SMM2) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | System Update | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Thin Installer | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | ThinkAgile HX | | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | Nutanix and VMware components only; hardware not affected. See [Nutanix](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) and [VMWare](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) advisories. | | 2021-12-14 |
+| Lenovo | ThinkAgile VX | | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | VMware components only; hardware not affected. See [VMWare](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) advisory. | | 2021-12-14 |
+| Lenovo | ThinkSystem 2x1x16 Digital KVM Switch - Type 1754D1T | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | ThinkSystem DE Series Storage | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | See also NetApp advisory. | | 2021-12-14 |
+| Lenovo | ThinkSystem DM Series Storage | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | See also NetApp advisory. | | 2021-12-14 |
+| Lenovo | ThinkSystem DS Series Storage | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | ThinkSystem Manager (TSM) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Update Retriever | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | Vantage | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Administrator (LXCA) | | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Controller (XCC) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Energy Manager (LXEM) | | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Essentials (LXCE) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Integrator (LXCI) for Microsoft Azure Log Analytics | | Under Investigation | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Integrator (LXCI) for Microsoft System Center | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Integrator (LXCI) for Nagios | | Under Investigation | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Integrator (LXCI) for ServiceNow | | Under Investigation | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Integrator (LXCI) for VMware vCenter | | Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Integrator (LXCI) for Windows Admin Center | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Mobile (LXCM) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Orchestrator (LXCO) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
+| Lenovo | XClarity Provisioning Manager (LXPM) | | Not Affected | | [Apache Log4j Vulnerability](https://support.lenovo.com/ca/en/product_security/len-76573) | | | 2021-12-14 |
 | LeoStream | | | | | [LeoStream Discussion](https://support.leostream.com/support/discussions/topics/66000507567) | | | |
 | Let's Encrypt | | | | | [Let's Enrypt Statement](https://community.letsencrypt.org/t/log4j-vulnerability-cve-2021-44228/167464) | | | |
 | LibreNMS | | | | | [LibreNMS Statement](https://community.librenms.org/t/is-librenms-affected-by-vulnerable-to-cve-2021-25218-cve-2021-44228/17675/6) | | | |
@@ -1655,7 +1763,7 @@ This list was initially populated using information from the following sources:
 | OpenMRS TALK | | | | | [OpenMRS TALK Link](https://talk.openmrs.org/t/urgent-security-advisory-2021-12-11-re-apache-log4j-2/35341) | | | |
 | OpenNMS | | | | | [OpenNMS Link](https://www.opennms.com/en/blog/2021-12-10-opennms-products-affected-by-apache-log4j-vulnerability-cve-2021-44228/) | | | |
 | OpenSearch | | | | | [OpenSearch Discussion Link](https://discuss.opendistrocommunity.dev/t/log4j-patch-for-cve-2021-44228/7950) | | | |
-| Oracle | | | | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) | | | |
+| Oracle | | | Affected | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) [My Oracle Support Document](https://support.oracle.com/rs?type=doc&id=2827611.1) | The support document is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
 | Orgavision | | | | | [Orgavision Link](https://www.orgavision.com/neuigkeiten/sicherheitsluecke-java-library-log4j) | | | |
 | OTRS | | | | | [OTRS Link](https://portal.otrs.com/external) | | | |
 | OVHCloud | | | | | [OVHCloud Blog Post](https://blog.ovhcloud.com/log4shell-how-to-protect-my-cloud-workloads/) | | | |
@@ -1734,9 +1842,9 @@ This list was initially populated using information from the following sources:
 | Prosys | | | | | [Prosys News Link](https://prosysopc.com/news/important-security-release/) | | | |
 | Proxmox | | | | | [Proxmox Forum](https://forum.proxmox.com/threads/log4j-exploit-what-to-do.101254/#post-436880) | | | |
 | PRTG Paessler | | | | | [PRTG Paessler Link](https://kb.paessler.com/en/topic/90213-is-prtg-affected-by-cve-2021-44228) | | | |
-|PTC|Axeda Platform|6.9.2|Affected|No|[PTC Axeda Platform Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358990)|||12/17/2021|
-|PTC|ThingsWorx Platform|8.5,9.0,9.1,9.2, All supported versions|Affected|No|[ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901)|||12/17/2021|
-|PTC|ThingsWorx Analytics|8.5,9.0,9.1,9.2, All supported versions|Affected|No|[ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901)|||12/17/2021|
+| PTC | Axeda Platform | 6.9.2 | Affected | No | [PTC Axeda Platform Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358990) | | | 12/17/2021 |
+| PTC | ThingsWorx Platform |8.5,9.0,9.1,9.2, All supported versions | Affected | No | [ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901) | | | 12/17/2021 |
+| PTC | ThingsWorx Analytics | 8.5,9.0,9.1,9.2, All supported versions | Affected | No | [ThingWorx Apache log4j vulnerability - Incident Response](https://www.ptc.com/en/support/article/CS358901) | | | 12/17/2021 |
 | PTV Group | | | | | [PTV Group Link](https://company.ptvgroup.com/en/resources/service-support/log4j-latest-information) | | | |
 | Pulse Secure | Ivanti Connect Secure (ICS) | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
 | Pulse Secure | Ivanti Neurons for secure Access | | Not Affected | | [Pulse Secure Article: KB44933 - CVE-2021-44228 - Java logging library (log4j)](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44933/?kA13Z000000L3dR) | | | |
@@ -1889,8 +1997,9 @@ This list was initially populated using information from the following sources:
 | Salesforce | Tableau (On-Premise) | < 2021.4.1 | Fixed | | [Salesforce Statement](https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell)|Fixed in 2021.4.1||12/16/2021|
 | Salesforce | Tableau (Online) | | Affected| | [Salesforce Statement](https://help.salesforce.com/s/articleView?id=000363736&type=1) |"Tableau (Online) is reported to be affected by CVE-2021-44228. The service is being updated to remediate the vulnerability identified in CVE-2021-44228."||12/15/2021|
 | Sangoma |||||[Sangoma Community Link](https://help.sangoma.com/community/s/article/Log4Shell) | | | |
-| SAP Advanced Platform | | | | | [SAP Advanced Platform Support Link](https://launchpad.support.sap.com/#/notes/3130698) | This advisory is available to customers only and has not been reviewed by CISA | | |
-| SAP BusinessObjects | | | | | [SAP BusinessObjects Support Link](https://launchpad.support.sap.com/#/notes/3129956) | This advisory is available to customers only and has not been reviewed by CISA | | |
+| SAP | | | | | [https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/trust-center/sap-tc-01-5025.pdf](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/trust-center/sap-tc-01-5025.pdf) | This advisory is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
+| SAP Advanced Platform | | | | | [SAP Advanced Platform Support Link](https://launchpad.support.sap.com/#/notes/3130698) | This advisory is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
+| SAP BusinessObjects | | | | | [CVE-2021-44228 - Impact of Log4j vulnerability on SAP BusinessObjects](https://blogs.sap.com/2021/12/16/cve-2021-44228-impact-of-log4j-vulnerability-on-sap-businessobjects/) [SAP BusinessObjects Support Link](https://launchpad.support.sap.com/#/notes/3129956) | The support document is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
 | SAS | | | | | [SAS Support Link](https://support.sas.com/content/support/en/security-bulletins/remote-code-execution-vulnerability-cve-2021-44228.html) | | | |
 | SASSAFRAS | | | | | [SASSAFRAS Link](https://www.sassafras.com/log4j-vulnerability-cve-2021-44228/) | | | |
 | Savignano software solutions | | | | | [Savignano Link](https://savignano.atlassian.net/wiki/spaces/SNOTIFY/blog/2021/12/13/2839740417/No+Log4j+Vulnerability+in+S+Notify) | | | |
@@ -2000,7 +2109,7 @@ This list was initially populated using information from the following sources:
 | Siemens | Teamcenter Mendix Connector | V1.0 | Affected | Yes| [Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/18/2021 |
 | Siemens | Teamcenter Microservices Framework | All Versions >=V5.1 | Affected | Yes| [Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/18/2021 |
 | Siemens | Teamcenter Polarion Integration | All Versions >=V5.1 | Affected | Yes| [Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/18/2021 |
-| Siemens | Teamcenter Rapid Start | All Versions >=V13.1 | Affected | Yes| [Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)|Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/18/2021 ||12/18/2021|
+| Siemens | Teamcenter Rapid Start | All Versions >=V13.1 | Affected | Yes| [Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)|Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/18/2021 |
 | Siemens | Teamcenter Reporting and Analytics | All Versions based on Java SOA client >=V11.3 | Affected | Yes| [Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/18/2021 |
 | Siemens | Teamcenter Requirements Integrator | All Versions based on Java SOA client >=V11.3 | Affected | Yes| [Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/18/2021 |
 | Siemens | Teamcenter Retail Footwear and Apparel | All Versions >=V4.3 | Affected | Yes| [Siemens Advisory - SSA-661257: Apache Log4j Vulnerabilities](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf)| Remove the JndiLookup class from the classpath. Find detailed remediation and mitigation information [here](https://support.sw.siemens.com/en-US/knowledge-base/PL8600700). See further recommendations from [Siemens Advisory SSA-661257](https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf) | | 12/18/2021 |
@@ -2034,7 +2143,7 @@ This list was initially populated using information from the following sources:
 | SonicWall | Analyzer | | Under Investigation | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Under Review | | 12/12/2021 |
 | SonicWall | Capture Security Appliance | | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the Capture Security appliance. | | 12/12/2021 |
 | SonicWall | CAS | | Under Investigation | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Under Review | | 12/12/2021 |
-| SonicWall | Email Security | | Not Affected |  | [Security Advisory (sonicwall.com)] | Version 10.x  doesn't use a vulnerable version |  | 12/12/2021 |
+| SonicWall | Email Security | | Affected | Yes | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | ES 10.0.11 and earlier versions are impacted |  | 12/17/2021 |
 | SonicWall | Gen5 Firewalls (EOS) |  | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the appliance. | | 12/12/2021 |
 | SonicWall | Gen6 Firewalls | | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the appliance. | | 12/12/2021 |
 | SonicWall | Gen7 Firewalls | | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the appliance. | | 12/12/2021   |
@@ -2251,6 +2360,7 @@ This list was initially populated using information from the following sources:
 | VMware | VMware vRealize Orchestrator | 8.x, 7.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Workspace ONE Access | 21.x, 20.10.x | Affected | No  | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Workspace ONE Access Connector (VMware Identity Manager Connector) | 21.x, 20.10.x, 19.03.0.1 | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
+| WAGO | WAGO Smart Script | 4.2.x < 4.8.1.3 | Affected | Yes | [WAGO Website](https://www.wago.com/de/automatisierungstechnik/psirt#log4j) | | | 12/17/2021 |
 | Wallarm | | | | | [Lab Mitigation Update](https://lab.wallarm.com/cve-2021-44228-mitigation-update/) | | | |
 | Wasp Barcode technologies | | | | | [Waspbarcode Assetcloud Inventorycloud](https://support.waspbarcode.com/kb/articles/assetcloud-inventorycloud-are-they-affected-by-the-java-exploit-log4j-no) | | | |
 | WatchGuard | Secplicity | | | | [Secplicity Critical RCE](https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/) | | | |
@@ -2277,11 +2387,12 @@ This list was initially populated using information from the following sources:
 | Zebra | | | | | [Zebra lifeguard Security](https://www.zebra.com/us/en/support-downloads/lifeguard-security/cve-2021-442280-dubbed-log4shell-or-logjam-vulnerability.html) | | | |
 | Zendesk | All Products | All Versions | Affected | No | [2021-12-13 Security Advisory - Apache Log4j (CVE-2021-44228)](https://support.zendesk.com/hc/en-us/articles/4413583476122) | Zendesk products are all cloud-based; thus there are no updates for the customers to install as the company is working on patching their infrastructure and systems. | | 12/13/2021 |
 | Zenoss | | | | | [Zenoss](https://support.zenoss.com/hc/en-us) | | | |
+| Zentera Systems, Inc. | CoIP Access Platform | All | Not Affected | | [[CVE-2021-44228] Log4Shell Vulnerability in Apache Log4j](https://support.zentera.net/hc/en-us/articles/4416227743511--CVE-2021-44228-Log4Shell-Vulnerability-in-Apache-Log4j) | | | 12/17/2021 |
 | Zerto | | | | | [Zerto KB](https://help.zerto.com/kb/000004822) | | | |
 | Zesty | | | | | [Zesty Log4j Exploit](https://www.zesty.io/mindshare/company-announcements/log4j-exploit/) | | | |
 | Zimbra | | | | | [BugZilla Zimbra](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) | | | |
 | Zoom | | | | | [Zoom Security Exposure](https://explore.zoom.us/en/trust/security/security-bulletin/security-bulletin-log4j/?=nocache) | | | |
 | ZPE systems Inc | | | | | [ZpeSystems CVE-2021-44228](https://support.zpesystems.com/portal/en/kb/articles/is-nodegrid-os-and-zpe-cloud-affected-by-cve-2021-44228-apache-log4j) | | | |
-| Zscaler |Multiple Products||Not Affected|No|[CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581)|||12/15/2012|
+| Zscaler | See Link (Multiple Products) | | Not Affected | No | [CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581) | | | 12/15/2012 |
 | Zyxel | | | | | [Zyxel Security Advisory for Apache Log4j](https://www.zyxel.com/support/Zyxel_security_advisory_for_Apache_Log4j_RCE_vulnerability.shtml) | | | |
 | Zyxel | Security Firewall/Gateways | ZLD Firmware Security Services, Nebula | Not Affected | N/A | [Zyxel Security Advisory](https://community.zyxel.com/en/discussion/12229/zyxel-security-advisory-for-apache-log4j-rce-vulnerability) | | | 12/14/2021 |
