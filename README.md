@@ -64,6 +64,7 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product | Version(s) | Status | Update Available | Vendor Link | Notes | Other References | Last Updated |
 | ------ | ------- | ---------- | ------ | ---------------- | ----------- | ----- | ---------------- | ------------ |
+| Medtronic | | | Under Investigation | | [Medtronic Advisory Link](https://global.medtronic.com/xg-en/product-security/security-bulletins/log4j-vulnerabilities.html) | | | 12/21/2021 |
 | 1Password | 1Password | | Not affected | | [1Password public response on Reddit](https://www.reddit.com/r/1Password/comments/rea7dd/comment/hoe41ci) | | | 12/20/2021 |
 | 2n | | | | | [2n Advisory Link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) | | | |
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
