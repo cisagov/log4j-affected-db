@@ -1640,6 +1640,7 @@ This list was initially populated using information from the following sources:
 | McAfee | Policy Auditor | | Not Affected | | | |  | 12/20/2021 |
 | McAfee | Threat Intelligence Exchange (TIE) |  | Affected | | [https://kc.mcafee.com/agent/index?page=content&id=SB10377](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Latest status in linked Security Bulletin | | 12/20/2021 |
 | McAfee | Web Gateway (MWG) |  | Foxed | | [https://kc.mcafee.com/agent/index?page=content&id=SB10377](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | | | 12/20/2021 |
+| Medtronic | | | Under Investigation | | [Medtronic Advisory Link](https://global.medtronic.com/xg-en/product-security/security-bulletins/log4j-vulnerabilities.html) | | | 12/21/2021 |
 | MEINBERG | | | | | [MEINBERG Information](https://www.meinbergglobal.com/english/news/meinberg-lantime-and-microsync-systems-not-at-risk-from-log4j-security-exploit.htm) | | | |
 | Memurai | | | | | [Memurai Information](https://www.memurai.com/blog/apache-log4j2-cve-2021-44228) | | | |
 | MicroFocus | | | | | [MicroFocus Statement](https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228) | | | |
@@ -1763,6 +1764,7 @@ This list was initially populated using information from the following sources:
 | Parse.ly | | | | | [Parse.ly Blog Post](https://blog.parse.ly/parse-ly-log4shell/) | | | |
 | Pega | | | | | [Pega Docs Link](https://docs.pega.com/security-advisory/security-advisory-apache-log4j-zero-day-vulnerability) | | | |
 | Pentaho | | | | |[Pentaho Support Link](https://support.pentaho.com/hc/en-us/articles/4416229254541-log4j-2-zero-day-vulnerability-No-impact-to-supported-versions-of-Pentaho-) | | | |
+| Pepperl+Fuchs | | | Under Investigation | | [Pepperl+Fuchs Advisory Link](https://www.pepperl-fuchs.com/global/en/29079.htm) | | | 12/21/2021 |
 | Percona | | | | | [Percona Blog Post](https://www.percona.com/blog/log4jshell-vulnerability-update/) | | | |
 | Pexip | | | | | [Pexip Link](https://www.pexip.com/blog1.0/pexip-statement-on-log4j-vulnerability) | | | |
 | Phenix Id | | | | | [Phenix Id Support Link](https://support.phenixid.se/uncategorized/log4j-fix/) | | | |
@@ -1898,6 +1900,8 @@ This list was initially populated using information from the following sources:
 | Red Hat OpenStack Platform 13 (Queens) | opendaylight | | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | EOL | | |
 | Red5Pro | | | | | [Red5Pro Link](https://www.red5pro.com/blog/red5-marked-safe-from-log4j-and-log4j2-zero-day/) | | | |
 | RedGate | | | | | [RedGate Link](https://www.red-gate.com/privacy-and-security/vulnerabilities/2021-12-15-log4j-statement) | | | |
+| ResMed | myAir | | Not Affected | | [ResMed Advisory Link](https://www.resmed.com/en-us/security/) | | | 12/21/2021 |
+| ResMed | AirView | | Not Affected | | [ResMed Advisory Link](https://www.resmed.com/en-us/security/) | | | 12/21/2021 |
 | Redis | | | | | [Redis Link](https://redis.com/security/notice-apache-log4j2-cve-2021-44228/) | | | |
 | Reiner SCT | | | | | [Reiner SCT Forum](https://forum.reiner-sct.com/index.php?/topic/5973-timecard-und-log4j-schwachstelle/&do=findComment&comment=14933) | | | |
 | ReportURI | | | | | [ReportURI Link](https://scotthelme.co.uk/responding-to-the-log4j-2-vulnerability/) | | | |
@@ -1982,6 +1986,7 @@ This list was initially populated using information from the following sources:
 | Schneider Electric | SPIMV3 | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
 | Schneider Electric | SWBEditor | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
 | Schneider Electric | SWBEngine | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schweitzer Engineering Laboratories | | | Not Affected | | [SEL Advisory Link](https://selinc.com/support/security-notifications/) | | | 12/21/2021 |
 | SCM Manager | | | | | [SCM Manager Link](https://scm-manager.org/blog/posts/2021-12-13-log4shell/) | | | |
 | ScreenBeam | | | | | [ScreenBeam Article](https://customersupport.screenbeam.com/hc/en-us/articles/4416468085389-December-2021-Security-Alert-Log4j-CVE-2021-44228) | | | |
 | SDL worldServer | | | | | [SDL worldServer Link](https://gateway.sdl.com/apex/communityknowledge?articleName=000017707) | | | |
