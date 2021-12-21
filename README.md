@@ -1685,8 +1685,8 @@ This list was initially populated using information from the following sources:
 | McAfee | Network Security Manager (NSM) | | Not Affected | | | | | 12/20/2021 |
 | McAfee | Network Security Platform (NSP) | | Not Affected | | | |  | 12/20/2021 |
 | McAfee | Policy Auditor | | Not Affected | | | |  | 12/20/2021 |
-| McAfee | Threat Intelligence Exchange (TIE) |  | Affected | | [https://kc.mcafee.com/agent/index?page=content&id=SB10377](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Latest status in linked Security Bulletin | | 12/20/2021|
-| McAfee | Web Gateway (MWG) |  | Foxed | | [https://kc.mcafee.com/agent/index?page=content&id=SB10377](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | | | 12/20/2021|
+| McAfee | Threat Intelligence Exchange (TIE) |  | Affected | | [https://kc.mcafee.com/agent/index?page=content&id=SB10377](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | Latest status in linked Security Bulletin | | 12/20/2021 |
+| McAfee | Web Gateway (MWG) |  | Foxed | | [https://kc.mcafee.com/agent/index?page=content&id=SB10377](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | | | 12/20/2021 |
 | MEINBERG | | | | | [MEINBERG Information](https://www.meinbergglobal.com/english/news/meinberg-lantime-and-microsync-systems-not-at-risk-from-log4j-security-exploit.htm) | | | |
 | Memurai | | | | | [Memurai Information](https://www.memurai.com/blog/apache-log4j2-cve-2021-44228) | | | |
 | MicroFocus | | | | | [MicroFocus Statement](https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228) | | | |
