@@ -52,12 +52,27 @@ This list was initially populated using information from the following sources:
 | Alfresco | | | | | [Alfresco Blog Post](https://hub.alfresco.com/t5/alfresco-content-services-blog/cve-2021-44228-related-to-apache-log4j-security-advisory/ba-p/310717) | | | |
 | AlienVault | | | | | [AlienVault Article Link](https://success.alienvault.com/s/article/are-USM-Anywhere-or-USM-Central-vulnerable-to-CVE-2021-44228) | | | |
 | Alphatron Medical | | | | | [Alphatron Medical Website](https://www.alphatronmedical.com/home.html) | | | |
+| Amazon | Athena | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
 | Amazon | AWS | Linux 1,2 | Not Affected | No | | Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 [AWS Forum](https://forums.aws.amazon.com/thread.jspa?threadID=323611). AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2 | | 12/15/2021 |
 | Amazon | AWS API Gateway | All | Fixed | | [Amazon AWS Link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/20/2021 |
+| Amazon | CloudFront | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
 | Amazon | AWS CloudHSM | < 3.4.1. | Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
-| Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+| Amazon | CloudWatch | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | EBS | | | | | | | |
 | Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
+| Amazon | ElastiCache | | Not Affected | | | | | |
+| Amazon | ELB | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+| Amazon | Glacier | | | | | | | |
+| Amazon | IAM | | | | | | | |
+| Amazon | KMS | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
 | Amazon | OpenSearch | Unknown | Affected | Yes [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+| Amazon | OpsWorks Stacks | | | | | | | |
+| Amazon | RDS | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | Route 53 | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | S3 | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | VPC | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Apache | Apache2 | | | | | | | |
 | Apache | Camel | 3.14.1.3.11.5,3.7.7 | Affected | Yes | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)| Apache Camel does not directly depend on Log4j 2, so we are not affected by CVE-2021-44228.If you explicitly added the Log4j 2 dependency to your own applications, make sure to upgrade.Apache Camel does use log4j during testing itself, and therefore you can find that we have been using log4j v2.13.3 release in our latest LTS releases Camel 3.7.6, 3.11.4. | | 12/13/2021 |
 | Apache | Camel Quarkus | | Not Affected | No | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/) | | | 12/13/2021 |
 | Apache | Camel K | | Not Affected | No | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/) | | | 12/13/2021 |
@@ -1902,6 +1917,7 @@ This list was initially populated using information from the following sources:
 | Reiner SCT | | | | | [Reiner SCT Forum](https://forum.reiner-sct.com/index.php?/topic/5973-timecard-und-log4j-schwachstelle/&do=findComment&comment=14933) | | | |
 | ReportURI | | | | | [ReportURI Link](https://scotthelme.co.uk/responding-to-the-log4j-2-vulnerability/) | | | |
 | Respondus | | | | | [Respondus Support Link](https://support.respondus.com/support/index.php?/News/NewsItem/View/339) |This advisory is available to customers only and has not been reviewed by CISA | | |
+| Resque | Resque | | | | | | | |
 | Revenera / Flexera | | | | | [Revenera / Flexera Community Link](https://community.flexera.com/t5/Revenera-Company-News/Security-Advisory-Log4j-Java-Vulnerability-CVE-2021-44228/ba-p/216905) | | | |
 | Ricoh | | | | | [Ricoh Link](https://www.ricoh.com/info/2021/1215_1/) | | | |
 | RingCentral | | | | | [RingCentral Security Bulletin](https://www.ringcentral.com/trust-center/security-bulletin.html) | | | |
