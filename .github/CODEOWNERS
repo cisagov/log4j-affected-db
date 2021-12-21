@@ -3,7 +3,7 @@
 # These owners will be the default owners for everything in the
 # repo. Unless a later match takes precedence, these owners will be
 # requested for review when someone opens a pull request.
-* @ChrisSCISA @justmurphy @KwadwoBCISA
+* @iainDe @justmurphy @Lcerkov
 
 # These folks own any dot-files in the repository.
 .* @dav3r @felddy @jsf9k @mcdonnnj
