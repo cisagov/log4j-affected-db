@@ -981,9 +981,9 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | GitHub | | | | | [GitHub Statement](https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/) | | | |
 | GitLab | | | | | [GitLab Statement](https://forum.gitlab.com/t/cve-2021-4428/62763) | | | |
 | Globus | | | | | [Globus Statement](https://groups.google.com/a/globus.org/g/discuss/c/FJK0q0NoUC4) | | | |
-| GoAnywhere | MFT | < 6.8.6 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021|
-| GoAnywhere | Gateway | < 2.8.4 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021|
-| GoAnywhere | MFT Agents | < 1.6.5 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021|
+| GoAnywhere | MFT | < 6.8.6 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021 |
+| GoAnywhere | Gateway | < 2.8.4 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021 |
+| GoAnywhere | MFT Agents | < 1.6.5 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021 |
 | GoCD | | | | | [GoCD Statement](https://www.gocd.org/2021/12/14/log4j-vulnerability.html) | | | |
 | Google Cloud Armor WAF | | | | | [Google Statement](https://cloud.google.com/blog/products/identity-security/cloud-armor-waf-rule-to-help-address-apache-log4j-vulnerability) | | | |
 | Google Cloud Global Products coverage | | | | | [Google Statement](https://cloud.google.com/log4j2-security-advisory) | | | |
