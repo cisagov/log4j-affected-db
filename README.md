@@ -1,10 +1,11 @@
 # CISA Log4j (CVE-2021-44228) Vulnerability Guidance #
 
-This repository provides CISA's guidance and an overview of related software
-regarding the Log4j vulnerability (CVE-2021-44228). CISA encourages users and
-administrators to review the
+This repository provides
+[CISA's guidance](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance)
+and an overview of related software regarding the Log4j vulnerability
+(CVE-2021-44228). CISA encourages users and administrators to review the
 [official Apache release](https://logging.apache.org/log4j/2.x/security.html)
-and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.
+and upgrade to Log4j 2.17.0 or apply the recommended mitigations immediately.
 
 The information in this repository is provided "as is" for informational
 purposes only and is being assembled and updated by CISA through
@@ -19,10 +20,12 @@ or imply their endorsement, recommendation, or favoring by CISA.
 ## Official CISA Guidance & Resources ##
 
 - [CISA Apache Log4j Vulnerability Guidance](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance)
+- [Emergency Directive 22-02 Mitigate Apache Log4j Vulnerability](https://www.cisa.gov/emergency-directive-22-02)
 - [Statement from CISA Director Easterly on “Log4j” Vulnerability](https://www.cisa.gov/news/2021/12/11/statement-cisa-director-easterly-log4j-vulnerability).
 
 ## CISA Current Activity Alerts ##
 
+- [CISA Issues ED 22-02 Directing Federal Agencies to Mitigate Apache Log4j Vulnerabilities](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/17/cisa-issues-ed-22-02-directing-federal-agencies-mitigate-apache)
 - [Apache Releases Log4j Version 2.15.0 to Address Critical RCE Vulnerability Under Exploitation](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce)
 - [CISA Creates Webpage for Apache Log4j Vulnerability CVE-2021-44228](https://www.cisa.gov/uscert/ncas/current-activity/2021/12/13/cisa-creates-webpage-apache-log4j-vulnerability-cve-2021-44228)
 
@@ -61,7 +64,7 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product| Version(s)| Status| Update available| Vendor link | Notes | Other References | Last Updated |
 | ------ | -------------------- | ---- | ----- | --------------- | ----------- | ----- | ---------------- | ------------ |
-| 1Password | | | | | [1Password Community Discussion](https://1password.community/discussion/comment/622612/#Comment_622612) | | | |
+| 1Password | 1Password | | Not affected | | [1Password public response on Reddit](https://www.reddit.com/r/1Password/comments/rea7dd/comment/hoe41ci) | | | 12/20/2021 |
 | 2n | | | | | [2n Advisory Link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) | | | |
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
 |3M Health Information Systems| CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) |This advisory is available to customer only and has not been reviewed by CISA.||12/15/2021|
@@ -70,6 +73,7 @@ This list was initially populated using information from the following sources:
 | ABB | ABB Remote Service | ABB Remote Platform (RAP) | Affected | | Details are shared with active subscribers | | | |
 | ABB | AlarmInsight Cloud | AlarmInsight KPI Dashboards 1.0.0 | Under Investigation |  | | | | |
 | ABB | B&R Products | See Vendor Advisory | | | [BR-Automation Advisory](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf) | | | |
+| Abbott | | | | | [Abbott Advisory Link](https://www.abbott.com/policies/cybersecurity/apache-Log4j.html) | | | 12/30/2021 |
 | Accellence | | | | | [Accellence Article](https://www.accellence.de/en/articles/national-vulnerability-database-62) | | | |
 | Accellion | Kiteworks | v7.6 release | Fixed | Yes | [Kiteworks Statement](https://www.kiteworks.com/kiteworks-news/log4shell-apache-vulnerability-what-kiteworks-customers-need-to-know/) | "As a precaution, Kiteworks released a 7.6.1 Hotfix software update to address the vulnerability. This patch release adds the mitigation for CVE-2021-44228 contained in the Solr package as recommended by Apache Solr group. Specifically, it updates the Log4j library to a non-vulnerable version on CentOS 7 systems as well as adds the recommended option “$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true” to disable the possible attack vector on both CentOS 6 and CentOS 7." | |12/16/2021 |
 | Acquia | | | | | [Acquia Article](https://support.acquia.com/hc/en-us/articles/4415823329047-Apache-log4j-CVE-2021-44228) | | | |
@@ -184,13 +188,32 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | AXS Guard | | | | | [AXS Guard Blog Post](https://www.axsguard.com/en_US/blog/security-news-4/log4j-vulnerability-77) | | | |
 | Axways Applications | | | | | [Axways Applications Link](https://support.axway.com/news/1331/lang/en) | | | |
 | B&R Industrial Automation | APROL | | Not Affected | | [B&R Statement](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf)| | | 12/16/2021|
+| Baxter | | | | Under Investigation | [Baxter Advisory Link](https://www.baxter.com/sites/g/files/ebysai746/files/2021-12/Apache_Log4j_Vulnerability.pdf) | | | 12/20/2021 |
 | BackBox | | | | | [BackBox Update](https://updates.backbox.com/V6.5/Docs/CVE-2021-44228.pdf) | | | |
 | Balbix | | | | | [Balbix Blog Post](https://www.balbix.com/blog/broad-exposure-to-log4shell-cve-2021-44228-highlights-how-the-attack-surface-has-exploded/) | | | |
 | Baramundi Products | | | | | [Baramundi Products Forum](https://forum.baramundi.com/index.php?threads/baramundi-produkte-von-log4shell-schwachstelle-in-log4j-nicht-betroffen.12539/#post-62875) | | | |
 | Barco | | | | | [Barco Link](https://www.barco.com/en/support/knowledge-base/kb12495) | | | |
 | Barracuda | | | | | [Barracuda Link](https://www.barracuda.com/company/legal/trust-center) | | | |
-| BBraun | | | | | [BBraun Advisory](https://www.bbraun.com/en/products-and-therapies/services/b-braun-vulnerability-disclosure-policy/security-advisory/b-braun-statement-on-Apache_Log4j.html) | This advisory is available to customer only and has not been reviewed by CISA. | | |
-| BD | | | | | [BD Bulletin](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | |
+| BBraun | Outlook® Safety Infusion System Pump family | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | Space® Infusion Pump family (Infusomat® Space® Infusion Pump, Perfusor® Space® Infusion | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | Pump, SpaceStation, and Space® Wireless Battery) | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | DoseTrac® Server, DoseLink™ Server, and Space® Online Suite Server software | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | Pinnacle® Compounder | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BBraun | APEX® Compounder | | Not Affected | No | [BBraun Advisory Link](https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf) | | | 12/20/2021 |
+| BD | Arctic Sun™ Analytics | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Diabetes Care App Cloud | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Clinical Advisor | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Data Manager | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Diversion Management | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Infection Advisor | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Inventory Optimization Analytics | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD HealthSight™ Medication Safety | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Knowledge Portal for Infusion Technologies | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Knowledge Portal for Medication Technologies | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Knowledge Portal for BD Pyxis™ Supply | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Synapsys™ Informatics Solution | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| BD | BD Veritor™ COVID At Home Solution Cloud | | Not Affected | No | [BD Advisory Link](https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j) | | | 12/20/2021 |
+| Beckman Coulter | ||Under Investigation | |[Beckman Coulter Advisory Link](https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates) | | | 12/20/2021 |
 | Bender | | | | | [Bender Link](https://www.bender.de/en/cert) | | | |
 | Best Practical Request Tracker (RT) and Request Tracker for Incident Response (RTIR) | | | | | [Vendor Link](https://bestpractical.com/blog/2021/12/request-tracker-rt-and-request-tracker-for-incident-response-rtir-do-not-use-log4j) | | | |
 | BeyondTrust | Privilege Management Cloud | Unkown | Fixed |  | [BeyondTrust Statement on log4j2 CVE-2021-44228 (Log4Shell)](https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542) | vulnerability has been mitigated on all customer instances as of December 10, 2021 | KB0016542 | 2021-12-15 |
@@ -242,6 +265,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | BMC | TrueSight Infrastructure Management | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | | | |
 | BMC | TrueSight Operations Management | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | | | |
 | BMC | TrueSight Orchestration | | Under Investigation | | [BMC Security Advisory for CVE-2021-44228 Log4Shell Vulnerability - Blogs & Documents - BMC Community](https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability) | | | |
+| Boston Scientific | | |Under Investigation | |[Boston Scientific Advisory Link](https://www.bostonscientific.com/content/dam/bostonscientific/corporate/product-security/bsc_statement_on_apache_log4j-v1.pdf) | | | 12/20/2021 |
 | Box | | | | | [Box Blog Post](https://blog.box.com/boxs-statement-recent-log4j-vulnerability-cve-2021-44228) | | | |
 | Brainworks | | | | | [Brainworks Link](https://www.brainworks.de/log4j-exploit-kerio-connect-workaround/) | | | |
 | BrightSign | | | | | [BrightSign Link](https://brightsign.atlassian.net/wiki/spaces/DOC/pages/370679198/Security+Statement+Log4J+Meltdown+and+Spectre+Vulnerabilities#SecurityStatement%3ALog4J%2CMeltdownandSpectreVulnerabilities-JavaApacheLog4j) | | | |
@@ -301,8 +325,11 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | C4b XPHONE | | | | | [C4b XPHONE Link](https://www.c4b.com/de/news/log4j.php) | | | |
 | Camunda | | | | | [Camunda Forum Link](https://forum.camunda.org/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228/31910) | | | |
 | CarbonBlack | | | | | [CarbonBlack Advisory](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | |
+| Carestream | | | Not Affected  | |[Carestream Advisory Link](https://www.carestream.com/en/us/services-and-support/cybersecurity-and-privacy) | | | 12/20/2021 |
 | CAS genesisWorld | | | | | [CAS genesisWorld Link](https://helpdesk.cas.de/CASHelpdesk/FAQDetails.aspx?gguid=0x79F9E881EE3C46C1A71BE9EB3E480446) | | | |
 | Cato Networks | | | | | [Cato Networks Blog Post](https://www.catonetworks.com/blog/cato-networks-rapid-response-to-the-apache-log4j-remote-code-execution-vulnerability/) | | | |
+| Cepheid | C360 | | Not Affected  | |[Cepheid Advisory Link](https://www.cepheid.com/en_US/legal/product-security-updates) | | | 12/20/2021 |
+| Cepheid | GeneXpert | | Under Investigation  | |[Cepheid Advisory Link](https://www.cepheid.com/en_US/legal/product-security-updates) | | | 12/20/2021 |
 | Cerberus FTP | | | | | [Cerberus Article](https://support.cerberusftp.com/hc/en-us/articles/4412448183571-Cerberus-is-not-affected-by-CVE-2021-44228-log4j-0-day-vulnerability) | | | |
 | Chaser Systems | discrimiNAT Firewall | All | Not Affected | | [Are Chaser’s products affected](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) | | | |
 | Check Point | CloudGuard | | Not Affected | | | | | |
@@ -517,7 +544,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | CouchBase | | | | | [CouchBase Forums](https://forums.couchbase.com/t/ann-elasticsearch-connector-4-3-3-4-2-13-fixes-log4j-vulnerability/32402) | | | |
 | CPanel | | | | | [CPanel Forms](https://forums.cpanel.net/threads/log4j-cve-2021-44228-does-it-affect-cpanel.696249/) | | | |
 | Cradlepoint | | | | | [Cradlepoint](https://cradlepoint.com/vulnerability-alerts/cve-2021-44228-apache-log4j-security-vulnerabilities/) | | | |
-| Crestron | | | | | [Crestron Advisory](https://www.crestron.com/Security/Security_Advisories/Apache-Log4j) | | | |
+| Crestron | | | Not Affected | | [Crestron Advisory](https://www.crestron.com/Security/Security_Advisories/Apache-Log4j) | | | 12/20/2021 |
 | CrushFTP | | | | | [CrushFTP Link](https://www.crushftp.com/download.html) | | | |
 | CryptShare | | | | | [Cryptshare Support Link](https://www.cryptshare.com/en/support/cryptshare-support/#c67572) | | | |
 | Cumul.io | | | | | | [Cumul.io Status Link](https://status.cumul.io/#incidents) | | | |
@@ -880,7 +907,18 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | F-Secure | Messaging Security Gateway |  | Affected | Yes | [The Log4J Vulnerability (CVE-2021-44228) – which F-Secure products are affected, what it means, what steps should you take - F-Secure Community](https://community.f-secure.com/common-business-en/kb/articles/9226-the-log4j-vulnerability-cve-2021-44228-which-f-secure-products-are-affected-what-it-means-what-steps-should-you-take) | | | |
 | F-Secure | Policy Manager | 13-15 | Affected | Yes | [F-Secure services Status - 0-day exploit found in the Java logging package log4j2](https://status.f-secure.com/incidents/sk8vmr0h34pd) | | | |
 | F-Secure| Policy Manager Proxy | 13-15 | Affected | Yes | [F-Secure services Status - 0-day exploit found in the Java logging package log4j2](https://status.f-secure.com/incidents/sk8vmr0h34pd) | | | |
-| F5 Networks | | | | | [F5 Networks Statement](https://support.f5.com/csp/article/K19026212) | | | |
+| F5 | BIG-IP (all modules) | 11.x - 16.x | Not Affected | | [F5 Security Advisory](https://support.f5.com/csp/article/K19026212) | | | |
+| F5 | BIG-IQ Centralized Management | 7.x-8.x | Not Affected | | [F5 Security Advisory](https://support.f5.com/csp/article/K19026212) | | | |
+| F5 | F5OS | 1.x | Not Affected | | [F5 Security Advisory](https://support.f5.com/csp/article/K19026212) | | | |
+| F5 | Traffix SDC | 5.x (5.2.0 CF1, 5.1.0 CF-30 - 5.1.0 CF-33)| Affected | No | [F5 Security Advisory](https://support.f5.com/csp/article/K19026212) | Vulnerable components: EMS-ELK components (Fluentd + Elastic Search + Kibana), Element Management System | | |
+| F5 | NGINX Plus | R19 - R25 | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Open Source | 1.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Unit | 1.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX App Protect | 3.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Controller | 3.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Ingress Controller | 1.x - 2.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Instance Manager | 1.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
+| F5 | NGINX Service Mesh | 1.x | Not Affected | | [F5 Security Advisory (CVE-2021-44228)](https://support.f5.com/csp/article/K19026212), [F5 Security Advisory (CVE-2021-45046)](https://support.f5.com/csp/article/K32171392) | | | |
 | FAST LTA | | | | | [FAST LTA Statement](https://blog.fast-lta.de/en/log4j2-vulnerability) | | | |
 | Fastly | | | | | [Fastly Statement](https://www.fastly.com/blog/digging-deeper-into-log4shell-0day-rce-exploit-found-in-log4j) | | | |
 | FedEx | Ship Manager Software | Unknown | Affected/Under Investigation | | [FedEx Statement](https://www.fedex.com/en-us/shipping/ship-manager/software.html#tab-4)|Note: FedEx is aware of the issue related to the Log4j Remote Code Execution vulnerability affecting various Apache products. We are actively assessing the situation and taking necessary action as appropriate. As a result, we are temporarily unable to provide a link to download the FedEx Ship Manager software or generate product keys needed for registration of FedEx Ship Manager software. We are working to have this resolved as quickly as possible and apologize for the inconvenience. For related questions or the most updated information, customers should check FedEx Updates for Apache Log4j Issue or contact their Customer Technology representative.||12/15/2021|
@@ -1127,6 +1165,23 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | HPE | Superdome Flex 280 |  | Not Affected | | [(Revision) Apache Software Log4j - Security Vulnerability CVE-2021-44228](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us) |Support Communication Cross Reference ID: SIK7387 | | 2021-12-12 |
 | HPE | Superdome Flex Server |  | Not Affected | | [(Revision) Apache Software Log4j - Security Vulnerability CVE-2021-44228](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us) |Support Communication Cross Reference ID: SIK7387 | | 2021-12-12 |
 | HPE | UAN (User Access Node) |  | Not Affected | | [(Revision) Apache Software Log4j - Security Vulnerability CVE-2021-44228](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us) |Support Communication Cross Reference ID: SIK7387 | | 2021-12-12 |
+| HOLOGIC | Advanced Workflow Manager (AWM) | | Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | While the Hologic software itself does not utilize Java/Log4J, the installed APC PowerChute UPS with Business Edition v9.5 software installed may. APC is still assessing its PowerChute software to determine if it is vulnerable. | | 12/20/2021 |
+| HOLOGIC | Unifi Workspace | | Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | While the Hologic software itself does not utilize Java/Log4J, the installed APC PowerChute UPS with Business Edition v9.5 software installed may. APC is still assessing its PowerChute software to determine if it is vulnerable. | | 12/20/2021 |
+| HOLOGIC | Faxitron CT Specimen Radiography System | | Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | While the Hologic software itself does not utilize Java/Log4J, there is a utility program installed that may utilize Java and Log4J. This utility program does not run on startup and is not required for system operation. Please contact Hologic Service for assistance in removing this program. | | 12/20/2021 |
+| HOLOGIC | Dimensions / 3Dimensions Mammography System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Affirm Prone Biopsy System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Brevera Breast Biopsy System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Trident HD Specimen Radiography System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | SecurView DX Workstation | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Cenova Image Analytics Server | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | SecurXChange Router     | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Rosetta DC Tomosynthesis Data Converter | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Faxitron Specimen Radiography Systems | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Horizon DXA Bone Densitometer | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Discovery Bone Densitometer | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Fluoroscan Insight Mini C-Arm | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | SuperSonic Imagine Ultrasound Products (Aixplorer & Aixplorer Mach) | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
+| HOLOGIC | Windows Selenia Mammography System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
 | Huawei | | | | | [Huawei Security Notice](https://www.huawei.com/en/psirt/security-notices/huawei-sn-20211210-01-log4j2-en) | | | |
 | Hubspot | | | | | [Hubspot Notice](https://community.hubspot.com/t5/APIs-Integrations/Log4J-day-zero-exploit-CVE-2021-44228/td-p/541949) | | | |
 | I-Net software | | | | | [I-Net Software Statement](https://faq.inetsoftware.de/t/statement-about-cve-2021-44228-log4j-vulnerability-concerning-i-net-software-products/269/3) | | | |
@@ -1810,7 +1865,29 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | SBT | SBT | <1.5.6 | Affected | Yes | [Release 1.5.7 · sbt/sbt(github.com)](https://github.com/sbt/sbt/releases/tag/v1.5.7) | | | 12/15/2021 |
 | ScaleComputing | | | | | [ScaleComputing Community Link](https://community.scalecomputing.com/s/article/Apache-Log4j-Vulnerability) |This advisory is available to customers only and has not been reviewed by CISA | | |
 | ScaleFusion MobileLock Pro | | | | | [ScaleFusion MobileLock Pro Help](https://help.mobilock.in/article/t9sx43yg44-scalefusion-security-advisory-for-apache-log-4-j-vulnerability-cve-2021-44228) | | | |
-| Schneider Electric | | | | | [Schneider Electric Link](https://download.schneider-electric.com/files?p_Doc_Ref=SESB-2021-347-01) | | | |
+| Schneider Electric | EcoStruxure IT Gateway | V1.5.0 to V1.13.0 | Fixed | Yes | [EcoStruxure Link](https://ecostruxureit.com/download-and-set-upecostruxureit-gateway/) | | | 12/20/2021 |
+| Schneider Electric | EcoStruxure IT Expert | Cloud | Fixed | Yes | | | | 12/20/2021 |
+| Schneider Electric | Facility Expert Small Business | Cloud | Fixed | Yes | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | Wiser by SE platform | Cloud | Fixed | Yes | | | | 12/20/2021 |
+| Schneider Electric | EASYFIT | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | Ecoreal XL | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | Eurotherm Data Reviewer | V3.0.2 and prior | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | MSE | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | NetBotz750/755 | Software versions 5.0 through 5.3.0 | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | NEW630 | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK BOM | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK-Docgen | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK-TNC | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK-UMS | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK3D2DRenderer | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SDK3D360Widget | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | Select and Config DATA | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SNC-API | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SNC-CMM | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SNCSEMTECH | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SPIMV3 | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SWBEditor | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
+| Schneider Electric | SWBEngine | Current software and earlier | Affected | | [SE Cybersecurity Best Practices](https://www.se.com/us/en/download/document/7EN52-0390/) | | | 12/20/2021 |
 | SCM Manager | | | | | [SCM Manager Link](https://scm-manager.org/blog/posts/2021-12-13-log4shell/) | | | |
 | ScreenBeam | | | | | [ScreenBeam Article](https://customersupport.screenbeam.com/hc/en-us/articles/4416468085389-December-2021-Security-Alert-Log4j-CVE-2021-44228) | | | |
 | SDL worldServer | | | | | [SDL worldServer Link](https://gateway.sdl.com/apex/communityknowledge?articleName=000017707) | | | |
@@ -2013,18 +2090,18 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Thales | Multiple products | | | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | |
 | The Access Group | | | | | [The Access Group Response](https://pages.theaccessgroup.com/Response-Log4J-Dec21.html) | | | |
 | ThreatLocker | | | | | [ThreatLocker Log4j Statement](https://threatlocker.kb.help/log4j-vulnerability/) | | | |
-|ThycoticCentrify|Secret Server|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Privilege Manager|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Account Lifecycle Manager|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Privileged Behavior Analytics|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|DevOps Secrets Vault|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Connection Manager|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Password Reset Server|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
-|ThycoticCentrify|Cloud Suite|N/A|Not Affected||[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md)|||12/10/15|
+| ThycoticCentrify | Secret Server | N/A | Not Affected | |[ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Privilege Manager | N/A | Not Affected || [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Account Lifecycle Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Privileged Behavior Analytics | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | DevOps Secrets Vault | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Connection Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Password Reset Server | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Cloud Suite | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
 | Tibco | | | | | [Tibco Support Link](https://www.tibco.com/support/notices/2021/12/apache-log4j-vulnerability-update) | | | |
 | Top Gun Technology (TGT) | | | | | [TGT Bulletin](https://www.topgun-tech.com/technical-bulletin-apache-software-log4j-security-vulnerability-cve-2021-44228/) | | | |
 | TopDesk | | | | | [TopDesk Statement](https://my.topdesk.com/tas/public/ssp/content/detail/knowledgeitem?unid=74952771dfab4b0794292e63b0409314) | | | |
-|Topicus KeyHub|||||[Topicus Keyhub Statement](https://blog.topicus-keyhub.com/topicus-keyhub-is-not-vulnerable-to-cve-2021-44228/)||||
+|Topicus Security|Topicus KeyHub|All|Not Affected||[Topicus Keyhub Statement](https://blog.topicus-keyhub.com/topicus-keyhub-is-not-vulnerable-to-cve-2021-44228/)|||2021-12-20|
 | Topix | | | | | [Topix Statement](https://www.topix.de/de/technik/systemfreigaben.html) | | | |
 | Tosibox | | | | | [Tosibox Security Advisory](https://helpdesk.tosibox.com/support/solutions/articles/2100050946-security-advisory-on-vulnerability-in-apache-log4j-library-cve-2021-44228) | |||
 | TPLink |Omega Controller|Linux/Windows(all)|Affected|Yes|[Statement on Apache Log4j Vulnerability](https://www.tp-link.com/us/support/faq/3255)|Update is Beta. Reddit: overwritten vulnerable log4j with 2.15 files as potential workaround. Though that should now be done with 2.16|[Tp Community Link](https://community.tp-link.com/en/business/forum/topic/514452),[Reddit Link](https://www.reddit.com/r/TPLink_Omada/comments/rdzvlp/updating_the_sdn_to_protect_against_the_log4j)|12/15/2021|
@@ -2116,7 +2193,7 @@ Apache|Camel|3.14.1.3.11.5,3.7.7|Affected|Yes|[APACHE CAMEL AND CVE-2021-44228 (
 | Zerto | | | | | [Zerto KB](https://help.zerto.com/kb/000004822) | | | |
 | Zesty | | | | | [Zesty Log4j Exploit](https://www.zesty.io/mindshare/company-announcements/log4j-exploit/) | | | |
 | Zimbra | | | | | [BugZilla Zimbra](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) | | | |
-| Zoom | | | | | [Zoom Security Exposure](https://community.zoom.com/t5/Community-Help-Center/Zoom-security-exposure/m-p/28109/highlight/true#M2059) | | | |
+| Zoom | | | | | [Zoom Security Exposure](https://explore.zoom.us/en/trust/security/security-bulletin/security-bulletin-log4j/?=nocache) | | | |
 | ZPE systems Inc | | | | | [ZpeSystems CVE-2021-44228](https://support.zpesystems.com/portal/en/kb/articles/is-nodegrid-os-and-zpe-cloud-affected-by-cve-2021-44228-apache-log4j) | | | |
 | Zscaler |Multiple Products||Not Affected|No|[CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581)|||12/15/2012|
 | Zyxel | | | | | [Zyxel Security Advisory for Apache Log4j](https://www.zyxel.com/support/Zyxel_security_advisory_for_Apache_Log4j_RCE_vulnerability.shtml) | | | |
