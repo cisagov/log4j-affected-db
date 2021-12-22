@@ -299,7 +299,6 @@ This list was initially populated using information from the following sources:
 | Broadcom | Web Isolation (WI) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | Web Security Service (WSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | WebPulse | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
-| Bureau Van Dijk | Orbis | | Not Affected | | | Per Vendor Communications | | |
 | C4b XPHONE | | | | | [C4b XPHONE Link](https://www.c4b.com/de/news/log4j.php) | | | |
 | Camunda | | | | | [Camunda Forum Link](https://forum.camunda.org/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228/31910) | | | |
 | CarbonBlack | | | | | [CarbonBlack Advisory](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | |
