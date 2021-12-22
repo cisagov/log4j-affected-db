@@ -827,8 +827,8 @@ This list was initially populated using information from the following sources:
 | DNSFilter | | | | | [DNSFilter Blog Post](https://www.dnsfilter.com/blog/dnsfilter-response-to-log4j-vulnerability) | | | |
 | Docker | | | | | [Docker Blog Post](https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/) | | | |
 | Docusign | | | | | [Docusign Alert](https://www.docusign.com/trust/alerts/alert-docusign-statement-on-the-log4j2-vulnerability) | | | |
-| DrayTek | Vigor Routers, Access Points, Switches, VigorACS Central Management Software, MyVigor Platform||Not Affected||[DrayTek Statement](https://www.draytek.com/about/security-advisory/log4shell-vulnerability-(cve-2021-44228)/)|||12/15/2021|
-| DSpace ||||| [DSpace Google Group](https://groups.google.com/g/dspace-community/c/Fa4VdjiiNyE) | | | |
+| DrayTek | Vigor Routers, Access Points, Switches, VigorACS Central Management Software, MyVigor Platform | | Not Affected | | [DrayTek Statement](https://www.draytek.com/about/security-advisory/log4shell-vulnerability-(cve-2021-44228)/) | | | 12/15/2021 |
+| DSpace | | | | | [DSpace Google Group](https://groups.google.com/g/dspace-community/c/Fa4VdjiiNyE) | | | |
 | Dynatrace | Managed cluster nodes | | Not Affected | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
 | Dynatrace | Managed cluster nodes | | Not Affected | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
 | Dynatrace | Synthetic Activegates | | Fixed |Yes | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
