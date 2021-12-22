@@ -1031,14 +1031,12 @@ This list was initially populated using information from the following sources:
 | GoCD | | | | | [GoCD Statement](https://www.gocd.org/2021/12/14/log4j-vulnerability.html) | | | |
 | Google Cloud Armor WAF | | | | | [Google Statement](https://cloud.google.com/blog/products/identity-security/cloud-armor-waf-rule-to-help-address-apache-log4j-vulnerability) | | | |
 | Google Cloud Global Products coverage | | | | | [Google Statement](https://cloud.google.com/log4j2-security-advisory) | | | |
-| Google | GSuite SMTP Relay | | Unknown |  |  |  |  | 12/21/2021 |
 | Gradle | Gradle | | Not Affected | No | [Gradle Blog - Dealing with the critical Log4j vulnerability](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. | | |
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Build Cache Node | < 10.1 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Test Distribution Agent | < 1.6.2 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Grafana | | | | | [Grafana Statement](https://grafana.com/blog/2021/12/14/grafana-labs-core-products-not-impacted-by-log4j-cve-2021-44228-and-related-vulnerabilities/) | | | |
 | Grandstream | | | | | [Grandstream Statement](https://blog.grandstream.com/press-releases/grandstream-products-unaffected-by-log4j-vulnerability?hsLang=en) | | | |
-| Granicus | GovDelivery | | Unknown |  |  |  |  | 12/21/2021 |
 | Gravitee | Access Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
 | Gravitee | Access Management | 3.5.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
 | Gravitee | API Management | 3.10.x | Not Affected | No | [About the Log4J CVSS 10 Critical Vulnerability](https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability) | | | |
@@ -1051,10 +1049,6 @@ This list was initially populated using information from the following sources:
 | Graylog | Graylog Server | All versions >= 1.2.0 and <= 4.2.2 | Affected | Yes | [Graylog Update for Log4j](https://www.graylog.org/post/graylog-update-for-log4j) | | | |
 | GreenShot | | | | | [GreenShot Statement](https://greenshot.atlassian.net/browse/BUG-2871) | | | |
 | GSA | Cloud.gov | | Fixed | | [Log4j Customer responsibility](https://cloud.gov/2021/12/14/log4j-buildpack-updates/) | | | 12/21/2021 |
-| GSA | DAP | | Unknown | | | | | 12/21/2021 |
-| GSA | Federalist | | Unknown | | | | | 12/21/2021 |
-| GSA | Login.gov | | Unknown | | | | | 12/21/2021 |
-| GSA | Search.gov | | Unknown | | | | | 12/21/2021 |
 | Guidewire | | | | | [Guidewire Statement](https://community.guidewire.com/s/article/Update-to-customers-who-have-questions-about-the-use-of-log4j-in-Guidewire-products) | | | |
 | HAProxy | | | | | [HAProxy Statement](https://www.haproxy.com/blog/december-2021-log4shell-mitigation/) | | | |
 | HarmanPro AMX | | | | | [HarmanPro AMX Statement](https://help.harmanpro.com/apache-log4j-vulnerability) | | | |
