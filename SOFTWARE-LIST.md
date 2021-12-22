@@ -996,8 +996,6 @@ This list was initially populated using information from the following sources:
 | GoAnywhere | Gateway | < 2.8.4 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021 |
 | GoAnywhere | MFT Agents | < 1.6.5 | Affected | Yes | [GoAnywhere Statement](https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps) | | | 12/18/2021 |
 | GoCD | | | | | [GoCD Statement](https://www.gocd.org/2021/12/14/log4j-vulnerability.html) | | | |
-| Google Cloud Armor WAF | | | | | [Google Statement](https://cloud.google.com/blog/products/identity-security/cloud-armor-waf-rule-to-help-address-apache-log4j-vulnerability) | | | |
-| Google Cloud Global Products coverage | | | | | [Google Statement](https://cloud.google.com/log4j2-security-advisory) | | | |
 | Gradle | Gradle | | Not Affected | No | [Gradle Blog - Dealing with the critical Log4j vulnerability](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. | | |
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Build Cache Node | < 10.1 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
