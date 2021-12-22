@@ -1128,6 +1128,7 @@ This list was initially populated using information from the following sources:
 | HelpSystems Clearswift | | | | | [HelpSystems Clearswift](https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687) | | | |
 | Hexagon | | | | | [Hexagon Statement](https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2?language=en_US) | | | |
 | Hikvision | | | | | [Hikvision](https://video.xortec.de/media/pdf/87/e8/03/kw50_Update-for-Apache-Log4j2-Issue-Hikvision_official.pdf) | | | |
+| Hitachi Energy | eSOMS | | Not Affected | | [Hitachi Energy](https://www.hitachienergy.com/offering/solutions/cybersecurity/alerts-and-notifications) | | | |
 | Hitachi Vantara | | | | | [Hitachi Vantara](https://knowledge.hitachivantara.com/Support_Information/Hitachi_Vantara_Security_Advisories/CVE-2021-44228_-_Apache_Log4j2) | | | |
 | Honeywell | | | | | [Honeywell Statement](https://www.honeywell.com/us/en/press/2021/12/honeywells-statement-on-java-apache-log4j-logging-framework-vulnerability) | | | |
 | HP | Teradici Cloud Access Controller | < v113 | Fixed | Yes | [Apache Log4j update for Teradici PCoIP Connection Manager, Teradici Cloud Access Connector, Teradici PCoIP License Server, Teradici Management Console, and Teradici EMSDK](https://support.hp.com/us-en/document/ish_5268006-5268030-16) | | | 2021-12-17 |
