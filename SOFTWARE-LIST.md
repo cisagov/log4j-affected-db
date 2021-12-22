@@ -1940,15 +1940,22 @@ download | | 12/20/2021 |
 | Nutanix | Calm Tunnel VM | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Collector | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Era | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | File Analytics | 2.1.x, 2.2.x, 3.0+ | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigated in version 3.0.1 which is available on the Portal for download. Mitigation is available [here](https://portal.nutanix.com/kb/12499) | | 12/20/2021 |
 | Nutanix | Files | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Flow | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Foundation | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | FSCVM | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Karbon | All | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12483) | | 12/20/2021 |
 | Nutanix | LCM | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Mine | All | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12484) | | 12/20/2021 |
 | Nutanix | Move | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | MSP | All | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12482) | | 12/20/2021 |
 | Nutanix | NCC | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | NGT | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Objects | All | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12482) | | 12/20/2021 |
+| Nutanix | Prism Central | All | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Patched in 2021-9.0.3, available on the Portal for download. | | 12/20/2021 |
 | Nutanix | Volumes | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Witness VM | All | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12491) | | 12/20/2021 |
 | Nutanix | X-Ray | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nvidia | | | | | [Nvidia Link](https://nvidia.custhelp.com/app/answers/detail/a_id/5294) | | | |
 | NXLog | | | | | [NXLog Link](https://nxlog.co/news/apache-log4j-vulnerability-cve-2021-44228) | | | |
