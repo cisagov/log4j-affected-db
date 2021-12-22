@@ -892,7 +892,7 @@ This list was initially populated using information from the following sources:
 | Exabeam | | | | | [Exabeam Statement](https://community.exabeam.com/s/discussions?t=1639379479381) | This advisory is available to customers only and has not been reviewed by CISA | | |
 | Exact | | | | | [Exact Statement](https://www.exact.com/news/general-statement-apache-leak) | | | |
 | Exivity | | | | | [Exivity Statement](https://docs.exivity.com/getting-started/releases/announcements#announcement-regarding-cve-2021-44228) | | | |
-| ExtraHop | Reveal(x) | <=8.4.6, <=8.5.3, <=8.6.4 | Affected | Yes | [ExtraHop Statement](https://forums.extrahop.com/t/extrahop-update-on-log4shell/8148) | Contains vulnerable code but not likely to get unauthenticated user input to the log4j component. | | 12/14/2021 |
+| ExtraHop | Reveal(x) | <=8.4.6, <=8.5.3, <=8.6.4 | Affected | Yes | [ExtraHop Statement](https://forums.extrahop.com/t/extrahop-update-on-log4shell/8148) | Versions >8.4.7, >8.5.4, >8.6.5 and >=8.7 are fixed. | | 12/21/2021 |
 | eXtreme Hosting | | | | | [eXtreme Hosting Statement](https://extremehosting.nl/log4shell-log4j/) | | | |
 | Extreme Networks | | | | | [Extreme Networks Statement](https://extremeportal.force.com/ExtrArticleDetail?an=000100806) | | | |
 | Extron | | | | | [Extron Statement](https://www.extron.com/featured/Security-at-Extron/extron-security) | | | |
