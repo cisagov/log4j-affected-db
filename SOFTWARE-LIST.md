@@ -1594,7 +1594,7 @@ This list was initially populated using information from the following sources:
 | LogicMonitor | | | | | [LogicMonitor Statement](https://www.logicmonitor.com/support/log4shell-security-vulnerability-cve-2021-44228) | | | |
 | LogMeIn | | | | | [LogMeIn Statement](https://community.logmein.com/t5/LogMeIn-Central-Discussions/LOG4J-Vulnerability/m-p/280317/highlight/true#M8327) | | | |
 | LogRhythm | | | | | [LogRhythm Statement](https://community.logrhythm.com/t5/Product-Security/LogRhythm-Response-to-the-Apache-Log4J-Vulnerability-Log4Shell/td-p/494068) | | | |
-| Looker | | | | | [Looker Statement](https://docs.google.com/document/d/e/2PACX-1vQGN1AYNMHxsRQ9AZNu1bKyTGRUSK_9xkQBge-nu4p8PYvBKIYHhc3914KTfVtDFIXtDhc3k6SZnR2M/pub) | | | |
+| Looker | Looker | 21.0, 21.6, 21.12, 21.16, 21.18, 21.20 | Affected | Yes | [Looker Statement](https://docs.google.com/document/d/e/2PACX-1vQGN1AYNMHxsRQ9AZNu1bKyTGRUSK_9xkQBge-nu4p8PYvBKIYHhc3914KTfVtDFIXtDhc3k6SZnR2M/pub) | | | |
 | LucaNet | | | | | [LucaNet Statement](https://www.lucanet.com/en/blog/update-vulnerability-log4j) | | | |
 | Lucee | | | | | [Lucee Statement](https://dev.lucee.org/t/lucee-is-not-affected-by-the-log4j-jndi-exploit-cve-2021-44228/9331/4) | | | |
 | Lyrasis | Fedora Repository | 3.x,4.x,5.x,6.x | Not Affected | | [Fedora Repository Statement](https://groups.google.com/g/fedora-tech/c/dQMQ5jaX8Xo) | Fedora Repository is unaffiliated with Fedora Linux.  Uses logback and explicitly excludes log4j. | | 2021-12-14 |
