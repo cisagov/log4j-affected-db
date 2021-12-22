@@ -1703,7 +1703,11 @@ This list was initially populated using information from the following sources:
 | NinjaRMM | | | | | [NinjaRMM Article](https://ninjarmm.zendesk.com/hc/en-us/articles/4416226194189-12-10-21-Security-Declaration-NinjaOne-not-affected-by-CVE-2021-44228-log4j-) |This advisory is available to customers only and has not been reviewed by CISA | | |
 | Nomachine | | | | | [Nomachine Forums](https://forums.nomachine.com/topic/apache-log4j-notification) | | | |
 | NoviFlow | | | | | [Noviflow Link](https://noviflow.com/noviflow-products-and-the-log4shell-exploit-cve-2021-44228/) | | | |
-| Nulab | | | | | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
+| Nulab | Backlog | N/A (SaaS) | Fixed | | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
+| Nulab | Backlog Enterprise (On-premises) | < 1.11.7 | Fixed | Yes | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
+| Nulab | Cacoo | N/A (SaaS) | Fixed | | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
+| Nulab | Cacoo Enterprise (On-premises) | < 4.0.4 | Fixed | Yes | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
+| Nulab | Typetalk | N/A (SaaS) | Fixed | | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
 | Nutanix | | | | | [Nutanix Alert Link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | |
 | Nvidia | | | | | [Nvidia Link](https://nvidia.custhelp.com/app/answers/detail/a_id/5294) | | | |
 | NXLog | | | | | [NXLog Link](https://nxlog.co/news/apache-log4j-vulnerability-cve-2021-44228) | | | |
