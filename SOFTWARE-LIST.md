@@ -2067,6 +2067,7 @@ download | | 12/20/2021 |
 | PaperCut | PaperCut NG | 21.0 and later | Affected | Yes |  [https://www.papercut.com/support/known-issues/?id=PO-684#ng](https://www.papercut.com/support/known-issues/?id=PO-684#ng) | Versions 21.0 and later are impacted. Versions 20 and earlier are NOT impacted by this. Workaround manual steps available in reference. Upgrade to PaperCut NG/MF version 21.2.3 Now Available to resolve.| | 12/16/2021 |
 | Parallels | | | | | [Parellels Link](https://kb.parallels.com/en/128696) | | | |
 | Parse.ly | | | | | [Parse.ly Blog Post](https://blog.parse.ly/parse-ly-log4shell/) | | | |
+| PBXMonitor | RMM for 3CX PBX | | Not Affected | | [PBXMonitor Changelog](https://www.pbxmonitor.net/changelog.php) | Mirror Servers were also checked to ensure Log4J was not installed or being used by any of our systems. | | 12/22/2021 |
 | Pega | | | | | [Pega Docs Link](https://docs.pega.com/security-advisory/security-advisory-apache-log4j-zero-day-vulnerability) | | | |
 | Pentaho | | | | |[Pentaho Support Link](https://support.pentaho.com/hc/en-us/articles/4416229254541-log4j-2-zero-day-vulnerability-No-impact-to-supported-versions-of-Pentaho-) | | | |
 | Pepperl+Fuchs | | | Under Investigation | | [Pepperl+Fuchs Advisory Link](https://www.pepperl-fuchs.com/global/en/29079.htm) | | | 12/21/2021 |
