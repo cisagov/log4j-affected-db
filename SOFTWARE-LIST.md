@@ -1932,7 +1932,24 @@ This list was initially populated using information from the following sources:
 | Nulab | Cacoo | N/A (SaaS) | Fixed | | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
 | Nulab | Cacoo Enterprise (On-premises) | < 4.0.4 | Fixed | Yes | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
 | Nulab | Typetalk | N/A (SaaS) | Fixed | | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
-| Nutanix | | | | | [Nutanix Alert Link](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | |
+| Nutanix | AHV | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | AOS | LTS (including Prism Element), Community Edition | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) |  | | 12/20/2021 |
+| Nutanix | AOS | STS (including Prism Element) | Fixed | Yes | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Patched in 6.0.2.4, available on the Portal for
+download | | 12/20/2021 |
+| Nutanix | Calm | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Calm Tunnel VM | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Collector | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Era | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Files | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Flow | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Foundation | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | FSCVM | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | LCM | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Move | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | NCC | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | NGT | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Volumes | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | X-Ray | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nvidia | | | | | [Nvidia Link](https://nvidia.custhelp.com/app/answers/detail/a_id/5294) | | | |
 | NXLog | | | | | [NXLog Link](https://nxlog.co/news/apache-log4j-vulnerability-cve-2021-44228) | | | |
 | Objectif Lune | | | | | [Objectif Lune Blog Post](https://learn.objectiflune.com/blog/security/statement-on-log4j-vulnerability-cve-2021-4428/) | | | |
