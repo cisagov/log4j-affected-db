@@ -68,6 +68,7 @@ This list was initially populated using information from the following sources:
 | Amazon | AWS ELB | Unknown | Fixed | | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/16/2021 |
 | Amazon | AWS Kinesis Data Stream | Unknown | Affected | Yes | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | We are actively patching all sub-systems that use Log4j2 by applying updates. The Kinesis Client Library (KCL) version 2.X and the Kinesis Producer Library (KPL) are not impacted. For customers using KCL 1.x, we have released an updated version and we strongly recommend that all KCL version 1.x customers upgrade to KCL version 1.14.5 (or higher) | | 12/14/2021 |
 | Amazon | OpenSearch | Unknown | Affected | Yes [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+| Anaconda | Anaconda | 4.10.3 | Not Affected |  | [https://docs.conda.io/projects/conda/en/latest/index.html](https://docs.conda.io/projects/conda/en/latest/index.html) | | | 12/21/2021 |
 | Apache | ActiveMQ Artemis | All | Not Affected | Yes | [ApacheMQ - Update on CVE-2021-4428](https://activemq.apache.org/news/cve-2021-44228) | ActiveMQ Artemis does not use Log4j for logging. However, Log4j 1.2.17 is included in the Hawtio-based web console application archive (i.e. [web/console.war/WEB-INF/lib](web/console.war/WEB-INF/lib)). Although this version of Log4j is not impacted by CVE-2021-44228 future versions of Artemis will be updated so that the Log4j jar is no longer included in the web console application archive. See [ARTEMIS-3612](https://issues.apache.org/jira/browse/ARTEMIS-3612) for more information on that task. | | 12/21/2021 |
 | Apache | Camel | 3.14.1.3.11.5,3.7.7 | Affected | Yes | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)| Apache Camel does not directly depend on Log4j 2, so we are not affected by CVE-2021-44228.If you explicitly added the Log4j 2 dependency to your own applications, make sure to upgrade.Apache Camel does use log4j during testing itself, and therefore you can find that we have been using log4j v2.13.3 release in our latest LTS releases Camel 3.7.6, 3.11.4. | | 12/13/2021 |
 | Apache | Camel Quarkus | | Not Affected | No | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/) | | | 12/13/2021 |
@@ -1931,6 +1932,7 @@ This list was initially populated using information from the following sources:
 | New Relic | Containerized Private Minion (CPM)| 3.0.57| Fixed| Yes| [NR21-04](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-04/) | New Relic is in the process of revising  guidance/documentation, however the fix version remains sufficient. | [Security Bulletin NR21-04](https://docs.newrelic.com/docs/security/new-relic-security/security-bulletins/security-bulletin-nr21-04/) | 12-18-2021 |
 | New Relic | New Relic Java Agent | <7.4.3 | Affected | Yes | [https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-743/](https://docs.newrelic.com/docs/release-notes/agent-release-notes/java-release-notes/java-agent-743/)| Initially fixed in 7.4.2, but additional vulnerability found | [New Relic tracking](https://github.com/newrelic/newrelic-java-agent/issues/605), covers CVE-2021-44228, CVE-2021-45046 | 12/20/2021 |
 | NextCloud | | | | | [NextCloud Help](https://help.nextcloud.com/t/apache-log4j-does-not-affect-nextcloud/129244) | | | |
+| Nextflow | Nextflow | 21.04.0.5552 | Not Affected |  | [https://www.nextflow.io/docs/latest/index.html](https://www.nextflow.io/docs/latest/index.html) | | | 12/21/2021 |
 | Nexus Group | | | | | [Nexus Group Docs](https://doc.nexusgroup.com/pages/viewpage.action?pageId=83133294) | | | |
 | NI (National Instruments) | | | | | [NI Support Link](https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html) | | | |
 | Nice Software (AWS) EnginFRAME | | | | | [Nice Software EnginFRAME Link](https://download.enginframe.com/) | | | |
@@ -2119,6 +2121,7 @@ download | | 12/20/2021 |
 | QSC Q-SYS | | | | | [QSC Q-SYS Article](https://qscprod.force.com/selfhelpportal/s/article/Are-Q-SYS-products-affected-by-the-Log4j-vulnerability-CVE-2021-44228) | | | |
 | QT | | | Not Affected | | [QT](https://www.qt.io/blog/the-qt-company-products-not-affected-by-cve-2021-44228-log4j-vulnerability) | | | |
 | Quest Global | | | | | [Quest Global](https://support.quest.com/fr-fr/search#q=CVE-2021-44228&t=Global) | | | |
+| R | R | 4.1.1 | Not Affected |  | [https://www.r-project.org/](https://www.r-project.org/) | | | 12/21/2021 |
 | R2ediviewer | | | | | [R2ediviewer Link](https://r2ediviewer.de/DE/reload.html?Change-log_17858584.html) | | | |
 | Radware | | | | | [Radware Support Link](https://support.radware.com/app/answers/answer_view/a_id/1029752) | | | |
 | Rapid7 | AlcidekArt, kAdvisor, and kAudit | on-prem | Not Affected | | [Rapid7 Statement](https://www.rapid7.com/blog/post/2021/12/14/update-on-log4shells-impact-on-rapid7-solutions-and-systems/?mkt_tok=NDExLU5BSy05NzAAAAGBVaccW1DOLSfEsfTNwEJksv_1nK1muJSFze-Lle90mKtAO78nSdjwPdzqXskNIi9qZCAGQODD42mYRK4YPlQkjhn38E27HQxFHdHAkypEOsh8) | | | 12/15/2021 |
@@ -2210,6 +2213,7 @@ download | | 12/20/2021 |
 | RSA | SecurID Governance and Lifecycle Cloud | | Not Affected | | | | | |
 | RSA | SecurID Identity Router | | Not Affected | | | | | |
 | RSA Netwitness | | | | | [RSA Netwitness Community Link](https://community.rsa.com/t5/netwitness-platform-product/netwitness-apache-vulnerability-log4j2-cve-2021-44228-nbsp/ta-p/660540) | | | |
+| Rstudioapi | Rstudioapi | 0.13 | Not Affected |  | [https://github.com/rstudio/rstudioapi](https://github.com/rstudio/rstudioapi) | | | 12/21/2021 |
 | Rubrik | | | | | [Rubrik Support Link](https://support.rubrik.com/s/announcementdetail?Id=a406f000001PwOcAAK) | This advisory is available to customers only and has not been reviewed by CISA| | |
 | Ruckus | Virtual SmartZone (vSZ) | 5.1 to 6.0 | Affected | | [Ruckus Wireless (support.ruckuswireless.com)](https://support.ruckuswireless.com/security_bulletins/313) | | | 12/13/2021 |
 | RunDeck by PagerDuty | | | | | [RunDeck Docs Link](https://docs.rundeck.com/docs/history/CVEs/) | | | |
@@ -2406,8 +2410,10 @@ download | | 12/20/2021 |
 | Sitecore | | | | | [Sitecore Support Link](https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1001391) | | | |
 | Skillable | | | | | [Skillable Link](https://skillable.com/log4shell/) | | | |
 | SLF4J | | | | | [SLF4J Link](http://slf4j.org/log4shell.html) | | | |
+| Slurm | Slurm | 20.11.8 | Not Affected |  | [https://slurm.schedmd.com/documentation.html](https://slurm.schedmd.com/documentation.html) | | | 12/21/2021 |
 | SmartBear | | | | | [SmartBear Link](https://smartbear.com/security/cve-2021-44228/) | | | |
 | SmileCDR | | | | | [SmileCDR Blog Post](https://www.smilecdr.com/our-blog/a-statement-on-log4shell-cve-2021-44228) | | | |
+| Snakemake | Snakemake | 6.12.1 | Not Affected |  | [https://snakemake.readthedocs.io/en/stable/](https://snakemake.readthedocs.io/en/stable/) | | | 12/21/2021 |
 | Sn0m | | | | | [Sn0m Link](https://www.snom.com/en/press/log4j-poses-no-threat-snom-phones/) | | | |
 | Snowflake | | | Not Affected | | [Snowflake Community Link](https://community.snowflake.com/s/article/No-Snowflake-exposure-to-Apache-Log4j-vulnerability-CVE-2021-44228) | | | |
 | Snyk | Cloud Platform | |Not Affected | | [Snyk Updates](https://updates.snyk.io/snyk%27s-cloud-platform-all-clear-from-log4j-exploits-216499) | | | |
