@@ -829,10 +829,14 @@ This list was initially populated using information from the following sources:
 | Docusign | | | | | [Docusign Alert](https://www.docusign.com/trust/alerts/alert-docusign-statement-on-the-log4j2-vulnerability) | | | |
 | DrayTek | Vigor Routers, Access Points, Switches, VigorACS Central Management Software, MyVigor Platform | | Not Affected | | [DrayTek Statement](https://www.draytek.com/about/security-advisory/log4shell-vulnerability-(cve-2021-44228)/) | | | 12/15/2021 |
 | DSpace | | | | | [DSpace Google Group](https://groups.google.com/g/dspace-community/c/Fa4VdjiiNyE) | | | |
-| Dynatrace | Managed cluster nodes | | Not Affected | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
-| Dynatrace | Managed cluster nodes | | Not Affected | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
-| Dynatrace | Synthetic Activegates | | Fixed |Yes | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
-| Dynatrace | Synthetic Activegates | | Fixed | Yes | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
+| Dynatrace | Managed cluster nodes | | Not Affected | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | Please see Dynatrace Communication for details | | 12/21/2021 |
+| Dynatrace | SAAS | | Fixed | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
+| Dynatrace | FedRamp SAAS | | Fixed | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
+| Dynatrace | Synthetic public locations | | Fixed | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
+| Dynatrace | Synthetic Private ActiveGate | | Fixed | Yes | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | Please see Dynatrace Communication for details | | 12/21/2021 |
+| Dynatrace | ActiveGate | | Not Affected | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
+| Dynatrace | OneAgent | | Not Affected | No | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | | | 12/21/2021 |
+| Dynatrace | Dynatrace Extensions | | Fixed | Yes (See Notes) | [Official Dynatrace Communication](https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/) | Please see Dynatrace Communication for details | | 12/21/2021 |
 | EasyRedmine | | | | | [EasyRedmine News](https://www.easyredmine.com/news/easy-redmine-application-is-not-affected-by-the-vulnerability-cve-2021-44228) | | | |
 | Eaton | Undisclosed | Undisclosed | Affected | | [Security Bulletin](https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/Eaton-Security-Bulletin%20log4j_CVE_2021_44228_v1.0_Legal-Approved.pdf) | Doesn't openly disclose what products are affected or not for quote 'security purposes'. Needs email registration. No workaround provided due to registration wall. | | |
 | EclecticIQ | | | | | [EclecticIQ Advisory](https://docs.eclecticiq.com/security-advisories/security-issues-and-mitigation-actions/eiq-2021-0016-2) | | | |
@@ -1124,6 +1128,7 @@ This list was initially populated using information from the following sources:
 | HelpSystems Clearswift | | | | | [HelpSystems Clearswift](https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687) | | | |
 | Hexagon | | | | | [Hexagon Statement](https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2?language=en_US) | | | |
 | Hikvision | | | | | [Hikvision](https://video.xortec.de/media/pdf/87/e8/03/kw50_Update-for-Apache-Log4j2-Issue-Hikvision_official.pdf) | | | |
+| Hitachi Energy | eSOMS | | Not Affected | | [Hitachi Energy](https://www.hitachienergy.com/offering/solutions/cybersecurity/alerts-and-notifications) | | | |
 | Hitachi Vantara | | | | | [Hitachi Vantara](https://knowledge.hitachivantara.com/Support_Information/Hitachi_Vantara_Security_Advisories/CVE-2021-44228_-_Apache_Log4j2) | | | |
 | Honeywell | | | | | [Honeywell Statement](https://www.honeywell.com/us/en/press/2021/12/honeywells-statement-on-java-apache-log4j-logging-framework-vulnerability) | | | |
 | HP | Teradici Cloud Access Controller | < v113 | Fixed | Yes | [Apache Log4j update for Teradici PCoIP Connection Manager, Teradici Cloud Access Connector, Teradici PCoIP License Server, Teradici Management Console, and Teradici EMSDK](https://support.hp.com/us-en/document/ish_5268006-5268030-16) | | | 2021-12-17 |
