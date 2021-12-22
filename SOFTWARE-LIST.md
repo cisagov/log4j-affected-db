@@ -1936,16 +1936,26 @@ This list was initially populated using information from the following sources:
 | Nutanix | AOS | LTS (including Prism Element), Community Edition | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) |  | | 12/20/2021 |
 | Nutanix | AOS | STS (including Prism Element) | Fixed | Yes | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Patched in 6.0.2.4, available on the Portal for
 download | | 12/20/2021 |
+| Nutanix | Beam | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
+| Nutanix | BeamGov | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
 | Nutanix | Calm | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Calm Tunnel VM | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Collector | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Collector Portal | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
+| Nutanix | Data Lens | | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
 | Nutanix | Era | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | File Analytics | 2.1.x, 2.2.x, 3.0+ | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigated in version 3.0.1 which is available on the Portal for download. Mitigation is available [here](https://portal.nutanix.com/kb/12499) | | 12/20/2021 |
 | Nutanix | Files | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Flow | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Flow Security Cental | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
 | Nutanix | Foundation | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Frame | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
+| Nutanix | FrameGov | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
 | Nutanix | FSCVM | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
+| Nutanix | Insights | | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
 | Nutanix | Karbon | All | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12483) | | 12/20/2021 |
+| Nutanix | Karbon Platform Service | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
+| Nutanix | Leap | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
 | Nutanix | LCM | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Mine | All | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12484) | | 12/20/2021 |
 | Nutanix | Move | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
@@ -1954,6 +1964,7 @@ download | | 12/20/2021 |
 | Nutanix | NGT | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Objects | All | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12482) | | 12/20/2021 |
 | Nutanix | Prism Central | All | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Patched in 2021-9.0.3, available on the Portal for download. | | 12/20/2021 |
+| Nutanix | Sizer | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
 | Nutanix | Volumes | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | Witness VM | All | Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Mitigation is available [here](https://portal.nutanix.com/kb/12491) | | 12/20/2021 |
 | Nutanix | X-Ray | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
