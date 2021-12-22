@@ -2390,6 +2390,10 @@ This list was initially populated using information from the following sources:
 | Thales | Sentinel Professional Services components (both Thales hosted & hosted on-premises by customers) | | Affected | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | 12/17/2021 |
 | Thales | Sentinel SCL | | Affected | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | 12/17/2021 |
 | Thales | Thales Data Platform (TDP)(DDC) | | Affected | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | 12/17/2021 |
+| Thermo-Calc | Thermo-Calc | 2022a | Not Affected | | [Thermo-Calc Advisory Link](https://thermocalc.com/blog/thermo-calc-response-to-apache-log4j-2-vulnerability/) | Use the program as normal, Install the 2022a patch when available | | 12/22/2021 |
+| Thermo-Calc | Thermo-Calc | 2021b | Not Affected | | [Thermo-Calc Advisory Link](https://thermocalc.com/blog/thermo-calc-response-to-apache-log4j-2-vulnerability/) | Use the program as normal | | 12/22/2021 |
+| Thermo-Calc | Thermo-Calc | 2018b to 2021a | Not Affected | | [Thermo-Calc Advisory Link](https://thermocalc.com/blog/thermo-calc-response-to-apache-log4j-2-vulnerability/) | Use the program as normal, delete the Log4j 2 files in the program installation if required, see advisory for instructions. | | 12/22/2021 |
+| Thermo-Calc | Thermo-Calc | 2018a and earlier | Not Affected | | [Thermo-Calc Advisory Link](https://thermocalc.com/blog/thermo-calc-response-to-apache-log4j-2-vulnerability/) | Use the program as normal | | 12/22/2021 |
 | Thermo Fisher Scientific | | | Unknown | | [Thermo Fisher Scientific Advisory Link](https://corporate.thermofisher.com/us/en/index/about/information-security/Protecting-Our-Products.html) | | | 12/22/2021 |
 | Thomson Reuters | HighQ Appliance | <3.5 | Affected | Yes | [https://highqsolutions.zendesk.com](https://highqsolutions.zendesk.com) | Reported by vendor - Documentation is in vendor's client portal (login required).  This advisory is available to customer only and has not been reviewed by CISA. | | 12/20/2021 |
 | ThreatLocker | | | | | [ThreatLocker Log4j Statement](https://threatlocker.kb.help/log4j-vulnerability/) | | | |
@@ -2423,6 +2427,46 @@ This list was initially populated using information from the following sources:
 | Unimus | | | | | [Unimus Statement](https://forum.unimus.net/viewtopic.php?f=7&t=1390#top) | | | |
 | USSIGNAL MSP | | | | | [USSIGNAL MSP Statement](https://ussignal.com/blog/apache-log4j-vulnerability) | | | |
 | VArmour | | | | | [VArmour Statement](https://support.varmour.com/hc/en-us/articles/4416396248717-Log4j2-Emergency-Configuration-Change-for-Critical-Auth-Free-Code-Execution-in-Logging-Utility) | | | |
+| Varian | Acuity | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | DITC | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | ARIA Connect (Cloverleaf) | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | ARIA oncology information system for Medical Oncology | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | XMediusFax for ARIA oncology information system for Medical Oncology | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | ARIA oncology information system for Radiation Oncology | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | ARIA eDOC | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | XMediusFax for ARIA oncology information system for Radiation Oncology | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | ARIA Radiation Therapy Management System (RTM) | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Bravos Console | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Clinac | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Cloud Planner | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | DoseLab | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Eclipse treatment planning software | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | ePeerReview | All | Under Investigation |  | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Ethos | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | FullScale oncology IT solutions | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Halcyon system | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Identify | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Information Exchange Manager (IEM) | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | InSightive Analytics | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Large Integrated Oncology Network (LION) | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | ICAP | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Mobius3D platform | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | ProBeam | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Qumulate | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Real-time Position Management (RPM) | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Respiratory Gating for Scanners (RGSC) | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | SmartConnect solution | All | Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | See Knowledge Article: 000038850 on MyVarian | | 12/22/2021 |
+| Varian | SmartConnect solution Policy Server | All | Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | See Knowledge Articles: 000038831 and 000038832 on MyVarian | | 12/22/2021 |
+| Varian | PaaS | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | TrueBeam radiotherapy system | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | UNIQUE system | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Varian Authentication and Identity Server (VAIS) | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Varian Managed Services Cloud | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Varian Mobile App | 2.0, 2.5 | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | VariSeed | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Velocity | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | VitalBeam radiotherapy system | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
+| Varian | Vitesse | All | Not Affected | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
 | Varnish Software | | | | | [Varnish Software Security Notice](https://docs.varnish-software.com/security/CVE-2021-44228-45046/) | | | |
 | Varonis | | | | | [Varonis Notice](https://help.varonis.com/s/article/Apache-Log4j-Zero-Day-Vulnerability-CVE-2021-44228) | | | |
 | Veeam | | | | | [Veeam Statement](https://www.veeam.com/kb4254) | | | |
@@ -2467,11 +2511,14 @@ This list was initially populated using information from the following sources:
 | VMware | VMware vRealize Orchestrator | 8.x, 7.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Workspace ONE Access | 21.x, 20.10.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Workspace ONE Access Connector (VMware Identity Manager Connector) | 21.x, 20.10.x, 19.03.0.1 | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
+| Vyaire | | | Not Affected | | [Vyaire Advisory Link](https://www.vyaire.com/sites/us/files/2021-12/2021-12-15-product-security-bulletin-for-log4shell-vulnerability.pdf) | | | 12/22/2021 |
 | WAGO | WAGO Smart Script | 4.2.x < 4.8.1.3 | Affected | Yes | [WAGO Website](https://www.wago.com/de/automatisierungstechnik/psirt#log4j) | | | 12/17/2021 |
 | Wallarm | | | | | [Lab Mitigation Update](https://lab.wallarm.com/cve-2021-44228-mitigation-update/) | | | |
 | Wasp Barcode technologies | | | | | [Waspbarcode Assetcloud Inventorycloud](https://support.waspbarcode.com/kb/articles/assetcloud-inventorycloud-are-they-affected-by-the-java-exploit-log4j-no) | | | |
 | WatchGuard | Secplicity | | | | [Secplicity Critical RCE](https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/) | | | |
 | Western Digital | | | | | [Westerndigital Product Security](https://www.westerndigital.com/support/product-security/wdc-21016-apache-log4j-2-remote-code-execution-vulnerability-analysis) | | | |
+| WIBU Systems | CodeMeter Keyring for TIA Portal | 1.30 and prior | Affected | Yes | [WIBU Systems Advisory Link](https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf) | Only the Password Manager is affected | | 12/22/2021 |
+| WIBU Systems | CodeMeter Cloud Lite | 2.2 and prior | Affected | Yes | [WIBU Systems Advisory Link](https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf) | | | 12/22/2021 |
 | WindRiver | | | | | [Windriver Security Notice](https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191) | | | |
 | WireShark | | | | | [Gitlab Wireshark](https://gitlab.com/wireshark/wireshark/-/issues/17783) | | | |
 | Wistia | | | | | [Wistia Incidents](https://status.wistia.com/incidents/jtg0dfl5l224) | | | |
@@ -2485,8 +2532,25 @@ This list was initially populated using information from the following sources:
 | XPertDoc | | | | | [Xpertdoc](https://kb.xpertdoc.com/pages/viewpage.action?pageId=87622727) | | | |
 | XPLG | | | | | [XPLG Secure Log4j](https://www.xplg.com/log4j-vulnerability-exploit-log4shell-xplg-secure/) | | | |
 | XWIKI | | | | | [Xwiki CVE-2021-44228](https://forum.xwiki.org/t/log4j-cve-2021-44228-log4shell-zero-day-vulnerability/9557) | | | |
+| Xylem | Aquatalk | | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Avensor | | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Sensus Analytics | | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Sensus Automation Control Configuration change complete | | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Sensus Cathodic Protection Mitigation in process Mitigation in process | | Affected | Mitigation in process | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Sensus FieldLogic LogServer | | Affected | Patching complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Sensus Lighting Control | | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Sensus NetMetrics Configuration change complete | | Affected | Pacthing complete |  [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Sensus RNI Saas | 4.7 through 4.10, 4.4 through 4.6, 4.2 | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Sensus RNI On Prem | 4.7 through 4.10, 4.4 through 4.6, 4.2 | Affected | Mitigation in process | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Sensus SCS | | Affected |Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Smart Irrigation | | Affected | Remediation in process | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Water Loss Management (Visenti) | | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Configuration change complete | | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Xylem Cloud | | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
+| Xylem | Xylem Edge Gateway (xGW) | | Affected | Pacthing complete | [Xylem Advisory Link](https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf) | | | 12/22/2021 |
 | Yellowbrick | | | | | [YellowBrick Security Advisory Yellowbrick](https://support.yellowbrick.com/hc/en-us/articles/4412586575379-Security-Advisory-Yellowbrick-is-NOT-Affected-by-the-Log4Shell-Vulnerability) | | | |
 | YellowFin | | | | | [YellowFinbi Notice Critical Vulnerability in Log4j](https://community.yellowfinbi.com/announcement/notice-critical-vulnerability-in-log4j2) | | | |
+| YOKOGAWA | | | Under Investigation | | [YOKOGAWA Advisory Link](https://www.yokogawa.com/us/solutions/products-platforms/announcements/important-notice/log4shell/) | | | 12/22/2021 |
 | YSoft SAFEQ | | | | | [Ysoft Safeq](https://www.ysoft.com/getattachment/Products/Security/Standards-Compliance/text/Information-Security-Policy-Statement/YSOFT-SAFEQ-LOG4J-VULNERABILITY-PRODUCT-UPDATE-WORKAROUND-1.pdf) | | | |
 | Zabbix | | | | | [Zabbix Log4j](https://blog.zabbix.com/zabbix-not-affected-by-the-log4j-exploit/17873/) | | | |
 | ZAMMAD | | | | | [Zammad Elasticsearch Users](https://community.zammad.org/t/cve-2021-44228-elasticsearch-users-be-aware/8256) | | | |
