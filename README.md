@@ -71,7 +71,7 @@ update but may limit agency risk.
 - Report incidents promptly to CISA and/or the FBI 
 [here](https://www.cisa.gov/uscert/report).
 
-For more information regarding CISA recommended mitigation measures please visit 
+For more information regarding CISA recommended mitigation measures please visit
 [here](https://www.cisa.gov/uscert/ed-22-02-apache-log4j-recommended-mitigation-measures).
 
 ## Software List ##
