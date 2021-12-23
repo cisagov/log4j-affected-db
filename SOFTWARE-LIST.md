@@ -533,6 +533,7 @@ This list was initially populated using information from the following sources:
 | dCache.org | | | | | [dCache.org Link](https://www.dcache.org/post/log4j-vulnerability/) | | | |
 | Debian | | | | | [Debian Tracker Link](https://security-tracker.debian.org/tracker/CVE-2021-44228) | | | |
 | Deepinstinct | | | | | [Deepinstinct Link](https://www.deepinstinct.com/blog/log4shell-cve-2021-44228-what-you-need-to-know) | | | |
+| Deltares | Delft-FEWS | >2018.02 | Fixed | No | [Deltares Advisory](https://publicwiki.deltares.nl/display/FEWSDOC/Delft-FEWS+and+Log4J+vulnerability) | Mitigations Only | | 12/22/2021
 | Dell | Alienware Command Center | N/A | Not Affected | N/A | [Dell Response to Apache Log4j Remote Code Execution Vulnerability (CVE-2021-44228)](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) | | | 12/15/2021 |
 | Dell | Alienware OC Controls | N/A | Not Affected | N/A | [Dell Response to Apache Log4j Remote Code Execution Vulnerability (CVE-2021-44228)](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) | | | 12/15/2021 |
 | Dell | Alienware On Screen Display | N/A | Not Affected | N/A | [Dell Response to Apache Log4j Remote Code Execution Vulnerability (CVE-2021-44228)](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) | | | 12/15/2021 |
