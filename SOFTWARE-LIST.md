@@ -19,7 +19,7 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product | Version(s) | Status | Update Available | Vendor Link | Notes | Other References | Last Updated |
 | ------ | ------- | ---------- | ------ | ---------------- | ----------- | ----- | ---------------- | ------------ |
-| 1Password | 1Password | | Not affected | | [1Password public response on Reddit](https://www.reddit.com/r/1Password/comments/rea7dd/comment/hoe41ci) | | | 12/20/2021 |
+| 1Password | All products | | Not affected | | [1Password statement](https://support.1password.com/kb/202112/) | | | 12/23/2021 |
 | 2n | | | | | [2n Advisory Link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) | | | |
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
 | 3M Health Information Systems | CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) | This advisory is available to customer only and has not been reviewed by CISA. | | 12/15/2021 |
