@@ -1303,6 +1303,7 @@ This list was initially populated using information from the following sources:
 | HCL Software | BigFix Mobile | All | Not Affected | | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 | | 12/15/2021 |
 | HCL Software | BigFix Patch | All | Not Affected | | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 | | 12/15/2021 |
 | HelpSystems Clearswift | | | | | [HelpSystems Clearswift](https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687) | | | |
+| HENIX | Squash TM | 1.21.7 - 1.22.9, 2.0.3 - 2.1.5,  2.2.0 - 3.0.2 | Fixed | | [Vendor Link](https://tm-en.doc.squashtest.com/v3/downloads.html#download-previous-versions) | | | 12/23/2021 |
 | Hexagon | | | | | [Hexagon Statement](https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2?language=en_US) | | | |
 | Hikvision | | | | | [Hikvision](https://video.xortec.de/media/pdf/87/e8/03/kw50_Update-for-Apache-Log4j2-Issue-Hikvision_official.pdf) | | | |
 | Hitachi Energy | eSOMS | | Not Affected | | [Hitachi Energy](https://www.hitachienergy.com/offering/solutions/cybersecurity/alerts-and-notifications) | | | |
