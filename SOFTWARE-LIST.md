@@ -62,6 +62,7 @@ This list was initially populated using information from the following sources:
 | Amazon | AWS | Linux 1,2 | Not Affected | No | | Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 [AWS Forum](https://forums.aws.amazon.com/thread.jspa?threadID=323611). AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2 | | 12/15/2021 |
 | Amazon | AWS API Gateway | All | Fixed | | [Amazon AWS Link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/20/2021 |
 | Amazon | AWS CloudHSM | < 3.4.1. | Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+| Amazon | AWS Connect | All | Fixed | | [Vendor Link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | Vendors recommend evaluating components of the environment outside of the Amazon Connect service boundary, which may require separate/additional customer mitigation | | 12/23/2021 |
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
 | Amazon | AWS DynamoDB | Unknown | Fixed | | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/17/2021 |
@@ -103,6 +104,7 @@ This list was initially populated using information from the following sources:
 | Appdynamics | | | | | [Appdynamics Advisory Link](https://docs.appdynamics.com/display/PAA/Security+Advisory%3A+Apache+Log4j+Vulnerability) | | | |
 | Appeon | PowerBuilder | Appeon PowerBuilder 2017-2021 regardless of product edition | Affected | No | | | |12/15/2021|
 | AppGate | | | | | [AppGate Blog Post](https://www.appgate.com/blog/appgate-sdp-unaffected-by-log4j-vulnerability) | | | |
+| Appian | Appian Platform | All | Fixed | | [KB-2204 Information about the Log4j2 security vulnerabilities (CVE-2021-44228 & CVE-2021-45046)](https://community.appian.com/support/w/kb/2511/kb-2204-information-about-the-log4j2-security-vulnerabilities-cve-2021-44228-cve-2021-45046) | | | 12/22/2021 |
 | Application Performance Ltd | DBMarlin | | Not Affected | | [Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428) | | | 12/15/2021 |
 | APPSHEET | | | | | [APPSHEET Community Link](https://community.appsheet.com/t/appsheet-statement-on-log4j-vulnerability-cve-2021-44228/59976) | | | |
 | Aptible | Aptible | ElasticSearch 5.x | Affected | Yes | [Aptible Status - Log4j security incident CVE-2021-27135](https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4) | | | |
@@ -334,7 +336,7 @@ This list was initially populated using information from the following sources:
 | Canon | Vitrea Advanced 7.x | | Under Investigation | | [Canon Advisory Link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) | | | 12/22/2021 |
 | Canon | Infinix-i (Angio Workstation) | | Under Investigation | | [Canon Advisory Link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) | | | 12/22/2021 |
 | Canon | Alphenix (Angio Workstation) | | Under Investigation | | [Canon Advisory Link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) | | | 12/22/2021 |
-| CapStorm | Copystorm | | Under Investigation | |  | | | 12/22/2021 |
+| CapStorm | Copystorm | | Under Investigation | | | | | 12/22/2021 |
 | CarbonBlack | | | | | [CarbonBlack Advisory](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | |
 | Carestream | | | Not Affected | |[Carestream Advisory Link](https://www.carestream.com/en/us/services-and-support/cybersecurity-and-privacy) | | | 12/20/2021 |
 | CAS genesisWorld | | | | | [CAS genesisWorld Link](https://helpdesk.cas.de/CASHelpdesk/FAQDetails.aspx?gguid=0x79F9E881EE3C46C1A71BE9EB3E480446) | | | |
@@ -343,13 +345,13 @@ This list was initially populated using information from the following sources:
 | Cepheid | GeneXpert | | Under Investigation | | [Cepheid Advisory Link](https://www.cepheid.com/en_US/legal/product-security-updates) | | | 12/20/2021 |
 | Cerberus FTP | | | | | [Cerberus Article](https://support.cerberusftp.com/hc/en-us/articles/4412448183571-Cerberus-is-not-affected-by-CVE-2021-44228-log4j-0-day-vulnerability) | | | |
 | Chaser Systems | discrimiNAT Firewall | All | Not Affected | | [Are Chaser’s products affected](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) | | | |
-| Check Point | CloudGuard | | Not Affected | | | | | |
-| Check Point | Harmony Endpoint & Harmony Mobile | | Not Affected | | | | | |
-| Check Point | Infinity Portal | | Not Affected | | | | | |
-| Check Point | Quantum Security Gateway | | Not Affected | | | | | |
-| Check Point | Quantum Security Management | | Not Affected | | | Uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. | | |
-| Check Point | SMB | | Not Affected | | | | | |
-| Check Point | ThreatCloud | | Not Affected | | | | | |
+| Check Point | CloudGuard | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
+| Check Point | Harmony Endpoint & Harmony Mobile | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
+| Check Point | Infinity Portal | | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
+| Check Point | Quantum Security Gateway | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | |
+| Check Point | Quantum Security Management | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | Where used, uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. | | |
+| Check Point | SMB | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
+| Check Point | ThreatCloud | | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
 | CheckMK | | | | | [CheckMK Forum](https://forum.checkmk.com/t/checkmk-not-affected-by-log4shell/28643/3) | | | |
 | Ciphermail | | | | | [Ciphermail Blog Post](https://www.ciphermail.com/blog/ciphermail-gateway-and-webmail-messenger-are-not-vulnerable-to-cve-2021-44228.html) | | | |
 | CIS | | | | | [CIS Customer Portal](https://cisecurity.atlassian.net/servicedesk/customer/portal/15/article/2434301961) | | | |
