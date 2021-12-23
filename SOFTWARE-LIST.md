@@ -103,6 +103,7 @@ This list was initially populated using information from the following sources:
 | Appdynamics | | | | | [Appdynamics Advisory Link](https://docs.appdynamics.com/display/PAA/Security+Advisory%3A+Apache+Log4j+Vulnerability) | | | |
 | Appeon | PowerBuilder | Appeon PowerBuilder 2017-2021 regardless of product edition | Affected | No | | | |12/15/2021|
 | AppGate | | | | | [AppGate Blog Post](https://www.appgate.com/blog/appgate-sdp-unaffected-by-log4j-vulnerability) | | | |
+| Appian | Appian Platform | All | Fixed | | [KB-2204 Information about the Log4j2 security vulnerabilities (CVE-2021-44228 & CVE-2021-45046)](https://community.appian.com/support/w/kb/2511/kb-2204-information-about-the-log4j2-security-vulnerabilities-cve-2021-44228-cve-2021-45046) | | | 12/22/2021 |
 | Application Performance Ltd | DBMarlin | | Not Affected | | [Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428) | | | 12/15/2021 |
 | APPSHEET | | | | | [APPSHEET Community Link](https://community.appsheet.com/t/appsheet-statement-on-log4j-vulnerability-cve-2021-44228/59976) | | | |
 | Aptible | Aptible | ElasticSearch 5.x | Affected | Yes | [Aptible Status - Log4j security incident CVE-2021-27135](https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4) | | | |
