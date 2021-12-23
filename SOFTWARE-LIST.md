@@ -29,6 +29,7 @@ This list was initially populated using information from the following sources:
 | ABB | AlarmInsight Cloud | AlarmInsight KPI Dashboards 1.0.0 | Under Investigation | | | | | |
 | ABB | B&R Products | See Vendor Advisory | | | [BR-Automation Advisory](https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf) | | | |
 | Abbott | | | | | [Abbott Advisory Link](https://www.abbott.com/policies/cybersecurity/apache-Log4j.html) | | | 12/30/2021 |
+| Abnornal Security | Abnornal Security | | Not affected | | [Abnormal Blog](https://abnormalsecurity.com/blog/attackers-use-email-log4j-vulnerability) | | | |
 | Accellence | | | | | [Accellence Article](https://www.accellence.de/en/articles/national-vulnerability-database-62) | | | |
 | Accellion | Kiteworks | v7.6 release | Fixed | Yes | [Kiteworks Statement](https://www.kiteworks.com/kiteworks-news/log4shell-apache-vulnerability-what-kiteworks-customers-need-to-know/) | "As a precaution, Kiteworks released a 7.6.1 Hotfix software update to address the vulnerability. This patch release adds the mitigation for CVE-2021-44228 contained in the Solr package as recommended by Apache Solr group. Specifically, it updates the Log4j library to a non-vulnerable version on CentOS 7 systems as well as adds the recommended option “$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true” to disable the possible attack vector on both CentOS 6 and CentOS 7." | |12/16/2021 |
 | Acquia | | | | | [Acquia Article](https://support.acquia.com/hc/en-us/articles/4415823329047-Apache-log4j-CVE-2021-44228) | | | |
@@ -532,11 +533,13 @@ This list was initially populated using information from the following sources:
 | Cloudogu | SCM-Manager| | Not Affected | | [SCM-Manager Blog](https://scm-manager.org/blog/posts/2021-12-13-log4shell/)| | | |
 | Cloudron | | | | | [Cloudron Forum](https://forum.cloudron.io/topic/6153/log4j-and-log4j2-library-vulnerability?lang=en-US) | | | |
 | Clover | | | | | [Clover Article](https://community.clover.com/articles/35868/apache-log4j-vulnerability-cve-2021-44228.html) | | | |
+| Code42 | Code42 App | 8.8.1 | Fixed | Yes | [Code42 Release Notification](https://success.code42.com/hc/en-us/articles/4416158712343-RELEASE-NOTIFICATION-Code42-Vulnerability-Mitigation-for-CVE-2021-44228-and-other-updates) | | | 12/22/2021 |
 | Code42 | Crashplan | 8.8, possibly prior versions | Fixed | Yes | [Code42 Release Notification](https://success.code42.com/hc/en-us/articles/4416158712343-RELEASE-NOTIFICATION-Code42-Vulnerability-Mitigation-for-CVE-2021-44228-and-other-updates) | I think, they don't specify in the notice, but we know that they released an updated Crashplan client. Possibly prior versions affected. | | 12/16/2021 |
 | CodeBeamer | | | | | [CodeBeamer Link](https://codebeamer.com/cb/wiki/19872365) | | | |
 | Codesys | | | | | [Codesys News](https://www.codesys.com/news-events/news/article/log4j-not-used-in-codesys.html) | | | |
 | Cohesity | | | | | [Cohesity Support Link](https://support.cohesity.com/s/article/Security-Advisory-Apache-Log4j-Remote-Code-Execution-RCE-CVE-2021-44228) | | | |
 | CommVault | | | | | [CommVault Documentation](https://documentation.commvault.com/v11/essential/146231_security_vulnerability_and_reporting.html) | | | |
+| Concourse | Concourse | | Not affected | | [Concourse Community Discussion](https://github.com/concourse/concourse/discussions/7887) | | | |
 | ConcreteCMS.com | | | | | [ConcreteCMS.com Link](https://www.concretecms.com/about/blog/security/concrete-log4j-zero-day-exploit) | | | |
 | Confluent | Confluent Cloud | N/A | Fixed | | [December 2021 Log4j Vulnerabilities Advisory](https://support.confluent.io/hc/en-us/articles/4412615410580-CVE-2021-44228-log4j2-vulnerability#impact-to-connectors) | | | 12/17/2021 |
 | Confluent | Confluent Platform | <7.0.1 | Affected | Yes | [December 2021 Log4j Vulnerabilities Advisory](https://support.confluent.io/hc/en-us/articles/4412615410580-CVE-2021-44228-log4j2-vulnerability#impact-to-connectors) | | | 12/17/2021 |
