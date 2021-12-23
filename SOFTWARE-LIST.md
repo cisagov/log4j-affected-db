@@ -2750,7 +2750,7 @@ download | | 12/20/2021 |
 | WordPress | | | | | [Wordpress Support](https://wordpress.org/support/topic/is-the-log4j-vulnerability-an-issue/) | | | |
 | Worksphere | | | | | [Workspace Security Update](https://www.worksphere.com/product/security-update-on-log4j-cve-2021-44228) | | | |
 | Wowza | | | | | [Wowza Known Issues with Streaming Engine](https://www.wowza.com/docs/known-issues-with-wowza-streaming-engine#log4j2-cve) | | | |
-| WSO2 | WSO2 Enterprise Integrator | 6.1.0 and above | Affected | Yes | https://docs.wso2.com/pages/viewpage.action?pageId=180948677 | A temporary mitigation is available while vendor works on update | | |
+| WSO2 | WSO2 Enterprise Integrator | 6.1.0 and above | Affected | Yes | [https://docs.wso2.com/pages/viewpage.action?pageId=180948677](https://docs.wso2.com/pages/viewpage.action?pageId=180948677) | A temporary mitigation is available while vendor works on update | | |
 | XCP-ng | | | | | [XCP lOG4j Vulnerability](https://xcp-ng.org/forum/topic/5315/log4j-vulnerability-impact) | | | |
 | XenForo | | | | | [Xenforo PSA Elasticsearch](https://xenforo.com/community/threads/psa-potential-security-vulnerability-in-elasticsearch-5-via-apache-log4j-log4shell.201145/) | | | |
 | Xerox | | | | | [Xerox Special Bulletin CVE-2021-44228](https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf) | | | |
