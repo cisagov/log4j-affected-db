@@ -2638,6 +2638,7 @@ download | | 12/20/2021 |
 | TrendMicro | All | | Under Investigation | | [https://success.trendmicro.com/solution/000289940](https://success.trendmicro.com/solution/000289940) | | | |
 | Tricentis Tosca | | | | | [Tricentis Tosca Statement](https://support-hub.tricentis.com/open?number=NEW0001148&id=post) | | | |
 | Tripwire | | | | | [Tripwire Log4j Statement](https://www.tripwire.com/log4j) | | | |
+| Trimble | eCognition | 10.2.0 Build 4618 | Affected | No | Details are shared with active subscribers | Remediation steps provided by Trimble | | 12/23/2021 |
 | TrueNAS | | | | | [TrueNAS Statement](https://www.truenas.com/community/threads/log4j-vulnerability.97359/post-672559) | | | |
 | Tufin | | | | | [Tufin Statement](https://portal.tufin.com/articles/SecurityAdvisories/Apache-Log4Shell-Vulnerability-12-12-2021) | | | |
 | TYPO3 | | | | | [TYPO3 Statement](https://typo3.org/article/typo3-psa-2021-004) | | | |
