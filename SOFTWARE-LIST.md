@@ -19,6 +19,177 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product | Version(s) | Status | Update Available | Vendor Link | Notes | Other References | Last Updated |
 | ------ | ------- | ---------- | ------ | ---------------- | ----------- | ----- | ---------------- | ------------ |
+| AAMVA | UNI4.5 (v4.5) | 4.5.0.0 |  |  |  |  |  |  |
+| AAMVA | UNI4.5 Web UI (v4.5) | 4.5.0.0 |  |  |  |  |  |  |
+| ActivIdentity | ActivClient x64 | 6.2 |  |  |  |  |  |  |
+| Adobe | Adobe AIR | 32.0.0.125 |  |  |  |  |  |  |
+| Adobe Systems Incorporated | Adobe Refresh Manager | 1.8.0 |  |  |  |  |  |  |
+| Adobe Systems Incorporated | Adobe Acrobat Reader DC | 21.007.20099 |  |  |  |  |  |  |
+| AVIcode Inc. | AVIcode Intercept Agent 5.5 | 5.5.61 |  |  |  |  |  |  |
+| Carbon Black, Inc | CarbonBlack Sensor | 6.2.5 |  |  |  |  |  |  |
+| CrowdStrike, Inc. | CrowdStrike Firmware Analysis | 6.32.14651.0 |  |  |  |  |  |  |
+| CrowdStrike, Inc. | CrowdStrike Sensor Platform | 6.31.14505.0 |  |  |  |  |  |  |
+| CrowdStrike, Inc. | CrowdStrike Device Control | 6.32.14651.0 |  |  |  |  |  |  |
+| Genesys | Interaction Firmware: Part 1 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
+| Genesys | Interaction Firmware: Part 2 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
+| Genesys | Interaction Center Server 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
+| Genesys | Interaction Text-to-Speech 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
+| Genesys | Spanish (Latin America) IC Server Components 2021 R1 | 21.1.4.18 |  |  |  |  |  |  |
+| Genesys | IC Documentation Library 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
+| Google LLC | Google Chrome | 96.0.4664.110 |  |  |  |  |  |  |
+| Hewlett Packard Enterprise Development LP | Smart Storage Administrator | 2.60.18.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant Agentless Management Service | 10.20.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant iLO Core Driver (X64) | 3.9.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant Health Monitor Service (X64) | 3.20.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | PFA Server Registry Update | 1.0.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant iLO CHIF Driver (X64) | 3.10.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant iLO 3 WHEA Driver (X64) | 3.0.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP Insight Management Agents | 10.20.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant Integrated Management Log Viewer | 7.4.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Development Company, L.P. | HP Insight Management WBEM Providers | 10.20.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Development Company, L.P. | HP Lights-Out Online Configuration Utility | 4.6.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Development Company, L.P. | HP Smart Array SAS/SATA Event Notification Service | 6.38.0.64 |  |  |  |  |  |  |
+| Hewlett-Packard Development Company, L.P. | HP Insight Diagnostics | 10.34.1914 |  |  |  |  |  |  |
+| Hyland Software | Hyland OnBase Client | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Web Server 20.3 x64 | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Prerequisites | 1.0.0.0 |  |  |  |  |  |  |
+| Hyland Software | Hyland Unity Client | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Unity Client Deployment | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Diagnostics Components | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Web ActiveX Controls | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland OnBase Studio x64 | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Application Server 20.3 x64 | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland OnBase Configuration | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Unity Management Console | 20.3.11.1000 |  |  |  |  |  |  |
+| IDEMIA | IDEMIA Minidriver for PIV/CIV (64-bit) | 1.2.7 |  |  |  |  |  |  |
+| Igor Pavlov | 7-Zip 21.06 (x64 edition) | 21.06.00.0 |  |  |  |  |  |  |
+| Interactive Intelligence | Snap Shot 4.0 | 1.0.0 |  |  |  |  |  |  |
+| Konesans Ltd | Konesans Row Number Transformation 2014 | 4.0.0.6 |  |  |  |  |  |  |
+| LANDesk Software, Ltd | LANDesk(R) Common Base Agent 8 | 10.1.30.36 |  |  |  |  |  |  |
+| Microsoft | Visual C++ 2012 RTM Runtime Library DLLs (x64/release) | 11.0.50727.1 |  |  |  |  |  |  |
+| Microsoft | Visual C++ 9.0 SP1+KB971092 Runtime DLLs (x64/release) | 9.0.30729.4148 |  |  |  |  |  |  |
+| Microsoft | MergeModule2012 | 1.0.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Additional Runtime - 14.28.29913 | 14.28.29913 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40660 | 12.0.40660 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft OLE DB Driver for SQL Server | 18.3.0.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Help Viewer 2.3 | 2.3.28107 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Additional Runtime - 14.28.29913 | 14.28.29913 |  |  |  |  |  |  |
+| Microsoft Corporation | Configuration Manager Client | 5.00.8790.1000 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server Management Studio for Reporting Services | 15.0.18369.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40660 | 12.0.40660 |  |  |  |  |  |  |
+| Microsoft Corporation | SSMS Post Install Tasks | 15.0.18369.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio 2010 Tools for Office Runtime (x64) | 10.0.50908 |  |  |  |  |  |  |
+| Microsoft Corporation | Integration Services | 15.0.2000.130 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.28.29913 | 14.28.29913 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2012 Native Client | 11.4.7462.6 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030 | 11.0.61030 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40660 | 12.0.40660 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft ODBC Driver 17 for SQL Server | 17.5.1.1 |  |  |  |  |  |  |
+| Microsoft Corporation | Visual Studio 2017 Isolated Shell for SSMS | 15.0.28307.421 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Analysis Services OLE DB Provider | 15.0.2000.568 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030 | 11.0.61030 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030 | 11.0.61030 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server Management Studio | 15.0.18369.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40660 | 12.0.40660 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio Tools for Applications 2017 x64 Hosting Support | 15.0.27520 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.28.29913 | 14.28.29913 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030 | 11.0.61030 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio Tools for Applications 2017 x86 Hosting Support | 15.0.27520 |  |  |  |  |  |  |
+| Microsoft Corporation | Active Directory Authentication Library for SQL Server | 15.0.1300.359 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server Management Studio for Analysis Services | 15.0.18369.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Policy Platform | 68.1.1010.0 |  |  |  |  |  |  |
+| Microsoft Corporation | System Center Operations Manager 2007 R2 Agent | 6.1.7221.0 |  |  |  |  |  |  |
+| Microsoft Corporation | MSXML 4.0 SP3 Parser (KB2758694) | 4.30.2117.0 |  |  |  |  |  |  |
+| Microsoft Corporation | MSXML 4.0 SP3 Parser (KB2721691) | 4.30.2114.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 ATL Update kb973923 - x86 8.0.50727.4053 | 8.0.50727.4053 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148 | 9.0.30729.4148 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x64 9.0.21022 | 9.0.21022 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable (x64) | 8.0.61000 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x64 9.0.21022.218 | 9.0.21022.218 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio 2010 Tools for Office Runtime (x64) | 10.0.60729 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable (x64) - KB2467175 | 8.0.51011 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft .NET Framework 4.6 | 4.6.00081 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 | 9.0.30729.6161 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 | 9.0.30729.6161 |  |  |  |  |  |  |
+| Microsoft Corporation | MSXML 4.0 SP2 (KB973688) | 4.20.9876.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable (x64) | 8.0.56336 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable (x64) | 8.0.59192 |  |  |  |  |  |  |
+| Microsoft Corporation | IIS URL Rewrite Module 2 | 7.2.2 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - KB2467174 - x64 9.0.30729.5570 | 9.0.30729.5570 |  |  |  |  |  |  |
+| Microsoft Corporation | Configuration Manager Client | 5.00.9012.1000 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 ATL Update kb973924 - x64 9.0.30729.4148 | 9.0.30729.4148 |  |  |  |  |  |  |
+| Microsoft Corporation | WIMGAPI | 1.0.0.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 ATL Update kb973923 - x64 8.0.50727.4053 | 8.0.50727.4053 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable | 8.0.61001 |  |  |  |  |  |  |
+| Microsoft Corporation | System Center Essentials Configuration Helper | 7.0.2432.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148 | 9.0.30729.4148 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Silverlight | 5.1.50918.0 |  |  |  |  |  |  |
+| Microsoft Corporation | MSXML 4.0 SP2 (KB954430) | 4.20.9870.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Additional Runtime - 14.29.30040 | 14.29.30040 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.29.30040 | 14.29.30040 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 | 14.24.28127 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft System CLR Types for SQL Server 2012 (x64) | 11.4.7001.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2012 Management Objects  (x64) | 11.4.7001.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2012 Express LocalDB | 11.4.7001.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 | 14.24.28127 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Application Error Reporting | 12.0.6012.5000 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server System CLR Types | 10.51.2500.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Help Viewer 1.1 | 1.1.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974 | 9.0.30729.4974 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Integration Services | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 SQL Data Quality Common | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Sql Server Customer Experience Improvement Program | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Transact-SQL ScriptDom | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | Visual Studio 2010 Prerequisites - English | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2010  x86 Runtime - 10.0.40219 | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Database Engine Services | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2008 Setup Support Files | 10.3.5500.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio 2010 Shell (Isolated) - ENU | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Common Files | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2008 R2 Management Objects | 10.51.2500.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft VSS Writer for SQL Server 2014 | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Full text search | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio Tools for Applications x86 Runtime 3.0 | 10.0.40220 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server Browser for SQL Server 2014 | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 RsFx Driver | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Management Studio | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft ODBC Driver 11 for SQL Server | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft .NET Framework 4 Multi-Targeting Pack | 4.0.30319 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Database Engine Shared | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio Tools for Applications x64 Runtime 3.0 | 10.0.40220 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Transact-SQL Compiler Service | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Client Tools | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Setup (English) | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Report Viewer 2014 Runtime | 12.0.2000.8 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Policies | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft System CLR Types for SQL Server 2014 (x64) | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Data quality client | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Data quality service | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Setup (English) | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft ODBC Driver 11 for SQL Server | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft System CLR Types for SQL Server 2014 (x64) | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Transact-SQL ScriptDom | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Transact-SQL Compiler Service | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 RsFx Driver | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Data quality service | 12.0.2000.8 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.27.29016 | 14.27.29016 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Additional Runtime - 14.27.29016 | 14.27.29016 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Additional Runtime - 14.27.29016 | 14.27.29016 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.27.29016 | 14.27.29016 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server Data-Tier Application Framework (x64) | 15.0.5282.3 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft System CLR Types for SQL Server 2012 (x64) | 11.0.2100.60 |  |  |  |  |  |  |
+| Microsoft Corporation | VS Script Debugging Common | 16.0.102.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Report Viewer 2012 Runtime | 11.1.3452.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Web Deploy 3.6 | 10.0.1973 |  |  |  |  |  |  |
+| Microsoft patterns & practices | Enterprise Library 4.1 - October 2008 | 4.1.0.0 |  |  |  |  |  |  |
+| PGP Corporation | PGP Command Line | 10.2.1.54 |  |  |  |  |  |  |
+| Qualys, Inc. | Qualys Cloud Security Agent | 4.6.1.6 |  |  |  |  |  |  |
+| SolarWinds Worldwide, LLC | SolarWinds Agent 2020.2.50025.6 | 120.2.50025.6 |  |  |  |  |  |  |
+| Veeam Software Group GmbH | Veeam Agent for Microsoft Windows | 3.0.2.1170 |  |  |  |  |  |  |
+| VMware, Inc. | VMware Tools | 11.3.5.18557794 |  |  |  |  |  |  |
+| VMware, Inc. | VMware Tools | 11.2.5.17337674 |  |  |  |  |  |  |
 | 1Password | 1Password | | Not affected | | [1Password public response on Reddit](https://www.reddit.com/r/1Password/comments/rea7dd/comment/hoe41ci) | | | 12/20/2021 |
 | 2n | | | | | [2n Advisory Link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) | | | |
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
