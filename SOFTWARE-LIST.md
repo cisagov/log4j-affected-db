@@ -52,7 +52,7 @@ This list was initially populated using information from the following sources:
 | Advanced Systems Concepts (formally Jscape) | MFT Server | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
 | Advanced Systems Concepts (formally Jscape) | MFT Gateway | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
 | Advanced Systems Concepts (formally Jscape) | MFT | | Not Affected | No | [Log4J Vulnerabilty](https://support.advsyscon.com/hc/en-us/articles/4413631831569) | This advisory is available to customers only and has not been reviewed by CISA | | 12/14/2021 |
-| Akamai | SIEM Splunk Connector | All | Affected | Yes | [Akamai SIEM Integration](https://splunkbase.splunk.com/app/4310/) | v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities | | 12/15/2021 | 
+| Akamai | SIEM Splunk Connector | All | Affected | Yes | [Akamai SIEM Integration](https://splunkbase.splunk.com/app/4310/) | v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities | | 12/15/2021 |
 | Alcatel | | | | | [Alcatel Link](https://dokuwiki.alu4u.com/doku.php?id=log4j) | | | |
 | Alertus | | | | | [Alertus Article Link](https://help.alertus.com/s/article/Security-Advisory-Log4Shell-Vulnerability?language=en_US) | | | |
 | Alexion | | | | | [Alexion Blog Post](https://alexion.nl/blog/alexion-crm-niet-vatbaar-voor-log4shell) | | | |
