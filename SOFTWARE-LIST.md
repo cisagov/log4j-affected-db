@@ -2626,7 +2626,7 @@ download | | 12/20/2021 |
 | Tech Software | Study Binders | All versions | Not Affected | | [Log4j CVE-2021-44228 Vulnerability Impact Statement](https://support.techsoftware.com/hc/en-us/articles/4412825948179) | Study Binders does not use Log4j. | | 12/15/2021 |
 | TechSmith | | | | | [TechSmith Article](https://support.techsmith.com/hc/en-us/articles/4416620527885?input_string=log4j) | | | |
 | Telestream | | | | | [Telestream Bulletin](http://www.telestream.net/telestream-support/Apache-Log4j2-Bulletin.htm) | | | |
-| Tenable | Tenable.io / Nessus | | Not Affected | | [Tenable log4j Statement](https://www.tenable.com/log4j) | None of Tenable’s products are running the version of Log4j vulnerable to CVE-2021-44228 or CVE-2021-45046 at this time | |
+| Tenable | Tenable.io / Nessus | | Not Affected | | [Tenable log4j Statement](https://www.tenable.com/log4j) | None of Tenable’s products are running the version of Log4j vulnerable to CVE-2021-44228 or CVE-2021-45046 at this time | | |
 | Thales | CipherTrust Application Data Protection (CADP) – CAPI.net & Net Core | | Not Affected | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | 12/17/2021 |
 | Thales | CipherTrust Cloud Key Manager (CCKM) Embedded | | Not Affected | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | 12/17/2021 |
 | Thales | CipherTrust Database Protection | | Not Affected | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | 12/17/2021 |
