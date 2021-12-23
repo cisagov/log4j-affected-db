@@ -1866,7 +1866,7 @@ This list was initially populated using information from the following sources:
 | Loftware | | | | | [Loftware](https://help.loftware.com/lps-kb/content/log4j%20cve-2021-44228.htm?Highlight=CVE-2021-44228) | | | |
 | LOGalyze | SIEM & log analyzer tool | v4.x | Affected | No | [abandoned open-source software repo (sourceforge.net)](https://sourceforge.net/software/product/LOGalyze/) | local-log4j-vuln-scanner result: indicator for vulnerable component found in /logalyze/lib/log4j-1.2.17.jar (org/apache/log4j/net/SocketNode.class): log4j 1.2.17 | [Forks (github.com)](https://github.com/search?q=logalyzer&s=updated&type=Repositories) | 2021-12-17 |
 | LogiAnalytics | | | | | [LogiAnalytics Statement](https://devnet.logianalytics.com/hc/en-us/articles/4415781801751-Statement-on-Log4j-Vulnerability-CVE-2021-44228-) | | | |
-| LogicMonitor | | | | | [LogicMonitor Statement](https://www.logicmonitor.com/support/log4shell-security-vulnerability-cve-2021-44228) | | | |
+| LogicMonitor | LogicMonitor Platform | | Not Affected | | [Log4j Security Vulnerabilities](https://www.logicmonitor.com/support/log4shell-security-vulnerability-cve-2021-44228) | | | |
 | LogMeIn | | | | | [LogMeIn Statement](https://community.logmein.com/t5/LogMeIn-Central-Discussions/LOG4J-Vulnerability/m-p/280317/highlight/true#M8327) | | | |
 | LogRhythm | | | | | [LogRhythm Statement](https://community.logrhythm.com/t5/Product-Security/LogRhythm-Response-to-the-Apache-Log4J-Vulnerability-Log4Shell/td-p/494068) | | | |
 | Looker | Looker | 21.0, 21.6, 21.12, 21.16, 21.18, 21.20 | Affected | Yes | [Looker Statement](https://docs.google.com/document/d/e/2PACX-1vQGN1AYNMHxsRQ9AZNu1bKyTGRUSK_9xkQBge-nu4p8PYvBKIYHhc3914KTfVtDFIXtDhc3k6SZnR2M/pub) | | | |
