@@ -2690,14 +2690,14 @@ download | | 12/20/2021 |
 | Thermo Fisher Scientific | | | Unknown | | [Thermo Fisher Scientific Advisory Link](https://corporate.thermofisher.com/us/en/index/about/information-security/Protecting-Our-Products.html) | | | 12/22/2021 |
 | Thomson Reuters | HighQ Appliance | <3.5 | Affected | Yes | [https://highqsolutions.zendesk.com](https://highqsolutions.zendesk.com) | Reported by vendor - Documentation is in vendor's client portal (login required).  This advisory is available to customer only and has not been reviewed by CISA. | | 12/20/2021 |
 | ThreatLocker | | | | | [ThreatLocker Log4j Statement](https://threatlocker.kb.help/log4j-vulnerability/) | | | |
-| ThycoticCentrify | Secret Server | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
-| ThycoticCentrify | Privilege Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
-| ThycoticCentrify | Account Lifecycle Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
-| ThycoticCentrify | Privileged Behavior Analytics | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
-| ThycoticCentrify | DevOps Secrets Vault | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
-| ThycoticCentrify | Connection Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
-| ThycoticCentrify | Password Reset Server | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
-| ThycoticCentrify | Cloud Suite | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/15 |
+| ThycoticCentrify | Secret Server | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
+| ThycoticCentrify | Privilege Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
+| ThycoticCentrify | Account Lifecycle Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
+| ThycoticCentrify | Privileged Behavior Analytics | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
+| ThycoticCentrify | DevOps Secrets Vault | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
+| ThycoticCentrify | Connection Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
+| ThycoticCentrify | Password Reset Server | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
+| ThycoticCentrify | Cloud Suite | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
 | Tibco | | | | | [Tibco Support Link](https://www.tibco.com/support/notices/2021/12/apache-log4j-vulnerability-update) | | | |
 | Top Gun Technology (TGT) | | | | | [TGT Bulletin](https://www.topgun-tech.com/technical-bulletin-apache-software-log4j-security-vulnerability-cve-2021-44228/) | | | |
 | TopDesk | | | | | [TopDesk Statement](https://my.topdesk.com/tas/public/ssp/content/detail/knowledgeitem?unid=74952771dfab4b0794292e63b0409314) | | | |
@@ -2858,6 +2858,6 @@ download | | 12/20/2021 |
 | Zimbra | | | | | [BugZilla Zimbra](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) | | | |
 | Zoom | | | | | [Zoom Security Exposure](https://explore.zoom.us/en/trust/security/security-bulletin/security-bulletin-log4j/?=nocache) | | | |
 | ZPE systems Inc | | | | | [ZpeSystems CVE-2021-44228](https://support.zpesystems.com/portal/en/kb/articles/is-nodegrid-os-and-zpe-cloud-affected-by-cve-2021-44228-apache-log4j) | | | |
-| Zscaler | See Link (Multiple Products) | | Not Affected | No | [CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581) | | | 12/15/2012 |
+| Zscaler | See Link (Multiple Products) | | Not Affected | No | [CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581) | | | 12/15/2021 |
 | Zyxel | | | | | [Zyxel Security Advisory for Apache Log4j](https://www.zyxel.com/support/Zyxel_security_advisory_for_Apache_Log4j_RCE_vulnerability.shtml) | | | |
 | Zyxel | Security Firewall/Gateways | ZLD Firmware Security Services, Nebula | Not Affected | N/A | [Zyxel Security Advisory](https://community.zyxel.com/en/discussion/12229/zyxel-security-advisory-for-apache-log4j-rce-vulnerability) | | | 12/14/2021 |
