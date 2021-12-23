@@ -36,16 +36,29 @@ National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.
 
 ## Mitigation Guidance ##
 
-When updates are available, agencies must update software using Log4j to the newest version, which is the most effective and manageable long-term option. Where updating is not possible, the following mitigating measures can be considered as a temporary solution and apply to the entire solution stack.
+When updates are available, agencies must update software using Log4j to the newest version, 
+which is the most effective and manageable long-term option. Where updating is not possible, 
+the following mitigating measures can be considered as a temporary solution and apply to the 
+entire solution stack.
 
-- Disable Log4j library. Disabling software using the Log4j library is an effective measure, favoring controlled downtime over adversary-caused issues. This option could cause operational impacts and limit visibility into other issues.
-- Disable JNDI lookups or disable remote codebases. This option, while effective, may involve developer work and could impact functionality.
-- Disconnect affected stacks. Solution stacks not connected to agency networks pose a dramatically lower risk from attack. Consider temporarily disconnecting the stack from agency networks.
-- Isolate the system. Create a “vulnerable network” VLAN and segment the solution stack from the rest of the enterprise network.
-- Deploy a properly configured Web Application Firewall (WAF) in front of the solution stack. Deploying a WAF is an important, but incomplete, solution. While threat actors will be able to bypass this mitigation, the reduction in alerting will allow an agency SOC to focus on a smaller set of alerts.
-- Apply micropatch. There are several micropatches available. They are not a part of the official update but may limit agency risk.
+- Disable Log4j library. Disabling software using the Log4j library is an effective measure, 
+favoring controlled downtime over adversary-caused issues. This option could cause operational 
+impacts and limit visibility into other issues.
+- Disable JNDI lookups or disable remote codebases. This option, while effective, may involve 
+developer work and could impact functionality.
+- Disconnect affected stacks. Solution stacks not connected to agency networks pose a dramatically 
+lower risk from attack. Consider temporarily disconnecting the stack from agency networks.
+- Isolate the system. Create a “vulnerable network” VLAN and segment the solution stack from the 
+rest of the enterprise network.
+- Deploy a properly configured Web Application Firewall (WAF) in front of the solution stack. 
+Deploying a WAF is an important, but incomplete, solution. While threat actors will be able to 
+bypass this mitigation, the reduction in alerting will allow an agency SOC to focus on a smaller 
+set of alerts.
+- Apply micropatch. There are several micropatches available. They are not a part of the official 
+- update but may limit agency risk.
 
-For more information regarding CISA recommended mitigation measures please visit [here](https://www.cisa.gov/uscert/ed-22-02-apache-log4j-recommended-mitigation-measures).
+For more information regarding CISA recommended mitigation measures please visit 
+[here](https://www.cisa.gov/uscert/ed-22-02-apache-log4j-recommended-mitigation-measures).
 
 ## Software List ##
 
