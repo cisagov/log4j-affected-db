@@ -579,7 +579,6 @@ This list was initially populated using information from the following sources:
 | dCache.org | | | | | [dCache.org Link](https://www.dcache.org/post/log4j-vulnerability/) | | | |
 | Debian | | | | | [Debian Tracker Link](https://security-tracker.debian.org/tracker/CVE-2021-44228) | | | |
 | Deepinstinct | | | | | [Deepinstinct Link](https://www.deepinstinct.com/blog/log4shell-cve-2021-44228-what-you-need-to-know) | | | |
-| Deltares | Delft-FEWS | >2018.02 | Fixed | No | [Deltares Advisory](https://publicwiki.deltares.nl/display/FEWSDOC/Delft-FEWS+and+Log4J+vulnerability) | Mitigations Only | | 12/22/2021
 | Dell | Alienware Command Center | N/A | Not Affected | N/A | [Dell Response to Apache Log4j Remote Code Execution Vulnerability (CVE-2021-44228)](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) | | | 12/15/2021 |
 | Dell | Alienware OC Controls | N/A | Not Affected | N/A | [Dell Response to Apache Log4j Remote Code Execution Vulnerability (CVE-2021-44228)](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) | | | 12/15/2021 |
 | Dell | Alienware On Screen Display | N/A | Not Affected | N/A | [Dell Response to Apache Log4j Remote Code Execution Vulnerability (CVE-2021-44228)](https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability) | | | 12/15/2021 |
@@ -2706,7 +2705,6 @@ download | | 12/20/2021 |
 | TPLink |Omega Controller|Linux/Windows(all)|Affected|Yes|[Statement on Apache Log4j Vulnerability](https://www.tp-link.com/us/support/faq/3255)|Update is Beta. Reddit: overwritten vulnerable log4j with 2.15 files as potential workaround. Though that should now be done with 2.16|[Tp Community Link](https://community.tp-link.com/en/business/forum/topic/514452),[Reddit Link](https://www.reddit.com/r/TPLink_Omada/comments/rdzvlp/updating_the_sdn_to_protect_against_the_log4j)|12/15/2021|
 | TrendMicro | All | | Under Investigation | | [https://success.trendmicro.com/solution/000289940](https://success.trendmicro.com/solution/000289940) | | | |
 | Tricentis Tosca | | | | | [Tricentis Tosca Statement](https://support-hub.tricentis.com/open?number=NEW0001148&id=post) | | | |
-| Trimble | eCognition | 10.2.0 Build 4618 | Affected | No | Details are shared with active subscribers | Remediation steps provided by Trimble | | 12/23/2021 |
 | Tripwire | | | | | [Tripwire Log4j Statement](https://www.tripwire.com/log4j) | | | |
 | TrueNAS | | | | | [TrueNAS Statement](https://www.truenas.com/community/threads/log4j-vulnerability.97359/post-672559) | | | |
 | Tufin | | | | | [Tufin Statement](https://portal.tufin.com/articles/SecurityAdvisories/Apache-Log4Shell-Vulnerability-12-12-2021) | | | |
