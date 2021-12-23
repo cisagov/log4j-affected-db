@@ -75,9 +75,11 @@ This list was initially populated using information from the following sources:
 | Amazon | AWS ELB | Unknown | Fixed | | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/16/2021 |
 | Amazon | AWS Kinesis Data Stream | Unknown | Affected | Yes | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | We are actively patching all sub-systems that use Log4j2 by applying updates. The Kinesis Client Library (KCL) version 2.X and the Kinesis Producer Library (KPL) are not impacted. For customers using KCL 1.x, we have released an updated version and we strongly recommend that all KCL version 1.x customers upgrade to KCL version 1.14.5 (or higher) | | 12/14/2021 |
 | Amazon | OpenSearch | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/), [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | Translate | | Not affected | | [Amazon Translate](https://aws.amazon.com/translate/) | Service not identified on [AWS Log4j Security Bulletin](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | |
 | Anaconda | Anaconda | 4.10.3 | Not Affected |  | [https://docs.conda.io/projects/conda/en/latest/index.html](https://docs.conda.io/projects/conda/en/latest/index.html) | | | 12/21/2021 |
 | Apache | ActiveMQ Artemis | All | Not Affected | Yes | [ApacheMQ - Update on CVE-2021-4428](https://activemq.apache.org/news/cve-2021-44228) | ActiveMQ Artemis does not use Log4j for logging. However, Log4j 1.2.17 is included in the Hawtio-based web console application archive (i.e. [web/console.war/WEB-INF/lib](web/console.war/WEB-INF/lib)). Although this version of Log4j is not impacted by CVE-2021-44228 future versions of Artemis will be updated so that the Log4j jar is no longer included in the web console application archive. See [ARTEMIS-3612](https://issues.apache.org/jira/browse/ARTEMIS-3612) for more information on that task. | | 12/21/2021 |
 | AMD | All | | Not Affected | | [AMD Advisory Link](https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1034) | Currently, no AMD products have been identified as affected.  AMD is continuing its analysis. | | 12/22/2021 |
+| Apache | Airflow | | Not affected | | [Apache Airflow](https://github.com/apache/airflow/tree/main/airflow) | Airflow is written in Python | | |
 | Apache | Camel | 3.14.1.3.11.5,3.7.7 | Affected | Yes | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/)| Apache Camel does not directly depend on Log4j 2, so we are not affected by CVE-2021-44228.If you explicitly added the Log4j 2 dependency to your own applications, make sure to upgrade.Apache Camel does use log4j during testing itself, and therefore you can find that we have been using log4j v2.13.3 release in our latest LTS releases Camel 3.7.6, 3.11.4. | | 12/13/2021 |
 | Apache | Camel Quarkus | | Not Affected | No | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/) | | | 12/13/2021 |
 | Apache | Camel K | | Not Affected | No | [APACHE CAMEL AND CVE-2021-44228 (LOG4J)](https://camel.apache.org/blog/2021/12/log4j2/) | | | 12/13/2021 |
@@ -101,6 +103,7 @@ This list was initially populated using information from the following sources:
 | Appdynamics | | | | | [Appdynamics Advisory Link](https://docs.appdynamics.com/display/PAA/Security+Advisory%3A+Apache+Log4j+Vulnerability) | | | |
 | Appeon | PowerBuilder | Appeon PowerBuilder 2017-2021 regardless of product edition | Affected | No | | | |12/15/2021|
 | AppGate | | | | | [AppGate Blog Post](https://www.appgate.com/blog/appgate-sdp-unaffected-by-log4j-vulnerability) | | | |
+| Application Performance Ltd | DBMarlin | | Not Affected | | [Common Vulnerabilities Apache log4j Vulnerability CVE-2021-4428](https://docs.dbmarlin.com/docs/faqs/frequently-asked-questions/?_ga=2.72968147.1563671049.1639624574-1296952804.1639624574#apache-log4j-vulnerability-cve-2021-4428) | | | 12/15/2021 |
 | APPSHEET | | | | | [APPSHEET Community Link](https://community.appsheet.com/t/appsheet-statement-on-log4j-vulnerability-cve-2021-44228/59976) | | | |
 | Aptible | Aptible | ElasticSearch 5.x | Affected | Yes | [Aptible Status - Log4j security incident CVE-2021-27135](https://status.aptible.com/incidents/gk1rh440h36s?u=zfbcrbt2lkv4) | | | |
 | APC by Schneider Electric | Powerchute Business Edition | v9.5, v10.0.1, v10.0.2, v10.0.3, v10.0.4 | Fixed | No | [https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345](https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345) | Mitigation instructions to remove the affected class. | | 12/15/2021 |
@@ -221,6 +224,7 @@ This list was initially populated using information from the following sources:
 | BitNami By VMware | | | | | [BitNami By VMware](https://docs.bitnami.com/general/security/security-2021-12-10/) | | | |
 | BitRise | | | | | [BitRise Post](https://blog.bitrise.io/post/bitrises-response-to-log4j-vulnerability-cve-2021-44228) | | | |
 | Bitwarden | | | Not Affected | | [Bitwarden Community Link](https://community.bitwarden.com/t/log4j-log4shell-cve-is-bitwarden-affected-due-to-docker-image/36177/2) | | | |
+| Biztory | Fivetran | | Not Affected | | [Apache Log4j2 Vulnerability - Updates For Biztory Clients](https://www.biztory.com/blog/apache-log4j2-vulnerability) | | Vendor review indicated Fivetran is not vulnerable to Log4j2 | |
 | Black Kite | | | | | [Black Kite Link](https://blackkite.com/log4j-rce-vulnerability-log4shell-puts-millions-at-risk/) | | | |
 | Blancco | | | | | [Blancco Support Link](https://support.blancco.com/display/NEWS/2021/12/12/CVE-2021-44228+-+Critical+vulnerability+in+Apache+Log4j+library) | | | |
 | Blumira | | | | | [Blumira Link](https://www.blumira.com/cve-2021-44228-log4shell/) | | | |
@@ -330,6 +334,7 @@ This list was initially populated using information from the following sources:
 | Canon | Vitrea Advanced 7.x | | Under Investigation | | [Canon Advisory Link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) | | | 12/22/2021 |
 | Canon | Infinix-i (Angio Workstation) | | Under Investigation | | [Canon Advisory Link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) | | | 12/22/2021 |
 | Canon | Alphenix (Angio Workstation) | | Under Investigation | | [Canon Advisory Link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) | | | 12/22/2021 |
+| CapStorm | Copystorm | | Under Investigation | |  | | | 12/22/2021 |
 | CarbonBlack | | | | | [CarbonBlack Advisory](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | |
 | Carestream | | | Not Affected | |[Carestream Advisory Link](https://www.carestream.com/en/us/services-and-support/cybersecurity-and-privacy) | | | 12/20/2021 |
 | CAS genesisWorld | | | | | [CAS genesisWorld Link](https://helpdesk.cas.de/CASHelpdesk/FAQDetails.aspx?gguid=0x79F9E881EE3C46C1A71BE9EB3E480446) | | | |
@@ -1927,6 +1932,7 @@ This list was initially populated using information from the following sources:
 | McAfee | Web Gateway (MWG) |  | Foxed | | [https://kc.mcafee.com/agent/index?page=content&id=SB10377](https://kc.mcafee.com/agent/index?page=content&id=SB10377) | | | 12/20/2021 |
 | Medtronic | | | Under Investigation | | [Medtronic Advisory Link](https://global.medtronic.com/xg-en/product-security/security-bulletins/log4j-vulnerabilities.html) | | | 12/21/2021 |
 | MEINBERG | | | | | [MEINBERG Information](https://www.meinbergglobal.com/english/news/meinberg-lantime-and-microsync-systems-not-at-risk-from-log4j-security-exploit.htm) | | | |
+| Meltano | Meltano |  | Not affected | | [Meltano](https://github.com/meltano/meltano) | Project is written in Python | | |
 | Memurai | | | | | [Memurai Information](https://www.memurai.com/blog/apache-log4j2-cve-2021-44228) | | | |
 | MicroFocus | | | | | [MicroFocus Statement](https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228) | | | |
 | Microsoft | Azure Application Gateway | | Not Affected | | [Microsoft’s Response to CVE-2021-44228 Apache Log4j 2](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) | | | |
@@ -2618,7 +2624,7 @@ download | | 12/20/2021 |
 | Tech Software | Study Binders | All versions | Not Affected | | [Log4j CVE-2021-44228 Vulnerability Impact Statement](https://support.techsoftware.com/hc/en-us/articles/4412825948179) | Study Binders does not use Log4j. | | 12/15/2021 |
 | TechSmith | | | | | [TechSmith Article](https://support.techsmith.com/hc/en-us/articles/4416620527885?input_string=log4j) | | | |
 | Telestream | | | | | [Telestream Bulletin](http://www.telestream.net/telestream-support/Apache-Log4j2-Bulletin.htm) | | | |
-| Tenable | | | Not Affected | | [Tenable log4j Statement](https://www.tenable.com/log4j) | None of Tenable’s products are running the version of Log4j vulnerable to CVE-2021-44228 or CVE-2021-45046 at this time | | |
+| Tenable | Tenable.io / Nessus | | Not Affected | | [Tenable log4j Statement](https://www.tenable.com/log4j) | None of Tenable’s products are running the version of Log4j vulnerable to CVE-2021-44228 or CVE-2021-45046 at this time | | |
 | Thales | CipherTrust Application Data Protection (CADP) – CAPI.net & Net Core | | Not Affected | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | 12/17/2021 |
 | Thales | CipherTrust Cloud Key Manager (CCKM) Embedded | | Not Affected | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | 12/17/2021 |
 | Thales | CipherTrust Database Protection | | Not Affected | | [Thales Support](https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297) | | | 12/17/2021 |
