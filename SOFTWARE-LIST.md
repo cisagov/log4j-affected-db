@@ -19,7 +19,7 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product | Version(s) | Status | Update Available | Vendor Link | Notes | Other References | Last Updated |
 | ------ | ------- | ---------- | ------ | ---------------- | ----------- | ----- | ---------------- | ------------ |
-| 1Password | 1Password | | Not affected | | [1Password public response on Reddit](https://www.reddit.com/r/1Password/comments/rea7dd/comment/hoe41ci) | | | 12/20/2021 |
+| 1Password | All products | | Not affected | | [1Password statement](https://support.1password.com/kb/202112/) | | | 12/23/2021 |
 | 2n | | | | | [2n Advisory Link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) | | | |
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
 | 3M Health Information Systems | CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) | This advisory is available to customer only and has not been reviewed by CISA. | | 12/15/2021 |
@@ -2053,6 +2053,7 @@ download | | 12/20/2021 |
 | OpenMRS TALK | | | | | [OpenMRS TALK Link](https://talk.openmrs.org/t/urgent-security-advisory-2021-12-11-re-apache-log4j-2/35341) | | | |
 | OpenNMS | | | | | [OpenNMS Link](https://www.opennms.com/en/blog/2021-12-10-opennms-products-affected-by-apache-log4j-vulnerability-cve-2021-44228/) | | | |
 | OpenSearch | | | | | [OpenSearch Discussion Link](https://discuss.opendistrocommunity.dev/t/log4j-patch-for-cve-2021-44228/7950) | | | |
+| OpenText | | | | | [OpenText Log4J Remote Code Execution](https://www.opentext.com/support/log4j-remote-code-execution-advisory) | | | 12/23/2021 |
 | Oracle | | | Affected | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) [My Oracle Support Document](https://support.oracle.com/rs?type=doc&id=2827611.1) | The support document is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
 | Oracle | Exadata |  | Affected |  |  |  |  |  |
 | Oracle | Enterprise Manager | | Affected |  |  |  |  |  |
