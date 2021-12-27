@@ -1938,6 +1938,7 @@ This list was initially populated using information from the following sources:
 | Meltano | Meltano |  | Not affected | | [Meltano](https://github.com/meltano/meltano) | Project is written in Python | | |
 | Memurai | | | | | [Memurai Information](https://www.memurai.com/blog/apache-log4j2-cve-2021-44228) | | | |
 | MicroFocus | | | | | [MicroFocus Statement](https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228) | | | |
+| Microsoft | Active Directory Federated Service (ADFS) | Windows Server 2012 | Not Affected | | | | | | 
 | Microsoft | Azure Application Gateway | | Not Affected | | [Microsoft’s Response to CVE-2021-44228 Apache Log4j 2](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) | | | |
 | Microsoft | Azure API Gateway | | Not Affected | | [Microsoft’s Response to CVE-2021-44228 Apache Log4j 2](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) | | | |
 | Microsoft | Azure Data lake store java | < 2.3.10 | Affected | | [azure-data-lake-store-java/CHANGES.md at ed5d6304783286c3cfff0a1dee457a922e23ad48 · Azure/azure-data-lake-store-java · GitHub](https://github.com/Azure/azure-data-lake-store-java/blob/ed5d6304783286c3cfff0a1dee457a922e23ad48/CHANGES.md#version-2310) | | | |
