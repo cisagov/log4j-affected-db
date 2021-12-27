@@ -2246,6 +2246,7 @@ download | | 12/20/2021 |
 | Red Hat OpenStack Platform 13 (Queens) | opendaylight | | Affected | No | [CVE-2021-44228- Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2021-44228) | End of Life | | Dec/21/2021 |
 | Red5Pro | | | | | [Red5Pro Link](https://www.red5pro.com/blog/red5-marked-safe-from-log4j-and-log4j2-zero-day/) | | | |
 | RedGate | | | | | [RedGate Link](https://www.red-gate.com/privacy-and-security/vulnerabilities/2021-12-15-log4j-statement) | | | |
+| Regula Forensics | Regula Forensics and Application Document Reader SDK | | Not Affected | | [https://github.com/regulaforensics/DocumentReader-Flutter](https://github.com/regulaforensics/DocumentReader-Flutter) | | | 12/27/2021 |
 | ResMed | myAir | | Not Affected | | [ResMed Advisory Link](https://www.resmed.com/en-us/security/) | | | 12/21/2021 |
 | ResMed | AirView | | Not Affected | | [ResMed Advisory Link](https://www.resmed.com/en-us/security/) | | | 12/21/2021 |
 | Redis | | | | | [Redis Link](https://redis.com/security/notice-apache-log4j2-cve-2021-44228/) | | | |
