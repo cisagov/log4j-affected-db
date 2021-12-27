@@ -1,0 +1,58 @@
+---
+name: Update a Product
+description: Update information about a product in the database
+title: "[Product Update]: <vendor> - <product>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For questions about choice for status, please see the information below.
+
+        - Unknown - Status unknown. Default choice.
+        - Affected - Reported to be affected by CVE-2021-44228.
+        - Not Affected - Reported to NOT be affected by CVE-2021-44228 and no
+          further action necessary.
+        - Fixed - Patch and/or mitigations available (see provided links).
+        - Under Investigation - Vendor investigating status.
+  - type: textarea
+    id: update-context
+    attributes:
+      label: Context
+      description: Please provide context around the update
+  - type: input
+    id: product-versions
+    attributes:
+      label: Product version(s)
+      description: What version(s) of the product are affected?
+  - type: dropdown
+    id: product-status
+    attributes:
+      label: Product status
+      description: What is the current status of the affected product?
+      options:
+        - Unknown
+        - Affected
+        - Not Affected
+        - Fixed
+        - Under Investigation
+  - type: dropdown
+    id: product-updated
+    attributes:
+      label: Product update available
+      description: Is there an update available for the product?
+      options:
+        - "Yes"
+        - "No"
+  - type: input
+    id: product-update-link
+    attributes:
+      label: Product update link
+      description: If an update is available where can it be found?
+  - type: textarea
+    id: product-notes
+    attributes:
+      label: Notes
+  - type: textarea
+    id: product-references
+    attributes:
+      label: References
