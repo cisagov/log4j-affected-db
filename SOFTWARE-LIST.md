@@ -24,6 +24,8 @@ This list was initially populated using information from the following sources:
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
 | 3M Health Information Systems | CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) | This advisory is available to customer only and has not been reviewed by CISA. | | 12/15/2021 |
 | 7-Zip | | | | | [7Zip Discussion Link](https://sourceforge.net/p/sevenzip/discussion/45797/thread/b977bbd4d1) | | | |
+| AAMVA | UNI4.5 (v4.5) | 4.5.0.0 |  |  |  |  |  |  |
+| AAMVA | UNI4.5 Web UI (v4.5) | 4.5.0.0 |  |  |  |  |  |  |
 | ABB | | | | | [ABB Link](https://search.abb.com/library/Download.aspx?DocumentID=9ADB012621&LanguageCode=en&DocumentPartId=&Action=Launch) | | | |
 | ABB | ABB Remote Service | ABB Remote Platform (RAP) | Affected | | Details are shared with active subscribers | | | |
 | ABB | AlarmInsight Cloud | AlarmInsight KPI Dashboards 1.0.0 | Under Investigation | | | | | |
@@ -35,10 +37,14 @@ This list was initially populated using information from the following sources:
 | Acquia | | | | | [Acquia Article](https://support.acquia.com/hc/en-us/articles/4415823329047-Apache-log4j-CVE-2021-44228) | | | |
 | Acronis | | | | | [Acronis Advisory Link](https://security-advisory.acronis.com/advisories/SEC-3859) | | | |
 | ActiveState | | | | | [ActiveState Blog Post](https://www.activestate.com/blog/activestate-statement-java-log4j-vulnerability/) | | | |
+| ActivIdentity | ActivClient x64 | 6.2 |  |  |  |  |  |  |
 | Adaptec | | | | | [Adaptec Link](https://ask.adaptec.com/app/answers/detail/a_id/17523/kw/log4j) | | | |
 | Addigy | | | | | [Addigy Blog Post](https://addigy.com/blog/addigy-and-apaches-log4j2-cve-2021-44228-status/) | | | |
 | Adeptia | | | | | [Adeptia Article](https://support.adeptia.com/hc/en-us/articles/4412815509524-CVE-2021-44228-Log4j2-Vulnerability-Mitigation-) | | | |
 | Adobe ColdFusion | | | | | [Adobe ColdFusion Link](https://helpx.adobe.com/coldfusion/kb/log4j-vulnerability-coldfusion.html) | | | |
+| Adobe | Adobe AIR | 32.0.0.125 |  |  |  |  |  |  |
+| Adobe Systems Incorporated | Adobe Refresh Manager | 1.8.0 |  |  |  |  |  |  |
+| Adobe Systems Incorporated | Adobe Acrobat Reader DC | 21.007.20099 |  |  |  |  |  |  |
 | ADP | | | | | [ADP Alert Link](https://www.adp.com/about-adp/data-security/alerts/adp-vulnerability-statement-apache-log4j-vulnerability-cve-2021-44228.aspx) | | | |
 | AFAS Software | | | | | [AFAS Software Link](https://help.afas.nl/vraagantwoord/NL/SE/120439.htm) | | | |
 | AFHCAN Global LLC | AFHCANsuite | 8.0.7 - 8.4.3 | Not Affected | | [https://afhcan.org/support.aspx](https://afhcan.org/support.aspx) | | | |
@@ -172,6 +178,7 @@ This list was initially populated using information from the following sources:
 | Avaya | Proactive Outreach Manager | 3.1.2, 3.1.3, 4, 4.0.1 | Affected | No | [Apache Log4J Vulnerability - Impact for Avaya products Avaya Product Security](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) | | | 12/14/2021 |
 | Avaya |Avaya Aura® Device Services | 8.0.1, 8.0.2, 8.1.3 | Affected | No | [Apache Log4J Vulnerability - Impact for Avaya products Avaya Product Security](https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609) | | | 12/14/2021 |
 | AVEPOINT | | | | | [AVEPOINT Notification](https://www.avepoint.com/company/java-zero-day-vulnerability-notification) | | | |
+| AVIcode Inc. | AVIcode Intercept Agent 5.5 | 5.5.61 |  |  |  |  |  |  |
 | AVM | | | | | [AVM Link](https://avm.de/service/aktuelle-sicherheitshinweise/#Schwachstelle%20im%20Java-Projekt%20%E2%80%9Elog4j%E2%80%9C) | | | |
 | AvTech RoomAlert | | | | | [AvTech RoomAlert Article](https://avtech.com/articles/23124/java-exploit-room-alert-link/) | | | |
 | AWS New | | | | | [AWS New Security Bulletin](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
@@ -338,6 +345,7 @@ This list was initially populated using information from the following sources:
 | Canon | Alphenix (Angio Workstation) | | Under Investigation | | [Canon Advisory Link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) | | | 12/22/2021 |
 | CapStorm | Copystorm | | Under Investigation | | | | | 12/22/2021 |
 | CarbonBlack | | | | | [CarbonBlack Advisory](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | |
+| Carbon Black, Inc | CarbonBlack Sensor | 6.2.5 |  |  |  |  |  |  |
 | Carestream | | | Not Affected | |[Carestream Advisory Link](https://www.carestream.com/en/us/services-and-support/cybersecurity-and-privacy) | | | 12/20/2021 |
 | CAS genesisWorld | | | | | [CAS genesisWorld Link](https://helpdesk.cas.de/CASHelpdesk/FAQDetails.aspx?gguid=0x79F9E881EE3C46C1A71BE9EB3E480446) | | | |
 | Cato Networks | | | | | [Cato Networks Blog Post](https://www.catonetworks.com/blog/cato-networks-rapid-response-to-the-apache-log4j-remote-code-execution-vulnerability/) | | | |
@@ -566,6 +574,9 @@ This list was initially populated using information from the following sources:
 | CPanel | | | | | [CPanel Forms](https://forums.cpanel.net/threads/log4j-cve-2021-44228-does-it-affect-cpanel.696249/) | | | |
 | Cradlepoint | | | | | [Cradlepoint](https://cradlepoint.com/vulnerability-alerts/cve-2021-44228-apache-log4j-security-vulnerabilities/) | | | |
 | Crestron | | | Not Affected | | [Crestron Advisory](https://www.crestron.com/Security/Security_Advisories/Apache-Log4j) | | | 12/20/2021 |
+| CrowdStrike, Inc. | CrowdStrike Firmware Analysis | 6.32.14651.0 |  |  |  |  |  |  |
+| CrowdStrike, Inc. | CrowdStrike Sensor Platform | 6.31.14505.0 |  |  |  |  |  |  |
+| CrowdStrike, Inc. | CrowdStrike Device Control | 6.32.14651.0 |  |  |  |  |  |  |
 | CrushFTP | | | | | [CrushFTP Link](https://www.crushftp.com/download.html) | | | |
 | CryptShare | | | | | [Cryptshare Support Link](https://www.cryptshare.com/en/support/cryptshare-support/#c67572) | | | |
 | CyberArk | Privileged Threat Analytics (PTA) | N/A | Fixed | Yes | [CyberArk Customer Force](https://cyberark-customers.force.com/s/article/Critical-Vulnerability-CVE-2021-44228) | | This advisory is available to customers only and has not been reviewed by CISA. | 12/14/2021 |
@@ -1129,6 +1140,12 @@ This list was initially populated using information from the following sources:
 | GE Healthcare | | | Unknown | | [GE Healthcare Advisory Link](https://securityupdate.gehealthcare.com) | This advisory is not available at the time of this review, due to maintence on the GE Healthcare website. | | 12/22/2021 |
 | Gearset | | | | | [Gearset Statement](https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021) | | | |
 | Genesys | | | | | [Genesys Statement](https://www.genesys.com/blog/post/genesys-update-on-the-apache-log4j-vulnerability) | | | |
+| Genesys | Interaction Firmware: Part 1 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
+| Genesys | Interaction Firmware: Part 2 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
+| Genesys | Interaction Center Server 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
+| Genesys | Interaction Text-to-Speech 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
+| Genesys | Spanish (Latin America) IC Server Components 2021 R1 | 21.1.4.18 |  |  |  |  |  |  |
+| Genesys | IC Documentation Library 2021 R1 | 21.1.4.20 |  |  |  |  |  |  |
 | GeoServer | | | | | [GeoServer Announcement](http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html) | | | |
 | Gerrit code review | | | | | [Gerrit Statement](https://www.gerritcodereview.com/2021-12-13-log4j-statement.html) | | | |
 | GFI | | | | | [GFI Statement](https://techtalk.gfi.com/impact-of-log4j-vulnerability-on-gfi/) | | | |
@@ -1270,6 +1287,7 @@ This list was initially populated using information from the following sources:
 | Google Cloud | Virtual Private Cloud | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. | | 12/20/2021 |
 | Google Cloud | Web Security Scanner | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. | | 12/21/2021 |
 | Google Cloud | Workflows | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. | | 12/21/2021 |
+| Google LLC | Google Chrome | 96.0.4664.110 |  |  |  |  |  |  |
 | Gradle | Gradle | | Not Affected | No | [Gradle Blog - Dealing with the critical Log4j vulnerability](https://blog.gradle.org/log4j-vulnerability) | Gradle Scala Compiler Plugin depends upon log4j-core but it is not used. | | |
 | Gradle | Gradle Enterprise | < 2021.3.6 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
 | Gradle | Gradle Enterprise Build Cache Node | < 10.1 | Affected | Yes | [Gradle Enterprise Security Advisories - Remote code execution vulnerability due to use of Log4j2](https://security.gradle.com/advisory/2021-11) | | | |
@@ -1311,6 +1329,19 @@ This list was initially populated using information from the following sources:
 | HCL Software | BigFix Patch | All | Not Affected | | [KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486) | Not Affected for related CVE-2021-45046 | | 12/15/2021 |
 | HelpSystems Clearswift | | | | | [HelpSystems Clearswift](https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687) | | | |
 | HENIX | Squash TM | 1.21.7 - 1.22.9, 2.0.3 - 2.1.5,  2.2.0 - 3.0.2 | Fixed | | [Vendor Link](https://tm-en.doc.squashtest.com/v3/downloads.html#download-previous-versions) | | | 12/23/2021 |
+| Hewlett Packard Enterprise Development LP | Smart Storage Administrator | 2.60.18.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant Agentless Management Service | 10.20.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant iLO Core Driver (X64) | 3.9.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant Health Monitor Service (X64) | 3.20.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | PFA Server Registry Update | 1.0.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant iLO CHIF Driver (X64) | 3.10.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant iLO 3 WHEA Driver (X64) | 3.0.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP Insight Management Agents | 10.20.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Company | HP ProLiant Integrated Management Log Viewer | 7.4.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Development Company, L.P. | HP Insight Management WBEM Providers | 10.20.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Development Company, L.P. | HP Lights-Out Online Configuration Utility | 4.6.0.0 |  |  |  |  |  |  |
+| Hewlett-Packard Development Company, L.P. | HP Smart Array SAS/SATA Event Notification Service | 6.38.0.64 |  |  |  |  |  |  |
+| Hewlett-Packard Development Company, L.P. | HP Insight Diagnostics | 10.34.1914 |  |  |  |  |  |  |
 | Hexagon | | | | | [Hexagon Statement](https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2?language=en_US) | | | |
 | Hikvision | | | | | [Hikvision](https://video.xortec.de/media/pdf/87/e8/03/kw50_Update-for-Apache-Log4j2-Issue-Hikvision_official.pdf) | | | |
 | Hitachi Energy | eSOMS | | Not Affected | | [Hitachi Energy](https://www.hitachienergy.com/offering/solutions/cybersecurity/alerts-and-notifications) | | | |
@@ -1469,6 +1500,17 @@ This list was initially populated using information from the following sources:
 | HOLOGIC | Windows Selenia Mammography System | | Not Affected | No | [HOLOGIC Advisory Link](https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity) | | | 12/20/2021 |
 | Huawei | | | | | [Huawei Security Notice](https://www.huawei.com/en/psirt/security-notices/huawei-sn-20211210-01-log4j2-en) | | | |
 | Hubspot | | | | | [Hubspot Notice](https://community.hubspot.com/t5/APIs-Integrations/Log4J-day-zero-exploit-CVE-2021-44228/td-p/541949) | | | |
+| Hyland Software | Hyland OnBase Client | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Web Server 20.3 x64 | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Prerequisites | 1.0.0.0 |  |  |  |  |  |  |
+| Hyland Software | Hyland Unity Client | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Unity Client Deployment | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Diagnostics Components | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Web ActiveX Controls | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland OnBase Studio x64 | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Application Server 20.3 x64 | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland OnBase Configuration | 20.3.11.1000 |  |  |  |  |  |  |
+| Hyland Software | Hyland Unity Management Console | 20.3.11.1000 |  |  |  |  |  |  |
 | I-Net software | | | | | [I-Net Software Statement](https://faq.inetsoftware.de/t/statement-about-cve-2021-44228-log4j-vulnerability-concerning-i-net-software-products/269/3) | | | |
 | I2P | | | | | [I2P Statement](https://geti2p.net/en/blog/post/2021/12/11/i2p-unaffected-cve-2021-44228) | | | |
 | IBA-AG | | | | | [IBA-AG Statement](https://www.iba-ag.com/en/security) | | | |
@@ -1663,9 +1705,11 @@ This list was initially populated using information from the following sources:
 | IBM | vRealize Operations and Log Insight | | Affected | Yes | [An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) | | | 12/15/2021 |
 | IBM | Workload Automation | | Not Affected | | [An update on the Apache Log4j CVE-2021-44228 vulnerability - IBM PSIRT Blog](https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products) | | | 12/15/2021 |
 | ICONICS | All | | Not Affected | | [ICONICS Advisory Link](https://iconics.com/News/Press-Releases/2021/ICONICS-Not-Subject-to-Apache-Log4j-Vulnerability) | | | 12/21/2021 |
+| IDEMIA | IDEMIA Minidriver for PIV/CIV (64-bit) | 1.2.7 |  |  |  |  |  |  |
 | IFS | | | | | [IFS Bulletin](https://community.ifs.com/announcements-278/urgent-bulletin-ifs-advisory-ifs-products-services-and-log4j-cve-2021-44228-16436) | | | |
 | IGEL | | | | | [IGEL Statement](https://kb.igel.com/securitysafety/en/isn-2021-11-ums-log4j-vulnerability-54086712.html) | | | |
 | Ignite Realtime | | | | | [Ignite Realtime Statement](https://discourse.igniterealtime.org/t/openfire-4-6-5-released/91108) | | | |
+| Igor Pavlov | 7-Zip 21.06 (x64 edition) | 21.06.00.0 |  |  |  |  |  |  |
 | iGrafx | | | | | [iGrafx Statement](https://www.igrafx.com/igrafx-thwarts-log4j-vulnerability/) | | | |
 | Illuminated Cloud | | | | | [Illuminated Cloud Statement](https://illuminatedcloud.blogspot.com/2021/12/illuminated-cloud-2-and-log4j-security.html) | | | |
 | Illumio | C-VEN | | Not Affected | | [Illumio KB article](https://support.illumio.com/knowledge-base/articles/Customer-Security-Advisory-on-log4j-RCE-CVE-2021-44228.html)| | |12/16/2021|
@@ -1700,6 +1744,7 @@ This list was initially populated using information from the following sources:
 | Intel | System Studio | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Computer Vision Annotation Tool maintained by Intel | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
 | Intel | Sensor Solution Firmware Development Kit | | Affected | | [Intel Advisory](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html) | | |12/16/2021|
+| Interactive Intelligence | Snap Shot 4.0 | 1.0.0 |  |  |  |  |  |  |
 | Internet Systems Consortium(ISC) | ISC DHCP, aka dhcpd | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/)| no JAVA Code | | 12/17/2021 |
 | Internet Systems Consortium(ISC) | Kea DHCP | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code | | 12/17/2021 |
 | Internet Systems Consortium(ISC) | BIND 9 | All | Not Affected | N/A | [ISC Open Source and Log4J](https://www.isc.org/blogs/2021-log4j/) | no JAVA Code | | 12/17/2021 |
@@ -1776,12 +1821,14 @@ This list was initially populated using information from the following sources:
 | KEMP | | | | | [KEMP Support](https://support.kemptechnologies.com/hc/en-us/articles/4416430695437-CVE-2021-44228-Log4j2-Exploit) | | | |
 | KEMP 2 | | | | | [KEMP 2 Support](https://support.kemptechnologies.com/hc/en-us/articles/4416473820045-Progress-Kemp-LoadMaster-protects-from-security-vulnerability-Apache-Log4j-2-CVE-2021-44228-) | | | |
 | Kofax | | | | | [Kofax Product Information](https://knowledge.kofax.com/MFD_Productivity/SafeCom/Product_Information/SafeCom_and_Log4j_vulnerability_(CVE-2021-44228)) | | | |
+| Konesans Ltd | Konesans Row Number Transformation 2014 | 4.0.0.6 |  |  |  |  |  |  |
 | Konica Minolta | | | | | [Konica Minolta Support](https://www.konicaminolta.de/de-de/support/log4j) | | | |
 | Kronos UKG | | | | | [Kronos UKG Statement](https://community.kronos.com/s/feed/0D54M00004wJKHiSAO?language=en_US) | | | |
 | Kyberna | | | | | [Kyberna Statement](https://www.kyberna.com/detail/log4j-sicherheitsluecke) | | | |
 | L-Soft | | | | | [L-Soft Info](http://www.lsoft.com/news/log4jinfo.asp) | | | |
 | L3Harris Geospatial | | | | | [L3Harris Geospatial](https://www.l3harrisgeospatial.com/Support/Self-Help-Tools/Help-Articles/Help-Articles-Detail/ArtMID/10220/ArticleID/24141/Impact-of-Log4j-Java-Security-Vulnerability-CVE-2021-44228-on-L3Harris-Geospatial-software) | | | |
 | Lancom Systems | | | | | [Lancom Systems General Security Information](https://www.lancom-systems.com/service-support/instant-help/general-security-information/) | | | |
+| LANDesk Software, Ltd | LANDesk(R) Common Base Agent 8 | 10.1.30.36 |  |  |  |  |  |  |
 | Lansweeper | | | | | [Lansweeper Information](https://www.lansweeper.com/vulnerability/critical-log4j-vulnerability-affects-millions-of-applications/) | | | |
 | Laserfiche | | | | | [Laserfiche Product Information](https://answers.laserfiche.com/questions/194037/Do-any-Laserfiche-products-use-the-Apache-log4j-library#194038) | | | |
 | LastPass | | | | | [LastPass Information](https://support.logmeininc.com/lastpass/help/log4j-vulnerability-faq-for-lastpass-universal-proxy) | | | |
@@ -1944,7 +1991,125 @@ This list was initially populated using information from the following sources:
 | Microsoft | Azure DevOps Server | 2019.0 - 2020.1 | Affected | No | [Azure DevOps (and Azure DevOps Server) and the log4j vulnerability](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511) | | | |
 | Microsoft | Azure DevOps | | Not Affected | | [Azure DevOps (and Azure DevOps Server) and the log4j vulnerability](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511) | | | |
 | Microsoft | Azure Traffic Manager | | Not Affected | | [Microsoft’s Response to CVE-2021-44228 Apache Log4j 2](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) | | | |
+| Microsoft | MergeModule2012 | 1.0.0 |  |  |  |  |  |  |
 | Microsoft | Team Foundation Server | 2018.2+ | Affected | No | [Azure DevOps (and Azure DevOps Server) and the log4j vulnerability](https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511) | | | |
+| Microsoft | Visual C++ 2012 RTM Runtime Library DLLs (x64/release) | 11.0.50727.1 |  |  |  |  |  |  |
+| Microsoft | Visual C++ 9.0 SP1+KB971092 Runtime DLLs (x64/release) | 9.0.30729.4148 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Additional Runtime - 14.28.29913 | 14.28.29913 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40660 | 12.0.40660 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft OLE DB Driver for SQL Server | 18.3.0.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Help Viewer 2.3 | 2.3.28107 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Additional Runtime - 14.28.29913 | 14.28.29913 |  |  |  |  |  |  |
+| Microsoft Corporation | Configuration Manager Client | 5.00.8790.1000 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server Management Studio for Reporting Services | 15.0.18369.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40660 | 12.0.40660 |  |  |  |  |  |  |
+| Microsoft Corporation | SSMS Post Install Tasks | 15.0.18369.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio 2010 Tools for Office Runtime (x64) | 10.0.50908 |  |  |  |  |  |  |
+| Microsoft Corporation | Integration Services | 15.0.2000.130 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.28.29913 | 14.28.29913 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2012 Native Client | 11.4.7462.6 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030 | 11.0.61030 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40660 | 12.0.40660 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft ODBC Driver 17 for SQL Server | 17.5.1.1 |  |  |  |  |  |  |
+| Microsoft Corporation | Visual Studio 2017 Isolated Shell for SSMS | 15.0.28307.421 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Analysis Services OLE DB Provider | 15.0.2000.568 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030 | 11.0.61030 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030 | 11.0.61030 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server Management Studio | 15.0.18369.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40660 | 12.0.40660 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio Tools for Applications 2017 x64 Hosting Support | 15.0.27520 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.28.29913 | 14.28.29913 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030 | 11.0.61030 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio Tools for Applications 2017 x86 Hosting Support | 15.0.27520 |  |  |  |  |  |  |
+| Microsoft Corporation | Active Directory Authentication Library for SQL Server | 15.0.1300.359 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server Management Studio for Analysis Services | 15.0.18369.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Policy Platform | 68.1.1010.0 |  |  |  |  |  |  |
+| Microsoft Corporation | System Center Operations Manager 2007 R2 Agent | 6.1.7221.0 |  |  |  |  |  |  |
+| Microsoft Corporation | MSXML 4.0 SP3 Parser (KB2758694) | 4.30.2117.0 |  |  |  |  |  |  |
+| Microsoft Corporation | MSXML 4.0 SP3 Parser (KB2721691) | 4.30.2114.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 ATL Update kb973923 - x86 8.0.50727.4053 | 8.0.50727.4053 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148 | 9.0.30729.4148 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x64 9.0.21022 | 9.0.21022 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable (x64) | 8.0.61000 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x64 9.0.21022.218 | 9.0.21022.218 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio 2010 Tools for Office Runtime (x64) | 10.0.60729 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable (x64) - KB2467175 | 8.0.51011 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft .NET Framework 4.6 | 4.6.00081 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 | 9.0.30729.6161 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161 | 9.0.30729.6161 |  |  |  |  |  |  |
+| Microsoft Corporation | MSXML 4.0 SP2 (KB973688) | 4.20.9876.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable (x64) | 8.0.56336 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable (x64) | 8.0.59192 |  |  |  |  |  |  |
+| Microsoft Corporation | IIS URL Rewrite Module 2 | 7.2.2 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - KB2467174 - x64 9.0.30729.5570 | 9.0.30729.5570 |  |  |  |  |  |  |
+| Microsoft Corporation | Configuration Manager Client | 5.00.9012.1000 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 ATL Update kb973924 - x64 9.0.30729.4148 | 9.0.30729.4148 |  |  |  |  |  |  |
+| Microsoft Corporation | WIMGAPI | 1.0.0.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 ATL Update kb973923 - x64 8.0.50727.4053 | 8.0.50727.4053 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2005 Redistributable | 8.0.61001 |  |  |  |  |  |  |
+| Microsoft Corporation | System Center Essentials Configuration Helper | 7.0.2432.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148 | 9.0.30729.4148 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Silverlight | 5.1.50918.0 |  |  |  |  |  |  |
+| Microsoft Corporation | MSXML 4.0 SP2 (KB954430) | 4.20.9870.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Additional Runtime - 14.29.30040 | 14.29.30040 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.29.30040 | 14.29.30040 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 | 14.24.28127 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft System CLR Types for SQL Server 2012 (x64) | 11.4.7001.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2012 Management Objects  (x64) | 11.4.7001.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2012 Express LocalDB | 11.4.7001.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127 | 14.24.28127 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Application Error Reporting | 12.0.6012.5000 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server System CLR Types | 10.51.2500.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Help Viewer 1.1 | 1.1.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974 | 9.0.30729.4974 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Integration Services | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 SQL Data Quality Common | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Sql Server Customer Experience Improvement Program | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Transact-SQL ScriptDom | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | Visual Studio 2010 Prerequisites - English | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2010  x86 Runtime - 10.0.40219 | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Database Engine Services | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2008 Setup Support Files | 10.3.5500.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio 2010 Shell (Isolated) - ENU | 10.0.40219 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Common Files | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2008 R2 Management Objects | 10.51.2500.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft VSS Writer for SQL Server 2014 | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Full text search | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio Tools for Applications x86 Runtime 3.0 | 10.0.40220 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server Browser for SQL Server 2014 | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 RsFx Driver | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Management Studio | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft ODBC Driver 11 for SQL Server | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft .NET Framework 4 Multi-Targeting Pack | 4.0.30319 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Database Engine Shared | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual Studio Tools for Applications x64 Runtime 3.0 | 10.0.40220 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Transact-SQL Compiler Service | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Client Tools | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Setup (English) | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Report Viewer 2014 Runtime | 12.0.2000.8 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Policies | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft System CLR Types for SQL Server 2014 (x64) | 12.3.6164.21 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Data quality client | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Data quality service | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Setup (English) | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft ODBC Driver 11 for SQL Server | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft System CLR Types for SQL Server 2014 (x64) | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Transact-SQL ScriptDom | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 Transact-SQL Compiler Service | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server 2014 RsFx Driver | 12.3.6024.0 |  |  |  |  |  |  |
+| Microsoft Corporation | SQL Server 2014 Data quality service | 12.0.2000.8 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.27.29016 | 14.27.29016 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X64 Additional Runtime - 14.27.29016 | 14.27.29016 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Additional Runtime - 14.27.29016 | 14.27.29016 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.27.29016 | 14.27.29016 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft SQL Server Data-Tier Application Framework (x64) | 15.0.5282.3 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft System CLR Types for SQL Server 2012 (x64) | 11.0.2100.60 |  |  |  |  |  |  |
+| Microsoft Corporation | VS Script Debugging Common | 16.0.102.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Report Viewer 2012 Runtime | 11.1.3452.0 |  |  |  |  |  |  |
+| Microsoft Corporation | Microsoft Web Deploy 3.6 | 10.0.1973 |  |  |  |  |  |  |
+| Microsoft patterns & practices | Enterprise Library 4.1 - October 2008 | 4.1.0.0 |  |  |  |  |  |  |
 | Microstrategy | | | | | [Microstrategy Statement](https://community.microstrategy.com/s/article/MicroStrategy-s-response-to-CVE-2021-44228-The-Log4j-0-Day-Vulnerability?language=en_US) | | | |
 | Midori Global | | | | | [Midori Global Statement](https://www.midori-global.com/blog/2021/12/15/cve-2021-44228-log4shell-midori-apps-are-not-affected) | | | |
 | Mikrotik | | | | | [Mikrotik Statement](https://forum.mikrotik.com/viewtopic.php?p=897938) | | | |
@@ -2107,6 +2272,7 @@ download | | 12/20/2021 |
 | Pepperl+Fuchs | | | Under Investigation | | [Pepperl+Fuchs Advisory Link](https://www.pepperl-fuchs.com/global/en/29079.htm) | | | 12/21/2021 |
 | Percona | | | | | [Percona Blog Post](https://www.percona.com/blog/log4jshell-vulnerability-update/) | | | |
 | Pexip | | | | | [Pexip Link](https://www.pexip.com/blog1.0/pexip-statement-on-log4j-vulnerability) | | | |
+| PGP Corporation | PGP Command Line | 10.2.1.54 |  |  |  |  |  |  |
 | Phenix Id | | | | | [Phenix Id Support Link](https://support.phenixid.se/uncategorized/log4j-fix/) | | | |
 | Philips | Multiple products | | | | [Philips Security Advisory](https://www.philips.com/a-w/security/security-advisories.html) | | | |
 | PHOENIX CONTACT | Physical products containing firmware | | Not Affected | | [PHOENIX CONTACT Advisory Link](https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf) | | | 12/22/2021 |
@@ -2176,6 +2342,7 @@ download | | 12/20/2021 |
 | QOPPA | | | | | [QOPPA Link](https://kbdeveloper.qoppa.com/cve-2021-44228-apache-log4j-vulnerability/) | | | |
 | QSC Q-SYS | | | | | [QSC Q-SYS Article](https://qscprod.force.com/selfhelpportal/s/article/Are-Q-SYS-products-affected-by-the-Log4j-vulnerability-CVE-2021-44228) | | | |
 | QT | | | Not Affected | | [QT](https://www.qt.io/blog/the-qt-company-products-not-affected-by-cve-2021-44228-log4j-vulnerability) | | | |
+| Qualys, Inc. | Qualys Cloud Security Agent | 4.6.1.6 |  |  |  |  |  |  |
 | Quest Global | | | | | [Quest Global](https://support.quest.com/fr-fr/search#q=CVE-2021-44228&t=Global) | | | |
 | R | R | 4.1.1 | Not Affected |  | [https://www.r-project.org/](https://www.r-project.org/) | | | 12/21/2021 |
 | R2ediviewer | | | | | [R2ediviewer Link](https://r2ediviewer.de/DE/reload.html?Change-log_17858584.html) | | | |
@@ -2406,6 +2573,7 @@ download | | 12/20/2021 |
 | Software AG | | | | | [Software AG](https://tech.forums.softwareag.com/t/log4j-zero-day-vulnerability/253849) | | | |
 | SolarWinds | Database Performance Analyzer (DPA) | 2021.1.x, 2021.3.x, 2022.1.x | Affected | No | [Apache Log4j Critical Vulnerability (CVE-2021-44228)](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) [Database Performance Analyzer (DPA) and the Apache Log4j Vulnerability (CVE-2021-44228)](https://support.solarwinds.com/SuccessCenter/s/article/Database-Performance-Analyzer-DPA-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228) | Workarounds available, hotfix under development | | 12/14/2021 |
 | SolarWinds | Server & Application Monitor (SAM) | SAM 2020.2.6 and later | Affected | No | [Apache Log4j Critical Vulnerability (CVE-2021-44228)](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) [Server & Application Monitor (SAM) and the Apache Log4j Vulnerability (CVE-2021-44228)](https://support.solarwinds.com/SuccessCenter/s/article/Server-Application-Monitor-SAM-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US) | Workarounds available, hotfix under development | | 12/14/2021 |
+| SolarWinds Worldwide, LLC | SolarWinds Agent 2020.2.50025.6 | 120.2.50025.6 |  |  |  |  |  |  |
 | SonarSource | | | | | [SonarSource](https://community.sonarsource.com/t/sonarqube-and-the-log4j-vulnerability/54721) | | | |
 | Sonatype | | | | | [Sonatype Vulnerability Statement](https://blog.sonatype.com/a-new-0-day-log4j-vulnerability-discovered-in-the-wild) | | | |
 | SonicWall | Capture Client & Capture Client Portal | | Not Affected | | [Sonic Wall Security Advisory](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the Capture Client. | | 12/12/2021 |
@@ -2694,6 +2862,7 @@ download | | 12/20/2021 |
 | Varnish Software | | | | | [Varnish Software Security Notice](https://docs.varnish-software.com/security/CVE-2021-44228-45046/) | | | |
 | Varonis | | | | | [Varonis Notice](https://help.varonis.com/s/article/Apache-Log4j-Zero-Day-Vulnerability-CVE-2021-44228) | | | |
 | Veeam | | | | | [Veeam Statement](https://www.veeam.com/kb4254) | | | |
+| Veeam Software Group GmbH | Veeam Agent for Microsoft Windows | 3.0.2.1170 |  |  |  |  |  |  |
 | Venafi | | | | | [Venafi Statement](https://support.venafi.com/hc/en-us/articles/4416213022733-Log4j-Zero-Day-Vulnerability-notice) | | | |
 | Veritas NetBackup | | | | | [Verita Statement](https://www.veritas.com/content/support/en_US/article.100052070) | | | |
 | Vertica | | | | | [Vertica Statement](https://forum.vertica.com/discussion/242512/vertica-security-bulletin-a-potential-vulnerability-has-been-identified-apache-log4j-library-used) | | | |
@@ -2735,6 +2904,8 @@ download | | 12/20/2021 |
 | VMware | VMware vRealize Orchestrator | 8.x, 7.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Workspace ONE Access | 21.x, 20.10.x | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
 | VMware | VMware Workspace ONE Access Connector (VMware Identity Manager Connector) | 21.x, 20.10.x, 19.03.0.1 | Affected | No | [VMSA-2021-0028.1 (vmware.com)](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | 12/12/2021 |
+| VMware, Inc. | VMware Tools | 11.3.5.18557794 |  |  |  |  |  |  |
+| VMware, Inc. | VMware Tools | 11.2.5.17337674 |  |  |  |  |  |  |
 | Vyaire | | | Not Affected | | [Vyaire Advisory Link](https://www.vyaire.com/sites/us/files/2021-12/2021-12-15-product-security-bulletin-for-log4shell-vulnerability.pdf) | | | 12/22/2021 |
 | WAGO | WAGO Smart Script | 4.2.x < 4.8.1.3 | Affected | Yes | [WAGO Website](https://www.wago.com/de/automatisierungstechnik/psirt#log4j) | | | 12/17/2021 |
 | Wallarm | | | | | [Lab Mitigation Update](https://lab.wallarm.com/cve-2021-44228-mitigation-update/) | | | |
