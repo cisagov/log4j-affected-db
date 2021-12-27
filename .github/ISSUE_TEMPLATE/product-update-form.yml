@@ -48,6 +48,11 @@ body:
     attributes:
       label: Product update link
       description: If an update is available where can it be found?
+  - type: input
+    id: product-last-updated
+    attributes:
+      label: Last updated
+      description: When was the product last updated?
   - type: textarea
     id: product-notes
     attributes:
