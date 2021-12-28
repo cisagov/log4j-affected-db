@@ -2789,6 +2789,7 @@ download | | 12/20/2021 |
 | Zerto | | | | | [Zerto KB](https://help.zerto.com/kb/000004822) | | | |
 | Zesty | | | | | [Zesty Log4j Exploit](https://www.zesty.io/mindshare/company-announcements/log4j-exploit/) | | | |
 | Zimbra | | | | | [BugZilla Zimbra](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) | | | |
+! Zix | | | | | [Zix|Appriver Statement](https://status.appriver.com/) | | | 12/16/2021 |
 | Zoom | | | | | [Zoom Security Exposure](https://explore.zoom.us/en/trust/security/security-bulletin/security-bulletin-log4j/?=nocache) | | | |
 | ZPE systems Inc | | | | | [ZpeSystems CVE-2021-44228](https://support.zpesystems.com/portal/en/kb/articles/is-nodegrid-os-and-zpe-cloud-affected-by-cve-2021-44228-apache-log4j) | | | |
 | Zscaler | See Link (Multiple Products) | | Not Affected | No | [CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581) | | | 12/15/2021 |
