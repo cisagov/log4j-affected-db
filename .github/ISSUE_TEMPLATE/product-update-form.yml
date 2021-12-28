@@ -23,7 +23,7 @@ body:
     id: update-context
     attributes:
       label: Context
-      description: Please provide context around the update
+      description: Please provide context around the update.
   - type: input
     id: product-versions
     attributes:
