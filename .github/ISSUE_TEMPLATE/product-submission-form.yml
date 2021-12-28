@@ -8,6 +8,7 @@ body:
     attributes:
       label: Product vendor
       description: Who is the vendor for the product?
+      placeholder: Cisco, Dell, IBM, etc.
     validations:
       required: true
   - type: input
@@ -15,6 +16,7 @@ body:
     attributes:
       label: Product name
       description: What is the name of the product?
+      placeholder: AppDynamics, BigFix Inventory, Centera, etc.
     validations:
       required: true
   - type: input
@@ -22,6 +24,7 @@ body:
     attributes:
       label: Product version(s)
       description: What version(s) of the product are affected?
+      placeholder: v2; 1.5; >3; >=4; >5, <6; etc.
     validations:
       required: true
   - type: dropdown
