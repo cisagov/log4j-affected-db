@@ -14,7 +14,7 @@ body:
     id: product-name
     attributes:
       label: Product name
-      description: What is the product?
+      description: What is the name of the product?
     validations:
       required: true
   - type: input
