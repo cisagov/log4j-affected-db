@@ -1885,7 +1885,7 @@ This list was initially populated using information from the following sources:
 | MailStore | | | | | [MailStore Statement](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) | | | |
 | Maltego | | | | | [Maltego Response to Logj4](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) | | | |
 | ManageEngine | Servicedesk Plus | 11305 and below | Affected | | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html) | | | 12/15/2021 |
-| ManageEngine | AD SelfService Plus | Build 6.1 build 6114 | Not Affected | | | | 12/27/21 | 
+| ManageEngine | AD SelfService Plus | Build 6.1 build 6114 | Not Affected | | | | 12/27/21 |
 | ManageEngine Zoho | | | | | [Manage Engine Link](https://pitstop.manageengine.com/portal/en/community/topic/log4j-ad-manager-plus) | | | |
 | ManageEngine Zoho | ADManager Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
 | ManageEngine Zoho | ADAudit Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
