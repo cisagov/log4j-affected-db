@@ -3,6 +3,22 @@ name: Update a Product
 description: Update information about a product in the database
 title: "[Product Update]: <vendor> - <product>"
 body:
+  - type: input
+    id: product-vendor
+    attributes:
+      label: Product vendor
+      description: Who is the vendor for the product?
+      placeholder: Cisco, Dell, IBM, etc.
+    validations:
+      required: true
+  - type: input
+    id: product-name
+    attributes:
+      label: Product name
+      description: What is the name of the product?
+      placeholder: AppDynamics, BigFix Inventory, Centera, etc.
+    validations:
+      required: true
   - type: textarea
     id: update-context
     attributes:
