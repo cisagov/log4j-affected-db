@@ -3,17 +3,6 @@ name: Update a Product
 description: Update information about a product in the database
 title: "[Product Update]: <vendor> - <product>"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        For questions about choice for status, please see the information below.
-
-        - Unknown - Status unknown. Default choice.
-        - Affected - Reported to be affected by CVE-2021-44228.
-        - Not Affected - Reported to NOT be affected by CVE-2021-44228 and no
-          further action necessary.
-        - Fixed - Patch and/or mitigations available (see provided links).
-        - Under Investigation - Vendor investigating status.
   - type: textarea
     id: update-context
     attributes:
@@ -35,6 +24,17 @@ body:
         - Not Affected
         - Fixed
         - Under Investigation
+  - type: markdown
+    attributes:
+      value: |
+        Please use the information below when selecting a status.
+
+        - Unknown - Status unknown. Default choice.
+        - Affected - Reported to be affected by CVE-2021-44228.
+        - Not Affected - Reported to NOT be affected by CVE-2021-44228 and no
+          further action necessary.
+        - Fixed - Patch and/or mitigations available (see provided links).
+        - Under Investigation - Vendor investigating status.
   - type: dropdown
     id: product-updated
     attributes:
