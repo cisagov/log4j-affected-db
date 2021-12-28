@@ -71,6 +71,7 @@ body:
     attributes:
       label: Last updated
       description: When was the product last updated?
+      placeholder: "2021-12-06"
   - type: textarea
     id: product-notes
     attributes:
