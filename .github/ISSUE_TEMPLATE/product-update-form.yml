@@ -63,7 +63,7 @@ body:
     id: product-update-link
     attributes:
       label: Product update link
-      description: If an update is available where can it be found?
+      description: Where can the update be found, if one is available?
   - type: input
     id: product-last-updated
     attributes:
