@@ -51,11 +51,11 @@ body:
   - type: dropdown
     id: product-updated
     attributes:
-      label: Product update available
+      label: Product update
       description: Is there an update available for the product?
       options:
-        - "Yes"
-        - "No"
+        - Available
+        - Not Available
     validations:
       required: true
   - type: input
