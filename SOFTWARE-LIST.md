@@ -2403,8 +2403,8 @@ download | | 12/20/2021 |
 | SmileCDR | | | | | [SmileCDR Blog Post](https://www.smilecdr.com/our-blog/a-statement-on-log4shell-cve-2021-44228) | | | |
 | Snakemake | Snakemake | 6.12.1 | Not Affected |  | [https://snakemake.readthedocs.io/en/stable/](https://snakemake.readthedocs.io/en/stable/) | | | 12/21/2021 |
 | Sn0m | | | | | [Sn0m Link](https://www.snom.com/en/press/log4j-poses-no-threat-snom-phones/) | | | |
-| Snow Software | Snow Commander | 8.1 to 8.10.2 | Fixed | Yes |[Snow Software Commmunity Link](https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS) | | | |
-| Snow Software | VM Access Proxy | v3.1 to v3.6 " Fixed | Yes | [Snow Software Commmunity Link](https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS) | | | |
+| Snow Software | Snow Commander | 8.1 to 8.10.2 | Fixed | Yes | [Snow Software Commmunity Link](https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS) | | | |
+| Snow Software | VM Access Proxy | v3.1 to v3.6 | Fixed | Yes | [Snow Software Commmunity Link](https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS) | | | |
 | Snowflake | | | Not Affected | | [Snowflake Community Link](https://community.snowflake.com/s/article/No-Snowflake-exposure-to-Apache-Log4j-vulnerability-CVE-2021-44228) | | | |
 | Snyk | Cloud Platform | |Not Affected | | [Snyk Updates](https://updates.snyk.io/snyk%27s-cloud-platform-all-clear-from-log4j-exploits-216499) | | | |
 | Software AG | | | | | [Software AG](https://tech.forums.softwareag.com/t/log4j-zero-day-vulnerability/253849) | | | |
