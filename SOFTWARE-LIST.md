@@ -1790,6 +1790,9 @@ This list was initially populated using information from the following sources:
 | Pexip | | | | | [Pexip Link](https://www.pexip.com/blog1.0/pexip-statement-on-log4j-vulnerability) | | | |
 | Phenix Id | | | | | [Phenix Id Support Link](https://support.phenixid.se/uncategorized/log4j-fix/) | | | |
 | Philips | Multiple products | | | | [Philips Security Advisory](https://www.philips.com/a-w/security/security-advisories.html) | | | |
+| PHOENIX CONTACT | Physical products containing firmware | | Not Affected | | [PHOENIX CONTACT Advisory Link](https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf) | | | 12/22/2021 |
+| PHOENIX CONTACT | Software Products | | Not Affected | | [PHOENIX CONTACT Advisory Link](https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf) | | | 12/22/2021 |
+| PHOENIX CONTACT | Cloud Services | | Affected | | [PHOENIX CONTACT Advisory Link](https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf) | Partly affected. Remediations are being implemented. | | 12/22/2021 |
 | Ping Identity | PingAccess | 4.0 <= version <= 6.3.2 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
 | Ping Identity | PingCentral | | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
 | Ping Identity | PingFederate | 8.0 <= version <= 10.3.4 | Affected | Yes | [Log4j2 vulnerability CVE-2021-44228](https://support.pingidentity.com/s/article/Log4j2-vulnerability-CVE-CVE-2021-44228) | | | 2021-12-15 |
