@@ -359,7 +359,7 @@ This list was initially populated using information from the following sources:
 | Check Point | CloudGuard | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
 | Check Point | Harmony Endpoint & Harmony Mobile | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
 | Check Point | Infinity Portal | | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
-| Check Point | Quantum Security Gateway | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | |
+| Check Point | Quantum Security Gateway | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
 | Check Point | Quantum Security Management | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | Where used, uses the 1.8.0\_u241 version of the JRE that protects against this attack by default. | | |
 | Check Point | SMB | All | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
 | Check Point | ThreatCloud | | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
@@ -1206,7 +1206,7 @@ This list was initially populated using information from the following sources:
 | Google Cloud | Cloud Natural Language API | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. | | 12/21/2021 |
 | Google Cloud | Cloud Profiler | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. | | 12/21/2021 |
 | Google Cloud | Cloud Router | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. | | 12/20/2021 |
-| Google Cloud | Cloud Run | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. Customers may have introduced a separate logging solution that uses Log4j 2. We strongly encourage customers who manage Cloud Run environments to identify components dependent on Log4j 2 and update them to the latest version. | | 12/21/2021 |
+| Google Cloud | Cloud Run | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. Customers may have introduced a separate logging solution that uses Log4j 2. We strongly encourage customers who manage Cloud Run environments to identify components dependent on Log4j 2 and update them to the latest version. | | 12/21/2021 |
 | Google Cloud | Cloud Run for Anthos | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046.  Customers may have introduced a separate logging solution that uses Log4j 2. We strongly encourage customers who manage Cloud Run for Anthos environments to identify components dependent on Log4j 2 and update them to the latest version. | | 12/21/2021 |
 | Google Cloud | Cloud SDK | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. | | 12/21/2021 |
 | Google Cloud | Cloud SQL | | Not Affected | | [https://cloud.google.com/log4j2-security-advisory](https://cloud.google.com/log4j2-security-advisory) | Product does not use Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046. | | 12/19/2021 |
@@ -1897,7 +1897,7 @@ This list was initially populated using information from the following sources:
 | MailStore | | | | | [MailStore Statement](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) | | | |
 | Maltego | | | | | [Maltego Response to Logj4](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) | | | |
 | ManageEngine | Servicedesk Plus | 11305 and below | Affected | | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html) | | | 12/15/2021 |
-| ManageEngine | AD SelfService Plus | Build 6.1 build 6114 | Not Affected | | | | 12/27/21 |
+| ManageEngine | AD SelfService Plus | Build 6.1 build 6114 | Not Affected | | | | | 12/27/21 |
 | ManageEngine Zoho | | | | | [Manage Engine Link](https://pitstop.manageengine.com/portal/en/community/topic/log4j-ad-manager-plus) | | | |
 | ManageEngine Zoho | ADManager Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
 | ManageEngine Zoho | ADAudit Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
@@ -2012,8 +2012,7 @@ This list was initially populated using information from the following sources:
 | Nulab | Typetalk | N/A (SaaS) | Fixed | | [Nulab Blog Post](https://nulab.com/blog/company-news/log4shell/) | | | |
 | Nutanix | AHV | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
 | Nutanix | AOS | LTS (including Prism Element), Community Edition | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) |  | | 12/20/2021 |
-| Nutanix | AOS | STS (including Prism Element) | Fixed | Yes | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Patched in 6.0.2.4, available on the Portal for
-download | | 12/20/2021 |
+| Nutanix | AOS | STS (including Prism Element) | Fixed | Yes | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Patched in 6.0.2.4, available on the Portal for download. | | 12/20/2021 |
 | Nutanix | Beam | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
 | Nutanix | BeamGov | | Fixed | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | Saas-Based Procuct.  See Advisory. | | 12/20/2021 |
 | Nutanix | Calm | All | Not Affected | | [Nutanix Security Advisory](https://download.nutanix.com/alerts/Security_Advisory_0023.pdf) | | | 12/20/2021 |
