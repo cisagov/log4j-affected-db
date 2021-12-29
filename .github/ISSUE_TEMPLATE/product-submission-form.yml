@@ -23,7 +23,7 @@ body:
     id: product-versions
     attributes:
       label: Product version(s)
-      description: What version(s) of the product are affected?
+      description: What version(s) of the product is (are) affected?
       placeholder: v2; 1.5; >3; >=4; >5, <6; etc.
     validations:
       required: true
