@@ -1,0 +1,82 @@
+---
+name: Submit a Product
+description: Submit a product to the database
+title: "[Product Submission]: <vendor> - <product>"
+body:
+  - type: input
+    id: product-vendor
+    attributes:
+      label: Product vendor
+      description: Who is the vendor for the product?
+      placeholder: Cisco, Dell, IBM, etc.
+    validations:
+      required: true
+  - type: input
+    id: product-name
+    attributes:
+      label: Product name
+      description: What is the name of the product?
+      placeholder: AppDynamics, BigFix Inventory, Centera, etc.
+    validations:
+      required: true
+  - type: input
+    id: product-versions
+    attributes:
+      label: Product version(s)
+      description: What version(s) of the product is (are) affected?
+      placeholder: v2; 1.5; >3; >=4; >5, <6; etc.
+    validations:
+      required: true
+  - type: dropdown
+    id: product-status
+    attributes:
+      label: Product status
+      description: What is the current status of the affected product?
+      options:
+        - Unknown
+        - Affected
+        - Not Affected
+        - Fixed
+        - Under Investigation
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Please use the information below when selecting a status.
+
+        - Unknown - Status unknown. Default choice.
+        - Affected - Reported to be affected by CVE-2021-44228.
+        - Not Affected - Reported to NOT be affected by CVE-2021-44228 and no
+          further action necessary.
+        - Fixed - Patch and/or mitigations available (see provided links).
+        - Under Investigation - Vendor investigating status.
+  - type: dropdown
+    id: product-updated
+    attributes:
+      label: Product update
+      description: Is there an update available for the product?
+      options:
+        - Available
+        - Not Available
+    validations:
+      required: true
+  - type: input
+    id: product-update-link
+    attributes:
+      label: Product update link
+      description: Where can the update be found, if one is available?
+  - type: input
+    id: product-last-updated
+    attributes:
+      label: Last updated
+      description: When was the product last updated?
+      placeholder: "2021-12-06"
+  - type: textarea
+    id: product-notes
+    attributes:
+      label: Notes
+  - type: textarea
+    id: product-references
+    attributes:
+      label: References
