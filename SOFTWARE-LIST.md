@@ -19,7 +19,7 @@ This list was initially populated using information from the following sources:
 
 | Vendor | Product | Version(s) | Status | Update Available | Vendor Link | Notes | Other References | Last Updated |
 | ------ | ------- | ---------- | ------ | ---------------- | ----------- | ----- | ---------------- | ------------ |
-| 1Password | 1Password | | Not affected | | [1Password public response on Reddit](https://www.reddit.com/r/1Password/comments/rea7dd/comment/hoe41ci) | | | 12/20/2021 |
+| 1Password | All products | | Not affected | | [1Password statement](https://support.1password.com/kb/202112/) | | | 12/23/2021 |
 | 2n | | | | | [2n Advisory Link](https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2) | | | |
 | 3CX | | | | | [3CX Community Thread Link](https://www.3cx.com/community/threads/log4j-vulnerability-cve-2021-44228.86436/#post-407911) | | | |
 | 3M Health Information Systems | CGS | | Affected | Unknown |[CGS: Log4j Software Update(login required)](https://support.3mhis.com/app/account/updates/ri/5210) | This advisory is available to customer only and has not been reviewed by CISA. | | 12/15/2021 |
@@ -59,12 +59,12 @@ This list was initially populated using information from the following sources:
 | Alfresco | | | | | [Alfresco Blog Post](https://hub.alfresco.com/t5/alfresco-content-services-blog/cve-2021-44228-related-to-apache-log4j-security-advisory/ba-p/310717) | | | |
 | AlienVault | | | | | [AlienVault Article Link](https://success.alienvault.com/s/article/are-USM-Anywhere-or-USM-Central-vulnerable-to-CVE-2021-44228) | | | |
 | Alphatron Medical | | | | | [Alphatron Medical Website](https://www.alphatronmedical.com/home.html) | | | |
+| Amazon | Athena | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
 | Amazon | AWS | Linux 1,2 | Not Affected | No | | Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 [AWS Forum](https://forums.aws.amazon.com/thread.jspa?threadID=323611). AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2 | | 12/15/2021 |
 | Amazon | AWS API Gateway | All | Fixed | | [Amazon AWS Link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/20/2021 |
 | Amazon | AWS CloudHSM | < 3.4.1. | Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
 | Amazon | AWS Connect | All | Fixed | | [Vendor Link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | Vendors recommend evaluating components of the environment outside of the Amazon Connect service boundary, which may require separate/additional customer mitigation | | 12/23/2021 |
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
-| Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
 | Amazon | AWS DynamoDB | Unknown | Fixed | | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/17/2021 |
 | Amazon | AWS ElastiCache | Unknown | Fixed | | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/17/2021 |
 | Amazon | AWS Inspector | Unknown | Fixed | | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/17/2021 |
@@ -75,8 +75,18 @@ This list was initially populated using information from the following sources:
 | Amazon | AWS EKS, ECS, Fargate | Unknown | Affected | Yes | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | To help mitigate the impact of the open-source Apache “Log4j2" utility (CVE-2021-44228 and CVE-2021-45046) security issues on customers’ containers, Amazon EKS, Amazon ECS, and AWS Fargate are deploying a Linux-based update (hot-patch). This hot-patch will require customer opt-in to use, and disables JNDI lookups from the Log4J2 library in customers’ containers. These updates are available as an Amazon Linux package for Amazon ECS customers, as a DaemonSet for Kubernetes users on AWS, and will be in supported AWS Fargate platform versions | | 12/16/2021 |
 | Amazon | AWS ELB | Unknown | Fixed | | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/16/2021 |
 | Amazon | AWS Kinesis Data Stream | Unknown | Affected | Yes | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | We are actively patching all sub-systems that use Log4j2 by applying updates. The Kinesis Client Library (KCL) version 2.X and the Kinesis Producer Library (KPL) are not impacted. For customers using KCL 1.x, we have released an updated version and we strongly recommend that all KCL version 1.x customers upgrade to KCL version 1.14.5 (or higher) | | 12/14/2021 |
+| Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
+| Amazon | CloudFront | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | CloudWatch | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
+| Amazon | ELB | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | KMS | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
 | Amazon | OpenSearch | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/), [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | RDS | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | Route 53 | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | S3 | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
 | Amazon | Translate | | Not affected | | [Amazon Translate](https://aws.amazon.com/translate/) | Service not identified on [AWS Log4j Security Bulletin](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | |
+| Amazon | VPC | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
 | AMD | All | | Not Affected | | [AMD Advisory Link](https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1034) | Currently, no AMD products have been identified as affected.  AMD is continuing its analysis. | | 12/22/2021 |
 | Anaconda | Anaconda | 4.10.3 | Not Affected |  | [https://docs.conda.io/projects/conda/en/latest/index.html](https://docs.conda.io/projects/conda/en/latest/index.html) | | | 12/21/2021 |
 | Apache | ActiveMQ Artemis | All | Not Affected | Yes | [ApacheMQ - Update on CVE-2021-4428](https://activemq.apache.org/news/cve-2021-44228) | ActiveMQ Artemis does not use Log4j for logging. However, Log4j 1.2.17 is included in the Hawtio-based web console application archive (i.e. [web/console.war/WEB-INF/lib](web/console.war/WEB-INF/lib)). Although this version of Log4j is not impacted by CVE-2021-44228 future versions of Artemis will be updated so that the Log4j jar is no longer included in the web console application archive. See [ARTEMIS-3612](https://issues.apache.org/jira/browse/ARTEMIS-3612) for more information on that task. | | 12/21/2021 |
@@ -326,6 +336,7 @@ This list was initially populated using information from the following sources:
 | Broadcom | Web Security Service (WSS) | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | Broadcom | WebPulse | | Under Investigation | | [Broadcom Support Portal](https://support.broadcom.com/security-advisory/content/security-advisories/Symantec-Security-Advisory-for-Log4j-2-CVE-2021-44228-Vulnerability/SYMSA19793) | | | |
 | C4b XPHONE | | | | | [C4b XPHONE Link](https://www.c4b.com/de/news/log4j.php) | | | |
+| Campbell Scientific | All | | Not Affected | | [Campbell Scientific Statement](https://s.campbellsci.com/documents/us/miscellaneous/log4j2-vulnerability.pdf) | | | 12/23/2021 |
 | Camunda | | | | | [Camunda Forum Link](https://forum.camunda.org/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228/31910) | | | |
 | Canary Labs | All | | Not Affected | | [Canary Labs Advisory Link](https://helpcenter.canarylabs.com/t/83hjjk0/log4j-vulnerability) | | | 12/22/2021 |
 | Canon | CT Medical Imaging Products | | Not Affected | | [Canon Advisory Link](https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability) | | | 12/22/2021 |
@@ -354,6 +365,7 @@ This list was initially populated using information from the following sources:
 | Check Point | ThreatCloud | | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
 | CheckMK | | | | | [CheckMK Forum](https://forum.checkmk.com/t/checkmk-not-affected-by-log4shell/28643/3) | | | |
 | Ciphermail | | | | | [Ciphermail Blog Post](https://www.ciphermail.com/blog/ciphermail-gateway-and-webmail-messenger-are-not-vulnerable-to-cve-2021-44228.html) | | | |
+| CircleCI | CircleCI | | Not affected | | [CircleCI / Log4j Information CVE-2021-44228](https://discuss.circleci.com/t/circleci-log4j-information-cve-2021-4422) | | | 12/21/2021 |
 | CIS | | | | | [CIS Customer Portal](https://cisecurity.atlassian.net/servicedesk/customer/portal/15/article/2434301961) | | | |
 | Cisco | AppDynamics | | Affected | Yes | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Common Services Platform Collector | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
@@ -1287,6 +1299,7 @@ This list was initially populated using information from the following sources:
 | Gravwell | | | | | [Gravwell Statement](https://www.gravwell.io/blog/cve-2021-44228-log4j-does-not-impact-gravwell-products) | | | |
 | Graylog | Graylog Server | All versions >= 1.2.0 and <= 4.2.2 | Affected | Yes | [Graylog Update for Log4j](https://www.graylog.org/post/graylog-update-for-log4j) | | | |
 | GreenShot | | | | | [GreenShot Statement](https://greenshot.atlassian.net/browse/BUG-2871) | | | |
+| GSA | Cloud.gov | | Fixed | | [Log4j Customer responsibility](https://cloud.gov/2021/12/14/log4j-buildpack-updates/) | | | 12/21/2021 |
 | Guidewire | | | | | [Guidewire Statement](https://community.guidewire.com/s/article/Update-to-customers-who-have-questions-about-the-use-of-log4j-in-Guidewire-products) | | | |
 | HAProxy | | | | | [HAProxy Statement](https://www.haproxy.com/blog/december-2021-log4shell-mitigation/) | | | |
 | HarmanPro AMX | | | | | [HarmanPro AMX Statement](https://help.harmanpro.com/apache-log4j-vulnerability) | | | |
@@ -1884,6 +1897,7 @@ This list was initially populated using information from the following sources:
 | MailStore | | | | | [MailStore Statement](https://www.mailstore.com/en/blog/mailstore-affected-by-log4shell/) | | | |
 | Maltego | | | | | [Maltego Response to Logj4](https://www.maltego.com/blog/our-response-to-log4j-cve-2021-44228/) | | | |
 | ManageEngine | Servicedesk Plus | 11305 and below | Affected | | [Manage Engine Advisory](https://www.manageengine.com/products/service-desk/security-response-plan.html) | | | 12/15/2021 |
+| ManageEngine | AD SelfService Plus | Build 6.1 build 6114 | Not Affected | | | | 12/27/21 |
 | ManageEngine Zoho | | | | | [Manage Engine Link](https://pitstop.manageengine.com/portal/en/community/topic/log4j-ad-manager-plus) | | | |
 | ManageEngine Zoho | ADManager Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
 | ManageEngine Zoho | ADAudit Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
@@ -1899,7 +1913,7 @@ This list was initially populated using information from the following sources:
 | ManageEngine Zoho | Analytics Plus | On-Prem | | | [ManageEngine Vulnerability Impact](https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1) | | |12/16/2021|
 | MariaDB | | | | | [MariaDB Statement](https://mariadb.com/resources/blog/log4shell-and-mariadb-cve-2021-44228/) | | | |
 | MathWorks | All MathWorks general release desktop or server products | | Not Affected | No | [MathWorks statement regarding CVE-2021-44228](https://www.mathworks.com/matlabcentral/answers/1610640-apache-log4j-vulnerability-cve-2021-44228-how-does-it-affect-matlab-run-time) | | | |
-| MathWorks Matlab | | | | | [MathWorks Matlab Statement](https://www.mathworks.com/matlabcentral/answers/1610640-apache-log4j-vulnerability-cve-2021-44228-how-does-it-affect-matlab-run-time) | | | |
+| MathWorks | MATLAB | All | Not Affected | No | [MathWorks MATLAB Statement](https://www.mathworks.com/content/dam/mathworks/policies/mathworks-response-to-cve-2021-44228-log4j-vulnerability.pdf) | | | 12/29/2021 |
 | Matillion | | | | | [Matillion Security Advisory](https://documentation.matillion.com/docs/security-advisory-14th-december-2021) | | | |
 | Matomo | | | | | [Matomo Statement](https://forum.matomo.org/t/matomo-is-not-concerned-by-the-log4j-security-breach-cve-2021-44228-discovered-on-december-2021-the-9th/44089) | | | |
 | Mattermost FocalBoard | | | | | [Mattermost FocalBoard Concern](https://forum.mattermost.org/t/log4j-vulnerability-concern/12676) | | | |
@@ -2053,6 +2067,7 @@ download | | 12/20/2021 |
 | OpenMRS TALK | | | | | [OpenMRS TALK Link](https://talk.openmrs.org/t/urgent-security-advisory-2021-12-11-re-apache-log4j-2/35341) | | | |
 | OpenNMS | | | | | [OpenNMS Link](https://www.opennms.com/en/blog/2021-12-10-opennms-products-affected-by-apache-log4j-vulnerability-cve-2021-44228/) | | | |
 | OpenSearch | | | | | [OpenSearch Discussion Link](https://discuss.opendistrocommunity.dev/t/log4j-patch-for-cve-2021-44228/7950) | | | |
+| OpenText | | | | | [OpenText Log4J Remote Code Execution](https://www.opentext.com/support/log4j-remote-code-execution-advisory) | | | 12/23/2021 |
 | Oracle | | | Affected | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) [My Oracle Support Document](https://support.oracle.com/rs?type=doc&id=2827611.1) | The support document is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
 | Orgavision | | | | | [Orgavision Link](https://www.orgavision.com/neuigkeiten/sicherheitsluecke-java-library-log4j) | | | |
 | Osirium | PAM | | Not Affected | | [Osirium statement](https://www.osirium.com/blog/apache-log4j-vulnerability) | | | |
@@ -2340,7 +2355,12 @@ download | | 12/20/2021 |
 | Seagull Scientific | | | | | [Seagull Scientific Support Link](https://support.seagullscientific.com/hc/en-us/articles/4415794235543-Apache-Log4Shell-Vulnerability) | | | |
 | SecurePoint | | | | | [SecurePoint News Link](https://www.securepoint.de/news/details/sicherheitsluecke-log4j-securepoint-loesungen-nicht-betroffen.html) | | | |
 | Security Onion | | | | | [Security Onion Blog Post](https://blog.securityonion.net/2021/12/security-onion-2390-20211210-hotfix-now.html) | | | |
-| Seeburger | | | | | [Seeburger Service Desk Link](https://servicedesk.seeburger.de/portal/en-US/Knowledge/Article/?defId=101040&id=25486312&COMMAND=Open) |This advisory is avaiable to customers only and has not been reviewed by CISA | | |
+| Securonix | SNYPR Application | | Affected | | [Securonix Response to CVE-2021-44228: Securonix On-Prem Customers](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-OnPrem-Customer-Update.pdf) | | | 12/10/21 |
+| Securonix | Next Gen SIEM | All | Affected | | [Securonix Response to CVE-2021-44228: Securonix Cloud Customers](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-Cloud-Customer-Update.pdf) | Patching ongoing as of 12/10/2021 | | 12/10/21 |
+| Securonix | User and Entity Behavior Analytics(UEBA) | All | Affected | | [Securonix Response to CVE-2021-44228: Securonix Cloud Customers](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-Cloud-Customer-Update.pdf) | Patching ongoing as of 12/10/2021 | | 12/10/21 |
+| Securonix | Security Analytics and Operations Platform (SOAR) | All | Affected | | [Securonix Response to CVE-2021-44228: Securonix Cloud Customers](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-Cloud-Customer-Update.pdf) | Patching ongoing as of 12/10/2021 | | 12/10/21 |
+| Securonix | Extended Detection and Response (XDR) | All | Affected | | [Securonix Response to CVE-2021-44228: Securonix Cloud Customers](https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-Cloud-Customer-Update.pdf) | Patching ongoing as of 12/10/2021 | | 12/10/21 |
+| Seeburger | | | | | [Seeburger Service Desk Link](https://servicedesk.seeburger.de/portal/en-US/Knowledge/Article/?defId=101040&id=25486312&COMMAND=Open) | This advisory is avaiable to customers only and has not been reviewed by CISA. | | |
 | SentinelOne | | | | | [SentinelOne Blog Post](https://www.sentinelone.com/blog/cve-2021-44228-staying-secure-apache-log4j-vulnerability/) | | | |
 | Sentry | | | | | [Sentry Blog Post](https://blog.sentry.io/2021/12/15/sentrys-response-to-log4j-vulnerability-cve-2021-44228) | | | |
 | SEP | | | | | [SEP Support Link](https://support.sep.de/otrs/public.pl?Action=PublicFAQZoom;ItemID=132) | | | |
@@ -2401,13 +2421,16 @@ download | | 12/20/2021 |
 | SmileCDR | | | | | [SmileCDR Blog Post](https://www.smilecdr.com/our-blog/a-statement-on-log4shell-cve-2021-44228) | | | |
 | Snakemake | Snakemake | 6.12.1 | Not Affected |  | [https://snakemake.readthedocs.io/en/stable/](https://snakemake.readthedocs.io/en/stable/) | | | 12/21/2021 |
 | Sn0m | | | | | [Sn0m Link](https://www.snom.com/en/press/log4j-poses-no-threat-snom-phones/) | | | |
+| Snow Software | Snow Commander | 8.1 to 8.10.2 | Fixed | Yes | [Snow Software Commmunity Link](https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS) | | | |
+| Snow Software | VM Access Proxy | v3.1 to v3.6 | Fixed | Yes | [Snow Software Commmunity Link](https://community.snowsoftware.com/s/feed/0D5690000B4U6hUCQS) | | | |
 | Snowflake | | | Not Affected | | [Snowflake Community Link](https://community.snowflake.com/s/article/No-Snowflake-exposure-to-Apache-Log4j-vulnerability-CVE-2021-44228) | | | |
 | Snyk | Cloud Platform | |Not Affected | | [Snyk Updates](https://updates.snyk.io/snyk%27s-cloud-platform-all-clear-from-log4j-exploits-216499) | | | |
 | Software AG | | | | | [Software AG](https://tech.forums.softwareag.com/t/log4j-zero-day-vulnerability/253849) | | | |
-| SolarWinds | Database Performance Analyzer (DPA) | 2021.1.x, 2021.3.x, 2022.1.x | Affected | No | [Apache Log4j Critical Vulnerability (CVE-2021-44228)](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) [Database Performance Analyzer (DPA) and the Apache Log4j Vulnerability (CVE-2021-44228)](https://support.solarwinds.com/SuccessCenter/s/article/Database-Performance-Analyzer-DPA-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228) | Workarounds available, hotfix under development | | 12/14/2021 |
-| SolarWinds | Server & Application Monitor (SAM) | SAM 2020.2.6 and later | Affected | No | [Apache Log4j Critical Vulnerability (CVE-2021-44228)](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) [Server & Application Monitor (SAM) and the Apache Log4j Vulnerability (CVE-2021-44228)](https://support.solarwinds.com/SuccessCenter/s/article/Server-Application-Monitor-SAM-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US) | Workarounds available, hotfix under development | | 12/14/2021 |
+| SolarWinds | Database Performance Analyzer (DPA) | 2021.1.x, 2021.3.x, 2022.1.x | Affected | Yes | [Apache Log4j Critical Vulnerability (CVE-2021-44228)](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228), [Database Performance Analyzer (DPA) and the Apache Log4j Vulnerability (CVE-2021-44228)](https://support.solarwinds.com/SuccessCenter/s/article/Database-Performance-Analyzer-DPA-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228) | For more information, please see the following KB article: [link](https://support.solarwinds.com/SuccessCenter/s/article/Database-Performance-Analyzer-DPA-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US) | | 12/23/2021 |
+| SolarWinds | Orion Platform | | Not Affected | | [Apache Log4j Critical Vulnerability (CVE-2021-44228)](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228) | | | 12/23/2021 |
+| SolarWinds | Server & Application Monitor (SAM) | SAM 2020.2.6 and later | Affected | Yes | [Apache Log4j Critical Vulnerability (CVE-2021-44228)](https://www.solarwinds.com/trust-center/security-advisories/cve-2021-44228), [Server & Application Monitor (SAM) and the Apache Log4j Vulnerability (CVE-2021-44228)](https://support.solarwinds.com/SuccessCenter/s/article/Server-Application-Monitor-SAM-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US) | For more information, please see the following KB article for the latest details specific to the SAM hotfix: [link](https://support.solarwinds.com/SuccessCenter/s/article/Server-Application-Monitor-SAM-and-the-Apache-Log4j-Vulnerability-CVE-2021-44228?language=en_US) | | 12/23/2021 |
 | SonarSource | | | | | [SonarSource](https://community.sonarsource.com/t/sonarqube-and-the-log4j-vulnerability/54721) | | | |
-| Sonatype | | | | | [Sonatype Vulnerability Statement](https://blog.sonatype.com/a-new-0-day-log4j-vulnerability-discovered-in-the-wild) | | | |
+| Sonatype | All Products | All Versions | Not Affected | N/A | [Sonatype Vulnerability Statement](https://help.sonatype.com/docs/important-announcements/sonatype-product-log4j-vulnerability-status) | Sonatype uses logback as the default logging solution as opposed to log4j. This means our software including Nexus Lifecycle, Nexus Firewall, Nexus Repository OSS and Nexus Repository Pro in versions 2.x and 3.x are NOT affected by the reported log4j vulnerabilities. We still advise keeping your software upgraded at the latest version. | | 12/29/2021 |
 | SonicWall | Capture Client & Capture Client Portal | | Not Affected | | [Sonic Wall Security Advisory](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the Capture Client. | | 12/12/2021 |
 | SonicWall | Access Points| | Not Affected | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Log4j2 not used in the SonicWall Access Points | | 12/12/2021 |
 | SonicWall | Analytics | | Under Investigation | | [Security Advisory (sonicwall.com)](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032) | Under Review | | 12/12/2021 |
@@ -2649,6 +2672,7 @@ download | | 12/20/2021 |
 | UniFlow | | | | | [UniFlow Security Advisory](https://www.uniflow.global/en/security/security-and-maintenance/) | | | |
 | Unify ATOS | | | | | [Unify ATOS Advisory](https://networks.unify.com/security/advisories/OBSO-2112-01.pdf) | | | |
 | Unimus | | | | | [Unimus Statement](https://forum.unimus.net/viewtopic.php?f=7&t=1390#top) | | | |
+| UiPath | InSights | 20.10 | Affected | Yes | [UiPath Statement](https://www.uipath.com/legal/trust-and-security/cve-2021-44228) | | | 12/15/2021 |
 | USSIGNAL MSP | | | | | [USSIGNAL MSP Statement](https://ussignal.com/blog/apache-log4j-vulnerability) | | | |
 | VArmour | | | | | [VArmour Statement](https://support.varmour.com/hc/en-us/articles/4416396248717-Log4j2-Emergency-Configuration-Change-for-Critical-Auth-Free-Code-Execution-in-Logging-Utility) | | | |
 | Varian | Acuity | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
@@ -2787,6 +2811,7 @@ download | | 12/20/2021 |
 | Zerto | | | | | [Zerto KB](https://help.zerto.com/kb/000004822) | | | |
 | Zesty | | | | | [Zesty Log4j Exploit](https://www.zesty.io/mindshare/company-announcements/log4j-exploit/) | | | |
 | Zimbra | | | | | [BugZilla Zimbra](https://bugzilla.zimbra.com/show_bug.cgi?id=109428) | | | |
+| Zix | | | | | [Zix Appriver Statement](https://status.appriver.com/) | | | 12/16/2021 |
 | Zoom | | | | | [Zoom Security Exposure](https://explore.zoom.us/en/trust/security/security-bulletin/security-bulletin-log4j/?=nocache) | | | |
 | ZPE systems Inc | | | | | [ZpeSystems CVE-2021-44228](https://support.zpesystems.com/portal/en/kb/articles/is-nodegrid-os-and-zpe-cloud-affected-by-cve-2021-44228-apache-log4j) | | | |
 | Zscaler | See Link (Multiple Products) | | Not Affected | No | [CVE-2021-44228 log4j Vulnerability](https://trust.zscaler.com/posts/9581) | | | 12/15/2021 |
