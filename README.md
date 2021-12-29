@@ -3,10 +3,10 @@
 This repository provides
 [CISA's guidance](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance)
 and an overview of related software regarding the Log4j vulnerability
-(CVE-2021-44228). CISA urges users and administrators to review the
-[official Apache release](https://logging.apache.org/log4j/2.x/security.html)
-for updates and mitigation guidance, and upgrade to Log4j 2.17.1 (Java 8), 2.12.4
-(Java 7) and 2.3.2 (Java 6).
+(CVE-2021-44228). CISA urges users and administrators to upgrade to Log4j 2.17.1
+(Java 8), 2.12.4 (Java 7) and 2.3.2 (Java 6), and review and monitor the
+[Apache Log4j Security Vulnerabilities webpage](https://logging.apache.org/log4j/2.x/security.html)
+for updates and mitigation guidance.
 
 The information in this repository is provided "as is" for informational
 purposes only and is being assembled and updated by CISA through
@@ -35,7 +35,7 @@ or imply their endorsement, recommendation, or favoring by CISA.
 
 National Vulnerability Database (NVD) Information: [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
 
-## Mitigation Guidance ##
+## CISA Mitigation Guidance ##
 
 When updates are available, agencies must update software
 using Log4j to the newest version, which is the most
