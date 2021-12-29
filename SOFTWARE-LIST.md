@@ -59,7 +59,7 @@ This list was initially populated using information from the following sources:
 | Alfresco | | | | | [Alfresco Blog Post](https://hub.alfresco.com/t5/alfresco-content-services-blog/cve-2021-44228-related-to-apache-log4j-security-advisory/ba-p/310717) | | | |
 | AlienVault | | | | | [AlienVault Article Link](https://success.alienvault.com/s/article/are-USM-Anywhere-or-USM-Central-vulnerable-to-CVE-2021-44228) | | | |
 | Alphatron Medical | | | | | [Alphatron Medical Website](https://www.alphatronmedical.com/home.html) | | | |
-| Amazon | Athena | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | Athena | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
 | Amazon | AWS | Linux 1,2 | Not Affected | No | | Notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated in 2015 [AWS Forum](https://forums.aws.amazon.com/thread.jspa?threadID=323611). AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2 and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2 | | 12/15/2021 |
 | Amazon | AWS API Gateway | All | Fixed | | [Amazon AWS Link](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/20/2021 |
 | Amazon | AWS CloudHSM | < 3.4.1. | Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
@@ -76,17 +76,17 @@ This list was initially populated using information from the following sources:
 | Amazon | AWS ELB | Unknown | Fixed | | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/16/2021 |
 | Amazon | AWS Kinesis Data Stream | Unknown | Affected | Yes | [Update for Apache Log4j2 Issue (CVE-2021-44228)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | We are actively patching all sub-systems that use Log4j2 by applying updates. The Kinesis Client Library (KCL) version 2.X and the Kinesis Producer Library (KPL) are not impacted. For customers using KCL 1.x, we have released an updated version and we strongly recommend that all KCL version 1.x customers upgrade to KCL version 1.14.5 (or higher) | | 12/14/2021 |
 | Amazon | AWS Lambda | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/) | | | |
-| Amazon | CloudFront | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
-| Amazon | CloudWatch | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | CloudFront | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | CloudWatch | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
 | Amazon | EC2 | Amazon Linux 1 & 2 | Not Affected | | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | 12/15/2021 |
-| Amazon | ELB | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
-| Amazon | KMS | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | ELB | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | KMS | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
 | Amazon | OpenSearch | Unknown | Affected | Yes | [Apache Log4j2 Security Bulletin (CVE-2021-44228) (amazon.com)](https://aws.amazon.com/security/security-bulletins/AWS-2021-005/), [(R20211203-P2)](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
-| Amazon | RDS | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
-| Amazon | Route 53 | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
-| Amazon | S3 | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | RDS | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | Route 53 | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
+| Amazon | S3 | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
 | Amazon | Translate | | Not affected | | [Amazon Translate](https://aws.amazon.com/translate/) | Service not identified on [AWS Log4j Security Bulletin](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | |
-| Amazon | VPC | | Fixed | | https://aws.amazon.com/security/security-bulletins/AWS-2021-006/ | | | |
+| Amazon | VPC | | Fixed | | [https://aws.amazon.com/security/security-bulletins/AWS-2021-006/](https://aws.amazon.com/security/security-bulletins/AWS-2021-006/) | | | |
 | AMD | All | | Not Affected | | [AMD Advisory Link](https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1034) | Currently, no AMD products have been identified as affected.  AMD is continuing its analysis. | | 12/22/2021 |
 | Anaconda | Anaconda | 4.10.3 | Not Affected |  | [https://docs.conda.io/projects/conda/en/latest/index.html](https://docs.conda.io/projects/conda/en/latest/index.html) | | | 12/21/2021 |
 | Apache | ActiveMQ Artemis | All | Not Affected | Yes | [ApacheMQ - Update on CVE-2021-4428](https://activemq.apache.org/news/cve-2021-44228) | ActiveMQ Artemis does not use Log4j for logging. However, Log4j 1.2.17 is included in the Hawtio-based web console application archive (i.e. [web/console.war/WEB-INF/lib](web/console.war/WEB-INF/lib)). Although this version of Log4j is not impacted by CVE-2021-44228 future versions of Artemis will be updated so that the Log4j jar is no longer included in the web console application archive. See [ARTEMIS-3612](https://issues.apache.org/jira/browse/ARTEMIS-3612) for more information on that task. | | 12/21/2021 |
