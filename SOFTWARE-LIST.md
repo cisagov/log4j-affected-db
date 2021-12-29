@@ -2263,7 +2263,6 @@ download | | 12/20/2021 |
 | Reiner SCT | | | | | [Reiner SCT Forum](https://forum.reiner-sct.com/index.php?/topic/5973-timecard-und-log4j-schwachstelle/&do=findComment&comment=14933) | | | |
 | ReportURI | | | | | [ReportURI Link](https://scotthelme.co.uk/responding-to-the-log4j-2-vulnerability/) | | | |
 | Respondus | | | | | [Respondus Support Link](https://support.respondus.com/support/index.php?/News/NewsItem/View/339) |This advisory is available to customers only and has not been reviewed by CISA | | |
-| Resque | Resque | | | | | | | |
 | Revenera / Flexera | | | | | [Revenera / Flexera Community Link](https://community.flexera.com/t5/Revenera-Company-News/Security-Advisory-Log4j-Java-Vulnerability-CVE-2021-44228/ba-p/216905) | | | |
 | Ricoh | | | | | [Ricoh Link](https://www.ricoh.com/info/2021/1215_1/) | | | |
 | RingCentral | | | | | [RingCentral Security Bulletin](https://www.ringcentral.com/trust-center/security-bulletin.html) | | | |
