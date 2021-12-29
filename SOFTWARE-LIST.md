@@ -2667,6 +2667,7 @@ download | | 12/20/2021 |
 | UniFlow | | | | | [UniFlow Security Advisory](https://www.uniflow.global/en/security/security-and-maintenance/) | | | |
 | Unify ATOS | | | | | [Unify ATOS Advisory](https://networks.unify.com/security/advisories/OBSO-2112-01.pdf) | | | |
 | Unimus | | | | | [Unimus Statement](https://forum.unimus.net/viewtopic.php?f=7&t=1390#top) | | | |
+| UiPath | InSights | 20.10 | Affected | Yes | [UiPath Statement](https://www.uipath.com/legal/trust-and-security/cve-2021-44228) | | | 12/15/2021 |
 | USSIGNAL MSP | | | | | [USSIGNAL MSP Statement](https://ussignal.com/blog/apache-log4j-vulnerability) | | | |
 | VArmour | | | | | [VArmour Statement](https://support.varmour.com/hc/en-us/articles/4416396248717-Log4j2-Emergency-Configuration-Change-for-Critical-Auth-Free-Code-Execution-in-Logging-Utility) | | | |
 | Varian | Acuity | All | Under Investigation | | [Varian Advisory Link](https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities) | | | 12/22/2021 |
