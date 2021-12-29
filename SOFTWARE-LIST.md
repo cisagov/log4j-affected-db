@@ -365,6 +365,7 @@ This list was initially populated using information from the following sources:
 | Check Point | ThreatCloud | | Not Affected | | [sk176865](https://supportcontent.checkpoint.com/solutions?id=sk176865) | | | |
 | CheckMK | | | | | [CheckMK Forum](https://forum.checkmk.com/t/checkmk-not-affected-by-log4shell/28643/3) | | | |
 | Ciphermail | | | | | [Ciphermail Blog Post](https://www.ciphermail.com/blog/ciphermail-gateway-and-webmail-messenger-are-not-vulnerable-to-cve-2021-44228.html) | | | |
+| CircleCI | CircleCI | | Not affected | | [CircleCI / Log4j Information CVE-2021-44228](https://discuss.circleci.com/t/circleci-log4j-information-cve-2021-4422) | | | 12/21/2021 |
 | CIS | | | | | [CIS Customer Portal](https://cisecurity.atlassian.net/servicedesk/customer/portal/15/article/2434301961) | | | |
 | Cisco | AppDynamics | | Affected | Yes | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
 | Cisco | Cisco Common Services Platform Collector | | Under Investigation | | [Vulnerability in Apache Log4j Library Affecting Cisco Products: December 2021](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) | | | |
@@ -1298,6 +1299,7 @@ This list was initially populated using information from the following sources:
 | Gravwell | | | | | [Gravwell Statement](https://www.gravwell.io/blog/cve-2021-44228-log4j-does-not-impact-gravwell-products) | | | |
 | Graylog | Graylog Server | All versions >= 1.2.0 and <= 4.2.2 | Affected | Yes | [Graylog Update for Log4j](https://www.graylog.org/post/graylog-update-for-log4j) | | | |
 | GreenShot | | | | | [GreenShot Statement](https://greenshot.atlassian.net/browse/BUG-2871) | | | |
+| GSA | Cloud.gov | | Fixed | | [Log4j Customer responsibility](https://cloud.gov/2021/12/14/log4j-buildpack-updates/) | | | 12/21/2021 |
 | Guidewire | | | | | [Guidewire Statement](https://community.guidewire.com/s/article/Update-to-customers-who-have-questions-about-the-use-of-log4j-in-Guidewire-products) | | | |
 | HAProxy | | | | | [HAProxy Statement](https://www.haproxy.com/blog/december-2021-log4shell-mitigation/) | | | |
 | HarmanPro AMX | | | | | [HarmanPro AMX Statement](https://help.harmanpro.com/apache-log4j-vulnerability) | | | |
