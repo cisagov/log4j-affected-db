@@ -2487,7 +2487,6 @@ This list was initially populated using information from the following sources:
 | Splunk | Splunk Synthetics | Current | Affected | CVE-2021-44228: Fixed 12/10 CVE-2021-45046: Fixed 12/20 | [Splunk Security Advisory for Apache Log4j (CVE-2021-44228 and CVE-2021-45046)](https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html)  | | | 8:20 am PT, 12/30/21 |
 | Splunk | Splunk UBA OVA Software | 5.0.3a, 5.0.0 | Affected | Pending |  [Splunk Security Advisory for Apache Log4j (CVE-2021-44228 and CVE-2021-45046)](https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html) | | | 8:20 am PT, 12/30/21 |
 | Sprecher Automation | | | | | [Sprecher Automation Security Alert](https://www.sprecher-automation.com/en/it-security/security-alerts) | | | |
-| Sprecher Automation | | | | | [Sprecher Automation Security Alert](https://www.sprecher-automation.com/en/it-security/security-alerts) | | | |
 | Spring | Spring Boot | | Unknown | | [https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot](https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot) | Spring Boot users are only affected by this vulnerability if they have switched the default logging system to Log4J2 | | |
 | Spring Boot | | | | | [Spring Boot Vulnerability Statement](https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot) | | | |
 | StarDog | | | | | [StarDog](https://community.stardog.com/t/stardog-7-8-1-available/3411) | | | |
