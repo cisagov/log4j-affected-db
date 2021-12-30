@@ -58,7 +58,7 @@ software:
       - https://www.2n.com/cs_CZ/novinky/produkty-2n-neohrozuje-zranitelnost-cve-2021-44228-komponenty-log4j-2
     notes: ''
     references:
-      - ''
+      - 'change'
     reporter: cisagov
     last_updated: '2021-12-30T19:06:26+00:00'
   - vendor: 3CX
