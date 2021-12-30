@@ -50,7 +50,8 @@ jobs:
           path: |
             ${{ env.PIP_CACHE_DIR }}
           key: "${{ env.BASE_CACHE_KEY }}\
-            ${{ hashFiles('.github/workflows/update_software_list.yml') }}"
+            ${{ hashFiles('.github/workflows/update_software_list.yml') }}-\
+            ${{ hashFiles('config/requirements.txt') }}"
           restore-keys: |
             ${{ env.BASE_CACHE_KEY }}
       - name: Update Python base packages
