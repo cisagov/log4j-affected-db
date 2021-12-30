@@ -1,0 +1,111 @@
+---
+name: Update the software list
+
+on:
+  push:
+    branches:
+      - develop
+
+env:
+  PIP_CACHE_DIR: ~/.cache/pip
+  TESTING_BRANCH_BASE: testing/update_software_list
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      # Commit author information for git
+      git_author: ${{ steps.git-config.outputs.author }}
+      git_email: ${{ steps.git-config.outputs.email }}
+      git_user: ${{ steps.git-config.outputs.user }}
+      # The name of the branch used for testing
+      testing_branch: ${{ steps.testing-branch.outputs.name }}
+    steps:
+      - id: git-config
+        run: |
+          echo "::set-output name=author::$GIT_USER <$GIT_EMAIL>"
+          echo "::set-output name=email::$GIT_EMAIL"
+          echo "::set-output name=user::$GIT_USER"
+        env:
+          GIT_EMAIL: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.email }}
+          GIT_USER: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.name }}
+      - id: testing-branch
+        run: echo "::set-output name=name::$BASE_BRANCH/$COMMIT_SHA"
+        env:
+          BASE_BRANCH: ${{ env.TESTING_BRANCH_BASE }}
+          COMMIT_SHA: ${{ github.sha }}
+  generate_list_update:
+    runs-on: ubuntu-latest
+    needs: setup
+    outputs:
+      # If changes are detected then a commit will have been pushed
+      updated_list: ${{ steps.commit-for-testing.outputs.changes_detected }}
+    # Don't run if we're seeing an update push
+    if: github.actor != needs.setup.outputs.git_user
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.CISAGOVBOT_PAT }}
+      - id: setup-python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+      - uses: actions/cache@v2
+        env:
+          BASE_CACHE_KEY: "${{ github.job }}-${{ runner.os }}-\
+            py${{ steps.setup-python.outputs.python-version }}-"
+        with:
+          path: |
+            ${{ env.PIP_CACHE_DIR }}
+          key: "${{ env.BASE_CACHE_KEY }}\
+            ${{ hashFiles('.github/workflows/update_software_list.yml') }}-\
+            ${{ hashFiles('config/requirements.txt') }}"
+          restore-keys: |
+            ${{ env.BASE_CACHE_KEY }}
+      - name: Update Python base packages
+        run: python -m pip install --upgrade pip setuptools wheel
+      - name: Install dependencies
+        run: pip install --upgrade --requirement config/requirements.txt
+      - name: Create the branch for test validation
+        run: git switch --create ${{ needs.setup.outputs.testing_branch }}
+      - name: Generate a normalized YAML file
+        run: normalize-yml data/cisagov.yml > normalized.yml
+      - name: Generate a Markdown table from the normalized YAML file
+        run: yml2md normalized.yml > table_data.md
+      - name: Generate a new software list from the updated data
+        run: md-from-template config/SOFTWARE-LIST.tpl.md table_data.md > SOFTWARE-LIST.md
+      - id: commit-for-testing
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: ${{ needs.setup.outputs.testing_branch }}
+          commit_message: Update the software list
+          commit_user_name: ${{ needs.setup.outputs.git_user }}
+          commit_user_email: ${{ needs.setup.outputs.git_email }}
+          commit_author: ${{ needs.setup.outputs.git_author }}
+          file_pattern: SOFTWARE-LIST.md
+  merge_list_update:
+    runs-on: ubuntu-latest
+    needs:
+      - setup
+      - generate_list_update
+    if: needs.generate_list_update.outputs.updated_list == 'true'
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.CISAGOVBOT_PAT }}
+      - name: Configure git
+        run: |
+          git config user.name "${{ needs.setup.outputs.git_user }}"
+          git config user.email "${{ needs.setup.outputs.git_email }}"
+      - uses: lewagon/wait-on-check-action@v1.0.0
+        with:
+          check-name: lint
+          ref: ${{ needs.setup.outputs.testing_branch }}
+          repo-token: ${{ github.token }}
+      - name: Merge the testing branch
+        run: |
+          git fetch
+          git merge origin/${{ needs.setup.outputs.testing_branch }}
+          git push
+      - name: Cleanup testing branch
+        run: git push --delete origin ${{ needs.setup.outputs.testing_branch }}
