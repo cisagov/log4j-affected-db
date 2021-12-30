@@ -108,4 +108,4 @@ jobs:
           git merge origin/${{ needs.setup.outputs.testing_branch }}
           git push
       - name: Cleanup testing branch
-        run: git push -d origin ${{ needs.setup.outputs.testing_branch }}
+        run: git push --delete origin ${{ needs.setup.outputs.testing_branch }}
