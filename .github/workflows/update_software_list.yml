@@ -8,15 +8,18 @@ on:
 
 env:
   PIP_CACHE_DIR: ~/.cache/pip
-  WORKING_BRANCH_NAME: testing/update_software_list
+  TESTING_BRANCH_BASE: testing/update_software_list
 
 jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
+      # Commit author information for git
       git_author: ${{ steps.git-config.outputs.author }}
       git_email: ${{ steps.git-config.outputs.email }}
       git_user: ${{ steps.git-config.outputs.user }}
+      # The name of the branch used for testing
+      testing_branch: ${{ steps.testing-branch.outputs.name }}
     steps:
       - id: git-config
         run: |
@@ -26,6 +29,11 @@ jobs:
         env:
           GIT_EMAIL: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.email }}
           GIT_USER: ${{ fromJson(secrets.GIT_AUTHOR_INFORMATION).user.name }}
+      - id: testing-branch
+        run: echo "::set-output name=name::$BASE_BRANCH/$COMMIT_SHA"
+        env:
+          BASE_BRANCH: ${{ env.TESTING_BRANCH_BASE }}
+          COMMIT_SHA: ${{ github.sha }}
   generate_list_update:
     runs-on: ubuntu-latest
     needs: setup
@@ -59,7 +67,7 @@ jobs:
       - name: Install dependencies
         run: pip install --upgrade --requirement config/requirements.txt
       - name: Create the branch for test validation
-        run: git switch --create ${{ env.WORKING_BRANCH_NAME }}
+        run: git switch --create ${{ needs.setup.outputs.testing_branch }}
       - name: Generate a normalized YAML file
         run: normalize-yml data/cisagov.yml > normalized.yml
       - name: Generate a Markdown table from the normalized YAML file
@@ -69,7 +77,7 @@ jobs:
       - id: commit-for-testing
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: ${{ env.WORKING_BRANCH_NAME }}
+          branch: ${{ needs.setup.outputs.testing_branch }}
           commit_message: Update the software list
           commit_user_name: ${{ needs.setup.outputs.git_user }}
           commit_user_email: ${{ needs.setup.outputs.git_email }}
@@ -92,12 +100,12 @@ jobs:
       - uses: lewagon/wait-on-check-action@v1.0.0
         with:
           check-name: lint
-          ref: ${{ env.WORKING_BRANCH_NAME }}
+          ref: ${{ needs.setup.outputs.testing_branch }}
           repo-token: ${{ github.token }}
       - name: Merge the testing branch
         run: |
           git fetch
-          git merge origin/${{ env.WORKING_BRANCH_NAME }}
+          git merge origin/${{ needs.setup.outputs.testing_branch }}
           git push
       - name: Cleanup testing branch
-        run: git push -d origin ${{ env.WORKING_BRANCH_NAME }}
+        run: git push -d origin ${{ needs.setup.outputs.testing_branch }}
