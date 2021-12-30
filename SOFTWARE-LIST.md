@@ -2069,8 +2069,8 @@ download | | 12/20/2021 |
 | OpenSearch | | | | | [OpenSearch Discussion Link](https://discuss.opendistrocommunity.dev/t/log4j-patch-for-cve-2021-44228/7950) | | | |
 | OpenText | | | | | [OpenText Log4J Remote Code Execution](https://www.opentext.com/support/log4j-remote-code-execution-advisory) | | | 12/23/2021 |
 | Oracle | | | Affected | | [Oracle Security Alert](https://www.oracle.com/security-alerts/alert-cve-2021-44228.html) [My Oracle Support Document](https://support.oracle.com/rs?type=doc&id=2827611.1) | The support document is available to customers only and has not been reviewed by CISA | | 12/17/2021 |
-| Oracle | Exadata |  | Affected |  |  |  |  |  |
-| Oracle | Enterprise Manager | | Affected |  |  |  |  |  |
+| Oracle | Exadata | <21.3.4 | Affected |  | https://www.oracle.com/security-alerts/alert-cve-2021-44228.html (patch status and other security guidance is restricted to Oracle account/support members) |  |  |  |
+| Oracle | Enterprise Manager | 13.5 ,13.4 & 13.3.2 | Affected |  | https://www.oracle.com/security-alerts/alert-cve-2021-44228.html (patch status and other security guidance is restricted to Oracle account/support members) |  |  |  |
 | Orgavision | | | | | [Orgavision Link](https://www.orgavision.com/neuigkeiten/sicherheitsluecke-java-library-log4j) | | | |
 | Osirium | PAM | | Not Affected | | [Osirium statement](https://www.osirium.com/blog/apache-log4j-vulnerability) | | | |
 | Osirium | PEM | | Not Affected | | [Osirium statement](https://www.osirium.com/blog/apache-log4j-vulnerability) | | | |
