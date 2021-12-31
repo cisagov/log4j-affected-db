@@ -2778,7 +2778,7 @@ This list was initially populated using information from the following sources:
 | WSO2 | WSO2 Enterprise Integrator | 6.1.0 and above | Affected | Yes | [https://docs.wso2.com/pages/viewpage.action?pageId=180948677](https://docs.wso2.com/pages/viewpage.action?pageId=180948677) | A temporary mitigation is available while vendor works on update | | |
 | XCP-ng | | | | | [XCP lOG4j Vulnerability](https://xcp-ng.org/forum/topic/5315/log4j-vulnerability-impact) | | | |
 | XenForo | | | | | [Xenforo PSA Elasticsearch](https://xenforo.com/community/threads/psa-potential-security-vulnerability-in-elasticsearch-5-via-apache-log4j-log4shell.201145/) | | | |
-| Xerox | | | | | [Xerox Special Bulletin CVE-2021-44228](https://security.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-Regarding-CVE-2021-44228.pdf) | | | |
+| Xerox | | | | | [Xerox Security Bulletin XRX21-021](https://securitydocs.business.xerox.com/wp-content/uploads/2021/12/Xerox-Special-Bulletin-XRX21-021-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.6.pdf) | | | |
 | XPertDoc | | | | | [Xpertdoc](https://kb.xpertdoc.com/pages/viewpage.action?pageId=87622727) | | | |
 | XPLG | | | | | [XPLG Secure Log4j](https://www.xplg.com/log4j-vulnerability-exploit-log4shell-xplg-secure/) | | | |
 | XWIKI | | | | | [Xwiki CVE-2021-44228](https://forum.xwiki.org/t/log4j-cve-2021-44228-log4shell-zero-day-vulnerability/9557) | | | |
