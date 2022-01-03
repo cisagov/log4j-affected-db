@@ -2652,6 +2652,7 @@ This list was initially populated using information from the following sources:
 | ThycoticCentrify | Connection Manager | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
 | ThycoticCentrify | Password Reset Server | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
 | ThycoticCentrify | Cloud Suite | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
+| ThycoticCentrify | Server Suite | N/A | Not Affected | | [ThycoticCentrify Products NOT Affected by CVE-2021-44228 Exploit](https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md) | | | 12/10/21 |
 | Tibco | | | | | [Tibco Support Link](https://www.tibco.com/support/notices/2021/12/apache-log4j-vulnerability-update) | | | |
 | Top Gun Technology (TGT) | | | | | [TGT Bulletin](https://www.topgun-tech.com/technical-bulletin-apache-software-log4j-security-vulnerability-cve-2021-44228/) | | | |
 | TopDesk | | | | | [TopDesk Statement](https://my.topdesk.com/tas/public/ssp/content/detail/knowledgeitem?unid=74952771dfab4b0794292e63b0409314) | | | |
