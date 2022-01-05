@@ -40,8 +40,9 @@ Blank template:
   last_updated: ''
 ```
 **Step 3:** Verify the new entry was entered before and/or after the prior and next entries.
-●	If you are adding it to the beginning of the file, ensure you are pasting it after “software:” and before the next entry starting with “- vendor:”.
-●	If you are adding it to the end of the file, ensure the entry ends before the file is closed out with: “...”
+
+   - If you are adding it to the beginning of the file, ensure you are pasting it after “software:” and before the next entry starting with “- vendor:”.
+   -	If you are adding it to the end of the file, ensure the entry ends before the file is closed out with: “...”
 
 **Step 4:** When you add content to the file, remove the '' or [] for fields which are replaced with values (strings '' or lists [] should be replaced as shown in the example below, with list values on the following line(s), starting with hyphen(s) “-”). The symbols should only remain used when fields remain empty. For example, fixed_versions: [] in our example below remains as is, given there are no patched versions available for this entry.
 
@@ -50,7 +51,7 @@ Note: not all fields have to be updated.
 Entry example:
 ```
 - vendor: CISA
-  product: Chirp
+  product: Product
   cves:
     cve-2021-4104:
       investigated: false
