@@ -1,4 +1,5 @@
-Thank you for contributing to CISA's Log4j-affected-db GitHub Repository! Please follow the steps listed below in order to add a product to the public repository. **Note:** To verify the accuracy of data please only include products that have official advisoiies or alerts to verify the product's vulnerabilty status to  [CVE-2021-4104](https://nvd.nist.gov/vuln/detail/cve-2021-4104), [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228), [CVE-2021-45046](https://nvd.nist.gov/vuln/detail/CVE-2021-45046) and/or [CVE-2021-45105.](https://nvd.nist.gov/vuln/detail/CVE-2021-45105?s=09)
+
+Thank you for contributing to CISA's Log4j-affected-db GitHub Repository! Please follow the steps listed below in order to add a product to the public repository. **Note:** To verify the accuracy of data please only include products that have official advisories or alerts to verify the product's vulnerabilty status to  [CVE-2021-4104](https://nvd.nist.gov/vuln/detail/cve-2021-4104), [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228), [CVE-2021-45046](https://nvd.nist.gov/vuln/detail/CVE-2021-45046) and/or [CVE-2021-45105.](https://nvd.nist.gov/vuln/detail/CVE-2021-45105?s=09)
 
 **Step 1:** Go to the cisagov data .yml files for choosing the appropriate file to include your updates (example link). The files are separated based on the alphabetical first letter of the vendor name. For example, 'CISA' would be located in https://github.com/cisagov/data/cisagov_C.yml
 
@@ -46,7 +47,7 @@ Blank template:
 
 **Step 4:** When you add content to the file, remove the '' or [] for fields which are replaced with values (strings '' or lists [] should be replaced as shown in the example below, with list values on the following line(s), starting with hyphen(s) “-”). The symbols should only remain used when fields remain empty. For example, fixed_versions: [] in our example below remains as is, given there are no patched versions available for this entry.
 
-Note: not all fields have to be updated.
+**Note:** not all fields have to be updated.
 
 Entry example:
 ```
@@ -85,6 +86,6 @@ Entry example:
   reporter: cisagov
   last_updated: '2021-12-14T00:00:00'
 ```
-**Step 5:** validate your data follows the appropriate format and proceed with submitting the pull request. Follow questions may be submitted through the Pull Request. 
+**Step 5:** Validate that your data follows the appropriate format and proceed with submitting the pull request. 
 
-For any additional questions feel free to submit a Issue request [here](https://github.com/cisagov/log4j-affected-db/issues)
+For any additional questions feel free to submit an Issue request [here](https://github.com/cisagov/log4j-affected-db/issues)
