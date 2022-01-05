@@ -85,6 +85,6 @@ Entry example:
   reporter: cisagov
   last_updated: '2021-12-14T00:00:00'
 ```
-Step 5: validate your data follows the appropriate format and proceed with submitting the pull request. Follow questions may be submitted through the Pull Request. 
+**Step 5:** validate your data follows the appropriate format and proceed with submitting the pull request. Follow questions may be submitted through the Pull Request. 
 
 For any additional questions feel free to submit a Issue request [here](https://github.com/cisagov/log4j-affected-db/issues)
