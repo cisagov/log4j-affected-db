@@ -1,6 +1,6 @@
-Thank you for contributing to CISA's Log4j-affected-db GitHub Repository! Please follow the steps listed below:
+Thank you for contributing to CISA's Log4j-affected-db GitHub Repository! Please follow the steps listed below in order to add a product to the public repository. **Note:** To verify the accuracy of data please only include products that have official advisoiies or alerts to verify the product's vulnerabilty status to  [CVE-2021-4104](https://nvd.nist.gov/vuln/detail/cve-2021-4104), [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228), [CVE-2021-45046](https://nvd.nist.gov/vuln/detail/CVE-2021-45046) and/or [CVE-2021-45105.](https://nvd.nist.gov/vuln/detail/CVE-2021-45105?s=09)
 
-**Step 1:** Go to the cisagov data .yml files for choosing the appropriate file to include your updates (example link). The files are separated based on the alphabetical first letter of the vendor name. For example, 'CISA' would be located in .../cisagov_C.yml
+**Step 1:** Go to the cisagov data .yml files for choosing the appropriate file to include your updates (example link). The files are separated based on the alphabetical first letter of the vendor name. For example, 'CISA' would be located in https://github.com/cisagov/data/cisagov_C.yml
 
 **Step 2:** Click the file edit button.
 
@@ -77,7 +77,7 @@ Entry example:
       fixed_versions: []
       unaffected_versions: []
   vendor_links:
-  - https://forums.extrahop.com/t/extrahop-update-on-log4shell/8148
+  - 
   notes: Contains vulnerable code but not likely to get
   unauthenticated user input to the log4j component.
   references:
