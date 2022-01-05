@@ -1,4 +1,4 @@
-Thank you for contributing to our Log4j-affected-db GitHub Repository! Please follow the steps listed below:
+Thank you for contributing to CISA's Log4j-affected-db GitHub Repository! Please follow the steps listed below:
 
 **Step 1:** Go to the cisagov data .yml files for choosing the appropriate file to include your updates (example link). The files are separated based on the alphabetical first letter of the vendor name. For example, 'CISA' would be located in .../cisagov_C.yml
 
