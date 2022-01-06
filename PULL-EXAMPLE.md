@@ -5,7 +5,7 @@ Thank you for contributing to CISA's Log4j-affected-db GitHub Repository! Please
 
 **Step 2:** Click the file edit button.
 
-**Step 3:** Add the blank template to the **.yml** file for new entries and fill it out with the correct data.  Note: we are tracking multiple CVEs on the backend but are currently only displaying all the CVE-2021-44228. The multiple CVEs will not be listed in the table per the current request, instead the logic will determine and present a single status based on the available data in the template. 
+**Step 3:** Add the blank template to the **.yml** file for new entries and fill it out with the correct data.  
 
 Blank template:
 ```
@@ -37,7 +37,6 @@ Blank template:
   notes: ''
   references:
   - ''
-  reporter: cisagov
   last_updated: ''
 ```
 **Step 3:** Verify the new entry was entered before and/or after the prior and next entries.
@@ -83,7 +82,6 @@ Entry example:
   unauthenticated user input to the log4j component.
   references:
   - ''
-  reporter: cisagov
   last_updated: '2021-12-14T00:00:00'
 ```
 **Step 5:** Validate that your data follows the appropriate format and proceed with submitting the pull request. 
