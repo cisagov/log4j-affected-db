@@ -573,7 +573,7 @@ This list was initially populated using information from the following sources:
 | ConnectWise | | | | | [ConnectWise Advisory Link](https://www.connectwise.com/company/trust/advisories) | | | |
 | ContrastSecurity | | | | | [ContrastSecurity Article](https://support.contrastsecurity.com/hc/en-us/articles/4412612486548) | | | |
 | ControlUp | | | | | [ControlUp Link](https://status.controlup.com/incidents/qqyvh7b1dz8k) | | | |
-| COPADATA | | | | | [COPADATA Support Services](https://www.copadata.com/en/support-services/knowledge-base-faq/pare-products-in-the-zenon-product-family-affect-4921/) | | | |
+| COPADATA | All | | Not Affected | | [COPADATA Advisory Link](https://www.copadata.com/fileadmin/user_upload/faq/files/InformationReport_CVE_2021_44228.pdf) | | | 01/06/2022 |
 | CouchBase | | | | | [CouchBase Forums](https://forums.couchbase.com/t/ann-elasticsearch-connector-4-3-3-4-2-13-fixes-log4j-vulnerability/32402) | | | |
 | CPanel | | | | | [CPanel Forms](https://forums.cpanel.net/threads/log4j-cve-2021-44228-does-it-affect-cpanel.696249/) | | | |
 | Cradlepoint | | | | | [Cradlepoint](https://cradlepoint.com/vulnerability-alerts/cve-2021-44228-apache-log4j-security-vulnerabilities/) | | | |
@@ -583,6 +583,25 @@ This list was initially populated using information from the following sources:
 | CyberArk | Privileged Threat Analytics (PTA) | N/A | Fixed | Yes | [CyberArk Customer Force](https://cyberark-customers.force.com/s/article/Critical-Vulnerability-CVE-2021-44228) | | This advisory is available to customers only and has not been reviewed by CISA. | 12/14/2021 |
 | Cybereason | | | | | [Cybereason Blog Post](https://www.cybereason.com/blog/cybereason-solutions-are-not-impacted-by-apache-log4j-vulnerability-cve-2021-44228) | | | |
 | CyberRes | | | | | [CyberRes Community Link](https://community.microfocus.com/cyberres/b/sws-22/posts/summary-of-cyberres-impact-from-log4j-or-logshell-logjam-cve-2021-44228) | | | |
+| Daktronics | All Sport Pro | | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Data Vision Software (DVS) | | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | DVS has one microservice that uses Log4j, but it uses a version that is not impacted. | | 01/06/2022 |
+| Daktronics | Dakronics Web Player | DWP-1000 | Under Investigation | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | DWP-1000: Not present in our codebase, but awaiting confirmation from LG re: webOS platform. | | 01/06/2022 |
+| Daktronics | Dakronics Media Player | DMP (any series)| Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Dynamic Messaging System (DMS) | | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Dynamic Messaging System - DMS Core Player | P10 | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Dynamic Messaging System - DMS Player hardware | AMP-R200, AMP-R400, AMP-R800, AMP-SM100, AMP-SE100, AMP-SM200, AMP-SM400 | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Dynamic Messaging System - DMS Web Player | | Under Investigation | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | DMS Web Player: Not present in our codebase, but awaiting confirmation from LG re: webOS platform. | | 01/06/2022 |
+| Daktronics | IBoot - Dataprobe IBoot Devices | A-3257,3256,2270,2269,1978 | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Outdoor Smartlink Devices | A-3189335,3128, 3416, 3418,3707,3708,3709 | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Routers - Cisco Meraki Z3/Z3c Routers | A-4036028 | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Routers - Cisco Z1 Routers | A-3665 | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Routers - Sierra Wireless RV50x/RV50 | A-3350704 | Under Investigation | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Show Control System (SCS) | | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Vanguard | | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Venus 1500 | | Under Investigation | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Venus Control Suite (VCS) | | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Video Image Processors | VIP-5060/VIP-5160/VIP-4060 | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
+| Daktronics | Webcam - Mobotix | A-2242, A-3127,A-3719 | Not Affected | | [Daktronics Advisory Link](https://www.daktronics.com/en-us/support/kb/000025337) | | | 01/06/2022 |
 | DarkTrace | | | | | [DarkTrace Customer Portal](https://customerportal.darktrace.com/inside-the-soc/get-article/201) | | | |
 | Dassault Systèmes | | | | | [Dassault Systemes Link](https://kb.dsxclient.3ds.com/mashup-ui/page/resultqa?id=QA00000102301e) | | | |
 | Databricks | | | | | [Databricks Google Doc](https://docs.google.com/document/d/e/2PACX-1vREjwZk17BAHGwj5Phizi4DPFS9EIUbAMX-CswlgbFwqwKXNKZC8MrT-L6wUgfIChsSHtvd_QD3-659/pub) | | | |
@@ -903,6 +922,7 @@ This list was initially populated using information from the following sources:
 | Eaton | Undisclosed | Undisclosed | Affected | | [Security Bulletin](https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/Eaton-Security-Bulletin%20log4j_CVE_2021_44228_v1.0_Legal-Approved.pdf) | Doesn't openly disclose what products are affected or not for quote 'security purposes'. Needs email registration. No workaround provided due to registration wall. | | |
 | EclecticIQ | | | | | [EclecticIQ Advisory](https://docs.eclecticiq.com/security-advisories/security-issues-and-mitigation-actions/eiq-2021-0016-2) | | | |
 | Eclipse Foundation | | | | | [Eclipse Foundation Wiki](https://wiki.eclipse.org/Eclipse_and_log4j2_vulnerability_(CVE-2021-44228)) | | | |
+| Edwards | | | Not Affected | | [Edwards Adviory Link](https://www.edwards.com/devices/support/product-security) | | | 01/06/2022 |
 | EFI | | | | | [EFI Link](https://communities.efi.com/s/article/Are-Fiery-Servers-vulnerable-to-CVE-2021-44228-Apache-Log4j2?language=en_US) | | | |
 | EGroupware | | | | | [EGroupware Link](https://help.egroupware.org/t/uk-de-statement-log4j-log4shell/76430) | | | |
 | Elastic | APM Java Agent | | Under Investigation | | [Apache Log4j2 Remote Code Execution (RCE) Vulnerability - CVE-2021-44228 - ESA-2021-31](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) | | | 12/15/2021 |
