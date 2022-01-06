@@ -77,7 +77,7 @@ Entry example:
       fixed_versions: []
       unaffected_versions: []
   vendor_links:
-  - 
+  - https://example.org/
   notes: Contains vulnerable code but not likely to get
   unauthenticated user input to the log4j component.
   references:
