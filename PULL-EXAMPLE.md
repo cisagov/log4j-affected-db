@@ -55,6 +55,7 @@ Blank template:
 
 **Step 4:** Verify the new entry was entered before and/or after the prior and 
 next entries.
+
 - If you are adding it to the beginning of the file, ensure you are pasting 
 it after `software:` and before the next entry starting with `- vendor:`.
 - If you are adding it to the end of the file, ensure the entry ends before 
