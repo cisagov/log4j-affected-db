@@ -1,4 +1,4 @@
-# Pull Request Example#
+# Pull Request Example #
 
 Thank you for contributing to CISA's Log4j-affected-db GitHub Repository! Please
 follow the steps listed below in order to add a product to the public
