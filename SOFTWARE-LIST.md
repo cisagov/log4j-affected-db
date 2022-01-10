@@ -350,6 +350,7 @@ This list was initially populated using information from the following sources:
 | CapStorm | Copystorm | | Under Investigation | | | | | 12/22/2021 |
 | CarbonBlack | | | | | [CarbonBlack Advisory](https://www.vmware.com/security/advisories/VMSA-2021-0028.html) | | | |
 | Carestream | | | Not Affected | |[Carestream Advisory Link](https://www.carestream.com/en/us/services-and-support/cybersecurity-and-privacy) | | | 12/20/2021 |
+| Carrier | | | Under Investigation | | [Carrier Statement](https://www.corporate.carrier.com/product-security/advisories-resources/) | | | |
 | CAS genesisWorld | | | | | [CAS genesisWorld Link](https://helpdesk.cas.de/CASHelpdesk/FAQDetails.aspx?gguid=0x79F9E881EE3C46C1A71BE9EB3E480446) | | | |
 | Cato Networks | | | | | [Cato Networks Blog Post](https://www.catonetworks.com/blog/cato-networks-rapid-response-to-the-apache-log4j-remote-code-execution-vulnerability/) | | | |
 | Cepheid | C360 | | Not Affected | | [Cepheid Advisory Link](https://www.cepheid.com/en_US/legal/product-security-updates) | | | 12/20/2021 |
