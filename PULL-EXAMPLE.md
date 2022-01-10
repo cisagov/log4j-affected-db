@@ -4,7 +4,9 @@ Thank you for contributing to CISA's Log4j-affected-db GitHub Repository! Please
 follow the steps listed below in order to add a product to the public 
 repository. **Note:** To assure the accuracy of data please only include 
 products that have official advisories or alerts that verify the product's 
-vulnerability status to  [CVE-2021-4104](https://nvd.nist.gov/vuln/detail/cve-2021-4104), [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228), [CVE-2021-45046](https://nvd.nist.gov/vuln/detail/CVE-2021-45046), 
+vulnerability status to  [CVE-2021-4104](https://nvd.nist.gov/vuln/detail/cve-2021-4104), 
+[CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228), 
+[CVE-2021-45046](https://nvd.nist.gov/vuln/detail/CVE-2021-45046), 
 and/or [CVE-2021-45105.](https://nvd.nist.gov/vuln/detail/CVE-2021-45105?s=09).
 
 **Step 1:** Go to the cisagov data .yml files and choose the appropriate file to
@@ -56,7 +58,7 @@ next entries.
 
    - If you are adding it to the beginning of the file, ensure you are pasting 
    it after `software:` and before the next entry starting with `- vendor:`.
-   -	If you are adding it to the end of the file, ensure the entry ends before 
+   - If you are adding it to the end of the file, ensure the entry ends before 
    the file is closed out with `...`.
 
 **Step 4:** When you add content to the file, remove the `''` or `[]` for fields
