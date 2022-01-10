@@ -20,8 +20,8 @@ located in [`cisagov_C.yml`](https://github.com/cisagov/data/cisagov_C.yml).
 it out with the correct data.  
 
 Blank template:
-```
 
+```yml
 - vendor: ''
   product: ''
   cves:
@@ -72,7 +72,7 @@ given there are no patched versions available for this entry.
 
 Entry example:
 
-```
+```yml
 - vendor: CISA
   product: Product
   cves:
