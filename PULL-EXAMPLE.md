@@ -85,9 +85,9 @@ Entry example:
       cve-2021-44228:
         investigated: true
         affected_versions:
-        - <=8.4.6
-        - <=8.5.3
-        - <=8.6.4
+          - <=8.4.6
+          - <=8.5.3
+          - <=8.6.4
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
