@@ -30,28 +30,6 @@ body:
       label: Product version(s)
       description: What version(s) of the product are affected?
   - type: dropdown
-    id: product-status
-    attributes:
-      label: Product status
-      description: What is the current status of the affected product?
-      options:
-        - Unknown
-        - Affected
-        - Not Affected
-        - Fixed
-        - Under Investigation
-  - type: markdown
-    attributes:
-      value: |
-        Please use the information below when selecting a status.
-
-        - Unknown - Status unknown. Default choice.
-        - Affected - Reported to be affected by CVE-2021-44228.
-        - Not Affected - Reported to NOT be affected by CVE-2021-44228 and no
-          further action necessary.
-        - Fixed - Patch and/or mitigations available (see provided links).
-        - Under Investigation - Vendor investigating status.
-  - type: dropdown
     id: product-updated
     attributes:
       label: Product update
