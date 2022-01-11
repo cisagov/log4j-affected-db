@@ -13,10 +13,10 @@ exclude_paths:
   - .cache
   # Seems wise to ignore this too
   - .github
-  # ansible-lint doesn't like the role name in this playbook, but it's
-  # what molecule requires
-  - molecule/default/converge.yml
-  # These two are Molecule configuration files, not Ansible playbooks
-  - molecule/default/molecule-no-systemd.yml
-  - molecule/default/molecule-with-systemd.yml
+kinds:
+  # This will force our systemd specific molecule configurations to be treated
+  # as plain yaml files by ansible-lint. This mirrors the default kind
+  # configuration in ansible-lint for molecule configurations:
+  # yaml: "**/molecule/*/{base,molecule}.{yaml,yml}"
+  - yaml: "**/molecule/*/molecule-{no,with}-systemd.yml"
 use_default_rules: true
