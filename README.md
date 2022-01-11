@@ -75,6 +75,11 @@ update but may limit agency risk.
 For more information regarding CISA recommended mitigation measures please visit
 [here](https://www.cisa.gov/uscert/ed-22-02-apache-log4j-recommended-mitigation-measures).
 
+## Contributing ##
+
+We welcome contributions!  Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for
+details.
+
 ## Software List ##
 
 To view the full list of vendors & software [click here](./SOFTWARE-LIST.md).
