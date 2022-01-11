@@ -1959,7 +1959,7 @@ This list was initially populated using information from the following sources:
 | MariaDB | | | | | [MariaDB Statement](https://mariadb.com/resources/blog/log4shell-and-mariadb-cve-2021-44228/) | | | |
 | MathWorks | All MathWorks general release desktop or server products | | Not Affected | No | [MathWorks statement regarding CVE-2021-44228](https://www.mathworks.com/matlabcentral/answers/1610640-apache-log4j-vulnerability-cve-2021-44228-how-does-it-affect-matlab-run-time) | | | |
 | MathWorks | MATLAB | All | Not Affected | No | [MathWorks MATLAB Statement](https://www.mathworks.com/content/dam/mathworks/policies/mathworks-response-to-cve-2021-44228-log4j-vulnerability.pdf) | | | 12/29/2021 |
-| Matillion | | | | | [Matillion Security Advisory](https://documentation.matillion.com/docs/security-advisory-14th-december-2021) | | | |
+| Matillion | Matillion ETL | 1.59.10+ | Fixed | | [Matillion Security Advisory](https://documentation.matillion.com/docs/security-advisory-14th-december-2021) | | | 11/01/2022 |
 | Matomo | | | | | [Matomo Statement](https://forum.matomo.org/t/matomo-is-not-concerned-by-the-log4j-security-breach-cve-2021-44228-discovered-on-december-2021-the-9th/44089) | | | |
 | Mattermost FocalBoard | | | | | [Mattermost FocalBoard Concern](https://forum.mattermost.org/t/log4j-vulnerability-concern/12676) | | | |
 | McAfee | Data Exchange Layer (DXL) Client |  | Not Affected | |  | | | 12/20/2021 |
