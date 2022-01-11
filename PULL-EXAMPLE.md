@@ -103,7 +103,7 @@ Entry example:
     vendor_links:
       - https://www.example.org/
     notes: Contains vulnerable code but not likely to get
-    unauthenticated user input to the log4j component.
+      unauthenticated user input to the log4j component.
     references:
       - ''
     last_updated: '2021-12-14T00:00:00'
