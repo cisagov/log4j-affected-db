@@ -38,6 +38,11 @@ regular contributor, then you will want to set up
 do that, the CI checks will run locally before you even write your
 commit message.  This speeds up your development cycle considerably.
 
+### Creating a pull request ###
+
+Instructions for creating a pull request using the GitHub Web UI can be found
+in [`PULL-EXAMPLE.md`](PULL-EXAMPLE.md).
+
 ### Setting up pre-commit ###
 
 There are a few ways to do this, but we prefer to use
