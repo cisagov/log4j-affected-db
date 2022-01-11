@@ -112,4 +112,4 @@ Entry example:
 **Step 6:** Validate that your data follows the appropriate format and proceed
 with submitting the pull request.
 
-For any additional questions feel free to [submit an Issue request](https://github.com/cisagov/log4j-affected-db/issues).
+For any additional questions feel free to [submit an Issue](https://github.com/cisagov/log4j-affected-db/issues).
