@@ -80,6 +80,11 @@ For more information regarding CISA recommended mitigation measures please visit
 We welcome contributions!  Please see [`CONTRIBUTING.md`](CONTRIBUTING.md) for
 details.
 
+### Creating a pull request ###
+
+Instructions for creating a pull request using the GitHub Web UI can be found
+in [`PULL-EXAMPLE.md`](PULL-EXAMPLE.md).
+
 ## Software List ##
 
 To view the full list of vendors & software [click here](./SOFTWARE-LIST.md).
