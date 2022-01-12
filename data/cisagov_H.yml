@@ -1,0 +1,5961 @@
+---
+version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
+software:
+  - vendor: HAProxy
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.haproxy.com/blog/december-2021-log4shell-mitigation/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HarmanPro AMX
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://help.harmanpro.com/apache-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Boundary
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Consul
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Consul Enterprise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Nomad
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Nomad Enterprise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Packer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Terraform
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Terraform Enterprise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Vagrant
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Vault
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Vault Enterprise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HashiCorp
+    product: Waypoint
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.hashicorp.com/t/hcsec-2021-32-hashicorp-response-to-apache-log4j-2-security-issue-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HCL Software
+    product: BigFix Compliance
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486
+    notes: Not Affected for related CVE-2021-45046
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: HCL Software
+    product: BigFix Insights
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486
+    notes: Not Affected for related CVE-2021-45046
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: HCL Software
+    product: BigFix Insights for Vulnerability Remediation
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486
+    notes: Not Affected for related CVE-2021-45046
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: HCL Software
+    product: BigFix Inventory
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - < 10.0.7
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486
+    notes: Not Affected for related CVE-2021-45046
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: HCL Software
+    product: BigFix Lifecycle
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486
+    notes: Not Affected for related CVE-2021-45046
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: HCL Software
+    product: BigFix Mobile
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486
+    notes: Not Affected for related CVE-2021-45046
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: HCL Software
+    product: BigFix Patch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095486
+    notes: Not Affected for related CVE-2021-45046
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: HelpSystems Clearswift
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.helpsystems.com/kb-nav/kb-article/?id=37becc1c-255c-ec11-8f8f-6045bd006687
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HENIX
+    product: Squash TM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 1.21.7 - 1.22.9
+          - 2.0.3 - 2.1.5
+          - 2.2.0 - 3.0.2
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://tm-en.doc.squashtest.com/v3/downloads.html#download-previous-versions
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-23T00:00:00'
+  - vendor: Hexagon
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportsi.hexagon.com/help/s/article/Security-Vulnerability-CVE-2021-44228-log4j-2?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Hikvision
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://video.xortec.de/media/pdf/87/e8/03/kw50_Update-for-Apache-Log4j2-Issue-Hikvision_official.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Hitachi Energy
+    product: 3rd party - Elastic Search, Kibana
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Elasticsearch 5.0.0+
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: Set the JVM option -Dlog4j2.formatMsgNoLookups=true and restart each node
+      of the cluster.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: Axis
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '3.6'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: No action is required by customers. Axis is a fully SaaS hosted solution
+      and the environment has been patched per the recommendations
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: Counterparty Settlement and Billing (CSB)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - v6
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: e-Mesh Monitor
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: No end-user action needed. The affected e-Mesh Monitor part is at the cloud
+      offering side of which the remediation is handled by Hitachi Energy team. Remediation
+      is currently ongoing, and during this time period, e-Mesh Monitor edge device
+      is not able to upload data to cloud.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: eSOMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hitachienergy.com/offering/solutions/cybersecurity/alerts-and-notifications
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Hitachi Energy
+    product: FOXMAN-UN
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - R15A
+          - R14B
+          - R14A
+          - R11B SP1
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: A patch is available for releases R15A, R14B, R14A and R11B SP1. . For
+      details on how to apply such patch, please refer to the technical bulletin “FOXMAN-UN
+      - Installation of Log4j Patch”, version A (1KHW029176) available in the Hitachi
+      Energy Customer Connect Portal.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: FOXMAN-UN
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - R11A and R10 series
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: Apply General Mitigations and upgrade to latest version. For upgrades,
+      please get in touch with your Hitachi Energy contacts.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: Lumada APM SaaS offering
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: No action is required by customers. The SaaS offering has been patched
+      per the recommendations.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: Lumada APM On-premises
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: See vendor advisory for instructions for various versions.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: Lumada EAM / FSM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - v1.7.x
+          - v1.8.x
+          - v1.9.x
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: See Section Mitigation Strategy in vendor advisory.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: MMS Internal facing subcomponent.
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: Network Manager Outage Management Interface (CMI)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 9.0 - 9.10.44
+          - 9.1.1
+          - 10.3.4
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: See vendor advisory for instructions on mitigation steps.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: Network Manager ADMS Network Model Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 9.1.0.32 - 9.1.0.44
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: See vendor advisory for instructions on mitigation steps.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: 3rd party - Oracle Database Components
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '12.1'
+          - '12.2'
+          - 19c
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: As this is a third-party component, a separate patch management report
+      will be provided to customers with the steps to apply the Oracle provided patches
+      for these components.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: nMarket Global I-SEM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 3.7.15
+          - 3.7.16
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: RelCare
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 2.0.0
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: No action is required by customers. The RelCare SaaS hosted solution and
+      the on-premises have been patched per the recommendations.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: UNEM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - R15A
+          - R14B
+          - R14A
+          - R11B SP1
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: A patch is available for releases R15A, R14B, R14A and R11B SP1. For details
+      on how to apply such patch, please refer to the technical bulletin “UNEM - Installation
+      of Log4j Patch”, version A (1KHW029176) available in the Hitachi Energy Customer
+      Connect Portal.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: UNEM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - R11A and R10 series
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: Apply General Mitigations and upgrade to latest version. For upgrades,
+      please get in touch with your Hitachi Energy contacts.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Vantara
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://knowledge.hitachivantara.com/Support_Information/Hitachi_Vantara_Security_Advisories/CVE-2021-44228_-_Apache_Log4j2
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HMS Industrial Networks AB
+    product: Talk2M including M2Web
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hms-networks.com/docs/librariesprovider6/cybersecurity/hms-security-advisory-2021-12-13-001---ewon-information-log4shell.pdf?sfvrsn=55d7f4d7_11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: HMS Industrial Networks AB
+    product: Cosy, Flexy and Ewon CD
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hms-networks.com/docs/librariesprovider6/cybersecurity/hms-security-advisory-2021-12-13-001---ewon-information-log4shell.pdf?sfvrsn=55d7f4d7_11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: HMS Industrial Networks AB
+    product: eCatcher Windows software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hms-networks.com/docs/librariesprovider6/cybersecurity/hms-security-advisory-2021-12-13-001---ewon-information-log4shell.pdf?sfvrsn=55d7f4d7_11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: HMS Industrial Networks AB
+    product: eCatcher Mobile applications
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hms-networks.com/docs/librariesprovider6/cybersecurity/hms-security-advisory-2021-12-13-001---ewon-information-log4shell.pdf?sfvrsn=55d7f4d7_11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: HMS Industrial Networks AB
+    product: Netbiter Hardware including EC, WS, and LC
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hms-networks.com/docs/librariesprovider6/cybersecurity/hms-security-advisory-2021-12-13-001---ewon-information-log4shell.pdf?sfvrsn=55d7f4d7_11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Honeywell
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.honeywell.com/us/en/press/2021/12/honeywells-statement-on-java-apache-log4j-logging-framework-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: HP
+    product: Teradici Cloud Access Controller
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - < v113
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: HP
+    product: Teradici EMSDK
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - < 1.0.6
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: HP
+    product: Teradici Management Console
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - < 21.10.3
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: HP
+    product: Teradici PCoIP Connection Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - < 21.03.6
+          - < 20.07.4
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: HP
+    product: Teradici PCoIP License Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hp.com/us-en/document/ish_5268006-5268030-16
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: HPE
+    product: 3PAR StoreServ Arrays
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: AirWave Management Platform
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Alletra 6000
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Alletra 9k
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba Central
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba ClearPass Policy Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba ClearPass Policy Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba Instant (IAP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba Location Services
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba NetEdit
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba PVOS Switches
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba SDN VAN Controller
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba User Experience Insight (UXI)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Aruba VIA Client
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: ArubaOS-CX switches
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: ArubaOS-S switches
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: ArubaOS SD-WAN Controllers and Gateways
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: ArubaOS Wi-Fi Controllers and Gateways
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: BladeSystem Onboard Administrator
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Brocade 16Gb Fibre Channel SAN Switch for HPE Synergy
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Brocade 16Gb SAN Switch for HPE BladeSystem c-Class
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Brocade 32Gb Fibre Channel SAN Switch for HPE Synergy
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Brocade Network Advisor
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: CloudAuth
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: CloudPhysics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Compute Cloud Console
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Compute operations manager- FW UPDATE SERVICE
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: COS (Cray Operating System)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Cray Systems Management (CSM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Custom SPP Portal [Link](https://spp.hpe.com/custom)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Data Services Cloud Console
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Harmony Data Platform
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HOP public services (grafana, vault, rancher, Jenkins)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE B-series SN2600B SAN Extension Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE B-series SN4000B SAN Extension Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE B-series SN6000B Fibre Channel Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE B-series SN6500B Fibre Channel Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE B-series SN6600B Fibre Channel Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE B-series SN6650B Fibre Channel Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE B-series SN6700B Fibre Channel Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Customer Experience Assurance (CEA)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Hardware Support Manager plug-in for VMware vSphere Lifecycle Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Home Location Register (HLR/I-HLR)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Infosight for Servers
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Integrated Home Subscriber Server (I-HSS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Intelligent Messaging (IM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Intelligent Network Server (INS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Multimedia Services Environment (MSE)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE OC Convergent Communications Platform (OCCP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE OC Media Platform Media Resource Function (OCMP-MRF)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE OC Service Access Controller (OC SAC)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE OC Service Controller (OCSC)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE OC Universal Signaling Platform (OC-USP-M)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE OneView
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE OneView for VMware vRealize Operations (vROps)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE OneView Global Dashboard
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Performance Cluster Manager (HPCM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Performance Manager (PM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Position Determination Entity (PDE)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Secure Identity Broker (SIB)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Service Activator (SA)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Service Governance Framework (SGF)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Service Orchestration Manager (SOM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Service Provisioner (SP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Short Message Point-to-Point Gateway (SMPP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Slingshot
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Smart Interaction Server (SIS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE SN3000B Fibre Channel Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE SN8000B 4-Slot SAN Director Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE SN8000B 8-Slot SAN Backbone Director Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE SN8600B 4-Slot SAN Director Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE SN8600B 8-Slot SAN Director Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE SN8700B 4-Slot Director Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE SN8700B 8-Slot Director Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Subscriber, Network, and Application Policy (SNAP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Subscription Manager (SM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Synergy Image Streamer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Systems Insight Manager (SIM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Telecom Application Server (TAS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Unified Correlation and Automation (UCA)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Unified Mediation Bus (UMB)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Unified OSS Console (UOC)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Unified Topology Manager (UTM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Universal Identity Repository (VIR)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Universal SLA Manager (uSLAM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Virtual Connect
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Virtual Connect Enterprise Manager (VCEM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Virtual Provisioning Gateway (vPGW)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Virtual Server Environment (VSE)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: HPE Virtual Subscriber Data Management (vSDM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE WebRTC Gateway Controller (WGW)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: HPE
+    product: HPE Wi-Fi Authentication Gateway (WauG)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Insight Cluster Management Utility (CMU)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Integrated Lights-Out (iLO) Amplifier Pack
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Integrated Lights-Out 4 (iLO 4)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '4'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Integrated Lights-Out 5 (iLO 5)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '5'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Integrity BL860c, BL870c, BL890c
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Integrity Rx2800/Rx2900
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Integrity Superdome 2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Integrity Superdome X
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Intelligent Provisioning
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: iSUT integrated smart update tool
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Maven Artifacts (Atlas)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: MSA
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: NetEdit
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Nimble Storage
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: NS-T0634-OSM CONSOLE TOOLS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: NS-T0977-SCHEMA VALIDATOR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: OfficeConnect
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Primera Storage
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: RepoServer part of OPA (on Premises aggregator)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Resource Aggregator for Open Distributed Infrastructure Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: RESTful Interface Tool (iLOREST)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: SAT (System Admin Toolkit)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Scripting Tools for Windows PowerShell (HPEiLOCmdlets)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: SGI MC990 X Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: SGI UV 2000 Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: SGI UV 300, 300H, 300RL, 30EX
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: SGI UV 3000 Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: SN8700B 8-Slot Director Switch
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: StoreEasy
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: StoreEver CVTL
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: StoreEver LTO Tape Drives
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: StoreEver MSL Tape Libraries
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: StoreOnce
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: SUM (Smart Update Manager)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Superdome Flex 280
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: Superdome Flex Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: UAN (User Access Node)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HOLOGIC
+    product: Advanced Workflow Manager (AWM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: While the Hologic software itself does not utilize Java/Log4J, the installed
+      APC PowerChute UPS with Business Edition v9.5 software installed may. APC is
+      still assessing its PowerChute software to determine if it is vulnerable.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Unifi Workspace
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: While the Hologic software itself does not utilize Java/Log4J, the installed
+      APC PowerChute UPS with Business Edition v9.5 software installed may. APC is
+      still assessing its PowerChute software to determine if it is vulnerable.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Faxitron CT Specimen Radiography System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: While the Hologic software itself does not utilize Java/Log4J, there is
+      a utility program installed that may utilize Java and Log4J. This utility program
+      does not run on startup and is not required for system operation. Please contact
+      Hologic Service for assistance in removing this program.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Dimensions / 3Dimensions Mammography System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Affirm Prone Biopsy System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Brevera Breast Biopsy System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Trident HD Specimen Radiography System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: SecurView DX Workstation
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Cenova Image Analytics Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: SecurXChange Router
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Rosetta DC Tomosynthesis Data Converter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Faxitron Specimen Radiography Systems
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Horizon DXA Bone Densitometer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Discovery Bone Densitometer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Fluoroscan Insight Mini C-Arm
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: SuperSonic Imagine Ultrasound Products (Aixplorer & Aixplorer Mach)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Windows Selenia Mammography System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Huawei
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.huawei.com/en/psirt/security-notices/huawei-sn-20211210-01-log4j2-en
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Hubspot
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.hubspot.com/t5/APIs-Integrations/Log4J-day-zero-exploit-CVE-2021-44228/td-p/541949
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+...

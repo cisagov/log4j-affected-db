@@ -1,0 +1,5164 @@
+---
+version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
+software:
+  - vendor: GE Digital
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://digitalsupport.ge.com/communities/en_US/Alert/GE-Security-Advisories
+    notes: This advisory is available to customers only and has not been reviewed
+      by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Digital Grid
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://digitalenergy.service-now.com/csm?id=kb_category&kb_category=b8bc715b879c89103f22a93e0ebb3585
+    notes: This advisory is available to customers only and has not been reviewed
+      by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Gas Power
+    product: Baseline Security Center (BSC)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
+    notes: Vulnerability to be fixed by vendor provided workaround. No user actions
+      necessary. Contact GE for details.
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Gas Power
+    product: Baseline Security Center (BSC) 2.0
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
+    notes: Vulnerability to be fixed by vendor provided workaround. No user actions
+      necessary. Contact GE for details
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Gas Power
+    product: Asset Performance Management (APM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
+    notes: GE verifying workaround.
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Gas Power
+    product: Control Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
+    notes: The Control Server is Affected via vCenter. There is a fix for vCenter.
+      Please see below. GE verifying the vCenter fix as proposed by the vendor.
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Gas Power
+    product: Tag Mapping Service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
+    notes: Vulnerability fixed. No user actions necessary. Updated to log4j 2.16
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Healthcare
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securityupdate.gehealthcare.com
+    notes: This advisory is not available at the time of this review, due to maintence
+      on the GE Healthcare website.
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Gearset
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.gearset.com/en/articles/5806813-gearset-log4j-statement-dec-2021
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: Genesys
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.genesys.com/blog/post/genesys-update-on-the-apache-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: GeoServer
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: Gerrit code review
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gerritcodereview.com/2021-12-13-log4j-statement.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: GFI
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://techtalk.gfi.com/impact-of-log4j-vulnerability-on-gfi/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: Ghidra
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.com/NationalSecurityAgency/ghidra/blob/2c73c72f0ba2720c6627be4005a721a5ebd64b46/README.md#warning
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: Gigamon
+    product: Fabric Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - <5.13.01.02
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.gigamon.com/gigamoncp/s/my-gigamon
+    notes: Updates available via the Gigamon Support Portal. This advisory available
+      to customers only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: GitHub
+    product: GitHub
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - GitHub.com and GitHub Enterprise Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.blog/2021-12-13-githubs-response-to-log4j-vulnerability-cve-2021-44228/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: GitLab
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forum.gitlab.com/t/cve-2021-4428/62763
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: Globus
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://groups.google.com/a/globus.org/g/discuss/c/FJK0q0NoUC4
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: GoAnywhere
+    product: MFT
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 6.8.6
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-18T00:00:00'
+  - vendor: GoAnywhere
+    product: Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 2.8.4
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-18T00:00:00'
+  - vendor: GoAnywhere
+    product: MFT Agents
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 1.6.5
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-18T00:00:00'
+  - vendor: GoCD
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gocd.org/2021/12/14/log4j-vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: Google Cloud
+    product: AI Platform Data Labeling
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: AI Platform Neural Architecture Search (NAS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: AI Platform Training and Prediction
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Access Transparency
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Actifio
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Actifio has identified limited exposure to the Log4j 2 vulnerability and
+      has released a hotfix to address this vulnerability. Visit [https://now.actifio.com](https://now.actifio.com)
+      for the full statement and to obtain the hotfix (available to Actifio customers
+      only).
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Anthos
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.  Customers may have introduced a separate
+      logging solution that uses Log4j 2. We strongly encourage customers who manage
+      Anthos environments to identify components dependent on Log4j 2 and update them
+      to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Anthos Config Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Anthos Connect
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Anthos Hub
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Anthos Identity Service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Anthos Premium Software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Anthos Service Mesh
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Anthos on VMWare
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.  We strongly encourage customers to check
+      VMware recommendations documented in VMSA-2021-0028 and deploy fixes or workarounds
+      to their VMware products as they become available. We also recommend customers
+      review their respective applications and workloads affected by the same vulnerabilities
+      and apply appropriate patches.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Apigee
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Apigee installed Log4j 2 in its Apigee Edge VMs, but the software was not
+      used and therefore the VMs were not impacted by the issues in CVE-2021-44228
+      and CVE-2021-45046. Apigee updated Log4j 2 to v.2.16 as an additional precaution.
+      It is possible that customers may have introduced custom resources that are
+      using vulnerable versions of Log4j. We strongly encourage customers who manage
+      Apigee environments to identify components dependent on Log4j and update them
+      to the latest version. Visit the Apigee Incident Report for more information.
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Google Cloud
+    product: App Engine
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046. Customers may have introduced a separate
+      logging solution that uses Log4j 2. We strongly encourage customers who manage
+      App Engine environments to identify components dependent on Log4j 2 and update
+      them to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: AppSheet
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: The AppSheet core platform runs on non-JVM (non-Java) based runtimes. At
+      this time, we have identified no impact to core AppSheet functionality. Additionally,
+      we have patched one Java-based auxiliary service in our platform. We will continue
+      to monitor for affected services and patch or remediate as required. If you
+      have any questions or require assistance, contact AppSheet Support.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Artifact Registry
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Assured Workloads
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: AutoML
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: AutoML Natural Language
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: AutoML Tables
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: AutoML Translation
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: AutoML Video
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: AutoML Vision
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: BigQuery
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: BigQuery Data Transfer Service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: BigQuery Omni
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: BigQuery Omni, which runs on AWS and Azure infrastructure, does not use
+      Log4j 2 and is not impacted by the issues identified in CVE-2021-44228 and CVE-2021-45046.
+      We continue to work with AWS and Azure to assess the situation.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Binary Authorization
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Certificate Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Chronicle
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Asset Inventory
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Bigtable
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Build
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.  Customers may have introduced a separate
+      logging solution that uses Log4j 2. We strongly encourage customers who manage
+      Cloud Build environments to identify components dependent on Log4j 2 and update
+      them to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud CDN
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Composer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.  Cloud Composer does not use Log4j 2 and
+      is not impacted by the issues in CVE-2021-44228 and CVE-2021-45046. It is possible
+      that customers may have imported or introduced other dependencies via DAGs,
+      installed PyPI modules, plugins, or other services that are using vulnerable
+      versions of Log4j 2. We strongly encourage customers, who manage Composer environments
+      to identify components dependent on Log4j 2 and update them to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Console App
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud DNS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Data Loss Prevention
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Debugger
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Deployment Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Endpoints
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud External Key Manager (EKM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Functions
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046. Customers may have introduced a separate
+      logging solution that uses Log4j 2. We strongly encourage customers who manage
+      Cloud Functions environments to identify components dependent on Log4j 2 and
+      update them to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Hardware Security Module (HSM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Intrusion Detection System (IDS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Interconnect
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Key Management Service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Load Balancing
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Logging
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Network Address Translation (NAT)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Natural Language API
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Profiler
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Router
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Run
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046. Customers may have introduced a separate
+      logging solution that uses Log4j 2. We strongly encourage customers who manage
+      Cloud Run environments to identify components dependent on Log4j 2 and update
+      them to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Run for Anthos
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.  Customers may have introduced a separate
+      logging solution that uses Log4j 2. We strongly encourage customers who manage
+      Cloud Run for Anthos environments to identify components dependent on Log4j
+      2 and update them to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud SDK
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud SQL
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Scheduler
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Shell
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046. Customers may have introduced a separate
+      logging solution that uses Log4j 2. We strongly encourage customers who manage
+      Cloud Shell environments to identify components dependent on Log4j 2 and update
+      them to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Source Repositories
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Spanner
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Storage
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Tasks
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Trace
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Traffic Director
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Translation
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud VPN
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Vision
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Cloud Vision OCR On-Prem
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: CompilerWorks
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Compute Engine
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Compute Engine does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046. For those using Google Cloud VMware Engine,
+      we are working with VMware and tracking VMSA-2021-0028.1. We will deploy fixes
+      to Google Cloud VMware Engine as they become available.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Contact Center AI (CCAI)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Contact Center AI Insights
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Container Registry
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Data Catalog
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Data Catalog has been updated to mitigate the issues identified in CVE-2021-44228
+      and CVE-2021-45046. We strongly encourage customers who introduced their own
+      connectors to identify dependencies on Log4j 2 and update them to the latest
+      version.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Data Fusion
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Data Fusion does not use Log4j 2, but uses Dataproc as one of the options
+      to execute pipelines. Dataproc released new images on December 18, 2021 to address
+      the vulnerability in CVE-2021-44228 and CVE-2021-45046. Customers must follow
+      instructions in a notification sent on December 18, 2021 with the subject line
+      “Important information about Data Fusion.”
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Database Migration Service (DMS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Dataflow
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: 'Dataflow does not use Log4j 2 and is not impacted by the issues in CVE-2021-44228
+      and CVE-2021-45046. If you have changed dependencies or default behavior, it
+      is strongly recommended you verify there is no dependency on vulnerable versions
+      Log4j 2. Customers have been provided details and instructions in a notification
+      sent on December 17, 2021 with the subject line “Update #1 to Important information
+      about Dataflow.”'
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Google Cloud
+    product: Dataproc
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Dataproc released new images on December 18, 2021 to address the vulnerabilities
+      in CVE-2021-44228 and CVE-2021-45046. Customers must follow the instructions
+      in notifications sent on December 18, 2021 with the subject line “Important
+      information about Dataproc” with Dataproc documentation.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Dataproc Metastore
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Dataproc Metastore has been updated to mitigate the issues identified in
+      CVE-2021-44228 and CVE-2021-45046. Customers who need to take actions were sent
+      two notifications with instructions on December 17, 2021 with the subject line
+      “Important information regarding Log4j 2 vulnerability in your gRPC-enabled
+      Dataproc Metastore.”
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Datastore
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Datastream
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Dialogflow Essentials (ES)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Document AI
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Event Threat Detection
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Eventarc
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Filestore
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Log4j 2 is contained within the Filestore service; there is a technical
+      control in place that mitigates the vulnerabilities in CVE-2021-44228 and CVE-2021-45046.
+      Log4j 2 will be updated to the latest version as part of the scheduled rollout
+      in January 2022.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Firebase
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Firestore
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Game Servers
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Google Cloud Armor
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Google Cloud Armor Managed Protection Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Google Cloud VMware Engine
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: We are working with VMware and tracking VMSA-2021-0028.1. We will deploy
+      fixes as they become available.
+    references:
+      - ''
+    last_updated: '2021-12-11T00:00:00'
+  - vendor: Google Cloud
+    product: Google Kubernetes Engine
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Google Kubernetes Engine does not use Log4j 2 and is not impacted by the
+      issues identified in CVE-2021-44228 and CVE-2021-45046.  Customers may have
+      introduced a separate logging solution that uses Log4j 2. We strongly encourage
+      customers who manage Google Kubernetes Engine environments to identify components
+      dependent on Log4j 2 and update them to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Healthcare Data Engine (HDE)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Human-in-the-Loop AI
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: IoT Core
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Key Access Justifications (KAJ)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Looker
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: \Looker-hosted instances have been updated to a Looker version with Log4j  v2.16.
+      Looker is currently working with third-party driver vendors to evaluate the
+      impact of the Log4j vulnerability. As Looker does not enable logging for these
+      drivers in Looker-hosted instances, no messages are logged. We conclude that
+      the vulnerability is mitigated. We continue to actively work with the vendors
+      to deploy a fix for these drivers.  Looker customers who self-manage their Looker
+      instances have received instructions through their technical contacts on how
+      to take the necessary steps to address the vulnerability. Looker customers who
+      have questions or require assistance, please visit Looker Support.
+    references:
+      - ''
+    last_updated: '2021-12-18T00:00:00'
+  - vendor: Google Cloud
+    product: Media Translation API
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Memorystore
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Migrate for Anthos
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Migrate for Compute Engine (M4CE)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: M4CE has been updated to mitigate the issues identified in CVE-2021-44228
+      and CVE-2021-45046. M4CE has been updated to version 4.11.9 to address the vulnerabilities.
+      A notification was sent to customers on December 17, 2021 with subject line
+      “Important information about CVE-2021-44228 and CVE-2021-45046” for M4CE V4.11
+      or below. If you are on M4CE v5.0 or above, no action is needed.
+    references:
+      - ''
+    last_updated: '2021-12-19T00:00:00'
+  - vendor: Google Cloud
+    product: Network Connectivity Center
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Network Intelligence Center
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Network Service Tiers
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Persistent Disk
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Pub/Sub
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Google Cloud
+    product: Pub/Sub Lite
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046. Customers may have introduced a separate
+      logging solution that uses Log4j 2. We strongly encourage customers who manage
+      Pub/Sub Lite environments to identify components dependent on Log4j 2 and update
+      them to the latest version.
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Google Cloud
+    product: reCAPTCHA Enterprise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Recommendations AI
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Retail Search
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Risk Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Secret Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Security Command Center
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Service Directory
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Service Infrastructure
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Speaker ID
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Speech-to-Text
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Speech-to-Text On-Prem
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Storage Transfer Service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Talent Solution
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Text-to-Speech
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Transcoder API
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Transfer Appliance
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Video Intelligence API
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Virtual Private Cloud
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Google Cloud
+    product: Web Security Scanner
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Google Cloud
+    product: Workflows
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.google.com/log4j2-security-advisory
+    notes: Product does not use Log4j 2 and is not impacted by the issues identified
+      in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Gradle
+    product: Gradle
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.gradle.org/log4j-vulnerability
+    notes: Gradle Scala Compiler Plugin depends upon log4j-core but it is not used.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gradle
+    product: Gradle Enterprise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 2021.3.6
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://security.gradle.com/advisory/2021-11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gradle
+    product: Gradle Enterprise Build Cache Node
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 10.1
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://security.gradle.com/advisory/2021-11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gradle
+    product: Gradle Enterprise Test Distribution Agent
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 1.6.2
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://security.gradle.com/advisory/2021-11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Grafana
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://grafana.com/blog/2021/12/14/grafana-labs-core-products-not-impacted-by-log4j-cve-2021-44228-and-related-vulnerabilities/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Grandstream
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.grandstream.com/press-releases/grandstream-products-unaffected-by-log4j-vulnerability?hsLang=en
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gravitee
+    product: Access Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 3.10.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gravitee
+    product: Access Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 3.5.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gravitee
+    product: API Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 3.10.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gravitee
+    product: API Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 3.5.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gravitee
+    product: Alert Engine
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.5.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gravitee
+    product: Alert Engine
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.4.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gravitee
+    product: Cockpit
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.4.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gravitee.io
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Gravwell
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.gravwell.io/blog/cve-2021-44228-log4j-does-not-impact-gravwell-products
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: Graylog
+    product: Graylog Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - All versions >= 1.2.0 and <= 4.2.2
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.graylog.org/post/graylog-update-for-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: GreenShot
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://greenshot.atlassian.net/browse/BUG-2871
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: GSA
+    product: Cloud.gov
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cloud.gov/2021/12/14/log4j-buildpack-updates/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Guidewire
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.guidewire.com/s/article/Update-to-customers-who-have-questions-about-the-use-of-log4j-in-Guidewire-products
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+...
