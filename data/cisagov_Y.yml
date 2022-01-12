@@ -1,0 +1,123 @@
+---
+version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
+software:
+  - vendor: Yellowbrick
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.yellowbrick.com/hc/en-us/articles/4412586575379-Security-Advisory-Yellowbrick-is-NOT-Affected-by-the-Log4Shell-Vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:56+00:00'
+  - vendor: YellowFin
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.yellowfinbi.com/announcement/notice-critical-vulnerability-in-log4j2
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:56+00:00'
+  - vendor: YOKOGAWA
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.yokogawa.com/us/solutions/products-platforms/announcements/important-notice/log4shell/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: YSoft SAFEQ
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ysoft.com/getattachment/Products/Security/Standards-Compliance/text/Information-Security-Policy-Statement/YSOFT-SAFEQ-LOG4J-VULNERABILITY-PRODUCT-UPDATE-WORKAROUND-1.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:56+00:00'
+...

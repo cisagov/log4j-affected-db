@@ -1,0 +1,326 @@
+---
+version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
+software:
+  - vendor: K15t
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://help.k15t.com/k15t-apps-and-log4shell-193401141.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: K6
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://k6.io/blog/k6-products-not-impacted-by-cve-2021-44228/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Karakun
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://board.karakun.com/viewtopic.php?f=21&t=8351
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Kaseya
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://helpdesk.kaseya.com/hc/en-gb/articles/4413449967377-Log4j2-Vulnerability-Assessment
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Keeper Security
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.keepersecurity.com/blog/2021/12/15/public-notice-regarding-the-apache-foundation-log4j-vulnerability/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: KEMP
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.kemptechnologies.com/hc/en-us/articles/4416430695437-CVE-2021-44228-Log4j2-Exploit
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: KEMP 2
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.kemptechnologies.com/hc/en-us/articles/4416473820045-Progress-Kemp-LoadMaster-protects-from-security-vulnerability-Apache-Log4j-2-CVE-2021-44228-
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Kofax
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://knowledge.kofax.com/MFD_Productivity/SafeCom/Product_Information/SafeCom_and_Log4j_vulnerability_(CVE-2021-44228)
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Konica Minolta
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.konicaminolta.de/de-de/support/log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Kronos UKG
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.kronos.com/s/feed/0D54M00004wJKHiSAO?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Kyberna
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.kyberna.com/detail/log4j-sicherheitsluecke
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+...

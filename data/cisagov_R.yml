@@ -1,0 +1,37 @@
+---
+version: '1.0'
+owners:
+  - name: cisagov
+    url: https://github.com/cisagov/log4j-affected-db
+software:
+  - vendor: Runecast
+    product: Runecast Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 6.0.3
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.runecast.com/release-notes
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:55+00:00'
+...
