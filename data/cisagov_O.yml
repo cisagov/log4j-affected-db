@@ -629,7 +629,7 @@ software:
         investigated: true
         affected_versions:
           - < 4.3g
-        fixed_versions: 
+        fixed_versions:
           - 4.3g
         unaffected_versions: []
       cve-2021-45046:
