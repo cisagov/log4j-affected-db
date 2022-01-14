@@ -38164,6 +38164,36 @@ software:
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
+  - vendor: Google
+    product: Chrome
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://security.googleblog.com/2021/12/apache-log4j-vulnerability.html
+    notes: Chrome Browser releases, infrastructure and admin console are not using
+      versions of Log4j affected by the vulnerability.
+    references:
+      - ''
+    last_updated: '2022-01-14'
   - vendor: Gradle
     product: Gradle
     cves:
