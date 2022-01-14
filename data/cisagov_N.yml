@@ -114,7 +114,8 @@ software:
         unaffected_versions: []
       cve-2021-45105:
         investigated: true
-        affected_versions: []
+        affected_versions:
+          -Limited to deployments running Vertica, Cloudera, or Logstash
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
