@@ -682,7 +682,7 @@ software:
     notes: Chrome Browser releases, infrastructure and admin console are not using versions of Log4j affected by the vulnerability.
     references:
       - ''
-    last_updated: '2022-01-14'    
+    last_updated: '2022-01-14'
   - vendor: Google Cloud
     product: AI Platform Data Labeling
     cves:
