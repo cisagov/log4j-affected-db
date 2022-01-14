@@ -96,7 +96,8 @@ software:
     cves:
       cve-2021-4104:
         investigated: true
-        affected_versions: []
+        affected_versions:
+          -Limited to deployments running Vertica, Cloudera, or Logstash
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
