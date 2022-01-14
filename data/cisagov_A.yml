@@ -2958,6 +2958,35 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
+  - vendor: ARC Informatique
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.pcvuesolutions.com/support/index.php/en/security-bulletin/1141-security-bulletin-2021-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-13T00:00:00'
   - vendor: Arca Noae
     product: ''
     cves:

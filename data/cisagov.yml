@@ -3104,6 +3104,35 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
+  - vendor: ARC Informatique
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.pcvuesolutions.com/support/index.php/en/security-bulletin/1141-security-bulletin-2021-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-13T00:00:00'
   - vendor: Arca Noae
     product: ''
     cves:
@@ -38164,6 +38193,36 @@ software:
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
+  - vendor: Google
+    product: Chrome
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://security.googleblog.com/2021/12/apache-log4j-vulnerability.html
+    notes: Chrome Browser releases, infrastructure and admin console are not using
+      versions of Log4j affected by the vulnerability.
+    references:
+      - ''
+    last_updated: '2022-01-14'
   - vendor: Gradle
     product: Gradle
     cves:
@@ -61941,6 +62000,130 @@ software:
     references:
       - ''
     last_updated: '2021-12-23T00:00:00'
+  - vendor: Opto 22
+    product: GROOV-AR1, GROOV-AR1-BASE, GROOV-AR1-SNAP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 4.3g
+        fixed_versions:
+          - 4.3g
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.opto22.com/optoblog/new-update-to-address-log4shell/log4j-exploit
+    notes: The Log4j vulnerability affects all products running groov View software
+    references:
+      - ''
+    last_updated: '2022-01-13T00:00:00'
+  - vendor: Opto 22
+    product: GROOV-AT1, GROOV-AT1-SNAP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 4.3g
+        fixed_versions:
+          - 4.3g
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.opto22.com/optoblog/new-update-to-address-log4shell/log4j-exploit
+    notes: The Log4j vulnerability affects all products running groov View software
+    references:
+      - ''
+    last_updated: '2022-01-13T00:00:00'
+  - vendor: Opto 22
+    product: GROOV-SVR-WIN, GROOV-SVR-WIN-BASE, GROOV-SVR-WIN-SNAP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 4.3g
+        fixed_versions:
+          - 4.3g
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.opto22.com/optoblog/new-update-to-address-log4shell/log4j-exploit
+    notes: The Log4j vulnerability affects all products running groov View software
+    references:
+      - ''
+    last_updated: '2022-01-13T00:00:00'
+  - vendor: Opto 22
+    product: GRV-EPIC-PR1, GRV-EPIC-PR2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 3.3.2
+        fixed_versions:
+          - 3.3.2
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.opto22.com/optoblog/new-update-to-address-log4shell/log4j-exploit
+    notes: The Log4j vulnerability affects all products running groov View software
+    references:
+      - ''
+    last_updated: '2022-01-13T00:00:00'
   - vendor: Oracle
     product: ''
     cves:
