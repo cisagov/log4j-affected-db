@@ -12,25 +12,25 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - ">= 1.0.0"
+          - '>= 1.0.0'
       cve-2021-44228:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - ">= 1.0.0"
+          - '>= 1.0.0'
       cve-2021-45046:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - ">= 1.0.0"
+          - '>= 1.0.0'
       cve-2021-45105:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - ">= 1.0.0"
+          - '>= 1.0.0'
     vendor_links:
       - https://support.1password.com/kb/202112/
     notes: ''
