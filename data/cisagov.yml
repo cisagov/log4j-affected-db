@@ -8,31 +8,35 @@ software:
     product: All products
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - '>= 1.0.0'
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - '>= 1.0.0'
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - '>= 1.0.0'
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - '>= 1.0.0'
     vendor_links:
       - https://support.1password.com/kb/202112/
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-23T00:00:00'
+    last_updated: '2021-01-14T00:00:00'
   - vendor: 2n
     product: ''
     cves:
@@ -3851,6 +3855,38 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Atvise
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.atvise.com/en/articles/at-log4j-sicherheitsluecke-atvise-produkte-und-terminals-nicht-betroffen
+    notes: The security vulnerability does NOT affect our applications and products
+      or pose any threat. This applies to all Bachmann applications and products,
+      including atvise solutions.
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
   - vendor: AudioCodes
     product: ''
     cves:
@@ -51710,7 +51746,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
   - vendor: Ivanti
-    product: ''
+    product: Avalanche
     cves:
       cve-2021-4104:
         investigated: false
@@ -51718,17 +51754,19 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - 6.2.2
+          - 6.3.0 to 6.3.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: ''
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
+        investigated: ''
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
@@ -51737,7 +51775,135 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Ivanti File Director
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 2019.1.*
+          - 2020.1.*
+          - 2020.3.*
+          - 2021.1.*
+          - 4.4.*
+        fixed_versions:
+          - 2021.3 HF2
+          - 2021.1 HF1
+          - 2020.3 HF2
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: MobileIron Core
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: See Advisory details for mitigation instructions for MobileIron Core.
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: MobileIron Core Connector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: See Advisory details for mitigation instructions for MobileIron Core Connector.
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: MobileIron Sentry (Core/Cloud)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '9.13'
+          - '9.14'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: See Advisory details for mitigation instructions for MobileIron Sentry.
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
   - vendor: Jamasoftware
     product: ''
     cves:
@@ -57338,7 +57504,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
@@ -57357,7 +57523,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-18T00:00:00'
   - vendor: MathWorks
     product: MATLAB
     cves:
@@ -57387,7 +57553,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-29T00:00:00'
+    last_updated: '2022-01-18T00:00:00'
   - vendor: Matillion
     product: Matillion ETL
     cves:
@@ -59699,28 +59865,31 @@ software:
     product: OptimalPlus
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - Vertica
+          - Cloudera
+          - Logstash
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
       - https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html
-    notes: (Limited to deployments running Veritas, Cloudera, or Logstash) Contact
+    notes: (Limited to deployments running Vertica, Cloudera, or Logstash) Contact
       Technical Support
     references:
       - ''
@@ -59736,7 +59905,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - Version >4.2
+          - '>4.2'
           - <4..2.12
         fixed_versions: []
         unaffected_versions: []
@@ -60017,35 +60186,6 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://doc.nexusgroup.com/pages/viewpage.action?pageId=83133294
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: NI (National Instruments)
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html
     notes: ''
     references:
       - ''
@@ -63903,6 +64043,316 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Admin Portal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Asset Intelligence
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Configure
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox E-FOTA One
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Guard
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox License Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Manage
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Managed Services Provider (MSP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Mobile Enrollment
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Reseller Portal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
   - vendor: Sangoma
     product: ''
     cves:
@@ -78033,6 +78483,36 @@ software:
     references:
       - ''
     last_updated: '2021-12-12T00:00:00'
+  - vendor: VTScada
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.vtscada.com/vtscada-unaffected-by-log4j/
+    notes: Java is not utilized within VTScada software, and thus our users are unaffected.
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
   - vendor: Vyaire
     product: ''
     cves:

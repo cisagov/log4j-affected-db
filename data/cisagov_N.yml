@@ -95,28 +95,31 @@ software:
     product: OptimalPlus
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - 'Vertica'
+          - 'Cloudera'
+          - 'Logstash'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
       - https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html
-    notes: (Limited to deployments running Veritas, Cloudera, or Logstash) Contact
+    notes: (Limited to deployments running Vertica, Cloudera, or Logstash) Contact
       Technical Support
     references:
       - ''
@@ -132,8 +135,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - Version >4.2
-          - <4..2.12
+          - '>4.2'
+          - '<4..2.12'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -279,7 +282,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 3.0.57
+          - '3.0.57'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -309,7 +312,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - <7.4.3
+          - '<7.4.3'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -371,7 +374,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 21.04.0.5552
+          - '21.04.0.5552'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -413,35 +416,6 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://doc.nexusgroup.com/pages/viewpage.action?pageId=83133294
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: NI (National Instruments)
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ni.com/en-us/support/documentation/supplemental/21/ni-response-to-apache-log4j-vulnerability-.html
     notes: ''
     references:
       - ''
