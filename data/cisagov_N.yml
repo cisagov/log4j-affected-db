@@ -102,7 +102,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          -Limited to deployments running Vertica, Cloudera, or Logstash
+          - 'Vertica'
+          - 'Cloudera'
+          - 'Logstash'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -133,8 +135,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - Version >4.2
-          - <4..2.12
+          - '>4.2'
+          - '<4..2.12'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -280,7 +282,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 3.0.57
+          - '3.0.57'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -310,7 +312,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - <7.4.3
+          - '<7.4.3'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -372,7 +374,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 21.04.0.5552
+          - '21.04.0.5552'
       cve-2021-45046:
         investigated: false
         affected_versions: []
