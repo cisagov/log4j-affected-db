@@ -7908,7 +7908,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: Not Affected - Java is no longer required since version 2018.3U3 Customers on older versions can uninstall JRE on their ISD Servers for mitigation. This will disable indexing of Attachments and Documents for full-text search.
+    notes: Not Affected. Java is no longer required since version 2018.3U3 Customers on older versions can uninstall JRE on their ISD Servers for mitigation. This will disable indexing of Attachments and Documents for full-text search.
     references:
       - ''
     last_updated: '2022-01-18T00:00:00'
@@ -8153,7 +8153,7 @@ software:
       - ''
     last_updated: '2022-01-18T00:00:00'
   - vendor: Ivanti
-    product: MI Mobile@Work
+    product: MI MobileAtWork
     cves:
       cve-2021-4104:
         investigated: ''
@@ -8212,7 +8212,7 @@ software:
     references:
       - ''
     last_updated: '2022-01-18T00:00:00'
-      - vendor: Ivanti
+  - vendor: Ivanti
     product: Mi Tunnel App
     cves:
       cve-2021-4104:
@@ -8243,7 +8243,7 @@ software:
       - ''
     last_updated: '2022-01-18T00:00:00'
   - vendor: Ivanti
-    product: MobileIron Access/ZSO
+    product: MobileIron Access ZSO
     cves:
       cve-2021-4104:
         investigated: ''
@@ -8268,7 +8268,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: Mitigated - No Impact
+    notes: Mitigated. No Impact
     references:
       - ''
     last_updated: '2022-01-18T00:00:00'
