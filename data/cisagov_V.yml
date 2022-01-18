@@ -2571,6 +2571,36 @@ software:
     references:
       - ''
     last_updated: '2021-12-12T00:00:00'
+  - vendor: VTScada
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.vtscada.com/vtscada-unaffected-by-log4j/
+    notes: Java is not utilized within VTScada software, and thus our users are unaffected.
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
   - vendor: Vyaire
     product: ''
     cves:

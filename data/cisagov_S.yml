@@ -755,6 +755,316 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Reseller Portal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Manage
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Admin Portal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Mobile Enrollment
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Configure
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Asset Intelligence
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox E-FOTA One
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Managed Services Provider (MSP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Guard
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox License Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
   - vendor: Sangoma
     product: ''
     cves:
