@@ -567,7 +567,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-18'
+    last_updated: '2022-01-18T00:00:00'
   - vendor: MathWorks
     product: MATLAB
     cves:
@@ -597,7 +597,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-18'
+    last_updated: '2022-01-18T00:00:00'
   - vendor: Matillion
     product: Matillion ETL
     cves:
