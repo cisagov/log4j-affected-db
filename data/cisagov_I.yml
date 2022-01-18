@@ -6975,7 +6975,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
   - vendor: Ivanti
-    product: ''
+    product: Avalanche
     cves:
       cve-2021-4104:
         investigated: false
@@ -6983,17 +6983,19 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - 6.2.2
+          - 6.3.0 to 6.3.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: ''
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
+        investigated: ''
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
@@ -7002,5 +7004,133 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Ivanti File Director
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 2019.1.*
+          - 2020.1.*
+          - 2020.3.*
+          - 2021.1.*
+          - 4.4.*
+        fixed_versions:
+          - 2021.3 HF2
+          - 2021.1 HF1
+          - 2020.3 HF2
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: MobileIron Core
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: See Advisory details for mitigation instructions for MobileIron Core.
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: MobileIron Sentry (Core/Cloud)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 9.13
+          - 9.14
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: See Advisory details for mitigation instructions for MobileIron Sentry.
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: MobileIron Core Connector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: See Advisory details for mitigation instructions for MobileIron Core Connector.
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
 ...
