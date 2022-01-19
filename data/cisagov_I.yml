@@ -6216,7 +6216,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:53+00:00'
   - vendor: Inductive Automation
-    product: ''
+    product: Ignition
     cves:
       cve-2021-4104:
         investigated: false
@@ -6224,10 +6224,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6240,10 +6241,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.inductiveautomation.com/hc/en-us/articles/4416204541709-Regarding-CVE-2021-44228-Log4j-RCE-0-day
-    notes: ''
+    notes: Older versions of Ignition (7.8 and older) did use the Log4j library, but they used an older version (1.2) that was not affected by this vulnerability.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-19T00:00:00'
   - vendor: IndustrialDefender
     product: ''
     cves:
