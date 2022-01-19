@@ -59072,8 +59072,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59102,8 +59101,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59132,8 +59130,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59162,8 +59159,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59192,8 +59188,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59222,8 +59217,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59252,8 +59246,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59282,8 +59275,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59312,8 +59304,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59342,8 +59333,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59372,8 +59362,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59402,8 +59391,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -60620,8 +60608,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: MicroFocus
-    product: ''
+  - vendor: Micro Focus
+    product: Data Protector
     cves:
       cve-2021-4104:
         investigated: false
@@ -60629,9 +60617,19 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '10.20'
+          - '10.30'
+          - '10.40'
+          - '10.50'
+          - '10.60'
+          - '10.70'
+          - '10.80'
+          - '10.90'
+          - '10.91'
+          - '11.00'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -60644,11 +60642,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228
+      - https://portal.microfocus.com/s/article/KM000003052
     notes: ''
     references:
-      - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+      - '[https://portal.microfocus.com/s/article/KM000003050](https://portal.microfocus.com/s/article/KM000003050)'
+    last_updated: '2021-12-13T00:00:00'
   - vendor: Microsoft
     product: Azure API Gateway
     cves:
