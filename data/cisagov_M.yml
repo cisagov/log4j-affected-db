@@ -1649,35 +1649,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: MicroFocus
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
   - vendor: Microsoft
     product: Azure Application Gateway
     cves:
@@ -1939,6 +1910,45 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://community.microstrategy.com/s/article/MicroStrategy-s-response-to-CVE-2021-44228-The-Log4j-0-Day-Vulnerability?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Micro Focus
+    product: Data Protector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '10.20'
+          - '10.30'
+          - '10.40'
+          - '10.50'
+          - '10.60'
+          - '10.70'
+          - '10.80'
+          - '10.90'
+          - '10.91'
+          - '11.00'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228
     notes: ''
     references:
       - ''
