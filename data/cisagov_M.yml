@@ -1649,8 +1649,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: Micro Focus
-    product: Data Protector
+  - vendor: MicroFocus
+    product: ''
     cves:
       cve-2021-4104:
         investigated: false
@@ -1660,17 +1660,7 @@ software:
       cve-2021-44228:
         investigated: false
         affected_versions: []
-        fixed_versions:
-          - '10.20'
-          - '10.30'
-          - '10.40'
-          - '10.50'
-          - '10.60'
-          - '10.70'
-          - '10.80'
-          - '10.90'
-          - '10.91'
-          - '11.00'
+        fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1683,11 +1673,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://portal.microfocus.com/s/article/KM000003052?language=en_US
+      - https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228
     notes: ''
     references:
-      - https://portal.microfocus.com/s/article/KM000003050
-    last_updated: '2021-12-13T07:18:54+00:00'
+      - ''
+    last_updated: '2022-01-12T07:18:54+00:00'
   - vendor: Microsoft
     product: Azure Application Gateway
     cves:
@@ -1757,7 +1747,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '<2.3.10'
+          - < 2.3.10
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
