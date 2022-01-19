@@ -5400,6 +5400,36 @@ software:
     references:
       - ''
     last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE/Micro Focus
+    product: Data Protector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions:
+          - '9.09'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://portal.microfocus.com/s/article/KM000003243
+    notes: ''
+    references:
+      - https://portal.microfocus.com/s/article/KM000003243
+    last_updated: '2021-12-17T00:00:00'
   - vendor: HOLOGIC
     product: Advanced Workflow Manager (AWM)
     cves:
