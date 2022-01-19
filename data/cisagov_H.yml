@@ -921,8 +921,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
-    notes: A patch is available for releases R15A, R14B, R14A and R11B SP1. . For details on how to apply such patch, 
-      please refer to the technical bulletin “FOXMAN-UN Installation of Log4j Patch”, version A (1KHW029176) 
+    notes: A patch is available for releases R15A, R14B, R14A and R11B SP1. . For details on how to apply such patch,
+      please refer to the technical bulletin “FOXMAN-UN Installation of Log4j Patch”, version A (1KHW029176)
       available in the Hitachi Energy Customer Connect Portal.
     references:
       - ''
