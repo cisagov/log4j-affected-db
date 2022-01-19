@@ -1408,6 +1408,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
+  - vendor: Video Insight Inc.
+    product: Video Insight
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://i-pro.com/eu/en/surveillance/news/i-pro-products-and-log4j-2x-vulnerability
+    notes: Video Insight is a part of Panasonic I-Pro.
+    references:
+      - ''
+    last_updated: '2022-01-19T00:00:00'
   - vendor: Viso Trust
     product: ''
     cves:
