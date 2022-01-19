@@ -423,7 +423,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -453,7 +453,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -483,7 +483,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -512,7 +512,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - < 10.0.7
+          - '< 10.0.7'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -543,7 +543,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -573,7 +573,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -603,7 +603,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -661,9 +661,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 1.21.7 - 1.22.9
-          - 2.0.3 - 2.1.5
-          - 2.2.0 - 3.0.2
+          - '1.21.7-1.22.9'
+          - '2.0.3-2.1.5'
+          - '2.2.0-3.0.2'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -751,7 +751,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Elasticsearch 5.0.0+
+          - 'Elasticsearch 5.0.0+'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -813,7 +813,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - v6
+          - 'v6'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -904,10 +904,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - R15A
-          - R14B
-          - R14A
-          - R11B SP1
+          - 'R15A'
+          - 'R14B'
+          - 'R14A'
+          - 'R11B SP1'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -921,10 +921,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
-    notes: A patch is available for releases R15A, R14B, R14A and R11B SP1. . For
-      details on how to apply such patch, please refer to the technical bulletin “FOXMAN-UN
-      - Installation of Log4j Patch”, version A (1KHW029176) available in the Hitachi
-      Energy Customer Connect Portal.
+    notes: A patch is available for releases R15A, R14B, R14A and R11B SP1. . For details on how to apply such patch, 
+      please refer to the technical bulletin “FOXMAN-UN Installation of Log4j Patch”, version A (1KHW029176) 
+      available in the Hitachi Energy Customer Connect Portal.
     references:
       - ''
     last_updated: '2022-01-05T00:00:00'
@@ -940,7 +939,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - R11A and R10 series
+          - 'R11A and R10 series'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1030,9 +1029,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - v1.7.x
-          - v1.8.x
-          - v1.9.x
+          - 'v1.7.x'
+          - 'v1.8.x'
+          - 'v1.9.x'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1091,9 +1090,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 9.0 - 9.10.44
-          - 9.1.1
-          - 10.3.4
+          - '9.0-9.10.44'
+          - '9.1.1'
+          - '10.3.4'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1123,7 +1122,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 9.1.0.32 - 9.1.0.44
+          - '9.1.0.32-9.1.0.44'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1155,7 +1154,7 @@ software:
         fixed_versions:
           - '12.1'
           - '12.2'
-          - 19c
+          - '19c'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1187,8 +1186,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 3.7.15
-          - 3.7.16
+          - '3.7.15'
+          - '3.7.16'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1218,7 +1217,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 2.0.0
+          - '2.0.0'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1249,10 +1248,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - R15A
-          - R14B
-          - R14A
-          - R11B SP1
+          - 'R15A'
+          - 'R14B'
+          - 'R14A'
+          - 'R11B SP1'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1285,7 +1284,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - R11A and R10 series
+          - 'R11A and R10 series'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1519,7 +1518,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - < v113
+          - '< v113'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1549,7 +1548,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - < 1.0.6
+          - '< 1.0.6'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1579,7 +1578,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - < 21.10.3
+          - '< 21.10.3'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1609,8 +1608,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - < 21.03.6
-          - < 20.07.4
+          - '< 21.03.6'
+          - '< 20.07.4'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
