@@ -50987,7 +50987,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:53+00:00'
   - vendor: Inductive Automation
-    product: ''
+    product: Ignition
     cves:
       cve-2021-4104:
         investigated: false
@@ -50995,10 +50995,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -51011,10 +51012,11 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.inductiveautomation.com/hc/en-us/articles/4416204541709-Regarding-CVE-2021-44228-Log4j-RCE-0-day
-    notes: ''
+    notes: Older versions of Ignition (7.8 and older) did use the Log4j library, but
+      they used an older version (1.2) that was not affected by this vulnerability.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-19T00:00:00'
   - vendor: IndustrialDefender
     product: ''
     cves:
@@ -61496,6 +61498,38 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Moxa
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.moxa.com/en/support/product-support/security-advisory/moxa-s-response-regarding-the-apache-log4j-vulnerability
+    notes: Moxa is investigating to determine if any of our products are affected
+      by this vulnerability. At the time of publication, none of Moxa's products are
+      affected.
+    references:
+      - ''
+    last_updated: '2022-01-19T00:00:00'
   - vendor: Mulesoft
     product: ''
     cves:
@@ -77172,6 +77206,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
+  - vendor: Tridium
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.niagara-community.com/bundle/TechBulletin2021/resource/Dec_13_2021_NiagaraNotExposed_Apache_log4j.pdf
+    notes: Document access requires authentication. CISA is not able to validate vulnerability
+      status.
+    references:
+      - ''
+    last_updated: '2022-01-19T00:00:00'
   - vendor: Trimble
     product: eCognition
     cves:
@@ -79196,6 +79260,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
+  - vendor: Video Insight Inc.
+    product: Video Insight
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://i-pro.com/eu/en/surveillance/news/i-pro-products-and-log4j-2x-vulnerability
+    notes: Video Insight is a part of Panasonic I-Pro.
+    references:
+      - ''
+    last_updated: '2022-01-19T00:00:00'
   - vendor: Viso Trust
     product: ''
     cves:
