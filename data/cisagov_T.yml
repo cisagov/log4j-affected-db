@@ -2927,6 +2927,35 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
+  - vendor: Tridium
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.niagara-community.com/bundle/TechBulletin2021/resource/Dec_13_2021_NiagaraNotExposed_Apache_log4j.pdf
+    notes: Document access requires authentication. CISA is not able to validate vulnerability status.
+    references:
+      - ''
+    last_updated: '2022-01-19T00:00:00'
   - vendor: Tripp Lite
     product: LX Platform devices (includes WEBCARDLX, WEBCARDLXMINI, SRCOOLNETLX,
       SRCOOLNET2LX and devices with pre-installed or embedded WEBCARDLX interfaces)

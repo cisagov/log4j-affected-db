@@ -2527,6 +2527,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Moxa
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.moxa.com/en/support/product-support/security-advisory/moxa-s-response-regarding-the-apache-log4j-vulnerability
+    notes: Moxa is investigating to determine if any of our products are affected by this vulnerability. At the time of publication, none of Moxa's products are affected.
+    references:
+      - ''
+    last_updated: '2022-01-19T00:00:00'
   - vendor: Mulesoft
     product: ''
     cves:
