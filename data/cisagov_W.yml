@@ -210,35 +210,270 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
-  - vendor: WindRiver
-    product: ''
+  - vendor: Wind River
+    product: WRL-6
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2 and JMSAppender components, however, JMSAppender is deactivated in the release package and not affected by CVE-2021-4104 customers are advised to NOT manually activate the JMSAppender component.
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: WRL-7
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2 and JMSAppender components, however, JMSAppender is deactivated in the release package and not affected by CVE-2021-4104 customers are advised to NOT manually activate the JMSAppender component.
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: WRL-8
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2 and JMSAppender components, however, JMSAppender is deactivated in the release package and not affected by CVE-2021-4104 customers are advised to NOT manually activate the JMSAppender component.
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: WRL-9
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
     vendor_links:
       - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: LTS17
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: LTS18
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: LTS19
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: LTS21
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
   - vendor: WireShark
     product: ''
     cves:
