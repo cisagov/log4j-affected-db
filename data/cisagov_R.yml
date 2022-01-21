@@ -34,4 +34,596 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:55+00:00'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 6 Extended Lifecycle Support
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 6 Extended Lifecycle Support
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346428'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 7
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346473'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 7.3 Advanced Update Support
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 7.3 Advanced Update Support
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346490'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 7.4 Advanced Update Support
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 7.4 Advanced Update Support
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346505'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 7.6 Advanced Update Support
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 7.6 Advanced Update Support
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346518'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 7.6 Telco Extended Update Support
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 7.6 Telco Extended Update Support
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346532'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 7.6 Update Services for SAP Solutions
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 7.6 Update Services for SAP Solutions
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346544'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 7.7 Advanced Update Support
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 7.7 Advanced Update Support
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346583'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 7.7 Telco Extended Update Support
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 7.7 Telco Extended Update Support
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346605'
+- vendor: Red Hat
+  product: Red Hat Enterprise Linux 7.7 Update Services for SAP Solutions
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Enterprise Linux 7.7 Update Services for SAP Solutions
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5206
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5206
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346619'
+- vendor: Red Hat
+  product: Red Hat OpenShift Container Platform 4.6
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.6
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5186
+      unaffected_versions: []
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.6
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5141
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.6
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5141
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.6
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0026
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5186
+  - https://access.redhat.com/errata/RHSA-2021:5141
+  - https://access.redhat.com/errata/RHSA-2022:0026
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346638'
+- vendor: Red Hat
+  product: Red Hat OpenShift Container Platform 4.7
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5184
+      unaffected_versions: []
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5107
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5107
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5184
+  - https://access.redhat.com/errata/RHSA-2021:5107
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346654'
+- vendor: Red Hat
+  product: Red Hat OpenShift Container Platform 4.8
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.8
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5183
+      unaffected_versions: []
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.8
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5148
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 4.8
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5148
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5183
+  - https://access.redhat.com/errata/RHSA-2021:5148
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346670'
+- vendor: Red Hat
+  product: Red Hat Software Collections for Red Hat Enterprise Linux 7
+  cves:
+    cve-2021-4104:
+      investigated: true
+      affected_versions:
+      - Red Hat Software Collections for Red Hat Enterprise Linux 7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5269
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5269
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346683'
+- vendor: Red Hat
+  product: OpenShift Logging 5.0
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.0
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5137
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.0
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5137
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.0
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0047
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5137
+  - https://access.redhat.com/errata/RHSA-2022:0047
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346697'
+- vendor: Red Hat
+  product: OpenShift Logging 5.1
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.1
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5128
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.1
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5128
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.1
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0042
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5128
+  - https://access.redhat.com/errata/RHSA-2022:0042
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346753'
+- vendor: Red Hat
+  product: OpenShift Logging 5.2
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.2
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5127
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.2
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5127
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.2
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0043
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5127
+  - https://access.redhat.com/errata/RHSA-2022:0043
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346774'
+- vendor: Red Hat
+  product: OpenShift Logging 5.3
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.3
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5129
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.3
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5129
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - OpenShift Logging 5.3
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0044
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5129
+  - https://access.redhat.com/errata/RHSA-2022:0044
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346806'
+- vendor: Red Hat
+  product: Red Hat AMQ Streams 1
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat AMQ Streams 1
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5138
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - Red Hat AMQ Streams 1
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0219
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5138
+  - https://access.redhat.com/errata/RHSA-2022:0219
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346864'
+- vendor: Red Hat
+  product: Red Hat Data Grid 8
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat Data Grid 8
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5132
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - Red Hat Data Grid 8
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0205
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - Red Hat Data Grid 8
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0205
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5132
+  - https://access.redhat.com/errata/RHSA-2022:0205
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346883'
+- vendor: Red Hat
+  product: Red Hat Integration
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat Integration
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5130
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - Red Hat Integration
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0223
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - Red Hat Integration
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0223
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5130
+  - https://access.redhat.com/errata/RHSA-2022:0223
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.346903'
+- vendor: Red Hat
+  product: Red Hat JBoss Enterprise Application Platform 7
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat JBoss Enterprise Application Platform 7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5140
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - Red Hat JBoss Enterprise Application Platform 7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0216
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - Red Hat JBoss Enterprise Application Platform 7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0216
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5140
+  - https://access.redhat.com/errata/RHSA-2022:0216
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.347002'
+- vendor: Red Hat
+  product: Red Hat JBoss Fuse 7
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat JBoss Fuse 7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0203
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - Red Hat JBoss Fuse 7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0203
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - Red Hat JBoss Fuse 7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0203
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2022:0203
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.347014'
+- vendor: Red Hat
+  product: Red Hat Vert.X 4
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat Vert.X 4
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5093
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - Red Hat Vert.X 4
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0083
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: true
+      affected_versions:
+      - Red Hat Vert.X 4
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0083
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5093
+  - https://access.redhat.com/errata/RHSA-2022:0083
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.347035'
+- vendor: Red Hat
+  product: Red Hat OpenShift Container Platform 3.11
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 3.11
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5094
+      unaffected_versions: []
+    cve-2021-45046:
+      investigated: true
+      affected_versions:
+      - Red Hat OpenShift Container Platform 3.11
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2021:5094
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2021:5094
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.347084'
+- vendor: Red Hat
+  product: Red Hat Process Automation 7
+  cves:
+    cve-2021-44228:
+      investigated: true
+      affected_versions:
+      - Red Hat Process Automation 7
+      fixed_versions:
+      - https://access.redhat.com/errata/RHSA-2022:0082
+      unaffected_versions: []
+  vendor_links:
+  - https://access.redhat.com/errata/RHSA-2022:0082
+  notes: ''
+  references: []
+  last_updated: '2022-01-21T13:06:51.347095'
 ...
