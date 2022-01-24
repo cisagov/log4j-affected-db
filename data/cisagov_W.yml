@@ -62,7 +62,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Wasp Barcode technologies
     product: ''
     cves:
@@ -91,7 +91,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WatchGuard
     product: Secplicity
     cves:
@@ -120,7 +120,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Western Digital
     product: ''
     cves:
@@ -149,7 +149,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WIBU Systems
     product: CodeMeter Cloud Lite
     cves:
@@ -238,7 +238,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WireShark
     product: ''
     cves:
@@ -267,7 +267,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Wistia
     product: ''
     cves:
@@ -296,7 +296,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WitFoo
     product: ''
     cves:
@@ -325,7 +325,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WordPress
     product: ''
     cves:
@@ -354,7 +354,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Worksphere
     product: ''
     cves:
@@ -383,7 +383,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Wowza
     product: ''
     cves:
@@ -412,7 +412,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WSO2
     product: WSO2 Enterprise Integrator
     cves:
@@ -442,5 +442,5 @@ software:
     notes: A temporary mitigation is available while vendor works on update
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

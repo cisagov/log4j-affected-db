@@ -615,7 +615,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Dassault Systèmes
     product: ''
     cves:
@@ -644,7 +644,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Databricks
     product: ''
     cves:
@@ -673,7 +673,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Datadog
     product: Datadog Agent
     cves:
@@ -706,7 +706,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Dataminer
     product: ''
     cves:
@@ -735,7 +735,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Datev
     product: ''
     cves:
@@ -764,7 +764,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Datto
     product: ''
     cves:
@@ -793,7 +793,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: dCache.org
     product: ''
     cves:
@@ -822,7 +822,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Debian
     product: ''
     cves:
@@ -851,7 +851,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Deepinstinct
     product: ''
     cves:
@@ -880,7 +880,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Dell
     product: '"Dell EMC PowerMax VMAX VMAX3 and VMAX AFA"'
     cves:
@@ -8305,7 +8305,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Device42
     product: ''
     cves:
@@ -8334,7 +8334,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Devolutions
     product: All products
     cves:
@@ -8363,7 +8363,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Diebold Nixdorf
     product: ''
     cves:
@@ -8392,7 +8392,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Digi International
     product: AnywhereUSB Manager
     cves:
@@ -9552,7 +9552,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Digital AI
     product: ''
     cves:
@@ -9581,7 +9581,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Digital Alert Systems
     product: All
     cves:
@@ -9639,7 +9639,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Docker
     product: ''
     cves:
@@ -9668,7 +9668,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Docusign
     product: ''
     cves:
@@ -9697,7 +9697,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: DrayTek
     product: Vigor Routers, Access Points, Switches, VigorACS Central Management Software,
       MyVigor Platform
@@ -9756,7 +9756,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Dynatrace
     product: ActiveGate
     cves:

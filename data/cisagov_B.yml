@@ -4067,7 +4067,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: Symantec Protection Engine (SPE)
     cves:
@@ -4096,7 +4096,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: Symantec Protection for SharePoint Servers (SPSS)
     cves:
@@ -4125,7 +4125,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: VIP
     cves:
@@ -4154,7 +4154,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: VIP Authentication Hub
     cves:
@@ -4183,7 +4183,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: Web Isolation (WI)
     cves:
@@ -4212,7 +4212,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: Web Security Service (WSS)
     cves:
@@ -4241,7 +4241,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: WebPulse
     cves:
@@ -4270,5 +4270,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

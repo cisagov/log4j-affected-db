@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Eaton
     product: Undisclosed
     cves:
@@ -64,7 +64,7 @@ software:
       wall.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: EclecticIQ
     product: ''
     cves:
@@ -93,7 +93,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Eclipse Foundation
     product: ''
     cves:
@@ -122,7 +122,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Edwards
     product: ''
     cves:
@@ -180,7 +180,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: EGroupware
     product: ''
     cves:
@@ -209,7 +209,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Elastic
     product: APM Java Agent
     cves:
@@ -793,7 +793,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Ellucian
     product: Admin
     cves:
@@ -4249,7 +4249,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ESET
     product: ''
     cves:
@@ -4278,7 +4278,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ESRI
     product: ArcGIS Data Store
     cves:
@@ -4493,7 +4493,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Evolveum Midpoint
     product: ''
     cves:
@@ -4522,7 +4522,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Ewon
     product: ''
     cves:
@@ -4551,7 +4551,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Exabeam
     product: ''
     cves:
@@ -4581,7 +4581,7 @@ software:
       by CISA
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Exact
     product: ''
     cves:
@@ -4610,7 +4610,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Exivity
     product: ''
     cves:
@@ -4639,7 +4639,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ExtraHop
     product: Reveal(x)
     cves:
@@ -4700,7 +4700,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Extreme Networks
     product: ''
     cves:
@@ -4729,7 +4729,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Extron
     product: ''
     cves:
@@ -4758,5 +4758,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

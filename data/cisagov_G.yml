@@ -270,7 +270,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Genesys
     product: ''
     cves:
@@ -299,7 +299,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: GeoServer
     product: ''
     cves:
@@ -328,7 +328,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gerrit code review
     product: ''
     cves:
@@ -357,7 +357,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: GFI
     product: ''
     cves:
@@ -386,7 +386,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Ghidra
     product: ''
     cves:
@@ -415,7 +415,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gigamon
     product: Fabric Manager
     cves:
@@ -505,7 +505,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Globus
     product: ''
     cves:
@@ -534,7 +534,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: GoAnywhere
     product: Gateway
     cves:
@@ -4657,7 +4657,7 @@ software:
     notes: Gradle Scala Compiler Plugin depends upon log4j-core but it is not used.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gradle
     product: Gradle Enterprise
     cves:
@@ -4687,7 +4687,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gradle
     product: Gradle Enterprise Build Cache Node
     cves:
@@ -4717,7 +4717,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gradle
     product: Gradle Enterprise Test Distribution Agent
     cves:
@@ -4747,7 +4747,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Grafana
     product: ''
     cves:
@@ -4776,7 +4776,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Grandstream
     product: ''
     cves:
@@ -4805,7 +4805,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravitee
     product: Access Management
     cves:
@@ -4835,7 +4835,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravitee
     product: Access Management
     cves:
@@ -4865,7 +4865,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravitee
     product: Alert Engine
     cves:
@@ -4895,7 +4895,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravitee
     product: Alert Engine
     cves:
@@ -4925,7 +4925,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravitee
     product: API Management
     cves:
@@ -4955,7 +4955,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravitee
     product: API Management
     cves:
@@ -4985,7 +4985,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravitee
     product: Cockpit
     cves:
@@ -5015,7 +5015,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravitee.io
     product: ''
     cves:
@@ -5044,7 +5044,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravwell
     product: ''
     cves:
@@ -5073,7 +5073,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Graylog
     product: Graylog Server
     cves:
@@ -5103,7 +5103,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: GreenShot
     product: ''
     cves:
@@ -5132,7 +5132,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: GSA
     product: Cloud.gov
     cves:
@@ -5190,5 +5190,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...
