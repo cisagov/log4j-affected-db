@@ -423,7 +423,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -453,7 +453,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -483,7 +483,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -512,7 +512,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 10.0.7'
+          - < 10.0.7
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -543,7 +543,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -573,7 +573,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -603,7 +603,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -661,9 +661,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.21.7-1.22.9'
-          - '2.0.3-2.1.5'
-          - '2.2.0-3.0.2'
+          - 1.21.7-1.22.9
+          - 2.0.3-2.1.5
+          - 2.2.0-3.0.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -751,7 +751,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'Elasticsearch 5.0.0+'
+          - Elasticsearch 5.0.0+
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -767,6 +767,40 @@ software:
       - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
     notes: Set the JVM option -Dlog4j2.formatMsgNoLookups=true and restart each node
       of the cluster.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: 3rd party - Oracle Database Components
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '12.1'
+          - '12.2'
+          - 19c
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: As this is a third-party component, a separate patch management report
+      will be provided to customers with the steps to apply the Oracle provided patches
+      for these components.
     references:
       - ''
     last_updated: '2022-01-05T00:00:00'
@@ -813,7 +847,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'v6'
+          - v6
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -904,10 +938,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'R15A'
-          - 'R14B'
-          - 'R14A'
-          - 'R11B SP1'
+          - R15A
+          - R14B
+          - R14A
+          - R11B SP1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -940,7 +974,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'R11A and R10 series'
+          - R11A and R10 series
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -956,6 +990,35 @@ software:
       - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
     notes: Apply General Mitigations and upgrade to latest version. For upgrades,
       please get in touch with your Hitachi Energy contacts.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Hitachi Energy
+    product: Lumada APM On-premises
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
+    notes: See vendor advisory for instructions for various versions.
     references:
       - ''
     last_updated: '2022-01-05T00:00:00'
@@ -990,35 +1053,6 @@ software:
       - ''
     last_updated: '2022-01-05T00:00:00'
   - vendor: Hitachi Energy
-    product: Lumada APM On-premises
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
-    notes: See vendor advisory for instructions for various versions.
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Hitachi Energy
     product: Lumada EAM / FSM
     cves:
       cve-2021-4104:
@@ -1030,9 +1064,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'v1.7.x'
-          - 'v1.8.x'
-          - 'v1.9.x'
+          - v1.7.x
+          - v1.8.x
+          - v1.9.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1080,38 +1114,6 @@ software:
       - ''
     last_updated: '2022-01-05T00:00:00'
   - vendor: Hitachi Energy
-    product: Network Manager Outage Management Interface (CMI)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - '9.0-9.10.44'
-          - '9.1.1'
-          - '10.3.4'
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
-    notes: See vendor advisory for instructions on mitigation steps.
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Hitachi Energy
     product: Network Manager ADMS Network Model Server
     cves:
       cve-2021-4104:
@@ -1123,7 +1125,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '9.1.0.32-9.1.0.44'
+          - 9.1.0.32-9.1.0.44
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1142,7 +1144,7 @@ software:
       - ''
     last_updated: '2022-01-05T00:00:00'
   - vendor: Hitachi Energy
-    product: 3rd party - Oracle Database Components
+    product: Network Manager Outage Management Interface (CMI)
     cves:
       cve-2021-4104:
         investigated: false
@@ -1153,9 +1155,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '12.1'
-          - '12.2'
-          - '19c'
+          - 9.0-9.10.44
+          - 9.1.1
+          - 10.3.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1169,9 +1171,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://search.abb.com/library/Download.aspx?DocumentID=8DBD003132&LanguageCode=en&DocumentPartId=&Action=Launch
-    notes: As this is a third-party component, a separate patch management report
-      will be provided to customers with the steps to apply the Oracle provided patches
-      for these components.
+    notes: See vendor advisory for instructions on mitigation steps.
     references:
       - ''
     last_updated: '2022-01-05T00:00:00'
@@ -1187,8 +1187,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.7.15'
-          - '3.7.16'
+          - 3.7.15
+          - 3.7.16
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1218,7 +1218,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.0.0'
+          - 2.0.0
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1249,10 +1249,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'R15A'
-          - 'R14B'
-          - 'R14A'
-          - 'R11B SP1'
+          - R15A
+          - R14B
+          - R14A
+          - R11B SP1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1285,7 +1285,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'R11A and R10 series'
+          - R11A and R10 series
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1334,65 +1334,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:53+00:00'
   - vendor: HMS Industrial Networks AB
-    product: Talk2M including M2Web
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hms-networks.com/docs/librariesprovider6/cybersecurity/hms-security-advisory-2021-12-13-001---ewon-information-log4shell.pdf?sfvrsn=55d7f4d7_11
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: HMS Industrial Networks AB
     product: Cosy, Flexy and Ewon CD
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hms-networks.com/docs/librariesprovider6/cybersecurity/hms-security-advisory-2021-12-13-001---ewon-information-log4shell.pdf?sfvrsn=55d7f4d7_11
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: HMS Industrial Networks AB
-    product: eCatcher Windows software
     cves:
       cve-2021-4104:
         investigated: false
@@ -1450,6 +1392,35 @@ software:
       - ''
     last_updated: '2022-01-05T00:00:00'
   - vendor: HMS Industrial Networks AB
+    product: eCatcher Windows software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hms-networks.com/docs/librariesprovider6/cybersecurity/hms-security-advisory-2021-12-13-001---ewon-information-log4shell.pdf?sfvrsn=55d7f4d7_11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: HMS Industrial Networks AB
     product: Netbiter Hardware including EC, WS, and LC
     cves:
       cve-2021-4104:
@@ -1478,6 +1449,535 @@ software:
     references:
       - ''
     last_updated: '2022-01-05T00:00:00'
+  - vendor: HMS Industrial Networks AB
+    product: Talk2M including M2Web
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hms-networks.com/docs/librariesprovider6/cybersecurity/hms-security-advisory-2021-12-13-001---ewon-information-log4shell.pdf?sfvrsn=55d7f4d7_11
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: HOLOGIC
+    product: Advanced Workflow Manager (AWM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: While the Hologic software itself does not utilize Java/Log4J, the installed
+      APC PowerChute UPS with Business Edition v9.5 software installed may. APC is
+      still assessing its PowerChute software to determine if it is vulnerable.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Affirm Prone Biopsy System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Brevera Breast Biopsy System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Cenova Image Analytics Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Dimensions / 3Dimensions Mammography System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Discovery Bone Densitometer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Faxitron CT Specimen Radiography System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: While the Hologic software itself does not utilize Java/Log4J, there is
+      a utility program installed that may utilize Java and Log4J. This utility program
+      does not run on startup and is not required for system operation. Please contact
+      Hologic Service for assistance in removing this program.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Faxitron Specimen Radiography Systems
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Fluoroscan Insight Mini C-Arm
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Horizon DXA Bone Densitometer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Rosetta DC Tomosynthesis Data Converter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: SecurView DX Workstation
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: SecurXChange Router
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: SuperSonic Imagine Ultrasound Products (Aixplorer & Aixplorer Mach)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Trident HD Specimen Radiography System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Unifi Workspace
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: While the Hologic software itself does not utilize Java/Log4J, the installed
+      APC PowerChute UPS with Business Edition v9.5 software installed may. APC is
+      still assessing its PowerChute software to determine if it is vulnerable.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: HOLOGIC
+    product: Windows Selenia Mammography System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
   - vendor: Honeywell
     product: ''
     cves:
@@ -1519,7 +2019,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< v113'
+          - < v113
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1549,7 +2049,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 1.0.6'
+          - < 1.0.6
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1579,7 +2079,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 21.10.3'
+          - < 21.10.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1609,8 +2109,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 21.03.6'
-          - '< 20.07.4'
+          - < 21.03.6
+          - < 20.07.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2064,64 +2564,6 @@ software:
       - ''
     last_updated: '2021-12-12T00:00:00'
   - vendor: HPE
-    product: ArubaOS-CX switches
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
-    notes: 'Support Communication Cross Reference ID: SIK7387'
-    references:
-      - ''
-    last_updated: '2021-12-12T00:00:00'
-  - vendor: HPE
-    product: ArubaOS-S switches
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
-    notes: 'Support Communication Cross Reference ID: SIK7387'
-    references:
-      - ''
-    last_updated: '2021-12-12T00:00:00'
-  - vendor: HPE
     product: ArubaOS SD-WAN Controllers and Gateways
     cves:
       cve-2021-4104:
@@ -2152,6 +2594,64 @@ software:
     last_updated: '2021-12-12T00:00:00'
   - vendor: HPE
     product: ArubaOS Wi-Fi Controllers and Gateways
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: ArubaOS-CX switches
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=a00120086en_us
+    notes: 'Support Communication Cross Reference ID: SIK7387'
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: HPE
+    product: ArubaOS-S switches
     cves:
       cve-2021-4104:
         investigated: false
@@ -5430,506 +5930,6 @@ software:
     references:
       - '[https://portal.microfocus.com/s/article/KM000003050](https://portal.microfocus.com/s/article/KM000003050)'
     last_updated: '2021-12-17T00:00:00'
-  - vendor: HOLOGIC
-    product: Advanced Workflow Manager (AWM)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: While the Hologic software itself does not utilize Java/Log4J, the installed
-      APC PowerChute UPS with Business Edition v9.5 software installed may. APC is
-      still assessing its PowerChute software to determine if it is vulnerable.
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Unifi Workspace
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: While the Hologic software itself does not utilize Java/Log4J, the installed
-      APC PowerChute UPS with Business Edition v9.5 software installed may. APC is
-      still assessing its PowerChute software to determine if it is vulnerable.
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Faxitron CT Specimen Radiography System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: While the Hologic software itself does not utilize Java/Log4J, there is
-      a utility program installed that may utilize Java and Log4J. This utility program
-      does not run on startup and is not required for system operation. Please contact
-      Hologic Service for assistance in removing this program.
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Dimensions / 3Dimensions Mammography System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Affirm Prone Biopsy System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Brevera Breast Biopsy System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Trident HD Specimen Radiography System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: SecurView DX Workstation
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Cenova Image Analytics Server
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: SecurXChange Router
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Rosetta DC Tomosynthesis Data Converter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Faxitron Specimen Radiography Systems
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Horizon DXA Bone Densitometer
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Discovery Bone Densitometer
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Fluoroscan Insight Mini C-Arm
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: SuperSonic Imagine Ultrasound Products (Aixplorer & Aixplorer Mach)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: HOLOGIC
-    product: Windows Selenia Mammography System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.hologic.com/support/usa/breast-skeletal-products-cybersecurity
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
   - vendor: Huawei
     product: ''
     cves:

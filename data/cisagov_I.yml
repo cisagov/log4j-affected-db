@@ -121,65 +121,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:53+00:00'
   - vendor: IBM
-    product: BigFix Compliance
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
-  - vendor: IBM
-    product: BigFix Inventory
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - VM Manager Tool & SAP Tool
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: To verify if your instance is affected, go to the lib subdirectory of the
-      tool (BESClient/LMT/SAPTOOL and BESClient/LMT/VMMAN) and check what version
-      of log4j is included. Version is included in the name of the library.
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
-  - vendor: IBM
     product: Analytics Engine
     cves:
       cve-2021-4104:
@@ -325,6 +266,35 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
+    product: Aspera
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: IBM
     product: Aspera Endpoint
     cves:
       cve-2021-4104:
@@ -412,35 +382,6 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: IBM
-    product: Aspera
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ibm.com/blogs/psirt/an-update-on-the-apache-log4j-cve-2021-44228-vulnerability/#list-of-products
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
-  - vendor: IBM
     product: Bare Metal Servers
     cves:
       cve-2021-4104:
@@ -469,6 +410,65 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
+  - vendor: IBM
+    product: BigFix Compliance
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
+  - vendor: IBM
+    product: BigFix Inventory
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - VM Manager Tool & SAP Tool
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: To verify if your instance is affected, go to the lib subdirectory of the
+      tool (BESClient/LMT/SAPTOOL and BESClient/LMT/VMMAN) and check what version
+      of log4j is included. Version is included in the name of the library.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:53+00:00'
   - vendor: IBM
     product: Block Storage
     cves:
@@ -6228,7 +6228,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6241,7 +6241,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.inductiveautomation.com/hc/en-us/articles/4416204541709-Regarding-CVE-2021-44228-Log4j-RCE-0-day
-    notes: Older versions of Ignition (7.8 and older) did use the Log4j library, but they used an older version (1.2) that was not affected by this vulnerability.
+    notes: Older versions of Ignition (7.8 and older) did use the Log4j library, but
+      they used an older version (1.2) that was not affected by this vulnerability.
     references:
       - ''
     last_updated: '2022-01-19T00:00:00'
@@ -6478,94 +6479,36 @@ software:
       - ''
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
+    product: Computer Vision Annotation Tool maintained by Intel
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Intel
     product: Datacenter Manager
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: Intel
-    product: oneAPI sample browser plugin for Eclipse
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: Intel
-    product: System Debugger
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: Intel
-    product: Secure Device Onboard
     cves:
       cve-2021-4104:
         investigated: false
@@ -6623,7 +6566,7 @@ software:
       - ''
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
-    product: System Studio
+    product: oneAPI sample browser plugin for Eclipse
     cves:
       cve-2021-4104:
         investigated: false
@@ -6652,7 +6595,7 @@ software:
       - ''
     last_updated: '2021-12-16T00:00:00'
   - vendor: Intel
-    product: Computer Vision Annotation Tool maintained by Intel
+    product: Secure Device Onboard
     cves:
       cve-2021-4104:
         investigated: false
@@ -6709,6 +6652,94 @@ software:
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
+  - vendor: Intel
+    product: System Debugger
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Intel
+    product: System Studio
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Internet Systems Consortium(ISC)
+    product: BIND 9
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.isc.org/blogs/2021-log4j/
+    notes: no JAVA Code
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
   - vendor: Internet Systems Consortium(ISC)
     product: ISC DHCP, aka dhcpd
     cves:
@@ -6741,36 +6772,6 @@ software:
     last_updated: '2021-12-17T00:00:00'
   - vendor: Internet Systems Consortium(ISC)
     product: Kea DHCP
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - All
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.isc.org/blogs/2021-log4j/
-    notes: no JAVA Code
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Internet Systems Consortium(ISC)
-    product: BIND 9
     cves:
       cve-2021-4104:
         investigated: false
@@ -6988,7 +6989,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7018,7 +7019,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7048,7 +7049,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7076,8 +7077,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '6.2.2'
-          - '6.3.0 to 6.3.3'
+          - 6.2.2
+          - 6.3.0 to 6.3.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -7109,7 +7110,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: CETerm (Naurtech)
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7139,7 +7170,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7169,7 +7200,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7199,7 +7230,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: ConnectPro (Termproxy)
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7229,7 +7290,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7259,7 +7320,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7289,7 +7350,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7319,7 +7380,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7349,7 +7410,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7379,7 +7440,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7409,37 +7470,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: ITSM 6/7
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7469,7 +7500,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7499,7 +7530,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: ITSM 6/7
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7529,7 +7590,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7559,7 +7620,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7589,37 +7650,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Ivanti EPM - Cloud Service Appliance
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7649,7 +7680,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7679,7 +7710,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Ivanti EPM - Cloud Service Appliance
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7707,15 +7768,15 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '2019.1.*'
-          - '2020.1.*'
-          - '2020.3.*'
-          - '2021.1.*'
-          - '4.4.*'
+          - 2019.1.*
+          - 2020.1.*
+          - 2020.3.*
+          - 2021.1.*
+          - 4.4.*
         fixed_versions:
-          - '2021.3 HF2'
-          - '2021.1 HF1'
-          - '2020.3 HF2'
+          - 2021.3 HF2
+          - 2021.1 HF1
+          - 2020.3 HF2
         unaffected_versions: []
       cve-2021-45046:
         investigated: ''
@@ -7746,7 +7807,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7776,7 +7837,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7806,7 +7867,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7836,7 +7897,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7866,97 +7927,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Ivanti Service Desk
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: Not Affected. Java is no longer required since version 2018.3U3 Customers on older versions can uninstall JRE on their ISD Servers for mitigation. This will disable indexing of Attachments and Documents for full-text search.
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Ivanti Service Manager
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Ivanti Service Manager for Neurons (Cloud)
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7986,7 +7957,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -7999,7 +7970,100 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: See More INFO for Ivanti Security Controls (Patch ISec) in the Advisory Page
+    notes: See More INFO for Ivanti Security Controls (Patch ISec) in the Advisory
+      Page
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Ivanti Service Desk
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: Not Affected. Java is no longer required since version 2018.3U3 Customers
+      on older versions can uninstall JRE on their ISD Servers for mitigation. This
+      will disable indexing of Attachments and Documents for full-text search.
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Ivanti Service Manager
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Ivanti Service Manager for Neurons (Cloud)
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-18T00:00:00'
@@ -8016,7 +8080,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8046,7 +8110,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8076,7 +8140,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8106,7 +8170,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8136,7 +8200,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8166,7 +8230,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8196,7 +8260,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8226,7 +8290,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8254,7 +8318,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'All'
+          - All
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8286,7 +8350,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8316,7 +8380,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8346,7 +8410,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8374,7 +8438,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'All'
+          - All
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8390,6 +8454,36 @@ software:
     vendor_links:
       - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
     notes: See Advisory details for mitigation instructions for MobileIron Core.
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: MobileIron Core Connector
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: See Advisory details for mitigation instructions for MobileIron Core Connector.
     references:
       - ''
     last_updated: '2022-01-18T00:00:00'
@@ -8425,36 +8519,6 @@ software:
       - ''
     last_updated: '2022-01-18T00:00:00'
   - vendor: Ivanti
-    product: MobileIron Core Connector
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 'All'
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: See Advisory details for mitigation instructions for MobileIron Core Connector.
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
     product: Patch MEM (Microsoft Endpoint Manager)
     cves:
       cve-2021-4104:
@@ -8467,7 +8531,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8497,7 +8561,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8527,157 +8591,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Pulse Desktop Client
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Pulse Mobile Client
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Pulse Services Director
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Pulse Virtual Traffic Manager
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Pulse Web Application Firewall
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8707,7 +8621,67 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Pulse Desktop Client
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Pulse Mobile Client
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8737,7 +8711,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8767,7 +8741,97 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Pulse Services Director
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Pulse Virtual Traffic Manager
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Pulse Web Application Firewall
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8797,7 +8861,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8827,7 +8891,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8857,7 +8921,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8887,7 +8951,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8917,7 +8981,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8947,7 +9011,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -8977,97 +9041,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: ConnectPro (Termproxy)
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: Wavelink License Server
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-18T00:00:00'
-  - vendor: Ivanti
-    product: CETerm (Naurtech)
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -9097,7 +9071,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forums.ivanti.com/s/article/CVE-2021-44228-Java-logging-library-log4j-Ivanti-Products-Impact-Mapping?language=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-18T00:00:00'
+  - vendor: Ivanti
+    product: Wavelink License Server
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -9127,7 +9131,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []

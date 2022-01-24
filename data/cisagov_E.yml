@@ -356,6 +356,35 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
+    product: Elastic Cloud
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Elastic
     product: Elastic Cloud Enterprise
     cves:
       cve-2021-4104:
@@ -415,35 +444,6 @@ software:
     last_updated: '2021-12-15T00:00:00'
   - vendor: Elastic
     product: Elastic Cloud on Kubernetes
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
-  - vendor: Elastic
-    product: Elastic Cloud
     cves:
       cve-2021-4104:
         investigated: false
@@ -795,64 +795,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:52+00:00'
   - vendor: Ellucian
-    product: Banner Analytics
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Ellucian
-    product: Colleague
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: On-prem and cloud deployements expect fixed 12/18/2021
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Ellucian
     product: Admin
     cves:
       cve-2021-4104:
@@ -882,7 +824,65 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
-    product: Enterprise Identity Services(BEIS)
+    product: Banner Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Ellucian
+    product: Banner Document Management (includes Banner Document Retention)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Ellucian
+    product: Banner Event Publisher
     cves:
       cve-2021-4104:
         investigated: false
@@ -969,6 +969,35 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
+    product: Banner Self Service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Ellucian
     product: Banner Workflow
     cves:
       cve-2021-4104:
@@ -998,7 +1027,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
-    product: Banner Document Management (includes Banner Document Retention)
+    product: Colleague
     cves:
       cve-2021-4104:
         investigated: false
@@ -1022,181 +1051,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Ellucian
-    product: Ellucian Advance Web Connector
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Ellucian
-    product: Ellucian eTranscripts
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Ellucian
-    product: Ellucian Mobile
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Ellucian
-    product: Ellucian Solution Manager
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Ellucian
-    product: Banner Event Publisher
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Ellucian
-    product: Banner Self Service
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: ''
+    notes: On-prem and cloud deployements expect fixed 12/18/2021
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
@@ -1317,6 +1172,35 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
+    product: Ellucian Advance Web Connector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Ellucian
     product: Ellucian Data Access
     cves:
       cve-2021-4104:
@@ -1347,6 +1231,35 @@ software:
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Design Path
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Ellucian
+    product: Ellucian Ellucian Portal
     cves:
       cve-2021-4104:
         investigated: false
@@ -1463,6 +1376,35 @@ software:
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Ethos Integration
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Ellucian
+    product: Ellucian eTranscripts
     cves:
       cve-2021-4104:
         investigated: false
@@ -1636,6 +1578,35 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
+    product: Ellucian Mobile
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Ellucian
     product: Ellucian Payment Gateway
     cves:
       cve-2021-4104:
@@ -1665,7 +1636,36 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
-    product: Ellucian Ellucian Portal
+    product: Ellucian PowerCampus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Ellucian
+    product: Ellucian Solution Manager
     cves:
       cve-2021-4104:
         investigated: false
@@ -1723,7 +1723,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
-    product: Ellucian PowerCampus
+    product: Enterprise Identity Services(BEIS)
     cves:
       cve-2021-4104:
         investigated: false
@@ -1752,7 +1752,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: K-Series Coriolis Transmitters
+    product: 148 Temperature Transmitter
     cves:
       cve-2021-4104:
         investigated: false
@@ -1781,7 +1781,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: Prolink Configuration Software
+    product: 2051 Pressure Transmitter Family
     cves:
       cve-2021-4104:
         investigated: false
@@ -1810,7 +1810,355 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: Prolink Mobile Application & ProcessViz Software
+    product: 2088 Pressure Transmitter Family
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 2090F/2090P Pressure Transmitters
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 215 Pressure Sensor Module
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 248 Configuration Application
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 248 Temperature Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 3051 & 3051S Pressure transmitter families
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 3144P Temperature Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 326P Pressure Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 326T Temperature Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 327T Temperature Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 4088 Pressure Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 4088 Upgrade Utility
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 4600 Pressure Transmitter
     cves:
       cve-2021-4104:
         investigated: false
@@ -1868,7 +2216,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: Vortex and Magmeter Transmitters
+    product: 4732 Endeavor
     cves:
       cve-2021-4104:
         investigated: false
@@ -1897,181 +2245,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: USM 3410 and 3810 Series Ultrasonic Transmitters
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Mark III Gas and Liquid USM
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Flarecheck FlowCheck Flowel & PWAM software
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: MPFM2600 & MPFM5726
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: DHNC1 DHNC2
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: WCM SWGM
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Fieldwatch and Service consoles
+    product: 550 PT Pressure Transmitter
     cves:
       cve-2021-4104:
         investigated: false
@@ -2129,7 +2303,704 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: Plantweb Advisor for Metrology and Metering Suite SDK
+    product: 5726 Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 644 Temperature Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 648 Temperature Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 848T Temperature Transmitter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 'Combustion: OCX OXT 6888 CX1100 6888Xi'
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: CT2211 QCL Aerosol Microleak Detection System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: CT3000 QCL Automotive OEM Gas Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: CT4000 QCL Marine OEM Gas Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: CT4215 QCL Packaging Leak Detection System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: CT4400 QCL General Purpose Continuous Gas Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: CT4404 QCL pMDI Leak Detection Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: CT5100 QCL Field Housing Continuous Gas Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: CT5400 QCL General Purpose Continuous Gas Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: CT5800 QCL Flameproof Housing Continuous Gas Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: DHNC1 DHNC2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: DHNC1 DHNC2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Emerson Aperio software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Engineering Assistant 5.x & 6.x
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Fieldwatch and Service consoles
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Fieldwatch and Service consoles
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 'Flame Detection: 975UF & 975UR Infrared Flame Detectors 975HR Infrared
+      Hydrogen Flame Detector 975MR Multi-Spectrum Infrared Flame Detector'
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Flarecheck FlowCheck Flowel & PWAM software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Flarecheck FlowCheck Flowel & PWAM software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 'Gas Analysis: X-STREAM Enhanced (XEGP XEGK XEGC XEGF XEFD XECLD)'
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: 'Gas Analysis: X-STREAM Enhanced (XEGP XEGK XEGC XEGF XEFD XECLD)'
     cves:
       cve-2021-4104:
         investigated: false
@@ -2187,7 +3058,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: 'Gas Analysis: X-STREAM Enhanced (XEGP XEGK XEGC XEGF XEFD XECLD)'
+    product: 'Gas Chromatographs: M500/2350A MON2000 700XA/1500XA 370XA MON2020'
     cves:
       cve-2021-4104:
         investigated: false
@@ -2219,470 +3090,6 @@ software:
     product: 'Gas Detection: Millennium II Basic Single & Dual Channel 928 Wireless
       Gas Monitor/628 Gas Sensor 935 & 936 Open Path Gas Detector Millennium Air Particle
       Monitor'
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: K-Series Coriolis Transmitters
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Prolink Configuration Software
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Prolink Mobile Application & ProcessViz Software
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 4732 Endeavor
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Vortex and Magmeter Transmitters
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: USM 3410 and 3810 Series Ultrasonic Transmitters
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Mark III Gas and Liquid USM
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Flarecheck FlowCheck Flowel & PWAM software
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: MPFM2600 & MPFM5726
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: DHNC1 DHNC2
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: WCM SWGM
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Fieldwatch and Service consoles
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 5726 Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Plantweb Advisor for Metrology and Metering Suite SDK
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 'Gas Chromatographs: M500/2350A MON2000 700XA/1500XA 370XA MON2020'
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 'Gas Analysis: X-STREAM Enhanced (XEGP XEGK XEGC XEGF XEFD XECLD)'
     cves:
       cve-2021-4104:
         investigated: false
@@ -2771,8 +3178,36 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: 'Flame Detection: 975UF & 975UR Infrared Flame Detectors 975HR Infrared
-      Hydrogen Flame Detector 975MR Multi-Spectrum Infrared Flame Detector'
+    product: K-Series Coriolis Transmitters
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: K-Series Coriolis Transmitters
     cves:
       cve-2021-4104:
         investigated: false
@@ -2830,7 +3265,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: 'Combustion: OCX OXT 6888 CX1100 6888Xi'
+    product: Mark III Gas and Liquid USM
     cves:
       cve-2021-4104:
         investigated: false
@@ -2859,7 +3294,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: Spectrex family Flame Detectors and Rosemount 975 flame detector
+    product: Mark III Gas and Liquid USM
     cves:
       cve-2021-4104:
         investigated: false
@@ -2888,7 +3323,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: CT4400 QCL General Purpose Continuous Gas Analyzer
+    product: MPFM2600 & MPFM5726
     cves:
       cve-2021-4104:
         investigated: false
@@ -2917,7 +3352,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: CT5400 QCL General Purpose Continuous Gas Analyzer
+    product: MPFM2600 & MPFM5726
     cves:
       cve-2021-4104:
         investigated: false
@@ -2946,7 +3381,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: CT5100 QCL Field Housing Continuous Gas Analyzer
+    product: Plantweb Advisor for Metrology and Metering Suite SDK
     cves:
       cve-2021-4104:
         investigated: false
@@ -2975,7 +3410,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: CT5800 QCL Flameproof Housing Continuous Gas Analyzer
+    product: Plantweb Advisor for Metrology and Metering Suite SDK
     cves:
       cve-2021-4104:
         investigated: false
@@ -3004,7 +3439,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: CT4215 QCL Packaging Leak Detection System
+    product: Prolink Configuration Software
     cves:
       cve-2021-4104:
         investigated: false
@@ -3033,7 +3468,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: CT2211 QCL Aerosol Microleak Detection System
+    product: Prolink Configuration Software
     cves:
       cve-2021-4104:
         investigated: false
@@ -3062,7 +3497,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: CT4404 QCL pMDI Leak Detection Analyzer
+    product: Prolink Mobile Application & ProcessViz Software
     cves:
       cve-2021-4104:
         investigated: false
@@ -3091,819 +3526,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: CT4000 QCL Marine OEM Gas Analyzer
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: CT3000 QCL Automotive OEM Gas Analyzer
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 3051 & 3051S Pressure transmitter families
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 2051 Pressure Transmitter Family
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 4088 Pressure Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 2088 Pressure Transmitter Family
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 2090F/2090P Pressure Transmitters
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 4600 Pressure Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 215 Pressure Sensor Module
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 550 PT Pressure Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 326P Pressure Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 3144P Temperature Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 644 Temperature Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 848T Temperature Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 148 Temperature Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 248 Temperature Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 326T Temperature Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 327T Temperature Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 648 Temperature Transmitter
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 4088 Upgrade Utility
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Engineering Assistant 5.x & 6.x
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: 248 Configuration Application
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount IO-Link Assistant
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount TankMaster and TankMaster Mobile
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount RadarMaster and RadarMaster Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount Radar Configuration Tool
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount 2460 System Hub
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount 2410 Tank Hub
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount 3490 Controller
+    product: Prolink Mobile Application & ProcessViz Software
     cves:
       cve-2021-4104:
         investigated: false
@@ -3990,6 +3613,122 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
+    product: Rosemount 2410 Tank Hub
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Rosemount 2460 System Hub
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Rosemount 3490 Controller
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Rosemount CMS/IOU 61
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
     product: Rosemount CMS/SCU 51/SCC
     cves:
       cve-2021-4104:
@@ -4048,94 +3787,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: Rosemount CMS/IOU 61
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount Level Transmitters (14xx 33xx 53xx 54xx 56xx)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount Radar Level Gauges (Pro 39xx 59xx)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Emerson
-    product: Rosemount Tank Radar Gauges (TGUxx)
+    product: Rosemount IO-Link Assistant
     cves:
       cve-2021-4104:
         investigated: false
@@ -4193,7 +3845,355 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Emerson
-    product: Emerson Aperio software
+    product: Rosemount Level Transmitters (14xx 33xx 53xx 54xx 56xx)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Rosemount Radar Configuration Tool
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Rosemount Radar Level Gauges (Pro 39xx 59xx)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Rosemount RadarMaster and RadarMaster Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Rosemount Tank Radar Gauges (TGUxx)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Rosemount TankMaster and TankMaster Mobile
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Spectrex family Flame Detectors and Rosemount 975 flame detector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: USM 3410 and 3810 Series Ultrasonic Transmitters
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: USM 3410 and 3810 Series Ultrasonic Transmitters
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Vortex and Magmeter Transmitters
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: Vortex and Magmeter Transmitters
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: WCM SWGM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.emerson.com/documents/automation/emerson-cyber-security-notification-en-7881618.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Emerson
+    product: WCM SWGM
     cves:
       cve-2021-4104:
         investigated: false

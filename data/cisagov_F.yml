@@ -243,128 +243,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:52+00:00'
   - vendor: F5
-    product: Traffix SDC
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 5.x (5.2.0 CF1
-          - 5.1.0 CF-30 - 5.1.0 CF-33)
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: 'Vulnerable components: EMS-ELK components (Fluentd + Elastic Search +
-      Kibana), Element Management System'
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - R19 - R25
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Open Source
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 1.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Unit
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 1.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
     product: NGINX App Protect
     cves:
       cve-2021-4104:
@@ -485,6 +363,66 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:52+00:00'
   - vendor: F5
+    product: NGINX Open Source
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: F5
+    product: NGINX Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - R19 - R25
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: F5
     product: NGINX Service Mesh
     cves:
       cve-2021-4104:
@@ -511,6 +449,68 @@ software:
     vendor_links:
       - https://support.f5.com/csp/article/K19026212
     notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: F5
+    product: NGINX Unit
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:52+00:00'
+  - vendor: F5
+    product: Traffix SDC
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 5.x (5.2.0 CF1
+          - 5.1.0 CF-30 - 5.1.0 CF-33)
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: 'Vulnerable components: EMS-ELK components (Fluentd + Elastic Search +
+      Kibana), Element Management System'
     references:
       - ''
     last_updated: '2022-01-12T07:18:52+00:00'

@@ -295,6 +295,36 @@ software:
       - ''
     last_updated: '2021-12-12T00:00:00'
   - vendor: Okta
+    product: Okta On-Prem MFA Agent
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 1.4.6
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://trust.okta.com/security-advisories/okta-on-prem-mfa-agent-cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: Okta
     product: Okta RADIUS Server Agent
     cves:
       cve-2021-4104:
@@ -378,36 +408,6 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://sec.okta.com/articles/2021/12/log4shell
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-12T00:00:00'
-  - vendor: Okta
-    product: Okta On-Prem MFA Agent
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - < 1.4.6
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://trust.okta.com/security-advisories/okta-on-prem-mfa-agent-cve-2021-44228
     notes: ''
     references:
       - ''
@@ -587,37 +587,6 @@ software:
       - ''
     last_updated: '2021-12-23T00:00:00'
   - vendor: Opto 22
-    product: GRV-EPIC-PR1, GRV-EPIC-PR2
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - < 3.3.2
-        fixed_versions:
-          - 3.3.2
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://blog.opto22.com/optoblog/new-update-to-address-log4shell/log4j-exploit
-    notes: The Log4j vulnerability affects all products running groov View software
-    references:
-      - ''
-    last_updated: '2022-01-13T00:00:00'
-  - vendor: Opto 22
     product: GROOV-AR1, GROOV-AR1-BASE, GROOV-AR1-SNAP
     cves:
       cve-2021-4104:
@@ -710,6 +679,37 @@ software:
     references:
       - ''
     last_updated: '2022-01-13T00:00:00'
+  - vendor: Opto 22
+    product: GRV-EPIC-PR1, GRV-EPIC-PR2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - < 3.3.2
+        fixed_versions:
+          - 3.3.2
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.opto22.com/optoblog/new-update-to-address-log4shell/log4j-exploit
+    notes: The Log4j vulnerability affects all products running groov View software
+    references:
+      - ''
+    last_updated: '2022-01-13T00:00:00'
   - vendor: Oracle
     product: ''
     cves:
@@ -741,7 +741,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Oracle
-    product: Exadata
+    product: Enterprise Manager
     cves:
       cve-2021-4104:
         investigated: false
@@ -751,7 +751,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - <21.3.4
+          - '13.5'
+          - 13.4 & 13.3.2
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -773,7 +774,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Oracle
-    product: Enterprise Manager
+    product: Exadata
     cves:
       cve-2021-4104:
         investigated: false
@@ -783,8 +784,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '13.5'
-          - 13.4 & 13.3.2
+          - <21.3.4
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:

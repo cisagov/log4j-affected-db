@@ -5,7 +5,7 @@ owners:
     url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: Tableau
-    product: Tableau Server
+    product: Tableau Bridge
     cves:
       cve-2021-4104:
         investigated: false
@@ -15,19 +15,19 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'The following versions and lower: 2021.4'
-          - 2021.3.4
-          - 2021.2.5
-          - 2021.1.8
-          - 2020.4.11
-          - 2020.3.14
-          - 2020.2.19
-          - 2020.1.22
-          - 2019.4.25
-          - 2019.3.26
-          - 2019.2.29
-          - 2019.1.29
-          - 2018.3.29
+          - 'The following versions and lower: 20214.21.1109.1748'
+          - 20213.21.1112.1434
+          - 20212.21.0818.1843
+          - 20211.21.0617.1133
+          - 20204.21.0217.1203
+          - 20203.20.0913.2112
+          - 20202.20.0721.1350
+          - 20201.20.0614.2321
+          - 20194.20.0614.2307
+          - 20193.20.0614.2306
+          - 20192.19.0917.1648
+          - 20191.19.0402.1911
+          - 20183.19.0115.1143
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -191,7 +191,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Tableau
-    product: Tableau Bridge
+    product: Tableau Server
     cves:
       cve-2021-4104:
         investigated: false
@@ -201,19 +201,19 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'The following versions and lower: 20214.21.1109.1748'
-          - 20213.21.1112.1434
-          - 20212.21.0818.1843
-          - 20211.21.0617.1133
-          - 20204.21.0217.1203
-          - 20203.20.0913.2112
-          - 20202.20.0721.1350
-          - 20201.20.0614.2321
-          - 20194.20.0614.2307
-          - 20193.20.0614.2306
-          - 20192.19.0917.1648
-          - 20191.19.0402.1911
-          - 20183.19.0115.1143
+          - 'The following versions and lower: 2021.4'
+          - 2021.3.4
+          - 2021.2.5
+          - 2021.1.8
+          - 2020.4.11
+          - 2020.3.14
+          - 2020.2.19
+          - 2020.1.22
+          - 2019.4.25
+          - 2019.3.26
+          - 2019.2.29
+          - 2019.1.29
+          - 2018.3.29
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -557,7 +557,94 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
   - vendor: Thales
+    product: CADP/SafeNet Protect App (PA) - JCE
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
     product: CipherTrust Application Data Protection (CADP) – CAPI.net & Net Core
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: CipherTrust Batch Data Transformation (BDT) 2.3
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: CipherTrust Cloud Key Manager (CCKM) Appliance
     cves:
       cve-2021-4104:
         investigated: false
@@ -702,7 +789,94 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
+    product: CipherTrust Vaulted Tokenization (CT-V) / SafeNet Tokenization Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
     product: CipherTrust Vaultless Tokenization (CTS, CT-VL)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: CipherTrust/SafeNet PDBCTL
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Crypto Command Center (CCC)
     cves:
       cve-2021-4104:
         investigated: false
@@ -905,6 +1079,35 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
+    product: payShield Monitor
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
     product: ProtectServer HSMs
     cves:
       cve-2021-4104:
@@ -963,7 +1166,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
-    product: SafeNet IDPrime Virtual
+    product: SafeNet eToken (all products)
     cves:
       cve-2021-4104:
         investigated: false
@@ -992,7 +1195,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
-    product: SafeNet eToken (all products)
+    product: SafeNet IDPrime Virtual
     cves:
       cve-2021-4104:
         investigated: false
@@ -1079,6 +1282,35 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
+    product: SafeNet PKCS#11 and TDE
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
     product: SafeNet ProtectApp (PA) CAPI, .Net & Net Core
     cves:
       cve-2021-4104:
@@ -1137,6 +1369,35 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
+    product: Safenet ProtectFile and ProtectFile- Fuse
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
     product: SafeNet ProtectV
     cves:
       cve-2021-4104:
@@ -1166,7 +1427,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
-    product: Safenet ProtectFile and ProtectFile- Fuse
+    product: SafeNet SQL EKM
     cves:
       cve-2021-4104:
         investigated: false
@@ -1253,36 +1514,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
-    product: SafeNet PKCS#11 and TDE
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: SafeNet SQL EKM
+    product: SafeNet Vaultless Tokenization
     cves:
       cve-2021-4104:
         investigated: false
@@ -1340,122 +1572,6 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
-    product: Sentinel EMS Enterprise OnPremise
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Sentinel ESDaaS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Sentinel Up
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Sentinel RMS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
     product: Sentinel Connect
     cves:
       cve-2021-4104:
@@ -1485,7 +1601,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
-    product: Sentinel Superdog, SuperPro, UltraPro, SHK
+    product: Sentinel EMS Enterprise aaS
     cves:
       cve-2021-4104:
         investigated: false
@@ -1514,7 +1630,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
-    product: Sentinel HASP, Legacy dog, Maze, Hardlock
+    product: Sentinel EMS Enterprise OnPremise
     cves:
       cve-2021-4104:
         investigated: false
@@ -1572,7 +1688,269 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
-    product: Thales payShield 9000
+    product: Sentinel ESDaaS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Sentinel HASP, Legacy dog, Maze, Hardlock
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Sentinel LDK EMS (LDK-EMS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Sentinel LDKaas (LDK-EMS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Sentinel Professional Services components (both Thales hosted & hosted
+      on-premises by customers)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Sentinel RMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Sentinel SCL
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Sentinel Superdog, SuperPro, UltraPro, SHK
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Sentinel Up
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Thales Data Platform (TDP)(DDC)
     cves:
       cve-2021-4104:
         investigated: false
@@ -1602,6 +1980,35 @@ software:
     last_updated: '2021-12-17T00:00:00'
   - vendor: Thales
     product: Thales payShield 10k
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Thales
+    product: Thales payShield 9000
     cves:
       cve-2021-4104:
         investigated: false
@@ -1774,8 +2181,8 @@ software:
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: payShield Monitor
+  - vendor: Thermo Fisher Scientific
+    product: ''
     cves:
       cve-2021-4104:
         investigated: false
@@ -1798,389 +2205,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
+      - https://corporate.thermofisher.com/us/en/index/about/information-security/Protecting-Our-Products.html
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: CADP/SafeNet Protect App (PA) - JCE
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: CipherTrust Batch Data Transformation (BDT) 2.3
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: CipherTrust Cloud Key Manager (CCKM) Appliance
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: CipherTrust Vaulted Tokenization (CT-V) / SafeNet Tokenization Manager
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: CipherTrust/SafeNet PDBCTL
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Crypto Command Center (CCC)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: SafeNet Vaultless Tokenization
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Sentinel LDK EMS (LDK-EMS)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Sentinel LDKaas (LDK-EMS)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Sentinel EMS Enterprise aaS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Sentinel Professional Services components (both Thales hosted & hosted
-      on-premises by customers)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Sentinel SCL
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Thales
-    product: Thales Data Platform (TDP)(DDC)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://supportportal.thalesgroup.com/csm?id=kb_article_view&sys_kb_id=12acaed3dbd841105d310573f3961953&sysparm_article=KB0025297
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
+    last_updated: '2021-12-22T00:00:00'
   - vendor: Thermo-Calc
     product: Thermo-Calc
     cves:
@@ -2302,35 +2331,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
-  - vendor: Thermo Fisher Scientific
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://corporate.thermofisher.com/us/en/index/about/information-security/Protecting-Our-Products.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
   - vendor: Thomson Reuters
     product: HighQ Appliance
     cves:
@@ -2393,66 +2393,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
   - vendor: ThycoticCentrify
-    product: Secret Server
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - N/A
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-10T00:00:00'
-  - vendor: ThycoticCentrify
-    product: Privilege Manager
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - N/A
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-10T00:00:00'
-  - vendor: ThycoticCentrify
     product: Account Lifecycle Manager
     cves:
       cve-2021-4104:
@@ -2483,37 +2423,7 @@ software:
       - ''
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
-    product: Privileged Behavior Analytics
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - N/A
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-10T00:00:00'
-  - vendor: ThycoticCentrify
-    product: DevOps Secrets Vault
+    product: Cloud Suite
     cves:
       cve-2021-4104:
         investigated: false
@@ -2573,6 +2483,36 @@ software:
       - ''
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
+    product: DevOps Secrets Vault
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - N/A
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-10T00:00:00'
+  - vendor: ThycoticCentrify
     product: Password Reset Server
     cves:
       cve-2021-4104:
@@ -2603,7 +2543,67 @@ software:
       - ''
     last_updated: '2021-12-10T00:00:00'
   - vendor: ThycoticCentrify
-    product: Cloud Suite
+    product: Privilege Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - N/A
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-10T00:00:00'
+  - vendor: ThycoticCentrify
+    product: Privileged Behavior Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - N/A
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.thycotic.com/bulletins/current/2021/cve-2021-44228-exploit.md
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-10T00:00:00'
+  - vendor: ThycoticCentrify
+    product: Secret Server
     cves:
       cve-2021-4104:
         investigated: false
@@ -2952,10 +2952,40 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://docs.niagara-community.com/bundle/TechBulletin2021/resource/Dec_13_2021_NiagaraNotExposed_Apache_log4j.pdf
-    notes: Document access requires authentication. CISA is not able to validate vulnerability status.
+    notes: Document access requires authentication. CISA is not able to validate vulnerability
+      status.
     references:
       - ''
     last_updated: '2022-01-19T00:00:00'
+  - vendor: Trimble
+    product: eCognition
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 10.2.0 Build 4618
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: Remediation steps provided by Trimble
+    references:
+      - ''
+    last_updated: '2021-12-23T00:00:00'
   - vendor: Tripp Lite
     product: LX Platform devices (includes WEBCARDLX, WEBCARDLXMINI, SRCOOLNETLX,
       SRCOOLNET2LX and devices with pre-installed or embedded WEBCARDLX interfaces)
@@ -2987,8 +3017,7 @@ software:
       - ''
     last_updated: '2022-01-04T00:00:00'
   - vendor: Tripp Lite
-    product: SNMPWEBCARD, SRCOOLNET, SRCOOLNET2 and devices with pre-installed or
-      embedded SNMPWEBCARD
+    product: PowerAlert Local (PAL)
     cves:
       cve-2021-4104:
         investigated: false
@@ -3012,12 +3041,13 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
-    notes: ''
+    notes: Some versions of PAL use log4j v1 which is NOT AFFECTED by the CVE-2021-44228
+      vulnerability.
     references:
       - ''
     last_updated: '2022-01-04T00:00:00'
   - vendor: Tripp Lite
-    product: PowerAlert Local (PAL)
+    product: PowerAlert Network Management System (PANMS)
     cves:
       cve-2021-4104:
         investigated: false
@@ -3077,7 +3107,39 @@ software:
       - ''
     last_updated: '2022-01-04T00:00:00'
   - vendor: Tripp Lite
-    product: PowerAlert Network Management System (PANMS)
+    product: PowerAlertElement Manager (PAEM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 1.0.0
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
+    notes: Tripp Lite will soon be issuing a patch in the form of PAEM 1.0.1 which
+      will contain a patched version of Log4j2
+    references:
+      - ''
+    last_updated: '2022-01-04T00:00:00'
+  - vendor: Tripp Lite
+    product: SNMPWEBCARD, SRCOOLNET, SRCOOLNET2 and devices with pre-installed or
+      embedded SNMPWEBCARD
     cves:
       cve-2021-4104:
         investigated: false
@@ -3101,8 +3163,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
-    notes: Some versions of PAL use log4j v1 which is NOT AFFECTED by the CVE-2021-44228
-      vulnerability.
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-04T00:00:00'
@@ -3135,37 +3196,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-04T00:00:00'
-  - vendor: Tripp Lite
-    product: PowerAlertElement Manager (PAEM)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 1.0.0
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://assets.tripplite.com/software-support/log4j2-vulnerability.pdf
-    notes: Tripp Lite will soon be issuing a patch in the form of PAEM 1.0.1 which
-      will contain a patched version of Log4j2
-    references:
-      - ''
-    last_updated: '2022-01-04T00:00:00'
   - vendor: Tripwire
     product: ''
     cves:
@@ -3195,35 +3225,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
-  - vendor: Trimble
-    product: eCognition
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 10.2.0 Build 4618
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: Remediation steps provided by Trimble
-    references:
-      - ''
-    last_updated: '2021-12-23T00:00:00'
   - vendor: TrueNAS
     product: ''
     cves:

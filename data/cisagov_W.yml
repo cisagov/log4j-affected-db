@@ -151,36 +151,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
   - vendor: WIBU Systems
-    product: CodeMeter Keyring for TIA Portal
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 1.30 and prior
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf
-    notes: Only the Password Manager is affected
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: WIBU Systems
     product: CodeMeter Cloud Lite
     cves:
       cve-2021-4104:
@@ -207,6 +177,36 @@ software:
     vendor_links:
       - https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf
     notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: WIBU Systems
+    product: CodeMeter Keyring for TIA Portal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 1.30 and prior
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf
+    notes: Only the Password Manager is affected
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'

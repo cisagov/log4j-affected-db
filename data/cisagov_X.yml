@@ -237,6 +237,35 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Xylem
+    product: Configuration change complete
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Xylem
     product: Sensus Analytics
     cves:
       cve-2021-4104:
@@ -411,7 +440,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Xylem
-    product: Sensus RNI Saas
+    product: Sensus RNI On Prem
     cves:
       cve-2021-4104:
         investigated: false
@@ -443,7 +472,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Xylem
-    product: Sensus RNI On Prem
+    product: Sensus RNI Saas
     cves:
       cve-2021-4104:
         investigated: false
@@ -534,35 +563,6 @@ software:
     last_updated: '2021-12-22T00:00:00'
   - vendor: Xylem
     product: Water Loss Management (Visenti)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.xylem.com/siteassets/about-xylem/cybersecurity/advisories/xylem-apache-log4j-xpsa-2021-005.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Xylem
-    product: Configuration change complete
     cves:
       cve-2021-4104:
         investigated: false

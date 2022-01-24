@@ -614,94 +614,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
-    product: BOND-ADVANCE
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.leicabiosystems.com/about/product-security/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-21T00:00:00'
-  - vendor: Leica BIOSYSTEMS
     product: BOND Controller
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.leicabiosystems.com/about/product-security/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-21T00:00:00'
-  - vendor: Leica BIOSYSTEMS
-    product: BOND-III
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.leicabiosystems.com/about/product-security/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-21T00:00:00'
-  - vendor: Leica BIOSYSTEMS
-    product: BOND-MAX
     cves:
       cve-2021-4104:
         investigated: false
@@ -760,6 +673,93 @@ software:
     last_updated: '2021-12-21T00:00:00'
   - vendor: Leica BIOSYSTEMS
     product: BOND RXm
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.leicabiosystems.com/about/product-security/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Leica BIOSYSTEMS
+    product: BOND-ADVANCE
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.leicabiosystems.com/about/product-security/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Leica BIOSYSTEMS
+    product: BOND-III
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.leicabiosystems.com/about/product-security/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Leica BIOSYSTEMS
+    product: BOND-MAX
     cves:
       cve-2021-4104:
         investigated: false

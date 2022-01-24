@@ -94,6 +94,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
+  - vendor: UiPath
+    product: InSights
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '20.10'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.uipath.com/legal/trust-and-security/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
   - vendor: Umbraco
     product: ''
     cves:
@@ -210,36 +240,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:56+00:00'
-  - vendor: UiPath
-    product: InSights
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - '20.10'
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.uipath.com/legal/trust-and-security/cve-2021-44228
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
   - vendor: USSIGNAL MSP
     product: ''
     cves:
