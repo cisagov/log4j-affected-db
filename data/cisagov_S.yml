@@ -146,9 +146,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Analytics Cloud is reported to be affected by CVE-2021-44228. Services
-      have been updated to mitigate the issues identified in CVE-2021-44228 and we
-      are executing our final validation steps."'
+    notes: 'Analytics Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -177,8 +175,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"B2C Commerce Cloud is reported to be affected by CVE-2021-44228. The
-      service is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
+    notes: 'B2C Commerce Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -207,8 +204,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"ClickSoftware (As-a-Service) is reported to be affected by CVE-2021-44228.
-      The service is being updated to remediate the vulnerability identified in CVE-2021-44228."'
+    notes: 'ClickSoftware (As-a-Service) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -237,12 +233,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Please contact Customer Support."'
+    notes: 'ClickSoftware (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Additional details are available here.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Salesforce
-    product: Community Cloud
+    product: Experience (Community) Cloud
     cves:
       cve-2021-4104:
         investigated: false
@@ -266,8 +262,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Community Cloud is reported to be affected by CVE-2021-44228. The service
-      is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
+    notes: '"Experience Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -296,9 +291,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Data.com is reported to be affected by CVE-2021-44228. The service has
-      a mitigation in place and is being updated to remediate the vulnerability identified  in
-      CVE-2021-44228."'
+    notes: 'Data.com was affected by CVE-2021-44228 and CVE-2021-45046.  Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -357,9 +350,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Datorama is reported to be affected by CVE-2021-44228. The service has
-      a mitigation in place and is being updated to remediate the vulnerability identified  in
-      CVE-2021-44228."'
+    notes: 'Datorama was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -388,9 +379,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Evergage (Interaction Studio) is reported to be affected by CVE-2021-44228.
-      Services have been updated to mitigate the issues identified in CVE-2021-44228
-      and we are executing our final validation steps."'
+    notes: 'Evergage (Interaction Studio) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -419,8 +408,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Force.com is reported to be affected by CVE-2021-44228. The service is
-      being updated to remediate the vulnerability identified  in CVE-2021-44228."'
+    notes: 'Force.com was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. 
+
+The Data Loader tool has been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Make sure that you are using Data Loader version 53.0.2 or later. Follow the steps described here to download the latest version of Data Loader.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -449,8 +439,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Heroku is reported to not be affected by CVE-2021-44228; no further action
-      is necessary at this time."'
+    notes: 'Heroku is reported to not be affected by the issues currently identified in CVE-2021-44228 or CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -479,8 +468,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Marketing Cloud is reported to be affected by CVE-2021-44228. The service
-      is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
+    notes: 'Salesforce-owned services within Marketing Cloud are not affected by the issues currently identified in CVE-2021-44228 or CVE-2021-45046. Third-party vendors have been patched to address the security issues currently identified in CVE-2021-44228 or CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -509,8 +497,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"MuleSoft (Cloud) is reported to be affected by CVE-2021-44228. The service
-      is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
+    notes: 'MuleSoft (Cloud) was affected by CVE-2021-44228 and CVE-2021-45046. Mulesoft services, including dataloader.io, have been updated to mitigate the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Please see additional details here.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -539,7 +526,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Please contact Customer Support."'
+    notes: 'MuleSoft (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors, including Private Cloud Edition (PCE) and Anypoint Studio, have a mitigation in place to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Please see additional details here.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -568,8 +555,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Pardot is reported to be affected by CVE-2021-44228. The service is being
-      updated to remediate the vulnerability identified  in CVE-2021-44228."'
+    notes: 'Pardot was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -598,8 +584,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Sales Cloud is reported to be affected by CVE-2021-44228. The service
-      is being updated to remediate the vulnerability identified in CVE-2021-44228."'
+    notes: 'Sales Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -628,8 +613,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Service Cloud is reported to be affected by CVE-2021-44228. The service
-      is being updated to remediate the vulnerability identified  in CVE-2021-44228."'
+    notes: 'Service Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -658,9 +642,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Slack is reported to be affected by CVE-2021-44228. The service has a
-      mitigation in place and is being updated to remediate the vulnerability identified  in
-      CVE-2021-44228."'
+    notes: 'Slack was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in both CVE-2021-44228 and CVE-2021-45046.  Additional details are available here.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -689,9 +671,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Social Studio is reported to be affected by CVE-2021-44228. The service
-      has a mitigation in place and is being updated to remediate the vulnerability
-      identified  in CVE-2021-44228."'
+    notes: 'Social Studio was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -721,7 +701,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell
-    notes: Fixed in 2021.4.1
+    notes: Tableau (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046. Patches to address the issues currently identified in both CVE-2021-44228 and CVE-2021-45046 are available for download. Additional details are available here.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
@@ -750,8 +730,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Tableau (Online) is reported to be affected by CVE-2021-44228. The service
-      is being updated to remediate the vulnerability identified in CVE-2021-44228."'
+    notes: 'Tableau Online was affected by CVE-2021-44228 and CVE-2021-45046. Services have been patched to mitigate the issues currently identified in both CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
