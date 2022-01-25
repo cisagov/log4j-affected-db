@@ -4,67 +4,8 @@ owners:
   - name: cisagov
     url: https://github.com/cisagov/log4j-affected-db
 software:
-  - vendor: VArmour
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.varmour.com/hc/en-us/articles/4416396248717-Log4j2-Emergency-Configuration-Change-for-Critical-Auth-Free-Code-Execution-in-Logging-Utility
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
   - vendor: Varian
     product: Acuity
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - All
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Varian
-    product: DITC
     cves:
       cve-2021-4104:
         investigated: false
@@ -124,96 +65,6 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
-    product: ARIA oncology information system for Medical Oncology
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - All
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Varian
-    product: XMediusFax for ARIA oncology information system for Medical Oncology
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - All
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Varian
-    product: ARIA oncology information system for Radiation Oncology
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - All
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Varian
     product: ARIA eDOC
     cves:
       cve-2021-4104:
@@ -244,7 +95,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
-    product: XMediusFax for ARIA oncology information system for Radiation Oncology
+    product: ARIA oncology information system for Medical Oncology
     cves:
       cve-2021-4104:
         investigated: false
@@ -252,11 +103,41 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
           - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Varian
+    product: ARIA oncology information system for Radiation Oncology
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -377,6 +258,36 @@ software:
         fixed_versions: []
         unaffected_versions:
           - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Varian
+    product: DITC
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -574,6 +485,36 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
+    product: ICAP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Varian
     product: Identify
     cves:
       cve-2021-4104:
@@ -694,7 +635,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
-    product: ICAP
+    product: Mobius3D platform
     cves:
       cve-2021-4104:
         investigated: false
@@ -724,7 +665,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Varian
-    product: Mobius3D platform
+    product: PaaS
     cves:
       cve-2021-4104:
         investigated: false
@@ -930,36 +871,6 @@ software:
     vendor_links:
       - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
     notes: 'See Knowledge Articles: 000038831 and 000038832 on MyVarian'
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Varian
-    product: PaaS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - All
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
-    notes: ''
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -1234,6 +1145,95 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
+  - vendor: Varian
+    product: XMediusFax for ARIA oncology information system for Medical Oncology
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Varian
+    product: XMediusFax for ARIA oncology information system for Radiation Oncology
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.varian.com/resources-support/services/cybersecurity-varian/java-log4j-vulnerabilities
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: VArmour
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.varmour.com/hc/en-us/articles/4416396248717-Log4j2-Emergency-Configuration-Change-for-Critical-Auth-Free-Code-Execution-in-Logging-Utility
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Varnish Software
     product: ''
     cves:
@@ -1262,7 +1262,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Varonis
     product: ''
     cves:
@@ -1291,7 +1291,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Veeam
     product: ''
     cves:
@@ -1320,7 +1320,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Venafi
     product: ''
     cves:
@@ -1349,7 +1349,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Veritas NetBackup
     product: ''
     cves:
@@ -1378,7 +1378,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Vertica
     product: ''
     cves:
@@ -1421,7 +1421,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -1466,7 +1466,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: VMware
     product: API Portal for VMware Tanzu
     cves:
@@ -1678,6 +1678,71 @@ software:
     references:
       - ''
     last_updated: '2021-12-12T00:00:00'
+  - vendor: VMware
+    product: vCenter Server - OVA
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 7.x
+          - 6.7.x
+          - 6.5.x
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.vmware.com/security/advisories/VMSA-2021-0028.html
+    notes: '[Workaround @ KB87081 (vmware.com)](https://kb.vmware.com/s/article/87081
+      )'
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: VMware
+    product: vCenter Server - Windows
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 6.7.x
+          - 6.5.x
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.vmware.com/security/advisories/VMSA-2021-0028.html
+    notes: '[Workaround @ KB87096 (vmware.com)](https://kb.vmware.com/s/article/87096
+      )'
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
   - vendor: VMware
     product: VMware Carbon Black Cloud Workload Appliance
     cves:
@@ -2292,71 +2357,6 @@ software:
       - ''
     last_updated: '2021-12-12T00:00:00'
   - vendor: VMware
-    product: vCenter Server - OVA
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 7.x
-          - 6.7.x
-          - 6.5.x
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.vmware.com/security/advisories/VMSA-2021-0028.html
-    notes: '[Workaround @ KB87081 (vmware.com)](https://kb.vmware.com/s/article/87081
-      )'
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: VMware
-    product: vCenter Server - Windows
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 6.7.x
-          - 6.5.x
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.vmware.com/security/advisories/VMSA-2021-0028.html
-    notes: '[Workaround @ KB87096 (vmware.com)](https://kb.vmware.com/s/article/87096
-      )'
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: VMware
     product: VMware vRealize Automation
     cves:
       cve-2021-4104:
@@ -2614,7 +2614,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []

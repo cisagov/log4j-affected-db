@@ -475,244 +475,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: AFAS Software
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://help.afas.nl/vraagantwoord/NL/SE/120439.htm
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: AFHCAN Global LLC
-    product: AFHCANsuite
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 8.0.7 - 8.4.3
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://afhcan.org/support.aspx
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: AFHCAN Global LLC
-    product: AFHCANServer
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 8.0.7 - 8.4.3
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://afhcan.org/support.aspx
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: AFHCAN Global LLC
-    product: AFHCANcart
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 8.0.7 - 8.4.3
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://afhcan.org/support.aspx
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: AFHCAN Global LLC
-    product: AFHCANweb
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 8.0.7 - 8.4.3
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://afhcan.org/support.aspx
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: AFHCAN Global LLC
-    product: AFHCANmobile
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 8.0.7 - 8.4.3
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://afhcan.org/support.aspx
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: AFHCAN Global LLC
-    product: AFHCANupdate
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 8.0.7 - 8.4.3
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://afhcan.org/support.aspx
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Agilysys
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://info.agilysys.com/webmail/76642/2001127877/c3fda575e2313fac1f6a203dc6fc1db2439c3db0da22bde1b6c1b6747d7f0e2f
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Advanced Systems Concepts (formally Jscape)
     product: Active MFT
     cves:
@@ -744,7 +506,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Advanced Systems Concepts (formally Jscape)
-    product: MFT Server
+    product: MFT
     cves:
       cve-2021-4104:
         investigated: false
@@ -804,7 +566,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Advanced Systems Concepts (formally Jscape)
-    product: MFT
+    product: MFT Server
     cves:
       cve-2021-4104:
         investigated: false
@@ -833,6 +595,244 @@ software:
     references:
       - ''
     last_updated: '2021-12-14T00:00:00'
+  - vendor: AFAS Software
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://help.afas.nl/vraagantwoord/NL/SE/120439.htm
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: AFHCAN Global LLC
+    product: AFHCANcart
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 8.0.7 - 8.4.3
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://afhcan.org/support.aspx
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: AFHCAN Global LLC
+    product: AFHCANmobile
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 8.0.7 - 8.4.3
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://afhcan.org/support.aspx
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: AFHCAN Global LLC
+    product: AFHCANServer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 8.0.7 - 8.4.3
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://afhcan.org/support.aspx
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: AFHCAN Global LLC
+    product: AFHCANsuite
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 8.0.7 - 8.4.3
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://afhcan.org/support.aspx
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: AFHCAN Global LLC
+    product: AFHCANupdate
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 8.0.7 - 8.4.3
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://afhcan.org/support.aspx
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: AFHCAN Global LLC
+    product: AFHCANweb
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 8.0.7 - 8.4.3
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://afhcan.org/support.aspx
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Agilysys
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://info.agilysys.com/webmail/76642/2001127877/c3fda575e2313fac1f6a203dc6fc1db2439c3db0da22bde1b6c1b6747d7f0e2f
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Akamai
     product: SIEM Splunk Connector
     cves:
@@ -1192,36 +1192,6 @@ software:
       - ''
     last_updated: '2021-12-23T00:00:00'
   - vendor: Amazon
-    product: AWS Lambda
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - Unknown
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Amazon
     product: AWS DynamoDB
     cves:
       cve-2021-4104:
@@ -1251,6 +1221,42 @@ software:
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
+  - vendor: Amazon
+    product: AWS EKS, ECS, Fargate
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - Unknown
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: To help mitigate the impact of the open-source Apache “Log4j2" utility
+      (CVE-2021-44228 and CVE-2021-45046) security issues on customers’ containers,
+      Amazon EKS, Amazon ECS, and AWS Fargate are deploying a Linux-based update (hot-patch).
+      This hot-patch will require customer opt-in to use, and disables JNDI lookups
+      from the Log4J2 library in customers’ containers. These updates are available
+      as an Amazon Linux package for Amazon ECS customers, as a DaemonSet for Kubernetes
+      users on AWS, and will be in supported AWS Fargate platform versions
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
   - vendor: Amazon
     product: AWS ElastiCache
     cves:
@@ -1282,6 +1288,36 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Amazon
+    product: AWS ELB
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Unknown
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Amazon
     product: AWS Inspector
     cves:
       cve-2021-4104:
@@ -1311,6 +1347,100 @@ software:
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
+  - vendor: Amazon
+    product: AWS Kinesis Data Stream
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - Unknown
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: We are actively patching all sub-systems that use Log4j2 by applying updates.
+      The Kinesis Client Library (KCL) version 2.X and the Kinesis Producer Library
+      (KPL) are not impacted. For customers using KCL 1.x, we have released an updated
+      version and we strongly recommend that all KCL version 1.x customers upgrade
+      to KCL version 1.14.5 (or higher)
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Amazon
+    product: AWS Lambda
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - Unknown
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: AWS Lambda
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - Unknown
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Amazon
     product: AWS RDS
     cves:
@@ -1434,136 +1564,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
-  - vendor: Amazon
-    product: AWS EKS, ECS, Fargate
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - Unknown
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: To help mitigate the impact of the open-source Apache “Log4j2" utility
-      (CVE-2021-44228 and CVE-2021-45046) security issues on customers’ containers,
-      Amazon EKS, Amazon ECS, and AWS Fargate are deploying a Linux-based update (hot-patch).
-      This hot-patch will require customer opt-in to use, and disables JNDI lookups
-      from the Log4J2 library in customers’ containers. These updates are available
-      as an Amazon Linux package for Amazon ECS customers, as a DaemonSet for Kubernetes
-      users on AWS, and will be in supported AWS Fargate platform versions
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: Amazon
-    product: AWS ELB
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - Unknown
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: Amazon
-    product: AWS Kinesis Data Stream
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - Unknown
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: We are actively patching all sub-systems that use Log4j2 by applying updates.
-      The Kinesis Client Library (KCL) version 2.X and the Kinesis Producer Library
-      (KPL) are not impacted. For customers using KCL 1.x, we have released an updated
-      version and we strongly recommend that all KCL version 1.x customers upgrade
-      to KCL version 1.14.5 (or higher)
-    references:
-      - ''
-    last_updated: '2021-12-14T00:00:00'
-  - vendor: Amazon
-    product: AWS Lambda
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - Unknown
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Amazon
     product: CloudFront
     cves:
@@ -2045,7 +2045,7 @@ software:
       - ''
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
-    product: Camel Quarkus
+    product: Camel 2
     cves:
       cve-2021-4104:
         investigated: false
@@ -2055,6 +2055,36 @@ software:
       cve-2021-44228:
         investigated: false
         affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://camel.apache.org/blog/2021/12/log4j2/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-13T00:00:00'
+  - vendor: Apache
+    product: Camel JBang
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - <=3.1.4
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2075,35 +2105,6 @@ software:
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
     product: Camel K
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://camel.apache.org/blog/2021/12/log4j2/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-13T00:00:00'
-  - vendor: Apache
-    product: CamelKafka Connector
     cves:
       cve-2021-4104:
         investigated: false
@@ -2162,7 +2163,7 @@ software:
       - ''
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
-    product: Camel JBang
+    product: Camel Quarkus
     cves:
       cve-2021-4104:
         investigated: false
@@ -2170,9 +2171,8 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - <=3.1.4
+        investigated: false
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2192,7 +2192,7 @@ software:
       - ''
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
-    product: Camel 2
+    product: CamelKafka Connector
     cves:
       cve-2021-4104:
         investigated: false
@@ -2480,6 +2480,73 @@ software:
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
+  - vendor: APC by Schneider Electric
+    product: Powerchute Business Edition
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - v9.5
+          - v10.0.1
+          - v10.0.2
+          - v10.0.3
+          - v10.0.4
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345
+    notes: Mitigation instructions to remove the affected class.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: APC by Schneider Electric
+    product: Powerchute Network Shutdown
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '4.2'
+          - '4.3'
+          - '4.4'
+          - 4.4.1
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345
+    notes: Mitigation instructions to remove the affected class.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
   - vendor: Apereo
     product: CAS
     cves:
@@ -2541,35 +2608,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Application Performance Ltd
-    product: DBMarlin
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - Not Affected
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
   - vendor: Apigee
     product: ''
     cves:
@@ -2755,6 +2793,35 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
+        affected_versions:
+          - Not Affected
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Application Performance Ltd
+    product: DBMarlin
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
@@ -2833,73 +2900,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: APC by Schneider Electric
-    product: Powerchute Business Edition
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - v9.5
-          - v10.0.1
-          - v10.0.2
-          - v10.0.3
-          - v10.0.4
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345
-    notes: Mitigation instructions to remove the affected class.
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
-  - vendor: APC by Schneider Electric
-    product: Powerchute Network Shutdown
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - '4.2'
-          - '4.3'
-          - '4.4'
-          - 4.4.1
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://community.exchange.se.com/t5/APC-UPS-Data-Center-Backup/Log4-versions-used-in-Powerchute-vulnerable/m-p/379866/highlight/true#M47345
-    notes: Mitigation instructions to remove the affected class.
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
   - vendor: Aqua Security
     product: ''
     cves:
@@ -3718,7 +3718,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -3731,7 +3731,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.atvise.com/en/articles/at-log4j-sicherheitsluecke-atvise-produkte-und-terminals-nicht-betroffen
-    notes: The security vulnerability does NOT affect our applications and products or pose any threat. This applies to all Bachmann applications and products, including atvise solutions.
+    notes: The security vulnerability does NOT affect our applications and products
+      or pose any threat. This applies to all Bachmann applications and products,
+      including atvise solutions.
     references:
       - ''
     last_updated: '2022-01-17T00:00:00'
@@ -4063,6 +4065,38 @@ software:
           - '8.1'
           - 8.1.4
           - 8.1.5
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Avaya
+    product: Avaya Aura® Device Services
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 8.0.1
+          - 8.0.2
+          - 8.1.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -4798,38 +4832,6 @@ software:
           - 3.1.3
           - '4'
           - 4.0.1
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-14T00:00:00'
-  - vendor: Avaya
-    product: Avaya Aura® Device Services
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 8.0.1
-          - 8.0.2
-          - 8.1.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
