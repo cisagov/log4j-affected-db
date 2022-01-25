@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nagios
     product: ''
     cves:
@@ -61,7 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NAKIVO
     product: ''
     cves:
@@ -90,7 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: National Instruments
     product: OptimalPlus
     cves:
@@ -102,9 +102,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'Vertica'
-          - 'Cloudera'
-          - 'Logstash'
+          - Vertica
+          - Cloudera
+          - Logstash
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -136,7 +136,7 @@ software:
         investigated: true
         affected_versions:
           - '>4.2'
-          - '<4..2.12'
+          - <4..2.12
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -182,7 +182,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Netcup
     product: ''
     cves:
@@ -211,7 +211,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NetGate PFSense
     product: ''
     cves:
@@ -240,7 +240,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Netwrix
     product: ''
     cves:
@@ -269,7 +269,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: New Relic
     product: Containerized Private Minion (CPM)
     cves:
@@ -282,7 +282,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.0.57'
+          - 3.0.57
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -312,7 +312,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '<7.4.3'
+          - <7.4.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -360,7 +360,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nextflow
     product: Nextflow
     cves:
@@ -374,7 +374,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '21.04.0.5552'
+          - 21.04.0.5552
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -448,7 +448,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NinjaRMM
     product: ''
     cves:
@@ -478,7 +478,7 @@ software:
       by CISA
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nomachine
     product: ''
     cves:
@@ -507,7 +507,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NoviFlow
     product: ''
     cves:
@@ -536,7 +536,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Backlog
     cves:
@@ -566,7 +566,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Backlog Enterprise (On-premises)
     cves:
@@ -596,7 +596,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Cacoo
     cves:
@@ -626,7 +626,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Cacoo Enterprise (On-premises)
     cves:
@@ -656,7 +656,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nulab
     product: Typetalk
     cves:
@@ -686,7 +686,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Nutanix
     product: AHV
     cves:
@@ -1343,35 +1343,6 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: Nutanix
-    product: Leap
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://download.nutanix.com/alerts/Security_Advisory_0023.pdf
-    notes: Saas-Based Procuct.  See Advisory.
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: Nutanix
     product: LCM
     cves:
       cve-2021-4104:
@@ -1398,6 +1369,35 @@ software:
     vendor_links:
       - https://download.nutanix.com/alerts/Security_Advisory_0023.pdf
     notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Nutanix
+    product: Leap
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://download.nutanix.com/alerts/Security_Advisory_0023.pdf
+    notes: Saas-Based Procuct.  See Advisory.
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'
@@ -1758,7 +1758,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: NXLog
     product: ''
     cves:
@@ -1787,5 +1787,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

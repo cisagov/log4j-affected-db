@@ -33,35 +33,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
-  - vendor: Baxter
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.baxter.com/sites/g/files/ebysai746/files/2021-12/Apache_Log4j_Vulnerability.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
   - vendor: BackBox
     product: ''
     cves:
@@ -207,8 +178,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: BBraun
-    product: Outlook® Safety Infusion System Pump family
+  - vendor: Baxter
+    product: ''
     cves:
       cve-2021-4104:
         investigated: false
@@ -231,43 +202,13 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf
+      - https://www.baxter.com/sites/g/files/ebysai746/files/2021-12/Apache_Log4j_Vulnerability.pdf
     notes: ''
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BBraun
-    product: Space® Infusion Pump family (Infusomat® Space® Infusion Pump, Perfusor®
-      Space® Infusion
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: BBraun
-    product: Pump, SpaceStation, and Space® Wireless Battery)
+    product: APEX® Compounder
     cves:
       cve-2021-4104:
         investigated: false
@@ -325,6 +266,35 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BBraun
+    product: Outlook® Safety Infusion System Pump family
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BBraun
     product: Pinnacle® Compounder
     cves:
       cve-2021-4104:
@@ -354,7 +324,37 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BBraun
-    product: APEX® Compounder
+    product: Pump, SpaceStation, and Space® Wireless Battery)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bbraunusa.com/content/dam/b-braun/us/website/customer_communications/21-0894C_Statement_Cybersecurity_Apache_Log4J_Sheet_FINAL_121621.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BBraun
+    product: Space® Infusion Pump family (Infusomat® Space® Infusion Pump, Perfusor®
+      Space® Infusion
     cves:
       cve-2021-4104:
         investigated: false
@@ -615,6 +615,35 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BD
+    product: BD Knowledge Portal for BD Pyxis™ Supply
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BD
     product: BD Knowledge Portal for Infusion Technologies
     cves:
       cve-2021-4104:
@@ -645,35 +674,6 @@ software:
     last_updated: '2021-12-20T00:00:00'
   - vendor: BD
     product: BD Knowledge Portal for Medication Technologies
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: BD
-    product: BD Knowledge Portal for BD Pyxis™ Supply
     cves:
       cve-2021-4104:
         investigated: false
@@ -1049,35 +1049,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
-  - vendor: BioMerieux
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.biomerieux.com/en/cybersecurity-data-privacy
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
   - vendor: Bender
     product: ''
     cves:
@@ -1256,6 +1227,35 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BioMerieux
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.biomerieux.com/en/cybersecurity-data-privacy
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
   - vendor: BisectHosting
     product: ''
     cves:
@@ -2590,35 +2590,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Boston Scientific
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.bostonscientific.com/content/dam/bostonscientific/corporate/product-security/bsc_statement_on_apache_log4j-v1.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
   - vendor: Bosch
     product: ''
     cves:
@@ -2648,6 +2619,35 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/content/dam/bostonscientific/corporate/product-security/bsc_statement_on_apache_log4j-v1.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
   - vendor: Box
     product: ''
     cves:
@@ -4067,7 +4067,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: Symantec Protection Engine (SPE)
     cves:
@@ -4096,7 +4096,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: Symantec Protection for SharePoint Servers (SPSS)
     cves:
@@ -4125,7 +4125,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: VIP
     cves:
@@ -4154,7 +4154,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: VIP Authentication Hub
     cves:
@@ -4183,7 +4183,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: Web Isolation (WI)
     cves:
@@ -4212,7 +4212,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: Web Security Service (WSS)
     cves:
@@ -4241,7 +4241,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Broadcom
     product: WebPulse
     cves:
@@ -4270,5 +4270,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:51+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

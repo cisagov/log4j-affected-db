@@ -62,7 +62,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Wasp Barcode technologies
     product: ''
     cves:
@@ -91,7 +91,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WatchGuard
     product: Secplicity
     cves:
@@ -120,7 +120,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Western Digital
     product: ''
     cves:
@@ -149,37 +149,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
-  - vendor: WIBU Systems
-    product: CodeMeter Keyring for TIA Portal
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 1.30 and prior
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf
-    notes: Only the Password Manager is affected
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WIBU Systems
     product: CodeMeter Cloud Lite
     cves:
@@ -207,6 +177,36 @@ software:
     vendor_links:
       - https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf
     notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: WIBU Systems
+    product: CodeMeter Keyring for TIA Portal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 1.30 and prior
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf
+    notes: Only the Password Manager is affected
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -479,7 +479,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-21T00:00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WireShark
     product: ''
     cves:
@@ -508,7 +508,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Wistia
     product: ''
     cves:
@@ -537,7 +537,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WitFoo
     product: ''
     cves:
@@ -566,7 +566,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WordPress
     product: ''
     cves:
@@ -595,7 +595,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Worksphere
     product: ''
     cves:
@@ -624,7 +624,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Wowza
     product: ''
     cves:
@@ -653,7 +653,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WSO2
     product: WSO2 Enterprise Integrator
     cves:
@@ -683,5 +683,5 @@ software:
     notes: A temporary mitigation is available while vendor works on update
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...
