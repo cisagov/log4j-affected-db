@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jamf
     product: Jamf Pro
     cves:
@@ -62,7 +62,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Janitza
     product: GridVis
     cves:
@@ -121,7 +121,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jedox
     product: ''
     cves:
@@ -150,7 +150,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jenkins
     product: CI/CD Core
     cves:
@@ -178,7 +178,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jenkins
     product: Plugins
     cves:
@@ -238,7 +238,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jetbrains
     product: Code With Me
     cves:
@@ -268,7 +268,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: Datalore
     cves:
@@ -298,7 +298,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: Floating license server
     cves:
@@ -328,7 +328,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: Gateway
     cves:
@@ -358,7 +358,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: Hub
     cves:
@@ -388,7 +388,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: IntelliJ platform based IDEs (AppCode, CLion, DataGrip, DataSpell, GoLand,
       IntelliJ IDEA Ultimate/Community/Edu, PhpStorm, PyCharm Professional/Community/Edu,
@@ -420,7 +420,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: Kotlin
     cves:
@@ -450,7 +450,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: Ktor
     cves:
@@ -480,7 +480,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: MPS
     cves:
@@ -510,7 +510,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: Space
     cves:
@@ -540,7 +540,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: TeamCity
     cves:
@@ -570,7 +570,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: ToolBox
     cves:
@@ -600,7 +600,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: UpSource
     cves:
@@ -630,7 +630,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: YouTrack InCloud
     cves:
@@ -660,7 +660,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
     product: YouTrack Standalone
     cves:
@@ -690,7 +690,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JFROG
     product: ''
     cves:
@@ -719,7 +719,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jitsi
     product: ''
     cves:
@@ -748,7 +748,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jitterbit
     product: ''
     cves:
@@ -777,7 +777,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Johnson Controls
     product: BCPro
     cves:
@@ -1646,7 +1646,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: jPOS
     product: (ISO-8583) bridge
     cves:
@@ -1676,7 +1676,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jump Desktop
     product: ''
     cves:
@@ -1705,7 +1705,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Juniper Networks
     product: ''
     cves:
@@ -1734,7 +1734,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Justice Systems
     product: ''
     cves:
@@ -1763,5 +1763,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

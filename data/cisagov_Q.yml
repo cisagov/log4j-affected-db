@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Qlik
     product: ''
     cves:
@@ -61,7 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: QMATIC
     product: Appointment Booking
     cves:
@@ -210,7 +210,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: QOPPA
     product: ''
     cves:
@@ -239,7 +239,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: QSC Q-SYS
     product: ''
     cves:
@@ -268,7 +268,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: QT
     product: ''
     cves:
@@ -297,7 +297,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Quest Global
     product: ''
     cves:
@@ -326,5 +326,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

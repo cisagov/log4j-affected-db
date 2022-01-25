@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HarmanPro AMX
     product: ''
     cves:
@@ -61,7 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Boundary
     cves:
@@ -90,7 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Consul
     cves:
@@ -119,7 +119,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Consul Enterprise
     cves:
@@ -148,7 +148,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Nomad
     cves:
@@ -177,7 +177,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Nomad Enterprise
     cves:
@@ -206,7 +206,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Packer
     cves:
@@ -235,7 +235,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Terraform
     cves:
@@ -264,7 +264,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Terraform Enterprise
     cves:
@@ -293,7 +293,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Vagrant
     cves:
@@ -322,7 +322,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Vault
     cves:
@@ -351,7 +351,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Vault Enterprise
     cves:
@@ -380,7 +380,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HashiCorp
     product: Waypoint
     cves:
@@ -409,7 +409,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HCL Software
     product: BigFix Compliance
     cves:
@@ -648,7 +648,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HENIX
     product: Squash TM
     cves:
@@ -709,7 +709,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Hikvision
     product: ''
     cves:
@@ -738,7 +738,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Hitachi Energy
     product: 3rd party - Elastic Search, Kibana
     cves:
@@ -925,7 +925,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Hitachi Energy
     product: FOXMAN-UN
     cves:
@@ -1332,7 +1332,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HMS Industrial Networks AB
     product: Cosy, Flexy and Ewon CD
     cves:
@@ -2006,7 +2006,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: HP
     product: Teradici Cloud Access Controller
     cves:
@@ -5387,7 +5387,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
@@ -5958,7 +5958,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Hubspot
     product: ''
     cves:
@@ -5987,5 +5987,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:53+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

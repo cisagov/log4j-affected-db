@@ -33,7 +33,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Ubiquiti
     product: UniFi Network Controller
     cves:
@@ -93,7 +93,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: UiPath
     product: InSights
     cves:
@@ -152,7 +152,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: UniFlow
     product: ''
     cves:
@@ -181,7 +181,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Unify ATOS
     product: ''
     cves:
@@ -210,7 +210,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Unimus
     product: ''
     cves:
@@ -239,7 +239,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: USSIGNAL MSP
     product: ''
     cves:
@@ -268,5 +268,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

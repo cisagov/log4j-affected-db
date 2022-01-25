@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SAFE FME Server
     product: ''
     cves:
@@ -61,7 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SAGE
     product: ''
     cves:
@@ -90,7 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SailPoint
     product: ''
     cves:
@@ -120,7 +120,7 @@ software:
       by CISA
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Salesforce
     product: Analytics Cloud
     cves:
@@ -1093,7 +1093,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SAP
     product: ''
     cves:
@@ -1212,7 +1212,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SASSAFRAS
     product: ''
     cves:
@@ -1241,7 +1241,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Savignano software solutions
     product: ''
     cves:
@@ -1270,7 +1270,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SBT
     product: SBT
     cves:
@@ -1330,7 +1330,7 @@ software:
       by CISA
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ScaleFusion MobileLock Pro
     product: ''
     cves:
@@ -1359,7 +1359,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Schneider Electric
     product: EASYFIT
     cves:
@@ -2105,7 +2105,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ScreenBeam
     product: ''
     cves:
@@ -2134,7 +2134,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SDL worldServer
     product: ''
     cves:
@@ -2163,7 +2163,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Seagull Scientific
     product: ''
     cves:
@@ -2192,7 +2192,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SecurePoint
     product: ''
     cves:
@@ -2221,7 +2221,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Security Onion
     product: ''
     cves:
@@ -2250,7 +2250,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Securonix
     product: Extended Detection and Response (XDR)
     cves:
@@ -2429,7 +2429,7 @@ software:
       by CISA.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SentinelOne
     product: ''
     cves:
@@ -2458,7 +2458,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sentry
     product: ''
     cves:
@@ -2487,7 +2487,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SEP
     product: ''
     cves:
@@ -2516,7 +2516,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Server Eye
     product: ''
     cves:
@@ -2545,7 +2545,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ServiceNow
     product: ''
     cves:
@@ -2574,7 +2574,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Shibboleth
     product: ''
     cves:
@@ -2603,7 +2603,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Shibboleth
     product: All Products
     cves:
@@ -2663,7 +2663,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Siebel
     product: ''
     cves:
@@ -2692,7 +2692,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Siemens
     product: Affected Products
     cves:
@@ -3899,7 +3899,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sierra Wireless
     product: AirVantage and Octave cloud platforms
     cves:
@@ -3987,7 +3987,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Silver Peak
     product: Orchestrator, Silver Peak GMS
     cves:
@@ -4049,7 +4049,7 @@ software:
       by CISA
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SISCO
     product: ''
     cves:
@@ -4107,7 +4107,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Skillable
     product: ''
     cves:
@@ -4136,7 +4136,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SLF4J
     product: ''
     cves:
@@ -4165,7 +4165,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Slurm
     product: Slurm
     cves:
@@ -4253,7 +4253,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SmileCDR
     product: ''
     cves:
@@ -4282,7 +4282,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sn0m
     product: ''
     cves:
@@ -4311,7 +4311,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Snakemake
     product: Snakemake
     cves:
@@ -4371,7 +4371,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Snow Software
     product: VM Access Proxy
     cves:
@@ -4401,7 +4401,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Snowflake
     product: ''
     cves:
@@ -4430,7 +4430,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Snyk
     product: Cloud Platform
     cves:
@@ -4459,7 +4459,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Software AG
     product: ''
     cves:
@@ -4488,7 +4488,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SolarWinds
     product: Database Performance Analyzer (DPA)
     cves:
@@ -4609,7 +4609,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sonatype
     product: All Products
     cves:
@@ -5551,7 +5551,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Spacelabs Healthcare
     product: ABP
     cves:
@@ -6149,7 +6149,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Spigot
     product: ''
     cves:
@@ -6178,7 +6178,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Splunk
     product: Data Stream Processor
     cves:
@@ -6850,7 +6850,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Spring
     product: Spring Boot
     cves:
@@ -6880,7 +6880,7 @@ software:
       switched the default logging system to Log4J2
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Spring Boot
     product: ''
     cves:
@@ -6909,7 +6909,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: StarDog
     product: ''
     cves:
@@ -6938,7 +6938,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: STERIS
     product: Advantage
     cves:
@@ -8475,7 +8475,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Storagement
     product: ''
     cves:
@@ -8504,7 +8504,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: StormShield
     product: ''
     cves:
@@ -8533,7 +8533,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: StrangeBee TheHive & Cortex
     product: ''
     cves:
@@ -8562,7 +8562,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Stratodesk
     product: ''
     cves:
@@ -8591,7 +8591,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Strimzi
     product: ''
     cves:
@@ -8620,7 +8620,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Stripe
     product: ''
     cves:
@@ -8649,7 +8649,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Styra
     product: ''
     cves:
@@ -8678,7 +8678,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sumologic
     product: ''
     cves:
@@ -8707,7 +8707,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SumoLogic
     product: ''
     cves:
@@ -8736,7 +8736,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Superna EYEGLASS
     product: ''
     cves:
@@ -8765,7 +8765,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Suprema Inc
     product: ''
     cves:
@@ -8794,7 +8794,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SUSE
     product: ''
     cves:
@@ -8823,7 +8823,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sweepwidget
     product: ''
     cves:
@@ -8852,7 +8852,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Swyx
     product: ''
     cves:
@@ -8881,7 +8881,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Synchro MSP
     product: ''
     cves:
@@ -8910,7 +8910,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Syncplify
     product: ''
     cves:
@@ -8939,7 +8939,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Synology
     product: ''
     cves:
@@ -8968,7 +8968,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Synopsys
     product: ''
     cves:
@@ -8997,7 +8997,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Syntevo
     product: ''
     cves:
@@ -9026,7 +9026,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SysAid
     product: ''
     cves:
@@ -9055,7 +9055,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sysdig
     product: ''
     cves:
@@ -9084,5 +9084,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...
