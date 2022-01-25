@@ -239,7 +239,9 @@ software:
           - 'All'
     vendor_links:
       - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
-    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2 and JMSAppender components, however, JMSAppender is deactivated in the release package and not affected by CVE-2021-4104 customers are advised to NOT manually activate the JMSAppender component.
+    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2 and JMSAppender
+      components, however, JMSAppender is deactivated in the release package and not affected by
+      CVE-2021-4104 customers are advised to NOT manually activate the JMSAppender component.
     references:
       - ''
     last_updated: '2022-01-21T00:00:00'
@@ -272,7 +274,9 @@ software:
           - 'All'
     vendor_links:
       - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
-    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2 and JMSAppender components, however, JMSAppender is deactivated in the release package and not affected by CVE-2021-4104 customers are advised to NOT manually activate the JMSAppender component.
+    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2 and JMSAppender
+      components, however, JMSAppender is deactivated in the release package and not affected by
+      CVE-2021-4104 customers are advised to NOT manually activate the JMSAppender component.
     references:
       - ''
     last_updated: '2022-01-21T00:00:00'
@@ -305,7 +309,9 @@ software:
           - 'All'
     vendor_links:
       - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
-    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2 and JMSAppender components, however, JMSAppender is deactivated in the release package and not affected by CVE-2021-4104 customers are advised to NOT manually activate the JMSAppender component.
+    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2 and JMSAppender
+      components, however, JMSAppender is deactivated in the release package and not affected by
+      CVE-2021-4104 customers are advised to NOT manually activate the JMSAppender component.
     references:
       - ''
     last_updated: '2022-01-21T00:00:00'
