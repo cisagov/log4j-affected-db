@@ -240,7 +240,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'ClickSoftware (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Additional details are available here.'
+    notes: ClickSoftware (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to address the
+      issues currently identified in CVE-2021-44228 and CVE-2021-45046. Additional details
+      are available here.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -392,7 +395,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Evergage (Interaction Studio) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Evergage (Interaction Studio) was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to address the issues
+      currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -550,7 +555,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'MuleSoft (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046.
+    notes: MuleSoft (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046.
       Salesforce-owned services and third-party vendors, including Private Cloud
       Edition (PCE) and Anypoint Studio, have a mitigation in place to address the
       issues currently identified in CVE-2021-44228 and CVE-2021-45046.
