@@ -717,6 +717,546 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Panasonic
+    product: KX-HDV100
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-HDV130
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-HDV230
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-HDV330
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-HDV340
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-HDV430
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-HDV800
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-TGP500
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-TGP550
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-TGP600
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-TGP700
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-UDS124
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-UT113
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-UT123
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-UT133
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-UT136
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-UT248
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-UT670
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
   - vendor: Panopto
     product: ''
     cves:
