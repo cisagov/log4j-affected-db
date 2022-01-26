@@ -130,14 +130,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -149,7 +151,7 @@ software:
     notes: 'Analytics Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: B2C Commerce Cloud
     cves:
@@ -159,14 +161,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -178,7 +182,7 @@ software:
     notes: 'B2C Commerce Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: ClickSoftware (As-a-Service)
     cves:
@@ -188,14 +192,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -207,7 +213,7 @@ software:
     notes: 'ClickSoftware (As-a-Service) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: ClickSoftware (On-Premise)
     cves:
@@ -217,14 +223,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -236,7 +244,7 @@ software:
     notes: 'ClickSoftware (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Additional details are available here.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Experience (Community) Cloud
     cves:
@@ -246,14 +254,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -265,7 +275,7 @@ software:
     notes: '"Experience Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Data.com
     cves:
@@ -275,14 +285,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -294,7 +306,7 @@ software:
     notes: 'Data.com was affected by CVE-2021-44228 and CVE-2021-45046.  Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: DataLoader
     cves:
@@ -334,14 +346,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -353,7 +367,7 @@ software:
     notes: 'Datorama was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Evergage (Interaction Studio)
     cves:
@@ -363,14 +377,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -382,7 +398,7 @@ software:
     notes: 'Evergage (Interaction Studio) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Force.com
     cves:
@@ -392,14 +408,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -413,7 +431,7 @@ software:
 The Data Loader tool has been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Make sure that you are using Data Loader version 53.0.2 or later. Follow the steps described here to download the latest version of Data Loader.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Heroku
     cves:
@@ -426,12 +444,14 @@ The Data Loader tool has been patched to address the issues currently identified
         investigated: false
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45105:
         investigated: false
         affected_versions: []
@@ -442,7 +462,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'Heroku is reported to not be affected by the issues currently identified in CVE-2021-44228 or CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Marketing Cloud
     cves:
@@ -452,14 +472,16 @@ The Data Loader tool has been patched to address the issues currently identified
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -471,7 +493,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'Salesforce-owned services within Marketing Cloud are not affected by the issues currently identified in CVE-2021-44228 or CVE-2021-45046. Third-party vendors have been patched to address the security issues currently identified in CVE-2021-44228 or CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: MuleSoft (Cloud)
     cves:
@@ -481,14 +503,16 @@ The Data Loader tool has been patched to address the issues currently identified
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -500,7 +524,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'MuleSoft (Cloud) was affected by CVE-2021-44228 and CVE-2021-45046. Mulesoft services, including dataloader.io, have been updated to mitigate the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Please see additional details here.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: MuleSoft (On-Premise)
     cves:
@@ -510,14 +534,16 @@ The Data Loader tool has been patched to address the issues currently identified
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -529,7 +555,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'MuleSoft (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors, including Private Cloud Edition (PCE) and Anypoint Studio, have a mitigation in place to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Please see additional details here.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Pardot
     cves:
@@ -539,14 +565,16 @@ The Data Loader tool has been patched to address the issues currently identified
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -558,7 +586,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'Pardot was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Sales Cloud
     cves:
@@ -568,14 +596,16 @@ The Data Loader tool has been patched to address the issues currently identified
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -587,7 +617,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'Sales Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Service Cloud
     cves:
@@ -597,14 +627,16 @@ The Data Loader tool has been patched to address the issues currently identified
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -616,7 +648,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'Service Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Slack
     cves:
@@ -626,14 +658,16 @@ The Data Loader tool has been patched to address the issues currently identified
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -645,7 +679,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'Slack was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in both CVE-2021-44228 and CVE-2021-45046.  Additional details are available here.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Social Studio
     cves:
@@ -655,14 +689,16 @@ The Data Loader tool has been patched to address the issues currently identified
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -674,7 +710,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'Social Studio was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Tableau (On-Premise)
     cves:
@@ -714,14 +750,16 @@ The Data Loader tool has been patched to address the issues currently identified
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -733,7 +771,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: 'Tableau Online was affected by CVE-2021-44228 and CVE-2021-45046. Services have been patched to mitigate the issues currently identified in both CVE-2021-44228 and CVE-2021-45046.'
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Samsung Electronics America
     product: Knox Reseller Portal
     cves:
