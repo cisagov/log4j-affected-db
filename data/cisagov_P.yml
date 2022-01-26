@@ -928,7 +928,97 @@ software:
       - ''
     last_updated: '2022-01-20T00:00:00'
   - vendor: Panasonic
-    product: KX-TGP500, KX-TGP550, KX-TGP600, KX-TGP700
+    product: KX-TGP500
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-TGP550
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-TGP600
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://panasonic.net/cns/pcc/support/sipphone/disposaldoc-Apache_Log4j_Vulnerability.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-20T00:00:00'
+  - vendor: Panasonic
+    product: KX-TGP700
     cves:
       cve-2021-4104:
         investigated: ''
