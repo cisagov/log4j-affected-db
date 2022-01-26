@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ZAMMAD
     product: ''
     cves:
@@ -61,7 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zaproxy
     product: ''
     cves:
@@ -90,7 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zebra
     product: ''
     cves:
@@ -119,7 +119,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zendesk
     product: All Products
     cves:
@@ -180,7 +180,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zentera Systems, Inc.
     product: CoIP Access Platform
     cves:
@@ -239,7 +239,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zesty
     product: ''
     cves:
@@ -268,7 +268,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zimbra
     product: ''
     cves:
@@ -297,7 +297,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zix
     product: ''
     cves:
@@ -355,7 +355,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ZPE systems Inc
     product: ''
     cves:
@@ -384,7 +384,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zscaler
     product: See Link (Multiple Products)
     cves:
@@ -442,7 +442,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zyxel
     product: Security Firewall/Gateways
     cves:

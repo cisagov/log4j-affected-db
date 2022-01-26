@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Qlik
     product: ''
     cves:
@@ -61,37 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
-  - vendor: QMATIC
-    product: Orchestra Central
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 6.0+
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-21T00:00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: QMATIC
     product: Appointment Booking
     cves:
@@ -119,6 +89,36 @@ software:
     vendor_links:
       - https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability
     notes: Update to v. 2.8.2 which contains log4j 2.16
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: QMATIC
+    product: Appointment Booking
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - Cloud/Managed Service
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability
+    notes: log4j 2.16 applied 2021-12-15
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -153,7 +153,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: QMATIC
-    product: Appointment Booking
+    product: Orchestra Central
     cves:
       cve-2021-4104:
         investigated: false
@@ -162,10 +162,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - Cloud/Managed Service
+        affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 6.0+
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -178,7 +178,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.qmatic.com/meet-qmatic/news/qmatic-statement-on-log4j-vulnerability
-    notes: log4j 2.16 applied 2021-12-15
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -210,7 +210,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: QOPPA
     product: ''
     cves:
@@ -239,7 +239,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: QSC Q-SYS
     product: ''
     cves:
@@ -268,7 +268,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: QT
     product: ''
     cves:
@@ -297,7 +297,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Quest Global
     product: ''
     cves:
@@ -326,5 +326,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

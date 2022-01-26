@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: YellowFin
     product: ''
     cves:
@@ -61,7 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: YOKOGAWA
     product: ''
     cves:
@@ -119,5 +119,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

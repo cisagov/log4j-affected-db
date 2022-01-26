@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: F-Secure
     product: Endpoint Proxy
     cves:
@@ -62,7 +62,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: F-Secure
     product: Messaging Security Gateway
     cves:
@@ -91,7 +91,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: F-Secure
     product: Policy Manager
     cves:
@@ -121,7 +121,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: F-Secure
     product: Policy Manager Proxy
     cves:
@@ -151,7 +151,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: F5
     product: BIG-IP (all modules)
     cves:
@@ -181,7 +181,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: F5
     product: BIG-IQ Centralized Management
     cves:
@@ -211,7 +211,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: F5
     product: F5OS
     cves:
@@ -241,7 +241,247 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: F5
+    product: NGINX App Protect
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 3.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: F5
+    product: NGINX Controller
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 3.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: F5
+    product: NGINX Ingress Controller
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.x - 2.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: F5
+    product: NGINX Instance Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: F5
+    product: NGINX Open Source
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: F5
+    product: NGINX Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - R19 - R25
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: F5
+    product: NGINX Service Mesh
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: F5
+    product: NGINX Unit
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 1.x
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.f5.com/csp/article/K19026212
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: F5
     product: Traffix SDC
     cves:
@@ -273,247 +513,7 @@ software:
       Kibana), Element Management System'
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - R19 - R25
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Open Source
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 1.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Unit
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 1.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX App Protect
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 3.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Controller
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 3.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Ingress Controller
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 1.x - 2.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Instance Manager
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 1.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
-  - vendor: F5
-    product: NGINX Service Mesh
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 1.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.f5.com/csp/article/K19026212
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FAST LTA
     product: ''
     cves:
@@ -542,7 +542,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fastly
     product: ''
     cves:
@@ -571,7 +571,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FedEx
     product: Ship Manager Software
     cves:
@@ -668,7 +668,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FileCatalyst
     product: ''
     cves:
@@ -697,7 +697,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FileCloud
     product: ''
     cves:
@@ -726,7 +726,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FileWave
     product: ''
     cves:
@@ -755,7 +755,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FINVI
     product: ''
     cves:
@@ -784,7 +784,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FireDaemon
     product: ''
     cves:
@@ -813,7 +813,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fisher & Paykel Healthcare
     product: ''
     cves:
@@ -871,7 +871,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Flexera
     product: ''
     cves:
@@ -900,7 +900,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
     product: DLP Manager
     cves:
@@ -929,7 +929,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
     product: Forcepoint Cloud Security Gateway (CSG)
     cves:
@@ -958,7 +958,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
     product: Next Generation Firewall (NGFW)
     cves:
@@ -987,7 +987,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
     product: Next Generation Firewall, NGFW VPN Client, Forcepoint User ID service
       and Sidewinder
@@ -1017,7 +1017,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
     product: One Endpoint
     cves:
@@ -1046,7 +1046,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
     product: Security Manager (Web, Email and DLP)
     cves:
@@ -1075,7 +1075,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forescout
     product: ''
     cves:
@@ -1104,7 +1104,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ForgeRock
     product: Autonomous Identity
     cves:
@@ -1133,7 +1133,7 @@ software:
     notes: all other ForgeRock products Not vulnerable
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiAIOps
     cves:
@@ -1162,7 +1162,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiAnalyzer
     cves:
@@ -1191,7 +1191,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiAnalyzer Cloud
     cves:
@@ -1220,7 +1220,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiAP
     cves:
@@ -1249,7 +1249,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiAuthenticator
     cves:
@@ -1278,7 +1278,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiCASB
     cves:
@@ -1307,7 +1307,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiConvertor
     cves:
@@ -1336,7 +1336,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiDeceptor
     cves:
@@ -1365,7 +1365,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiEDR Agent
     cves:
@@ -1394,7 +1394,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiEDR Cloud
     cves:
@@ -1423,7 +1423,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiGate Cloud
     cves:
@@ -1452,7 +1452,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiGSLB Cloud
     cves:
@@ -1481,7 +1481,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiMail
     cves:
@@ -1510,7 +1510,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiManager
     cves:
@@ -1539,7 +1539,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiManager Cloud
     cves:
@@ -1568,7 +1568,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiNAC
     cves:
@@ -1597,7 +1597,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiNAC
     cves:
@@ -1626,7 +1626,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiOS (includes FortiGate & FortiWiFi)
     cves:
@@ -1655,7 +1655,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiPhish Cloud
     cves:
@@ -1684,7 +1684,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiPolicy
     cves:
@@ -1713,7 +1713,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiPortal
     cves:
@@ -1742,7 +1742,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiRecorder
     cves:
@@ -1771,7 +1771,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiSIEM
     cves:
@@ -1800,7 +1800,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiSOAR
     cves:
@@ -1829,7 +1829,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiSwicth Cloud in FortiLANCloud
     cves:
@@ -1858,7 +1858,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiSwitch & FortiSwitchManager
     cves:
@@ -1887,7 +1887,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiToken Cloud
     cves:
@@ -1916,7 +1916,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiVoice
     cves:
@@ -1945,7 +1945,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: FortiWeb Cloud
     cves:
@@ -1974,7 +1974,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
     product: ShieldX
     cves:
@@ -2003,7 +2003,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FTAPI
     product: ''
     cves:
@@ -2032,7 +2032,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fujitsu
     product: ''
     cves:
@@ -2061,7 +2061,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FusionAuth
     product: FusionAuth
     cves:
@@ -2091,5 +2091,5 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:52+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...

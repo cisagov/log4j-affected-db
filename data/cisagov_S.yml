@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SAFE FME Server
     product: ''
     cves:
@@ -61,7 +61,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SAGE
     product: ''
     cves:
@@ -90,7 +90,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SailPoint
     product: ''
     cves:
@@ -120,7 +120,7 @@ software:
       by CISA
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Salesforce
     product: Analytics Cloud
     cves:
@@ -148,7 +148,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Analytics Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Analytics Cloud was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to
+      address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -179,7 +181,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'B2C Commerce Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: B2C Commerce Cloud was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to address
+      the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -210,7 +214,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'ClickSoftware (As-a-Service) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: ClickSoftware (As-a-Service) was affected by CVE-2021-44228
+      and CVE-2021-45046. Salesforce-owned services and third-party vendors
+      have been patched to address the issues currently identified in
+      CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -241,7 +248,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'ClickSoftware (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Additional details are available here.'
+    notes: ClickSoftware (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to address the
+      issues currently identified in CVE-2021-44228 and CVE-2021-45046. Additional details
+      are available here.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -272,7 +282,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: '"Experience Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Experience Cloud was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to
+      address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -303,7 +315,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Data.com was affected by CVE-2021-44228 and CVE-2021-45046.  Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Data.com was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched
+      to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -364,7 +378,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Datorama was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Datorama was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched
+      to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -395,7 +411,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Evergage (Interaction Studio) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Evergage (Interaction Studio) was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to address the issues
+      currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -426,9 +444,13 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Force.com was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. 
-
-The Data Loader tool has been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Make sure that you are using Data Loader version 53.0.2 or later. Follow the steps described here to download the latest version of Data Loader.'
+    notes: Force.com was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched
+      to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
+      The Data Loader tool has been patched to address the issues currently identified
+      in CVE-2021-44228 and CVE-2021-45046. Make sure that you are using Data Loader
+      version 53.0.2 or later. Follow the steps described here to download the latest
+      version of Data Loader.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -459,7 +481,8 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Heroku is reported to not be affected by the issues currently identified in CVE-2021-44228 or CVE-2021-45046.'
+    notes: Heroku is reported to not be affected by the issues currently
+      identified in CVE-2021-44228 or CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -490,7 +513,10 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Salesforce-owned services within Marketing Cloud are not affected by the issues currently identified in CVE-2021-44228 or CVE-2021-45046. Third-party vendors have been patched to address the security issues currently identified in CVE-2021-44228 or CVE-2021-45046.'
+    notes: Salesforce-owned services within Marketing Cloud are not affected
+      by the issues currently identified in CVE-2021-44228 or CVE-2021-45046.
+      Third-party vendors have been patched to address the security issues currently
+      identified in CVE-2021-44228 or CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -521,7 +547,10 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'MuleSoft (Cloud) was affected by CVE-2021-44228 and CVE-2021-45046. Mulesoft services, including dataloader.io, have been updated to mitigate the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Please see additional details here.'
+    notes: MuleSoft (Cloud) was affected by CVE-2021-44228 and CVE-2021-45046.
+      Mulesoft services, including dataloader.io, have been updated to mitigate
+      the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
+      Please see additional details here.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -552,7 +581,11 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'MuleSoft (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors, including Private Cloud Edition (PCE) and Anypoint Studio, have a mitigation in place to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046. Please see additional details here.'
+    notes: MuleSoft (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors, including Private Cloud
+      Edition (PCE) and Anypoint Studio, have a mitigation in place to address the
+      issues currently identified in CVE-2021-44228 and CVE-2021-45046.
+      Please see additional details here.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -583,7 +616,9 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Pardot was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Pardot was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched
+      to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -614,7 +649,9 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Sales Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Sales Cloud was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to
+      address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -645,7 +682,9 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Service Cloud was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Service Cloud was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to
+      address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -676,7 +715,10 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Slack was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in both CVE-2021-44228 and CVE-2021-45046.  Additional details are available here.'
+    notes: Slack was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched
+      to address the issues currently identified in both CVE-2021-44228 and CVE-2021-45046.
+      Additional details are available here.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -707,7 +749,9 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Social Studio was affected by CVE-2021-44228 and CVE-2021-45046. Salesforce-owned services and third-party vendors have been patched to address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.'
+    notes: Social Studio was affected by CVE-2021-44228 and CVE-2021-45046.
+      Salesforce-owned services and third-party vendors have been patched to
+      address the issues currently identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
@@ -737,7 +781,9 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://kb.tableau.com/articles/issue/Apache-Log4j2-vulnerability-Log4shell
-    notes: Tableau (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046. Patches to address the issues currently identified in both CVE-2021-44228 and CVE-2021-45046 are available for download. Additional details are available here.
+    notes: Tableau (On-Premise) was affected by CVE-2021-44228 and CVE-2021-45046.
+      Patches to address the issues currently identified in both CVE-2021-44228 and
+      CVE-2021-45046 are available for download. Additional details are available here.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
@@ -768,72 +814,12 @@ The Data Loader tool has been patched to address the issues currently identified
         unaffected_versions: []
     vendor_links:
       - https://help.salesforce.com/s/articleView?id=000363736&type=1
-    notes: 'Tableau Online was affected by CVE-2021-44228 and CVE-2021-45046. Services have been patched to mitigate the issues currently identified in both CVE-2021-44228 and CVE-2021-45046.'
+    notes: Tableau Online was affected by CVE-2021-44228 and CVE-2021-45046.
+      Services have been patched to mitigate the issues currently identified in
+      both CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-26T00:00:00'
-  - vendor: Samsung Electronics America
-    product: Knox Reseller Portal
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - 'Cloud'
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - 'Cloud'
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-17T00:00:00'
-  - vendor: Samsung Electronics America
-    product: Knox Manage
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - 'Cloud'
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - 'Cloud'
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-17T00:00:00'
   - vendor: Samsung Electronics America
     product: Knox Admin Portal
     cves:
@@ -847,75 +833,13 @@ The Data Loader tool has been patched to address the issues currently identified
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-17T00:00:00'
-  - vendor: Samsung Electronics America
-    product: Knox Mobile Enrollment
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-17T00:00:00'
-  - vendor: Samsung Electronics America
-    product: Knox Configure
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45105:
         investigated: false
         affected_versions: []
@@ -940,13 +864,44 @@ The Data Loader tool has been patched to address the issues currently identified
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Configure
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45105:
         investigated: false
         affected_versions: []
@@ -971,44 +926,13 @@ The Data Loader tool has been patched to address the issues currently identified
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-17T00:00:00'
-  - vendor: Samsung Electronics America
-    product: Knox Managed Services Provider (MSP)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45105:
         investigated: false
         affected_versions: []
@@ -1033,13 +957,13 @@ The Data Loader tool has been patched to address the issues currently identified
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45105:
         investigated: false
         affected_versions: []
@@ -1064,13 +988,137 @@ The Data Loader tool has been patched to address the issues currently identified
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Manage
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Managed Services Provider (MSP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Mobile Enrollment
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.samsungknox.com/en/blog/an-update-on-the-impact-of-the-apache-log4j-cve-2021-44228-vulnerability-on-samsung-knox-cloud-services
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-17T00:00:00'
+  - vendor: Samsung Electronics America
+    product: Knox Reseller Portal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
       cve-2021-45105:
         investigated: false
         affected_versions: []
@@ -1110,7 +1158,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SAP
     product: ''
     cves:
@@ -1229,7 +1277,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SASSAFRAS
     product: ''
     cves:
@@ -1258,7 +1306,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Savignano software solutions
     product: ''
     cves:
@@ -1287,7 +1335,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SBT
     product: SBT
     cves:
@@ -1347,7 +1395,7 @@ The Data Loader tool has been patched to address the issues currently identified
       by CISA
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ScaleFusion MobileLock Pro
     product: ''
     cves:
@@ -1376,125 +1424,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
-  - vendor: Schneider Electric
-    product: EcoStruxure IT Gateway
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - V1.5.0 to V1.13.0
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://ecostruxureit.com/download-and-set-upecostruxureit-gateway/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: Schneider Electric
-    product: EcoStruxure IT Expert
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - Cloud
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: Schneider Electric
-    product: Facility Expert Small Business
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - Cloud
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.se.com/us/en/download/document/7EN52-0390/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: Schneider Electric
-    product: Wiser by SE platform
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - Cloud
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Schneider Electric
     product: EASYFIT
     cves:
@@ -1556,6 +1486,65 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: Schneider Electric
+    product: EcoStruxure IT Expert
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Schneider Electric
+    product: EcoStruxure IT Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - V1.5.0 to V1.13.0
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://ecostruxureit.com/download-and-set-upecostruxureit-gateway/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Schneider Electric
     product: Eurotherm Data Reviewer
     cves:
       cve-2021-4104:
@@ -1568,6 +1557,36 @@ The Data Loader tool has been patched to address the issues currently identified
         affected_versions:
           - V3.0.2 and prior
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.se.com/us/en/download/document/7EN52-0390/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Schneider Electric
+    product: Facility Expert Small Business
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2065,6 +2084,35 @@ The Data Loader tool has been patched to address the issues currently identified
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'
+  - vendor: Schneider Electric
+    product: Wiser by SE platform
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
   - vendor: Schweitzer Engineering Laboratories
     product: ''
     cves:
@@ -2122,7 +2170,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ScreenBeam
     product: ''
     cves:
@@ -2151,7 +2199,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SDL worldServer
     product: ''
     cves:
@@ -2180,7 +2228,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Seagull Scientific
     product: ''
     cves:
@@ -2209,7 +2257,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SecurePoint
     product: ''
     cves:
@@ -2238,7 +2286,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Security Onion
     product: ''
     cves:
@@ -2267,38 +2315,9 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Securonix
-    product: SNYPR Application
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-OnPrem-Customer-Update.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-10T00:00:00'
-  - vendor: Securonix
-    product: Next Gen SIEM
+    product: Extended Detection and Response (XDR)
     cves:
       cve-2021-4104:
         investigated: false
@@ -2328,7 +2347,7 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-10T00:00:00'
   - vendor: Securonix
-    product: User and Entity Behavior Analytics(UEBA)
+    product: Next Gen SIEM
     cves:
       cve-2021-4104:
         investigated: false
@@ -2388,7 +2407,36 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-10T00:00:00'
   - vendor: Securonix
-    product: Extended Detection and Response (XDR)
+    product: SNYPR Application
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.securonix.com/wp-content/uploads/2021/12/CVE-2021-44228-Securonix-OnPrem-Customer-Update.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-10T00:00:00'
+  - vendor: Securonix
+    product: User and Entity Behavior Analytics(UEBA)
     cves:
       cve-2021-4104:
         investigated: false
@@ -2446,7 +2494,7 @@ The Data Loader tool has been patched to address the issues currently identified
       by CISA.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SentinelOne
     product: ''
     cves:
@@ -2475,7 +2523,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sentry
     product: ''
     cves:
@@ -2504,7 +2552,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SEP
     product: ''
     cves:
@@ -2533,7 +2581,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Server Eye
     product: ''
     cves:
@@ -2562,7 +2610,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ServiceNow
     product: ''
     cves:
@@ -2591,7 +2639,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Shibboleth
     product: ''
     cves:
@@ -2620,7 +2668,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Shibboleth
     product: All Products
     cves:
@@ -2680,7 +2728,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Siebel
     product: ''
     cves:
@@ -2709,7 +2757,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Siemens
     product: Affected Products
     cves:
@@ -2923,6 +2971,64 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
+    product: Cios Flow S1 / Alpha / Spin VA30
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
+    notes: evaluation ongoing
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Siemens Healthineers
+    product: Cios Select FD/I.I. VA21 / VA21-S3P
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
+    notes: evaluation ongoing
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Siemens Healthineers
     product: DICOM Proxy VB10A
     cves:
       cve-2021-4104:
@@ -2948,64 +3054,6 @@ The Data Loader tool has been patched to address the issues currently identified
     vendor_links:
       - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
     notes: 'Workaround: remove the vulnerable class from the .jar file'
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Siemens Healthineers
-    product: Somatom Scope Som5 VC50
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
-    notes: evaluation ongoing
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Siemens Healthineers
-    product: Somatom Emotion Som5 VC50
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
-    notes: evaluation ongoing
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -3563,6 +3611,93 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
+    product: SENSIS DMCC / DMCM / TS / VM / PPWS / DS VD12A
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
+    notes: evaluation ongoing
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Siemens Healthineers
+    product: Somatom Emotion Som5 VC50
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
+    notes: evaluation ongoing
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Siemens Healthineers
+    product: Somatom Scope Som5 VC50
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
+    notes: evaluation ongoing
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Siemens Healthineers
     product: Syngo Carbon Space VA10A / VA10A-CUT2 / VA20A
     cves:
       cve-2021-4104:
@@ -3713,93 +3848,6 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Siemens Healthineers
-    product: SENSIS DMCC / DMCM / TS / VM / PPWS / DS VD12A
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
-    notes: evaluation ongoing
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Siemens Healthineers
-    product: Cios Select FD/I.I. VA21 / VA21-S3P
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
-    notes: evaluation ongoing
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Siemens Healthineers
-    product: Cios Flow S1 / Alpha / Spin VA30
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
-    notes: evaluation ongoing
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Siemens Healthineers
     product: syngo.via WebViewer VA13B / VA20A / VA20B
     cves:
       cve-2021-4104:
@@ -3916,36 +3964,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
-  - vendor: Sierra Wireless
-    product: AM/AMM servers
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/#sthash.iT98k4HP.dpbs
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sierra Wireless
     product: AirVantage and Octave cloud platforms
     cves:
@@ -3973,6 +3992,35 @@ The Data Loader tool has been patched to address the issues currently identified
       - https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/#sthash.iT98k4HP.dpbs
     notes: These systems do not operate with the specific non-standard configuration
       required for CVE-2021-25046 and hence were not vulnerable to it.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Sierra Wireless
+    product: AM/AMM servers
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://source.sierrawireless.com/resources/security-bulletins/sierra-wireless-technical-bulletin---swi-psa-2021-007/#sthash.iT98k4HP.dpbs
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-05T00:00:00'
@@ -4004,7 +4052,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Silver Peak
     product: Orchestrator, Silver Peak GMS
     cves:
@@ -4066,7 +4114,7 @@ The Data Loader tool has been patched to address the issues currently identified
       by CISA
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SISCO
     product: ''
     cves:
@@ -4124,7 +4172,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Skillable
     product: ''
     cves:
@@ -4153,7 +4201,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SLF4J
     product: ''
     cves:
@@ -4182,7 +4230,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Slurm
     product: Slurm
     cves:
@@ -4270,7 +4318,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SmileCDR
     product: ''
     cves:
@@ -4299,7 +4347,36 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Sn0m
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.snom.com/en/press/log4j-poses-no-threat-snom-phones/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Snakemake
     product: Snakemake
     cves:
@@ -4330,35 +4407,6 @@ The Data Loader tool has been patched to address the issues currently identified
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
-  - vendor: Sn0m
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.snom.com/en/press/log4j-poses-no-threat-snom-phones/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
   - vendor: Snow Software
     product: Snow Commander
     cves:
@@ -4388,7 +4436,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Snow Software
     product: VM Access Proxy
     cves:
@@ -4418,7 +4466,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Snowflake
     product: ''
     cves:
@@ -4447,7 +4495,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Snyk
     product: Cloud Platform
     cves:
@@ -4476,7 +4524,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Software AG
     product: ''
     cves:
@@ -4505,7 +4553,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SolarWinds
     product: Database Performance Analyzer (DPA)
     cves:
@@ -4626,7 +4674,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sonatype
     product: All Products
     cves:
@@ -4661,35 +4709,6 @@ The Data Loader tool has been patched to address the issues currently identified
     references:
       - ''
     last_updated: '2021-12-29T00:00:00'
-  - vendor: SonicWall
-    product: Capture Client & Capture Client Portal
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032
-    notes: Log4j2 not used in the Capture Client.
-    references:
-      - ''
-    last_updated: '2021-12-12T00:00:00'
   - vendor: SonicWall
     product: Access Points
     cves:
@@ -4774,6 +4793,35 @@ The Data Loader tool has been patched to address the issues currently identified
     vendor_links:
       - https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032
     notes: Under Review
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: SonicWall
+    product: Capture Client & Capture Client Portal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032
+    notes: Log4j2 not used in the Capture Client.
     references:
       - ''
     last_updated: '2021-12-12T00:00:00'
@@ -5568,9 +5616,9 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Spacelabs Healthcare
-    product: XprezzNet
+    product: ABP
     cves:
       cve-2021-4104:
         investigated: false
@@ -5582,7 +5630,128 @@ The Data Loader tool has been patched to address the issues currently identified
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '96190'
+          - OnTrak
+          - 90217A
+          - and 90207
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: CardioExpress
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - SL6A
+          - SL12A
+          - and SL18A
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: DM3 and DM4 Monitors
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Eclipse Pro
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: EVO
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5641,6 +5810,245 @@ The Data Loader tool has been patched to address the issues currently identified
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Lifescreen Pro
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Pathfinder SL
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Qube
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '91390'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Qube Mini
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '91389'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: SafeNSound
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 4.3.1
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: Version >4.3.1 - Not Affected
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Sentinel
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Spacelabs Cloud
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
+    product: Ultraview SL
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '91367'
+          - '91369'
+          - '91370'
+          - and 91387
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5719,6 +6127,36 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2022-01-05T00:00:00'
   - vendor: Spacelabs Healthcare
+    product: XprezzNet
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '96190'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
+  - vendor: Spacelabs Healthcare
     product: Xprezzon
     cves:
       cve-2021-4104:
@@ -5745,396 +6183,6 @@ The Data Loader tool has been patched to address the issues currently identified
     vendor_links:
       - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
     notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: Qube
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - '91390'
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: Qube Mini
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - '91389'
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: Ultraview SL
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - '91367'
-          - '91369'
-          - '91370'
-          - and 91387
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: DM3 and DM4 Monitors
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: Sentinel
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: Pathfinder SL
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: Lifescreen Pro
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: EVO
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: Eclipse Pro
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: CardioExpress
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - SL6A
-          - SL12A
-          - and SL18A
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: ABP
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - OnTrak
-          - 90217A
-          - and 90207
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: Spacelabs Cloud
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-05T00:00:00'
-  - vendor: Spacelabs Healthcare
-    product: SafeNSound
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - 4.3.1
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.spacelabshealthcare.com/products/security/security-advisories-and-archives/log4shell-vulnerability-assessment-and-potential-product-impact-statement/
-    notes: Version >4.3.1 - Not Affected
     references:
       - ''
     last_updated: '2022-01-05T00:00:00'
@@ -6166,7 +6214,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Spigot
     product: ''
     cves:
@@ -6195,97 +6243,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
-  - vendor: Splunk
-    product: Splunk Add-On for Java Management Extensions [App ID 2647](https://splunkbase.splunk.com/app/2647)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 5.2.0 and older
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-30T08:20:00-08:00'
-  - vendor: Splunk
-    product: Splunk Splunk Add-On for JBoss [App ID 2954](https://splunkbase.splunk.com/app/2954/)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 3.0.0 and older
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-30T08:20:00-08:00'
-  - vendor: Splunk
-    product: Splunk Add-On for Tomcat [App ID 2911](https://splunkbase.splunk.com/app/2911/)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 3.0.0 and older
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-30T08:20:00-08:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Splunk
     product: Data Stream Processor
     cves:
@@ -6368,6 +6326,96 @@ The Data Loader tool has been patched to address the issues currently identified
           - 4.7.x
           - 4.6.x
           - 4.5.x
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-30T08:20:00-08:00'
+  - vendor: Splunk
+    product: Splunk Add-On for Java Management Extensions [App ID 2647](https://splunkbase.splunk.com/app/2647)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 5.2.0 and older
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-30T08:20:00-08:00'
+  - vendor: Splunk
+    product: Splunk Add-On for Tomcat [App ID 2911](https://splunkbase.splunk.com/app/2911/)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 3.0.0 and older
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-30T08:20:00-08:00'
+  - vendor: Splunk
+    product: Splunk Application Performance Monitoring
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - Current
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6509,6 +6557,66 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
+    product: Splunk Infrastructure Monitoring
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - Current
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-30T08:20:00-08:00'
+  - vendor: Splunk
+    product: Splunk Log Observer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - Current
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-30T08:20:00-08:00'
+  - vendor: Splunk
     product: Splunk Logging Library for Java
     cves:
       cve-2021-4104:
@@ -6520,6 +6628,36 @@ The Data Loader tool has been patched to address the issues currently identified
         investigated: true
         affected_versions:
           - 1.11.0 and older
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-30T08:20:00-08:00'
+  - vendor: Splunk
+    product: Splunk On-call / VictorOps
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - Current
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6599,66 +6737,6 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
-    product: Splunk VMWare OVA for ITSI [App ID 4760](https://splunkbase.splunk.com/app/4760/)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 1.1.1 and older
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-30T08:20:00-08:00'
-  - vendor: Splunk
-    product: Splunk On-call / VictorOps
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - Current
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-30T08:20:00-08:00'
-  - vendor: Splunk
     product: Splunk Real User Monitoring
     cves:
       cve-2021-4104:
@@ -6689,7 +6767,7 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Splunk
-    product: Splunk Application Performance Monitoring
+    product: Splunk Splunk Add-On for JBoss [App ID 2954](https://splunkbase.splunk.com/app/2954/)
     cves:
       cve-2021-4104:
         investigated: false
@@ -6699,67 +6777,7 @@ The Data Loader tool has been patched to address the issues currently identified
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - Current
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-30T08:20:00-08:00'
-  - vendor: Splunk
-    product: Splunk Infrastructure Monitoring
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - Current
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-30T08:20:00-08:00'
-  - vendor: Splunk
-    product: Splunk Log Observer
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - Current
+          - 3.0.0 and older
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6839,6 +6857,36 @@ The Data Loader tool has been patched to address the issues currently identified
     references:
       - ''
     last_updated: '2021-12-30T08:20:00-08:00'
+  - vendor: Splunk
+    product: Splunk VMWare OVA for ITSI [App ID 4760](https://splunkbase.splunk.com/app/4760/)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 1.1.1 and older
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.splunk.com/en_us/blog/bulletins/splunk-security-advisory-for-apache-log4j-cve-2021-44228.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-30T08:20:00-08:00'
   - vendor: Sprecher Automation
     product: ''
     cves:
@@ -6867,7 +6915,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Spring
     product: Spring Boot
     cves:
@@ -6897,7 +6945,7 @@ The Data Loader tool has been patched to address the issues currently identified
       switched the default logging system to Log4J2
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Spring Boot
     product: ''
     cves:
@@ -6926,7 +6974,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: StarDog
     product: ''
     cves:
@@ -6955,7 +7003,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:55+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: STERIS
     product: Advantage
     cves:
@@ -6987,383 +7035,6 @@ The Data Loader tool has been patched to address the issues currently identified
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
     product: Advantage Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: DSD Edge
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: EndoDry
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: RapidAER
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: Endora
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: Canexis 1.0
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: ConnectoHIS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: ScopeBuddy+
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: DSD-201,
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: CER Optima
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: Renatron
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: ConnectAssure Technology
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: SPM Surgical Asset Tracking Software
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: CS-iQ Sterile Processing Workflow
     cves:
       cve-2021-4104:
         investigated: false
@@ -7450,209 +7121,6 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
-    product: AMSCO 5000 SERIES WASHER DISINFECTORS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: AMSCO 7000 SERIES WASHER DISINFECTORS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: RELIANCE 444 WASHER DISINFECTOR
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: RELIANCE SYNERGY WASHER DISINFECTOR
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: RELIANCE VISION 1300 SERIES CART AND UTENSIL WASHER DISINFECTORS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: RELIANCE VISION MULTI- CHAMBER WASHER DISINFECTOR
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: RELIANCE VISION SINGLE CHAMBER WASHER DISINFECTOR
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
     product: AMSCO 400 MEDIUM STEAM STERILIZER
     cves:
       cve-2021-4104:
@@ -7711,7 +7179,65 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
+    product: AMSCO 5000 SERIES WASHER DISINFECTORS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
     product: AMSCO 600 MEDIUM STEAM STERILIZER
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: AMSCO 7000 SERIES WASHER DISINFECTORS
     cves:
       cve-2021-4104:
         investigated: false
@@ -7885,6 +7411,35 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
+    product: Canexis 1.0
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
     product: CELERITY HP INCUBATOR
     cves:
       cve-2021-4104:
@@ -7943,7 +7498,790 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
-    product: VERIFY INCUBATOR FOR ASSERT SELF-CONTAINED BIOLOGICAL INDICATORS
+    product: CER Optima
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: Clarity Software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: Connect Software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: ConnectAssure Technology
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: ConnectoHIS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: CS-iQ Sterile Processing Workflow
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: DSD Edge
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: DSD-201,
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: EndoDry
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: Endora
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: Harmony iQ Integration Systems
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: Harmony iQ Perspectives Image Management System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: HexaVue
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: HexaVue Integration System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: IDSS Integration System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: RapidAER
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: ReadyTracker
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: RealView Visual Workflow Management System
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: RELIANCE 444 WASHER DISINFECTOR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: RELIANCE SYNERGY WASHER DISINFECTOR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: RELIANCE VISION 1300 SERIES CART AND UTENSIL WASHER DISINFECTORS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: RELIANCE VISION MULTI- CHAMBER WASHER DISINFECTOR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: RELIANCE VISION SINGLE CHAMBER WASHER DISINFECTOR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: Renatron
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: ScopeBuddy+
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: SecureCare ProConnect Technical Support Services
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: Situational Awareness for Everyone Display (S.A.F.E.)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: STERIS
+    product: SPM Surgical Asset Tracking Software
     cves:
       cve-2021-4104:
         investigated: false
@@ -8146,297 +8484,7 @@ The Data Loader tool has been patched to address the issues currently identified
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: STERIS
-    product: SecureCare ProConnect Technical Support Services
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: HexaVue Integration System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: IDSS Integration System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: Harmony iQ Integration Systems
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: HexaVue
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: Connect Software
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: Harmony iQ Perspectives Image Management System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: Clarity Software
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: Situational Awareness for Everyone Display (S.A.F.E.)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: RealView Visual Workflow Management System
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://h-isac.org/wp-content/uploads/2021/12/Steris_Revised-Security-Advisory-For-Apaches-Log4j-12.16.21.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: STERIS
-    product: ReadyTracker
+    product: VERIFY INCUBATOR FOR ASSERT SELF-CONTAINED BIOLOGICAL INDICATORS
     cves:
       cve-2021-4104:
         investigated: false
@@ -8492,7 +8540,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Storagement
     product: ''
     cves:
@@ -8521,7 +8569,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: StormShield
     product: ''
     cves:
@@ -8550,7 +8598,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: StrangeBee TheHive & Cortex
     product: ''
     cves:
@@ -8579,7 +8627,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Stratodesk
     product: ''
     cves:
@@ -8608,7 +8656,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Strimzi
     product: ''
     cves:
@@ -8637,7 +8685,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Stripe
     product: ''
     cves:
@@ -8666,7 +8714,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Styra
     product: ''
     cves:
@@ -8695,7 +8743,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sumologic
     product: ''
     cves:
@@ -8724,7 +8772,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SumoLogic
     product: ''
     cves:
@@ -8753,7 +8801,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Superna EYEGLASS
     product: ''
     cves:
@@ -8782,7 +8830,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Suprema Inc
     product: ''
     cves:
@@ -8811,7 +8859,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SUSE
     product: ''
     cves:
@@ -8840,7 +8888,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sweepwidget
     product: ''
     cves:
@@ -8869,7 +8917,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Swyx
     product: ''
     cves:
@@ -8898,7 +8946,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Synchro MSP
     product: ''
     cves:
@@ -8927,7 +8975,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Syncplify
     product: ''
     cves:
@@ -8956,7 +9004,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Synology
     product: ''
     cves:
@@ -8985,7 +9033,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Synopsys
     product: ''
     cves:
@@ -9014,7 +9062,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Syntevo
     product: ''
     cves:
@@ -9043,7 +9091,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: SysAid
     product: ''
     cves:
@@ -9072,7 +9120,7 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Sysdig
     product: ''
     cves:
@@ -9101,5 +9149,5 @@ The Data Loader tool has been patched to address the issues currently identified
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
 ...
