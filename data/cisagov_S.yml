@@ -329,14 +329,16 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
@@ -350,7 +352,7 @@ software:
       identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2022-01-26T00:00:00'
   - vendor: Salesforce
     product: Evergage (Interaction Studio)
     cves:
@@ -462,13 +464,13 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
           - 'All'
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
