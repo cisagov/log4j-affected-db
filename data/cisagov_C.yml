@@ -6453,7 +6453,7 @@ software:
     vendor_links:
       - https://success.code42.com/hc/en-us/articles/4416158712343-RELEASE-NOTIFICATION-Code42-Vulnerability-Mitigation-for-CVE-2021-44228-and-other-updates
     notes: The CrashPlan app was EOL'd and is now called Code42, so if you detect CrashPlan installed, it is vulnerable.
-    But you can update easily to Code42 8.8.1 or newer.
+      But you can update easily to Code42 8.8.1 or newer.
     references:
       - 'https://www.crashplan.com/en-us/business/resources/crashplan-for-small-business-updates-its-desktop-app/'
       - 'https://success.code42.com/hc/en-us/articles/4416158712343-RELEASE-NOTIFICATION-Code42-Vulnerability-Mitigation-for-CVE-2021-44228-and-other-updates'
