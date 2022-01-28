@@ -332,13 +332,13 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All'
+          - All
         unaffected_versions: []
       cve-2021-45046:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All'
+          - All
         unaffected_versions: []
       cve-2021-45105:
         investigated: false
