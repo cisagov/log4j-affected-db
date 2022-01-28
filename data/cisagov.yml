@@ -15904,8 +15904,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '8.8'
-          - possibly prior versions
+          - All
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -15919,10 +15918,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://success.code42.com/hc/en-us/articles/4416158712343-RELEASE-NOTIFICATION-Code42-Vulnerability-Mitigation-for-CVE-2021-44228-and-other-updates
-    notes: I think, they don't specify in the notice, but we know that they released
-      an updated Crashplan client. Possibly prior versions affected.
+    notes: The CrashPlan app is EOL and is now called Code42.  If you detect CrashPlan
+      installed, it is vulnerable. You can update easily to Code42 8.8.1 or newer.
     references:
-      - ''
+      - '[https://www.crashplan.com/en-us/business/resources/crashplan-for-small-business-updates-its-desktop-app/](https://www.crashplan.com/en-us/business/resources/crashplan-for-small-business-updates-its-desktop-app/)'
     last_updated: '2021-12-16T00:00:00'
   - vendor: CodeBeamer
     product: ''
