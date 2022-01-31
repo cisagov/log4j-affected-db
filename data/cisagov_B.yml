@@ -216,10 +216,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -235,7 +236,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-20T00:00:00'
+    last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
     product: DoseTrac® Server, DoseLink™ Server, and Space® Online Suite Server software
     cves:
@@ -245,9 +246,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -264,7 +266,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-20T00:00:00'
+    last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
     product: Outlook® Safety Infusion System Pump family
     cves:
@@ -274,10 +276,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -293,7 +296,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-20T00:00:00'
+    last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
     product: Pinnacle® Compounder
     cves:
@@ -303,10 +306,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -322,7 +326,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-20T00:00:00'
+    last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
     product: Pump, SpaceStation, and Space® Wireless Battery)
     cves:
@@ -332,10 +336,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -351,7 +356,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-20T00:00:00'
+    last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
     product: Space® Infusion Pump family (Infusomat® Space® Infusion Pump, Perfusor®
       Space® Infusion
@@ -362,10 +367,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -381,7 +387,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-20T00:00:00'
+    last_updated: '2022-01-31T00:00:00'
   - vendor: BD
     product: Arctic Sun™ Analytics
     cves:
@@ -760,7 +766,7 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: Beckman Coulter
-    product: ''
+    product: Access 2, Unicel DxI 600, Unicel DxI 800 (Immunoassay Systems)
     cves:
       cve-2021-4104:
         investigated: false
@@ -768,10 +774,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -787,7 +794,820 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-20T00:00:00'
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxC700AU, AU480, AU640, AU680, AU 2700, AU5400, AU5800, AU5800 (Chemistry Systems)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: Unicel DxC 600, Unicel DxC 800 (Chemistry Systems)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: PK7300, PK7400 (Blood Bank)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: PROService, RAP Box (Information Systems)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxONE Inventory Manager (Information Systems)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxONE Insights (Information Systems)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'All'
+        fixed_versions:
+          - 'Patch'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: Patch has been applied
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: REMISOL ADVANCE (Information Systems)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxONE Command Central (Information Systems)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'All'
+        fixed_versions:
+          - 'Workaround'
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: Customers can follow instructions to remove log4j
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxONE Workflow Manager (Information Systems)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxH 500/520/560 (Hematology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxH 600, 800, SMS (Hematology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'  
+  - vendor: Beckman Coulter
+    product: DxH 900, 690T, SMS II (Hematology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: HmX, HmX AL (Hematology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: LH 500, LH750, LH780, LH785, LH Slidemaker, LH Slidestraine (Hematology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: Ac•T Family, Ac•T 5diff (Hematology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: iRICELL, iQ Workcell, iChemVELOCITY, iQ200 (Urinalysis)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxUm, DxUc, DxU Workcell (Urinalysis)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: Power Express, Power Processor, Power Link (Lab Automation)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: AutoMate 1200, 1250, 2500, 2550 (Lab Automation)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxA 5000, DxA 5000 Fit (Lab Automation)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: Ipaw, Intelligent Sample Banking ISB, Sorting Drive (Lab Automation)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: LabPro Workstation and Database Computers Provided by Beckman Coulter (Microbiology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'All'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: The only known instance of vulnerability due to Log4J is using Axeda services
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: MicroScan autoSCAN-4 (Microbiology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: HighFlexX Software (Microbiology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: WalkAway 40 SI, WalkAway 96 SI, WalkAway 40 plus, WalkAway 96 plus (Microbiology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: DxM WalkAway 1040, DxM WalkAway 1096, DxM Autoplak (Microbiology)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
+  - vendor: Beckman Coulter
+    product: IMMAGE 800 (Nephelometry)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.beckmancoulter.com/en/about-beckman-coulter/product-security/product-security-updates
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-31T00:00:00'
   - vendor: Beijer Electronics
     product: acirro+
     cves:
