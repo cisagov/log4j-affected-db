@@ -2092,7 +2092,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2122,7 +2122,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2152,7 +2152,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2182,7 +2182,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2212,7 +2212,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Dell
+    product: Client Platforms (Latitude, OptiPlex, Alienware, Inspiron, Precision, XPS, Vostro, ChengMing) BIOS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2242,7 +2272,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2272,7 +2302,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2302,7 +2332,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2332,7 +2362,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2362,7 +2392,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2392,7 +2422,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2422,7 +2452,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2452,7 +2482,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2482,7 +2512,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2512,7 +2542,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2542,7 +2572,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2572,7 +2602,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2602,7 +2632,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2632,7 +2662,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2662,7 +2692,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2692,7 +2722,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2722,7 +2752,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2752,7 +2782,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2782,7 +2812,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2812,7 +2842,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2842,7 +2872,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2900,7 +2930,11 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '"18.2 19.1 19.2 19.3 19.4"'
+          - '18.2'
+          - '19.1'
+          - '19.2'
+          - '19.3'
+          - '19.4'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2915,9 +2949,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: Patch expected by 12/20/21
+    notes: Patch expected by 12/20/21.
     references:
-      - ''
+      - 'https://www.dell.com/support/kbdoc/en-us/000194480/dsa-2021-277-dell-emc-avamar-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC BSN Controller Node
@@ -2930,7 +2964,8 @@ software:
       cve-2021-44228:
         investigated: false
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2946,7 +2981,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: See DSA-2021-305
     references:
-      - ''
+      - 'https://www.dell.com/support/kbdoc/en-us/000194631/dsa-2021-305-dell-emc-bsn-controller-node-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Cloud Disaster Recovery
@@ -2959,7 +2994,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - N/A
+          - 'Versions from 19.6 and later'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2976,7 +3011,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: Patch pending
     references:
-      - ''
+      - 'https://www.dell.com/support/kbdoc/en-us/000194663/dsa-2021-289-dell-emc-cloud-disaster-recovery-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228-and-cve-2021-45046'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Cloudboost
@@ -2991,7 +3026,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3021,7 +3056,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3051,7 +3086,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3081,7 +3116,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
