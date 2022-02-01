@@ -766,7 +766,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.datadoghq.com/log4j-vulnerability/
-    notes: Following AWS recommendation, library updated using the latest version of amazon-lambda-java-log4j2 (1.4.0). 
+    notes: Following AWS recommendation, library updated using the latest version of amazon-lambda-java-log4j2 (1.4.0).
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
