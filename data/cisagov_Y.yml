@@ -36,7 +36,7 @@ software:
     notes: Your Vespa application may still be affected if log4j is included in your application package.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:50+00:00'  
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Yellowbrick
     product: ''
     cves:
