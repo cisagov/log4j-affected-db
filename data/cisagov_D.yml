@@ -588,7 +588,7 @@ software:
       - ''
     last_updated: '2022-01-06T00:00:00'
   - vendor: DarkTrace
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -612,7 +612,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://customerportal.darktrace.com/inside-the-soc/get-article/201
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
