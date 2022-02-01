@@ -120,6 +120,192 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Zeiss
+    product: Cataract Suite
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '1.3.1'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.zeiss.com/meditec/int/cybersecurity/apache-log4j/english.html
+    notes: Patch is available.
+    references:
+      - ''
+    last_updated: '2021-02-01T00:00:00'
+  - vendor: Zeiss
+    product: EQ Workplace
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '1.6, 1.8'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.zeiss.com/meditec/int/cybersecurity/apache-log4j/english.html
+    notes: Patch is available.
+    references:
+      - ''
+    last_updated: '2021-02-01T00:00:00'
+  - vendor: Zeiss
+    product: FORUM
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '4.2.x'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.zeiss.com/meditec/int/cybersecurity/apache-log4j/english.html
+    notes: Patch is available.
+    references:
+      - ''
+    last_updated: '2021-02-01T00:00:00'
+  - vendor: Zeiss
+    product: Glaucoma Workplace
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '3.5.x'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.zeiss.com/meditec/int/cybersecurity/apache-log4j/english.html
+    notes: Patch is available.
+    references:
+      - ''
+    last_updated: '2021-02-01T00:00:00'
+  - vendor: Zeiss
+    product: Laser Treatment Workplace
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '1.x'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.zeiss.com/meditec/int/cybersecurity/apache-log4j/english.html
+    notes: Patch is available.
+    references:
+      - ''
+    last_updated: '2021-02-01T00:00:00'
+  - vendor: Zeiss
+    product: Retina Workplace
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '2.5.x, 2.6.x'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.zeiss.com/meditec/int/cybersecurity/apache-log4j/english.html
+    notes: Patch is available.
+    references:
+      - ''
+    last_updated: '2021-02-01T00:00:00'
   - vendor: Zendesk
     product: All Products
     cves:
