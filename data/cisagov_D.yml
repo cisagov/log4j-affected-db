@@ -771,7 +771,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Dataminer
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -829,7 +829,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Datto
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -857,8 +857,41 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: DBeaver
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+    vendor_links:
+      - https://www.dcache.org/post/log4j-vulnerability/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T07:18:50+00:00'
   - vendor: dCache.org
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
