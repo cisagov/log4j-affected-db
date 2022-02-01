@@ -1868,26 +1868,29 @@ software:
     product: Connectrix (Cisco MDS 9000 switches)
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-44228:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: ''
@@ -1898,36 +1901,39 @@ software:
     product: Connectrix (Cisco MDS DCNM)
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions: []
+        affected_versions:
+          'Versions prior to 11.5(1x)'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - ''
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - ''
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: Patch expected by 12/23/21
+    notes: Patch expected by 12/23/21.
     references:
-      - ''
+      - 'https://www.dell.com/support/kbdoc/en-us/000194797/dsa-2021-302-dell-connectrix-mds-dcnm-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Connectrix B-Series SANnav
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
@@ -1938,26 +1944,26 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: Patch expected by 3/31/2022
+    notes: Patch expected by 2/28/2022.
     references:
-      - ''
+      - 'https://www.dell.com/support/kbdoc/en-us/000194461/dsa-2021-266-dell-emc-connectrix-b-series-sannav-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Connextrix B Series
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
@@ -1966,14 +1972,14 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
@@ -1996,7 +2002,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2026,7 +2032,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2054,7 +2060,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - Versions between 7.3.0.5 and 7.7.0.6;Versions before 7.6.0.30
+          - Versions from 7.3.0.5 to 7.7.0.6
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2071,7 +2077,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: See DSA-2021-274
     references:
-      - ''
+      - 'https://www.dell.com/support/kbdoc/en-us/000194503/dsa-2021-274-dell-emc-data-domain-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell BSAFE Crypto-C Micro Edition
