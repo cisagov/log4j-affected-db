@@ -133,7 +133,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.3.1'
+          - 1.3.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -164,7 +164,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.6, 1.8'
+          - 1.6, 1.8
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -195,7 +195,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.2.x'
+          - 4.2.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -226,7 +226,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.5.x'
+          - 3.5.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -257,7 +257,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.x'
+          - 1.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -288,7 +288,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.5.x, 2.6.x'
+          - 2.5.x, 2.6.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
