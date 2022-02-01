@@ -617,7 +617,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Dassault Systèmes
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -641,12 +641,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://kb.dsxclient.3ds.com/mashup-ui/page/resultqa?id=QA00000102301e
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Databricks
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -675,10 +675,10 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Datadog
-    product: Datadog Agent
+    product: Agent
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
@@ -687,9 +687,9 @@ software:
         affected_versions: []
         fixed_versions:
           - '>=6.17.0'
-          - <=6.32.2
+          - '<=6.32.2'
           - '>=7.17.0'
-          - <=7.32.2
+          - '<=7.32.2'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
