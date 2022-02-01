@@ -74,7 +74,7 @@ software:
       cve-2021-44228:
         investigated: false
         affected_versions:
-          - DWP-1000
+          - 'DWP-1000'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -89,8 +89,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.daktronics.com/en-us/support/kb/000025337
-    notes: 'DWP-1000: Not present in our codebase, but awaiting confirmation from
-      LG re: webOS platform.'
+    notes: DWP-1000 is not present in our codebase, but awaiting confirmation from
+      LG re webOS platform.
     references:
       - ''
     last_updated: '2022-01-06T00:00:00'
@@ -166,7 +166,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - P10
+          - 'P10'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -196,13 +196,13 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - AMP-R200
-          - AMP-R400
-          - AMP-R800
-          - AMP-SM100
-          - AMP-SE100
-          - AMP-SM200
-          - AMP-SM400
+          - 'AMP-R200'
+          - 'AMP-R400'
+          - 'AMP-R800'
+          - 'AMP-SM100'
+          - 'AMP-SE100'
+          - 'AMP-SM200'
+          - 'AMP-SM400'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -244,8 +244,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.daktronics.com/en-us/support/kb/000025337
-    notes: 'DMS Web Player: Not present in our codebase, but awaiting confirmation
-      from LG re: webOS platform.'
+    notes: DMS Web Player not present in our codebase, but awaiting confirmation
+      from LG re webOS platform.
     references:
       - ''
     last_updated: '2022-01-06T00:00:00'
@@ -262,7 +262,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - A-3257
+          - 'A-3257'
           - '3256'
           - '2270'
           - '2269'
@@ -296,7 +296,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - A-3189335
+          - 'A-3189335'
           - '3128'
           - '3416'
           - '3418'
@@ -332,7 +332,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - A-4036028
+          - 'A-4036028'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -362,7 +362,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - A-3665
+          - 'A-3665'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -390,7 +390,7 @@ software:
       cve-2021-44228:
         investigated: false
         affected_versions:
-          - A-3350704
+          - 'A-3350704'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
