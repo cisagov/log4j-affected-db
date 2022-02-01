@@ -733,13 +733,80 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Zyxel
+    product: All other products
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+    vendor_links:
+      - https://community.zyxel.com/en/discussion/12229/zyxel-security-advisory-for-apache-log4j-rce-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Zyxel
+    product: Netlas Element Management System (EMS)
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - ''
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+    vendor_links:
+      - https://community.zyxel.com/en/discussion/12229/zyxel-security-advisory-for-apache-log4j-rce-vulnerability
+    notes: Hotfix availibility Dec. 20 2021. Patch availability in end of Feb. 2022.
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Zyxel
     product: Security Firewall/Gateways
     cves:
       cve-2021-4104:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-44228:
         investigated: true
         affected_versions: []
@@ -748,15 +815,17 @@ software:
           - ZLD Firmware Security Services
           - Nebula
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
     vendor_links:
       - https://community.zyxel.com/en/discussion/12229/zyxel-security-advisory-for-apache-log4j-rce-vulnerability
     notes: ''
