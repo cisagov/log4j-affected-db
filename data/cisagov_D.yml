@@ -1521,13 +1521,13 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-           - ''
+          - ''
       cve-2021-45105:
         investigated: true
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-           - ''
+          - ''
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: ''
