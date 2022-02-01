@@ -616,6 +616,39 @@ software:
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
+  - vendor: Zoho
+    product: Online
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+    vendor_links:
+      - https://help.zoho.com/portal/en/community/topic/update-on-the-recent-apache-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-02-01T00:00:00'
   - vendor: Zoom
     product: ''
     cves:
