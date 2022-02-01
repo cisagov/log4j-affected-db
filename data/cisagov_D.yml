@@ -675,13 +675,14 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Datadog
-    product: Agent
+    product: Datadog Agent
     cves:
       cve-2021-4104:
         investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-44228:
         investigated: true
         affected_versions: []
@@ -703,7 +704,69 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.datadoghq.com/log4j-vulnerability/
-    notes: ''
+    notes: JMX monitoring component leverages an impacted version of log4j.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Datadog
+    product: datadog-kafka-connect-logs
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '< 1.0.2'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.datadoghq.com/log4j-vulnerability/
+    notes: Version 1.0.2 of the library uses version 2.16.0 of Log4j.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Datadog
+    product: datadog-lambda-java
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '< 1.0.2'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.datadoghq.com/log4j-vulnerability/
+    notes: Following AWS recommendation, library updated using the latest version of amazon-lambda-java-log4j2 (1.4.0). 
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
