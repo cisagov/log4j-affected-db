@@ -920,18 +920,51 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Debian
-    product: ''
+    product: Apache-log4j.1.2
     cves:
       cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - stretch, buster, bullseye
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - stretch, buster, bullseye
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://security-tracker.debian.org/tracker/CVE-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Debian
+    product: Apache-log4j2
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - stretch, buster, bullseye
       cve-2021-44228:
         investigated: false
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - stretch, buster, bullseye
       cve-2021-45046:
         investigated: false
         affected_versions: []
