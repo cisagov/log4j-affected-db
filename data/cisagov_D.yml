@@ -981,6 +981,233 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Decos
+    product: Cloud
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://decos.freshdesk.com/nl/support/solutions/articles/17000121598
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-01T07:18:50+00:00'
+  - vendor: Decos
+    product: EvenementenAssistent + InkomensAssistent + Leerlingenvervoer + AIM online
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://decos.freshdesk.com/nl/support/solutions/articles/17000121598
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-01T07:18:50+00:00'
+  - vendor: Decos
+    product: Fixi
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://decos.freshdesk.com/nl/support/solutions/articles/17000121598
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-01T07:18:50+00:00'
+  - vendor: Decos
+    product: Integrations (StUF/ZGW/Doclogic-DataIntegrator)
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://decos.freshdesk.com/nl/support/solutions/articles/17000121598
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-01T07:18:50+00:00'
+  - vendor: Decos
+    product: JOIN Klant Contact
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+    vendor_links:
+      - https://decos.freshdesk.com/nl/support/solutions/articles/17000121598
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-01T07:18:50+00:00'
+  - vendor: Decos
+    product: JOIN Zaak &I  Document (on-premise)
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'All'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://decos.freshdesk.com/nl/support/solutions/articles/17000121598
+    notes: The solution contains Elasticsearch (vulnerable). Mitigating actions available on our WIKI.
+    references:
+      - ''
+    last_updated: '2022-02-01T07:18:50+00:00'
+  - vendor: Decos
+    product: JOIN Zaak &I  Document (on-premise)
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'All'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://decos.freshdesk.com/nl/support/solutions/articles/17000121598
+    notes: The SaaS hosted solution contains Logstash + Elasticsearch (vulnerable). Mitigating actions taken.
+    references:
+      - ''
+    last_updated: '2022-02-01T07:18:50+00:00'
   - vendor: Deepinstinct
     product: ''
     cves:
