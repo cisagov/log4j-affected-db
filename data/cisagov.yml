@@ -181,10 +181,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.7signal.com/info/se-release-notes
-    notes: ''
+    notes: Fix released 2021-12-14
     references:
       - ''
-    last_updated: '2021-12-15T00:00:00'
+    last_updated: '2021-12-14T00:00:00'
   - vendor: ABB
     product: ''
     cves:
