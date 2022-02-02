@@ -340,7 +340,7 @@ software:
       - 'https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029417'
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Healthcare
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -370,7 +370,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Gearset
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -399,7 +399,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Genesys
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -428,7 +428,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: GeoServer
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -457,7 +457,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: GeoSolutions
-    product: Geonetwork
+    product: GeoNetwork
     cves:
       cve-2021-4104:
         investigated: false
@@ -516,8 +516,8 @@ software:
     references:
       - ''
     last_updated: '2021-12-16T07:18:50+00:00'
-  - vendor: Gerrit code review
-    product: ''
+  - vendor: Gerrit Code Review
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -545,8 +545,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: GFI
-    product: ''
+  - vendor: GFI Software
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -574,8 +574,38 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: GFI Software
+    product: Kerio Connect
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://techtalk.gfi.com/impact-of-log4j-vulnerability-on-gfi/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Ghidra
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
