@@ -155,7 +155,7 @@ software:
       The update and instructions can be downloaded from link in reference section. This update is available to customer only and has not
       been reviewed by CISA.
     references:
-      - 'https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029420'
+      - '[Customer Portal Update](https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029420)'
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Gas Power
     product: Control Server
@@ -337,7 +337,7 @@ software:
       The update and instructions can be downloaded from link in reference section. This update is available to customer only and has not
       been reviewed by CISA.
     references:
-      - 'https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029417'
+      - '[Customer Portal Update](https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029417)'
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Healthcare
     product: All
