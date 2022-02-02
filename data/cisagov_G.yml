@@ -5759,7 +5759,7 @@ software:
     vendor_links:
       - https://www.graylog.org/post/graylog-update-for-log4j
     notes: The vulnerable Log4j library is used to record GrayLogs own log information.
-      Vulnerability is not triggered when GrayLog stores exploitation vector from an outer system. 
+      Vulnerability is not triggered when GrayLog stores exploitation vector from an outer system.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
