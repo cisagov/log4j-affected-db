@@ -188,6 +188,96 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Gas Power
+    product: MyFleet
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
+    notes: Vulnerability fixed. No user actions necessary. Updated to log4j 2.16
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Gas Power
+    product: OPM Performance Intelligence
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
+    notes: Vulnerability fixed. No user actions necessary. Updated to log4j 2.16
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Gas Power
+    product: OPM Performance Planning
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
+    notes: Vulnerability fixed. No user actions necessary. Updated to log4j 2.16
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Gas Power
     product: Tag Mapping Service
     cves:
       cve-2021-4104:
@@ -216,6 +306,38 @@ software:
     notes: Vulnerability fixed. No user actions necessary. Updated to log4j 2.16
     references:
       - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: GE Gas Power
+    product: vCenter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
+    notes: GE Gas Power has tested and validated the update provided by Vmware.
+      The update and instructions can be downloaded from link in reference section. This update is available to customer only and has not
+      been reviewed by CISA.
+    references:
+      - 'https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029417'
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Healthcare
     product: ''
