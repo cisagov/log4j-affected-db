@@ -4759,7 +4759,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Gradle
-    product: Gradle
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -4767,10 +4767,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4797,9 +4798,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < 2021.3.6
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '< 2021.3.6'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4827,9 +4828,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < 10.1
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '< 10.1'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4857,9 +4858,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < 1.6.2
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '< 1.6.2'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4878,7 +4879,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Grafana
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -4886,10 +4887,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
