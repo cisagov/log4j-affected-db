@@ -90,8 +90,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
-    notes: GE Digital has fixed the log4j issue on the APM. Validation and test completed in development environment and the team is currently
-      deploying the fixes in the production environment.
+    notes: GE Digital has fixed the log4j issue on the APM. Validation and test completed
+      in development environment and the team is currently deploying the fixes in
+      the production environment.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -121,7 +122,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
-    notes: GE Gas Power is still validating the workaround provided by FoxGuard in Technical Information Notice – M1221-S01.
+    notes: GE Gas Power is still validating the workaround provided by FoxGuard in
+      Technical Information Notice – M1221-S01.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -151,9 +153,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
-    notes: GE Gas Power has tested and validated the component of the BSC 2.0 that is impacted (McAfee SIEM 11.x).
-      The update and instructions can be downloaded from link in reference section. This update is available to customer only and has not
-      been reviewed by CISA.
+    notes: GE Gas Power has tested and validated the component of the BSC 2.0 that
+      is impacted (McAfee SIEM 11.x). The update and instructions can be downloaded
+      from link in reference section. This update is available to customer only and
+      has not been reviewed by CISA.
     references:
       - '[Customer Portal Update](https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029420)'
     last_updated: '2021-12-22T00:00:00'
@@ -183,7 +186,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
-    notes: Please see vCenter. Control Server is not directly impacted. It is impacted through vCenter.
+    notes: Please see vCenter. Control Server is not directly impacted. It is impacted
+      through vCenter.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -333,9 +337,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
-    notes: GE Gas Power has tested and validated the update provided by Vmware.
-      The update and instructions can be downloaded from link in reference section. This update is available to customer only and has not
-      been reviewed by CISA.
+    notes: GE Gas Power has tested and validated the update provided by Vmware. The
+      update and instructions can be downloaded from link in reference section. This
+      update is available to customer only and has not been reviewed by CISA.
     references:
       - '[Customer Portal Update](https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029417)'
     last_updated: '2021-12-22T00:00:00'
@@ -4927,7 +4931,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 2021.3.6'
+          - < 2021.3.6
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4957,7 +4961,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 10.1'
+          - < 10.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4987,7 +4991,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 1.6.2'
+          - < 1.6.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
