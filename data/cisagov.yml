@@ -656,6 +656,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Advanced Micro Devices (AMD)
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1034
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
   - vendor: Advanced Systems Concepts (formally Jscape)
     product: Active MFT
     cves:
