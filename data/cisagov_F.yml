@@ -2033,6 +2033,248 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Fuji Electric
+    product: MONITOUCH X1 series
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Fuji Electric
+    product: MONITOUCH V9 series
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Fuji Electric
+    product: MONITOUCH TS1000S series
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Fuji Electric
+    product: MONITOUCH TS2000 series
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Fuji Electric
+    product: MONITOUCH V8 series
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Fuji Electric
+    product: MONITOUCH TS1000 series
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Fuji Electric
+    product: V-SFT
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'Version 5'
+          - 'Version 6'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Fuji Electric
+    product: TELLUS and V-Server
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'Version 3'
+          - 'Version 4'
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
   - vendor: Fujitsu
     product: ''
     cves:
