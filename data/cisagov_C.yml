@@ -121,7 +121,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Canon
-    product: VL Alphenix Angio Workstation (AWS)
+    product: Canon DR Products CXDI_NE)
     cves:
       cve-2021-4104:
         investigated: false
@@ -130,10 +130,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 'All'
+        affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -146,7 +146,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
-    notes: ''
+    notes: Such as Omnera, FlexPro, Soltus
     references:
       - ''
     last_updated: '2022-02-02T00:00:00'
@@ -163,187 +163,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-02-02T00:00:00'
-  - vendor: Canon
-    product: VL Infinix-i Angio Workstation (AWS)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-02-02T00:00:00'
-  - vendor: Canon
-    product: MR Medical Imaging Products
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-02-02T00:00:00'
-  - vendor: Canon
-    product: NM Medical Imaging Products
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-02-02T00:00:00'
-  - vendor: Canon
-    product: UL Medical Imaging Products
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-02-02T00:00:00'
-  - vendor: Canon
-    product: Vitrea Advanced 7.x
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 'All'
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-02-02T00:00:00'
-  - vendor: Canon
-    product: XR Medical Imaging Products
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -373,7 +193,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -391,7 +211,7 @@ software:
       - ''
     last_updated: '2022-02-02T00:00:00'
   - vendor: Canon
-    product: Canon DR Products CXDI_NE)
+    product: MR Medical Imaging Products
     cves:
       cve-2021-4104:
         investigated: false
@@ -403,7 +223,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -416,7 +236,187 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
-    notes: Such as Omnera, FlexPro, Soltus
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Canon
+    product: NM Medical Imaging Products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Canon
+    product: UL Medical Imaging Products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Canon
+    product: Vitrea Advanced 7.x
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Canon
+    product: VL Alphenix Angio Workstation (AWS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - All
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Canon
+    product: VL Infinix-i Angio Workstation (AWS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Canon
+    product: XR Medical Imaging Products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://global.medical.canon/service-support/securityinformation/apache_log4j_vulnerability
+    notes: ''
     references:
       - ''
     last_updated: '2022-02-02T00:00:00'
