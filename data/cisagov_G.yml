@@ -997,6 +997,36 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: GoAnywhere
+    product: Agents
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-18T00:00:00'
+  - vendor: GoAnywhere
     product: Gateway
     cves:
       cve-2021-4104:
@@ -1006,9 +1036,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < 2.8.4
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - 'Version 2.7.0 or later'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1036,9 +1066,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < 6.8.6
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - 'Version 5.3.0 or later'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1067,9 +1097,69 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - < 1.6.5
+          - '1.4.2 or later'
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps
+    notes: Versions less than GoAnywhere Agent version 1.4.2 are not affected.
+    references:
+      - ''
+    last_updated: '2021-12-18T00:00:00'
+  - vendor: GoAnywhere
+    product: Open PGP Studio
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.goanywhere.com/cve-2021-44228-and-cve-2021-45046-goanywhere-mitigation-steps
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-18T00:00:00'
+  - vendor: GoAnywhere
+    product: Suveyor/400
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
