@@ -91,7 +91,7 @@ software:
     vendor_links:
       - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
     notes: GE Digital has fixed the log4j issue on the APM. Validation and test completed in development environment and the team is currently
-      deploying the fixes in the production environment. 
+      deploying the fixes in the production environment.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -152,7 +152,7 @@ software:
     vendor_links:
       - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
     notes: GE Gas Power has tested and validated the component of the BSC 2.0 that is impacted (McAfee SIEM 11.x).
-      The update and instructions can be downloaded from link in reference section.  This update is available to customer only and has not
+      The update and instructions can be downloaded from link in reference section. This update is available to customer only and has not
       been reviewed by CISA.
     references:
       - 'https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029420'
