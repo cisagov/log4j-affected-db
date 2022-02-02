@@ -1177,7 +1177,7 @@ software:
       - ''
     last_updated: '2021-12-18T00:00:00'
   - vendor: GoCD
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -1217,7 +1217,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+         - ''
       cve-2021-45046:
         investigated: true
         affected_versions: []
@@ -5460,7 +5461,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Grandstream
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -5501,7 +5502,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 3.10.x
+          - '3.10.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5531,7 +5532,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 3.5.x
+          - '3.5.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5561,7 +5562,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 1.5.x
+          - '1.5.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5591,7 +5592,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 1.4.x
+          - '1.4.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5621,7 +5622,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 3.10.x
+          - '3.10.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5651,7 +5652,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 3.5.x
+          - '3.5.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5681,36 +5682,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 1.4.x
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.gravitee.io/news/about-the-log4j-cvss-10-critical-vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Gravitee.io
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
+          - '1.4.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5728,7 +5700,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Gravwell
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -5736,10 +5708,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5752,7 +5725,41 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.gravwell.io/blog/cve-2021-44228-log4j-does-not-impact-gravwell-products
-    notes: ''
+    notes: Gravwell products do not use Java.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Graylog
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '3.3.15'
+          - '4.0.14'
+          - '4.1.9'
+          - '4.2.3'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.graylog.org/post/graylog-update-for-log4j
+    notes: The vulnerable Log4j library is used to record GrayLogs own log information.
+      Vulnerability is not triggered when GrayLog stores exploitation vector from an outer system. 
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -5766,9 +5773,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - All versions >= 1.2.0 and <= 4.2.2
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - 'All versions >= 1.2.0 and <= 4.2.2'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5787,7 +5794,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: GreenShot
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -5795,10 +5802,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5844,8 +5852,38 @@ software:
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
+  - vendor: GuardedBox
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '3.1.2'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://twitter.com/GuardedBox/status/1469739834117799939
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Guidewire
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
