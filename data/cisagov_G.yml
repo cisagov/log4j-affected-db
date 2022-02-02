@@ -5,7 +5,7 @@ owners:
     url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: GE Digital
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -35,7 +35,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Digital Grid
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -73,9 +73,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -88,8 +89,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
-    notes: GE verifying workaround.
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
+    notes: GE Digital has fixed the log4j issue on the APM. Validation and test completed in development environment and the team is currently
+      deploying the fixes in the production environment. 
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -102,8 +104,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - ''
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -117,9 +120,8 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
-    notes: Vulnerability to be fixed by vendor provided workaround. No user actions
-      necessary. Contact GE for details.
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
+    notes: GE Gas Power is still validating the workaroun provided by FoxGuard in Technical Information Notice – M1221-S01.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -132,9 +134,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -147,11 +150,12 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
-    notes: Vulnerability to be fixed by vendor provided workaround. No user actions
-      necessary. Contact GE for details
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
+    notes: GE Gas Power has tested and validated the component of the BSC 2.0 that is impacted (McAfee SIEM 11.x).
+      The update and instructions can be downloaded from link in reference section.  This update is available to customer only and has not
+      been reviewed by CISA.
     references:
-      - ''
+      - 'https://gepowerpac.servicenow.com/kb_view.do?sysparm_article=KB0029420'
     last_updated: '2021-12-22T00:00:00'
   - vendor: GE Gas Power
     product: Control Server
@@ -162,8 +166,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - ''
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -177,9 +182,8 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
-    notes: The Control Server is Affected via vCenter. There is a fix for vCenter.
-      Please see below. GE verifying the vCenter fix as proposed by the vendor.
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
+    notes: Please see vCenter. Control Server is not directly impacted. It is impacted through vCenter.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -192,9 +196,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -207,7 +212,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2021-12-21_Log4J_Vulnerability-GE_Gas_Power_Holding_Statement.pdf
+      - https://www.ge.com/content/dam/cyber_security/global/en_US/pdfs/2022-01-21_GE_Gas_Power_Product_Security_Advisory-Log4J_Vulnerability_v3.pdf
     notes: Vulnerability fixed. No user actions necessary. Updated to log4j 2.16
     references:
       - ''
