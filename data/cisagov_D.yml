@@ -3302,7 +3302,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '"<6.0.0 6.1.0 6.2.x"'
+          - '<6.0.0'
+          - '6.1.0'
+          - '6.2.x'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -3319,7 +3321,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: See DSA-2021-278
     references:
-      - ''
+      - '[DSA-2021-278](https://www.dell.com/support/kbdoc/en-us/000194488/dsa-2021-278)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC GeoDrive
@@ -3334,7 +3336,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3362,7 +3364,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - N/A
+          - ''
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -3377,13 +3379,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: '"Dell EMC Integrated System for Azure Stack HCI is not impacted by this
+    notes: Dell EMC Integrated System for Azure Stack HCI is not impacted by this
       advisory. If Dell EMC SupportAssist Enterprise (SAE) or Dell EMC Secure Connect
       Gateway (SCG) were optionally installed with Dell EMC Integrated System for
-      Azure Stack HCI monitor the following advisories. Apply workaround guidance
-      and remediations as they become [available:](https://www.dell.com/support/kbdoc/en-us/000194622/dsa-2021-307-dell-emc-integrated-system-for-azure-stack-hci-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
+      Azure Stack HCI monitor the following advisories. See DSA-2021-307.
     references:
-      - ''
+      - '[DSA-2021-307](https://www.dell.com/support/kbdoc/en-us/000194622/dsa-2021-307-dell-emc-integrated-system-for-azure-stack-hci-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Integrated System for Microsoft Azure Stack Hub
@@ -3396,7 +3397,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - N/A
+          - ''
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -3411,7 +3412,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: Patch pending
+    notes: Patch expected by 2022-01-31.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -3428,7 +3429,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3458,7 +3459,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3486,7 +3487,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 7.0.x
+          - 'Versions before 7.0.1 P2'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -3503,10 +3504,10 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: See DSA-2021-308
     references:
-      - ''
+      - '[DSA-2021-308](https://www.dell.com/support/kbdoc/en-us/000194630/dsa-2021)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
-    product: Dell EMC NetWorker Server
+    product: Dell EMC NetWorker
     cves:
       cve-2021-4104:
         investigated: false
@@ -3516,7 +3517,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '"19.5.x 19.4.x 19.3.x"'
+          - '19.4.x'
+          - '19.5.x'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -3533,10 +3535,10 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: Patch expected by 12/20/21
     references:
-      - ''
+      - '[DSA-2021-280](https://www.dell.com/support/kbdoc/en-us/000194541/dsa-2021-280-dell-emc-networker-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
-    product: Dell EMC NetWorker Virtual Edition
+    product: Dell EMC NetWorker VE
     cves:
       cve-2021-4104:
         investigated: false
@@ -3546,7 +3548,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '"19.5.x 19.4.x 19.3.x"'
+          - '19.4.x'
+          - '19.5.x'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -3563,7 +3566,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: Patch expected by 12/20/21
     references:
-      - ''
+      - '[DSA-2021-280](https://www.dell.com/support/kbdoc/en-us/000194541/dsa-2021-280-dell-emc-networker-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Networking Onie
@@ -3578,7 +3581,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3605,10 +3608,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - '"with Versa Concerto with Versa Analytics with Versa Concero Director"'
+        affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3621,7 +3624,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: See DSA-2021-304
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -3638,7 +3641,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
