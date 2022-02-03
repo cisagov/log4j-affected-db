@@ -4581,7 +4581,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '1.1' 
+          - '1.1'
           - '1.2'
           - '1.2 HF1'
           - '1.3'
