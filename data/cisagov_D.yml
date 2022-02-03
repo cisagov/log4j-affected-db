@@ -5815,35 +5815,6 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
-    product: DellEMC OpenManage Enterprise Services
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: Patch expected by 12/20/21
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
-  - vendor: Dell
     product: Dream Catcher
     cves:
       cve-2021-4104:
