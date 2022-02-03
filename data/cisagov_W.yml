@@ -16,7 +16,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.2.x < 4.8.1.3'
+          - 4.2.x < 4.8.1.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -89,7 +89,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.wallix.com/fr/support/alerts/
-    notes: Customer Portal for patch found in advisory.  This patch is available to customer only and has not been reviewed by CISA.
+    notes: Customer Portal for patch found in advisory.  This patch is available to
+      customer only and has not been reviewed by CISA.
     references:
       - ''
   - vendor: Wasp Barcode technologies
@@ -163,7 +164,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'Cloud'
+          - Cloud
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -402,7 +403,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.2 and prior'
+          - 2.2 and prior
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -464,10 +465,10 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '< 22'
+          - < 22
           - '> 26.0.0.Final'
           - '>= 22'
-          - '<= 26.0.0.Beta1'
+          - <= 26.0.0.Beta1
       cve-2021-45046:
         investigated: true
         affected_versions: []
@@ -830,7 +831,7 @@ software:
         investigated: false
         affected_versions: []
         fixed_versions:
-          - '6.x'
+          - 6.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -844,7 +845,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.witfoo.com/blog/emergency-update-for-cve-2021-44228-log4j/
-    notes: WitFoo Streamer & Apache Kafka Docker containers are/were vulnerable.  See advisory.
+    notes: WitFoo Streamer & Apache Kafka Docker containers are/were vulnerable.  See
+      advisory.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -919,8 +921,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.7.8'
-          - '4.8.x'
+          - 4.7.8
+          - 4.8.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
