@@ -2034,7 +2034,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fuji Electric
-    product: MONITOUCH X1 series
+    product: MONITOUCH TS1000 series
     cves:
       cve-2021-4104:
         investigated: ''
@@ -2046,37 +2046,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
-      cve-2021-45046:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-02-02T00:00:00'
-  - vendor: Fuji Electric
-    product: MONITOUCH V9 series
-    cves:
-      cve-2021-4104:
-        investigated: ''
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -2106,7 +2076,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -2136,7 +2106,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -2166,7 +2136,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -2184,7 +2154,7 @@ software:
       - ''
     last_updated: '2022-02-02T00:00:00'
   - vendor: Fuji Electric
-    product: MONITOUCH TS1000 series
+    product: MONITOUCH V9 series
     cves:
       cve-2021-4104:
         investigated: ''
@@ -2196,7 +2166,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -2214,7 +2184,7 @@ software:
       - ''
     last_updated: '2022-02-02T00:00:00'
   - vendor: Fuji Electric
-    product: V-SFT
+    product: MONITOUCH X1 series
     cves:
       cve-2021-4104:
         investigated: ''
@@ -2226,8 +2196,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'Version 5'
-          - 'Version 6'
+          - All
       cve-2021-45046:
         investigated: ''
         affected_versions: []
@@ -2257,8 +2226,39 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'Version 3'
-          - 'Version 4'
+          - Version 3
+          - Version 4
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://monitouch.fujielectric.com/site/download-e/other/NVD%20CVE-2021-44228_en.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T00:00:00'
+  - vendor: Fuji Electric
+    product: V-SFT
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - Version 5
+          - Version 6
       cve-2021-45046:
         investigated: ''
         affected_versions: []
