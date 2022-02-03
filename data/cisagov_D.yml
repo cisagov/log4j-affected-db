@@ -10490,6 +10490,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-05T00:00:00'
+  - vendor: DirectAdmin
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forum.directadmin.com/threads/new-zero-day-exploit-for-log4j-java-library-is-an-enterprise-nightmare.65173/#post-339723
+    notes: Invidivual plugins not developed as part of DirectAdmin core may be vulnerable.
+    references:
+      - ''
+    last_updated: '2022-01-05T00:00:00'
   - vendor: DNSFilter
     product: All
     cves:
@@ -10520,7 +10550,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Docker
-    product: ''
+    product: Infrastructure
     cves:
       cve-2021-4104:
         investigated: false
@@ -10528,10 +10558,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -10544,12 +10575,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/
-    notes: ''
+    notes: Docker infrastructure not vulnerable, Docker images could be vulnerable. For more info see source.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Docusign
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -10577,9 +10608,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: DrayTek
-    product: Vigor Routers, Access Points, Switches, VigorACS Central Management Software,
-      MyVigor Platform
+  - vendor: DotCMS
+    product: Hybrid Content Management System
     cves:
       cve-2021-4104:
         investigated: false
@@ -10587,10 +10617,71 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.com/dotCMS/core/issues/21393
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Dräger
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://static.draeger.com/security
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: DrayTek
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -10607,8 +10698,38 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
+  - vendor: Dropwizard
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://twitter.com/dropwizardio/status/1469285337524580359
+    notes: Only vulnerable if you manually added Log4j.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
   - vendor: DSpace
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -10645,9 +10766,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -10666,7 +10788,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Dynatrace
-    product: Dynatrace Extensions
+    product: Cloud Services
     cves:
       cve-2021-4104:
         investigated: false
@@ -10674,9 +10796,40 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.dynatrace.com/news/security-alert/log4shell-log4j-vulnerability/
+    notes: Please see Dynatrace Communication for details
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Dynatrace
+    product: Extensions
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -10703,9 +10856,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -10732,10 +10886,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -10761,10 +10916,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -10790,9 +10946,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -10819,9 +10976,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -10848,9 +11006,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
