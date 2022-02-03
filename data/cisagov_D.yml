@@ -3659,6 +3659,66 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
+    product: Dell OpenManage Enterprise Modular
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'Versions before 1.40.10'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
+    notes: See DSA-2021-268
+    references:
+      - '[DSA-2021-268](https://www.dell.com/support/kbdoc/en-us/000194625/dsa-2021-268-dell-emc-openmanage-enterprise-modular-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Dell
+    product: Dell EMC OpenManage Enterprise Services
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'Version 1.2 and earlier'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
+    notes: Patch expected by 12/20/21
+    references:
+      - '[DSA-2021-276](https://www.dell.com/support/kbdoc/en-us/000194652/dsa-2021-276-dell-emc-openmanage-enterprise-services-security-update-for-apache-log4j-remote-code-execution-vulnerabilities-cve-2021-44228-cve-2021-45046)'
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Dell
     product: Dell EMC OpenManage integration for Splunk
     cves:
       cve-2021-4104:
@@ -3671,7 +3731,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3701,7 +3761,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3731,7 +3791,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3762,7 +3822,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5091,36 +5151,6 @@ software:
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
-  - vendor: Dell
-    product: Dell Open Management Enterprise - Modular
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - <1.40.10
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: See DSA-2021-268
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
