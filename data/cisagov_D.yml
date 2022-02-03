@@ -1906,7 +1906,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions:
           'Versions prior to 11.5(1x)'
         fixed_versions: []
@@ -1927,7 +1927,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: Patch expected by 12/23/21.
     references:
-      - 'https://www.dell.com/support/kbdoc/en-us/000194797/dsa-2021-302-dell-connectrix-mds-dcnm-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
+      - '[DSA-2021-302](https://www.dell.com/support/kbdoc/en-us/000194797/dsa-2021-302-dell-connectrix-mds-dcnm-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Connectrix B-Series SANnav
@@ -1957,7 +1957,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: Patch expected by 2/28/2022.
     references:
-      - 'https://www.dell.com/support/kbdoc/en-us/000194461/dsa-2021-266-dell-emc-connectrix-b-series-sannav-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
+      - '[DSA-2021-266](https://www.dell.com/support/kbdoc/en-us/000194461/dsa-2021-266-dell-emc-connectrix-b-series-sannav-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Connextrix B Series
@@ -2060,7 +2060,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - Versions from 7.3.0.5 to 7.7.0.6
+          - 'Versions from 7.3.0.5 to 7.7.0.6'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2077,7 +2077,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: See DSA-2021-274
     references:
-      - 'https://www.dell.com/support/kbdoc/en-us/000194503/dsa-2021-274-dell-emc-data-domain-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
+      - '[DSA-2021-274](https://www.dell.com/support/kbdoc/en-us/000194503/dsa-2021-274-dell-emc-data-domain-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell BSAFE Crypto-C Micro Edition
@@ -2902,7 +2902,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2951,7 +2951,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: Patch expected by 12/20/21.
     references:
-      - 'https://www.dell.com/support/kbdoc/en-us/000194480/dsa-2021-277-dell-emc-avamar-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
+      - '[DSA-2021-277](https://www.dell.com/support/kbdoc/en-us/000194480/dsa-2021-277-dell-emc-avamar-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC BSN Controller Node
@@ -2962,7 +2962,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions:
           - ''
@@ -2981,7 +2981,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: See DSA-2021-305
     references:
-      - 'https://www.dell.com/support/kbdoc/en-us/000194631/dsa-2021-305-dell-emc-bsn-controller-node-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228'
+      - '[DSA-2021-305](https://www.dell.com/support/kbdoc/en-us/000194631/dsa-2021-305-dell-emc-bsn-controller-node-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Cloud Disaster Recovery
@@ -3011,7 +3011,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: Patch pending
     references:
-      - 'https://www.dell.com/support/kbdoc/en-us/000194663/dsa-2021-289-dell-emc-cloud-disaster-recovery-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228-and-cve-2021-45046'
+      - '[DSA-2021-289](https://www.dell.com/support/kbdoc/en-us/000194663/dsa-2021-289-dell-emc-cloud-disaster-recovery-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228-and-cve-2021-45046)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Cloudboost
@@ -3144,9 +3144,16 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - N/A
+        fixed_versions:
+          - '18.x (or earlier) -standalone DPA is EOSL'
+          - '18.2.x (IDPA)'
+          - '19.1.x'
+          - '19.2.x'
+          - '19.3.x'
+          - '19.4.x'
+          - '19.5.x'
+          - '19.6.0'
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3161,7 +3168,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: ''
     references:
-      - ''
+      - '[DSA-2021-309](https://www.dell.com/support/kbdoc/en-us/000194651/dsa-2021-309-dell-emc-dpa-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Data Protection Central
@@ -3172,9 +3179,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '18.2.x-19.4.x'
+          - '19.5.0-19.5.0.7'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3188,9 +3197,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: See DSA-2021- 269
+    notes: See DSA-2021-269
     references:
-      - ''
+      - '[DSA-2021-269](https://www.dell.com/support/kbdoc/en-us/000194557/dsa-2021-269-dell-emc-data-protection-central-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC Data Protection Search
@@ -3203,7 +3212,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - Versions before 19.5.0.7
+          - 'Versions before 19.6'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -3220,7 +3229,7 @@ software:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: See DSA-2021-279
     references:
-      - ''
+      - '[DSA-2021-279](https://www.dell.com/support/kbdoc/en-us/000194629/dsa-2021-279-dell-emc-data-protection-search-security-update-for-apache-log4j-remote-code-execution-vulnerability-cve-2021-44228)'
     last_updated: '2021-12-15T00:00:00'
   - vendor: Dell
     product: Dell EMC DataIQ
@@ -3235,7 +3244,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3265,7 +3274,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - N/A
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3279,35 +3288,6 @@ software:
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
-  - vendor: Dell
-    product: Dell EMC ECS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
-    notes: Patch expected by 12/18/21
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -5917,6 +5897,35 @@ software:
     vendor_links:
       - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
     notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Dell
+    product: ECS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.dell.com/support/kbdoc/en-us/000194414/dell-response-to-apache-log4j-remote-code-execution-vulnerability
+    notes: Patch expected by 12/18/21
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
