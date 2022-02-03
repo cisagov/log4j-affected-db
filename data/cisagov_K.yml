@@ -541,8 +541,8 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T07:18:50+00:00'
-  - vendor: Keeper Security
-    product: ''
+  - vendor: KeePass
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -550,9 +550,40 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://sourceforge.net/p/keepass/discussion/329220/thread/4643c5ec4f/?limit=250
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Keeper
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -570,8 +601,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: KEMP
-    product: ''
+  - vendor: Kemp
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -597,36 +628,7 @@ software:
       - https://support.kemptechnologies.com/hc/en-us/articles/4416430695437-CVE-2021-44228-Log4j2-Exploit
     notes: ''
     references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: KEMP 2
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.kemptechnologies.com/hc/en-us/articles/4416473820045-Progress-Kemp-LoadMaster-protects-from-security-vulnerability-Apache-Log4j-2-CVE-2021-44228-
-    notes: ''
-    references:
-      - ''
+      - '[Additional Link](https://support.kemptechnologies.com/hc/en-us/articles/4416473820045-Progress-Kemp-LoadMaster-protects-from-security-vulnerability-Apache-Log4j-2-CVE-2021-44228-)'
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Kofax
     product: ''
