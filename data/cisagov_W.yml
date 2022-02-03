@@ -939,7 +939,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WSO2
-    product: WSO2 Enterprise Integrator
+    product: API Manager
     cves:
       cve-2021-4104:
         investigated: false
@@ -948,9 +948,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 6.1.0 and above
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '>= 3.0.0'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -964,8 +964,488 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
-    notes: A temporary mitigation is available while vendor works on update
+    notes: A temporary mitigation is available while vendor works on update.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: API Manager Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 2.6.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Enterprise Integrator
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 6.1.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Enterprise Integrator Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 6.6.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Identity Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 5.9.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Identity Server Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 5.7.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Identity Server as Key Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 5.9.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Micro Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 3.2.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Micro Integrator
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.1.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Micro Integrator Dashboard
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 4.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Micro Integrator Monitoring Dashboard
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Open Banking AM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 2.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Open Banking BI
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.3.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Open Banking KM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 2.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Stream Integrator
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Stream Integrator Tooling
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Stream Processor
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 4.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
 ...
