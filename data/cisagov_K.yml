@@ -5,7 +5,7 @@ owners:
     url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: K15t
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -34,7 +34,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: K6
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -62,6 +62,66 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Kaltura
+    product: Blackboard Learn SaaS in the classic Learn experience
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'v3900.28.x'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://knowledge.kaltura.com/help/blackboard-learn-release-notes#blackboard-learn-december-2021-release-notes-v5412
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-23T07:18:50+00:00'
+  - vendor: Kaltura
+    product: Blackboard Learn Self- and Managed-Hosting
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'v3900.26.x'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://knowledge.kaltura.com/help/blackboard-learn-release-notes#blackboard-learn-december-2021-release-notes-v5412
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-23T07:18:50+00:00'
   - vendor: Karakun
     product: ''
     cves:
