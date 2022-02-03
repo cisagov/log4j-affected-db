@@ -400,9 +400,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 2.2 and prior
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '2.2 and prior'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -430,9 +430,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
+        affected_versions: []
+        fixed_versions:
           - 1.30 and prior
-        fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -450,6 +450,42 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
+  - vendor: WildFly
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '< 22'
+          - '> 26.0.0.Final'
+          - '>= 22'
+          - '<= 26.0.0.Beta1'
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://www.wildfly.org/news/2021/12/13/Log4j-CVEs/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
   - vendor: Wind River
     product: LTS17
     cves:
@@ -724,7 +760,7 @@ software:
       - ''
     last_updated: '2022-01-21T00:00:00'
   - vendor: WireShark
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -732,10 +768,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -747,13 +784,13 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://gitlab.com/wireshark/wireshark/-/issues/17783
+      - https://www.wireshark.org/news/20211215.html
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
+    last_updated: '2021-12-15T07:18:50+00:00'
   - vendor: Wistia
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -782,7 +819,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WitFoo
-    product: ''
+    product: Precinct
     cves:
       cve-2021-4104:
         investigated: false
@@ -792,7 +829,8 @@ software:
       cve-2021-44228:
         investigated: false
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '6.x'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -806,12 +844,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.witfoo.com/blog/emergency-update-for-cve-2021-44228-log4j/
-    notes: ''
+    notes: WitFoo Streamer & Apache Kafka Docker containers are/were vulnerable.  See advisory.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WordPress
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -819,10 +857,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -840,7 +879,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Worksphere
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -869,7 +908,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Wowza
-    product: ''
+    product: Streaming Engine
     cves:
       cve-2021-4104:
         investigated: false
@@ -877,9 +916,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '4.7.8'
+          - '4.8.x'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
