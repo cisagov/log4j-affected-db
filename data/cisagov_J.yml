@@ -662,7 +662,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JetBrains
-    product: Floating license server
+    product: Floating License Server
     cves:
       cve-2021-4104:
         investigated: false
@@ -1065,7 +1065,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions:  
+        unaffected_versions:
           - ''
       cve-2021-45046:
         investigated: false
