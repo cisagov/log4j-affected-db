@@ -574,36 +574,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Xerox
-    product: PrimeLink Products
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Xerox
     product: Phaser 3300
     cves:
       cve-2021-4104:
@@ -1115,6 +1085,66 @@ software:
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Xerox
     product: Phaser 8860
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: PrimeLink Products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Versalink Products
     cves:
       cve-2021-4104:
         investigated: false
@@ -2105,36 +2135,6 @@ software:
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Xerox
     product: WorkCentre ECXX
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Xerox
-    product: Versalink Products
     cves:
       cve-2021-4104:
         investigated: false
