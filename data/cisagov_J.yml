@@ -376,7 +376,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 8.0.82
+          - '8.0.82'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -422,8 +422,38 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Java Melody
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '1.90.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.com/javamelody/javamelody/wiki/ReleaseNotes
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jedox
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -452,7 +482,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jenkins
-    product: CI/CD Core
+    product: CI
     cves:
       cve-2021-4104:
         investigated: false
@@ -460,10 +490,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -474,7 +505,38 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
-    vendor_links: []
+    vendor_links:
+      - https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Jenkins
+    product: CI/CD Core
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/
     notes: ''
     references:
       - ''
@@ -504,9 +566,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/
-    notes: '[Instructions to test your installations in announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/)'
+    notes: ''
     references:
-      - ''
+      - '[Instructions to test your installations in announcement](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/)'
     last_updated: '2021-12-16T00:00:00'
   - vendor: JetBrains
     product: All .NET tools (ReSharper, Rider, ReSharper C++, dotTrace, dotMemory,
@@ -522,7 +584,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -551,7 +613,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -582,7 +644,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -611,7 +673,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '30211'
+          - '30241'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -642,7 +704,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -671,7 +733,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 2021.1.14080
+          - '2021.1.14080'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -704,7 +766,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -734,7 +796,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -764,7 +826,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -794,7 +856,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -824,7 +886,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -854,7 +916,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -884,7 +946,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -913,7 +975,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 2020.1.1952
+          - '2020.1.1952'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -943,7 +1005,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -973,7 +1035,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 2021.4.35970
+          - '2021.4.35970'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -992,7 +1054,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: JFROG
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -1000,10 +1062,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:  
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
