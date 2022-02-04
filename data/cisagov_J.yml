@@ -3452,7 +3452,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Juniper Networks
-    product: MIST: Juniper Networks Marvis Virtual Network Assistant (VNA)
+    product: MIST - Juniper Networks Marvis Virtual Network Assistant (VNA)
     cves:
       cve-2021-4104:
         investigated: false
@@ -3482,7 +3482,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Juniper Networks
-    product: MIST: Juniper Networks Mist AI
+    product: MIST - Juniper Networks Mist AI
     cves:
       cve-2021-4104:
         investigated: false
@@ -3512,7 +3512,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Juniper Networks
-    product: MIST: Juniper Networks Wi-Fi Assurance
+    product: MIST - Juniper Networks Wi-Fi Assurance
     cves:
       cve-2021-4104:
         investigated: false
@@ -3542,7 +3542,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Juniper Networks
-    product: MIST: Juniper Networks Wired Assurance
+    product: MIST - Juniper Networks Wired Assurance
     cves:
       cve-2021-4104:
         investigated: false
