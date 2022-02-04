@@ -2104,7 +2104,1117 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Xerox
+    product: WorkCentre ECXX
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
     product: Versalink Products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Account Payable Services
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox App Gallery
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox B1022/25
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox B225
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox B230
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox B235
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox B310
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Baltoro HF Inkjet Press
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Branded ConnectKey Applications
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox C230
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox C235
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox C310
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Campaigns on Demand
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Color EC70 Printer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox D110
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox D125
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox D95A
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Digital Mailroom Services
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox ECXX
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox ED125
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox ED95A
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox iGen 5
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Instant Print Kiosk
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Intelligent Workplace Services (All Including XDM, XDA, CWW)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Iridesse Production Press
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox J75
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Print and Scan Experience
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Team Availability Application
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Versant 180
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Versant 280
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Versant 3100
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Versant 4100
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Workflow Central Platform
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Workplace Kiosk
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Workplace Suite
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://securitydocs.business.xerox.com/wp-content/uploads/2022/01/Xerox-Special-Bulletin-Regarding-CVE-2021-44228-CVE-2021-45046-and-CVE-2021-45105-v1.7.pdf?_ga=2.84055769.1559902237.1644009323-1916165539.1644009323
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Xerox
+    product: Xerox Workspace Cloud
     cves:
       cve-2021-4104:
         investigated: false
