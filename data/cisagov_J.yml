@@ -1053,7 +1053,7 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: JFROG
+  - vendor: JFrog
     product: All
     cves:
       cve-2021-4104:
@@ -1083,8 +1083,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Jitsi
-    product: ''
+  - vendor: JGraph
+    product: DrawIO
     cves:
       cve-2021-4104:
         investigated: false
@@ -1092,9 +1092,40 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.com/jgraph/drawio/issues/2490
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Jitsi
+    product: jitsi-videobridge
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'v2.1-595-g3637fda42'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1113,7 +1144,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Jitterbit
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -1142,6 +1173,36 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Johnson Controls
+    product: Athena
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
     product: BCPro
     cves:
       cve-2021-4104:
@@ -1154,7 +1215,130 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: C•CURE Client
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: C•CURE Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: C•CURE Web
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: C•CURE-9000
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '2.90.x'
+          - '2.80.x'
+          - '2.70.x'
+          - '2.60.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1184,7 +1368,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1214,7 +1398,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: CK721-A (P2000)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1244,7 +1458,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1274,7 +1488,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1292,7 +1506,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
-    product: C•CURE‐9000
+    product: Connect24
     cves:
       cve-2021-4104:
         investigated: false
@@ -1304,7 +1518,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 2.90.x (all 2.90 versions)
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1322,7 +1536,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
-    product: C•CURE‐9000
+    product: Connected Equipment Gateway (CEG)
     cves:
       cve-2021-4104:
         investigated: false
@@ -1334,7 +1548,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 2.80.x (all 2.80 versions)
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1352,7 +1566,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
-    product: C•CURE‐9000
+    product: DataSource
     cves:
       cve-2021-4104:
         investigated: false
@@ -1364,37 +1578,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 2.70 (All versions)
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-21T00:00:00'
-  - vendor: Johnson Controls
-    product: C•CURE‐9000
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 2.60 (All versions)
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1454,7 +1638,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1484,7 +1668,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1514,7 +1698,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1544,7 +1728,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1574,7 +1758,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 14.x
+          - '14.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1604,7 +1788,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1634,7 +1818,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1664,7 +1848,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: Kantech Entrapass
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1712,6 +1926,336 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Johnson Controls
+    product: OpenBlue Active Responder
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: OpenBlue Bridge
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: OpenBlue Chiller Utility Plant Optimizer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: OpenBlue Cloud
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: OpenBlue Connected Chiller
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: OpenBlue Enterprise Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: OpenBlue Location Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: OpenBlue Risk Insight
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: OpenBlue Twin
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: OpenBlue Workplace
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: P2000
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
     product: PowerSeries NEO
     cves:
       cve-2021-4104:
@@ -1724,7 +2268,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1754,7 +2298,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1784,7 +2328,217 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: RFID Overhead360 Backend
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'All'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: S321-IP (P2000)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: Shoppertrak Analytics (STaN) - Traffic
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: Shoppertrak Market Intelligence
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: Shoppertrak Perimeter Apps
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: Shoppertrak Shopper Journey
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: Shoppertrak Video Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1814,7 +2568,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - All versions
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: TrueVue Cloud
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1874,7 +2658,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 5.x
+          - '5.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1904,37 +2688,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 3.81.x / victor 5.4.1 / C•CURE‐9000 2.80
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-21T00:00:00'
-  - vendor: Johnson Controls
-    product: victor/ C•CURE‐9000 Unified
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - 3.91.x / victor 5.6.1 / C•CURE‐9000 2.90
+          - '3.81.x / victor 5.4.1 / C•CURE‐9000 2.80 and 3.91.x / victor 5.6.1 / C•CURE‐9000 2.90'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1964,7 +2718,37 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 5.x
+          - '5.x'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.johnsoncontrols.com/cyber-solutions/security-advisories
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: Johnson Controls
+    product: Xaap
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1982,7 +2766,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Journyx
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
