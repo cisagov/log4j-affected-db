@@ -2826,7 +2826,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Logit.io
-    product: ''
+    product: Logit.io Platform
     cves:
       cve-2021-4104:
         investigated: true
@@ -2837,7 +2837,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: true
         affected_versions: []
