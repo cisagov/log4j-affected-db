@@ -46,7 +46,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '13 through 15'
+          - 13 through 15
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -106,7 +106,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '13 through 15'
+          - 13 through 15
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -136,7 +136,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '13 through 15'
+          - 13 through 15
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -167,7 +167,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '11.x - 16.x'
+          - 11.x - 16.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -197,7 +197,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '7.x - 8.x'
+          - 7.x - 8.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -227,7 +227,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '1.x'
+          - 1.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -257,7 +257,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '3.x'
+          - 3.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -287,7 +287,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '3.x'
+          - 3.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -317,7 +317,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '1.x - 2.x'
+          - 1.x - 2.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -347,7 +347,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '1.x'
+          - 1.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -377,7 +377,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '1.x'
+          - 1.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -407,7 +407,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'R19 - R25'
+          - R19 - R25
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -437,7 +437,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '1.x'
+          - 1.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -467,7 +467,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '1.x'
+          - 1.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -495,9 +495,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '5.x'
-          - '5.2.0 CF1'
-          - '5.1.0 CF-30 - 5.1.0 CF-33'
+          - 5.x
+          - 5.2.0 CF1
+          - 5.1.0 CF-30 - 5.1.0 CF-33
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -586,7 +586,7 @@ software:
       cve-2021-44228:
         investigated: false
         affected_versions:
-          - '340x'
+          - 340x
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -661,7 +661,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'v5'
+          - v5
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -723,7 +723,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '5.1.3'
+          - 5.1.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1030,7 +1030,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1059,7 +1060,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1089,7 +1091,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1118,7 +1121,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1148,7 +1152,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1178,7 +1183,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1207,7 +1213,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1237,7 +1244,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1267,7 +1275,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1297,7 +1306,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1327,7 +1337,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1357,7 +1368,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1387,7 +1399,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1417,7 +1430,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1447,7 +1461,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1477,7 +1492,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1507,7 +1523,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1537,7 +1554,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1567,7 +1585,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1596,7 +1615,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1761,7 +1781,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.0.2'
+          - 1.0.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1821,8 +1841,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.4.7'
-          - '7.0.2'
+          - 6.4.7
+          - 7.0.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2482,7 +2502,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.3.4'
+          - 2.3.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3041,7 +3061,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
-    product: FortiSwitch Cloud in FortiLANCloud
+    product: FortiSwitch & FortiSwitchManager
     cves:
       cve-2021-4104:
         investigated: false
@@ -3071,7 +3091,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fortinet
-    product: FortiSwitch & FortiSwitchManager
+    product: FortiSwitch Cloud in FortiLANCloud
     cves:
       cve-2021-4104:
         investigated: false
