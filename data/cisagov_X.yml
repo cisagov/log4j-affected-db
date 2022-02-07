@@ -3701,8 +3701,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '4.7 through 4.10'
-          - '4.4 through 4.6'
+          - 4.7 through 4.10
+          - 4.4 through 4.6
           - '4.2'
         fixed_versions: []
         unaffected_versions: []
@@ -3734,8 +3734,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.7 through 4.10'
-          - '4.4 through 4.6'
+          - 4.7 through 4.10
+          - 4.4 through 4.6
           - '4.2'
         unaffected_versions: []
       cve-2021-45046:
