@@ -4,6 +4,69 @@ owners:
   - name: cisagov
     url: https://github.com/cisagov/log4j-affected-db
 software:
+  - vendor: Paessler
+    product: PRTG
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.rundeck.com/docs/history/CVEs/#log4shell-cves
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
+  - vendor: PagerDuty
+    product: PagerDuty Rundeck
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '3.3+'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.pagerduty.com/docs/pagerduty-log4j-zero-day-vulnerability
+    notes: We currently see no evidence of compromises on our platform. Our teams
+      continue to monitor for new developments and for impacts on sub-processors and
+      dependent systems. PagerDuty SaaS customers do not need to take any additional
+      action for their PagerDuty SaaS environment.
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
   - vendor: PagerDuty
     product: PagerDuty SaaS
     cves:
@@ -13,9 +76,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -48,7 +112,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - All
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
