@@ -1430,7 +1430,7 @@ software:
       - ''
     last_updated: '2022-01-20T00:00:00'
   - vendor: Panopto
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -1459,6 +1459,36 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: PaperCut
+    product: PaperCut Hive
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: PaperCut
     product: PaperCut MF
     cves:
       cve-2021-4104:
@@ -1483,10 +1513,70 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.papercut.com/support/known-issues/?id=PO-684#ng
+      - https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228
     notes: Versions 21.0 and later are impacted. Versions 20 and earlier are NOT impacted
       by this. Workaround manual steps available in reference. Upgrade to PaperCut
       NG/MF version 21.2.3 Now Available to resolve.
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: PaperCut
+    product: PaperCut MobilityPrint
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: PaperCut
+    product: PaperCut MultiVerse
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
@@ -1515,15 +1605,15 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.papercut.com/support/known-issues/?id=PO-684#ng
+      - https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228
     notes: Versions 21.0 and later are impacted. Versions 20 and earlier are NOT impacted
       by this. Workaround manual steps available in reference. Upgrade to PaperCut
       NG/MF version 21.2.3 Now Available to resolve.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
-  - vendor: Parallels
-    product: ''
+  - vendor: PaperCut
+    product: PaperCut Online Services
     cves:
       cve-2021-4104:
         investigated: false
@@ -1531,10 +1621,131 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: PaperCut
+    product: PaperCut Pocket
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: PaperCut
+    product: PaperCut Print Logger
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: PaperCut
+    product: PaperCut Views
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.papercut.com/kb/Main/Log4Shell-CVE-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Parallels
+    product: Remote Application Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1552,7 +1763,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Parse.ly
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -1589,10 +1800,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
