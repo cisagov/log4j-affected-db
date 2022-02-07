@@ -1822,8 +1822,8 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
-  - vendor: Pega
-    product: ''
+  - vendor: PDQ
+    product: Deploy
     cves:
       cve-2021-4104:
         investigated: false
@@ -1846,13 +1846,73 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://docs.pega.com/security-advisory/security-advisory-apache-log4j-zero-day-vulnerability
+      - https://www.pdq.com/blog/log4j-vulnerability-cve-2021-44228/?utm_content=190941012&utm_medium=social&utm_source=twitter&hss_channel=tw-90432152
     notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: PDQ
+    product: Inventory
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.pdq.com/blog/log4j-vulnerability-cve-2021-44228/?utm_content=190941012&utm_medium=social&utm_source=twitter&hss_channel=tw-90432152
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Pega
+    product: Platform
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '7.3.x - 8.6.x'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.pega.com/security-advisory/security-advisory-apache-log4j-zero-day-vulnerability
+    notes: Hotfixes made available for registered customers by Pega. When using Stream nodes,
+      the embedded Kafka instances require a separate hotfix to be installed.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Pentaho
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -1881,7 +1941,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Pepperl+Fuchs
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -1910,7 +1970,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Percona
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -1934,6 +1994,36 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.percona.com/blog/log4jshell-vulnerability-update/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Personio
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://status.personio.de/incidents/kn4c6mf6lpdv
     notes: ''
     references:
       - ''
