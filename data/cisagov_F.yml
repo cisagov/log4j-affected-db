@@ -1005,6 +1005,243 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
+    product: Advanced Malware Detection
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: Behavioral Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: Bitglass SSE
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: CASB
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: Cloud Security Gateway (CSG)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: Content Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: DDP/DUP/DPS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: Directory Synchronization
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
     product: DLP Manager
     cves:
       cve-2021-4104:
@@ -1013,9 +1250,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1029,12 +1267,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
-    product: Forcepoint Cloud Security Gateway (CSG)
+    product: Email Security
     cves:
       cve-2021-4104:
         investigated: false
@@ -1042,10 +1280,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1058,7 +1297,37 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: Insider Threat
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1071,10 +1340,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1087,13 +1357,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
-    product: Next Generation Firewall, NGFW VPN Client, Forcepoint User ID service
-      and Sidewinder
+    product: NGFW Security Management Center
     cves:
       cve-2021-4104:
         investigated: false
@@ -1101,9 +1370,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1117,7 +1387,67 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: NGFW Virtual SMC Appliances
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: NGFW VPN Client
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1130,9 +1460,40 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: Security Manager (Web, Email and DLP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1146,12 +1507,72 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Forcepoint
-    product: Security Manager (Web, Email and DLP)
+    product: Sidewinder
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: User ID service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Forcepoint
+    product: Web Security
     cves:
       cve-2021-4104:
         investigated: false
@@ -1175,7 +1596,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.forcepoint.com/s/login/?ec=302&startURL=%2Fs%2F
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
