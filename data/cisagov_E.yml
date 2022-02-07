@@ -4524,7 +4524,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Ewon
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -4532,10 +4532,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4551,7 +4552,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
+    last_updated: '2022-02-02T07:18:50+00:00'
   - vendor: Exabeam
     product: ''
     cves:
