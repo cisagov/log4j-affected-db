@@ -167,7 +167,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 11.x - 16.x
+          - '11.x - 16.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -197,7 +197,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 7.x-8.x
+          - '7.x - 8.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -227,7 +227,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 1.x
+          - '1.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -257,7 +257,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 3.x
+          - '3.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -287,7 +287,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 3.x
+          - '3.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -317,7 +317,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 1.x - 2.x
+          - '1.x - 2.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -347,7 +347,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 1.x
+          - '1.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -377,7 +377,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 1.x
+          - '1.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -407,7 +407,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - R19 - R25
+          - 'R19 - R25'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -437,7 +437,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 1.x
+          - '1.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -467,7 +467,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 1.x
+          - '1.x'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -495,8 +495,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 5.x (5.2.0 CF1
-          - 5.1.0 CF-30 - 5.1.0 CF-33)
+          - '5.x'
+          - '5.2.0 CF1'
+          - '5.1.0 CF-30 - 5.1.0 CF-33'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -517,7 +518,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FAST LTA
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -546,7 +547,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fastly
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -585,7 +586,7 @@ software:
       cve-2021-44228:
         investigated: false
         affected_versions:
-          - Unknown
+          - '340x'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -600,14 +601,51 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.fedex.com/en-us/shipping/ship-manager/software.html#tab-4
-    notes: 'Note: FedEx is aware of the issue related to the Log4j Remote Code Execution
+    notes: Note - FedEx is aware of the issue related to the Log4j Remote Code Execution
       vulnerability affecting various Apache products. We are actively assessing the
       situation and taking necessary action as appropriate. As a result, we are temporarily
       unable to provide a link to download the FedEx Ship Manager software or generate
       product keys needed for registration of FedEx Ship Manager software. We are
       working to have this resolved as quickly as possible and apologize for the inconvenience.
       For related questions or the most updated information, customers should check
-      FedEx Updates for Apache Log4j Issue or contact their Customer Technology representative.'
+      FedEx Updates for Apache Log4j Issue or contact their Customer Technology representative.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: FedEx
+    product: Ship Manager Software
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions:
+          - '3509'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.fedex.com/en-us/shipping/ship-manager/software.html#tab-4
+    notes: Note - FedEx is aware of the issue related to the Log4j Remote Code Execution
+      vulnerability affecting various Apache products. We are actively assessing the
+      situation and taking necessary action as appropriate. As a result, we are temporarily
+      unable to provide a link to download the FedEx Ship Manager software or generate
+      product keys needed for registration of FedEx Ship Manager software. We are
+      working to have this resolved as quickly as possible and apologize for the inconvenience.
+      For related questions or the most updated information, customers should check
+      FedEx Updates for Apache Log4j Issue or contact their Customer Technology representative.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
