@@ -661,7 +661,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - v5
+          - 'v5'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -676,12 +676,13 @@ software:
     vendor_links:
       - https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605
     notes: The product has been updated to Log4j version 2.15. An additional patch
-      is being developed to update to 2.16. No user interaction is required.
+      is being developed to update to 2.16. No user interaction is required. This
+      advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: FileCap
-    product: ''
+    product: Plugins
     cves:
       cve-2021-4104:
         investigated: false
@@ -689,9 +690,40 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://filecap.com/blog-posts/detecteer-log4shell-exploitatie-pogingen
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: FileCap
+    product: Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '5.1.3'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -704,13 +736,13 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://mailchi.mp/3f82266e0717/filecap-update-version-511
+      - https://filecap.com/blog-posts/detecteer-log4shell-exploitatie-pogingen
     notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FileCatalyst
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -739,7 +771,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FileCloud
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -768,7 +800,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FileWave
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -796,8 +828,38 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: FileZilla
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://forum.filezilla-project.org/viewtopic.php?f=6&t=54338
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FINVI
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -826,7 +888,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: FireDaemon
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -855,7 +917,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Fisher & Paykel Healthcare
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -863,10 +925,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -884,7 +947,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Flexagon
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -913,7 +976,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Flexera
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
