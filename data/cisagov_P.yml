@@ -46,7 +46,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.3+'
+          - 3.3+
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -112,7 +112,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All'
+          - All
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -627,9 +627,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '9.0.15'
-          - '9.1.12-h3'
-          - '10.0.8-h8'
+          - 9.0.15
+          - 9.1.12-h3
+          - 10.0.8-h8
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1745,7 +1745,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1892,7 +1892,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '7.3.x - 8.6.x'
+          - 7.3.x - 8.6.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1906,8 +1906,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://docs.pega.com/security-advisory/security-advisory-apache-log4j-zero-day-vulnerability
-    notes: Hotfixes made available for registered customers by Pega. When using Stream nodes,
-      the embedded Kafka instances require a separate hotfix to be installed.
+    notes: Hotfixes made available for registered customers by Pega. When using Stream
+      nodes, the embedded Kafka instances require a separate hotfix to be installed.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -2041,7 +2041,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2071,7 +2071,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2101,7 +2101,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2131,7 +2131,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2161,7 +2161,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2191,7 +2191,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2221,7 +2221,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2250,7 +2250,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All'
+          - All
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2281,7 +2281,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2338,7 +2338,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'All'
+          - All
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2398,8 +2398,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'B.13'
-          - 'B.15'
+          - B.13
+          - B.15
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2414,9 +2414,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: Software only products with customer owned Operating Systems.
-      For products solutions where the server was provided it is customer
-      responsibility to validate and deploy patches.
+    notes: Software only products with customer owned Operating Systems. For products
+      solutions where the server was provided it is customer responsibility to validate
+      and deploy patches.
     references:
       - ''
     last_updated: '2021-12-13T07:18:50+00:00'
@@ -2431,7 +2431,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'L1'
+          - L1
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2462,7 +2462,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'v11 and above'
+          - v11 and above
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2476,11 +2476,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: Software only products with customer owned Operating Systems.
-      For products solutions where the server was provided by Philips, it
-      will be Philips responsibility to validate and provide patches.
-      Information or patch available in Inleft. Please contact your
-      local service support team.
+    notes: Software only products with customer owned Operating Systems. For products
+      solutions where the server was provided by Philips, it will be Philips responsibility
+      to validate and provide patches. Information or patch available in Inleft. Please
+      contact your local service support team.
     references:
       - ''
     last_updated: '2021-12-13T07:18:50+00:00'
@@ -2510,8 +2509,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: Philips hosting environment is evaluating the VMware provided workaround and
-      in the process of deploying for managed service customers.
+    notes: Philips hosting environment is evaluating the VMware provided workaround
+      and in the process of deploying for managed service customers.
     references:
       - ''
     last_updated: '2021-12-13T07:18:50+00:00'
@@ -2527,7 +2526,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'v9 and above'
+          - v9 and above
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2541,10 +2540,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: Software only products with customer owned Operating Systems.
-      For products solutions where the server was provided by Philips, it
-      will be Philips responsibility to validate and provide patches. Information
-      or patch available in Inleft. Please contact your local service support team.
+    notes: Software only products with customer owned Operating Systems. For products
+      solutions where the server was provided by Philips, it will be Philips responsibility
+      to validate and provide patches. Information or patch available in Inleft. Please
+      contact your local service support team.
     references:
       - ''
     last_updated: '2021-12-13T07:18:50+00:00'
@@ -2559,7 +2558,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'L1'
+          - L1
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2590,7 +2589,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.0 with Practice'
+          - 2.0 with Practice
           - '3.0'
         unaffected_versions: []
       cve-2021-45046:
@@ -2605,11 +2604,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: Software only products with customer owned Operating Systems.
-      For products solutions where the server was provided by Philips, it
-      will be Philips responsibility to validate and provide patches.
-      Information or patch available in Inleft. Please contact your local
-      service support team.
+    notes: Software only products with customer owned Operating Systems. For products
+      solutions where the server was provided by Philips, it will be Philips responsibility
+      to validate and provide patches. Information or patch available in Inleft. Please
+      contact your local service support team.
     references:
       - ''
     last_updated: '2021-12-13T07:18:50+00:00'
@@ -2624,7 +2622,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '18.x'
+          - 18.x
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2669,11 +2667,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: Software only products with customer owned Operating Systems.
-      For products solutions where the server was provided by Philips, it
-      will be Philips responsibility to validate and provide patches.
-      Information or patch available in Inleft. Please contact your local
-      service support team.
+    notes: Software only products with customer owned Operating Systems. For products
+      solutions where the server was provided by Philips, it will be Philips responsibility
+      to validate and provide patches. Information or patch available in Inleft. Please
+      contact your local service support team.
     references:
       - ''
     last_updated: '2021-12-13T07:18:50+00:00'
@@ -2703,9 +2700,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: Software only products with customer owned Operating Systems.
-      For products solutions where the server was provided by Philips, it
-      will be Philips responsibility to validate and provide patches.
+    notes: Software only products with customer owned Operating Systems. For products
+      solutions where the server was provided by Philips, it will be Philips responsibility
+      to validate and provide patches.
     references:
       - ''
     last_updated: '2021-12-13T07:18:50+00:00'
@@ -2720,7 +2717,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'All'
+          - All
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2795,9 +2792,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: Software only products with customer owned Operating Systems.
-      For products solutions where the server was provided by Philips, it
-      will be Philips responsibility to validate and provide patches.
+    notes: Software only products with customer owned Operating Systems. For products
+      solutions where the server was provided by Philips, it will be Philips responsibility
+      to validate and provide patches.
     references:
       - ''
     last_updated: '2021-12-13T07:18:50+00:00'
@@ -2827,9 +2824,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: Software only products with customer owned Operating Systems.
-      For products solutions where the server was provided by Philips, it
-      will be Philips responsibility to validate and provide patches.
+    notes: Software only products with customer owned Operating Systems. For products
+      solutions where the server was provided by Philips, it will be Philips responsibility
+      to validate and provide patches.
     references:
       - ''
     last_updated: '2021-12-13T07:18:50+00:00'
@@ -2875,7 +2872,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '12.2.8'
+          - 12.2.8
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2920,7 +2917,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.phoenixcontact.com/online/portal/pc?1dmy&urile=wcm:path:/pcen/web/offcontext/insite_landing_pages/a7217e47-af46-4c7b-a748-3b6bf94a30a0/a7217e47-af46-4c7b-a748-3b6bf94a30a0
-    notes: Cloud Services were either not vulnerable or are completely fixed. No exploits observed.
+    notes: Cloud Services were either not vulnerable or are completely fixed. No exploits
+      observed.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -2996,7 +2994,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.0 <= version <= 6.3.2'
+          - 4.0 <= version <= 6.3.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3056,7 +3054,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '8.0 <= version <= 10.3.4'
+          - 8.0 <= version <= 10.3.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3086,7 +3084,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 2.7.2'
+          - < 2.7.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3116,7 +3114,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 4.3.1'
+          - < 4.3.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3235,7 +3233,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3337,8 +3335,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
-      Mitigation already applied, patch available.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA. Mitigation already applied, patch available.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -3368,7 +3366,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1133605
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -3413,7 +3412,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '9.0 and above'
+          - 9.0 and above
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3443,7 +3442,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.0.2'
+          - 1.0.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4477,7 +4476,7 @@ software:
       - ''
     last_updated: '2022-01-26T07:18:50+00:00'
   - vendor: ProofPoint
-    product: Insiders Threat Management On-Premise
+    product: Insider Threat Management Saas
     cves:
       cve-2021-4104:
         investigated: false
@@ -4487,9 +4486,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
+        fixed_versions:
           - ''
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4507,7 +4506,7 @@ software:
       - ''
     last_updated: '2022-01-26T07:18:50+00:00'
   - vendor: ProofPoint
-    product: Insider Threat Management Saas
+    product: Insiders Threat Management On-Premise
     cves:
       cve-2021-4104:
         investigated: false
@@ -4517,9 +4516,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions: []
-        fixed_versions:
+        fixed_versions: []
+        unaffected_versions:
           - ''
-        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5533,8 +5532,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '12.0.2.2 (CPS03)'
-          - '12.0.2.3'
+          - 12.0.2.2 (CPS03)
+          - 12.0.2.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -5566,9 +5565,9 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '<= 11.1 M020'
-          - '11.2.1'
-          - '12.0.0'
+          - <= 11.1 M020
+          - 11.2.1
+          - 12.0.0
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5597,7 +5596,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '12.0.2.0 (CPS01 and CPS02)'
+          - 12.0.2.0 (CPS01 and CPS02)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5964,7 +5963,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '<=1.3'
+          - <=1.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6176,7 +6175,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '12.0.2.2 (CPS03)'
+          - 12.0.2.2 (CPS03)
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6207,7 +6206,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '12.0.2.0 (CPS01 & CPS02)'
+          - 12.0.2.0 (CPS01 & CPS02)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6238,8 +6237,8 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '<=11.2 M020'
-          - '11.2.1'
+          - <=11.2 M020
+          - 11.2.1
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6328,7 +6327,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.6/8.6 4.6 SP0 to 12.5'
+          - 4.6/8.6 4.6 SP0 to 12.5
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6419,7 +6418,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '< 2018'
+          - < 2018
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6508,7 +6507,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2 (on prem)'
+          - 2 (on prem)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6928,7 +6927,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'on prem xServer2'
+          - on prem xServer2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7318,8 +7317,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.34 (on prem)'
-          - '2 (on prem)'
+          - 1.34 (on prem)
+          - 2 (on prem)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7350,7 +7349,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '< 1.34 (on prem)'
+          - < 1.34 (on prem)
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7829,8 +7828,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.x'
-          - '< 4.10.2'
+          - 3.x
+          - < 4.10.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7889,8 +7888,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'CBS6.1.x'
-          - 'CBS6.2.x'
+          - CBS6.1.x
+          - CBS6.2.x
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -7905,7 +7904,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -7920,10 +7920,10 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '5.3.x'
-          - '6.0.x'
-          - '6.1.x'
-          - '6.2.x'
+          - 5.3.x
+          - 6.0.x
+          - 6.1.x
+          - 6.2.x
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -7938,7 +7938,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -7953,9 +7954,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '3.1.x'
-          - '3.2.x'
-          - '3.3.x'
+          - 3.1.x
+          - 3.2.x
+          - 3.3.x
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -7970,7 +7971,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -7986,7 +7988,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.8.0+'
+          - 2.8.0+
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8000,7 +8002,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -8030,7 +8033,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -8046,7 +8050,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< v3.1.4'
+          - < v3.1.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8060,7 +8064,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -8107,7 +8112,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
