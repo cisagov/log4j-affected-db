@@ -2903,9 +2903,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2918,8 +2919,8 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf
-    notes: Partly affected. Remediations are being implemented.
+      - https://www.phoenixcontact.com/online/portal/pc?1dmy&urile=wcm:path:/pcen/web/offcontext/insite_landing_pages/a7217e47-af46-4c7b-a748-3b6bf94a30a0/a7217e47-af46-4c7b-a748-3b6bf94a30a0
+    notes: Cloud Services were either not vulnerable or are completely fixed. No exploits observed.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
@@ -2932,10 +2933,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2947,7 +2949,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf
+      - https://www.phoenixcontact.com/online/portal/pc?1dmy&urile=wcm:path:/pcen/web/offcontext/insite_landing_pages/a7217e47-af46-4c7b-a748-3b6bf94a30a0/a7217e47-af46-4c7b-a748-3b6bf94a30a0
     notes: ''
     references:
       - ''
@@ -2961,10 +2963,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2976,7 +2979,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://dam-mdc.phoenixcontact.com/asset/156443151564/1a0f6db6bbc86540bfe4f05fd65877f4/Vulnerability_Statement_Log4J_20211215.pdf
+      - https://www.phoenixcontact.com/online/portal/pc?1dmy&urile=wcm:path:/pcen/web/offcontext/insite_landing_pages/a7217e47-af46-4c7b-a748-3b6bf94a30a0/a7217e47-af46-4c7b-a748-3b6bf94a30a0
     notes: ''
     references:
       - ''
@@ -2991,9 +2994,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 4.0 <= version <= 6.3.2
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '4.0 <= version <= 6.3.2'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3020,9 +3023,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3050,9 +3054,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 8.0 <= version <= 10.3.4
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '8.0 <= version <= 10.3.4'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3080,9 +3084,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < 2.7.2
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '< 2.7.2'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3110,9 +3114,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < 4.3.1
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '< 4.3.1'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3139,9 +3143,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3160,7 +3165,7 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Pitney Bowes
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -3189,7 +3194,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Planmeca
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -3218,7 +3223,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Planon Software
-    product: ''
+    product: Planon Universe
     cves:
       cve-2021-4104:
         investigated: false
@@ -3226,10 +3231,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3248,7 +3254,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Platform.SH
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -3277,7 +3283,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Plesk
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
