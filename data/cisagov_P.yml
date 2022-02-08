@@ -2328,7 +2328,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Philips
-    product: Multiple products
+    product: Event Analytics (All VUE PACS Versions)
     cves:
       cve-2021-4104:
         investigated: false
@@ -2336,8 +2336,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - 'All'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2351,11 +2352,548 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.philips.com/a-w/security/security-advisories.html
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: HealthSuite Marketplace
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '1.2'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Philips hosting environment has deployed a patch.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: IntelliBridge Enterprise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'B.13'
+          - 'B.15'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Software only products with customer owned Operating Systems.
+      For products solutions where the server was provided it is customer
+      responsibility to validate and deploy patches.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: IntelliSite Pathology Solution 5.1
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'L1'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: IntelliSpace Enterprise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'v11 and above'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Software only products with customer owned Operating Systems.
+      For products solutions where the server was provided by Philips, it
+      will be Philips responsibility to validate and provide patches.
+      Information or patch available in Inleft. Please contact your
+      local service support team.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: IntelliSpace PACS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Philips hosting environment is evaluating the VMware provided workaround and
+      in the process of deploying for managed service customers.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: IntelliSpace Portal Server/workstation
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'v9 and above'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Software only products with customer owned Operating Systems.
+      For products solutions where the server was provided by Philips, it
+      will be Philips responsibility to validate and provide patches. Information
+      or patch available in Inleft. Please contact your local service support team.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: Pathology De-identifier 1.0
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'L1'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: Performance Bridge
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '2.0 with Practice'
+          - '3.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Software only products with customer owned Operating Systems.
+      For products solutions where the server was provided by Philips, it
+      will be Philips responsibility to validate and provide patches.
+      Information or patch available in Inleft. Please contact your local
+      service support team.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: Pinnacle
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '18.x'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: Protocol Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '1.1'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Software only products with customer owned Operating Systems.
+      For products solutions where the server was provided by Philips, it
+      will be Philips responsibility to validate and provide patches.
+      Information or patch available in Inleft. Please contact your local
+      service support team.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: Protocol Applications
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '1.1'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Software only products with customer owned Operating Systems.
+      For products solutions where the server was provided by Philips, it
+      will be Philips responsibility to validate and provide patches.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: Report Analytics (All VUE PACS Versions)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'All'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: RIS Clinic
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - ''
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: Scanner Protocol Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '1.1'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Software only products with customer owned Operating Systems.
+      For products solutions where the server was provided by Philips, it
+      will be Philips responsibility to validate and provide patches.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: Tasy EMR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - ''
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: Software only products with customer owned Operating Systems.
+      For products solutions where the server was provided by Philips, it
+      will be Philips responsibility to validate and provide patches.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: Univeral Data Manager (UDM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - ''
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: 	Philips hosting environment is evaluating the VMware provided workaround
+      and in the process of deploying for managed service customers.
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
+  - vendor: Philips
+    product: VuePACS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '12.2.8'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-13T07:18:50+00:00'
   - vendor: PHOENIX CONTACT
     product: Cloud Services
     cves:
