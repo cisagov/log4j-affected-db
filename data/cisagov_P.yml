@@ -7788,7 +7788,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Puppet
-    product: ''
+    product: Agents
     cves:
       cve-2021-4104:
         investigated: false
@@ -7796,9 +7796,41 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://puppet.com/blog/puppet-response-to-remote-code-execution-vulnerability-cve-2021-44228/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Puppet
+    product: Continuous Delivery for Puppet Enterprise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '3.x'
+          - '< 4.10.2'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7816,8 +7848,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Pure Storage
-    product: ''
+  - vendor: Puppet
+    product: Enterprise
     cves:
       cve-2021-4104:
         investigated: false
@@ -7825,10 +7857,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7840,9 +7873,8 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_(%22log4j%22)
-    notes: This advisory is available for customers only and has not been reviewed
-      by CISA
+      - https://puppet.com/blog/puppet-response-to-remote-code-execution-vulnerability-cve-2021-44228/
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -7857,8 +7889,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - CBS6.1.x
-          - CBS6.2.x
+          - 'CBS6.1.x'
+          - 'CBS6.2.x'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -7873,7 +7905,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: Patch expected 12/27/2021
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -7888,10 +7920,10 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 5.3.x
-          - 6.0.x
-          - 6.1.x
-          - 6.2.x
+          - '5.3.x'
+          - '6.0.x'
+          - '6.1.x'
+          - '6.2.x'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -7906,12 +7938,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: Patch expected 12/20/2021
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Pure Storage
-    product: FlashBlade
+    product: Flash Blade
     cves:
       cve-2021-4104:
         investigated: false
@@ -7921,9 +7953,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 3.1.x
-          - 3.2.x
-          - 3.3.x
+          - '3.1.x'
+          - '3.2.x'
+          - '3.3.x'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -7938,7 +7970,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: Patch expected 12/24/2021
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -7952,9 +7984,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 2.8.0+
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '2.8.0+'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7968,7 +8000,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -7984,7 +8016,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - N/A
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7998,12 +8030,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
-  - vendor: Pyramid Analytics
-    product: ''
+  - vendor: Pure Storage
+    product: VM Analytics OVA Collector
     cves:
       cve-2021-4104:
         investigated: false
@@ -8011,10 +8043,71 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '< v3.1.4'
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.purestorage.com/Field_Bulletins/Interim_Security_Advisory_Regarding_CVE-2021-44228_log4j
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: PuTTY
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.chiark.greenend.org.uk/~sgtatham/putty/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Pyramid Analytics
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
