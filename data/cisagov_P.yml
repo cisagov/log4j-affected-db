@@ -2859,7 +2859,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.philips.com/a-w/security/security-advisories/product-security-2021.html#2021_archive
-    notes: 	Philips hosting environment is evaluating the VMware provided workaround
+    notes: Philips hosting environment is evaluating the VMware provided workaround
       and in the process of deploying for managed service customers.
     references:
       - ''
