@@ -3785,7 +3785,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
-    notes: The vulnerability will be patch/mitigated in upcoming releases\patches.
+    notes: The vulnerability will be patch/mitigated in upcoming releases/patches.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
