@@ -5,7 +5,7 @@ owners:
     url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: EasyRedmine
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -34,7 +34,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Eaton
-    product: Undisclosed
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -42,9 +42,8 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - Undisclosed
+        investigated: false
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -59,14 +58,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/Eaton-Security-Bulletin%20log4j_CVE_2021_44228_v1.0_Legal-Approved.pdf
-    notes: Doesn't openly disclose what products are affected or not for quote 'security
-      purposes'. Needs email registration. No workaround provided due to registration
-      wall.
+    notes: For security purposes direct notifications are being made to impacted customers.  Please stay tuned for more updates.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: EclecticIQ
-    product: ''
+    product: TIP
     cves:
       cve-2021-4104:
         investigated: false
@@ -74,8 +71,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - '< 2.11'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -90,12 +88,15 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://docs.eclecticiq.com/security-advisories/security-issues-and-mitigation-actions/eiq-2021-0016-2
-    notes: ''
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+      The Threat Intel Platform includes Neo4j 3.5.12 (not vulnerable) and Elasticsearch
+      and Logstash OSS 7.9.1 (vulnerable) see Elasticsearch below for mitigation.
+      See link in their own fix for Logstash (Support account needed, ongoing investigation)
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Eclipse Foundation
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -124,7 +125,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Edwards
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -132,10 +133,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -153,7 +155,7 @@ software:
       - ''
     last_updated: '2022-01-06T00:00:00'
   - vendor: EFI
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -182,7 +184,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: EGroupware
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
