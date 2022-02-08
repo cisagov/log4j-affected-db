@@ -3906,8 +3906,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Progress / IpSwitch
-    product: ''
+  - vendor: Procentec (HMS Group)
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -3915,9 +3915,40 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://mailchi.mp/procentec.com/security_message
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Progress
+    product: DataDirect Hybrid Data Pipeline
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3930,13 +3961,43 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.progress.com/security
+      - https://knowledgebase.progress.com/articles/Knowledge/Is-Hybrid-Data-Pipeline-vulnerable-CVE-2021-44228-Log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Progress
+    product: OpenEdge
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://knowledgebase.progress.com/articles/Knowledge/Is-Hybrid-Data-Pipeline-vulnerable-CVE-2021-44228-Log4j
     notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ProofPoint
-    product: ''
+    product: Archiving Appliance
     cves:
       cve-2021-4104:
         investigated: false
@@ -3944,8 +4005,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - ''
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -3959,14 +4021,973 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://proofpointcommunities.force.com/community/s/article/Proofpoint-Statement-Regarding-CVE-2021-44228-Java-logging-package-log4j2
-    notes: This advisory is available for customers only and has not been reviewed
-      by CISA
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Archiving Backend
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Cloud App Security Broker
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Cloudmark Cloud/Cloudmark Hybrid
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Cloudmark On-Premise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Compliance Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Content Patrol
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Data Discover
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: DLP Core Engine
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Email Community
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Email Fraud Defense (EFD)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Email Protecton OnDemand (PoD), including Email DLP and Email Encryption
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Email Security Relay
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Endpoint DLP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Essentials Archive
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Essentials Email
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Insiders Threat Management On-Premise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Insider Threat Management Saas
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Isolation
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: ITM Saas Endpoint Agents
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Mail Protection On-Premise (PPS), including Email DLP and Email Encryption
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Meta/ZTNA
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Nexus People Risk Explorer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Secure Email Relay
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Secure Share
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Security Awareness Training
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Sentrion
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Social Discover
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Social Patrol
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Targeted Attack Protection (TAP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Threat Response (TRAP)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Web Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: ProofPoint
+    product: Web Security
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.proofpoint.com/us/blog/corporate-news/proofpoints-response-log4j-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
   - vendor: ProSeS
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -3995,7 +5016,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Prosys
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
