@@ -3579,8 +3579,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: PostGreSQL
-    product: ''
+  - vendor: Postgres
+    product: PostgreSQL JDBC
     cves:
       cve-2021-4104:
         investigated: false
@@ -3588,10 +3588,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3609,7 +3610,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Postman
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -3650,7 +3651,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - NONE
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3661,7 +3662,8 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
-    vendor_links: []
+    vendor_links:
+      - https://www.poweradmin.com/blog/solarwinds-hack-our-safety-measures/
     notes: ''
     references:
       - ''
@@ -3679,7 +3681,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - NONE
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3690,7 +3692,8 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
-    vendor_links: []
+    vendor_links:
+      - https://www.poweradmin.com/blog/solarwinds-hack-our-safety-measures/
     notes: ''
     references:
       - ''
@@ -3708,7 +3711,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - NONE
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3719,13 +3722,134 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
-    vendor_links: []
+    vendor_links:
+      - https://www.poweradmin.com/blog/solarwinds-hack-our-safety-measures/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: PowerDNS
+    product: dnsdist
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.powerdns.com/2021/12/16/powerdns-and-log4j-log4shell/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: PowerDNS
+    product: metronome
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.powerdns.com/2021/12/16/powerdns-and-log4j-log4shell/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: PowerDNS
+    product: PowerDNS Authoritative Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.powerdns.com/2021/12/16/powerdns-and-log4j-log4shell/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: PowerDNS
+    product: PowerDNS Recursor
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blog.powerdns.com/2021/12/16/powerdns-and-log4j-log4shell/
     notes: ''
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Pretix
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -3754,7 +3878,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: PrimeKey
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
