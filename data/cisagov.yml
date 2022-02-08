@@ -44047,7 +44047,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://cloud.google.com/log4j2-security-advisory
-    notes: \Looker-hosted instances have been updated to a Looker version with Log4j  v2.16.
+    notes: Looker-hosted instances have been updated to a Looker version with Log4j  v2.16.
       Looker is currently working with third-party driver vendors to evaluate the
       impact of the Log4j vulnerability. As Looker does not enable logging for these
       drivers in Looker-hosted instances, no messages are logged. We conclude that
@@ -85927,7 +85927,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.siemens-healthineers.com/en-us/support-documentation/cybersecurity/cve-2021-44228
-    notes: The vulnerability will be patch/mitigated in upcoming releases\patches.
+    notes: The vulnerability will be patch/mitigated in upcoming releases/patches.
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
