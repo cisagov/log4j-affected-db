@@ -2796,6 +2796,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Logit.io
+    product: Logit.io Platform
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://logit.io/blog/post/logit-io-log4shell-security-update
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-07T07:10:00+00:00'
   - vendor: LogMeIn
     product: ''
     cves:
