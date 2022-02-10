@@ -4480,8 +4480,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Evolveum Midpoint
-    product: All
+  - vendor: EVL Labs
+    product: JGAAP
     cves:
       cve-2021-4104:
         investigated: false
@@ -4489,10 +4489,41 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '<8.0.2'
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.com/evllabs/JGAAP/releases/tag/v8.0.2
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Evolveum Midpoint
+    product: Midpoint
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4521,8 +4552,37 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions:
-          - All
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://hmsnetworks.blob.core.windows.net/www/docs/librariesprovider10/downloads-monitored/manuals/release-notes/ecatcher_releasenotes.txt?sfvrsn=4f054ad7_42
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-02-02T07:18:50+00:00'
+  - vendor: Ewon
+    product: eCatcher
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '6.7.6'
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4540,7 +4600,7 @@ software:
       - ''
     last_updated: '2022-02-02T07:18:50+00:00'
   - vendor: Exabeam
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
