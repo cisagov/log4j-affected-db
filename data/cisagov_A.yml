@@ -211,7 +211,7 @@ software:
     vendor_links:
       - https://www.accellence.de/en/articles/cve-2021-44228-62
     notes: EBÜS itself is not vulnerable to CVE-2021-44228. Although
-      it includes several 3rd-partie software setups, which may be affected.	
+      it includes several 3rd-party software setups, which may be affected.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -281,7 +281,7 @@ software:
       - ''
     last_updated: '2021-12-16T00:00:00'
   - vendor: Acquia
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -310,7 +310,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Acronis
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
