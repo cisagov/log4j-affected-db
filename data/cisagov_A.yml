@@ -5,7 +5,7 @@ owners:
     url: https://github.com/cisagov/log4j-affected-db
 software:
   - vendor: ABB
-    product: ''
+    product: AlarmInsight Cloud
     cves:
       cve-2021-4104:
         investigated: false
@@ -13,10 +13,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -28,65 +29,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://search.abb.com/library/Download.aspx?DocumentID=9ADB012621&LanguageCode=en&DocumentPartId=&Action=Launch
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: ABB
-    product: ABB Remote Service
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - ABB Remote Platform (RAP)
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: ABB
-    product: AlarmInsight Cloud
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - AlarmInsight KPI Dashboards 1.0.0
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
+      - https://library.e.abb.com/public/33d17fce257142a9bc12de09d5b03e4f/9ADB012621_CyberSecurityNotification_Log4Shell_Vulnerabilities_RevE.pdf?x-sign=FsPI10PMyN3QM7OoR2bIwFRdFmC/BCX+5CZVPKdq2/rx0Nh8iHMAwluUVEaTFDjt
     notes: ''
     references:
       - ''
@@ -100,10 +43,40 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - See Vendor Advisory
+        investigated: true
+        affected_versions: []
         fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://library.e.abb.com/public/33d17fce257142a9bc12de09d5b03e4f/9ADB012621_CyberSecurityNotification_Log4Shell_Vulnerabilities_RevE.pdf?x-sign=FsPI10PMyN3QM7OoR2bIwFRdFmC/BCX+5CZVPKdq2/rx0Nh8iHMAwluUVEaTFDjt
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: ABB
+    product: Remote Service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -116,13 +89,13 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.br-automation.com/downloads_br_productcatalogue/assets/1639507581859-en-original-1.0.pdf
+      - https://library.e.abb.com/public/33d17fce257142a9bc12de09d5b03e4f/9ADB012621_CyberSecurityNotification_Log4Shell_Vulnerabilities_RevE.pdf?x-sign=FsPI10PMyN3QM7OoR2bIwFRdFmC/BCX+5CZVPKdq2/rx0Nh8iHMAwluUVEaTFDjt
     notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Abbott
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -146,12 +119,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.abbott.com/policies/cybersecurity/apache-Log4j.html
-    notes: ''
+    notes: Details are shared with customers with an active RAP subscription.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
-  - vendor: Abnormal Security
-    product: Abnormal Security
+  - vendor: Abbott
+    product: GLP Track System
     cves:
       cve-2021-4104:
         investigated: false
@@ -159,10 +132,42 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'Track Sample Manager (TSM)'
+          - 'Track Workflow Manager (TWM)'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.abbott.com/policies/cybersecurity/apache-Log4j.html
+    notes: Abbott will provide a fix for this in a future update expected in January 2022.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Abnormal Security
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -179,8 +184,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Accellence
-    product: ''
+  - vendor: Accellence Technologies
+    product: EBÜS
     cves:
       cve-2021-4104:
         investigated: false
@@ -188,9 +193,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 'All'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -203,7 +209,38 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.accellence.de/en/articles/national-vulnerability-database-62
+      - https://www.accellence.de/en/articles/cve-2021-44228-62
+    notes: EBÜS itself is not vulnerable to CVE-2021-44228. Although
+      it includes several 3rd-partie software setups, which may be affected.	
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Accellence Technologies
+    product: Vimacc
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.accellence.de/en/articles/cve-2021-44228-62
     notes: ''
     references:
       - ''
@@ -220,7 +257,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - v7.6 release
+          - 'v7.6 release'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -234,12 +271,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.kiteworks.com/kiteworks-news/log4shell-apache-vulnerability-what-kiteworks-customers-need-to-know/
-    notes: '"As a precaution, Kiteworks released a 7.6.1 Hotfix software update to
+    notes: As a precaution, Kiteworks released a 7.6.1 Hotfix software update to
       address the vulnerability. This patch release adds the mitigation for CVE-2021-44228
       contained in the Solr package as recommended by Apache Solr group. Specifically,
       it updates the Log4j library to a non-vulnerable version on CentOS 7 systems
-      as well as adds the recommended option “$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true”
-      to disable the possible attack vector on both CentOS 6 and CentOS 7."'
+      as well as adds the recommended option “$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true"
+      to disable the possible attack vector on both CentOS 6 and CentOS 7.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
