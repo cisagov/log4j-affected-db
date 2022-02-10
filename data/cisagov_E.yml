@@ -58,7 +58,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/Eaton-Security-Bulletin%20log4j_CVE_2021_44228_v1.0_Legal-Approved.pdf
-    notes: For security purposes direct notifications are being made to impacted customers.  Please stay tuned for more updates.
+    notes: For security purposes direct notifications are being made to impacted customers.  Please
+      stay tuned for more updates.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -73,7 +74,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '< 2.11'
+          - < 2.11
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -88,8 +89,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://docs.eclecticiq.com/security-advisories/security-issues-and-mitigation-actions/eiq-2021-0016-2
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
-      The Threat Intel Platform includes Neo4j 3.5.12 (not vulnerable) and Elasticsearch
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA. The Threat Intel Platform includes Neo4j 3.5.12 (not vulnerable) and Elasticsearch
       and Logstash OSS 7.9.1 (vulnerable) see Elasticsearch below for mitigation.
       See link in their own fix for Logstash (Support account needed, ongoing investigation)
     references:
@@ -196,7 +197,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '7.1.8 - 7.1.9'
+          - 7.1.8 - 7.1.9
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -254,7 +255,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.17.0 - 1.28.0'
+          - 1.17.0 - 1.28.0
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -554,7 +555,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '7.16.2'
+          - 7.16.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -704,7 +705,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.8.22'
+          - 6.8.22
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1263,36 +1264,6 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
-    product: Ellucian Portal
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-17T00:00:00'
-  - vendor: Ellucian
     product: Ellucian ePrint
     cves:
       cve-2021-4104:
@@ -1624,6 +1595,36 @@ software:
     last_updated: '2021-12-17T00:00:00'
   - vendor: Ellucian
     product: Ellucian Payment Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.ellucian.com/news/ellucian-response-apache-log4j-issue
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Ellucian
+    product: Ellucian Portal
     cves:
       cve-2021-4104:
         investigated: false
@@ -2805,8 +2806,8 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '5.x'
-          - '6.x'
+          - 5.x
+          - 6.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4009,7 +4010,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4039,7 +4040,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4069,7 +4070,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4099,7 +4100,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4129,7 +4130,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4492,7 +4493,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '<8.0.2'
+          - <8.0.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4581,7 +4582,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.7.6'
+          - 6.7.6
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4642,7 +4643,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4672,7 +4673,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4702,7 +4703,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4732,7 +4733,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4762,7 +4763,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4792,7 +4793,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4852,7 +4853,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4882,7 +4883,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4912,7 +4913,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4942,7 +4943,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -4972,7 +4973,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5002,7 +5003,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5032,7 +5033,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5062,7 +5063,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5092,7 +5093,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5122,7 +5123,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5152,7 +5153,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5182,7 +5183,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5212,7 +5213,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5242,7 +5243,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5272,7 +5273,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5302,7 +5303,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5332,7 +5333,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5362,7 +5363,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5392,7 +5393,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5422,7 +5423,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5452,7 +5453,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5482,7 +5483,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5512,7 +5513,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5542,7 +5543,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5572,7 +5573,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5601,7 +5602,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.6.2'
+          - 6.6.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5632,7 +5633,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5662,7 +5663,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5692,7 +5693,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5722,7 +5723,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6473,8 +6474,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '9.3.8'
-          - '9.4.3'
+          - 9.3.8
+          - 9.4.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6564,7 +6565,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '21.1.22.1-IQVA'
+          - 21.1.22.1-IQVA
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
