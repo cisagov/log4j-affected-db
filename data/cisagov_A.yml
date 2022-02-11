@@ -8589,10 +8589,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions: []
+        affected_versions:
+          - 'On Prem'
         fixed_versions: []
-        unaffected_versions:
-          - All
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -8605,8 +8605,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
-    notes: This product may be affected by a related but lower severity vulnerability
-      if running in a specific non-default configuration.
+    notes: Only vulnerable when using non-default config, cloud version fixed.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -8620,9 +8619,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - All
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - 'On prem'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8651,10 +8650,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions: []
+        affected_versions:
+          - 'On prem'
         fixed_versions: []
-        unaffected_versions:
-          - All
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -8667,8 +8666,247 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
-    notes: This product may be affected by a related but lower severity vulnerability
-      if running in a specific non-default configuration.
+    notes: Only vulnerable when using non-default config, cloud version fixed.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Atlassian
+    product: Confluence-CIS CSAT Pro
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'v1.7.1'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Atlassian
+    product: Confluence-CIS WorkBench
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Atlassian
+    product: Confluence-CIS-CAT Lite
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'v4.13.0'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Atlassian
+    product: Confluence-CIS-CAT Pro Assessor v3 Full and Dissolvable
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'v3.0.77'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Atlassian
+    product: Confluence-CIS-CAT Pro Assessor v4
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'v4.13.0'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Atlassian
+    product: Confluence-CIS-CAT Pro Assessor v4 Service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'v1.13.0'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Atlassian
+    product: Confluence-CIS-CAT Pro Dashboard
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Atlassian
+    product: Confluence-CIS-Hosted CSAT
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://confluence.atlassian.com/security/multiple-products-security-advisory-log4j-vulnerable-to-remote-code-execution-cve-2021-44228-1103069934.html
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -8682,10 +8920,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions: []
+        affected_versions:
+          - On prem
         fixed_versions: []
-        unaffected_versions:
-          - All
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -8713,10 +8951,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions: []
+        affected_versions:
+          - 'On prem'
         fixed_versions: []
-        unaffected_versions:
-          - All
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -8744,10 +8982,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions: []
+        affected_versions:
+          - 'On prem'
         fixed_versions: []
-        unaffected_versions:
-          - All
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -8775,10 +9013,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions: []
+        affected_versions:
+          - On prem
         fixed_versions: []
-        unaffected_versions:
-          - All
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -8796,8 +9034,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Attivo networks
-    product: ''
+  - vendor: Attivo Networks
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -8858,7 +9096,7 @@ software:
       - ''
     last_updated: '2022-01-17T00:00:00'
   - vendor: AudioCodes
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -8887,7 +9125,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Autodesk
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -8923,7 +9161,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Automox
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
