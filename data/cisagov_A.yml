@@ -2687,7 +2687,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Amazon
-    product: Athena
+    product: AMS
     cves:
       cve-2021-4104:
         investigated: false
@@ -2695,9 +2695,42 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Work in progress, portion of customers may still be vulnerable.
+      Actively monitoring this issue, and are working on addressing it for
+      any AMS services which use Log4j2.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: API Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2714,7 +2747,67 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Amazon
+    product: Athena
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Amazon
+    product: Athena JDBC Driver
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: All versions vended to customers were not affected.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
   - vendor: Amazon
     product: AWS
     cves:
@@ -2741,15 +2834,15 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links: []
-    notes: 'Notes: Amazon Linux 1 had aws apitools which were Java based but these
+    notes: Amazon Linux 1 had aws apitools which were Java based but these
       were deprecated in 2015 [AWS Forum](https://forums.aws.amazon.com/thread.jspa?threadID=323611).
       AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2
-      and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2'
+      and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Amazon
-    product: AWS API Gateway
+    product: AWS AppFlow
     cves:
       cve-2021-4104:
         investigated: false
@@ -2760,7 +2853,97 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - All
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Amazon
+    product: AWS AppSync
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Updated to mitigate the issues identified in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Amazon
+    product: AWS Certificate Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Amazon
+    product: AWS Certificate Manager Private CA
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2788,9 +2971,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < 3.4.1.
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '< 3.4.1'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2804,7 +2987,67 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
-    notes: ''
+    notes: CloudHSM JCE SDK 3.4.1 or higher is not vulnerable.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: AWS CodeBuild
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
+    notes: Updated to mitigate the issues identified in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: AWS CodePipeline
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
+    notes: Updated to mitigate the issues identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -2820,7 +3063,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - All
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2836,7 +3079,37 @@ software:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
     notes: Vendors recommend evaluating components of the environment outside of the
       Amazon Connect service boundary, which may require separate/additional customer
-      mitigation
+      mitigation.
+    references:
+      - ''
+    last_updated: '2021-12-23T00:00:00'
+  - vendor: Amazon
+    product: AWS Directory Service
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-23T00:00:00'
@@ -2852,7 +3125,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2871,7 +3144,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Amazon
-    product: AWS EKS, ECS, Fargate
+    product: AWS ECS
     cves:
       cve-2021-4104:
         investigated: false
@@ -2880,9 +3153,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - Unknown
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2896,16 +3169,82 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: To help mitigate the impact of the open-source Apache “Log4j2" utility
+    notes: To help mitigate the impact of the open-source Apache Log4j2 utility
       (CVE-2021-44228 and CVE-2021-45046) security issues on customers’ containers,
       Amazon EKS, Amazon ECS, and AWS Fargate are deploying a Linux-based update (hot-patch).
       This hot-patch will require customer opt-in to use, and disables JNDI lookups
       from the Log4J2 library in customers’ containers. These updates are available
       as an Amazon Linux package for Amazon ECS customers, as a DaemonSet for Kubernetes
-      users on AWS, and will be in supported AWS Fargate platform versions
+      users on AWS, and will be in supported AWS Fargate platform versions.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
+  - vendor: Amazon
+    product: AWS EKS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: To help mitigate the impact of the open-source Apache Log4j2 utility
+      (CVE-2021-44228 and CVE-2021-45046) security issues on customers’ containers,
+      Amazon EKS, Amazon ECS, and AWS Fargate are deploying a Linux-based update (hot-patch).
+      This hot-patch will require customer opt-in to use, and disables JNDI lookups
+      from the Log4J2 library in customers’ containers. These updates are available
+      as an Amazon Linux package for Amazon ECS customers, as a DaemonSet for Kubernetes
+      users on AWS, and will be in supported AWS Fargate platform versions.
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Amazon
+    product: AWS Elastic Beanstalk
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Default configuration of applications usage of Log4j versions is not vulnerable.
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
   - vendor: Amazon
     product: AWS ElastiCache
     cves:
@@ -2918,7 +3257,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2948,7 +3287,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2967,6 +3306,99 @@ software:
       - ''
     last_updated: '2021-12-16T00:00:00'
   - vendor: Amazon
+    product: AWS Fargate
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Opt-in hot-patch to mitigate the Log4j issue in JVM layer will be available as platform versions.
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Amazon
+    product: AWS Glue
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Has been updated. Vulnerable only if ETL jobs load affected versions of Apache Log4j.
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Amazon
+    product: AWS Greengrass
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Updates for all Greengrass V2 components Stream Manager (2.0.14)
+      and Secure Tunneling (1.0.6) are available. For Greengrass versions 1.10.x
+      and 1.11.x, an update for the Stream Manager feature is included in Greengrass
+      patch versions 1.10.5 and 1.11.5.
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: Amazon
     product: AWS Inspector
     cves:
       cve-2021-4104:
@@ -2978,7 +3410,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2997,7 +3429,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Amazon
-    product: AWS Kinesis Data Stream
+    product: AWS IoT SiteWise Edge
     cves:
       cve-2021-4104:
         investigated: false
@@ -3006,9 +3438,40 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - Unknown
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Updates for all AWS IoT SiteWise Edge components that use Log4j were made available;
+      OPC-UA collector (v2.0.3), Data processing pack (v2.0.14), and Publisher (v2.0.2).
+    references:
+      - ''
+    last_updated: '2021-12-17T00:00:00'
+  - vendor: Amazon
+    product: AWS Kinesis Data Streams
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3026,12 +3489,12 @@ software:
       The Kinesis Client Library (KCL) version 2.X and the Kinesis Producer Library
       (KPL) are not impacted. For customers using KCL 1.x, we have released an updated
       version and we strongly recommend that all KCL version 1.x customers upgrade
-      to KCL version 1.14.5 (or higher)
+      to KCL version 1.14.5 (or higher).  KCL 2.x, KCL 1.14.5 or higher, and KPL are not vulnerable.
     references:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Amazon
-    product: AWS Lambda
+    product: AWS KMS
     cves:
       cve-2021-4104:
         investigated: false
@@ -3040,9 +3503,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - Unknown
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3070,9 +3533,69 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - Unknown
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
+    notes: Vulnerable when using aws-lambda-java-log4j2.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: AWS Polly
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: AWS QuickSight
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3102,7 +3625,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3117,7 +3640,7 @@ software:
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
     notes: Amazon RDS and Amazon Aurora have been updated to mitigate the issues identified
-      in CVE-2021-44228
+      in CVE-2021-44228.
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
@@ -3133,7 +3656,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3152,6 +3675,96 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Amazon
+    product: AWS SDK
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Amazon
+    product: AWS Secrets Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Amazon
+    product: AWS Service Catalog
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: Amazon
     product: AWS SNS
     cves:
       cve-2021-4104:
@@ -3163,7 +3776,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3179,7 +3792,7 @@ software:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
     notes: Amazon SNS systems that serve customer traffic are patched against the
       Log4j2 issue. We are working to apply the Log4j2 patch to sub-systems that operate
-      separately from SNS’s systems that serve customer traffic
+      separately from SNS’s systems that serve customer traffic.
     references:
       - ''
     last_updated: '2021-12-14T00:00:00'
@@ -3195,7 +3808,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3214,6 +3827,157 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Amazon
+    product: AWS Systems Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Amazon
+    product: AWS Systems Manager Agent
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Amazon
+    product: AWS Textract
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Amazon
+    product: Chime
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Amazon Chime and Chime SDK services have been updated to mitigate
+      the issues identified in CVE-2021-44228 and CVE-2021-45046.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Cloud Directory
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
     product: CloudFront
     cves:
       cve-2021-4104:
@@ -3222,9 +3986,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3251,9 +4016,101 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Cognito
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Corretto
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: 10/19 release distribution does not include Log4j. Vulnerable only
+      if customers applications use affected versions of Apache Log4j.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: DocumentDB
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3282,9 +4139,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - Amazon Linux 1 & 2
+        fixed_versions:
+          - ''
+        unaffected_versions: []
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3297,12 +4154,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: ''
+    notes: Packages for Amazon Linux 1 and 2 not affected, package for Amazon Linux 2022 is affected.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Amazon
-    product: ELB
+    product: ECR Public
     cves:
       cve-2021-4104:
         investigated: false
@@ -3310,9 +4167,103 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Amazon-owned images published under a Verified Account on Amazon
+      ECR Public are not affected by the Log4j issue.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Amazon
+    product: Elastic Load Balancing
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Services have been updated. All Elastic Load Balancers, as well as Classic,
+      Application, Network and Gateway, are not affected by this Log4j issue.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Amazon
+    product: EMR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Many customers are estimated to be vulnerable. Vulnerable only
+      if affected EMR releases are used and untrusted sources are configured to be processed.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: EventBridge
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3331,7 +4282,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Amazon
-    product: KMS
+    product: Fraud Detector
     cves:
       cve-2021-4104:
         investigated: false
@@ -3339,9 +4290,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3356,6 +4308,610 @@ software:
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
     notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Inspector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Inspector Classic
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Kafka (MSK)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Applying updates as required, portion of customers may still be vulnerable.
+      Some MSK-specific service components use Log4j > 2.0.0 library and are being patched where needed.	
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Kendra
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Keyspaces (for Apache Cassandra)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Kinesis
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Kinesis Data Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Lake Formation
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Update in progress, portion of customers may still be vulnerable.
+      AWS Lake Formation service hosts are being updated to the latest version of Log4j.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Lex
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Linux (AL1)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: By default not vulnerable. Opt-in hot-patch to mitigate the Log4j in JVM layer issue is available.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Linux (AL2)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: By default not vulnerable, and a new version of Amazon Kinesis Agent
+      which is part of AL2 addresses the Log4j issue. Opt-in hot-patch to mitigate
+      the Log4j issue in JVM layer is available.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Lookout for Equipment
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Macie
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Macie Classic
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Managed Workflows for Apache Airflow (MWAA)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: MemoryDB for Redis
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Monitron
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: MQ
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Neptune
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: NICE
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Recommended to update EnginFrame or Log4j library.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -3369,9 +4925,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - Unknown
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - 'R20211203-P2'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3385,12 +4941,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-005/
-    notes: ''
+    notes: Update released, customers need to update their clusters to the fixed release.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Amazon
-    product: RDS
+    product: Pinpoint
     cves:
       cve-2021-4104:
         investigated: false
@@ -3398,9 +4954,130 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: RDS Aurora
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: RDS for Oracle
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Redshift
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Rekognition
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3427,9 +5104,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3448,7 +5126,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Amazon
-    product: S3
+    product: SageMaker
     cves:
       cve-2021-4104:
         investigated: false
@@ -3456,9 +5134,193 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Completed patching for the Apache Log4j2 issue (CVE-2021-44228).
+      Vulnerable only if customers applications use affected versions of Apache Log4j.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Simple Notification Service (SNS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Systems that serve customer traffic are patched against the Log4j2 issue.
+      Working to apply the patch to sub-systems that operate separately from SNSs
+      systems that serve customer traffic.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Simple Queue Service (SQS)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Simple Workflow Service (SWF)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Single Sign-On
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Step Functions
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: Timestream
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3485,10 +5347,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3514,9 +5377,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3534,6 +5398,38 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Amazon
+    product: WorkSpaces/AppStream 2.0
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+    notes: Not affected with default configurations. WorkDocs Sync client
+      versions 1.2.895.1 and older within Windows WorkSpaces, which contain
+      the Log4j component, are vulnerable; For update instruction, see source for more info.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: AMD
     product: All
     cves:
@@ -3543,10 +5439,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -3565,7 +5462,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: Anaconda
-    product: Anaconda
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -3577,7 +5474,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 4.10.3
+          - '4.10.3'
       cve-2021-45046:
         investigated: false
         affected_versions: []
