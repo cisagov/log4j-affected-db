@@ -6891,8 +6891,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-           - '< 9.10'
-           - '< 10.6'
+          - '< 9.10'
+          - '< 10.6'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
