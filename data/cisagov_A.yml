@@ -2326,7 +2326,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Akamai
-    product: SIEM Splunk Connector
+    product: Enterprise Application Access (EAA) Connector
     cves:
       cve-2021-4104:
         investigated: false
@@ -2335,9 +2335,39 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - All
+        affected_versions: []
         fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://developer.akamai.com/tools/integrations/siem/siem-cef-connector#release-notes
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Akamai
+    product: SIEM Integration Connector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '<1.7.4'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2350,13 +2380,45 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://splunkbase.splunk.com/app/4310/
-    notes: v1.4.11 is the new recommendation for mitigation of log4j vulnerabilities
+      - https://developer.akamai.com/tools/integrations/siem/siem-cef-connector#release-notes
+    notes: Akamai SIEM Integration Connector is vulnerable to CVE-2021-44228,
+      CVE-2021-45046 and CVE-2021-45105.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Akamai
+    product: SIEM Splunk Connector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '< 1.4.10'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://developer.akamai.com/tools/integrations/siem/siem-cef-connector#release-notes
+    notes: Akamai SIEM Integration Connector for Splunk is not vulnerable to CVE-2021-44228.
+      Although it includes the vulnerable Log4J component, it is not used by the connector.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Alcatel
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -2385,7 +2447,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Alertus
-    product: ''
+    product: Console
     cves:
       cve-2021-4104:
         investigated: false
@@ -2393,9 +2455,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '5.15.0'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2414,7 +2477,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Alexion
-    product: ''
+    product: Alexion CRM
     cves:
       cve-2021-4104:
         investigated: false
@@ -2422,10 +2485,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2443,7 +2507,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Alfresco
-    product: ''
+    product: Alfresco
     cves:
       cve-2021-4104:
         investigated: false
@@ -2451,10 +2515,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2472,7 +2537,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: AlienVault
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -2524,7 +2589,7 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.alphatronmedical.com/home.html
+      - https://www.alphatronmedical.com/product-news/vulnerability-apache-log4j.html
     notes: ''
     references:
       - ''
