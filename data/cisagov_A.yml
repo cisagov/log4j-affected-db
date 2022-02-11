@@ -4398,7 +4398,7 @@ software:
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
     notes: Applying updates as required, portion of customers may still be vulnerable.
-      Some MSK-specific service components use Log4j > 2.0.0 library and are being patched where needed.	
+      Some MSK-specific service components use Log4j > 2.0.0 library and are being patched where needed.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -5456,7 +5456,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1034
-    notes: Currently, no AMD products have been identified as affected.  AMD is continuing
+    notes: Currently, no AMD products have been identified as affected. AMD is continuing
       its analysis.
     references:
       - ''
