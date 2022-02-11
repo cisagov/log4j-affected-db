@@ -7097,38 +7097,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - Not Affected
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
-  - vendor: Application Performance Ltd
-    product: DBMarlin
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7146,7 +7118,7 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: APPSHEET
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7175,7 +7147,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Aptible
-    product: Aptible
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7184,9 +7156,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - ElasticSearch 5.x
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - Search 5.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7205,7 +7177,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Aqua Security
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7242,10 +7214,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7292,7 +7265,7 @@ software:
       - ''
     last_updated: '2022-01-13T00:00:00'
   - vendor: Arca Noae
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7561,7 +7534,7 @@ software:
       - '[https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US](https://support.storagecraft.com/s/question/0D51R000089NnT3SAK/does-storagecraft-have-a-publicly-available-response-to-the-log4j-vulnerability-is-there-a-reference-for-any-findings-negative-positive-the-company-has-in-their-investigations-it-seems-it-would-greatly-benefit-support-and-customers-both?language=en_US)'
     last_updated: '2021-12-14T00:00:00'
   - vendor: ArcticWolf
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7590,7 +7563,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Arduino
-    product: ''
+    product: IDE
     cves:
       cve-2021-4104:
         investigated: false
@@ -7598,9 +7571,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '1.8.17'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7619,7 +7593,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Ariba
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7648,7 +7622,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Arista
-    product: ''
+    product: Analytics Node for Converged Cloud Fabric
     cves:
       cve-2021-4104:
         investigated: false
@@ -7656,8 +7630,69 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '>7.0.0'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070
+    notes: Formerly Big Cloud Fabric
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Arista
+    product: Analytics Node for DANZ Monitoring Fabric
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '>7.0.0'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070
+    notes: Formerly Big Monitoring Fabric
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Arista
+    product: CloudVision Portal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '>2019.1.0'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -7673,6 +7708,66 @@ software:
     vendor_links:
       - https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070
     notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Arista
+    product: CloudVision Wi-Fi, virtual or physical appliance
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '>8.8'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Arista
+    product: Embedded Analytics for Converged Cloud Fabric
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '>5.3.0'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.arista.com/en/support/advisories-notices/security-advisories/13425-security-advisory-0070
+    notes: Formerly Big Cloud Fabric
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
