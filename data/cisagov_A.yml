@@ -134,8 +134,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'Track Sample Manager (TSM)'
-          - 'Track Workflow Manager (TWM)'
+          - Track Sample Manager (TSM)
+          - Track Workflow Manager (TWM)
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -150,7 +150,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.abbott.com/policies/cybersecurity/apache-Log4j.html
-    notes: Abbott will provide a fix for this in a future update expected in January 2022.
+    notes: Abbott will provide a fix for this in a future update expected in January
+      2022.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -196,7 +197,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All'
+          - All
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -210,8 +211,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.accellence.de/en/articles/cve-2021-44228-62
-    notes: EBÜS itself is not vulnerable to CVE-2021-44228. Although
-      it includes several 3rd-party software setups, which may be affected.
+    notes: EBÜS itself is not vulnerable to CVE-2021-44228. Although it includes several
+      3rd-party software setups, which may be affected.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -257,7 +258,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'v7.6 release'
+          - v7.6 release
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -271,8 +272,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.kiteworks.com/kiteworks-news/log4shell-apache-vulnerability-what-kiteworks-customers-need-to-know/
-    notes: As a precaution, Kiteworks released a 7.6.1 Hotfix software update to
-      address the vulnerability. This patch release adds the mitigation for CVE-2021-44228
+    notes: As a precaution, Kiteworks released a 7.6.1 Hotfix software update to address
+      the vulnerability. This patch release adds the mitigation for CVE-2021-44228
       contained in the Solr package as recommended by Apache Solr group. Specifically,
       it updates the Log4j library to a non-vulnerable version on CentOS 7 systems
       as well as adds the recommended option “$SOLR_OPTS -Dlog4j2.formatMsgNoLookups=true"
@@ -952,7 +953,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '8.6.2 onwards'
+          - 8.6.2 onwards
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -983,7 +984,7 @@ software:
         fixed_versions: []
         unaffected_versions:
           - '3.5'
-          - '4.x'
+          - 4.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1043,7 +1044,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '2017 onwards'
+          - 2017 onwards
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1103,7 +1104,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '10.7 onwards'
+          - 10.7 onwards
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1224,7 +1225,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1254,7 +1255,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1284,7 +1285,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1314,7 +1315,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1332,36 +1333,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Acunetix
-    product: IAST-Java
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - 'All'
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/
-    notes: AcuSensor IAST module needs attention.
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Acunetix
     product: IAST - NodeJS
     cves:
       cve-2021-4104:
@@ -1374,7 +1345,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1404,7 +1375,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1418,6 +1389,36 @@ software:
     vendor_links:
       - https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/
     notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Acunetix
+    product: IAST-Java
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - All
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.acunetix.com/blog/web-security-zone/critical-alert-log4shell-cve-2021-44228-in-log4j-possibly-the-biggest-impact-vulnerability-ever/
+    notes: AcuSensor IAST module needs attention.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1523,9 +1524,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.9.9'
-          - '6.9.10'
-          - '6.9.11'
+          - 6.9.9
+          - 6.9.10
+          - 6.9.11
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1615,7 +1616,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All versions from 6.3 GA to 6.3.3'
+          - All versions from 6.3 GA to 6.3.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1675,7 +1676,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All versions from 6.4 GA to 6.4.8'
+          - All versions from 6.4 GA to 6.4.8
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1735,7 +1736,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All versions from 6.5 GA to 6.5.11'
+          - All versions from 6.5 GA to 6.5.11
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1766,7 +1767,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1796,7 +1797,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2009,7 +2010,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '8.0.7 - 8.4.3'
+          - 8.0.7 - 8.4.3
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2039,7 +2040,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '8.0.7 - 8.4.3'
+          - 8.0.7 - 8.4.3
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2069,7 +2070,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '8.0.7 - 8.4.3'
+          - 8.0.7 - 8.4.3
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2099,7 +2100,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '8.0.7 - 8.4.3'
+          - 8.0.7 - 8.4.3
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2129,7 +2130,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '8.0.7 - 8.4.3'
+          - 8.0.7 - 8.4.3
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2159,7 +2160,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '8.0.7 - 8.4.3'
+          - 8.0.7 - 8.4.3
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2218,7 +2219,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '1.6+'
+          - 1.6+
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2248,7 +2249,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'version 8.5.4.86 (and above)'
+          - version 8.5.4.86 (and above)
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2308,7 +2309,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2367,7 +2368,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '<1.7.4'
+          - <1.7.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2381,8 +2382,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://developer.akamai.com/tools/integrations/siem/siem-cef-connector#release-notes
-    notes: Akamai SIEM Integration Connector is vulnerable to CVE-2021-44228,
-      CVE-2021-45046 and CVE-2021-45105.
+    notes: Akamai SIEM Integration Connector is vulnerable to CVE-2021-44228, CVE-2021-45046
+      and CVE-2021-45105.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -2398,7 +2399,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 1.4.10'
+          - < 1.4.10
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2458,7 +2459,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '5.15.0'
+          - 5.15.0
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2489,7 +2490,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2519,7 +2520,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2712,9 +2713,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Work in progress, portion of customers may still be vulnerable.
-      Actively monitoring this issue, and are working on addressing it for
-      any AMS services which use Log4j2.
+    notes: Work in progress, portion of customers may still be vulnerable. Actively
+      monitoring this issue, and are working on addressing it for any AMS services
+      which use Log4j2.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -2834,8 +2835,8 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links: []
-    notes: Amazon Linux 1 had aws apitools which were Java based but these
-      were deprecated in 2015 [AWS Forum](https://forums.aws.amazon.com/thread.jspa?threadID=323611).
+    notes: Amazon Linux 1 had aws apitools which were Java based but these were deprecated
+      in 2015 [AWS Forum](https://forums.aws.amazon.com/thread.jspa?threadID=323611).
       AMIs used to inspect and verify (base spin ups) - amzn-ami-hvm-2018.03.0.20200318.1-x86_64-gp2
       and amzn2-ami-kernel-5.10-hvm-2.0.20211201.0-x86_64-gp2.
     references:
@@ -2973,7 +2974,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 3.4.1'
+          - < 3.4.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3169,13 +3170,13 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: To help mitigate the impact of the open-source Apache Log4j2 utility
-      (CVE-2021-44228 and CVE-2021-45046) security issues on customers’ containers,
-      Amazon EKS, Amazon ECS, and AWS Fargate are deploying a Linux-based update (hot-patch).
-      This hot-patch will require customer opt-in to use, and disables JNDI lookups
-      from the Log4J2 library in customers’ containers. These updates are available
-      as an Amazon Linux package for Amazon ECS customers, as a DaemonSet for Kubernetes
-      users on AWS, and will be in supported AWS Fargate platform versions.
+    notes: To help mitigate the impact of the open-source Apache Log4j2 utility (CVE-2021-44228
+      and CVE-2021-45046) security issues on customers’ containers, Amazon EKS, Amazon
+      ECS, and AWS Fargate are deploying a Linux-based update (hot-patch). This hot-patch
+      will require customer opt-in to use, and disables JNDI lookups from the Log4J2
+      library in customers’ containers. These updates are available as an Amazon Linux
+      package for Amazon ECS customers, as a DaemonSet for Kubernetes users on AWS,
+      and will be in supported AWS Fargate platform versions.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
@@ -3205,13 +3206,13 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: To help mitigate the impact of the open-source Apache Log4j2 utility
-      (CVE-2021-44228 and CVE-2021-45046) security issues on customers’ containers,
-      Amazon EKS, Amazon ECS, and AWS Fargate are deploying a Linux-based update (hot-patch).
-      This hot-patch will require customer opt-in to use, and disables JNDI lookups
-      from the Log4J2 library in customers’ containers. These updates are available
-      as an Amazon Linux package for Amazon ECS customers, as a DaemonSet for Kubernetes
-      users on AWS, and will be in supported AWS Fargate platform versions.
+    notes: To help mitigate the impact of the open-source Apache Log4j2 utility (CVE-2021-44228
+      and CVE-2021-45046) security issues on customers’ containers, Amazon EKS, Amazon
+      ECS, and AWS Fargate are deploying a Linux-based update (hot-patch). This hot-patch
+      will require customer opt-in to use, and disables JNDI lookups from the Log4J2
+      library in customers’ containers. These updates are available as an Amazon Linux
+      package for Amazon ECS customers, as a DaemonSet for Kubernetes users on AWS,
+      and will be in supported AWS Fargate platform versions.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
@@ -3331,7 +3332,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Opt-in hot-patch to mitigate the Log4j issue in JVM layer will be available as platform versions.
+    notes: Opt-in hot-patch to mitigate the Log4j issue in JVM layer will be available
+      as platform versions.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
@@ -3361,7 +3363,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Has been updated. Vulnerable only if ETL jobs load affected versions of Apache Log4j.
+    notes: Has been updated. Vulnerable only if ETL jobs load affected versions of
+      Apache Log4j.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
@@ -3391,10 +3394,10 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Updates for all Greengrass V2 components Stream Manager (2.0.14)
-      and Secure Tunneling (1.0.6) are available. For Greengrass versions 1.10.x
-      and 1.11.x, an update for the Stream Manager feature is included in Greengrass
-      patch versions 1.10.5 and 1.11.5.
+    notes: Updates for all Greengrass V2 components Stream Manager (2.0.14) and Secure
+      Tunneling (1.0.6) are available. For Greengrass versions 1.10.x and 1.11.x,
+      an update for the Stream Manager feature is included in Greengrass patch versions
+      1.10.5 and 1.11.5.
     references:
       - ''
     last_updated: '2021-12-16T00:00:00'
@@ -3454,8 +3457,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Updates for all AWS IoT SiteWise Edge components that use Log4j were made available;
-      OPC-UA collector (v2.0.3), Data processing pack (v2.0.14), and Publisher (v2.0.2).
+    notes: Updates for all AWS IoT SiteWise Edge components that use Log4j were made
+      available; OPC-UA collector (v2.0.3), Data processing pack (v2.0.14), and Publisher
+      (v2.0.2).
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
@@ -3489,7 +3493,8 @@ software:
       The Kinesis Client Library (KCL) version 2.X and the Kinesis Producer Library
       (KPL) are not impacted. For customers using KCL 1.x, we have released an updated
       version and we strongly recommend that all KCL version 1.x customers upgrade
-      to KCL version 1.14.5 (or higher).  KCL 2.x, KCL 1.14.5 or higher, and KPL are not vulnerable.
+      to KCL version 1.14.5 (or higher).  KCL 2.x, KCL 1.14.5 or higher, and KPL are
+      not vulnerable.
     references:
       - ''
     last_updated: '2021-12-14T00:00:00'
@@ -3942,8 +3947,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Amazon Chime and Chime SDK services have been updated to mitigate
-      the issues identified in CVE-2021-44228 and CVE-2021-45046.
+    notes: Amazon Chime and Chime SDK services have been updated to mitigate the issues
+      identified in CVE-2021-44228 and CVE-2021-45046.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -4093,8 +4098,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: 10/19 release distribution does not include Log4j. Vulnerable only
-      if customers applications use affected versions of Apache Log4j.
+    notes: 10/19 release distribution does not include Log4j. Vulnerable only if customers
+      applications use affected versions of Apache Log4j.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -4154,7 +4159,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Packages for Amazon Linux 1 and 2 not affected, package for Amazon Linux 2022 is affected.
+    notes: Packages for Amazon Linux 1 and 2 not affected, package for Amazon Linux
+      2022 is affected.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -4184,8 +4190,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Amazon-owned images published under a Verified Account on Amazon
-      ECR Public are not affected by the Log4j issue.
+    notes: Amazon-owned images published under a Verified Account on Amazon ECR Public
+      are not affected by the Log4j issue.
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
@@ -4246,8 +4252,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Many customers are estimated to be vulnerable. Vulnerable only
-      if affected EMR releases are used and untrusted sources are configured to be processed.
+    notes: Many customers are estimated to be vulnerable. Vulnerable only if affected
+      EMR releases are used and untrusted sources are configured to be processed.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -4398,7 +4404,8 @@ software:
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
     notes: Applying updates as required, portion of customers may still be vulnerable.
-      Some MSK-specific service components use Log4j > 2.0.0 library and are being patched where needed.
+      Some MSK-specific service components use Log4j > 2.0.0 library and are being
+      patched where needed.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -4548,8 +4555,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Update in progress, portion of customers may still be vulnerable.
-      AWS Lake Formation service hosts are being updated to the latest version of Log4j.
+    notes: Update in progress, portion of customers may still be vulnerable. AWS Lake
+      Formation service hosts are being updated to the latest version of Log4j.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -4609,7 +4616,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: By default not vulnerable. Opt-in hot-patch to mitigate the Log4j in JVM layer issue is available.
+    notes: By default not vulnerable. Opt-in hot-patch to mitigate the Log4j in JVM
+      layer issue is available.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -4639,9 +4647,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: By default not vulnerable, and a new version of Amazon Kinesis Agent
-      which is part of AL2 addresses the Log4j issue. Opt-in hot-patch to mitigate
-      the Log4j issue in JVM layer is available.
+    notes: By default not vulnerable, and a new version of Amazon Kinesis Agent which
+      is part of AL2 addresses the Log4j issue. Opt-in hot-patch to mitigate the Log4j
+      issue in JVM layer is available.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -4927,7 +4935,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'R20211203-P2'
+          - R20211203-P2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5151,8 +5159,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Completed patching for the Apache Log4j2 issue (CVE-2021-44228).
-      Vulnerable only if customers applications use affected versions of Apache Log4j.
+    notes: Completed patching for the Apache Log4j2 issue (CVE-2021-44228). Vulnerable
+      only if customers applications use affected versions of Apache Log4j.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -5424,9 +5432,9 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
-    notes: Not affected with default configurations. WorkDocs Sync client
-      versions 1.2.895.1 and older within Windows WorkSpaces, which contain
-      the Log4j component, are vulnerable; For update instruction, see source for more info.
+    notes: Not affected with default configurations. WorkDocs Sync client versions
+      1.2.895.1 and older within Windows WorkSpaces, which contain the Log4j component,
+      are vulnerable; For update instruction, see source for more info.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -5474,7 +5482,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '4.10.3'
+          - 4.10.3
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5598,7 +5606,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.2.6'
+          - 2.2.6
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5741,6 +5749,36 @@ software:
       - ''
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
+    product: Camel Kafka Connector
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://camel.apache.org/blog/2021/12/log4j2/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-13T00:00:00'
+  - vendor: Apache
     product: Camel Karaf
     cves:
       cve-2021-4104:
@@ -5802,36 +5840,6 @@ software:
       - ''
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
-    product: Camel Kafka Connector
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://camel.apache.org/blog/2021/12/log4j2/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-13T00:00:00'
-  - vendor: Apache
     product: Cassandra
     cves:
       cve-2021-4104:
@@ -5844,7 +5852,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5873,7 +5881,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '0.22.1'
+          - 0.22.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5903,7 +5911,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All'
+          - All
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5951,11 +5959,11 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://flink.apache.org/2021/12/10/log4j-cve.html
-    notes: To clarify and avoid confusion, the 1.14.1 / 1.13.4 / 1.12.6 / 1.11.5
-      releases, which were supposed to only contain a Log4j upgrade to 2.15.0, were
-      skipped because CVE-2021-45046 was discovered during the release publication.
-      The new 1.14.2 / 1.13.5 / 1.12.7 / 1.11.6 releases include a version upgrade
-      for Log4j to version 2.16.0 to address CVE-2021-44228 and CVE-2021-45046.
+    notes: To clarify and avoid confusion, the 1.14.1 / 1.13.4 / 1.12.6 / 1.11.5 releases,
+      which were supposed to only contain a Log4j upgrade to 2.15.0, were skipped
+      because CVE-2021-45046 was discovered during the release publication. The new
+      1.14.2 / 1.13.5 / 1.12.7 / 1.11.6 releases include a version upgrade for Log4j
+      to version 2.16.0 to address CVE-2021-44228 and CVE-2021-45046.
     references:
       - '[https://flink.apache.org/news/2021/12/16/log4j-patch-releases.html](https://flink.apache.org/news/2021/12/16/log4j-patch-releases.html)'
     last_updated: '2021-12-12T00:00:00'
@@ -5971,7 +5979,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 2.0.7'
+          - < 2.0.7
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6001,7 +6009,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.14.0'
+          - 1.14.0
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6032,7 +6040,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6121,7 +6129,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.x'
+          - 4.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6150,7 +6158,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '3.6.0'
+          - 3.6.0
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6181,7 +6189,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 4.3.1'
+          - < 4.3.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6210,7 +6218,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'All'
+          - All
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6241,7 +6249,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.11.1'
+          - 2.11.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6302,7 +6310,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6330,7 +6338,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '2.17.1'
+          - 2.17.1
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6362,7 +6370,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6392,7 +6400,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6421,7 +6429,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 18.12.03'
+          - < 18.12.03
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6451,7 +6459,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 1.2.1'
+          - < 1.2.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6481,7 +6489,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 8.9.1'
+          - < 8.9.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6511,8 +6519,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '7.4.0 to 7.7.3'
-          - '8.0.0 to 8.11.0'
+          - 7.4.0 to 7.7.3
+          - 8.0.0 to 8.11.0
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6526,7 +6534,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://solr.apache.org/security.html#apache-solr-affected-by-apache-log4j-cve-2021-44228
-    notes: Fixed in 8.11.1, Versions before 7.4 also vulnerable when using several configurations.
+    notes: Fixed in 8.11.1, Versions before 7.4 also vulnerable when using several
+      configurations.
     references:
       - '[Apache Solr 8.11.1 downloads](https://solr.apache.org/downloads.html)'
     last_updated: '2021-12-16T00:00:00'
@@ -6543,7 +6552,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6571,7 +6580,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '2.5.28'
+          - 2.5.28
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6634,7 +6643,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '5.7.3'
+          - 5.7.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6664,7 +6673,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '2.0.0 and up'
+          - 2.0.0 and up
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -6793,11 +6802,11 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'v9.5'
-          - 'v10.0.1'
-          - 'v10.0.2'
-          - 'v10.0.3'
-          - 'v10.0.4'
+          - v9.5
+          - v10.0.1
+          - v10.0.2
+          - v10.0.3
+          - v10.0.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6830,7 +6839,7 @@ software:
           - '4.2'
           - '4.3'
           - '4.4'
-          - '4.4.1'
+          - 4.4.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6860,8 +6869,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.3.x'
-          - '6.4.x'
+          - 6.3.x
+          - 6.4.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6891,8 +6900,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '< 9.10'
-          - '< 10.6'
+          - < 9.10
+          - < 10.6
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6923,7 +6932,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7574,7 +7583,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.8.17'
+          - 1.8.17
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7832,7 +7841,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Aruba Networks
-    product: ArubaOS Wi-Fi Controllers and Gateways
+    product: ArubaOS SD-WAN Gateways
     cves:
       cve-2021-4104:
         investigated: false
@@ -7862,7 +7871,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Aruba Networks
-    product: ArubaOS SD-WAN Gateways
+    product: ArubaOS Wi-Fi Controllers and Gateways
     cves:
       cve-2021-4104:
         investigated: false
@@ -8233,7 +8242,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'Versions 2.5.0.0 to 2.5.0.6'
+          - Versions 2.5.0.0 to 2.5.0.6
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8312,7 +8321,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Aruba Networks
-    product: Legacy VX
+    product: Legacy VRX
     cves:
       cve-2021-4104:
         investigated: false
@@ -8342,7 +8351,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Aruba Networks
-    product: Legacy VRX
+    product: Legacy VX
     cves:
       cve-2021-4104:
         investigated: false
@@ -8590,7 +8599,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'On Prem'
+          - On Prem
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8621,7 +8630,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'On prem'
+          - On prem
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8651,7 +8660,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'On prem'
+          - On prem
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8681,7 +8690,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'v1.7.1'
+          - v1.7.1
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8741,7 +8750,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'v4.13.0'
+          - v4.13.0
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8771,7 +8780,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'v3.0.77'
+          - v3.0.77
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8801,7 +8810,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'v4.13.0'
+          - v4.13.0
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8831,7 +8840,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'v1.13.0'
+          - v1.13.0
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8952,7 +8961,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'On prem'
+          - On prem
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -8983,7 +8992,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 'On prem'
+          - On prem
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9186,7 +9195,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://apeople.automationanywhere.com/s/login/?language=en_US&startURL=%2Fs%2Farticle%2FA360-Cloud-Zero-day-in-the-Log4j-Java-library&ec=302
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -9216,7 +9226,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://apeople.automationanywhere.com/s/login/?language=en_US&startURL=%2Fs%2Farticle%2FA360-Cloud-Zero-day-in-the-Log4j-Java-library&ec=302
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -9232,8 +9243,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '11.x'
-          - '<11.3x'
+          - 11.x
+          - <11.3x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -9247,7 +9258,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://apeople.automationanywhere.com/s/login/?language=en_US&startURL=%2Fs%2Farticle%2FA360-Cloud-Zero-day-in-the-Log4j-Java-library&ec=302
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -9402,6 +9414,108 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
+    product: Avaya Aura Application Enablement Services
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 8.1.3.2
+          - 8.1.3.3
+          - '10.1'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
+    notes: ''
+    references:
+      - '[PSN020551u](https://download.avaya.com/css/public/documents/101079386)'
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Avaya
+    product: Avaya Aura Contact Center
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 7.0.2
+          - 7.0.3
+          - '7.1'
+          - 7.1.1
+          - 7.1.2
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Avaya
+    product: Avaya Aura Device Services
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '8'
+          - 8.0.1
+          - 8.0.2
+          - '8.1'
+          - 8.1.3
+          - 8.1.4
+          - 8.1.5
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Avaya
     product: Avaya Aura for OneCloud Private
     cves:
       cve-2021-4104:
@@ -9435,108 +9549,6 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Aura Application Enablement Services
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - '8.1.3.2'
-          - '8.1.3.3'
-          - '10.1'
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
-    notes: ''
-    references:
-      - '[PSN020551u](https://download.avaya.com/css/public/documents/101079386)'
-    last_updated: '2021-12-14T00:00:00'
-  - vendor: Avaya
-    product: Avaya Aura Contact Center
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - '7.0.2'
-          - '7.0.3'
-          - '7.1'
-          - '7.1.1'
-          - '7.1.2'
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-14T00:00:00'
-  - vendor: Avaya
-    product: Avaya Aura Device Services
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - '8'
-          - '8.0.1'
-          - '8.0.2'
-          - '8.1'
-          - '8.1.3'
-          - '8.1.4'
-          - '8.1.5'
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-14T00:00:00'
-  - vendor: Avaya
     product: Avaya Aura Media Server
     cves:
       cve-2021-4104:
@@ -9547,9 +9559,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '8.0.0'
-          - '8.0.1'
-          - '8.0.2'
+          - 8.0.0
+          - 8.0.1
+          - 8.0.2
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9580,15 +9592,15 @@ software:
         investigated: true
         affected_versions:
           - '10.1'
-          - '7.1.2'
+          - 7.1.2
           - '8'
-          - '8.0.1'
-          - '8.0.2'
+          - 8.0.1
+          - 8.0.2
           - '8.1'
-          - '8.1.1'
-          - '8.1.2'
-          - '8.1.3'
-          - '8.1.4'
+          - 8.1.1
+          - 8.1.2
+          - 8.1.3
+          - 8.1.4
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9619,13 +9631,13 @@ software:
         investigated: true
         affected_versions:
           - '10.1'
-          - '7.1.3'
+          - 7.1.3
           - '8'
-          - '8.0.1'
+          - 8.0.1
           - '8.1'
-          - '8.1.1'
-          - '8.1.2'
-          - '8.1.3'
+          - 8.1.1
+          - 8.1.2
+          - 8.1.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9656,7 +9668,7 @@ software:
         investigated: true
         affected_versions:
           - '10.1'
-          - '8.1.3'
+          - 8.1.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9686,11 +9698,11 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '3.11[P]'
-          - '3.8.1[P]'
-          - '3.8[P]'
-          - '3.9.1[P]'
-          - '3.9[P]'
+          - 3.11[P]
+          - 3.8.1[P]
+          - 3.8[P]
+          - 3.9.1[P]
+          - 3.9[P]
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9722,7 +9734,7 @@ software:
         affected_versions:
           - '3.7'
           - '3.8'
-          - '3.8.1'
+          - 3.8.1
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9752,11 +9764,11 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '7.0.2'
-          - '7.0.3'
+          - 7.0.2
+          - 7.0.3
           - '7.1'
-          - '7.1.1'
-          - '7.1.2'
+          - 7.1.1
+          - 7.1.2
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9816,7 +9828,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '3.1.22'
+          - 3.1.22
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9846,39 +9858,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '9.1.10'
-          - '9.1.11'
-          - '9.1.12'
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-14T00:00:00'
-  - vendor: Avaya
-    product: Avaya OneCloud-Private-UCaaS - Mid Market Aura
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - '1'
+          - 9.1.10
+          - 9.1.11
+          - 9.1.12
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9928,6 +9910,36 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
+    product: Avaya OneCloud-Private-UCaaS - Mid Market Aura
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '1'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Avaya
     product: Avaya Session Border Controller for Enterprise
     cves:
       cve-2021-4104:
@@ -9938,11 +9950,11 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '8.0.1'
+          - 8.0.1
           - '8.1'
-          - '8.1.1'
-          - '8.1.2'
-          - '8.1.3'
+          - 8.1.1
+          - 8.1.2
+          - 8.1.3
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10066,7 +10078,7 @@ software:
         investigated: true
         affected_versions:
           - '5'
-          - '5.0.1'
+          - 5.0.1
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10096,8 +10108,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '9.0.2'
-          - '9.0.2.1'
+          - 9.0.2
+          - 9.0.2.1
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10157,7 +10169,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '9.1.2'
+          - 9.1.2
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10187,7 +10199,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '7.3.9'
+          - 7.3.9
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10217,10 +10229,10 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '11.0.4'
+          - 11.0.4
           - '11.1'
-          - '11.1.1'
-          - '11.1.2'
+          - 11.1.1
+          - 11.1.2
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10250,10 +10262,10 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '3.1.2'
-          - '3.1.3'
+          - 3.1.2
+          - 3.1.3
           - '4'
-          - '4.0.1'
+          - 4.0.1
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
