@@ -9410,8 +9410,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - ''
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9434,7 +9435,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Aura® Application Enablement Services
+    product: Avaya Aura Application Enablement Services
     cves:
       cve-2021-4104:
         investigated: false
@@ -9444,8 +9445,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 8.1.3.2
-          - 8.1.3.3
+          - '8.1.3.2'
+          - '8.1.3.3'
           - '10.1'
         fixed_versions: []
         unaffected_versions: []
@@ -9466,7 +9467,7 @@ software:
       - '[PSN020551u](https://download.avaya.com/css/public/documents/101079386)'
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Aura® Contact Center
+    product: Avaya Aura Contact Center
     cves:
       cve-2021-4104:
         investigated: false
@@ -9476,11 +9477,11 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 7.0.2
-          - 7.0.3
+          - '7.0.2'
+          - '7.0.3'
           - '7.1'
-          - 7.1.1
-          - 7.1.2
+          - '7.1.1'
+          - '7.1.2'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9500,7 +9501,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Aura® Device Services
+    product: Avaya Aura Device Services
     cves:
       cve-2021-4104:
         investigated: false
@@ -9511,7 +9512,10 @@ software:
         investigated: true
         affected_versions:
           - '8'
+          - '8.0.1'
+          - '8.0.2'
           - '8.1'
+          - '8.1.3'
           - '8.1.4'
           - '8.1.5'
         fixed_versions: []
@@ -9533,7 +9537,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Aura® Device Services
+    product: Avaya Aura Media Server
     cves:
       cve-2021-4104:
         investigated: false
@@ -9543,41 +9547,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 8.0.1
-          - 8.0.2
-          - 8.1.3
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support.avaya.com/helpcenter/getGenericDetails?detailId=1399839287609
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-14T00:00:00'
-  - vendor: Avaya
-    product: Avaya Aura® Media Server
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - 8.0.0
-          - 8.0.1
-          - 8.0.2
+          - '8.0.0'
+          - '8.0.1'
+          - '8.0.2'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9597,7 +9569,7 @@ software:
       - '[PSN020549u](https://download.avaya.com/css/secure/documents/101079316)'
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Aura® Presence Services
+    product: Avaya Aura Presence Services
     cves:
       cve-2021-4104:
         investigated: false
@@ -9608,15 +9580,15 @@ software:
         investigated: true
         affected_versions:
           - '10.1'
-          - 7.1.2
+          - '7.1.2'
           - '8'
-          - 8.0.1
-          - 8.0.2
+          - '8.0.1'
+          - '8.0.2'
           - '8.1'
-          - 8.1.1
-          - 8.1.2
-          - 8.1.3
-          - 8.1.4
+          - '8.1.1'
+          - '8.1.2'
+          - '8.1.3'
+          - '8.1.4'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9636,7 +9608,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Aura® Session Manager
+    product: Avaya Aura Session Manager
     cves:
       cve-2021-4104:
         investigated: false
@@ -9647,13 +9619,13 @@ software:
         investigated: true
         affected_versions:
           - '10.1'
-          - 7.1.3
+          - '7.1.3'
           - '8'
-          - 8.0.1
+          - '8.0.1'
           - '8.1'
-          - 8.1.1
-          - 8.1.2
-          - 8.1.3
+          - '8.1.1'
+          - '8.1.2'
+          - '8.1.3'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9673,7 +9645,7 @@ software:
       - '[PSN020550u](https://download.avaya.com/css/public/documents/101079384)'
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Aura® System Manager
+    product: Avaya Aura System Manager
     cves:
       cve-2021-4104:
         investigated: false
@@ -9684,7 +9656,7 @@ software:
         investigated: true
         affected_versions:
           - '10.1'
-          - 8.1.3
+          - '8.1.3'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9704,7 +9676,7 @@ software:
       - '[PSN005565u](https://download.avaya.com/css/secure/documents/101079390)'
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Aura® Web Gateway
+    product: Avaya Aura Web Gateway
     cves:
       cve-2021-4104:
         investigated: false
@@ -9714,11 +9686,11 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 3.11[P]
-          - 3.8.1[P]
-          - 3.8[P]
-          - 3.9.1 [P]
-          - 3.9[P]
+          - '3.11[P]'
+          - '3.8.1[P]'
+          - '3.8[P]'
+          - '3.9.1[P]'
+          - '3.9[P]'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9738,7 +9710,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya Breeze™
+    product: Avaya Breeze
     cves:
       cve-2021-4104:
         investigated: false
@@ -9750,7 +9722,7 @@ software:
         affected_versions:
           - '3.7'
           - '3.8'
-          - 3.8.1
+          - '3.8.1'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9780,11 +9752,11 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 7.0.2
-          - 7.0.3
+          - '7.0.2'
+          - '7.0.3'
           - '7.1'
-          - 7.1.1
-          - 7.1.2
+          - '7.1.1'
+          - '7.1.2'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9844,7 +9816,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 3.1.22
+          - '3.1.22'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9874,9 +9846,9 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 9.1.10
-          - 9.1.11
-          - 9.1.12
+          - '9.1.10'
+          - '9.1.11'
+          - '9.1.12'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9896,7 +9868,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Avaya one cloud private -UCaaS - Mid Market Aura
+    product: Avaya OneCloud-Private-UCaaS - Mid Market Aura
     cves:
       cve-2021-4104:
         investigated: false
@@ -9966,11 +9938,11 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 8.0.1
+          - '8.0.1'
           - '8.1'
-          - 8.1.1
-          - 8.1.2
-          - 8.1.3
+          - '8.1.1'
+          - '8.1.2'
+          - '8.1.3'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -9998,8 +9970,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - ''
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10093,7 +10066,7 @@ software:
         investigated: true
         affected_versions:
           - '5'
-          - 5.0.1
+          - '5.0.1'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10123,8 +10096,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 9.0.2
-          - 9.0.2.1
+          - '9.0.2'
+          - '9.0.2.1'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10174,7 +10147,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: Equinox™ Conferencing
+    product: Equinox Conferencing
     cves:
       cve-2021-4104:
         investigated: false
@@ -10184,7 +10157,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 9.1.2
+          - '9.1.2'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10214,7 +10187,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 7.3.9
+          - '7.3.9'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10234,7 +10207,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Avaya
-    product: IP Office™ Platform
+    product: IP Office Platform
     cves:
       cve-2021-4104:
         investigated: false
@@ -10244,10 +10217,10 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 11.0.4
+          - '11.0.4'
           - '11.1'
-          - 11.1.1
-          - 11.1.2
+          - '11.1.1'
+          - '11.1.2'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10277,10 +10250,10 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 3.1.2
-          - 3.1.3
+          - '3.1.2'
+          - '3.1.3'
           - '4'
-          - 4.0.1
+          - '4.0.1'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
