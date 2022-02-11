@@ -1881,10 +1881,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1911,10 +1912,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1941,10 +1943,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1971,10 +1974,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1992,35 +1996,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-14T00:00:00'
-  - vendor: AFAS Software
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://help.afas.nl/vraagantwoord/NL/SE/120439.htm
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: AFHCAN Global LLC
     product: AFHCANcart
     cves:
@@ -2034,7 +2009,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 8.0.7 - 8.4.3
+          - '8.0.7 - 8.4.3'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2064,7 +2039,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 8.0.7 - 8.4.3
+          - '8.0.7 - 8.4.3'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2094,7 +2069,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 8.0.7 - 8.4.3
+          - '8.0.7 - 8.4.3'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2124,7 +2099,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 8.0.7 - 8.4.3
+          - '8.0.7 - 8.4.3'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2154,7 +2129,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 8.0.7 - 8.4.3
+          - '8.0.7 - 8.4.3'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2184,7 +2159,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 8.0.7 - 8.4.3
+          - '8.0.7 - 8.4.3'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -2202,7 +2177,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Agilysys
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -2226,6 +2201,126 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://info.agilysys.com/webmail/76642/2001127877/c3fda575e2313fac1f6a203dc6fc1db2439c3db0da22bde1b6c1b6747d7f0e2f
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Ahsay
+    product: Mobile
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '1.6+'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://wiki.ahsay.com/doku.php?id=public:announcement:cve-2021-44228_log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Ahsay
+    product: Other products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'version 8.5.4.86 (and above)'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://wiki.ahsay.com/doku.php?id=public:announcement:cve-2021-44228_log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Ahsay
+    product: PRD
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '2.0'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://wiki.ahsay.com/doku.php?id=public:announcement:cve-2021-44228_log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: AIL
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://twitter.com/ail_project/status/1470373644279119875
     notes: ''
     references:
       - ''
