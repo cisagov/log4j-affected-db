@@ -1480,7 +1480,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Adeptia
-    product: All
+    product: Connect
     cves:
       cve-2021-4104:
         investigated: false
@@ -1488,9 +1488,12 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '3.3'
+          - '3.4'
+          - '3.5'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1503,7 +1506,39 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - A
+      - https://support.adeptia.com/hc/en-us/articles/4412815509524-CVE-2021-44228-Log4j2-Vulnerability-Mitigation-
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Adeptia
+    product: Suite
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '6.9.9'
+          - '6.9.10'
+          - '6.9.11'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.adeptia.com/hc/en-us/articles/4412815509524-CVE-2021-44228-Log4j2-Vulnerability-Mitigation-
     notes: ''
     references:
       - ''
