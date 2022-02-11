@@ -9160,6 +9160,97 @@ software:
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
+  - vendor: Automation Anywhere
+    product: Automation 360 Cloud
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://apeople.automationanywhere.com/s/login/?language=en_US&startURL=%2Fs%2Farticle%2FA360-Cloud-Zero-day-in-the-Log4j-Java-library&ec=302
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Automation Anywhere
+    product: Automation 360 On Premise
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://apeople.automationanywhere.com/s/login/?language=en_US&startURL=%2Fs%2Farticle%2FA360-Cloud-Zero-day-in-the-Log4j-Java-library&ec=302
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Automation Anywhere
+    product: Automation Anywhere
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '11.x'
+          - '<11.3x'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://apeople.automationanywhere.com/s/login/?language=en_US&startURL=%2Fs%2Farticle%2FA360-Cloud-Zero-day-in-the-Log4j-Java-library&ec=302
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Automox
     product: All
     cves:
@@ -9190,7 +9281,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Autopsy
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -9219,7 +9310,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Auvik
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -9248,7 +9339,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Avantra SYSLINK
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -9421,8 +9512,8 @@ software:
         affected_versions:
           - '8'
           - '8.1'
-          - 8.1.4
-          - 8.1.5
+          - '8.1.4'
+          - '8.1.5'
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -10209,7 +10300,7 @@ software:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: AVEPOINT
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -10238,7 +10329,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: AVM
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -10246,10 +10337,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -10262,12 +10354,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://avm.de/service/aktuelle-sicherheitshinweise/#Schwachstelle%20im%20Java-Projekt%20%E2%80%9Elog4j%E2%80%9C
-    notes: ''
+    notes: devices, firmware, software incl. MyFritz Service.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: AvTech RoomAlert
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -10295,8 +10387,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: AWS New
-    product: ''
+  - vendor: AXIS
+    product: OS
     cves:
       cve-2021-4104:
         investigated: false
@@ -10304,10 +10396,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -10319,13 +10412,13 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://aws.amazon.com/security/security-bulletins/AWS-2021-006/
+      - https://help.axis.com/axis-os
     notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: AXON
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -10354,7 +10447,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: AXS Guard
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -10383,7 +10476,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Axways Applications
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
