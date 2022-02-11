@@ -6793,11 +6793,11 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - v9.5
-          - v10.0.1
-          - v10.0.2
-          - v10.0.3
-          - v10.0.4
+          - 'v9.5'
+          - 'v10.0.1'
+          - 'v10.0.2'
+          - 'v10.0.3'
+          - 'v10.0.4'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6830,7 +6830,7 @@ software:
           - '4.2'
           - '4.3'
           - '4.4'
-          - 4.4.1
+          - '4.4.1'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6858,9 +6858,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 6.3.x & 6.4.x
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '6.3.x'
+          - '6.4.x'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6874,7 +6875,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://apereo.github.io/2021/12/11/log4j-vuln/
-    notes: ''
+    notes: Other versions still in active maintainance might need manual inspection.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -6888,10 +6889,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < 9.10
-          - < 10.6
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+           - '< 9.10'
+           - '< 10.6'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -6910,7 +6911,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Apigee
-    product: ''
+    product: Edge and OPDK products
     cves:
       cve-2021-4104:
         investigated: false
@@ -6918,10 +6919,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6939,7 +6941,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Apollo
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -6968,7 +6970,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Appdynamics
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7020,13 +7022,14 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
-    vendor_links: []
+    vendor_links:
+      - https://community.appeon.com/index.php/qna/q-a/apache-log4j-security-vulnerabilities
     notes: ''
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: AppGate
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
