@@ -5491,6 +5491,36 @@ software:
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
+  - vendor: AOMEI
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.aomeitech.com/forum/index.php?p=/discussion/7651/aomei-and-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-21T00:00:00'
   - vendor: Apache
     product: ActiveMQ Artemis
     cves:
@@ -5535,9 +5565,40 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: Airflow is written in Python
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: Archiva
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '2.2.6'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5550,8 +5611,8 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://github.com/apache/airflow/tree/main/airflow
-    notes: Airflow is written in Python
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: Fixed in 2.2.6.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -5565,11 +5626,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 3.14.1.3.11.5
-          - 3.7.7
+        affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5599,10 +5659,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5658,10 +5719,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5687,8 +5749,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions: []
+        investigated: true
+        affected_versions:
+          - ''
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -5717,10 +5780,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5738,7 +5802,7 @@ software:
       - ''
     last_updated: '2021-12-13T00:00:00'
   - vendor: Apache
-    product: CamelKafka Connector
+    product: Camel Kafka Connector
     cves:
       cve-2021-4104:
         investigated: false
@@ -5746,10 +5810,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5762,6 +5827,36 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://camel.apache.org/blog/2021/12/log4j2/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-13T00:00:00'
+  - vendor: Apache
+    product: Cassandra
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://lists.apache.org/thread/2rngylxw8bjos6xbo1krp29m9wn2hhdr
     notes: ''
     references:
       - ''
@@ -5776,9 +5871,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - < druid 0.22.0
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '0.22.1'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5797,6 +5892,36 @@ software:
       - ''
     last_updated: '2021-12-12T00:00:00'
   - vendor: Apache
+    product: Dubbo
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'All'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.com/apache/dubbo/issues/9380
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-12T00:00:00'
+  - vendor: Apache
     product: Flink
     cves:
       cve-2021-4104:
@@ -5808,7 +5933,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - < 1.14.2
+          - 1.15.0
+          - 1.14.2
           - 1.13.5
           - 1.12.7
           - 1.11.6
@@ -5825,14 +5951,314 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://flink.apache.org/2021/12/10/log4j-cve.html
-    notes: 'To clarify and avoid confusion: The 1.14.1 / 1.13.4 / 1.12.6 / 1.11.5
+    notes: To clarify and avoid confusion, the 1.14.1 / 1.13.4 / 1.12.6 / 1.11.5
       releases, which were supposed to only contain a Log4j upgrade to 2.15.0, were
       skipped because CVE-2021-45046 was discovered during the release publication.
       The new 1.14.2 / 1.13.5 / 1.12.7 / 1.11.6 releases include a version upgrade
-      for Log4j to version 2.16.0 to address CVE-2021-44228 and CVE-2021-45046.'
+      for Log4j to version 2.16.0 to address CVE-2021-44228 and CVE-2021-45046.
     references:
       - '[https://flink.apache.org/news/2021/12/16/log4j-patch-releases.html](https://flink.apache.org/news/2021/12/16/log4j-patch-releases.html)'
     last_updated: '2021-12-12T00:00:00'
+  - vendor: Apache
+    product: Fortress
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '< 2.0.7'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: Fixed in 2.0.7.
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Apache
+    product: Geode
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '1.14.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: Fixed in 1.12.6, 1.13.5, 1.14.1.
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Apache
+    product: Guacamole
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Apache
+    product: Hadoop
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Apache
+    product: HBase
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - ''
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Apache
+    product: Hive
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '4.x'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Apache
+    product: James
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '3.6.0'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Apache
+    product: Jena
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '< 4.3.1'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Apache
+    product: JMeter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - 'All'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
+  - vendor: Apache
+    product: JSPWiki
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '2.11.1'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-14T00:00:00'
   - vendor: Apache
     product: Kafka
     cves:
@@ -5859,13 +6285,12 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://kafka.apache.org/cve-list
-    notes: The current DB lists Apache Kafka as impacted. Apache Kafka uses Log4jv1,
-      not v2.
+    notes: Uses Log4j 1.2.17.
     references:
       - ''
     last_updated: '2021-12-14T00:00:00'
   - vendor: Apache
-    product: Kafka
+    product: Log4j 1.x
     cves:
       cve-2021-4104:
         investigated: false
@@ -5874,40 +6299,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - Unknown
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://logging.apache.org/log4j/2.x/security.html
-    notes: Only vulnerable in certain configuration(s)
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Apache
-    product: Log4j
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - < 2.15.0
-        fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -5925,7 +6320,97 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Apache
-    product: Solr
+    product: Log4j 2.x
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '2.17.1'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://logging.apache.org/log4j/2.x/security.html
+    notes: Fixed in Log4j 2.17.1 (Java 8), 2.12.4 (Java 7) and 2.3.2 (Java 6).
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: Maven
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: NiFi
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: Fixed in 1.15.1, 1.16.0.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: OFBiz
     cves:
       cve-2021-4104:
         investigated: false
@@ -5936,8 +6421,98 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 7.4.0 to 7.7.3
-          - 8.0.0 to 8.11.0
+          - '< 18.12.03'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: Ozone
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '< 1.2.1'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: Fixed in 1.15.1, 1.16.0.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: SkyWalking
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '< 8.9.1'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: SOLR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '7.4.0 to 7.7.3'
+          - '8.0.0 to 8.11.0'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5951,10 +6526,70 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://solr.apache.org/security.html#apache-solr-affected-by-apache-log4j-cve-2021-44228
-    notes: Update to 8.11.1 or apply fixes as described in Solr security advisory
+    notes: Fixed in 8.11.1, Versions before 7.4 also vulnerable when using several configurations.
     references:
       - '[Apache Solr 8.11.1 downloads](https://solr.apache.org/downloads.html)'
     last_updated: '2021-12-16T00:00:00'
+  - vendor: Apache
+    product: Spark
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: Uses log4j 1.x
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: Struts
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '2.5.28'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Apache
     product: Struts 2
     cves:
@@ -5964,10 +6599,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
-        affected_versions:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
           - Versions before 2.5.28.1
-        fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5982,12 +6617,72 @@ software:
     vendor_links:
       - https://struts.apache.org/announce-2021
     notes: The Apache Struts group is pleased to announce that Struts 2.5.28.1 is
-      available as a “General Availability” release. The GA designation is our highest
+      available as a General Availability release. The GA designation is our highest
       quality grade. This release addresses Log4j vulnerability CVE-2021-45046 by
       using the latest Log4j 2.12.2 version (Java 1.7 compatible).
     references:
       - '[Apache Struts Release Downloads](https://struts.apache.org/download.cgi#struts-ga)'
     last_updated: '2021-12-21T00:00:00'
+  - vendor: Apache
+    product: Tapestry
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '5.7.3'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: Tika
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - '2.0.0 and up'
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Apache
     product: Tomcat
     cves:
@@ -5998,10 +6693,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - 9.0.x
+        affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -6017,15 +6712,75 @@ software:
     notes: Apache Tomcat 9.0.x has no dependency on any version of log4j. Web applications
       deployed on Apache Tomcat may have a dependency on log4j. You should seek support
       from the application vendor in this instance. It is possible to configure Apache
-      Tomcat 9.0.x to use log4j 2.x for Tomcat's internal logging. This requires explicit
+      Tomcat 9.0.x to use log4j 2.x for Tomcats internal logging. This requires explicit
       configuration and the addition of the log4j 2.x library. Anyone who has switched
-      Tomcat's internal logging to log4j 2.x is likely to need to address this vulnerability.
+      Tomcats internal logging to log4j 2.x is likely to need to address this vulnerability.
       In most cases, disabling the problematic feature will be the simplest solution.
       Exactly how to do that depends on the exact version of log4j 2.x being used.
       Details are provided on the [log4j 2.x security page](https://logging.apache.org/log4j/2.x/security.html)
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
+  - vendor: Apache
+    product: TrafficControl
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - ''
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Apache
+    product: ZooKeeper
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://blogs.apache.org/security/entry/cve-2021-44228
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: APC by Schneider Electric
     product: Powerchute Business Edition
     cves:
