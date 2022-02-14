@@ -450,7 +450,7 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BBraun
-    product: APEX® Compounder
+    product: APEX Compounder
     cves:
       cve-2021-4104:
         investigated: false
@@ -480,7 +480,7 @@ software:
       - ''
     last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
-    product: DoseTrac® Server, DoseLink™ Server, and Space® Online Suite Server software
+    product: DoseTrac Server, DoseLink Server, and Space® Online Suite Server software
     cves:
       cve-2021-4104:
         investigated: false
@@ -510,7 +510,7 @@ software:
       - ''
     last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
-    product: Outlook® Safety Infusion System Pump family
+    product: Outlook Safety Infusion System Pump family
     cves:
       cve-2021-4104:
         investigated: false
@@ -540,7 +540,7 @@ software:
       - ''
     last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
-    product: Pinnacle® Compounder
+    product: Pinnacle Compounder
     cves:
       cve-2021-4104:
         investigated: false
@@ -570,7 +570,7 @@ software:
       - ''
     last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
-    product: Pump, SpaceStation, and Space® Wireless Battery)
+    product: Pump, SpaceStation, and Space Wireless Battery
     cves:
       cve-2021-4104:
         investigated: false
@@ -600,8 +600,8 @@ software:
       - ''
     last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
-    product: Space® Infusion Pump family (Infusomat® Space® Infusion Pump, Perfusor®
-      Space® Infusion
+    product: Space Infusion Pump family (Infusomat Space Infusion Pump, Perfusor
+      Space Infusion
     cves:
       cve-2021-4104:
         investigated: false
@@ -630,6 +630,186 @@ software:
     references:
       - ''
     last_updated: '2022-01-31T00:00:00'
+  - vendor: BCT
+    product: BerichtenCentrale (BCE) & Integrations
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BCT
+    product: CORSA
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BCT
+    product: e-Invoice
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '2.10.210'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BCT
+    product: IDT
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BCT
+    product: iGEN
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BCT
+    product: LIBER
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '1.125.3'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
   - vendor: BD
     product: Arctic Sun™ Analytics
     cves:
