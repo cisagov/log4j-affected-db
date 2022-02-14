@@ -4746,25 +4746,25 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '10.14 RP2'
-          - '10.13 RP5'
-          - '10.12 RP10'
+          - 10.14 RP2
+          - 10.13 RP5
+          - 10.12 RP10
         unaffected_versions: []
       cve-2021-45046:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '10.14 RP2'
-          - '10.13 RP5'
-          - '10.12 RP10'
+          - 10.14 RP2
+          - 10.13 RP5
+          - 10.12 RP10
         unaffected_versions: []
       cve-2021-45105:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '10.14 RP3'
-          - '10.13 RP6'
-          - '10.12 RP11'
+          - 10.14 RP3
+          - 10.13 RP6
+          - 10.12 RP11
         unaffected_versions: []
     vendor_links:
       - https://support.citrix.com/article/CTX335705
@@ -4880,13 +4880,13 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'Linux Virtual Delivery Agent 2112'
+          - Linux Virtual Delivery Agent 2112
         unaffected_versions: []
       cve-2021-45046:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'Linux Virtual Delivery Agent 2112'
+          - Linux Virtual Delivery Agent 2112
         unaffected_versions: []
       cve-2021-45105:
         investigated: true
