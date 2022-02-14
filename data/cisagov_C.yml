@@ -4702,7 +4702,7 @@ software:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
-    product: Citrix Content Collaboration (ShareFile Integration) – Citrix Files for
+    product: Citrix Content Collaboration (ShareFile Integration)–Citrix Files for
       Windows, Citrix Files for Mac, Citrix Files for Outlook
     cves:
       cve-2021-4104:
@@ -4790,7 +4790,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: 
+        unaffected_versions:
           - All Platforms
       cve-2021-45105:
         investigated: true
