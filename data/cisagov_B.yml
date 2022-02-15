@@ -8057,6 +8057,186 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
+    product: 3270 SUPEROPTIMIZER/CI
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: 3270 SUPEROPTIMIZER/CICS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Application Restart Control for Db2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Application Restart Control for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Application Restart Control for VSAM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC Application Accelerator for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
     product: BMC AMI Apptune for Db2
     cves:
       cve-2021-4104:
@@ -10607,6 +10787,66 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
+    product: BMC Check Plus for Db2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC Client Gateway (Kaazing)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
     product: BMC Compuware Abend-Aid
     cves:
       cve-2021-4104:
@@ -11537,6 +11777,126 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
+    product: BMC COPE for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC DASD Manger for Db2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC Database Recovery Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC Db2 Plus Utilities
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
     product: BMC Defender Agent Configuration Manager
     cves:
       cve-2021-4104:
@@ -11927,6 +12287,36 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
+    product: BMC Discovery for z/OS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
     product: BMC Helix Business Workflows
     cves:
       cve-2021-4104:
@@ -12137,6 +12527,66 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
+    product: BMC License Usage Collection Utility
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC LOADPLUS for Db2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
     product: BMC MainView Explorer
     cves:
       cve-2021-4104:
@@ -12198,6 +12648,36 @@ software:
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
     product: BMC MainView Transaction Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC MainView Vistapoint & Energizer
     cves:
       cve-2021-4104:
         investigated: false
@@ -12347,6 +12827,36 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
+    product: BMC Opertune for Db2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
     product: BMC PATROL Agent
     cves:
       cve-2021-4104:
@@ -12433,6 +12943,36 @@ software:
     vendor_links:
       - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
     notes: Except Sybase and Linux
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC Plus Utilities
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -12618,6 +13158,36 @@ software:
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
     product: BMC Remedy SRM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC Reorg Plus for Db2
     cves:
       cve-2021-4104:
         investigated: false
@@ -12917,7 +13487,1447 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
+    product: BMC Unload Plus for Db2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
     product: BMC User Interface Middleware (UIM)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Change Accumulation Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Concurrent Reorg Facility
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Conditional Image Copy
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: DASD Manager Plus for Db2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Data Accelerator Compression
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Delta IMS DB/DC
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Delta IMS Virtual Terminal
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: ExceptionReporter
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Extended Buffer Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Fast Path Analyzer/EP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Fast Path Facility
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Fast Path Facility/EP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Fast Path Reorg/EP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FASTCPK
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FASTCOPY
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FDR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FDR/UPSTREAM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FDRABR
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FDRERASE
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FDRMOVE
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FDRPAS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FDRPASVM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: FDRREORG
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Footprints
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: IAM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Image Copy Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: LOADPLUS for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: LOADPLUS/EP for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Local Copy Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Prefix Resolution Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Prefix Update for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Recovery Advisor for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Recovery Manager for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Recovery Plus for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Release Process Management
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Release Package and Deployment
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Resident Security Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Secondary Index Utility
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Secondary Index Utility/EP
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Snapshot Upgrade Feature
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: Track-It!
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: ULTRAOPT/CICS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: ULTRAOPT/IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: UNLOAD PLUS for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: UNLOAD PLUS/EP for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: UXF for IMS (non product)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: zDetect
     cves:
       cve-2021-4104:
         investigated: false
