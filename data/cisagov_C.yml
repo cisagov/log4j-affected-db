@@ -4588,22 +4588,20 @@ software:
         unaffected_versions:
           - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4622,22 +4620,20 @@ software:
         unaffected_versions:
           - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4650,27 +4646,26 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4683,32 +4678,31 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
   - vendor: Citrix
-    product: Citrix Content Collaboration (ShareFile Integration) – Citrix Files for
+    product: Citrix Content Collaboration (ShareFile Integration)–Citrix Files for
       Windows, Citrix Files for Mac, Citrix Files for Outlook
     cves:
       cve-2021-4104:
@@ -4717,27 +4711,26 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4750,31 +4743,32 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 10.14 RP2
+          - 10.13 RP5
+          - 10.12 RP10
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 10.14 RP2
+          - 10.13 RP5
+          - 10.12 RP10
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 10.14 RP3
+          - 10.13 RP6
+          - 10.12 RP11
         unaffected_versions: []
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: 'For CVE-2021-44228 and CVE-2021-45046: Impacted–Customers are advised
-      to apply the latest CEM rolling patch updates listed below as soon as possible
-      to reduce the risk of exploitation. [XenMobile Server 10.14 RP2](https://support.citrix.com/article/CTX335763);
-      [XenMobile Server 10.13 RP5](https://support.citrix.com/article/CTX335753);
-      and [XenMobile Server 10.12 RP10](https://support.citrix.com/article/CTX335785).
-      Note: Customers who have upgraded their XenMobile Server to the updated versions
-      are recommended not to apply the responder policy mentioned in the blog listed
-      below to the Citrix ADC vserver in front of the XenMobile Server as it may impact
-      the enrollment of Android devices. For CVE-2021-45105: Investigation in progress.'
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4787,27 +4781,26 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4820,27 +4813,26 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4859,22 +4851,20 @@ software:
         unaffected_versions:
           - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4887,30 +4877,26 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - Linux Virtual Delivery Agent 2112
         unaffected_versions: []
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - Linux Virtual Delivery Agent 2112
         unaffected_versions: []
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: 'IMPACTED: Linux VDA (non-LTSR versions only)- CVE-2021-44228 and CVE-2021-45046:
-      Customers are advised to apply the latest update as soon as possible to reduce
-      the risk of exploitation. [Linux Virtual Delivery Agent 2112](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/components/linux-vda-2112.html).
-      See the [Citrix Statement](https://support.citrix.com/article/CTX335705) for
-      additional mitigations. For CVE-2021-45105: Investigation has shown that Linux
-      VDA is not impacted. Nonetheless, the Linux VDA 2112 has been updated (21.12.0.30,
-      released December 20th) to contain Apache log4j version 2.17.0. NOT IMPACTED:
-      Linux VDA LTSR all versions; All other CVAD components.'
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4929,22 +4915,20 @@ software:
         unaffected_versions:
           - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
@@ -4957,27 +4941,26 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45046:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
       cve-2021-45105:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - All Platforms
     vendor_links:
       - https://support.citrix.com/article/CTX335705
-    notes: Citrix continues to investigate any potential impact on Citrix-managed
-      cloud services. If, as the investigation continues, any Citrix-managed services
-      are found to be affected by this issue, Citrix will take immediate action to
-      remediate the problem. Customers using Citrix-managed cloud services do not
-      need to take any action.
+    notes: ''
     references:
       - ''
     last_updated: '2021-12-21T00:00:00'
