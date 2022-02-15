@@ -7581,6 +7581,66 @@ software:
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
+  - vendor: BigBlueButton
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.com/bigbluebutton/bigbluebutton/issues/13897
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: BioJava
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://github.com/biojava/biojava/releases/tag/biojava-6.0.4
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
   - vendor: BioMerieux
     product: All
     cves:
@@ -7640,7 +7700,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BitDefender
-    product: ''
+    product: GravityZone On-Prem
     cves:
       cve-2021-4104:
         investigated: false
@@ -7648,10 +7708,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7677,9 +7738,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7698,7 +7760,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BitRise
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7727,7 +7789,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Bitwarden
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7735,10 +7797,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7764,10 +7827,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7785,7 +7849,7 @@ software:
       - Vendor review indicated Fivetran is not vulnerable to Log4j2
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Black Kite
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7813,8 +7877,98 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BlackBerry
+    product: 2FA
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'All'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://login.blackberry.com/sso/SSORedirect/metaAlias/idp?SAMLRequest=fZNdc6owEIb%2FCpN7JFIqlal2KKio%2BFGgar05EyCWKCRAgqK%2F%2FlA9zvT0ojuzF5l9s%2B9u5snzS52l0hGXnDDaA%2B0WBBKmEYsJ%2FeyB92AoP4GX%2FjNHWZobZiUS6uGiwlxIzT3KjWuhB6qSGgxxwg2KMswNERm%2BOXMNtQWNvGSCRSwFksk5LkVjZDHKqwyXPi6PJMLvntsDiRA5NxSFV3nOStEKUxQdQlyW51bEMqXJrKJEnJWUfRL6wlkPQvuhA68Rdi8XINnNXIQicV3l3u8q%2F9mNc6b4%2FsLDMSlxJJQMC2SmBHGFxDmQxnYP%2FFEts4mNvEhOfDSzzdPP%2FCrr9vFjMig0OBtGswiZ52H6mK9Gbtev5FnViZ2HV3dnV3lSOPvSn2YCboaeFV5Q4Yx2K%2FQ%2B1RcPUzWin0%2F7j%2FlEI1OtULfqpNnC8arkIjaD3X6%2BtlVvF8JJvQqznJlx4MfWIQuC1HJhklLH1m2vA9PHbjgSaB2K3YbND5a3X2%2BLfD48DbofVaIlfBSiLt5qS67P6pW87%2FD4SAaqfDzVzLbrQWGdhq7pkG6AdNt0k4ofMj1Zs7Jeio4%2FpuQURwMtHC%2BdGtZvRVD7Vg7jt%2Ba1OK%2FwmHKBqOgBFaqqDFW5%2FRi0dQO2DbXb0qC6BdLyHwivhN7w%2Bo2a8CbihhMES3m58AMgre6YNgJwg9K4mpffaPy9LbojCPp3QL6hkZ1bHKWY71gZ4S9QnpVvJv3b6f9%2F0P8L&RelayState=%2Fcommunity%2Fs%2Farticle%2F90708&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=ThznbsjgVwDX5E2fOcNREcaH%2FaSSD9EIp6MP3c9O9BRVFL%2BETG3n1WQKapplpISRgUkLEs2XvRpJ4%2FfEmynkr5laH4rrAIgMNL%2FauqYIGWvzbdzfp44PkOGUBkHxgo52GjhshHBPyHqJjnvzIoNyIK2zhDBQXevq9etV7wnX7SprJpHX%2B6Ivskj5wAXJzi9SiMafMvUiUFyVq9YBhzd2ZpiTyiYia%2Bdgq4Z74sUIqOyz6bn2KjCKT%2FMqeFqyYYp5JU9CnQk%2BHAH2juQU%2F8MlrGtrRRtgf6fACGMOGria0Vu1wUDwnJiSdI%2BZSzShr%2Fg6Cl9mfaKuTItwlxiqQlbx7hvHEhgg2SNqyrRnJDzpYImSeIMjgHuUy2Iaf6O6J90GdKF4%2BDkCpyXVsm%2FkZhBA6D7uo9rj8tPfE7ml6Njhm9pFZxjuicbCI%2F4Zj66aC52RlpUZwlMgS2HpXOdbILUX8H2FXnm%2FCjDHEDGv49HusCmQehes1g0LzTXXwKkC1hWOYjwWb8uxNneaR0e552R6fjRns%2B2kG04C%2B8COLbJ7v7s3WlUDGBN%2BUa%2BE5q0QNpIYmIW1daXmOx%2FXRBoBdBwWZ1b3GtaBmRiEarb4rF1DgKa9P3SdQBb1M6SvjprcyHRtai7AxnIBW1KMFWB6mETzESVSFwO5KA80co5Aau7HfhM%3D
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BlackBerry
+    product: Enterprise Mobility Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '2.12 and above'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://login.blackberry.com/sso/SSORedirect/metaAlias/idp?SAMLRequest=fZNdc6owEIb%2FCpN7JFIqlal2KKio%2BFGgar05EyCWKCRAgqK%2F%2FlA9zvT0ojuzF5l9s%2B9u5snzS52l0hGXnDDaA%2B0WBBKmEYsJ%2FeyB92AoP4GX%2FjNHWZobZiUS6uGiwlxIzT3KjWuhB6qSGgxxwg2KMswNERm%2BOXMNtQWNvGSCRSwFksk5LkVjZDHKqwyXPi6PJMLvntsDiRA5NxSFV3nOStEKUxQdQlyW51bEMqXJrKJEnJWUfRL6wlkPQvuhA68Rdi8XINnNXIQicV3l3u8q%2F9mNc6b4%2FsLDMSlxJJQMC2SmBHGFxDmQxnYP%2FFEts4mNvEhOfDSzzdPP%2FCrr9vFjMig0OBtGswiZ52H6mK9Gbtev5FnViZ2HV3dnV3lSOPvSn2YCboaeFV5Q4Yx2K%2FQ%2B1RcPUzWin0%2F7j%2FlEI1OtULfqpNnC8arkIjaD3X6%2BtlVvF8JJvQqznJlx4MfWIQuC1HJhklLH1m2vA9PHbjgSaB2K3YbND5a3X2%2BLfD48DbofVaIlfBSiLt5qS67P6pW87%2FD4SAaqfDzVzLbrQWGdhq7pkG6AdNt0k4ofMj1Zs7Jeio4%2FpuQURwMtHC%2BdGtZvRVD7Vg7jt%2Ba1OK%2FwmHKBqOgBFaqqDFW5%2FRi0dQO2DbXb0qC6BdLyHwivhN7w%2Bo2a8CbihhMES3m58AMgre6YNgJwg9K4mpffaPy9LbojCPp3QL6hkZ1bHKWY71gZ4S9QnpVvJv3b6f9%2F0P8L&RelayState=%2Fcommunity%2Fs%2Farticle%2F90708&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=ThznbsjgVwDX5E2fOcNREcaH%2FaSSD9EIp6MP3c9O9BRVFL%2BETG3n1WQKapplpISRgUkLEs2XvRpJ4%2FfEmynkr5laH4rrAIgMNL%2FauqYIGWvzbdzfp44PkOGUBkHxgo52GjhshHBPyHqJjnvzIoNyIK2zhDBQXevq9etV7wnX7SprJpHX%2B6Ivskj5wAXJzi9SiMafMvUiUFyVq9YBhzd2ZpiTyiYia%2Bdgq4Z74sUIqOyz6bn2KjCKT%2FMqeFqyYYp5JU9CnQk%2BHAH2juQU%2F8MlrGtrRRtgf6fACGMOGria0Vu1wUDwnJiSdI%2BZSzShr%2Fg6Cl9mfaKuTItwlxiqQlbx7hvHEhgg2SNqyrRnJDzpYImSeIMjgHuUy2Iaf6O6J90GdKF4%2BDkCpyXVsm%2FkZhBA6D7uo9rj8tPfE7ml6Njhm9pFZxjuicbCI%2F4Zj66aC52RlpUZwlMgS2HpXOdbILUX8H2FXnm%2FCjDHEDGv49HusCmQehes1g0LzTXXwKkC1hWOYjwWb8uxNneaR0e552R6fjRns%2B2kG04C%2B8COLbJ7v7s3WlUDGBN%2BUa%2BE5q0QNpIYmIW1daXmOx%2FXRBoBdBwWZ1b3GtaBmRiEarb4rF1DgKa9P3SdQBb1M6SvjprcyHRtai7AxnIBW1KMFWB6mETzESVSFwO5KA80co5Aau7HfhM%3D
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BlackBerry
+    product: Workspaces On-Prem Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 'All'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://login.blackberry.com/sso/SSORedirect/metaAlias/idp?SAMLRequest=fZNdc6owEIb%2FCpN7JFIqlal2KKio%2BFGgar05EyCWKCRAgqK%2F%2FlA9zvT0ojuzF5l9s%2B9u5snzS52l0hGXnDDaA%2B0WBBKmEYsJ%2FeyB92AoP4GX%2FjNHWZobZiUS6uGiwlxIzT3KjWuhB6qSGgxxwg2KMswNERm%2BOXMNtQWNvGSCRSwFksk5LkVjZDHKqwyXPi6PJMLvntsDiRA5NxSFV3nOStEKUxQdQlyW51bEMqXJrKJEnJWUfRL6wlkPQvuhA68Rdi8XINnNXIQicV3l3u8q%2F9mNc6b4%2FsLDMSlxJJQMC2SmBHGFxDmQxnYP%2FFEts4mNvEhOfDSzzdPP%2FCrr9vFjMig0OBtGswiZ52H6mK9Gbtev5FnViZ2HV3dnV3lSOPvSn2YCboaeFV5Q4Yx2K%2FQ%2B1RcPUzWin0%2F7j%2FlEI1OtULfqpNnC8arkIjaD3X6%2BtlVvF8JJvQqznJlx4MfWIQuC1HJhklLH1m2vA9PHbjgSaB2K3YbND5a3X2%2BLfD48DbofVaIlfBSiLt5qS67P6pW87%2FD4SAaqfDzVzLbrQWGdhq7pkG6AdNt0k4ofMj1Zs7Jeio4%2FpuQURwMtHC%2BdGtZvRVD7Vg7jt%2Ba1OK%2FwmHKBqOgBFaqqDFW5%2FRi0dQO2DbXb0qC6BdLyHwivhN7w%2Bo2a8CbihhMES3m58AMgre6YNgJwg9K4mpffaPy9LbojCPp3QL6hkZ1bHKWY71gZ4S9QnpVvJv3b6f9%2F0P8L&RelayState=%2Fcommunity%2Fs%2Farticle%2F90708&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=ThznbsjgVwDX5E2fOcNREcaH%2FaSSD9EIp6MP3c9O9BRVFL%2BETG3n1WQKapplpISRgUkLEs2XvRpJ4%2FfEmynkr5laH4rrAIgMNL%2FauqYIGWvzbdzfp44PkOGUBkHxgo52GjhshHBPyHqJjnvzIoNyIK2zhDBQXevq9etV7wnX7SprJpHX%2B6Ivskj5wAXJzi9SiMafMvUiUFyVq9YBhzd2ZpiTyiYia%2Bdgq4Z74sUIqOyz6bn2KjCKT%2FMqeFqyYYp5JU9CnQk%2BHAH2juQU%2F8MlrGtrRRtgf6fACGMOGria0Vu1wUDwnJiSdI%2BZSzShr%2Fg6Cl9mfaKuTItwlxiqQlbx7hvHEhgg2SNqyrRnJDzpYImSeIMjgHuUy2Iaf6O6J90GdKF4%2BDkCpyXVsm%2FkZhBA6D7uo9rj8tPfE7ml6Njhm9pFZxjuicbCI%2F4Zj66aC52RlpUZwlMgS2HpXOdbILUX8H2FXnm%2FCjDHEDGv49HusCmQehes1g0LzTXXwKkC1hWOYjwWb8uxNneaR0e552R6fjRns%2B2kG04C%2B8COLbJ7v7s3WlUDGBN%2BUa%2BE5q0QNpIYmIW1daXmOx%2FXRBoBdBwWZ1b3GtaBmRiEarb4rF1DgKa9P3SdQBb1M6SvjprcyHRtai7AxnIBW1KMFWB6mETzESVSFwO5KA80co5Aau7HfhM%3D
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Blancco
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7842,8 +7996,39 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Bluemind
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '3.5.x'
+          - '4.x'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://twitter.com/bluemind/status/1470379923034578946?s=20A
+    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Blumira
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
