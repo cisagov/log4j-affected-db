@@ -7372,8 +7372,38 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
+  - vendor: Belden
+    product: Hirschmann Networking Devices and Software Tools
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - 'All'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://hirschmann-support.belden.com/file.php/18672XKMWSCRYGG186719202C5BA4/Hirschmann_Statement_Log4j_Vulnerability_Dec2021.pdf
+    notes: Hirschmann is a brand of Belden.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Bender
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7401,9 +7431,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Best Practical Request Tracker (RT) and Request Tracker for Incident Response
-      (RTIR)
-    product: ''
+  - vendor: Best Practical
+    product: Request Tracker (RT)
     cves:
       cve-2021-4104:
         investigated: false
@@ -7411,10 +7440,41 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://bestpractical.com/blog/2021/12/request-tracker-rt-and-request-tracker-for-incident-response-rtir-do-not-use-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Best Practical
+    product: Request Tracker for Incident Response (RTIR)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7443,7 +7503,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - Unknown
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7504,7 +7564,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - Unknown
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7521,37 +7581,8 @@ software:
     references:
       - ''
     last_updated: '2021-12-17T00:00:00'
-  - vendor: BeyondTrust Bomgar
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://beyondtrustcorp.service-now.com/kb_view.do?sysparm_article=KB0016542
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BioMerieux
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -7580,7 +7611,7 @@ software:
       - ''
     last_updated: '2021-12-22T00:00:00'
   - vendor: BisectHosting
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
