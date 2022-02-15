@@ -10247,7 +10247,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: BMC AMI Security Administrator 
+    product: BMC AMI Security Administrator
     cves:
       cve-2021-4104:
         investigated: false
