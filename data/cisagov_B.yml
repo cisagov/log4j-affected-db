@@ -15857,7 +15857,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Bosch
-    product: ''
+    product: Bosch IoT Suite
     cves:
       cve-2021-4104:
         investigated: false
@@ -15865,9 +15865,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -15885,8 +15886,8 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
-  - vendor: Boston Scientific
-    product: ''
+  - vendor: Bosch
+    product: Bosch IoT Gateway
     cves:
       cve-2021-4104:
         investigated: false
@@ -15894,9 +15895,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '3.7.0'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -15909,13 +15911,479 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.bostonscientific.com/content/dam/bostonscientific/corporate/product-security/bsc_statement_on_apache_log4j-v1.pdf
+      - https://psirt.bosch.com/security-advisories/bosch-sa-572602.html
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-20T00:00:00'
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Bosch
+    product: Bosch Other Products
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.boschsecurity.com/xc/en/support/product-security/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Bosch
+    product: Bosch PRAESENSA PRA-APAS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '1.0.32'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://media.boschsecurity.com/fs/media/pb/security_advisories/BOSCH-SA-993110-BT.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: Heart Connect Tablet
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '3933'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: LATITUDE Clarity
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '7260'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: LATITUDE Classic
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '6488'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: LATITUDE Communicators
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '6280'
+          - '6288'
+          - '6290'
+          - '6299'
+          - '6420'
+          - '6443'
+          - '6468'
+          - '6476'
+          - '6496'
+          - '6498'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: LATITUDE Consult
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '6297'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: LATITUDE EMR Secure Courier Client
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '6455'
+          - '6624'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: LATITUDE Link
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '6215'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: Customer action needed to secure customer system.
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: LATITUDE NXT
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '6446'
+          - '6447'
+          - '6448'
+          - '6449'
+          - '6460'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: LATITUDE Programmer & Apps
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '3300'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: LUX-Dx Clinic Assistant App
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '2935'
+          - '6256'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: MyLATITUDE Patient App
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: myLUX Patient App
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '2925'
+          - '6259'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Boston Scientific
+    product: ZOOM Programmers & Apps
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - '3120'
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.bostonscientific.com/en-US/customer-service/product-security/product-security-information.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
   - vendor: Box
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -15944,7 +16412,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Brainworks
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
