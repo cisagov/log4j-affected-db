@@ -1,5 +1,10 @@
 ---
 
+# Any ignore directives should be uncommented in downstream projects to disable
+# Dependabot updates for the given dependency. Downstream projects will get
+# these updates when the pull request(s) in the appropriate skeleton are merged
+# and Lineage processes these changes.
+
 version: 2
 updates:
   - package-ecosystem: "github-actions"

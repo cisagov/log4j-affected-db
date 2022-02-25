@@ -14,9 +14,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
+        affected_versions: []
+        fixed_versions:
           - 4.2.x < 4.8.1.3
-        fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -35,7 +35,7 @@ software:
       - ''
     last_updated: '2021-12-17T00:00:00'
   - vendor: Wallarm
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -62,9 +62,39 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Wallix
+    product: Access Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.wallix.com/fr/support/alerts/
+    notes: Customer Portal for patch found in advisory.  This patch is available to
+      customer only and has not been reviewed by CISA.
+    references:
+      - ''
   - vendor: Wasp Barcode technologies
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -91,9 +121,9 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
-  - vendor: WatchGuard
-    product: Secplicity
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Watcher
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -101,9 +131,40 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://twitter.com/felix_hrn/status/1470387338001977344
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: WatchGuard
+    product: AuthPoint
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -116,11 +177,191 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.secplicity.org/2021/12/10/critical-rce-vulnerability-in-log4js/
+      - https://techsearch.watchguard.com/KB?type=Security%20Issues&SFDCID=kA16S000000SNnuSAG&lang=en_US
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: WatchGuard
+    product: Dimension
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://techsearch.watchguard.com/KB?type=Security%20Issues&SFDCID=kA16S000000SNnuSAG&lang=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: WatchGuard
+    product: EDPR and Panda AD360
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://techsearch.watchguard.com/KB?type=Security%20Issues&SFDCID=kA16S000000SNnuSAG&lang=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: WatchGuard
+    product: Firebox
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://techsearch.watchguard.com/KB?type=Security%20Issues&SFDCID=kA16S000000SNnuSAG&lang=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: WatchGuard
+    product: System Manager, Dimension, and Panda AD360
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://techsearch.watchguard.com/KB?type=Security%20Issues&SFDCID=kA16S000000SNnuSAG&lang=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: WatchGuard
+    product: Threat Detection and Response
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://techsearch.watchguard.com/KB?type=Security%20Issues&SFDCID=kA16S000000SNnuSAG&lang=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: WatchGuard
+    product: Wi-Fi Cloud
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - Cloud
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://techsearch.watchguard.com/KB?type=Security%20Issues&SFDCID=kA16S000000SNnuSAG&lang=en_US
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Western Digital
     product: ''
     cves:
@@ -149,7 +390,37 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: WIBU Systems
+    product: CodeMeter Cloud Lite
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 2.2 and prior
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
   - vendor: WIBU Systems
     product: CodeMeter Keyring for TIA Portal
     cves:
@@ -160,9 +431,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
+        affected_versions: []
+        fixed_versions:
           - 1.30 and prior
-        fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -180,8 +451,317 @@ software:
     references:
       - ''
     last_updated: '2021-12-22T00:00:00'
-  - vendor: WIBU Systems
-    product: CodeMeter Cloud Lite
+  - vendor: WildFly
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - < 22
+          - '> 26.0.0.Final'
+          - '>= 22'
+          - <= 26.0.0.Beta1
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://www.wildfly.org/news/2021/12/13/Log4j-CVEs/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: LTS17
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: LTS18
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: LTS19
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: LTS21
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Wind River
+    product: WRL-6
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2
+      and JMSAppender components, however, JMSAppender is deactivated in the release
+      package and not affected by CVE-2021-4104 customers are advised to NOT manually
+      activate the JMSAppender component.
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: WRL-7
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2
+      and JMSAppender components, however, JMSAppender is deactivated in the release
+      package and not affected by CVE-2021-4104 customers are advised to NOT manually
+      activate the JMSAppender component.
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: WRL-8
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: The Wind River Linux Product Versions 8.0 and prior contains the log4j1.2
+      and JMSAppender components, however, JMSAppender is deactivated in the release
+      package and not affected by CVE-2021-4104 customers are advised to NOT manually
+      activate the JMSAppender component.
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: Wind River
+    product: WRL-9
+    cves:
+      cve-2021-4104:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45105:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+    vendor_links:
+      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-21T00:00:00'
+  - vendor: WireShark
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -190,10 +770,10 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 2.2 and prior
+        affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -205,71 +785,13 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://cdn.wibu.com/fileadmin/wibu_downloads/security_advisories/Advisory_WIBU-211213-01.pdf
+      - https://www.wireshark.org/news/20211215.html
     notes: ''
     references:
       - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: WindRiver
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://support2.windriver.com/index.php?page=security-notices&on=view&id=7191
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
-  - vendor: WireShark
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://gitlab.com/wireshark/wireshark/-/issues/17783
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2021-12-15T07:18:50+00:00'
   - vendor: Wistia
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -296,9 +818,9 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WitFoo
-    product: ''
+    product: Precinct
     cves:
       cve-2021-4104:
         investigated: false
@@ -308,7 +830,8 @@ software:
       cve-2021-44228:
         investigated: false
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 6.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -322,12 +845,13 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.witfoo.com/blog/emergency-update-for-cve-2021-44228-log4j/
-    notes: ''
+    notes: WitFoo Streamer & Apache Kafka Docker containers are/were vulnerable.  See
+      advisory.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WordPress
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -335,10 +859,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -354,9 +879,9 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Worksphere
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -383,9 +908,9 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Wowza
-    product: ''
+    product: Streaming Engine
     cves:
       cve-2021-4104:
         investigated: false
@@ -393,9 +918,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - 4.7.8
+          - 4.8.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -412,9 +939,9 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: WSO2
-    product: WSO2 Enterprise Integrator
+    product: API Manager
     cves:
       cve-2021-4104:
         investigated: false
@@ -423,9 +950,9 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: true
-        affected_versions:
-          - 6.1.0 and above
-        fixed_versions: []
+        affected_versions: []
+        fixed_versions:
+          - '>= 3.0.0'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -439,8 +966,488 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
-    notes: A temporary mitigation is available while vendor works on update
+    notes: A temporary mitigation is available while vendor works on update.
     references:
       - ''
-    last_updated: '2022-01-12T07:18:56+00:00'
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: API Manager Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 2.6.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Enterprise Integrator
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 6.1.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Enterprise Integrator Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 6.6.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Identity Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 5.9.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Identity Server Analytics
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 5.7.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Identity Server as Key Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 5.9.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Micro Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 3.2.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Micro Integrator
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.1.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Micro Integrator Dashboard
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 4.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Micro Integrator Monitoring Dashboard
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Open Banking AM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 2.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Open Banking BI
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.3.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Open Banking KM
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 2.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Stream Integrator
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Stream Integrator Tooling
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 1.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
+  - vendor: WSO2
+    product: Stream Processor
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - '>= 4.0.0'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://docs.wso2.com/pages/viewpage.action?pageId=180948677
+    notes: A temporary mitigation is available while vendor works on update.
+    references:
+      - ''
+    last_updated: '2022-01-26T07:18:50+00:00'
 ...

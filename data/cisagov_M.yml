@@ -32,7 +32,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Maltego
     product: ''
     cves:
@@ -61,7 +61,36 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: ManageEngine
+    product: AD SelfService Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - Build 6.1 build 6114
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-27T00:00:00'
   - vendor: ManageEngine
     product: Servicedesk Plus
     cves:
@@ -92,35 +121,6 @@ software:
     references:
       - ''
     last_updated: '2021-12-15T00:00:00'
-  - vendor: ManageEngine
-    product: AD SelfService Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - Build 6.1 build 6114
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-27T00:00:00'
   - vendor: ManageEngine Zoho
     product: ''
     cves:
@@ -149,37 +149,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: ManageEngine Zoho
-    product: ADManager Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: ManageEngine Zoho
     product: ADAudit Plus
     cves:
@@ -190,8 +160,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -211,7 +180,7 @@ software:
       - ''
     last_updated: '2021-12-16T00:00:00'
   - vendor: ManageEngine Zoho
-    product: DataSecurity Plus
+    product: ADManager Plus
     cves:
       cve-2021-4104:
         investigated: false
@@ -220,248 +189,7 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
         affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: EventLog Analyzer
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: M365 Manager Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: RecoveryManager Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: Exchange Reporter Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: Log360
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: Log360 UEBA
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: Cloud Security Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-16T00:00:00'
-  - vendor: ManageEngine Zoho
-    product: M365 Security Plus
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions:
-          - On-Prem
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -490,8 +218,268 @@ software:
         unaffected_versions: []
       cve-2021-44228:
         investigated: false
-        affected_versions:
-          - On-Prem
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: Cloud Security Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: DataSecurity Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: EventLog Analyzer
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: Exchange Reporter Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: Log360
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: Log360 UEBA
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: M365 Manager Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: M365 Security Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://pitstop.manageengine.com/portal/en/community/topic/update-on-the-recent-apache-log4j2-vulnerability-impact-on-manageengine-on-premises-products-1
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-16T00:00:00'
+  - vendor: ManageEngine Zoho
+    product: RecoveryManager Plus
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -538,7 +526,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MathWorks
     product: All MathWorks general release desktop or server products
     cves:
@@ -581,7 +569,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -656,7 +644,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Mattermost FocalBoard
     product: ''
     cves:
@@ -685,7 +673,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: McAfee
     product: Data Exchange Layer (DXL) Client
     cves:
@@ -939,7 +927,7 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
-    product: ePolicy Orchestrator Application Server (ePO)
+    product: Enterprise Security Manager (ESM)
     cves:
       cve-2021-4104:
         investigated: false
@@ -950,7 +938,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 5.10 CU11
+          - 11.5.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -992,6 +980,36 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links: []
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: McAfee
+    product: ePolicy Orchestrator Application Server (ePO)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 5.10 CU11
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://kc.mcafee.com/agent/index?page=content&id=SB10377
     notes: ''
     references:
       - ''
@@ -1277,34 +1295,6 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
-    product: McAfee Security for Microsoft SharePoint (MSMS)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: McAfee
     product: McAfee Security for Microsoft Exchange (MSME)
     cves:
       cve-2021-4104:
@@ -1333,7 +1323,7 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: McAfee
-    product: Enterprise Security Manager (ESM)
+    product: McAfee Security for Microsoft SharePoint (MSMS)
     cves:
       cve-2021-4104:
         investigated: false
@@ -1341,10 +1331,9 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: true
+        investigated: false
         affected_versions: []
-        fixed_versions:
-          - 11.5.3
+        fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1356,8 +1345,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
-    vendor_links:
-      - https://kc.mcafee.com/agent/index?page=content&id=SB10377
+    vendor_links: []
     notes: ''
     references:
       - ''
@@ -1561,7 +1549,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MEINBERG
     product: LANTIME and microSync
     cves:
@@ -1619,7 +1607,7 @@ software:
     notes: Project is written in Python
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Memurai
     product: ''
     cves:
@@ -1649,8 +1637,8 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: MicroFocus
-    product: ''
+  - vendor: Micro Focus
+    product: Data Protector
     cves:
       cve-2021-4104:
         investigated: false
@@ -1658,9 +1646,19 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - '10.20'
+          - '10.30'
+          - '10.40'
+          - '10.50'
+          - '10.60'
+          - '10.70'
+          - '10.80'
+          - '10.90'
+          - '10.91'
+          - '11.00'
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1673,40 +1671,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://portal.microfocus.com/s/customportalsearch?language=en_US&searchtext=CVE-2021-44228
+      - https://portal.microfocus.com/s/article/KM000003052
     notes: ''
     references:
-      - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: Microsoft
-    product: Azure Application Gateway
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+      - '[https://portal.microfocus.com/s/article/KM000003050](https://portal.microfocus.com/s/article/KM000003050)'
+    last_updated: '2021-12-13T00:00:00'
   - vendor: Microsoft
     product: Azure API Gateway
     cves:
@@ -1735,7 +1704,36 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Microsoft
+    product: Azure Application Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Microsoft
     product: Azure Data lake store java
     cves:
@@ -1765,7 +1763,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Microsoft
     product: Azure Data lake store java
     cves:
@@ -1795,7 +1793,36 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Microsoft
+    product: Azure DevOps
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Microsoft
     product: Azure DevOps Server
     cves:
@@ -1825,36 +1852,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
-  - vendor: Microsoft
-    product: Azure DevOps
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://devblogs.microsoft.com/devops/azure-devops-and-azure-devops-server-and-the-log4j-vulnerability/?WT.mc_id=DOP-MVP-5001511
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Microsoft
     product: Azure Traffic Manager
     cves:
@@ -1883,7 +1881,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Microsoft
     product: Team Foundation Server
     cves:
@@ -1913,7 +1911,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Microstrategy
     product: ''
     cves:
@@ -2000,7 +1998,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Milestone sys
     product: ''
     cves:
@@ -2029,7 +2027,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Mimecast
     product: ''
     cves:
@@ -2058,7 +2056,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Minecraft
     product: ''
     cves:
@@ -2087,7 +2085,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Mirantis
     product: ''
     cves:
@@ -2116,7 +2114,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Miro
     product: ''
     cves:
@@ -2145,7 +2143,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Mitel
     product: ''
     cves:
@@ -2174,7 +2172,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MMM Group
     product: Control software of all MMM series
     cves:
@@ -2233,143 +2231,6 @@ software:
     references:
       - ''
     last_updated: '2022-01-05T00:00:00'
-  - vendor: MobileIron
-    product: Core
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - All Versions
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/Security-Bulletin-CVE-2021-44228-Remote-code-injection-in-Log4j?language=en_US
-    notes: The mitigation instructions listed in a subsequent section removes a vulnerable
-      Java class (JNDILookUp.class) from the affected Log4J Java library and as a
-      result removes the ability to perform the RCE attack.  The workaround needs
-      to be applied in a maintenance window. You will not be able to access the admin
-      portal during the procedure, however, end user devices will continue to function.
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: MobileIron
-    product: Core Connector
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - All Versions
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/Security-Bulletin-CVE-2021-44228-Remote-code-injection-in-Log4j?language=en_US
-    notes: The mitigation instructions listed in a subsequent section removes a vulnerable
-      Java class (JNDILookUp.class) from the affected Log4J Java library and as a
-      result removes the ability to perform the RCE attack.  The workaround needs
-      to be applied in a maintenance window. You will not be able to access the admin
-      portal during the procedure, however, end user devices will continue to function.
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: MobileIron
-    product: Reporting Database (RDB)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - All Versions
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/Security-Bulletin-CVE-2021-44228-Remote-code-injection-in-Log4j?language=en_US
-    notes: The mitigation instructions listed in a subsequent section removes a vulnerable
-      Java class (JNDILookUp.class) from the affected Log4J Java library and as a
-      result removes the ability to perform the RCE attack.  The workaround needs
-      to be applied in a maintenance window. You will not be able to access the admin
-      portal during the procedure, however, end user devices will continue to function.
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: MobileIron
-    product: Sentry
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions:
-          - '9.13'
-          - '9.14'
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://forums.ivanti.com/s/article/Security-Bulletin-CVE-2021-44228-Remote-code-injection-in-Log4j?language=en_US
-    notes: The mitigation instructions listed in a subsequent section removes a vulnerable
-      Java class (JNDILookUp.class) from the affected Log4J Java library and as a
-      result removes the ability to perform the RCE attack.  The workaround needs
-      to be applied in a maintenance window. You will not be able to access the admin
-      portal during the procedure, however, end user devices will continue to function.
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
   - vendor: MongoDB
     product: All other components of MongoDB Atlas (including Atlas Database, Data
       Lake, Charts)
@@ -2399,7 +2260,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MongoDB
     product: MongoDB Atlas Search
     cves:
@@ -2428,7 +2289,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MongoDB
     product: MongoDB Community Edition (including Community Server, Cloud Manager,
       Community Kubernetes Operators)
@@ -2458,7 +2319,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MongoDB
     product: MongoDB Drivers
     cves:
@@ -2487,7 +2348,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MongoDB
     product: MongoDB Enterprise Advanced (including Enterprise Server, Ops Manager,
       Enterprise Kubernetes Operators)
@@ -2517,7 +2378,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MongoDB
     product: MongoDB Realm (including Realm Database, Sync, Functions, APIs)
     cves:
@@ -2546,7 +2407,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MongoDB
     product: MongoDB Tools (including Compass, Database Shell, VS Code Plugin, Atlas
       CLI, Database Connectors)
@@ -2576,7 +2437,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Moodle
     product: ''
     cves:
@@ -2605,7 +2466,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: MoogSoft
     product: ''
     cves:
@@ -2634,7 +2495,7 @@ software:
     notes: ''
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Motorola Avigilon
     product: ''
     cves:
@@ -2664,6 +2525,38 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:54+00:00'
+  - vendor: Moxa
+    product: ''
+    cves:
+      cve-2021-4104:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: ''
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.moxa.com/en/support/product-support/security-advisory/moxa-s-response-regarding-the-apache-log4j-vulnerability
+    notes: Moxa is investigating to determine if any of our products are affected
+      by this vulnerability. At the time of publication, none of Moxa's products are
+      affected.
+    references:
+      - ''
+    last_updated: '2022-01-19T00:00:00'
   - vendor: Mulesoft
     product: ''
     cves:
@@ -2693,9 +2586,9 @@ software:
       by CISA
     references:
       - ''
-    last_updated: '2022-01-12T07:18:54+00:00'
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Mulesoft
-    product: Mule Runtime
+    product: Anypoint Studio
     cves:
       cve-2021-4104:
         investigated: false
@@ -2705,8 +2598,37 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 3.x
-          - 4.x
+          - 7.x
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021
+    notes: This advisory is available to account holders only and has not been reviewed
+      by CISA.
+    references:
+      - ''
+    last_updated: '2021-12-15T00:00:00'
+  - vendor: Mulesoft
+    product: Cloudhub
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: false
+        affected_versions: []
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2758,37 +2680,7 @@ software:
       - ''
     last_updated: '2021-12-15T00:00:00'
   - vendor: Mulesoft
-    product: Cloudhub
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://help.mulesoft.com/s/article/Apache-Log4j2-vulnerability-December-2021
-    notes: This advisory is available to account holders only and has not been reviewed
-      by CISA.
-    references:
-      - ''
-    last_updated: '2021-12-15T00:00:00'
-  - vendor: Mulesoft
-    product: Anypoint Studio
+    product: Mule Runtime
     cves:
       cve-2021-4104:
         investigated: false
@@ -2798,7 +2690,8 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - 7.x
+          - 3.x
+          - 4.x
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:

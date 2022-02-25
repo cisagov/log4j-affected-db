@@ -1,1 +1,1 @@
-https://github.com/cisagov/log4j-md-yml/archive/v1.1.0.tar.gz
+https://github.com/cisagov/log4j-md-yml/archive/v1.1.1.tar.gz

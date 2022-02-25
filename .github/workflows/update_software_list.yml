@@ -68,6 +68,12 @@ jobs:
         run: pip install --upgrade --requirement config/requirements.txt
       - name: Create the branch for test validation
         run: git switch --create ${{ needs.setup.outputs.testing_branch }}
+      - name: Normalize individual cisagov_*.yml files
+        run: |
+          for file in data/cisagov_*yml; do \
+            normalize-yml --cisagov-format "$file" > "$file".tmp; \
+            mv --force "$file".tmp "$file"; \
+          done
       - name: Update the comprehensive cisagov YAML file
         run: normalize-yml --cisagov-format data/cisagov_*.yml > data/cisagov.yml
       - name: Generate a normalized YAML file from all source YAML files
@@ -84,7 +90,7 @@ jobs:
           commit_user_name: ${{ needs.setup.outputs.git_user }}
           commit_user_email: ${{ needs.setup.outputs.git_email }}
           commit_author: ${{ needs.setup.outputs.git_author }}
-          file_pattern: SOFTWARE-LIST.md data/cisagov.yml
+          file_pattern: SOFTWARE-LIST.md data/cisagov*.yml
   merge_list_update:
     runs-on: ubuntu-latest
     needs:
