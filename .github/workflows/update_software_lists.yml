@@ -1,5 +1,5 @@
 ---
-name: Update the software list
+name: Update the software lists
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 env:
   PIP_CACHE_DIR: ~/.cache/pip
-  TESTING_BRANCH_BASE: testing/update_software_list
+  TESTING_BRANCH_BASE: testing/update_software_lists
 
 jobs:
   setup:
@@ -34,12 +34,12 @@ jobs:
         env:
           BASE_BRANCH: ${{ env.TESTING_BRANCH_BASE }}
           COMMIT_SHA: ${{ github.sha }}
-  generate_list_update:
+  generate_updates:
     runs-on: ubuntu-latest
     needs: setup
     outputs:
       # If changes are detected then a commit will have been pushed
-      updated_list: ${{ steps.commit-for-testing.outputs.changes_detected }}
+      has_updates: ${{ steps.commit-for-testing.outputs.changes_detected }}
     # Don't run if we're seeing an update push
     if: github.actor != needs.setup.outputs.git_user
     steps:
@@ -58,7 +58,7 @@ jobs:
           path: |
             ${{ env.PIP_CACHE_DIR }}
           key: "${{ env.BASE_CACHE_KEY }}\
-            ${{ hashFiles('.github/workflows/update_software_list.yml') }}-\
+            ${{ hashFiles('.github/workflows/update_software_lists.yml') }}-\
             ${{ hashFiles('config/requirements.txt') }}"
           restore-keys: |
             ${{ env.BASE_CACHE_KEY }}
@@ -79,12 +79,12 @@ jobs:
           commit_user_email: ${{ needs.setup.outputs.git_email }}
           commit_author: ${{ needs.setup.outputs.git_author }}
           file_pattern: data/cisagov*.yml software_lists/software_list_*.md
-  merge_list_update:
+  merge_updates:
     runs-on: ubuntu-latest
     needs:
       - setup
-      - generate_list_update
-    if: needs.generate_list_update.outputs.updated_list == 'true'
+      - generate_updates
+    if: needs.generate_updates.outputs.has_updates == 'true'
     steps:
       - uses: actions/checkout@v2
         with:
