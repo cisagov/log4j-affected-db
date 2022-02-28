@@ -44,7 +44,17 @@ MD035:
   # Enforce dashes for horizontal rules
   style: "---"
 
-# MD046/code-block-style Code block style
+# MD046/code-block-style - Code block style
 MD046:
   # Enforce the fenced style for code blocks
   style: "fenced"
+
+# MD049/emphasis-style - Emphasis style should be consistent
+MD049:
+  # Enforce asterisks as the style to use for emphasis
+  style: "asterisk"
+
+# MD050/strong-style - Strong style should be consistent
+MD050:
+  # Enforce asterisks as the style to use for strong
+  style: "asterisk"

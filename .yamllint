@@ -2,6 +2,12 @@
 extends: default
 
 rules:
+  # yamllint does not like it when you comment out different parts of
+  # dictionaries in a list. You can see
+  # https://github.com/adrienverge/yamllint/issues/384 for some examples of
+  # this behavior.
+  comments-indentation: disable
+
   # yamllint doesn't like when we use yes and no for true and false,
   # but that's pretty standard in Ansible.
   truthy: disable
