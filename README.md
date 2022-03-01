@@ -87,4 +87,4 @@ in [`PULL-EXAMPLE.md`](PULL-EXAMPLE.md).
 
 ## Software List ##
 
-To view the full list of vendors & software [click here](./SOFTWARE-LIST.md).
+To view the full list of vendors & software [click here](./software_lists/README.md).
