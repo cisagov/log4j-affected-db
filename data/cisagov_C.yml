@@ -902,8 +902,8 @@ software:
     references:
       - ''
     last_updated: '2022-02-02T00:00:00'
-  - vendor: CapStorm
-    product: Copystorm
+  - vendor: Carbon Black
+    product: Cloud Workload Appliance
     cves:
       cve-2021-4104:
         investigated: false
@@ -911,37 +911,10 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links: []
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: CarbonBlack
-    product: ''
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
+        fixed_versions:
+          - ''
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -954,13 +927,14 @@ software:
         fixed_versions: []
         unaffected_versions: []
     vendor_links:
-      - https://www.vmware.com/security/advisories/VMSA-2021-0028.html
-    notes: ''
+      - https://community.carbonblack.com/t5/Documentation-Downloads/Log4Shell-Log4j-Remote-Code-Execution-CVE-2021-44228/ta-p/109134
+    notes: More information on pages linked bottom of blogpost (behind login).
+      This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Carestream
-    product: ''
+  - vendor: Carbon Black
+    product: EDR Servers
     cves:
       cve-2021-4104:
         investigated: false
@@ -968,10 +942,42 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - ''
+        unaffected_versions: []
+      cve-2021-45046:
         investigated: false
         affected_versions: []
         fixed_versions: []
         unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.carbonblack.com/t5/Documentation-Downloads/Log4Shell-Log4j-Remote-Code-Execution-CVE-2021-44228/ta-p/109134
+    notes: More information on pages linked bottom of blogpost (behind login). 
+      This advisory is available to customer only and has not been reviewed by CISA.
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Carestream
+    product: All
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
