@@ -959,7 +959,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://community.carbonblack.com/t5/Documentation-Downloads/Log4Shell-Log4j-Remote-Code-Execution-CVE-2021-44228/ta-p/109134
-    notes: More information on pages linked bottom of blogpost (behind login). 
+    notes: More information on pages linked bottom of blogpost (behind login).
       This advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
