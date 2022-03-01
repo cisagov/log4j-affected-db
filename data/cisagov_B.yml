@@ -600,8 +600,8 @@ software:
       - ''
     last_updated: '2022-01-31T00:00:00'
   - vendor: BBraun
-    product: Space Infusion Pump family (Infusomat Space Infusion Pump, Perfusor
-      Space Infusion
+    product: Space Infusion Pump family (Infusomat Space Infusion Pump, Perfusor Space
+      Infusion
     cves:
       cve-2021-4104:
         investigated: false
@@ -656,7 +656,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'
@@ -686,7 +687,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'
@@ -702,7 +704,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.10.210'
+          - 2.10.210
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -716,7 +718,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'
@@ -746,7 +749,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'
@@ -776,7 +780,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'
@@ -792,7 +797,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.125.3'
+          - 1.125.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -806,7 +811,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://support.bctsoftware.com/hc/nl/signin?return_to=https%3A%2F%2Fsupport.bctsoftware.com%2Fhc%2Fnl%2Farticles%2F4413416591761
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2021-12-20T00:00:00'
@@ -2011,6 +2017,96 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BD
+    product: BD FACS Lyse Wash Assistant
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BD
+    product: BD FACS Sample Prep Assistant (SPA) III
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BD
+    product: BD FACS Workflow Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BD
     product: BD FACSAria Fusion
     cves:
       cve-2021-4104:
@@ -2641,96 +2737,6 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BD
-    product: BD FACS Lyse Wash Assistant
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: BD
-    product: BD FACS Sample Prep Assistant (SPA) III
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: BD
-    product: BD FACS Workflow Manager
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: BD
     product: BD HD Check System
     cves:
       cve-2021-4104:
@@ -2971,6 +2977,36 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BD
+    product: BD Intelliport
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-20T00:00:00'
+  - vendor: BD
     product: BD Intelliport Medication Management System
     cves:
       cve-2021-4104:
@@ -3002,36 +3038,6 @@ software:
     last_updated: '2021-12-20T00:00:00'
   - vendor: BD
     product: BD Inventory Connect
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://cybersecurity.bd.com/bulletins-and-patches/third-party-vulnerability-apache-log4j
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-20T00:00:00'
-  - vendor: BD
-    product: BD Intelliport
     cves:
       cve-2021-4104:
         investigated: false
@@ -4081,7 +4087,7 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BD
-    product: BD Rowa Dose (Windows 7 Workstations only)
+    product: BD Rowa Dose (Windows 10 platform)
     cves:
       cve-2021-4104:
         investigated: false
@@ -4111,7 +4117,7 @@ software:
       - ''
     last_updated: '2021-12-20T00:00:00'
   - vendor: BD
-    product: BD Rowa Dose (Windows 10 platform)
+    product: BD Rowa Dose (Windows 7 Workstations only)
     cves:
       cve-2021-4104:
         investigated: false
@@ -7385,7 +7391,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7801,7 +7807,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -7889,7 +7895,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All'
+          - All
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7903,7 +7909,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://login.blackberry.com/sso/SSORedirect/metaAlias/idp?SAMLRequest=fZNdc6owEIb%2FCpN7JFIqlal2KKio%2BFGgar05EyCWKCRAgqK%2F%2FlA9zvT0ojuzF5l9s%2B9u5snzS52l0hGXnDDaA%2B0WBBKmEYsJ%2FeyB92AoP4GX%2FjNHWZobZiUS6uGiwlxIzT3KjWuhB6qSGgxxwg2KMswNERm%2BOXMNtQWNvGSCRSwFksk5LkVjZDHKqwyXPi6PJMLvntsDiRA5NxSFV3nOStEKUxQdQlyW51bEMqXJrKJEnJWUfRL6wlkPQvuhA68Rdi8XINnNXIQicV3l3u8q%2F9mNc6b4%2FsLDMSlxJJQMC2SmBHGFxDmQxnYP%2FFEts4mNvEhOfDSzzdPP%2FCrr9vFjMig0OBtGswiZ52H6mK9Gbtev5FnViZ2HV3dnV3lSOPvSn2YCboaeFV5Q4Yx2K%2FQ%2B1RcPUzWin0%2F7j%2FlEI1OtULfqpNnC8arkIjaD3X6%2BtlVvF8JJvQqznJlx4MfWIQuC1HJhklLH1m2vA9PHbjgSaB2K3YbND5a3X2%2BLfD48DbofVaIlfBSiLt5qS67P6pW87%2FD4SAaqfDzVzLbrQWGdhq7pkG6AdNt0k4ofMj1Zs7Jeio4%2FpuQURwMtHC%2BdGtZvRVD7Vg7jt%2Ba1OK%2FwmHKBqOgBFaqqDFW5%2FRi0dQO2DbXb0qC6BdLyHwivhN7w%2Bo2a8CbihhMES3m58AMgre6YNgJwg9K4mpffaPy9LbojCPp3QL6hkZ1bHKWY71gZ4S9QnpVvJv3b6f9%2F0P8L&RelayState=%2Fcommunity%2Fs%2Farticle%2F90708&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=ThznbsjgVwDX5E2fOcNREcaH%2FaSSD9EIp6MP3c9O9BRVFL%2BETG3n1WQKapplpISRgUkLEs2XvRpJ4%2FfEmynkr5laH4rrAIgMNL%2FauqYIGWvzbdzfp44PkOGUBkHxgo52GjhshHBPyHqJjnvzIoNyIK2zhDBQXevq9etV7wnX7SprJpHX%2B6Ivskj5wAXJzi9SiMafMvUiUFyVq9YBhzd2ZpiTyiYia%2Bdgq4Z74sUIqOyz6bn2KjCKT%2FMqeFqyYYp5JU9CnQk%2BHAH2juQU%2F8MlrGtrRRtgf6fACGMOGria0Vu1wUDwnJiSdI%2BZSzShr%2Fg6Cl9mfaKuTItwlxiqQlbx7hvHEhgg2SNqyrRnJDzpYImSeIMjgHuUy2Iaf6O6J90GdKF4%2BDkCpyXVsm%2FkZhBA6D7uo9rj8tPfE7ml6Njhm9pFZxjuicbCI%2F4Zj66aC52RlpUZwlMgS2HpXOdbILUX8H2FXnm%2FCjDHEDGv49HusCmQehes1g0LzTXXwKkC1hWOYjwWb8uxNneaR0e552R6fjRns%2B2kG04C%2B8COLbJ7v7s3WlUDGBN%2BUa%2BE5q0QNpIYmIW1daXmOx%2FXRBoBdBwWZ1b3GtaBmRiEarb4rF1DgKa9P3SdQBb1M6SvjprcyHRtai7AxnIBW1KMFWB6mETzESVSFwO5KA80co5Aau7HfhM%3D
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -7919,7 +7926,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.12 and above'
+          - 2.12 and above
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7933,7 +7940,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://login.blackberry.com/sso/SSORedirect/metaAlias/idp?SAMLRequest=fZNdc6owEIb%2FCpN7JFIqlal2KKio%2BFGgar05EyCWKCRAgqK%2F%2FlA9zvT0ojuzF5l9s%2B9u5snzS52l0hGXnDDaA%2B0WBBKmEYsJ%2FeyB92AoP4GX%2FjNHWZobZiUS6uGiwlxIzT3KjWuhB6qSGgxxwg2KMswNERm%2BOXMNtQWNvGSCRSwFksk5LkVjZDHKqwyXPi6PJMLvntsDiRA5NxSFV3nOStEKUxQdQlyW51bEMqXJrKJEnJWUfRL6wlkPQvuhA68Rdi8XINnNXIQicV3l3u8q%2F9mNc6b4%2FsLDMSlxJJQMC2SmBHGFxDmQxnYP%2FFEts4mNvEhOfDSzzdPP%2FCrr9vFjMig0OBtGswiZ52H6mK9Gbtev5FnViZ2HV3dnV3lSOPvSn2YCboaeFV5Q4Yx2K%2FQ%2B1RcPUzWin0%2F7j%2FlEI1OtULfqpNnC8arkIjaD3X6%2BtlVvF8JJvQqznJlx4MfWIQuC1HJhklLH1m2vA9PHbjgSaB2K3YbND5a3X2%2BLfD48DbofVaIlfBSiLt5qS67P6pW87%2FD4SAaqfDzVzLbrQWGdhq7pkG6AdNt0k4ofMj1Zs7Jeio4%2FpuQURwMtHC%2BdGtZvRVD7Vg7jt%2Ba1OK%2FwmHKBqOgBFaqqDFW5%2FRi0dQO2DbXb0qC6BdLyHwivhN7w%2Bo2a8CbihhMES3m58AMgre6YNgJwg9K4mpffaPy9LbojCPp3QL6hkZ1bHKWY71gZ4S9QnpVvJv3b6f9%2F0P8L&RelayState=%2Fcommunity%2Fs%2Farticle%2F90708&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=ThznbsjgVwDX5E2fOcNREcaH%2FaSSD9EIp6MP3c9O9BRVFL%2BETG3n1WQKapplpISRgUkLEs2XvRpJ4%2FfEmynkr5laH4rrAIgMNL%2FauqYIGWvzbdzfp44PkOGUBkHxgo52GjhshHBPyHqJjnvzIoNyIK2zhDBQXevq9etV7wnX7SprJpHX%2B6Ivskj5wAXJzi9SiMafMvUiUFyVq9YBhzd2ZpiTyiYia%2Bdgq4Z74sUIqOyz6bn2KjCKT%2FMqeFqyYYp5JU9CnQk%2BHAH2juQU%2F8MlrGtrRRtgf6fACGMOGria0Vu1wUDwnJiSdI%2BZSzShr%2Fg6Cl9mfaKuTItwlxiqQlbx7hvHEhgg2SNqyrRnJDzpYImSeIMjgHuUy2Iaf6O6J90GdKF4%2BDkCpyXVsm%2FkZhBA6D7uo9rj8tPfE7ml6Njhm9pFZxjuicbCI%2F4Zj66aC52RlpUZwlMgS2HpXOdbILUX8H2FXnm%2FCjDHEDGv49HusCmQehes1g0LzTXXwKkC1hWOYjwWb8uxNneaR0e552R6fjRns%2B2kG04C%2B8COLbJ7v7s3WlUDGBN%2BUa%2BE5q0QNpIYmIW1daXmOx%2FXRBoBdBwWZ1b3GtaBmRiEarb4rF1DgKa9P3SdQBb1M6SvjprcyHRtai7AxnIBW1KMFWB6mETzESVSFwO5KA80co5Aau7HfhM%3D
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -7949,7 +7957,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All'
+          - All
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7963,7 +7971,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://login.blackberry.com/sso/SSORedirect/metaAlias/idp?SAMLRequest=fZNdc6owEIb%2FCpN7JFIqlal2KKio%2BFGgar05EyCWKCRAgqK%2F%2FlA9zvT0ojuzF5l9s%2B9u5snzS52l0hGXnDDaA%2B0WBBKmEYsJ%2FeyB92AoP4GX%2FjNHWZobZiUS6uGiwlxIzT3KjWuhB6qSGgxxwg2KMswNERm%2BOXMNtQWNvGSCRSwFksk5LkVjZDHKqwyXPi6PJMLvntsDiRA5NxSFV3nOStEKUxQdQlyW51bEMqXJrKJEnJWUfRL6wlkPQvuhA68Rdi8XINnNXIQicV3l3u8q%2F9mNc6b4%2FsLDMSlxJJQMC2SmBHGFxDmQxnYP%2FFEts4mNvEhOfDSzzdPP%2FCrr9vFjMig0OBtGswiZ52H6mK9Gbtev5FnViZ2HV3dnV3lSOPvSn2YCboaeFV5Q4Yx2K%2FQ%2B1RcPUzWin0%2F7j%2FlEI1OtULfqpNnC8arkIjaD3X6%2BtlVvF8JJvQqznJlx4MfWIQuC1HJhklLH1m2vA9PHbjgSaB2K3YbND5a3X2%2BLfD48DbofVaIlfBSiLt5qS67P6pW87%2FD4SAaqfDzVzLbrQWGdhq7pkG6AdNt0k4ofMj1Zs7Jeio4%2FpuQURwMtHC%2BdGtZvRVD7Vg7jt%2Ba1OK%2FwmHKBqOgBFaqqDFW5%2FRi0dQO2DbXb0qC6BdLyHwivhN7w%2Bo2a8CbihhMES3m58AMgre6YNgJwg9K4mpffaPy9LbojCPp3QL6hkZ1bHKWY71gZ4S9QnpVvJv3b6f9%2F0P8L&RelayState=%2Fcommunity%2Fs%2Farticle%2F90708&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=ThznbsjgVwDX5E2fOcNREcaH%2FaSSD9EIp6MP3c9O9BRVFL%2BETG3n1WQKapplpISRgUkLEs2XvRpJ4%2FfEmynkr5laH4rrAIgMNL%2FauqYIGWvzbdzfp44PkOGUBkHxgo52GjhshHBPyHqJjnvzIoNyIK2zhDBQXevq9etV7wnX7SprJpHX%2B6Ivskj5wAXJzi9SiMafMvUiUFyVq9YBhzd2ZpiTyiYia%2Bdgq4Z74sUIqOyz6bn2KjCKT%2FMqeFqyYYp5JU9CnQk%2BHAH2juQU%2F8MlrGtrRRtgf6fACGMOGria0Vu1wUDwnJiSdI%2BZSzShr%2Fg6Cl9mfaKuTItwlxiqQlbx7hvHEhgg2SNqyrRnJDzpYImSeIMjgHuUy2Iaf6O6J90GdKF4%2BDkCpyXVsm%2FkZhBA6D7uo9rj8tPfE7ml6Njhm9pFZxjuicbCI%2F4Zj66aC52RlpUZwlMgS2HpXOdbILUX8H2FXnm%2FCjDHEDGv49HusCmQehes1g0LzTXXwKkC1hWOYjwWb8uxNneaR0e552R6fjRns%2B2kG04C%2B8COLbJ7v7s3WlUDGBN%2BUa%2BE5q0QNpIYmIW1daXmOx%2FXRBoBdBwWZ1b3GtaBmRiEarb4rF1DgKa9P3SdQBb1M6SvjprcyHRtai7AxnIBW1KMFWB6mETzESVSFwO5KA80co5Aau7HfhM%3D
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -8009,8 +8018,8 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '3.5.x'
-          - '4.x'
+          - 3.5.x
+          - 4.x
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -8023,7 +8032,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://twitter.com/bluemind/status/1470379923034578946?s=20A
-    notes: This advisory is available to customer only and has not been reviewed by CISA.
+    notes: This advisory is available to customer only and has not been reviewed by
+      CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -8220,36 +8230,6 @@ software:
         fixed_versions:
           - ''
         unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: BMC
-    product: BMC Application Accelerator for IMS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -8867,36 +8847,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: BMC AMI Integrity for IMS
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: BMC
     product: BMC AMI Database Performance for Db2
     cves:
       cve-2021-4104:
@@ -9167,7 +9117,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: BMC AMI Defender z/VM
+    product: BMC AMI Defender TCP/IP Receiver
     cves:
       cve-2021-4104:
         investigated: false
@@ -9197,7 +9147,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: BMC AMI Defender TCP/IP Receiver
+    product: BMC AMI Defender z/VM
     cves:
       cve-2021-4104:
         investigated: false
@@ -9528,6 +9478,36 @@ software:
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
     product: BMC AMI Fast Path Restart for IMS
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC AMI Integrity for IMS
     cves:
       cve-2021-4104:
         investigated: false
@@ -10847,36 +10827,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: BMC AMI Utlities for Db2
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: BMC
     product: BMC AMI Utility Mangement for Db2
     cves:
       cve-2021-4104:
@@ -10908,6 +10858,66 @@ software:
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
     product: BMC AMI Utility Mangemer for Db2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC AMI Utlities for Db2
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
+    product: BMC Application Accelerator for IMS
     cves:
       cve-2021-4104:
         investigated: false
@@ -12377,6 +12387,36 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
+    product: BMC Digital Workplace Advanced (DWPA)
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: BMC
     product: BMC Digital Workplace Basic (DWP)
     cves:
       cve-2021-4104:
@@ -12408,36 +12448,6 @@ software:
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
     product: BMC Digital Workplace Catalog (DWPC)
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://community.bmc.com/s/news/aA33n000000TSUdCAO/bmc-security-advisory-for-cve202144228-log4shell-vulnerability
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: BMC
-    product: BMC Digital Workplace Advanced (DWPA)
     cves:
       cve-2021-4104:
         investigated: false
@@ -12719,7 +12729,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - '21.x and below'
+          - 21.x and below
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -12748,7 +12758,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '21.x'
+          - 21.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -13247,7 +13257,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: BMC PATROL for Sybase
+    product: BMC PATROL for Linux KM
     cves:
       cve-2021-4104:
         investigated: false
@@ -13277,7 +13287,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: BMC PATROL for Linux KM
+    product: BMC PATROL for Sybase
     cves:
       cve-2021-4104:
         investigated: false
@@ -14747,7 +14757,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: FASTCPK
+    product: FASTCOPY
     cves:
       cve-2021-4104:
         investigated: false
@@ -14777,7 +14787,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: FASTCOPY
+    product: FASTCPK
     cves:
       cve-2021-4104:
         investigated: false
@@ -15467,7 +15477,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: Release Process Management
+    product: Release Package and Deployment
     cves:
       cve-2021-4104:
         investigated: false
@@ -15497,7 +15507,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: BMC
-    product: Release Package and Deployment
+    product: Release Process Management
     cves:
       cve-2021-4104:
         investigated: false
@@ -15857,6 +15867,36 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Bosch
+    product: Bosch IoT Gateway
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 3.7.0
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://psirt.bosch.com/security-advisories/bosch-sa-572602.html
+    notes: ''
+    references:
+      - ''
+    last_updated: '2021-12-22T00:00:00'
+  - vendor: Bosch
     product: Bosch IoT Suite
     cves:
       cve-2021-4104:
@@ -15882,36 +15922,6 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://bosch-iot-suite.com/news/apache-log4j-rce-vulnerability/
-    notes: ''
-    references:
-      - ''
-    last_updated: '2021-12-22T00:00:00'
-  - vendor: Bosch
-    product: Bosch IoT Gateway
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - '3.7.0'
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://psirt.bosch.com/security-advisories/bosch-sa-572602.html
     notes: ''
     references:
       - ''
@@ -15958,7 +15968,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.0.32'
+          - 1.0.32
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -16572,8 +16582,8 @@ software:
         affected_versions: []
         fixed_versions:
           - '9.1'
-          - '9.1.01'
-          - '9.1.02'
+          - 9.1.01
+          - 9.1.02
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -17263,9 +17273,9 @@ software:
           - '4.4'
           - '4.5'
           - '5.0'
-          - '5.0 CR1'
-          - '5.0.2'
-          - '5.0.2.1'
+          - 5.0 CR1
+          - 5.0.2
+          - 5.0.2.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -17295,7 +17305,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '5.0.3'
+          - 5.0.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -17358,7 +17368,7 @@ software:
         affected_versions: []
         fixed_versions:
           - '5.4'
-          - '5.1 - 5.3 (EOS)'
+          - 5.1 - 5.3 (EOS)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -17418,7 +17428,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.3.10'
+          - 2.3.10
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -17808,12 +17818,12 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '12.8.x Policy Server'
-          - '12.8.04 or later Administrative UI'
-          - '12.8.x Access Gateway'
-          - '12.8.x SDK'
-          - '12.7 ASA Agents'
-          - '12.8 ASA Agents'
+          - 12.8.x Policy Server
+          - 12.8.04 or later Administrative UI
+          - 12.8.x Access Gateway
+          - 12.8.x SDK
+          - 12.7 ASA Agents
+          - 12.8 ASA Agents
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -17874,8 +17884,8 @@ software:
         affected_versions: []
         fixed_versions:
           - '9.1'
-          - '9.1.01'
-          - '9.1.02'
+          - 9.1.01
+          - 9.1.02
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -17995,10 +18005,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.6.0'
-          - '4.6.5'
-          - '4.6.7'
-          - '4.6.8'
+          - 4.6.0
+          - 4.6.5
+          - 4.6.7
+          - 4.6.8
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -18300,9 +18310,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.4.6'
+          - 3.4.6
           - '4.0'
-          - '4.0.1'
+          - 4.0.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -18362,7 +18372,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '12.9.x'
+          - 12.9.x
           - '14.0'
         unaffected_versions: []
       cve-2021-45046:
@@ -18483,7 +18493,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.6.2.4'
+          - 3.6.2.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
