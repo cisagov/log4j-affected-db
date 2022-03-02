@@ -1468,7 +1468,37 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Check Point
-    product: Harmony Endpoint & Harmony Mobile
+    product: Harmony Endpoint
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://supportcontent.checkpoint.com/solutions?id=sk176865
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Check Point
+    product: Harmony Mobile
     cves:
       cve-2021-4104:
         investigated: false
@@ -1626,10 +1656,11 @@ software:
         fixed_versions: []
         unaffected_versions: []
       cve-2021-44228:
-        investigated: false
+        investigated: true
         affected_versions: []
         fixed_versions: []
-        unaffected_versions: []
+        unaffected_versions:
+          - 'All'
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1647,7 +1678,7 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: CheckMK
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
@@ -1675,8 +1706,98 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Chef
+    product: Automate
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.chef.io/blog/is-chef-vulnerable-to-cve-2021-44228-(log4j)
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Chef
+    product: Backend
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.chef.io/blog/is-chef-vulnerable-to-cve-2021-44228-(log4j)
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Chef
+    product: Infra Server
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - All
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.chef.io/blog/is-chef-vulnerable-to-cve-2021-44228-(log4j)
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Ciphermail
-    product: ''
+    product: All
     cves:
       cve-2021-4104:
         investigated: false
