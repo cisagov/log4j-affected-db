@@ -19,7 +19,7 @@ jobs:
     steps:
       - id: setup-env
         uses: cisagov/setup-env-github-action@develop
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - id: setup-python
         uses: actions/setup-python@v2
         with:
