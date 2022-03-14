@@ -494,7 +494,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '7.x'
+          - 7.x
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -673,7 +673,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '7.x'
+          - 7.x
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -703,7 +703,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '8.x'
+          - 8.x
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -928,8 +928,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://community.carbonblack.com/t5/Documentation-Downloads/Log4Shell-Log4j-Remote-Code-Execution-CVE-2021-44228/ta-p/109134
-    notes: More information on pages linked bottom of blogpost (behind login).
-      This advisory is available to customer only and has not been reviewed by CISA.
+    notes: More information on pages linked bottom of blogpost (behind login). This
+      advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -959,8 +959,8 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://community.carbonblack.com/t5/Documentation-Downloads/Log4Shell-Log4j-Remote-Code-Execution-CVE-2021-44228/ta-p/109134
-    notes: More information on pages linked bottom of blogpost (behind login).
-      This advisory is available to customer only and has not been reviewed by CISA.
+    notes: More information on pages linked bottom of blogpost (behind login). This
+      advisory is available to customer only and has not been reviewed by CISA.
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1065,7 +1065,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'All'
+          - All
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1095,7 +1095,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1124,7 +1124,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1211,7 +1211,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1330,7 +1330,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1360,7 +1360,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1660,7 +1660,7 @@ software:
         affected_versions: []
         fixed_versions: []
         unaffected_versions:
-          - 'All'
+          - All
       cve-2021-45046:
         investigated: false
         affected_versions: []
@@ -1866,7 +1866,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.13.1'
+          - 4.13.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1896,7 +1896,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.0.78'
+          - 3.0.78
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1926,7 +1926,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.13.1'
+          - 4.13.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -1956,7 +1956,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.13.1'
+          - 1.13.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2016,7 +2016,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.7.2'
+          - 1.7.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2305,96 +2305,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Cisco
-    product: Cisco Aironet Access Points
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Cisco
-    product: Cisco AireOS Wireless LAN Controllers
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Cisco
-    product: Cisco AMP Virtual Private Cloud Appliance
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Cisco
     product: Cisco Adaptive Security Appliance (ASA) Software
     cves:
       cve-2021-4104:
@@ -2515,6 +2425,96 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Cisco
+    product: Cisco AireOS Wireless LAN Controllers
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Cisco
+    product: Cisco Aironet Access Points
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Cisco
+    product: Cisco AMP Virtual Private Cloud Appliance
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Cisco
     product: Cisco AnyConnect Secure Mobility Client
     cves:
       cve-2021-4104:
@@ -2556,8 +2556,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.2(7r)'
-          - '5.2(3g)'
+          - 4.2(7r)
+          - 5.2(3g)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2576,7 +2576,8 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Cisco
-    product: Cisco Application Policy Infrastructure Controller Enterprise Module (APIC-EM)
+    product: Cisco Application Policy Infrastructure Controller Enterprise Module
+      (APIC-EM)
     cves:
       cve-2021-4104:
         investigated: false
@@ -2647,7 +2648,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.1.0.4'
+          - 2.1.0.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2677,8 +2678,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2021.11_1.162'
-          - 'ap381882'
+          - 2021.11_1.162
+          - ap381882
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -2858,9 +2859,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.0.000.115'
-          - '3.1.000.044'
-          - '3.2.000.009'
+          - 3.0.000.115
+          - 3.1.000.044
+          - 3.2.000.009
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3103,7 +3104,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.10.0.16'
+          - 4.10.0.16
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3163,7 +3164,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '5.5.2'
+          - 5.5.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3193,7 +3194,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '5.3.1'
+          - 5.3.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3223,7 +3224,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '5.5.2'
+          - 5.5.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3253,8 +3254,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.10.0.1'
-          - '2.9.1.3'
+          - 2.10.0.1
+          - 2.9.1.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3314,10 +3315,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '10.6.3-70'
-          - '10.6.3-105'
-          - '10.6.2-89'
-          - '10.4.1'
+          - 10.6.3-70
+          - 10.6.3-105
+          - 10.6.2-89
+          - 10.4.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3469,8 +3470,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.0.2'
-          - '3.0.1'
+          - 2.0.2
+          - 3.0.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3530,8 +3531,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.0.1'
-          - '3.0.1'
+          - 2.0.1
+          - 3.0.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3561,8 +3562,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.0.1'
-          - '3.0.1'
+          - 2.0.1
+          - 3.0.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3592,8 +3593,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.0.1'
-          - '4.1.1'
+          - 4.0.1
+          - 4.1.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3653,7 +3654,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '8.0.0.8'
+          - 8.0.0.8
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3683,8 +3684,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.0.1'
-          - '3.0.1'
+          - 2.0.1
+          - 3.0.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3714,7 +3715,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.12.2'
+          - 1.12.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3744,7 +3745,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '4.0.3'
+          - 4.0.3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3774,12 +3775,12 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '12.0(2f)'
-          - '11.3(1)'
-          - '11.4(1)'
-          - '11.5(1)'
-          - '11.5(2)'
-          - '11.5(3)'
+          - 12.0(2f)
+          - 11.3(1)
+          - 11.4(1)
+          - 11.5(1)
+          - 11.5(2)
+          - 11.5(3)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3809,9 +3810,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.1.2.8'
-          - '2.2.2.8'
-          - '2.2.3.4'
+          - 2.1.2.8
+          - 2.2.2.8
+          - 2.2.3.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3841,8 +3842,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'v2.0.588'
-          - 'v2.2.12'
+          - v2.0.588
+          - v2.2.12
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -3932,8 +3933,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '11.5(4)SU9'
-          - '11.5(4)SU10'
+          - 11.5(4)SU9
+          - 11.5(4)SU10
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4025,9 +4026,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '5.1.3.1'
-          - '5.0.2.1'
-          - '4.1.1.1'
+          - 5.1.3.1
+          - 5.0.2.1
+          - 4.1.1.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4166,7 +4167,8 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Cisco
-    product: Cisco Firepower Threat Defense (FTD) managed by Cisco Firepower Management Center
+    product: Cisco Firepower Threat Defense (FTD) managed by Cisco Firepower Management
+      Center
     cves:
       cve-2021-4104:
         investigated: false
@@ -4196,7 +4198,8 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Cisco
-    product: Cisco Firepower Threat Defense (FTD) managed by Firepower Device Manager (FDM)
+    product: Cisco Firepower Threat Defense (FTD) managed by Firepower Device Manager
+      (FDM)
     cves:
       cve-2021-4104:
         investigated: false
@@ -4207,12 +4210,12 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.2.3'
-          - '6.4.0'
-          - '6.6.5'
-          - '6.7.0'
-          - '7.0.1'
-          - '7.1.0'
+          - 6.2.3
+          - 6.4.0
+          - 6.6.5
+          - 6.7.0
+          - 7.0.1
+          - 7.1.0
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4452,11 +4455,11 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.4 hotfix'
-          - '2.6 hotfix'
-          - '2.7 hotfix'
-          - '3.0 hotfix'
-          - '3.1 hotfix'
+          - 2.4 hotfix
+          - 2.6 hotfix
+          - 2.7 hotfix
+          - 3.0 hotfix
+          - 3.1 hotfix
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4486,7 +4489,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.3.2.1'
+          - 2.3.2.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4576,7 +4579,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.0.9-361'
+          - 1.0.9-361
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4756,8 +4759,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.14.5'
-          - '1.16.4'
+          - 1.14.5
+          - 1.16.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -4897,6 +4900,36 @@ software:
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Cisco
     product: Cisco Jabber Guest
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Cisco
+    product: Cisco MDS 9000 Series Multilayer Switches
     cves:
       cve-2021-4104:
         investigated: false
@@ -5226,36 +5259,6 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Cisco
-    product: Cisco MDS 9000 Series Multilayer Switches
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
-    notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Cisco
     product: Cisco MME Mobility Management Entity
     cves:
       cve-2021-4104:
@@ -5297,7 +5300,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '7.14.4'
+          - 7.14.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5417,7 +5420,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.0.2'
+          - 6.0.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5447,8 +5450,8 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '7.3.2'
-          - '7.3.1'
+          - 7.3.2
+          - 7.3.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5508,10 +5511,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'nso-5.3.5.1'
-          - 'nso-5.4.5.2'
-          - 'nso-5.5.4.1'
-          - 'nso-5.6.3.1'
+          - nso-5.3.5.1
+          - nso-5.4.5.2
+          - nso-5.5.4.1
+          - nso-5.6.3.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5680,7 +5683,8 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Cisco
-    product: Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure (ACI) Mode
+    product: Cisco Nexus 9000 Series Fabric Switches in Application Centric Infrastructure
+      (ACI) Mode
     cves:
       cve-2021-4104:
         investigated: false
@@ -5751,7 +5755,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.1.2'
+          - 2.1.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5811,7 +5815,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.0.2'
+          - 6.0.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5871,7 +5875,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.1.0'
+          - 1.1.0
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -5964,7 +5968,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '14.4.2'
+          - 14.4.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7314,10 +7318,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '20.3.4.1'
-          - '20.4.2.1'
-          - '20.5.1.1'
-          - '20.6.2.1'
+          - 20.3.4.1
+          - 20.4.2.1
+          - 20.5.1.1
+          - 20.6.2.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7377,7 +7381,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.4.1'
+          - 2.4.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -7392,6 +7396,36 @@ software:
     vendor_links:
       - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
     notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Cisco
+    product: Cisco Secure Email and Web Manager
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions:
+          - ''
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
+    notes: Formerly Cisco Content Security Management Appliance (SMA)
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -7482,36 +7516,6 @@ software:
     vendor_links:
       - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
     notes: ''
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Cisco
-    product: Cisco Secure Email and Web Manager
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions:
-          - ''
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
-    notes: Formerly Cisco Content Security Management Appliance (SMA)
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -7846,6 +7850,39 @@ software:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
   - vendor: Cisco
+    product: Cisco Smart PHY
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 3.1.4
+          - 3.2.0
+          - 3.2.1
+          - '21.3'
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
+    notes: ''
+    references:
+      - ''
+    last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Cisco
     product: Cisco Smart Software Manager On-Prem
     cves:
       cve-2021-4104:
@@ -7872,39 +7909,6 @@ software:
     vendor_links:
       - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
     notes: Formerly Cisco Advanced Malware Protection for Endpoints
-    references:
-      - ''
-    last_updated: '2022-01-12T07:18:50+00:00'
-  - vendor: Cisco
-    product: Cisco Smart PHY
-    cves:
-      cve-2021-4104:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-44228:
-        investigated: true
-        affected_versions: []
-        fixed_versions:
-          - '3.1.4'
-          - '3.2.0'
-          - '3.2.1'
-          - '21.3'
-        unaffected_versions: []
-      cve-2021-45046:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-      cve-2021-45105:
-        investigated: false
-        affected_versions: []
-        fixed_versions: []
-        unaffected_versions: []
-    vendor_links:
-      - https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd
-    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -8130,7 +8134,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.0(1p)'
+          - 2.0(1p)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8160,7 +8164,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.8.2.0'
+          - 6.8.2.0
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8670,11 +8674,11 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '11.5(1)SU7'
-          - '11.5(1)SU8'
-          - '11.5(1)SU9'
-          - '11.5(1)SU10'
-          - '11.5(1.18119-2) - 11.5(1.23162-1)'
+          - 11.5(1)SU7
+          - 11.5(1)SU8
+          - 11.5(1)SU9
+          - 11.5(1)SU10
+          - 11.5(1.18119-2) - 11.5(1.23162-1)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8704,11 +8708,11 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '11.5(1)SU7'
-          - '11.5(1)SU8'
-          - '11.5(1)SU9'
-          - '11.5(1)SU10'
-          - '11.5(1.18900-16) - 11.5(1.18901-3)'
+          - 11.5(1)SU7
+          - 11.5(1)SU8
+          - 11.5(1)SU9
+          - 11.5(1)SU10
+          - 11.5(1.18900-16) - 11.5(1.18901-3)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8738,11 +8742,11 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '11.5(1)SU7'
-          - '11.5(1)SU8'
-          - '11.5(1)SU9'
-          - '11.5(1)SU10'
-          - '11.5(1.18119-2) - 11.5(1.23162-1)'
+          - 11.5(1)SU7
+          - 11.5(1)SU8
+          - 11.5(1)SU9
+          - 11.5(1)SU10
+          - 11.5(1.18119-2) - 11.5(1.23162-1)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8805,10 +8809,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '11.6(1)ES23'
-          - '12.0(1)ES18'
-          - '12.5(1)ES13'
-          - '12.6(1)ES03'
+          - 11.6(1)ES23
+          - 12.0(1)ES18
+          - 12.5(1)ES13
+          - 12.6(1)ES03
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8931,7 +8935,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '10.2.1v2'
+          - 10.2.1v2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -8961,11 +8965,11 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '11.5(1)SU7'
-          - '11.5(1)SU8'
-          - '11.5(1)SU9'
-          - '11.5(1)SU10'
-          - '11.5(1.18119-2) - 11.5(1.23162-1)'
+          - 11.5(1)SU7
+          - 11.5(1)SU8
+          - 11.5(1)SU9
+          - 11.5(1)SU10
+          - 11.5(1.18119-2) - 11.5(1.23162-1)
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -9055,7 +9059,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '7.14.4'
+          - 7.14.4
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -9085,7 +9089,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '2.6.7'
+          - 2.6.7
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -9115,11 +9119,11 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.2.x'
-          - '3.4.4'
-          - '3.4.6'
-          - '4.2.0'
-          - '4.2.1'
+          - 3.2.x
+          - 3.4.4
+          - 3.4.6
+          - 4.2.0
+          - 4.2.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -9180,7 +9184,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '6.4 SP3'
+          - 6.4 SP3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -9210,9 +9214,9 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '7.5.0.1'
-          - '7.4.0.1'
-          - '7.3.0.2'
+          - 7.5.0.1
+          - 7.4.0.1
+          - 7.3.0.2
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -9572,10 +9576,10 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - 'CWMS-3.0MR4SP2'
-          - 'CWMS-4.0MR4SP2'
-          - 'CWMS-3.0MR4SP3'
-          - 'CWMS-4.0MR4SP3'
+          - CWMS-3.0MR4SP2
+          - CWMS-4.0MR4SP2
+          - CWMS-3.0MR4SP3
+          - CWMS-4.0MR4SP3
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
@@ -9695,7 +9699,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '3.2.1'
+          - 3.2.1
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
