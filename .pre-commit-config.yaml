@@ -31,7 +31,7 @@ repos:
 
   # Text file hooks
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.30.0
+    rev: v0.31.1
     hooks:
       - id: markdownlint
         args:
@@ -46,3 +46,23 @@ repos:
       - id: yamllint
         args:
           - --strict
+
+  # Shell script hooks
+  - repo: https://github.com/cisagov/pre-commit-shfmt
+    rev: v0.0.2
+    hooks:
+      - id: shfmt
+        args:
+          # Indent by two spaces
+          - -i
+          - '2'
+          # Binary operators may start a line
+          - -bn
+          # Switch cases are indented
+          - -ci
+          # Redirect operators are followed by a space
+          - -sr
+  - repo: https://github.com/detailyang/pre-commit-shell
+    rev: 1.0.5
+    hooks:
+      - id: shell-lint

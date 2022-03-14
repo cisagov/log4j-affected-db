@@ -1,5 +1,5 @@
 ---
-name: Update the software list
+name: Update the software lists
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 env:
   PIP_CACHE_DIR: ~/.cache/pip
-  TESTING_BRANCH_BASE: testing/update_software_list
+  TESTING_BRANCH_BASE: testing/update_software_lists
 
 jobs:
   setup:
@@ -34,12 +34,12 @@ jobs:
         env:
           BASE_BRANCH: ${{ env.TESTING_BRANCH_BASE }}
           COMMIT_SHA: ${{ github.sha }}
-  generate_list_update:
+  generate_updates:
     runs-on: ubuntu-latest
     needs: setup
     outputs:
       # If changes are detected then a commit will have been pushed
-      updated_list: ${{ steps.commit-for-testing.outputs.changes_detected }}
+      has_updates: ${{ steps.commit-for-testing.outputs.changes_detected }}
     # Don't run if we're seeing an update push
     if: github.actor != needs.setup.outputs.git_user
     steps:
@@ -58,7 +58,7 @@ jobs:
           path: |
             ${{ env.PIP_CACHE_DIR }}
           key: "${{ env.BASE_CACHE_KEY }}\
-            ${{ hashFiles('.github/workflows/update_software_list.yml') }}-\
+            ${{ hashFiles('.github/workflows/update_software_lists.yml') }}-\
             ${{ hashFiles('config/requirements.txt') }}"
           restore-keys: |
             ${{ env.BASE_CACHE_KEY }}
@@ -68,35 +68,23 @@ jobs:
         run: pip install --upgrade --requirement config/requirements.txt
       - name: Create the branch for test validation
         run: git switch --create ${{ needs.setup.outputs.testing_branch }}
-      - name: Normalize individual cisagov_*.yml files
-        run: |
-          for file in data/cisagov_*yml; do \
-            normalize-yml --cisagov-format "$file" > "$file".tmp; \
-            mv --force "$file".tmp "$file"; \
-          done
-      - name: Update the comprehensive cisagov YAML file
-        run: normalize-yml --cisagov-format data/cisagov_*.yml > data/cisagov.yml
-      - name: Generate a normalized YAML file from all source YAML files
-        run: normalize-yml data/cisagov.yml > normalized.yml
-      - name: Generate a Markdown table from the normalized YAML file
-        run: yml2md normalized.yml > table_data.md
-      - name: Generate a new software list from the updated data
-        run: md-from-template config/SOFTWARE-LIST.tpl.md table_data.md > SOFTWARE-LIST.md
+      - name: Update the YAML and Markdown files as appropriate
+        run: config/update_software_lists.sh
       - id: commit-for-testing
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: ${{ needs.setup.outputs.testing_branch }}
-          commit_message: Update the software list
+          commit_message: Normalize YAML files and update the software lists
           commit_user_name: ${{ needs.setup.outputs.git_user }}
           commit_user_email: ${{ needs.setup.outputs.git_email }}
           commit_author: ${{ needs.setup.outputs.git_author }}
-          file_pattern: SOFTWARE-LIST.md data/cisagov*.yml
-  merge_list_update:
+          file_pattern: data/cisagov*.yml software_lists/software_list_*.md
+  merge_updates:
     runs-on: ubuntu-latest
     needs:
       - setup
-      - generate_list_update
-    if: needs.generate_list_update.outputs.updated_list == 'true'
+      - generate_updates
+    if: needs.generate_updates.outputs.has_updates == 'true'
     steps:
       - uses: actions/checkout@v2
         with:
@@ -105,7 +93,7 @@ jobs:
         run: |
           git config user.name "${{ needs.setup.outputs.git_user }}"
           git config user.email "${{ needs.setup.outputs.git_email }}"
-      - uses: lewagon/wait-on-check-action@v1.0.0
+      - uses: lewagon/wait-on-check-action@v1.1.1
         with:
           check-name: lint
           ref: ${{ needs.setup.outputs.testing_branch }}
