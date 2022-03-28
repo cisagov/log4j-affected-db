@@ -37,7 +37,7 @@ repos:
         args:
           - --config=.mdl_config.yaml
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v2.5.1
+    rev: v2.6.1
     hooks:
       - id: prettier
   - repo: https://github.com/adrienverge/yamllint
@@ -75,13 +75,13 @@ repos:
 
   # Python hooks
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.2
+    rev: 1.7.4
     hooks:
       - id: bandit
         args:
           - --config=.bandit.yml
   - repo: https://github.com/psf/black
-    rev: 22.1.0
+    rev: 22.3.0
     hooks:
       - id: black
   - repo: https://gitlab.com/pycqa/flake8
@@ -95,11 +95,11 @@ repos:
     hooks:
       - id: isort
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v0.931
+    rev: v0.942
     hooks:
       - id: mypy
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.31.0
+    rev: v2.31.1
     hooks:
       - id: pyupgrade
 
@@ -119,7 +119,7 @@ repos:
 
   # Docker hooks
   - repo: https://github.com/IamTheFij/docker-pre-commit
-    rev: v2.0.1
+    rev: v2.1.0
     hooks:
       - id: docker-compose-check
 
