@@ -28,7 +28,7 @@ jobs:
       # so the Go installation must happen before that.
       - uses: actions/setup-go@v2
         with:
-          go-version: '1.16'
+          go-version: "1.16"
       - name: Store installed Go version
         id: go-version
         run: |
