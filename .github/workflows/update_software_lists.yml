@@ -43,14 +43,14 @@ jobs:
     # Don't run if we're seeing an update push
     if: github.actor != needs.setup.outputs.git_user
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           token: ${{ secrets.CISAGOVBOT_PAT }}
       - id: setup-python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: "3.10"
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         env:
           BASE_CACHE_KEY: "${{ github.job }}-${{ runner.os }}-\
             py${{ steps.setup-python.outputs.python-version }}-"
@@ -86,7 +86,7 @@ jobs:
       - generate_updates
     if: needs.generate_updates.outputs.has_updates == 'true'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           token: ${{ secrets.CISAGOVBOT_PAT }}
       - name: Configure git

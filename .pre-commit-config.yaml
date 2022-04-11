@@ -37,7 +37,7 @@ repos:
         args:
           - --config=.mdl_config.yaml
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v2.5.1
+    rev: v2.6.1
     hooks:
       - id: prettier
   - repo: https://github.com/adrienverge/yamllint
@@ -46,6 +46,13 @@ repos:
       - id: yamllint
         args:
           - --strict
+
+  # GitHub Actions hooks
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.14.2
+    hooks:
+      - id: check-github-actions
+      - id: check-github-workflows
 
   # Shell script hooks
   - repo: https://github.com/cisagov/pre-commit-shfmt
