@@ -11,6 +11,10 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: actions/cache
+      - dependency-name: actions/checkout
+      - dependency-name: actions/setup-python
 
   - package-ecosystem: "pip"
     directory: "/"
