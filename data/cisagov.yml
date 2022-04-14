@@ -95958,6 +95958,66 @@ software:
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
+  - vendor: Mitsubishi Electric Corporation
+    product: CC-Link IE TSN
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions:
+          - <=1.02C
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2021-030_en.pdf
+    notes: 'Product number: SW1DNN-GN610SRC-M'
+    references:
+      - ''
+    last_updated: '2022-03-31T00:00:00'
+  - vendor: Mitsubishi Electric Corporation
+    product: CC-Link IE TSN
+    cves:
+      cve-2021-4104:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-44228:
+        investigated: true
+        affected_versions: []
+        fixed_versions:
+          - 1.12F
+        unaffected_versions: []
+      cve-2021-45046:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+      cve-2021-45105:
+        investigated: false
+        affected_versions: []
+        fixed_versions: []
+        unaffected_versions: []
+    vendor_links:
+      - https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2021-030_en.pdf
+    notes: 'Product number: SW1DNN-GN610SRC-M'
+    references:
+      - ''
+    last_updated: '2022-03-31T00:00:00'
   - vendor: MMM Group
     product: Control software of all MMM series
     cves:

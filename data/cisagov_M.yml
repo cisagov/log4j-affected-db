@@ -2184,7 +2184,7 @@ software:
       cve-2021-44228:
         investigated: true
         affected_versions:
-          - '<=1.02C'
+          - <=1.02C
         fixed_versions: []
         unaffected_versions: []
       cve-2021-45046:
@@ -2215,7 +2215,7 @@ software:
         investigated: true
         affected_versions: []
         fixed_versions:
-          - '1.12F'
+          - 1.12F
         unaffected_versions: []
       cve-2021-45046:
         investigated: false
