@@ -12,6 +12,7 @@ updates:
     schedule:
       interval: "weekly"
     # ignore:
+    #   # Managed by cisagov/skeleton-generic
     #   - dependency-name: actions/cache
     #   - dependency-name: actions/checkout
     #   - dependency-name: actions/setup-python
