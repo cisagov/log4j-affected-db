@@ -93,7 +93,7 @@ jobs:
         run: |
           git config user.name "${{ needs.setup.outputs.git_user }}"
           git config user.email "${{ needs.setup.outputs.git_email }}"
-      - uses: lewagon/wait-on-check-action@v1.1.1
+      - uses: lewagon/wait-on-check-action@v1.1.2
         with:
           check-name: lint
           ref: ${{ needs.setup.outputs.testing_branch }}
