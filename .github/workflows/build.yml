@@ -33,7 +33,7 @@ jobs:
       - name: Lookup Go cache directory
         id: go-cache
         run: |
-          echo "::set-output name=dir::$(go env GOCACHE)"
+          echo "dir=$(go env GOCACHE)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
         env:
           BASE_CACHE_KEY: "${{ github.job }}-${{ runner.os }}-\
