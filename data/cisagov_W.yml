@@ -93,6 +93,7 @@ software:
       customer only and has not been reviewed by CISA.
     references:
       - ''
+    last_updated: '2022-02-03T16:14:09+00:00'
   - vendor: Wasp Barcode technologies
     product: All
     cves:

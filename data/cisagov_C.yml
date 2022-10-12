@@ -1079,6 +1079,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.caseware.com/us/case-knowledge/caseware-ensuring-customers-protected-log4j-vulnerabilities
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1108,6 +1109,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.caseware.com/us/case-knowledge/caseware-ensuring-customers-protected-log4j-vulnerabilities
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1137,6 +1139,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.caseware.com/us/case-knowledge/caseware-ensuring-customers-protected-log4j-vulnerabilities
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -1166,6 +1169,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.catalogicsoftware.com/blog/category/dpx/
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
