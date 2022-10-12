@@ -30493,6 +30493,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.caseware.com/us/case-knowledge/caseware-ensuring-customers-protected-log4j-vulnerabilities
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -30522,6 +30523,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.caseware.com/us/case-knowledge/caseware-ensuring-customers-protected-log4j-vulnerabilities
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -30551,6 +30553,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.caseware.com/us/case-knowledge/caseware-ensuring-customers-protected-log4j-vulnerabilities
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -30580,6 +30583,7 @@ software:
         unaffected_versions: []
     vendor_links:
       - https://www.catalogicsoftware.com/blog/category/dpx/
+    notes: ''
     references:
       - ''
     last_updated: '2022-01-12T07:18:50+00:00'
@@ -127629,6 +127633,7 @@ software:
       customer only and has not been reviewed by CISA.
     references:
       - ''
+    last_updated: '2022-02-03T16:14:09+00:00'
   - vendor: Wasp Barcode technologies
     product: All
     cves:
