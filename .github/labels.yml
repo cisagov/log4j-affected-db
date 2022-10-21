@@ -53,6 +53,9 @@
 - color: "#ef476c"
   description: This issue is a request for information or needs discussion
   name: question
+- color: "#00008b"
+  description: This issue or pull request adds or otherwise modifies test code
+  name: test
 - color: "#1d76db"
   description: This issue or pull request pulls in upstream updates
   name: upstream update
