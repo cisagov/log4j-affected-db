@@ -1,0 +1,29 @@
+---
+name: sync-labels
+
+on:
+  push:
+    paths:
+      - '.github/labels.yml'
+      - '.github/workflows/sync-labels.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  labeler:
+    permissions:
+      # actions/checkout needs this to fetch code
+      contents: read
+      # crazy-max/ghaction-github-labeler needs this to manage repository labels
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Sync repository labels
+        if: success()
+        uses: crazy-max/ghaction-github-labeler@v4
+        with:
+          # This is a hideous ternary equivalent so we only do a dry run unless
+          # this workflow is triggered by the develop branch.
+          dry-run: ${{ github.ref_name == 'develop' && 'false' || 'true' }}
