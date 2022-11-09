@@ -1,0 +1,67 @@
+---
+# Rather than breaking up descriptions into multiline strings we disable that
+# specific rule in yamllint for this file.
+# yamllint disable rule:line-length
+- color: "eb6420"
+  description: This issue or pull request is awaiting the outcome of another issue or pull request
+  name: blocked
+- color: "000000"
+  description: This issue or pull request involves changes to existing functionality
+  name: breaking change
+- color: "d73a4a"
+  description: This issue or pull request addresses broken functionality
+  name: bug
+- color: "07648d"
+  description: This issue will be advertised on code.gov's Open Tasks page (https://code.gov/open-tasks)
+  name: code.gov
+- color: "0366d6"
+  description: Pull requests that update a dependency file
+  name: dependencies
+- color: "5319e7"
+  description: This issue or pull request improves or adds to documentation
+  name: documentation
+- color: "cfd3d7"
+  description: This issue or pull request already exists or is covered in another issue or pull request
+  name: duplicate
+- color: "b005bc"
+  description: A high-level objective issue encompassing multiple issues instead of a specific unit of work
+  name: epic
+- color: "000000"
+  description: Pull requests that update GitHub Actions code
+  name: github-actions
+- color: "0e8a16"
+  description: This issue or pull request is well-defined and good for newcomers
+  name: good first issue
+- color: "ff7518"
+  description: Pull request that should count toward Hacktoberfest participation
+  name: hacktoberfest-accepted
+- color: "a2eeef"
+  description: This issue or pull request will add or improve functionality, maintainability, or ease of use
+  name: improvement
+- color: "fef2c0"
+  description: This issue or pull request is not applicable, incorrect, or obsolete
+  name: invalid
+- color: "ce099a"
+  description: This pull request is ready to merge during the next Lineage Kraken release
+  name: kraken 🐙
+- color: "a4fc5d"
+  description: This issue or pull request requires further information
+  name: need info
+- color: "fcdb45"
+  description: This pull request is awaiting an action or decision to move forward
+  name: on hold
+- color: "ef476c"
+  description: This issue is a request for information or needs discussion
+  name: question
+- color: "00008b"
+  description: This issue or pull request adds or otherwise modifies test code
+  name: test
+- color: "1d76db"
+  description: This issue or pull request pulls in upstream updates
+  name: upstream update
+- color: "d4c5f9"
+  description: This issue or pull request increments the version number
+  name: version bump
+- color: "ffffff"
+  description: This issue will not be incorporated
+  name: wontfix
